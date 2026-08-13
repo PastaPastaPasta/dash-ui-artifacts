@@ -177,15 +177,19 @@ Verification record: D01–D06 passed visually at commit `00855f3a72dd`; D07 and
 the final operation-level details behavior passed at commit `f9e750949310`.
 Computer Use exercised native macOS `dash-qt` builds against a disposable
 regtest wallet containing four registration modes and all three maintenance
-transaction types. Every retained PNG below was reopened at original resolution
-and inspected; no clipping, overlap, personal data, or non-regtest secrets were
-found.
+transaction types. The D03 detail pair was subsequently recaptured from one
+deterministic Update Registrar integration fixture under native Cocoa, using the
+generic renderer at `1147adfe25c7` and the operation-summary renderer at
+`f9e750949310`. Both images have the same transaction ID, date, type, net amount,
+and serialized size. Every retained PNG below was reopened at original
+resolution and inspected; no clipping, overlap, personal data, or non-regtest
+secrets were found.
 
 | ID | Observed outcome | Evidence |
 |---|---|---|
 | D01 | Wallet-funded regular and Evo transactions each render one `Masternode Registration` row with `(n/a)` address, the wallet's net fee, explicit details type, and accurate copied plain text. | `D01/02-history-table.png` (`7dfb2686…`), `D01/03-regular-registration-row.png` (`69064929…`), `D01/05-regular-registration-details.png` (`bb936793…`), `D01/06-evo-registration-row.png` (`099270ef…`), `D01/copied-text.txt` |
 | D02 | Exact wallet-owned and external-collateral registrations each classify once; neither decomposes into a misleading provider output row. | `D02/01-wallet-exact-registration.png` (`ec3e5c2d…`), `D02/02-external-registration.png` (`930ad4a1…`), `D02/03-exact-registration-details.png` (`af987526…`) |
-| D03 | Update Service, Update Registrar, and Revoke each render one `Masternode Update` row with net-fee semantics. Details summarize the whole operation and do not misrepresent incidental outputs as recipients or debits. | `D03/01-update-service-row.png` (`8ad4d220…`), `D03/02-update-registrar-row.png` (`14e28d52…`), `D03/03-revoke-row.png` (`e7b4aced…`), `D03/05-update-details.png` (`43ca129e…`), `D03/06-registrar-summary-final.png` (`d4d1716e…`) |
+| D03 | Update Service, Update Registrar, and Revoke each render one `Masternode Update` row with net-fee semantics. The same deterministic registrar transaction shows the problem and fix directly: before, its incidental external output is presented as `To` with a per-output debit and fee; after, those generic payment fields are absent while the operation type, net wallet effect, transaction ID, and size remain unchanged. | `D03/01-update-service-row.png` (`8ad4d220…`), `D03/02-update-registrar-row.png` (`14e28d52…`), `D03/03-revoke-row.png` (`e7b4aced…`), `D03/05-update-details.png` (`3d6981b8…`), `D03/06-registrar-summary-final.png` (`243a2a72…`) |
 | D04 | All seven provider records appear in the default common view, while `Masternode` selects exactly four registrations and three updates. | `D01/02-history-table.png`, `D04/04-masternode-only.png` (`15a96bfa…`) |
 | D05 | The same seven records and classifications survive full GUI termination and wallet-model reconstruction. | `D05/01-before-restart.png` (`8831948b…`), `D05/02-after-restart.png` (`d16d4c8a…`) |
 | D06 | Disabling CoinJoin changes the current type to `Most Common` and removes all five CoinJoin choices by stored value; `Masternode` and later filters remain correctly ordered and selectable. | `D06/01-coinjoin-disabled-filter.png` (`5dd4fc04…`); Computer Use accessibility tree recorded the visible choices `All`, `Most Common`, `Received with`, `Sent to`, `To yourself`, `Mined`, `Platform Transfer`, `Data Transaction`, `Dust Receive`, `Other`, `Masternode`. |
