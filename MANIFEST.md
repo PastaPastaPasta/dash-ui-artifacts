@@ -54,7 +54,7 @@ UI surface: none.
 | P07 | Update Registrar while preserving omitted fields. | Automated |
 | P08 | Revoke with each reason value 0–3. | Automated |
 | P09 | Wallet-locked, invalid collateral/address/key, missing MN, wrong MN type, insufficient funds, incomplete signing, consensus rejection, and broadcast failure return typed errors. | Automated |
-| P10 | RPC wrappers preserve public result shapes and error-code behavior while sharing the same implementation. | Automated |
+| P10 | RPC wrappers preserve public result shapes and error-code behavior while sharing the same implementation; incompletely signed inputs are intentionally rejected as a wallet error instead of returning or broadcasting a partial transaction. | Automated |
 | P11 | No-wallet builds compile and the API never exposes `UniValue`, `JSONRPCRequest`, method strings, or wallet URI routing. | Build/static audit |
 | P12 | Lock ordering never holds wallet and validation locks together; synchronous calls are safe to run from a worker. | Review/TSAN-oriented test |
 
