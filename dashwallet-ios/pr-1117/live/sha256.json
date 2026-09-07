@@ -1,0 +1,10 @@
+{
+  "before-contact-zero-core.png": "3c29eada82a9c87bfcab55dbe9bc9bee5a034c033886baf37d0f8204d37fc9e9",
+  "after-contact-sources.png": "b909aa8ed4ecefdf1d314d16ea719076ff1653cba16c543af8070250bad9b43f",
+  "transparent-sent.png": "9e27fa71c3f8c3012d3d2191caa98d61c17729272cb69fbd5b2d943c92f75c7c",
+  "transparent-received.png": "fdccbf122681d419bae0c51ac86d464ec67c998427fcc371251448bcafe0aef2",
+  "platform-confirm.png": "831616941a4e6a9d1af01aadb31430b6b59440df451e78d0cbffaaded99d4f18",
+  "platform-submitted.png": "faa63c407d740b094250eb0fe60f70e9fd56b42e5d09ae4f2b2ad1d7b822da52",
+  "shielded-submitted.png": "cbd25491e2f85dfdfd4e0524422335cf0fa33065bbae85e4abf07dc69d3ed4a6",
+  "build-provenance.json": "ec2ca9399cd34326491b19e12a29a4e563f927d961e0a7a161b3c176225a12fa"
+}

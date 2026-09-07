@@ -1,55 +1,35 @@
-# DashPay payments from any address balance — PR 1117
+# DashPay contact payments — real testnet evidence
 
-Source PR: https://github.com/dashpay/dashwallet-ios/pull/1117
+This replaces the earlier synthetic Alex screenshots, which did not validate a live contact payment. Images outside `live/` are retired and must not be used as validation evidence.
 
-## Exact revisions
+Base: `9e5c39a3480d4a9f0d706257c86ed72a2d935251`  
+Head: `fc66451c570d2259aab27cfd7dcb8577972ac7ac`  
+Platform SDK: `0298af619167992fa23810d064dc333be72d80bf`
 
-| Component | Revision |
-|---|---|
-| Before: upstream develop without this feature | `9e5c39a3480d4a9f0d706257c86ed72a2d935251` |
-| After: full iOS PR head | `fc66451c570d2259aab27cfd7dcb8577972ac7ac` |
-| SDK used by both builds | `0298af619167992fa23810d064dc333be72d80bf` — [platform#4614](https://github.com/dashpay/platform/pull/4614) |
+Both clean app builds ran on iPhone 16 Pro / iOS 26.5 simulators. No capture patches, synthetic balances, or mock contacts. Original PNGs are 1206×2622. Build hashes are in [provenance](live/build-provenance.json); artifact hashes are in [sha256.json](live/sha256.json).
 
-Each iOS revision was built independently with the same final SDK release simulator FFI framework. The SDK commit was verified in both linked binaries. Clean source builds also passed install and launch-liveness checks separately from the instrumented screenshot builds. Capture-only patches are included here and excluded from the product commits.
+Real registered sender: **Pasta-dashpay-send-0907** (`B46PA5VXKaxiT7yJycyuUi2PbbuqDkYNzixhWMeTyVDp`). Recipient: **Pasta-dashpay-recv-0907** (`Ayq14RP1ABgem2ArDmeoufFpr8Q2UWYSZoVWHrthwQ2y`). Contact request and acceptance completed through the app.
 
-## Fixture and scope
+## Before and after
 
-Both simulators were cloned from the same shutdown PR1100 wallet fixture (`2BA73F81-DD2A-4971-BA50-6D2C50FFCA4A`). They are iPhone 16 Pro, iOS 26.5, dark appearance, en-US; status bar 09:41 and battery 100%, 1206×2622 screenshots (402×874 points at 3× scale).
-
-- Before simulator: `E0061D99-11A7-4E9C-9BD7-7F92E5D03690`.
-- After simulator: `69FE0C97-6BB5-4DA4-8005-F54A804F0BCA`.
-- Bundle: `org.dashfoundation.dash`, scheme `dashpay`, architecture arm64.
-- Synthetic contact: Alex (`alex.dash`), contact identity 32 bytes of `0x22`, established relationship, no avatar or alias.
-- Transparent balance: 0 DASH from the empty Core wallet. Display-only Platform balance: 0.00444 DASH (444,000,000 credits). Display-only Shielded balance: 57.03379 DASH (5,703,379,000,000 credits).
-- Capture patches present the production contact-payment views and reapply the synthetic balance publishers every 0.5 seconds so background synchronization cannot reset display data. They do not fabricate wallet notes, live identity state, SDK success, or contact payment history.
-- Entered amount: 0.1 DASH in the old Transparent sheet and the Shielded amount/confirmation views. Fiat display remains the respective production view's behavior, rather than fixture-controlled rates; it is not part of the comparison claim.
-
-**These are UI screenshots with synthetic contact/balance data, not evidence of a broadcast or recipient delivery.** No Confirm payment action was submitted. Accessible test wallet fixtures had no established DashPay contacts. Success/unknown-result/history states are covered by code review and journal tests, not live screenshots. The journal tracks device-local withdrawal submission and has no Core payout txid or final receipt reconciliation.
-
-## Comparison
+The same real sender wallet/contact state was cloned before the comparison. Transparent balance was zero, Platform 0.40039441 DASH, Shielded 0.55724057 DASH. The base clone and head use that state; subsequent live payments below occurred later.
 
 | Before — exact base | After — full PR head |
 |---|---|
-| ![Before: only Transparent funds available](comparison/before/transparent.png) | ![After: Transparent, Platform and Shielded choices](comparison/after/sources.png) |
+| ![Base contact payment disabled with zero available Core funds](live/before-contact-zero-core.png) | ![Head source picker offers funded Platform and Shielded balances while Transparent is zero](live/after-contact-sources.png) |
 
-With the same zero Transparent balance, the old contact payment sheet disables Pay; the new contact flow offers all three sources and preserves Alex as recipient.
+## Real payments
 
-| Shielded amount entry | Shielded confirmation |
+- Transparent: 0.01 DASH sent and independently received by the contact. Core tx `e1774419d079544d44d0f0a175de40637ffd15de0e06458d6ef0c45e2299c3a7`. Recipient UI resolves the sender username.
+- Platform: 0.02 DASH withdrawal submitted with zero Transparent funds. Payout `c2a22f3948fe70b80ecda3e5a2b68100d053fa2230dae05c4119a6cbe6d82b94` pays DIP-15 index1 address `yXxvQ8eQ4CvmpdaDydwfULNL8vtU5S1DFb`.
+- Shielded: user submitted 0.1 DASH to the same contact. Payout `8acbd5f727b094615072c2244d9743b8c6a2159dc24412375e950e63d8dcc57f` pays DIP-15 index2 address `yf7cYU7z5sTmtSLiEzqiQDXkH8EQEPsNG9`.
+
+**Limitation:** Both withdrawal payouts reached Core, but the recipient wallet did not record them. Its pinned transaction router excludes DashPay accounts from AssetUnlock discovery. A prerequisite fix is in progress. Submission screenshots do not prove recipient receipt; withdrawal end-to-end validation remains incomplete.
+
+| Transparent sent | Transparent received |
 |---|---|
-| ![0.1 DASH from Shielded to Alex](comparison/after/shielded-amount.png) | ![Confirm withdrawal to Alex and processing delay](comparison/after/shielded-confirm.png) |
+| ![](live/transparent-sent.png) | ![](live/transparent-received.png) |
 
-The real navigation flow retains Alex, displays the network fee estimate, and explains the withdrawal processing delay. No payout address is reserved while browsing these screens.
-
-Transparent compatibility: selecting Transparent still presents the existing amount sheet, including Available: 0 DASH and disabled Pay.
-
-![After: existing Transparent sheet](comparison/after/transparent.png)
-
-## Validation and provenance
-
-All final images were opened and inspected at original resolution. Full-resolution files are linked in the comparison above. `SHA256SUMS` identifies the published artifacts. `evidence-plan.md` describes the capture matrix; `before-fixture.patch` and `after-fixture.patch` describe all capture-only source changes; `review.md` records review limits; `rebase-range-diff.txt` verifies preservation across the concurrent upstream clipboard fix.
-
-- Eight Foundation journal XCTest tests pass. Full app test target has pre-existing breakage documented in repository CLAUDE.md.
-- SDK prerequisite: 61 DashPay payment tests, clippy, formatting, release simulator FFI, and Swift example app build passed.
-- Accessibility audit: no new blocking findings.
-- Rebase review: all four signed commits preserved; only the clipboard guard was adapted to upstream lifecycle gating.
-- Capture scaffolding removed and the clean app binaries restored after screenshots. Original user simulators were not erased or modified.
+| Platform confirmation | Platform submission | Shielded submission (user-operated) |
+|---|---|---|
+| ![](live/platform-confirm.png) | ![](live/platform-submitted.png) | ![](live/shielded-submitted.png) |

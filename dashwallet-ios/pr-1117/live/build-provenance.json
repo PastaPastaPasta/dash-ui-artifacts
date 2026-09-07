@@ -1,0 +1,26 @@
+[
+  {
+    "label": "before",
+    "revision": "9e5c39a3480d4a9f0d706257c86ed72a2d935251",
+    "gitStatus": "",
+    "bundle": "org.dashfoundation.dash",
+    "executable": "dashpay",
+    "hashes": {
+      "dashpay": "a967ab04f6542b9cfd45abeb37661db2ae6abc41aa33a2c979fe6aa971054720",
+      "dashpay.debug.dylib": "57dcaf2fcaeb321ad9339dfbd3c783a513db589e353ec79a3722d775d542e445"
+    },
+    "captureFixturePresent": false
+  },
+  {
+    "label": "after",
+    "revision": "fc66451c570d2259aab27cfd7dcb8577972ac7ac",
+    "gitStatus": "",
+    "bundle": "org.dashfoundation.dash",
+    "executable": "dashpay",
+    "hashes": {
+      "dashpay": "774af141ddaa32214d7c8ee2210408e066afc08f495ae1951ce2de83caa98192",
+      "dashpay.debug.dylib": "dc91e3e4ed8d5ebfe5b8f6383cb1f6dd313f164ec11cc0b9089468105a33d210"
+    },
+    "captureFixturePresent": false
+  }
+]
