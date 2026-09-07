@@ -1,0 +1,22 @@
+1:  b7adef16e = 1:  44941cb2b feat(dashpay): pay contacts from Platform and Shielded balances
+2:  8de037212 = 2:  27e94cd30 fix(dashpay): use the coordinator wallet readiness error
+3:  0d7f42157 = 3:  045f45db4 fix(dashpay): reject payments while wallet networks are switching
+4:  ccd00d379 ! 4:  c37b82ef0 fix(dashpay): avoid clipboard reads for contact payments
+    @@ Commit message
+     
+      ## DashWallet/Sources/UI/Payments/Pay/SendViewModel.swift ##
+     @@ DashWallet/Sources/UI/Payments/Pay/SendViewModel.swift: final class SendViewModel: ObservableObject {
+    -     }
+    - 
+    +     /// Refreshes when a host becomes visible or the clipboard changes. Both
+    +     /// the form registration and the host's permission must allow the read.
+          func refreshClipboardSuggestion() {
+    -+        guard contactRecipient == nil else { return }
+    -         guard let raw = UIPasteboard.general.string else {
+    -             clipboardSuggestion = nil
+    -             return
+    +-        guard !clipboardMonitors.isEmpty, isClipboardReadAllowed() else {
+    ++        guard contactRecipient == nil, !clipboardMonitors.isEmpty, isClipboardReadAllowed() else {
+    +             // Not allowed to read is also not allowed to keep offering what an
+    +             // earlier read found: the pasteboard may have changed since, and
+    +             // the chip must not outlive the screen that produced it.

@@ -1,0 +1,16 @@
+{
+  "before": {
+    "ios_revision": "9e5c39a3480d4a9f0d706257c86ed72a2d935251",
+    "sdk_revision": "0298af619167992fa23810d064dc333be72d80bf",
+    "debug_dylib_sha256": "a2ab2f2c0e92fd90691ec476f5d2bb60cc7e5d26f03598310c41c00268d4d976",
+    "capture_patch_sha256": "e9cdab88292f245c727e4583ecf8369bfa31fcb8ad85c7e921c99b8142869bae",
+    "build_succeeded": true
+  },
+  "after": {
+    "ios_revision": "c37b82ef00591d0ee68d65779d845af8233ee153",
+    "sdk_revision": "0298af619167992fa23810d064dc333be72d80bf",
+    "debug_dylib_sha256": "03748b4801898d9821d82a71a63ece5507a30ac262ed7e9aba6c5cc43a548240",
+    "capture_patch_sha256": "db2b39495f87f09e1e3f3ee7c804141e502928d65e5a0c07d8a6b258c1ec7f81",
+    "build_succeeded": true
+  }
+}

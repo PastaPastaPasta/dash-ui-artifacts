@@ -1,0 +1,65 @@
+diff --git a/DashWallet/AppDelegate.m b/DashWallet/AppDelegate.m
+index 151e20cd0..9101fe71a 100644
+--- a/DashWallet/AppDelegate.m
++++ b/DashWallet/AppDelegate.m
+@@ -130,6 +130,9 @@ NS_ASSUME_NONNULL_BEGIN
+     
+     self.window = [[DWWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+     self.window.backgroundColor = [UIColor blackColor];
++    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, 5 * NSEC_PER_SEC), dispatch_get_main_queue(), ^{
++        [NSClassFromString(@"DashPayCaptureFixture") performSelector:@selector(show)];
++    });
+     
+     [[DWVersionManager sharedInstance] migrateUserDefaults];
+     [[DWAuthenticationService shared] enableAuthenticationIfNeeded];
+diff --git a/DashWallet/Sources/Infrastructure/SwiftDashSDK/PlatformAddressSyncCoordinator.swift b/DashWallet/Sources/Infrastructure/SwiftDashSDK/PlatformAddressSyncCoordinator.swift
+index b6ddb8d50..da23df30c 100644
+--- a/DashWallet/Sources/Infrastructure/SwiftDashSDK/PlatformAddressSyncCoordinator.swift
++++ b/DashWallet/Sources/Infrastructure/SwiftDashSDK/PlatformAddressSyncCoordinator.swift
+@@ -1852,3 +1852,11 @@ extension Array where Element == DerivedPlatformAddress {
+         return self.min(by: { ($0.accountIndex, $0.addressIndex) < ($1.accountIndex, $1.addressIndex) })
+     }
+ }
++
++// Capture-only balances, identical for the exact base/head screenshots.
++extension PlatformAddressSyncCoordinator {
++    static func seedDashPayCaptureBalances() {
++        shared.platformBalance = 444_000_000
++        shared.shieldedBalance = 5_703_379_000_000
++    }
++}
+diff --git a/DashWallet/Sources/UI/DashPay/Contacts/SwiftUI/ContactProfileSheet.swift b/DashWallet/Sources/UI/DashPay/Contacts/SwiftUI/ContactProfileSheet.swift
+index 378e2b658..103ea87a4 100644
+--- a/DashWallet/Sources/UI/DashPay/Contacts/SwiftUI/ContactProfileSheet.swift
++++ b/DashWallet/Sources/UI/DashPay/Contacts/SwiftUI/ContactProfileSheet.swift
+@@ -956,3 +956,30 @@ struct CoreContactPaymentSheet: View {
+         }
+     }
+ }
++
++// Capture-only synthetic contact fixture; excluded from product commits.
++@MainActor
++@objc(DashPayCaptureFixture)
++final class DashPayCaptureFixture: NSObject {
++    @objc static func show() {
++        PlatformAddressSyncCoordinator.seedDashPayCaptureBalances()
++        Timer.scheduledTimer(withTimeInterval: 0.5, repeats: true) { _ in
++            Task { @MainActor in PlatformAddressSyncCoordinator.seedDashPayCaptureBalances() }
++        }
++        let contact = ContactItem(
++            contactIdentityId: Data(repeating: 0x22, count: 32),
++            relationship: .established, username: "alex.dash",
++            profileDisplayName: "Alex", alias: nil, note: nil,
++            isHidden: false, paymentChannelBroken: false,
++            avatarURL: nil, publicMessage: nil, createdAt: Date(timeIntervalSince1970: 1788800000),
++            incomingCreatedAt: nil, outgoingCreatedAt: nil)
++        guard let window = UIApplication.shared.connectedScenes
++            .compactMap({ $0 as? UIWindowScene }).flatMap({ $0.windows }).first else { return }
++        let root = UIHostingController(rootView: Color.dash.primaryBackground)
++        window.rootViewController = root
++        window.makeKeyAndVisible()
++        let sheet = UIHostingController(rootView: PayContactSheet(contact: contact))
++        sheet.modalPresentationStyle = .pageSheet
++        root.present(sheet, animated: false)
++    }
++}
