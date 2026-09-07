@@ -1,0 +1,55 @@
+{
+  "ios_commit": "fc66451c570d2259aab27cfd7dcb8577972ac7ac",
+  "sdk_commit": "2c17d85b855c667ff8a738d9d4b937db0740716e",
+  "rust_commit": "08dd951adc80fbcc13e6879735f6fb86f45f895b",
+  "bundle": "/tmp/dashpay-contact-evidence/after-receipts-2c17d85.app",
+  "bundle_id": "org.dashfoundation.dash",
+  "code_signature_verified": true,
+  "required_resource_count": 6,
+  "capture_fixture_present": false,
+  "hashes": {
+    "dashpay": "5185a25e841e814792f3b2629cb7f2918cc0c30ab9f31c0d4f4977c6e53e9dcd",
+    "dashpay.debug.dylib": "6b40607c4503cb2b4a93eec13ed419e53262692dac982d7772fb01075365b387"
+  },
+  "build_log": "/tmp/dashpay-unlock-ios-build.log",
+  "runtime_validation": "Installed preserving real recipient wallet; normal relaunch backfill recovered both payouts. Exact payment rows and confirmed unspent/unlocked TXOs verified; UI shows sender attribution and 1.09999737 DASH transparent balance.",
+  "verified_at": "2026-09-07T23:26:33.640329+00:00",
+  "receipts": [
+    {
+      "txid": "c2a22f3948fe70b80ecda3e5a2b68100d053fa2230dae05c4119a6cbe6d82b94",
+      "payment": {
+        "ZAMOUNTDUFFS": 2000000,
+        "ZDIRECTIONRAW": 1,
+        "ZSTATUSRAW": 1
+      },
+      "utxo": {
+        "ZAMOUNT": 2000000,
+        "ZISSPENT": 0,
+        "ZISLOCKED": 0,
+        "ZISCONFIRMED": 1,
+        "ZADDRESS": "yXxvQ8eQ4CvmpdaDydwfULNL8vtU5S1DFb",
+        "ZBLOCKHEIGHT": 1549409,
+        "ZTRANSACTIONTYPE": "AssetUnlock"
+      }
+    },
+    {
+      "txid": "8acbd5f727b094615072c2244d9743b8c6a2159dc24412375e950e63d8dcc57f",
+      "payment": {
+        "ZAMOUNTDUFFS": 10000000,
+        "ZDIRECTIONRAW": 1,
+        "ZSTATUSRAW": 1
+      },
+      "utxo": {
+        "ZAMOUNT": 10000000,
+        "ZISSPENT": 0,
+        "ZISLOCKED": 0,
+        "ZISCONFIRMED": 1,
+        "ZADDRESS": "yf7cYU7z5sTmtSLiEzqiQDXkH8EQEPsNG9",
+        "ZBLOCKHEIGHT": 1549409,
+        "ZTRANSACTIONTYPE": "AssetUnlock"
+      }
+    }
+  ],
+  "recipient_udid": "C8B5A5F0-9F9D-4F34-9E72-708AB8CACA61",
+  "sender_untouched": true
+}

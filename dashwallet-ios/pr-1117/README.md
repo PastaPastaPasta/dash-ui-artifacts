@@ -24,7 +24,15 @@ The same real sender wallet/contact state was cloned before the comparison. Tran
 - Platform: 0.02 DASH withdrawal submitted with zero Transparent funds. Payout `c2a22f3948fe70b80ecda3e5a2b68100d053fa2230dae05c4119a6cbe6d82b94` pays DIP-15 index1 address `yXxvQ8eQ4CvmpdaDydwfULNL8vtU5S1DFb`.
 - Shielded: user submitted 0.1 DASH to the same contact. Payout `8acbd5f727b094615072c2244d9743b8c6a2159dc24412375e950e63d8dcc57f` pays DIP-15 index2 address `yf7cYU7z5sTmtSLiEzqiQDXkH8EQEPsNG9`.
 
-**Limitation:** Both withdrawal payouts reached Core, but the recipient wallet did not record them. Its pinned transaction router excludes DashPay accounts from AssetUnlock discovery. A prerequisite fix is in progress. Submission screenshots do not prove recipient receipt; withdrawal end-to-end validation remains incomplete.
+**Recipient verification completed:** After installing iOS `fc66451c570d2259aab27cfd7dcb8577972ac7ac` with SDK `2c17d85b855c667ff8a738d9d4b937db0740716e` and Rust `08dd951adc80fbcc13e6879735f6fb86f45f895b`, normal relaunch backfill recovered both withdrawals. Each has one persisted DashPay receipt and a confirmed, unspent, unlocked output for the exact amount. Recipient UI attributes both to the sender; transparent balance is 1.09999737 DASH. Wallet data was preserved; sender was untouched. No database edits or mock data.
+
+The original before/after and submission captures above use SDK0298. The following receipt captures use SDK2c17 and validate the prerequisite routing fix, not a new base/head comparison. [Receipt provenance and stored transaction verification](live/receipt-fix-build-provenance.json); [receipt hashes](live/receipt-sha256.json).
+
+| Platform payment received | Shielded payment received |
+|---|---|
+| ![0.02 DASH received from the sender at the reserved address](live/platform-received.png) | ![0.1 DASH received from the sender at the reserved address](live/shielded-received.png) |
+
+[Recipient history showing all three real payments](live/withdrawals-received.png).
 
 | Transparent sent | Transparent received |
 |---|---|
