@@ -7,7 +7,7 @@ Source PR: https://github.com/dashpay/dashwallet-ios/pull/1117
 | Component | Revision |
 |---|---|
 | Before: upstream develop without this feature | `9e5c39a3480d4a9f0d706257c86ed72a2d935251` |
-| After: full iOS PR head | `c37b82ef00591d0ee68d65779d845af8233ee153` |
+| After: full iOS PR head | `fc66451c570d2259aab27cfd7dcb8577972ac7ac` |
 | SDK used by both builds | `0298af619167992fa23810d064dc333be72d80bf` — [platform#4614](https://github.com/dashpay/platform/pull/4614) |
 
 Each iOS revision was built independently with the same final SDK release simulator FFI framework. The SDK commit was verified in both linked binaries. Clean source builds also passed install and launch-liveness checks separately from the instrumented screenshot builds. Capture-only patches are included here and excluded from the product commits.

@@ -1,6 +1,6 @@
 # Review of DashPay any-balance payments
 
-Scope: iOS 9e5c39a3480d4a9f0d706257c86ed72a2d935251..c37b82ef00591d0ee68d65779d845af8233ee153 and SDK prerequisite 0298af619167992fa23810d064dc333be72d80bf.
+Scope: iOS 9e5c39a3480d4a9f0d706257c86ed72a2d935251..fc66451c570d2259aab27cfd7dcb8577972ac7ac and SDK prerequisite 0298af619167992fa23810d064dc333be72d80bf.
 
 ## Findings
 
@@ -28,3 +28,5 @@ Candidates considered: duplicating source/amount/fee UI, duplicated submission h
 - SDK: 61 payment tests, clippy, formatting, release simulator FFI and Swift example build passed.
 - Accessibility: no new blocking findings. Git diff checks and signed commits verified.
 - Rebase range-diff: three identical patches; the fourth preserves the no-clipboard contact guard while retaining upstream clipboard lifecycle gating.
+
+Follow-up review: CodeRabbit identified that the sendToContact recipient argument remained optional. Verified the only call site already supplies it. The parameter is now required, with unconditional pre/post-auth validation. Local arm64 dashpay build and a11y audit pass. No UI behavior change.
