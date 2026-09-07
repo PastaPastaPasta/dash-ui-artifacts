@@ -14,7 +14,7 @@ Each iOS revision was built independently with the same final SDK release simula
 
 ## Fixture and scope
 
-Both simulators were cloned from the same shutdown PR1100 wallet fixture (`2BA73F81-DD2A-4971-BA50-6D2C50FFCA4A`). They are iPhone 16 Pro, iOS 26.5, dark appearance, en-US; status bar 09:41 and battery 100%, 942×2048 screenshots.
+Both simulators were cloned from the same shutdown PR1100 wallet fixture (`2BA73F81-DD2A-4971-BA50-6D2C50FFCA4A`). They are iPhone 16 Pro, iOS 26.5, dark appearance, en-US; status bar 09:41 and battery 100%, 1206×2622 screenshots (402×874 points at 3× scale).
 
 - Before simulator: `E0061D99-11A7-4E9C-9BD7-7F92E5D03690`.
 - After simulator: `69FE0C97-6BB5-4DA4-8005-F54A804F0BCA`.
