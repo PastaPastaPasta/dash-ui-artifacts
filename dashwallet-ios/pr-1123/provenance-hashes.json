@@ -1,0 +1,641 @@
+{
+  "app_executable": {
+    "path": "dashpay.app/dashpay",
+    "sha256": "fdebb0ddff96ce9ca0c71aa4f0bd44119092b107b19be2fde4c68ab190261d87"
+  },
+  "dashuikit_manifest": {
+    "path": "DashUIKit/Package.swift",
+    "sha256": "73c61d221abe19102cb6e290af61c85bc207a07ded73020561517cc38b0e2e1b"
+  },
+  "sdk_sources": {
+    "root": "platform/packages/swift-sdk/Sources",
+    "files": [
+      {
+        "path": "SwiftDashSDK/Address/AddressSyncService.swift",
+        "sha256": "8597444b699d9ef4ccf79ad0fbcf0a36715d3612c0f5b6b5a409a0874a72d84d"
+      },
+      {
+        "path": "SwiftDashSDK/Address/AddressSyncTypes.swift",
+        "sha256": "8a26a521f69950be33ca3ad2a1dad01cf3fb816f2e5b7ee0033e2fe9d258f849"
+      },
+      {
+        "path": "SwiftDashSDK/Address/Addresses.swift",
+        "sha256": "fda656e46b0362025cf189627fea3f1434fc406de2f2fc7741111fa07b8dcffe"
+      },
+      {
+        "path": "SwiftDashSDK/Address/PlatformAddressInfo.swift",
+        "sha256": "5ecb0197b56b6e72b1a4e328eb39286df1360c074dfb3522de0bd9d3ffa6f04d"
+      },
+      {
+        "path": "SwiftDashSDK/ConcurrencyCompat.swift",
+        "sha256": "a970eabd48fff446a928ec214be02cb7c9a15b4c54aed48c73407f1bcd90b1fc"
+      },
+      {
+        "path": "SwiftDashSDK/Config/TestnetNodes.swift",
+        "sha256": "fd528227ecece291996ee2b8c96e9b960338f6e17d901e7f17ddc71fde9d0b3d"
+      },
+      {
+        "path": "SwiftDashSDK/Core/Services/SDKLogger.swift",
+        "sha256": "4425664c52dc5ae6d00c7b620b1b0da36b1e7ccdf82930499bf841f758902d31"
+      },
+      {
+        "path": "SwiftDashSDK/Core/Utils/DataContractParser.swift",
+        "sha256": "6a62ae975036b61ea8a6826412b42d4596bd27258fbb3a54dbcab1eff88ac05c"
+      },
+      {
+        "path": "SwiftDashSDK/Core/Wallet/WalletStorage.swift",
+        "sha256": "436ddc0174732e3127e2f2d70d0cebcc0804481a8d5eb1bb5dff849ef92633c3"
+      },
+      {
+        "path": "SwiftDashSDK/DPP/DPPDataContract.swift",
+        "sha256": "9b14df43f7da5f24c9b4b2024277ed47bb26832a48023eab66127dc73050b5ca"
+      },
+      {
+        "path": "SwiftDashSDK/DPP/DPPDocument.swift",
+        "sha256": "4bda8f686386e38a9c90d9fb54a5942d445f935462cbfd30d41757d007ee028e"
+      },
+      {
+        "path": "SwiftDashSDK/DPP/DPPIdentity.swift",
+        "sha256": "0917f5fc4d31eb89b5a64601d35a25b9b16edbf37470f95235acd568661407d8"
+      },
+      {
+        "path": "SwiftDashSDK/DPP/DPPStateTransition.swift",
+        "sha256": "734cacf1328336335b18df6fa58bdc19469b6ca4df9b2eebe2eeed60981d314d"
+      },
+      {
+        "path": "SwiftDashSDK/DPP/DPPTypes.swift",
+        "sha256": "a4628e0d0b4833393463a4f4f31fa94fb05ef70355bcfd21f696728590b79786"
+      },
+      {
+        "path": "SwiftDashSDK/DashNetwork.swift",
+        "sha256": "6d33a6317ef23288d4cc4f0904bd5d798b9bda8d57fac7099942120dbc29bc3e"
+      },
+      {
+        "path": "SwiftDashSDK/FFI/EvonodeStatusQuery.swift",
+        "sha256": "56a216ae75dc2543cb1d77dabab0e1082aab3e4c5a9da6c1b130520d2076f744"
+      },
+      {
+        "path": "SwiftDashSDK/FFI/KeychainSigner.swift",
+        "sha256": "3ad759262f46e3e008298246d1ec01d9f11619a78748b313bad06e1a69a779f5"
+      },
+      {
+        "path": "SwiftDashSDK/FFI/MnemonicResolverAndPersister.swift",
+        "sha256": "e41596e6454cc11a850a0c969876d7a8d1b520739b10ce6a574e4ef6eabc67a6"
+      },
+      {
+        "path": "SwiftDashSDK/FFI/PlatformQueryExtensions.swift",
+        "sha256": "46801141b73cf94aa1d934941038efde5e195037bff01b8d0ff02a899eb2c2cf"
+      },
+      {
+        "path": "SwiftDashSDK/FFI/Signer.swift",
+        "sha256": "79899113c00d366eac500156e006494c0935c963952c86d2326bd82a75a66f79"
+      },
+      {
+        "path": "SwiftDashSDK/FFI/StateTransitionExtensions.swift",
+        "sha256": "e21944fe29d07141c68c52ab71dc7c17ab5d9259c80d2cd5038cb5ed1eee1946"
+      },
+      {
+        "path": "SwiftDashSDK/FFI/TokenBalanceRefresh.swift",
+        "sha256": "fd58f211b11a24e51886c85b763da669a80542eb95876af508845dd2d984aabe"
+      },
+      {
+        "path": "SwiftDashSDK/Helpers/TestKeyGenerator.swift",
+        "sha256": "dbddee9a60d780197cc9d0b18c6e2f7a727a700e699c4bb554bd7f343e835bae"
+      },
+      {
+        "path": "SwiftDashSDK/Helpers/WIFParser.swift",
+        "sha256": "05f523a504d4cc9d6d7fac1efec6ffbc7e0d9b256ea193f617ebe5507a337af3"
+      },
+      {
+        "path": "SwiftDashSDK/KeyWallet/Account.swift",
+        "sha256": "d214786b136fb0b8f86c366b34f81e20e204dc5b43f5b030e05ba6ebde368b17"
+      },
+      {
+        "path": "SwiftDashSDK/KeyWallet/AccountCollection.swift",
+        "sha256": "8d00b4aef94c03dd46b5d18d248272cb369dd6235e4cb1d91934fa7557386592"
+      },
+      {
+        "path": "SwiftDashSDK/KeyWallet/Address.swift",
+        "sha256": "325cece45cafc395033f75bd1de5811f391795e3a10d539c1714c6d90c739110"
+      },
+      {
+        "path": "SwiftDashSDK/KeyWallet/AddressPool.swift",
+        "sha256": "66b013e49d553bf7c39dba76ac4bafad7d277c134bd4f004665f44917f55e527"
+      },
+      {
+        "path": "SwiftDashSDK/KeyWallet/BLSAccount.swift",
+        "sha256": "0110791483b6ba78ad8e39c5102bd7e9dd58ce4447d1a74cda09bfd6a22c62de"
+      },
+      {
+        "path": "SwiftDashSDK/KeyWallet/EdDSAAccount.swift",
+        "sha256": "ed39639dcf51d4fa9112dde4fe15c42bc74ceed4678b5e582004f0ae8243ec10"
+      },
+      {
+        "path": "SwiftDashSDK/KeyWallet/KeyDerivation.swift",
+        "sha256": "265ae9c9dac54e47566f145b16c70d8a93a1803f668e8048a3d4b2b5338f994b"
+      },
+      {
+        "path": "SwiftDashSDK/KeyWallet/KeyManager.swift",
+        "sha256": "a69722ce4266658a45b013ca49d7c54edc4903014b95efcd3dad28721f4b6a9c"
+      },
+      {
+        "path": "SwiftDashSDK/KeyWallet/KeyWallet.swift",
+        "sha256": "cb9a4533efae9f071f2603fe17d3994fc4f0393595ddf77a72dae5c4a3182d44"
+      },
+      {
+        "path": "SwiftDashSDK/KeyWallet/KeyWalletTypes.swift",
+        "sha256": "e867e69d8ab86935295f8fe26400de440f379b3027814db50e7e0a89c5f2e923"
+      },
+      {
+        "path": "SwiftDashSDK/KeyWallet/ManagedAccount.swift",
+        "sha256": "863a805ddbf8d6903ba7b1a1f6f1b76e3775b220ab63459f41546ee1d4c57ef3"
+      },
+      {
+        "path": "SwiftDashSDK/KeyWallet/ManagedAccountCollection.swift",
+        "sha256": "595eec6e8ac4f057f3eca5189201b2248452060a9da6b1bc1629e6450076a8d9"
+      },
+      {
+        "path": "SwiftDashSDK/KeyWallet/ManagedPlatformAccount.swift",
+        "sha256": "87baaf206579b4349ea4298f0fd4d140a61119e3104f61e6cb460c12de7d57d3"
+      },
+      {
+        "path": "SwiftDashSDK/KeyWallet/Mnemonic.swift",
+        "sha256": "acdb61ef330d20d85847dcd0bf54d754a8b9f58110e401908c68caaa481fb61f"
+      },
+      {
+        "path": "SwiftDashSDK/KeyWallet/README.md",
+        "sha256": "dfb82c4323d04ccc3bf904aa4e86447cf4feca7d1577a7e6b450845a5e5edd2b"
+      },
+      {
+        "path": "SwiftDashSDK/KeyWallet/Transaction.swift",
+        "sha256": "d2a9a80d70edd9fbc73cfb791a659f59138043715d9e467cd1fa862a1d864ecd"
+      },
+      {
+        "path": "SwiftDashSDK/KeyWallet/TransactionContext.swift",
+        "sha256": "afd3f9810093acd87f6d3c4a8efa37b69ae83824a04d698ff74666702fffa526"
+      },
+      {
+        "path": "SwiftDashSDK/KeyWallet/TransactionDecoder.swift",
+        "sha256": "7e3c8bbbad6f1e7ad9d8bcf18c2dbbb754a427ce5ad880ddd084a4f6f75de913"
+      },
+      {
+        "path": "SwiftDashSDK/KeyWallet/TransactionRecord.swift",
+        "sha256": "2d736c6c3543a50dac3ac526474bdee09e22f43a4d64acb6eb943f9e152df1b6"
+      },
+      {
+        "path": "SwiftDashSDK/KeyWallet/TxOutput.swift",
+        "sha256": "d1f20719257cdb0179bdceff9b475c8db271903bdbc2558d69cf7c5fd334694c"
+      },
+      {
+        "path": "SwiftDashSDK/KeyWallet/Wallet.swift",
+        "sha256": "c34e22c817cf08bbd0f9205ca676437a3db1cb5430305affaf32c5f3c03753ac"
+      },
+      {
+        "path": "SwiftDashSDK/KeyWallet/WalletManager.swift",
+        "sha256": "b137e424e4e4a5d86192b80c3ee2004d2ae8fc4c7e208bbc197e88bd5b9a9ece"
+      },
+      {
+        "path": "SwiftDashSDK/Models/EvonodeStatus.swift",
+        "sha256": "a255c512ee984df4cc57df4d271e34b402ac50a906366981e9f146473241bb72"
+      },
+      {
+        "path": "SwiftDashSDK/Models/StateTransitionDefinitions.swift",
+        "sha256": "e567d828266b78ecd20ba7dc1626c327beae95cb85810eeacd8dff07aaa5b7c6"
+      },
+      {
+        "path": "SwiftDashSDK/Models/TransitionTypes.swift",
+        "sha256": "f5f8416055fd5ec21cc7ce035e09e83b42f339608984a1e885556c3446bc8dfb"
+      },
+      {
+        "path": "SwiftDashSDK/Persistence/ContractIdentityLinker.swift",
+        "sha256": "70f6227cadb211a2f976d684aa7ef8060b608f32cf413268f043dc307ae05a6a"
+      },
+      {
+        "path": "SwiftDashSDK/Persistence/DashModelContainer.swift",
+        "sha256": "40297a346e059c34815c9c9521fc9779a2c37fc7b4d15df7176313d9ce8194ec"
+      },
+      {
+        "path": "SwiftDashSDK/Persistence/DashSchemaFrozenModels.swift",
+        "sha256": "6796462da48788dc1f9584b85b5e4e2a53f04ab349146f5b2a680765949c9f3c"
+      },
+      {
+        "path": "SwiftDashSDK/Persistence/Models/PersistentAccount.swift",
+        "sha256": "d41e5c30fa0153f558965fc029541efbca6e11aab91edb8f54247957b97b499b"
+      },
+      {
+        "path": "SwiftDashSDK/Persistence/Models/PersistentAssetLock.swift",
+        "sha256": "44a8ad5267b8f66c09a53fc75c7d4649c0b4ddc38fcf6bfe91418d44b6e5f8e9"
+      },
+      {
+        "path": "SwiftDashSDK/Persistence/Models/PersistentCoreAddress.swift",
+        "sha256": "83004a3791c8ddc2a47c079fe92b76ad322e0756f1d94b806822c3644986008b"
+      },
+      {
+        "path": "SwiftDashSDK/Persistence/Models/PersistentDPNSName.swift",
+        "sha256": "78b448497bfab1a7afd14373be528d2e6d64417d0342dbe6b8e4ff93dde022dc"
+      },
+      {
+        "path": "SwiftDashSDK/Persistence/Models/PersistentDashpayContactProfile.swift",
+        "sha256": "ff1ca4b467acc4226a939d1c2280780e43f14f9f1efff079ba8f31445420be4f"
+      },
+      {
+        "path": "SwiftDashSDK/Persistence/Models/PersistentDashpayContactRequest.swift",
+        "sha256": "3989bd07e064cad9bf6cefcfdf9bfa297f2d1b4ed0d568cb3c7696b27d593e56"
+      },
+      {
+        "path": "SwiftDashSDK/Persistence/Models/PersistentDashpayIgnoredSender.swift",
+        "sha256": "ff95f860223b4e6a9cf25c47aaa77d8a50ae64a2536e0043a984d4838b6b5bc9"
+      },
+      {
+        "path": "SwiftDashSDK/Persistence/Models/PersistentDashpayPayment.swift",
+        "sha256": "942342d9ae8dc1a7fc249028a0e8cb7efd37866db74ceb5d0a72090ef12241ce"
+      },
+      {
+        "path": "SwiftDashSDK/Persistence/Models/PersistentDashpayProfile.swift",
+        "sha256": "ab1a8940629b6c24f65e0883a9162abc853d78959ff2bcfc34af193b7b4177ca"
+      },
+      {
+        "path": "SwiftDashSDK/Persistence/Models/PersistentDataContract.swift",
+        "sha256": "3b978e0e68079f8c43be75e30fc3e9a89919825219d0dfc4086e6b2aa7bba371"
+      },
+      {
+        "path": "SwiftDashSDK/Persistence/Models/PersistentDocument.swift",
+        "sha256": "cf0d597ef74f657bec9f1d29177865c580f30d5fe597793b696ce26a48afe2cf"
+      },
+      {
+        "path": "SwiftDashSDK/Persistence/Models/PersistentDocumentType.swift",
+        "sha256": "6548b6f35d3303950da17b16bedb3a00de5ee80c48c899fd75346faf38234faa"
+      },
+      {
+        "path": "SwiftDashSDK/Persistence/Models/PersistentIdentity.swift",
+        "sha256": "45717fbaf11052656d67121308952c729ea3f0026b9db9c876650987abcb6186"
+      },
+      {
+        "path": "SwiftDashSDK/Persistence/Models/PersistentIndex.swift",
+        "sha256": "ab1e9d493e1c9a17a9f98ae0307c7d57c25134f2991be77970919c7314d8141c"
+      },
+      {
+        "path": "SwiftDashSDK/Persistence/Models/PersistentInvitation.swift",
+        "sha256": "2c7bfcb10891bf4e18426899239e05ec2497e22b480fc7095bd02f631b687b70"
+      },
+      {
+        "path": "SwiftDashSDK/Persistence/Models/PersistentKeyword.swift",
+        "sha256": "955911db8593628f3f21a72ea2c1919ed67b23a1e656562b210a1699c6bf5e64"
+      },
+      {
+        "path": "SwiftDashSDK/Persistence/Models/PersistentMasternode.swift",
+        "sha256": "74d07907b89b7fcc107b9096c32487d09dfb8840b121286b27639e84cd66abc9"
+      },
+      {
+        "path": "SwiftDashSDK/Persistence/Models/PersistentPendingInput.swift",
+        "sha256": "99164c7a878ff66b4e7b77437da370a36aae277d0013ab58b9bb025f0ebaa0ba"
+      },
+      {
+        "path": "SwiftDashSDK/Persistence/Models/PersistentPlatformAddress.swift",
+        "sha256": "ccc8b1b748ab9fce12c4bba0c9d51ee4cce1c165f840146d0e4548519a4414a8"
+      },
+      {
+        "path": "SwiftDashSDK/Persistence/Models/PersistentPlatformAddressesSyncState.swift",
+        "sha256": "d110299d6f7eaaeadadab6ed7ef9a974a096d907a754e17856b12d9c6df40a37"
+      },
+      {
+        "path": "SwiftDashSDK/Persistence/Models/PersistentProperty.swift",
+        "sha256": "971f0590cf5997656dd485c4b348aabad3d7ee6aab3f18422bbfd9694b272c15"
+      },
+      {
+        "path": "SwiftDashSDK/Persistence/Models/PersistentPublicKey.swift",
+        "sha256": "07fbbd0a2f0022c40b6f5bc6a9684c50d6041877e4a86f9060e3d320c14f335a"
+      },
+      {
+        "path": "SwiftDashSDK/Persistence/Models/PersistentShieldedActivity.swift",
+        "sha256": "87a1edf2f7f0e2ed7ba8ad6e8edd6b2f6971f83396854123fcdb1857559e2ed4"
+      },
+      {
+        "path": "SwiftDashSDK/Persistence/Models/PersistentShieldedNote.swift",
+        "sha256": "26d386a26eb57505dab1d6bdbaf1d383e3af8b72e386631d87c7940db09f2cd9"
+      },
+      {
+        "path": "SwiftDashSDK/Persistence/Models/PersistentShieldedOutgoingNote.swift",
+        "sha256": "209b7863cbb46cefe0b22ff46632f24cc8d182cc9209c1bfc305b37fb99252eb"
+      },
+      {
+        "path": "SwiftDashSDK/Persistence/Models/PersistentShieldedSyncState.swift",
+        "sha256": "0c5a752cac01a40f2283ba5e0411e88296ec7256357f4f7c37a4e212c41efed5"
+      },
+      {
+        "path": "SwiftDashSDK/Persistence/Models/PersistentShieldedViewingKey.swift",
+        "sha256": "0ba3e4ca1ee691c528c65c8708858c4b71c569d4ef53f7fe98ea6bd8bcdafa77"
+      },
+      {
+        "path": "SwiftDashSDK/Persistence/Models/PersistentToken.swift",
+        "sha256": "0fc7393eac877e6a771d1aa8bfbbde98b4d7b4b06aa98853574508a3bd9e94f2"
+      },
+      {
+        "path": "SwiftDashSDK/Persistence/Models/PersistentTokenBalance.swift",
+        "sha256": "fdc0d15c10cb197b19aa416c33b27fc1423acb722dd21fc4440e611448882ee7"
+      },
+      {
+        "path": "SwiftDashSDK/Persistence/Models/PersistentTokenHistoryEvent.swift",
+        "sha256": "e0ea0a67954757944b557511adcac1ca21155128a27731ef251c3ea101214b34"
+      },
+      {
+        "path": "SwiftDashSDK/Persistence/Models/PersistentTrackedMasternode.swift",
+        "sha256": "cd31483add288eeddddb3230032c188b5acfe0ab8a57067e46d4405816721476"
+      },
+      {
+        "path": "SwiftDashSDK/Persistence/Models/PersistentTransaction.swift",
+        "sha256": "2c546218c12a2c003aa62a7b16f077e517d67d320f035a18caf6b0d203b3138d"
+      },
+      {
+        "path": "SwiftDashSDK/Persistence/Models/PersistentTxo.swift",
+        "sha256": "992249f8379300e43de74ce0bf4efcc05b186b1c9981068213e47d99aed24702"
+      },
+      {
+        "path": "SwiftDashSDK/Persistence/Models/PersistentWallet.swift",
+        "sha256": "a84b5b7d85fdfbdb2b4cd6e191a148b7c8120031709de82b84a3eb4a641a1e08"
+      },
+      {
+        "path": "SwiftDashSDK/Persistence/Models/PersistentWalletManagerMetadata.swift",
+        "sha256": "50f2aa9a5c045e95e765181765941c7bda0f1830c447e79fd612c99300f5a39a"
+      },
+      {
+        "path": "SwiftDashSDK/Persistence/Types/TokenTypes.swift",
+        "sha256": "d03b8b0454739cceba6c09a4e1fe197fc462aacb621948ce4bf0939f7f38c9d0"
+      },
+      {
+        "path": "SwiftDashSDK/PlatformWallet/AssetLock/ManagedAssetLockManager.swift",
+        "sha256": "9a81843ad26b20e2d0ebccf9220c861abc6db2ba3c517fabbd0386c38a13b903"
+      },
+      {
+        "path": "SwiftDashSDK/PlatformWallet/ContactRequest.swift",
+        "sha256": "62e6b358897cf03ea705a30b7e6fec52070d10dc44ccc3c5b1508a478dcd6065"
+      },
+      {
+        "path": "SwiftDashSDK/PlatformWallet/ContestVoteState.swift",
+        "sha256": "f409e121fafde24e62b71ea04ae7770447febdcb3ca7f5e9f8c11796b0b3fb09"
+      },
+      {
+        "path": "SwiftDashSDK/PlatformWallet/CoreWallet/CoreTransactionBuilder.swift",
+        "sha256": "1939763bfe49b59bdb34f78d93215c0d19afdc3bd2a02899deae2c7ba4bdbd17"
+      },
+      {
+        "path": "SwiftDashSDK/PlatformWallet/CoreWallet/ManagedCoreWallet.swift",
+        "sha256": "f67f36ad7abbf110304c2265545df87ce5f206bcca3e3f4416826b90104ff6fa"
+      },
+      {
+        "path": "SwiftDashSDK/PlatformWallet/DashPayPayment.swift",
+        "sha256": "2ac4ce2102b5b5cb6205a33b1a0f77531eca12b7b48e92d0255e725efc368f12"
+      },
+      {
+        "path": "SwiftDashSDK/PlatformWallet/DashPayProfile.swift",
+        "sha256": "faaf64bf17a8ce5fdd507ba81cf1148558fb980d6705a25aadad468bdc4cd76b"
+      },
+      {
+        "path": "SwiftDashSDK/PlatformWallet/DpnsMarketplace.swift",
+        "sha256": "469f9840172b90cf044cac9633438ac235c66903b0471303c9556ae201334e21"
+      },
+      {
+        "path": "SwiftDashSDK/PlatformWallet/EstablishedContact.swift",
+        "sha256": "c2a5e6ef11d5f122f83f53fbf9aefb4cee8c7572b2f3716a8ca96c9cb87996b5"
+      },
+      {
+        "path": "SwiftDashSDK/PlatformWallet/IdentityManager.swift",
+        "sha256": "f28ff4061c6250f114572c57014398f3d2a35a44d4e23f00289cb926b2d67211"
+      },
+      {
+        "path": "SwiftDashSDK/PlatformWallet/ManagedIdentity.swift",
+        "sha256": "9e708b72ac569aa9c575f423e6fdbb25ae6ea6393cb6db0aead7a578ac629150"
+      },
+      {
+        "path": "SwiftDashSDK/PlatformWallet/ManagedPlatformAddressWallet.swift",
+        "sha256": "3c2dfb925d663e5221cc2010bbb7c8712b9ad34989967ff0407690be7b3906c9"
+      },
+      {
+        "path": "SwiftDashSDK/PlatformWallet/ManagedPlatformWallet.swift",
+        "sha256": "13a7a9e99923f61252cc2759aca9c111a93ff020b5f32f46adf28be57241bc6c"
+      },
+      {
+        "path": "SwiftDashSDK/PlatformWallet/PlatformWallet.swift",
+        "sha256": "defaffd443e9ac63738a2c6a3af34b6e9713c3ffb944e0a3acc73fa19ed20eab"
+      },
+      {
+        "path": "SwiftDashSDK/PlatformWallet/PlatformWalletFFI.swift",
+        "sha256": "c6f77e513d121e548e754517d39671b09b682181bff27a3ff886be4a320ada74"
+      },
+      {
+        "path": "SwiftDashSDK/PlatformWallet/PlatformWalletManager.swift",
+        "sha256": "570468cc97c57b88ea946ac82eec16d17b272083c2d705ba48e28fcfc7e125b0"
+      },
+      {
+        "path": "SwiftDashSDK/PlatformWallet/PlatformWalletManagerAddressFunding.swift",
+        "sha256": "4af48e2716cabd7494c335e670ff62944e829f14a456b8ddbc3d4a0b48ae91de"
+      },
+      {
+        "path": "SwiftDashSDK/PlatformWallet/PlatformWalletManagerAddressSync.swift",
+        "sha256": "a5e6ff4a49ed9c26574a97e73e9e7f34932cbb60086a928efd011d2d289fa997"
+      },
+      {
+        "path": "SwiftDashSDK/PlatformWallet/PlatformWalletManagerDashPaySync.swift",
+        "sha256": "9e0deab68937f11815d1eab609bc7f6d00f22696fb357599982fa2675c182585"
+      },
+      {
+        "path": "SwiftDashSDK/PlatformWallet/PlatformWalletManagerDiagnostics.swift",
+        "sha256": "2daa82a20e3d542e9c7cc10d95fb47705de3b78ded8d33b76568840c45ef7b7e"
+      },
+      {
+        "path": "SwiftDashSDK/PlatformWallet/PlatformWalletManagerDpnsSync.swift",
+        "sha256": "d63e69fefd5f923324866ae7e1c294eb419b186349c46f1d0829461bcb3e64d9"
+      },
+      {
+        "path": "SwiftDashSDK/PlatformWallet/PlatformWalletManagerIdentitySync.swift",
+        "sha256": "56e0cf28b58b29f80ed770d052cdef6b8f57a4cd331044895bb12121f208cf32"
+      },
+      {
+        "path": "SwiftDashSDK/PlatformWallet/PlatformWalletManagerMasternodeLocator.swift",
+        "sha256": "07e3ab930108caee442f619ed1a08b9e98a3455202f2e8a365feaff8b69c15b2"
+      },
+      {
+        "path": "SwiftDashSDK/PlatformWallet/PlatformWalletManagerMasternodes.swift",
+        "sha256": "b414d917f57e5135a81de396bfee5ed3bffab88f02a922a8ddf96e710c03bd92"
+      },
+      {
+        "path": "SwiftDashSDK/PlatformWallet/PlatformWalletManagerSPV.swift",
+        "sha256": "d519921a604e81080d11dfc3dba5e9d923de8b32526d77bbd6a619ea59ff33f1"
+      },
+      {
+        "path": "SwiftDashSDK/PlatformWallet/PlatformWalletManagerShieldedFunding.swift",
+        "sha256": "8ffa541ea2c54079aa9d2c8331da261c2ec74989a4e1d296008b2659c377b997"
+      },
+      {
+        "path": "SwiftDashSDK/PlatformWallet/PlatformWalletManagerShieldedSync.swift",
+        "sha256": "6aaca61e11d8c1623936f0a6a151319a679b637287f4aafacef40d74c2e7c572"
+      },
+      {
+        "path": "SwiftDashSDK/PlatformWallet/PlatformWalletManagerStartup.swift",
+        "sha256": "f22cc1904ea25322a2f7ba338771ea4347c6f6e250f9a9bf2019286676695ba8"
+      },
+      {
+        "path": "SwiftDashSDK/PlatformWallet/PlatformWalletManagerTrackedMasternodes.swift",
+        "sha256": "c4272d71f11db7b920a4d7ce17bb5d30f14e558cf700dc0218ae49386931384a"
+      },
+      {
+        "path": "SwiftDashSDK/PlatformWallet/PlatformWalletPersistenceHandler.swift",
+        "sha256": "ed97d52b4b15f946ec730bf553de29c281ec3de67d6175b2dd6db5af6407c237"
+      },
+      {
+        "path": "SwiftDashSDK/PlatformWallet/PlatformWalletResult.swift",
+        "sha256": "fda9a66378596772c603d970214f06930899c798ac004431d4f9157e75137609"
+      },
+      {
+        "path": "SwiftDashSDK/PlatformWallet/PlatformWalletTypes.swift",
+        "sha256": "a9e064778088fdee4e53cd69f37a49c55db022d9073e56431289ad329c38cc53"
+      },
+      {
+        "path": "SwiftDashSDK/PlatformWallet/README.md",
+        "sha256": "b2666cbb0d5a007a57deb931dd4bd9c985385d6b88ea58a8ed7252f5e8648f67"
+      },
+      {
+        "path": "SwiftDashSDK/PlatformWallet/Tokens/TokenActions.swift",
+        "sha256": "bb8f2537c8fd3800f8f64321f1f9517c9ce8032b84c9b18d3db7a64473b3fc64"
+      },
+      {
+        "path": "SwiftDashSDK/PlatformWallet/Tokens/TokenGroupActionQueries.swift",
+        "sha256": "41e27e8fb45bb2d423a49ae9c90ecd409dc852fd3b599769f1038659eb5d7104"
+      },
+      {
+        "path": "SwiftDashSDK/SDK.swift",
+        "sha256": "b56d3a6acf7bced364fe4b785443a819c341f137d1bb24e2047eceb3831f4205"
+      },
+      {
+        "path": "SwiftDashSDK/Security/KeychainInspector.swift",
+        "sha256": "dfe23426aa827e74d139d276ed765aff7c20cbcab99d6fa64d34f465bed7926e"
+      },
+      {
+        "path": "SwiftDashSDK/Security/KeychainManager.swift",
+        "sha256": "0309f7740ead6a0fe6526fbd95bd02a88be15bad665b743808a650838f402dc1"
+      },
+      {
+        "path": "SwiftDashSDK/Security/Secp256k1Primitives.swift",
+        "sha256": "995bb631490ddd26ca1a8cad2d3f567dc0b1464d23e75b9e14a6776db12a958a"
+      },
+      {
+        "path": "SwiftDashSDK/Services/DataManager.swift",
+        "sha256": "65d6a7401427a4013eaa6a7452ac6b92a6dc1e04e229ea92607f0d2d8ae864b9"
+      },
+      {
+        "path": "SwiftDashSDK/SwiftDashSDK.swift",
+        "sha256": "87530c3eb47ee6ef3654f0c3262d9a9cac6a3c26132ed705189ce0e1f89df1f4"
+      },
+      {
+        "path": "SwiftDashSDK/Utils/DataExtensions.swift",
+        "sha256": "119cc9fe269ef876e6d43e5dc8f21a89635821f1702d0e9ca3afa6f8cfc100ca"
+      },
+      {
+        "path": "SwiftDashSDK/Utils/DataTransformers.swift",
+        "sha256": "8c1853c7ec07e9e777dcd44dcb441461e69c565889e7b4709155afe19aaa034f"
+      },
+      {
+        "path": "SwiftDashSDK/Utils/ErrorHandling.swift",
+        "sha256": "5864bb47acd1513456dc04a604a2ded1f9991bfc4ec77a1915727faa8318f8ac"
+      },
+      {
+        "path": "SwiftDashSDK/Utils/KeyValidation.swift",
+        "sha256": "885711631ce2c91712fb4bda4714222a03fc12809e6d64d310b45369bd58e618"
+      },
+      {
+        "path": "SwiftDashSDK/Utils/PrivateKeyUtils.swift",
+        "sha256": "8dad60aa66fd8979728c7a20f18d09e681c6ce69e6be2e7118d67818777fd141"
+      },
+      {
+        "path": "SwiftDashSDK/Utils/StateManagement.swift",
+        "sha256": "bd47ea996604eb2e5e0b90e037b516c88adf913881cfad061eae7d70d1e14a74"
+      },
+      {
+        "path": "SwiftDashSDK/Utils/TestnetFaucet.swift",
+        "sha256": "c7aa1c40c47ac1f7c348a6225b98f4fa42a902234abb0f4fb078b937dc20e990"
+      },
+      {
+        "path": "SwiftDashSDK/Utils/Validation.swift",
+        "sha256": "78ee85940d71d62b7633d19c856801c09336cc00ab9009ff4472b3d186d2fcad"
+      },
+      {
+        "path": "SwiftDashSDK/Voting/DPNSContest.swift",
+        "sha256": "fe4c950be1e0ca5b07f919a34d01bcabcfd93921adf0407b3295171d78d546eb"
+      },
+      {
+        "path": "SwiftDashSDK/Voting/SDK+DPNSContests.swift",
+        "sha256": "85ef8f473eb1fbb3532064fefa1392fa21f329e9884e35924f0b6e26589a235c"
+      },
+      {
+        "path": "SwiftDashSDK/Wallet/WalletModels.swift",
+        "sha256": "f04cbdf6587a4f2f7b9f38e67807948d0e1e1d50f60774af98526e59678849c9"
+      }
+    ]
+  },
+  "ffi_bundle": {
+    "root": "platform/packages/swift-sdk/DashSDKFFI.xcframework",
+    "files": [
+      {
+        "path": "Info.plist",
+        "sha256": "8a84771573cec986fd40d581cb5fe51625efa16379400868379024331aabf21d"
+      },
+      {
+        "path": "ios-arm64-simulator/Headers/DashSDKFFI.h",
+        "sha256": "7d29a27f9738dfe98b73b0bd4d4655690a22b213117edad83d963ba04c8eabf7"
+      },
+      {
+        "path": "ios-arm64-simulator/Headers/dash-network/dash-network.h",
+        "sha256": "c49741158c09328dbd864bdc0be920ba2c3d93a53278ab97722ac7eb0fb1688b"
+      },
+      {
+        "path": "ios-arm64-simulator/Headers/key-wallet-ffi/key-wallet-ffi.h",
+        "sha256": "d50c9697584136293e4c8a1b8d824260365f3c4e04ce01f2f3fcd18b966b1674"
+      },
+      {
+        "path": "ios-arm64-simulator/Headers/module.modulemap",
+        "sha256": "ebf22074f754aaf183823244744aa8f36c99bc32fce1a8ab202b90577fd0e957"
+      },
+      {
+        "path": "ios-arm64-simulator/Headers/platform-wallet-ffi/platform-wallet-ffi.h",
+        "sha256": "764031a9d166ceadf0a96f025da6a2881d5790b0e2b4d7a986ca9bafff690c69"
+      },
+      {
+        "path": "ios-arm64-simulator/Headers/rs-sdk-ffi/rs-sdk-ffi.h",
+        "sha256": "7f75abf547a75bf9f764b930a3fc75fa4c505393c42ec5ef061c4caa1214b3d7"
+      },
+      {
+        "path": "ios-arm64-simulator/librs_unified_sdk_ffi.a",
+        "sha256": "d7c40c9b31e0c490e964fd3b72c2c0a7bd8095c9813a9ae15933dbede48389ff"
+      },
+      {
+        "path": "macos-arm64/Headers/DashSDKFFI.h",
+        "sha256": "7d29a27f9738dfe98b73b0bd4d4655690a22b213117edad83d963ba04c8eabf7"
+      },
+      {
+        "path": "macos-arm64/Headers/dash-network/dash-network.h",
+        "sha256": "c49741158c09328dbd864bdc0be920ba2c3d93a53278ab97722ac7eb0fb1688b"
+      },
+      {
+        "path": "macos-arm64/Headers/key-wallet-ffi/key-wallet-ffi.h",
+        "sha256": "d50c9697584136293e4c8a1b8d824260365f3c4e04ce01f2f3fcd18b966b1674"
+      },
+      {
+        "path": "macos-arm64/Headers/module.modulemap",
+        "sha256": "ebf22074f754aaf183823244744aa8f36c99bc32fce1a8ab202b90577fd0e957"
+      },
+      {
+        "path": "macos-arm64/Headers/platform-wallet-ffi/platform-wallet-ffi.h",
+        "sha256": "764031a9d166ceadf0a96f025da6a2881d5790b0e2b4d7a986ca9bafff690c69"
+      },
+      {
+        "path": "macos-arm64/Headers/rs-sdk-ffi/rs-sdk-ffi.h",
+        "sha256": "7f75abf547a75bf9f764b930a3fc75fa4c505393c42ec5ef061c4caa1214b3d7"
+      },
+      {
+        "path": "macos-arm64/librs_unified_sdk_ffi.a",
+        "sha256": "b1d2691cfb6621e31610ad99825323d55e33ca58c0b7b365750d9fd63400a3eb"
+      }
+    ]
+  },
+  "publication_note": "Source and binary hashes are unchanged. Machine-specific absolute paths are replaced with logical paths."
+}

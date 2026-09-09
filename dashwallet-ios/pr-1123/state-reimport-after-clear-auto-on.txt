@@ -1,0 +1,5 @@
+preferences {"CURRENT_CHAIN_TYPE_KEY": 1, "DW_GLOB_advancedModeEnabled": true, "DW_PLATFORM_ADVANCED_MODE_HISTORY": {"2ec3cef372b3f70fbd373e53892ed2aa13100ebdd07354b5f530e839596f9dcf": ["1"], "3e2d49a1a1997b473d81e7e45176ec7282cd8d1ee1e66c4269fb23aa80ee79da": ["1"]}}
+database Documents/SwiftDashSDK/Platform/testnet/DashModel.sqlite tables ['ZPERSISTENTPLATFORMADDRESS', 'ZPERSISTENTPLATFORMADDRESSESSYNCSTATE']
+funded addresses: [[39494320, 'tdash1kqvvyqg4lg0zrw22xmv3ekfxe5lyupjekupwpwp0', '2ec3cef372b3f70fbd373e53892ed2aa13100ebdd07354b5f530e839596f9dcf'], [9783744720, 'tdash1kq50yzuamskulmlfnyym3j5f2cp2r4mc0cxpreqx', '2ec3cef372b3f70fbd373e53892ed2aa13100ebdd07354b5f530e839596f9dcf'], [196611380, 'tdash1kpfxtw8sw6t8w37226ck69mdxm5dwqq2hu2m2tx0', '3e2d49a1a1997b473d81e7e45176ec7282cd8d1ee1e66c4269fb23aa80ee79da']] total credits: 10019850420
+database Documents/SwiftDashSDK/Platform/mainnet/DashModel.sqlite tables ['ZPERSISTENTPLATFORMADDRESS', 'ZPERSISTENTPLATFORMADDRESSESSYNCSTATE']
+funded addresses: [] total credits: 0

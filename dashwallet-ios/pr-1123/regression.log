@@ -1,0 +1,17 @@
+PASS: Upgrade without saved preference starts off
+PASS: Zero balance leaves automatic enablement pending
+PASS: Missing wallet/network context cannot enable mode
+PASS: One raw credit enables mode and notifies once
+PASS: Repeated positive snapshots do not notify again
+PASS: Manual disable persists and notifies
+PASS: New options instance, resync and refund respect manual disable
+PASS: Another network has independent first-funding history
+PASS: Another wallet has independent first-funding history
+PASS: Already-enabled mode does not emit redundant notification
+PASS: Already-enabled first funding still records history
+PASS: Removing wallet B preserves wallet A history
+PASS: Removed wallet can auto-enable after reimport
+PASS: Full wipe resets advanced mode
+PASS: Full wipe clears first-funding history
+PASS: Writing unchanged preference does not notify
+16 regression checks passed

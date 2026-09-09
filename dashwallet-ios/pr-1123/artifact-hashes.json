@@ -1,0 +1,114 @@
+{
+  "README.md": {
+    "sha256": "a6c5fca76de73087f341cb90511173900b0fa0c1d5f2a951d61cecb108750edf",
+    "bytes": 14032
+  },
+  "core-chain-verification.json": {
+    "sha256": "015f537a86da0de8a262512dc2c2b9b59bef54e47b6cc1d7694c3ebc005031ea",
+    "bytes": 341
+  },
+  "faucet-safari-confirmed.png": {
+    "sha256": "13fdcc12ae2826027021c2ea5946d30b4f28fae84aa24fa8b88b90803dc1bdf2",
+    "bytes": 2268333
+  },
+  "full-wipe-onboarding.png": {
+    "sha256": "c88c0bcd98fe3e6b802b0bff4db42bd6d5f7ccc8037c469b3bf583205e6e97f8",
+    "bytes": 2044124
+  },
+  "home-funded-off.png": {
+    "sha256": "f18838473e424a49230f0bf5051ac3b23da0fcc6877ada862d1a996ca97de932",
+    "bytes": 410531
+  },
+  "home-funded-on.png": {
+    "sha256": "b6c613439e7d86f230be359c2bf37ab5b5b5b93f78388c87044532f9c2e75144",
+    "bytes": 395977
+  },
+  "internal-off-destinations.png": {
+    "sha256": "a59405c2a75624170f6b8c0b57db9f67eb253b34177904ef49280318a721726b",
+    "bytes": 194578
+  },
+  "internal-on-destinations.png": {
+    "sha256": "d746e216b8521bced2e01adfbc3072fb5c48f529dfa2ef1789ffbc39b5c35d51",
+    "bytes": 416807
+  },
+  "lint-comparison.txt": {
+    "sha256": "747490b5ca98c641584fea11f8ca72067bf079cf046440a32eeec252054696bb",
+    "bytes": 47
+  },
+  "live-after-settings-on.png": {
+    "sha256": "b5e8d1fd447cf324ab8083877a84beadee39df7e9509de1669c6c9bffe14dc84",
+    "bytes": 209713
+  },
+  "live-before-settings-off.png": {
+    "sha256": "01c6c723180f626654e1e7568c2ff1b06939739d4d9b6d9a9f44ebbc3166b48d",
+    "bytes": 208662
+  },
+  "provenance-hashes.json": {
+    "sha256": "883933a28de6c6affbcc647d16068105e72e51b25c88406c3ab787aa50beece4",
+    "bytes": 27247
+  },
+  "receive-funded-off.png": {
+    "sha256": "a72876deb2a2298ea3f7686a41959973f97c70e66faff1b88e12e5d09d47b1e4",
+    "bytes": 506487
+  },
+  "regression.log": {
+    "sha256": "80390f12770af75d07a57e314c4ed03ff2eadf668f2d96be79dda3cd1d85ae44",
+    "bytes": 884
+  },
+  "review.md": {
+    "sha256": "5cfd7e9e32bfc8af99697f6a2e17d10b804a6cd648c9076d7878c68c3fcf28b4",
+    "bytes": 2230
+  },
+  "state-before-live-incoming.txt": {
+    "sha256": "1605cc8d63e57b3214a693442a2458925b02fb969437de6b20fa689f789f928f",
+    "bytes": 831
+  },
+  "state-final-relaunch-off.txt": {
+    "sha256": "c6793922f0fd4d3f6acb6e08c2dfbead201fd8e97a4c506ab503d16a6cd937a5",
+    "bytes": 1036
+  },
+  "state-first-funding.txt": {
+    "sha256": "a4ab2d174a63af35df79b3a0ee740c3813afc26bcf2bbe075555901555b0878d",
+    "bytes": 830
+  },
+  "state-full-wipe.json": {
+    "sha256": "2d7aaa797a83a1791f10d3f6c6da08e95cbe8b00a629a93764b8851dd71b6c80",
+    "bytes": 87
+  },
+  "state-live-auto-on.txt": {
+    "sha256": "7474bcf541263c0c5af80aeb21d51cb97bd2bc2e3e540e5444b44587ca9cd4b4",
+    "bytes": 1037
+  },
+  "state-mainnet-off.txt": {
+    "sha256": "eabe061d58169d80edf53daa7e00fa6c0163319a04f577bf9ba6b2b41e7d7740",
+    "bytes": 1037
+  },
+  "state-refunded-off.txt": {
+    "sha256": "947c7acd7ab3d8f4c4c60ab59d59aa258247c9ac6cb27359cf7dc176e24fc2c8",
+    "bytes": 1035
+  },
+  "state-reimport-after-clear-auto-on.txt": {
+    "sha256": "0ccab4a1f0471106228f153cc6f3868967e8e4e14de28295233bf85da481ba56",
+    "bytes": 1035
+  },
+  "state-relaunch-off.txt": {
+    "sha256": "1605cc8d63e57b3214a693442a2458925b02fb969437de6b20fa689f789f928f",
+    "bytes": 831
+  },
+  "state-return-testnet-off.txt": {
+    "sha256": "693d4acd1180f964e1ab3678b134f6ca3d0b6fa1cb2ba190a67c0bd9e9f32d8d",
+    "bytes": 1037
+  },
+  "state-second-payment-off.txt": {
+    "sha256": "693d4acd1180f964e1ab3678b134f6ca3d0b6fa1cb2ba190a67c0bd9e9f32d8d",
+    "bytes": 1037
+  },
+  "state-upgrade-auto-on.txt": {
+    "sha256": "a4ab2d174a63af35df79b3a0ee740c3813afc26bcf2bbe075555901555b0878d",
+    "bytes": 830
+  },
+  "state-wallet-b-removed.txt": {
+    "sha256": "d759b304cf7b166c9b7448399606535ea892f91b1bd61288fcf7e53704ff71be",
+    "bytes": 828
+  }
+}

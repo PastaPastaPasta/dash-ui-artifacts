@@ -1,0 +1,14 @@
+[
+  {
+    "txid": "69ac2ab7a7c82c7ec0fd5ba6fff48a50123b2fda218f1d98b6f3748465603862",
+    "block_height": 1550555,
+    "net_duffs": 100000000,
+    "type": "Standard"
+  },
+  {
+    "txid": "8525a80c047090e40ed2f48e82da810c22cd65d57efe14d252821c8e96df9e81",
+    "block_height": 1550558,
+    "net_duffs": -10062263,
+    "type": "AssetLock"
+  }
+]
