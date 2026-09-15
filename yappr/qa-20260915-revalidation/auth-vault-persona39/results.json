@@ -1,0 +1,52 @@
+{
+  "date": "2026-09-15T21:31:41.329Z",
+  "baseRevision": "4105c5d1c914f5d0838619da93c3b8d28b4a780e",
+  "deployment": "http://localhost:3211/devnet",
+  "personaIdx": 39,
+  "handle": "hikes-omar8",
+  "identityId": "9NFhqxW8upkFMVTE5h5VmYWLdSEJ26B2iMKdhCFgsWkd",
+  "profileHref": "/devnet/user/?id=9NFhqxW8upkFMVTE5h5VmYWLdSEJ26B2iMKdhCFgsWkd",
+  "checks": [
+    {
+      "story": "Normal WIF sign-in",
+      "result": "PASS",
+      "method": "Entered supplied identity key through actual login UI"
+    },
+    {
+      "story": "Password unlock enrollment",
+      "result": "PASS",
+      "readback": "Settings > Privacy & Security > Auth Vault: Password unlock is active"
+    },
+    {
+      "story": "Logout and password sign-in",
+      "result": "PASS",
+      "readback": "Assigned username and full profile identity URL restored"
+    },
+    {
+      "story": "Fresh browser password recovery and reload",
+      "result": "PASS",
+      "readback": "Empty context sign-in by username/password, Auth Vault status and full profile identity URL after reload"
+    },
+    {
+      "story": "Passkey enrollment",
+      "result": "PASS",
+      "readback": "Auth Vault: 1 active; password and passkey methods both active"
+    },
+    {
+      "story": "Logout and passkey sign-in",
+      "result": "PASS",
+      "readback": "Default Sign in with a passkey restored assigned identity without entering username/password"
+    },
+    {
+      "story": "Reload after passkey sign-in",
+      "result": "PASS",
+      "readback": "Same account, password active and 1 active passkey"
+    }
+  ],
+  "limitations": [
+    "Chromium virtual CTAP2.1 internal authenticator with PRF and user verification; no physical-device/browser portability claim",
+    "Passkey RP is localhost for the independently built staging app, not yap.pr",
+    "Only persona39 own identity accessed; no auth bypass, credential injection, or other identity probing"
+  ],
+  "issues": []
+}
