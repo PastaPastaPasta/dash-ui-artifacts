@@ -14,6 +14,10 @@ Account: **hikes-omar8**, identity **9NFhqxW8upkFMVTE5h5VmYWLdSEJ26B2iMKdhCFgsWk
 | Logout → default Sign in with a passkey | PASS — discoverable standard browser ceremony restored assigned identity without username/password entry | [Restored](passkey-after-logout-signin.png) |
 | Reload restored passkey session | PASS — same profile URL and both active methods | [Reload](passkey-restored-reload.png) |
 
+| Password recovery in a fresh context | Passkey session after reload |
+| --- | --- |
+| ![Password restored](password-fresh-browser-reload.png) | ![Passkey restored](passkey-restored-reload.png) |
+
 Virtual authenticator: Chromium CTAP2.1, internal transport, resident credential, user verification, automatic presence simulation, PRF. This tests the normal WebAuthn API ceremony using standard browser test equipment; it does not claim physical-device or cross-browser portability. RP origin is localhost for this staging build, not yap.pr. No auth-state injection or authentication bypass. No other identities were accessed.
 
 All seven final images were opened and visually inspected at original resolution. Credentials were never revealed in screenshots or public results. Secret fixtures are maintained separately in a private local directory and must not be published. Local source worktree remained unchanged; no PR needed for the passing flows.
