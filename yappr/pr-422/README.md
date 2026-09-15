@@ -13,3 +13,9 @@ Both final images were opened at original resolution. The same root/reply and vi
 | ![Parent remains Unknown User](before.png) | ![Parent name, handle and count resolve](after.png) |
 
 Build and source/test TypeScript checks passed; source and E2E ESLint passed with their respective projects. Independent source review approved the change. The two actual-app browser runs verify the same author consistency assertion added to the existing E2E lifecycle; the full state-changing lifecycle was not re-run locally for this read-only fix.
+
+Focused crops from the same inspected originals (x275,y40,width655,height182), opened and inspected after cropping:
+
+| Before — parent detail | After — parent detail |
+|---|---|
+| ![Unresolved parent detail](before-detail.png) | ![Resolved parent detail](after-detail.png) |
