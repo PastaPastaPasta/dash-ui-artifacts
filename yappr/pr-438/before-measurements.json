@@ -1,0 +1,61 @@
+{
+  "kind": "encryption-label",
+  "state": "before",
+  "revision": "4105c5d1c914f5d0838619da93c3b8d28b4a780e",
+  "identity": "4WJqx5yBKTW3v6FbkvwNZpGvWyafDzTjMSZLZEYwtC8R",
+  "surfaces": [
+    {
+      "surface": "encryption",
+      "controls": [
+        {
+          "role": "dialog",
+          "name": "Enter Encryption Key",
+          "description": "Enter your encryption private key to use private feed features."
+        },
+        {
+          "role": "button",
+          "name": "Close",
+          "description": ""
+        },
+        {
+          "role": "textbox",
+          "name": "WIF (cXyz...) or hex (64 chars)",
+          "description": ""
+        },
+        {
+          "role": "button",
+          "name": "Save Key",
+          "description": ""
+        },
+        {
+          "role": "button",
+          "name": "Skip for now",
+          "description": ""
+        },
+        {
+          "role": "button",
+          "name": "Add one to your identity",
+          "description": ""
+        },
+        {
+          "role": "button",
+          "name": "See recovery options",
+          "description": ""
+        }
+      ],
+      "snapshot": "- dialog \"Enter Encryption Key\":\n  - button \"Close\"\n  - heading \"Enter Encryption Key\" [level=2]\n  - paragraph: Enter your encryption private key to use private feed features.\n  - paragraph: Auto-recovery not available. Please enter your key manually.\n  - paragraph: Your encryption key is stored securely in this browser session. You'll need to enter it again after logging out or using a different device.\n  - text: Encryption Private Key\n  - textbox \"WIF (cXyz...) or hex (64 chars)\"\n  - button \"Save Key\" [disabled]\n  - button \"Skip for now\"\n  - paragraph:\n    - text: Don't have an encryption key?\n    - button \"Add one to your identity\"\n  - paragraph:\n    - text: Lost your key?\n    - button \"See recovery options\""
+    }
+  ],
+  "checks": [
+    {
+      "name": "Encryption key label focuses input",
+      "focus": false
+    },
+    {
+      "name": "Empty Save Key disabled; Skip closes",
+      "pass": true
+    }
+  ],
+  "noCredentialOrEmailSubmitted": true,
+  "success": true
+}
