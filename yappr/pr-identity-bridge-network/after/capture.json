@@ -1,0 +1,15 @@
+{
+  "side": "after",
+  "revision": "ea277d0bfe90c0c7125c4615dfb377a2cee88201",
+  "sourceUrl": "http://127.0.0.1:3228/devnet/login/",
+  "href": "https://bridge.thepasta.org/?network=devnet-moutai",
+  "destinationUrl": "https://bridge.thepasta.org/?network=devnet-moutai",
+  "visibleNetwork": "DEVNET-MOUTAI",
+  "at": "2026-09-15T22:21:21.856Z",
+  "body": "Dash Core → Platform Bridge\n\nDEVNET-MOUTAI\n\nAll cryptographic operations happen in your browser.\n\nTestnet\nMainnet\ndevnet-moutai ▾\nCreate New Identity\nGenerate keys and register a new identity\nSend to Platform Address\nSend DASH to any Platform address\nRegister Username\nGet a DPNS username for your identity\nManage Identity\nTop up, manage keys, transfer a username, or withdraw credits\nRegister Data Contract\nPublish a data contract on Dash Platform\nView on GitHub",
+  "viewport": {
+    "width": 1280,
+    "height": 1000
+  },
+  "freshGuestContext": true
+}

@@ -1,0 +1,15 @@
+{
+  "side": "before",
+  "revision": "4105c5d1c914f5d0838619da93c3b8d28b4a780e",
+  "sourceUrl": "http://127.0.0.1:3211/devnet/login/",
+  "href": "https://bridge.thepasta.org",
+  "destinationUrl": "https://bridge.thepasta.org/",
+  "visibleNetwork": "TESTNET",
+  "at": "2026-09-15T22:21:01.964Z",
+  "body": "Dash Core → Platform Bridge\n\nTESTNET\n\nAll cryptographic operations happen in your browser.\n\nTestnet\nMainnet\nDevnet ▾\nCreate New Identity\nGenerate keys and register a new identity\nSend to Platform Address\nSend DASH to any Platform address\nRegister Username\nGet a DPNS username for your identity\nManage Identity\nTop up, manage keys, transfer a username, or withdraw credits\nRegister Data Contract\nPublish a data contract on Dash Platform\nView on GitHub",
+  "viewport": {
+    "width": 1280,
+    "height": 1000
+  },
+  "freshGuestContext": true
+}
