@@ -1,0 +1,26 @@
+{
+  "revision": "4105c5d1c914f5d0838619da93c3b8d28b4a780e",
+  "buildId": "4105c5d1",
+  "localOrigin": "http://127.0.0.1:3211/devnet/",
+  "source": "independently built exact staging with .env.devnet and matching lockfile",
+  "network": "devnet-moutai",
+  "browser": "Chromium Playwright headless",
+  "viewport": {
+    "width": 1280,
+    "height": 1000
+  },
+  "appearance": "light",
+  "bridge": "https://bridge.thepasta.org/?network=devnet-moutai",
+  "bridgeRevision": "unknown live external build",
+  "auth": "Actual identity/private-key form. Subsequent DPNS/profile stages restored browser state created by that login. Fresh guest verification used no browser state.",
+  "captures": "No filled secrets, key backups, mnemonic, deposit ceremony screens or private browser state published. Every final image inspected at original resolution.",
+  "sha256": {
+    "bridge-before-chainlock-fallback.png": "64f32d876a95f0ae0a257c87442213f46666bac9228c2150a107ea7f46211807",
+    "first-login-prompts.png": "cf780addab6a72764012c20b45745540a4f5df980dfd1a9b02ea4ff3d31032b5",
+    "dpns-available.png": "ebf6b80506c1eeca17d641c5900265d678e730c64d3307af3148c2d5c4d3474c",
+    "dpns-registered.png": "17b6eb3aac1735a9b00a5e5fe98cfb0e06a3ed9594ab040bdd70c43ab7bbe1a2",
+    "profile-create-filled.png": "bac9730622cf8475612269335a02a7497cba6055dbc8490e79712bfa14cd2c0d",
+    "profile-created-readback.png": "f0b763d2b86ef52c8fd6dbe555b87c6557553295a0ef1528582b74bc31304d20",
+    "profile-fresh-guest.png": "d0b5b6c7a8cd7e671dc1d325af5c0049765ea5f40514c6666ccdc58fd8e72002"
+  }
+}

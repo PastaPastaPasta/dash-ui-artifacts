@@ -1,0 +1,10 @@
+{
+  "identityId": "GXcWeXmgQCNqKiVmwZfbwo5szhdhgEhnPvUTVHAyi1Yk",
+  "txid": "e24943ed02bf67371bd70979f7be53d9bf919503a79badc16e6e54f5492c2d04",
+  "blockHeight": 71346,
+  "coreChainLockedHeight": 71352,
+  "created": true,
+  "balance": "7867949660",
+  "at": "2026-09-15T22:20:25.561Z",
+  "method": "SDK ChainLock recovery of actual bridge-generated keys and lock; not successful bridge UI completion"
+}

@@ -1,0 +1,12 @@
+{
+  "revision": "4105c5d1c914f5d0838619da93c3b8d28b4a780e",
+  "identityId": "GXcWeXmgQCNqKiVmwZfbwo5szhdhgEhnPvUTVHAyi1Yk",
+  "steps": [
+    "Actual identity+private-key login succeeded without storage/session injection",
+    "New username availability lookup passed"
+  ],
+  "at": "2026-09-15T22:24:12.490Z",
+  "username": "qa-new-9511058113",
+  "dpnsRegistered": true,
+  "afterDpnsUrl": "http://127.0.0.1:3211/devnet/profile/create/"
+}

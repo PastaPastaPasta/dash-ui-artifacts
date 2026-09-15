@@ -1,0 +1,32 @@
+{
+  "at": "2026-09-15T22:29:39.441Z",
+  "identityId": "GXcWeXmgQCNqKiVmwZfbwo5szhdhgEhnPvUTVHAyi1Yk",
+  "dpns": "GXcWeXmgQCNqKiVmwZfbwo5szhdhgEhnPvUTVHAyi1Yk",
+  "names": [
+    "qa-new-9511058113.dash"
+  ],
+  "profile": [
+    {
+      "$formatVersion": "0",
+      "$id": "AZzqbf4eoLwFysPGLx3J7N9QddW2qECSJ2ZpCLcvwvp2",
+      "$ownerId": "GXcWeXmgQCNqKiVmwZfbwo5szhdhgEhnPvUTVHAyi1Yk",
+      "avatar": "{\"seed\":\"GXcWeXmgQCNqKiVmwZfbwo5szhdhgEhnPvUTVHAyi1Yk\",\"style\":\"thumbs\"}",
+      "bio": "Fresh identity UI onboarding QA.",
+      "displayName": "QA Onboarding Sep15",
+      "$revision": 1,
+      "$createdAt": 1789511140205,
+      "$updatedAt": 1789511140205,
+      "$transferredAt": null,
+      "$createdAtBlockHeight": null,
+      "$updatedAtBlockHeight": null,
+      "$transferredAtBlockHeight": null,
+      "$createdAtCoreBlockHeight": null,
+      "$updatedAtCoreBlockHeight": null,
+      "$transferredAtCoreBlockHeight": null,
+      "$creatorId": null,
+      "$contractVersion": 1,
+      "$dataContractId": "6cyzfCVkov5RqJzRpXTmCAjYWBGqB1SzsBxrsnd8AUyb",
+      "$type": "profile"
+    }
+  ]
+}

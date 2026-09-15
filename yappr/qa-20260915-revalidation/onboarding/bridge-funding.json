@@ -1,0 +1,10 @@
+{
+  "network": "devnet-moutai",
+  "address": "yPMCvorvwfkTkheYHGDz1UU1dBF8yuKs63",
+  "duffs": 8000000,
+  "txid": "1e63d49c5685e2a49d9633474b91cb7c97abf290807139fb77bc0f70e229bfd8",
+  "fee": 1000,
+  "changeDuffs": 991999000,
+  "broadcast": "{\"txid\":\"1e63d49c5685e2a49d9633474b91cb7c97abf290807139fb77bc0f70e229bfd8\"}",
+  "at": "2026-09-15T22:11:38.060Z"
+}
