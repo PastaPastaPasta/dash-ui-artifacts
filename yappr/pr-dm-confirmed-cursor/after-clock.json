@@ -1,0 +1,9 @@
+{
+  "label": "after",
+  "marker": "QA DM clock 1789515968740",
+  "deviceClockOffsetMs": 120000,
+  "waitAfterReplyMs": 18000,
+  "activeReplyCount": 1,
+  "freshReplyPresent": true,
+  "freshReplyInThread": true
+}

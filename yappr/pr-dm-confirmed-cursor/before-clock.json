@@ -1,0 +1,9 @@
+{
+  "label": "before",
+  "marker": "QA DM clock 1789515933744",
+  "deviceClockOffsetMs": 120000,
+  "waitAfterReplyMs": 18000,
+  "activeReplyCount": 0,
+  "freshReplyPresent": true,
+  "freshReplyInThread": true
+}
