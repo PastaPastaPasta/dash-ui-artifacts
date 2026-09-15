@@ -1,0 +1,48 @@
+{
+  "review": "First direct-message persistence claim revalidation",
+  "commit": "4105c5d1c914f5d0838619da93c3b8d28b4a780e",
+  "buildId": "4105c5d1",
+  "sourceWorktree": "/Users/pasta/.t3/worktrees/yappr-store-before",
+  "sourceClean": true,
+  "network": "devnet-moutai",
+  "socialContract": "CdUkSHkQwGXXAkzKqrcrjUWLsj7qErK9XAZmLzJEhirU",
+  "dmContract": "ACggUAB9rYpZUTBggrgx54R43iSprQztyuwYx16Y25xC",
+  "senderIdentity": "AUcoNeieq1VNiyAkQrrn4XE8rpaRT3gSUCQsy7E2SN7x",
+  "recipientIdentity": "4DssekNkYTsvb5vJ22sADgumEEYzdWmBvw3wPU8t1iHH",
+  "message": "QA first DM current-staging 2026-09-15 1789503952172",
+  "viewport": {
+    "width": 1280,
+    "height": 900
+  },
+  "fixture": "Existing seeded public devnet personas; programmatic storage session restore using AUTHENTICATION/HIGH keys; no mocked application UI or network responses",
+  "steps": [
+    "Open /devnet/messages/?startConversation=<recipient> in fresh sender context. No prior messages present.",
+    "Enter message through real message textbox and submit by Enter.",
+    "Wait 20 seconds; message visible and compose field clear.",
+    "Fresh independent sender context; message persists after reload.",
+    "Fresh independent recipient context; first message decrypts and displays. Recipient was not initialized before send."
+  ],
+  "result": "PASS: first direct message persisted and decrypted for both identities. Deterministic first-message-loss claim not reproduced.",
+  "limitations": [
+    "Tests full on-chain HIGH secp256k1 keys with ordinary restored sessions. Does not establish behavior for hash160-only identities or external wallet onboarding.",
+    "Sidebar was absent immediately after send although active thread showed sent message; reload restored it. This is a separate, not-yet-isolated UI observation.",
+    "Shared port 4178 server stopped before planned reload. Readback used independent static server on 4189 from same unchanged build."
+  ],
+  "images": {
+    "yappr-dm-current-after-send.png": {
+      "sha256": "548ee7ab0149873d6360d6cea66e82897534df9021bb9e40dabfffdb2f9b5a21",
+      "inspectedAtOriginalResolution": true
+    },
+    "yappr-dm-current-recipient-fresh.png": {
+      "sha256": "fbd12e99c80c852bfa961be9facb87b1b0d0e3345a4b86e3e3674ce84019729f",
+      "inspectedAtOriginalResolution": true
+    },
+    "yappr-dm-current-sender-fresh.png": {
+      "sha256": "450eaec97d28e0297727d835f35f8d80680c1240284464d70c833ba028c83de1",
+      "inspectedAtOriginalResolution": true
+    }
+  },
+  "contractRead": "Live SDK read verifies directMessage has conversationId and encryptedContent only; additionalProperties=false; recipientId is not required and not permitted.",
+  "published": true,
+  "publicationPath": "yappr/qa-20260915-revalidation/dm-first-message"
+}

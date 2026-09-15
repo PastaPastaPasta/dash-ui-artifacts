@@ -1,0 +1,66 @@
+{
+  "commit": "4105c5d1c914f5d0838619da93c3b8d28b4a780e",
+  "buildId": "4105c5d1",
+  "network": "devnet-moutai",
+  "identity": "AUcoNeieq1VNiyAkQrrn4XE8rpaRT3gSUCQsy7E2SN7x",
+  "fixture": "Fresh programmatically restored seeded session, ordinary browser interactions against built staging app; no mocked UI or responses",
+  "claims": {
+    "authVaultControlsAbsent": "NOT REPRODUCED. Auth Vault contains Enter Key, Add Password Unlock and Add Passkey. Enter Key opens the actual encryption-key dialog.",
+    "privateFeedKeyManagementUnavailable": "NOT REPRODUCED. Enable Private Feed opens actual encryption-key entry form. No key entered and no identity/feed mutation performed.",
+    "duplicatedMobileBottomNav": "RETRACT. Actual 390x844 viewport has one 57px bottom nav. FullPage screenshot captures the closed transformed More menu below the viewport and creates misleading apparent stacked rows."
+  },
+  "geometry": {
+    "viewportHeight": 844,
+    "nav": {
+      "top": 787,
+      "bottom": 844,
+      "height": 57,
+      "zIndex": 50
+    },
+    "closedMoreSheet": {
+      "top": 788,
+      "bottom": 1094,
+      "height": 306,
+      "zIndex": 40,
+      "transform": "translate-y-full",
+      "pointerEvents": "none"
+    },
+    "verifiedAtScrollY": [
+      0,
+      1796
+    ]
+  },
+  "limits": [
+    "Password/passkey enrollment and private-feed publication were not performed; this revalidates availability of controls, not completion of every key-management flow.",
+    "Reason older test missed Auth Vault cannot be conclusively reconstructed; current component displays a skeleton until async status checks complete."
+  ],
+  "screenshots": {
+    "yappr-current-privacy-mobile-viewport-top.png": {
+      "sha256": "6b66967528142f978dd869adf6ed4d9985793825a03a6cb7dbb4b611b767be69",
+      "visuallyInspected": true,
+      "type": "actual viewport screenshot"
+    },
+    "yappr-current-privacy-mobile-viewport-bottom.png": {
+      "sha256": "24f007cec1af5a96366f7e0f0c3d0bae2f246fba1597131046815d29baa4e6f2",
+      "visuallyInspected": true,
+      "type": "actual viewport screenshot"
+    },
+    "yappr-current-encryption-key-dialog.png": {
+      "sha256": "4cc4c11504080c6bb166498140264778f75d8d00971b269b47096759513ae90c",
+      "visuallyInspected": true,
+      "type": "actual viewport screenshot"
+    },
+    "yappr-current-settings-mobile.png": {
+      "sha256": "0f064993935ee309c91d4ebb0a7ea9598955a36722fc9b52ad4429b621173a2b",
+      "visuallyInspected": true,
+      "type": "actual viewport screenshot"
+    },
+    "yappr-current-private-feed-key-entry.png": {
+      "sha256": "c3d2737668aae594ef2d44a1c3cd387f87d861524a2c60139e188de9d8c1a2c0",
+      "visuallyInspected": true,
+      "type": "actual viewport screenshot"
+    }
+  },
+  "published": true,
+  "publicationPath": "yappr/qa-20260915-revalidation/settings-dispositions"
+}
