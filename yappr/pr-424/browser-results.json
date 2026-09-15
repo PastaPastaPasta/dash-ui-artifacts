@@ -1,0 +1,91 @@
+{
+  "base": "4105c5d1c914f5d0838619da93c3b8d28b4a780e",
+  "head": "7a5376816914384253a57aba44efa192e5cfaf02",
+  "owner": "7D12htK5tT9cVbEEJwGS3PAnAZyoF11vW1fXjGePe6Jn",
+  "follower": "FSKjtD7izsATQWr6fZSgbJPxiJM3MZNTLGAj1SvtJu2z",
+  "approvedPost": "BqYTdPePdeknt4oA2T2P8mmDLZxTzrdf5UzUv7uRsxhq",
+  "approvedText": "QA private feed after revoke owner36 2026-09-15 1789507798498",
+  "newText": "QA reply controls after revocation \u2014 September 15, 2026.",
+  "steps": [
+    {
+      "step": "Recipient requested access normally",
+      "at": "2026-09-15T21:57:32.018Z",
+      "url": "http://localhost:3211/devnet/user/?id=7D12htK5tT9cVbEEJwGS3PAnAZyoF11vW1fXjGePe6Jn"
+    },
+    {
+      "step": "Owner approved recipient normally",
+      "at": "2026-09-15T21:57:55.333Z",
+      "url": "http://localhost:3211/devnet/settings/?section=privateFeed"
+    },
+    {
+      "step": "before recipient recovered and decrypted approved post",
+      "at": "2026-09-15T21:58:01.633Z",
+      "url": "http://localhost:3211/devnet/post/?id=BqYTdPePdeknt4oA2T2P8mmDLZxTzrdf5UzUv7uRsxhq"
+    },
+    {
+      "step": "after recipient recovered and decrypted approved post",
+      "at": "2026-09-15T21:58:08.544Z",
+      "url": "http://localhost:3219/devnet/post/?id=BqYTdPePdeknt4oA2T2P8mmDLZxTzrdf5UzUv7uRsxhq"
+    },
+    {
+      "step": "Authorized reply dialog opens after recovery; no reply submitted",
+      "at": "2026-09-15T21:58:09.221Z",
+      "url": "http://localhost:3219/devnet/post/?id=BqYTdPePdeknt4oA2T2P8mmDLZxTzrdf5UzUv7uRsxhq"
+    },
+    {
+      "step": "Owner revoked recipient normally",
+      "at": "2026-09-15T21:58:29.686Z",
+      "url": "http://localhost:3211/devnet/settings/?section=privateFeed"
+    },
+    {
+      "step": "Owner published the new-epoch private QA post",
+      "at": "2026-09-15T21:58:46.937Z",
+      "url": "http://localhost:3211/devnet/settings/?section=privateFeed"
+    },
+    {
+      "step": "before retained recipient session views revoked new-epoch post",
+      "at": "2026-09-15T21:58:49.285Z",
+      "url": "http://localhost:3211/devnet/post/?id=Cse31om2HvWCiYftNaftF5XzdTB3voR458YqTxqmae9u"
+    },
+    {
+      "step": "after retained recipient session views revoked new-epoch post",
+      "at": "2026-09-15T21:58:52.276Z",
+      "url": "http://localhost:3219/devnet/post/?id=Cse31om2HvWCiYftNaftF5XzdTB3voR458YqTxqmae9u"
+    }
+  ],
+  "assertions": [
+    {
+      "state": "before",
+      "scenario": "recovery",
+      "decrypted": true,
+      "replyButtonCount": 0
+    },
+    {
+      "state": "after",
+      "scenario": "recovery",
+      "decrypted": true,
+      "replyButtonCount": 1
+    },
+    {
+      "state": "before",
+      "scenario": "revocation",
+      "contentLocked": true,
+      "replyButtonCount": 1,
+      "replyActionAttempted": false
+    },
+    {
+      "state": "after",
+      "scenario": "revocation",
+      "contentLocked": true,
+      "replyButtonCount": 0,
+      "replyActionAttempted": false
+    }
+  ],
+  "newPost": "Cse31om2HvWCiYftNaftF5XzdTB3voR458YqTxqmae9u",
+  "newEpoch": 3,
+  "success": true,
+  "interpretation": {
+    "recovery": "The captured visible comparison shows decrypted content with denial before and available reply after.",
+    "revocation": "The initial automated baseline measurement counted one reply button; 600 ms later the baseline screenshot had settled to denial. Both final screenshots show locked content and denial. These are compatibility evidence, not a persistent visible before/after bug. No reply action was attempted after revocation."
+  }
+}
