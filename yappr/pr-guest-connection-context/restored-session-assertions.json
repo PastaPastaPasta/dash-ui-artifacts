@@ -1,0 +1,14 @@
+[
+  {
+    "route": "followers",
+    "identityId": "AUcoNeieq1VNiyAkQrrn4XE8rpaRT3gSUCQsy7E2SN7x",
+    "restoredOwnList": true,
+    "guestPromptsSeen": []
+  },
+  {
+    "route": "following",
+    "identityId": "AUcoNeieq1VNiyAkQrrn4XE8rpaRT3gSUCQsy7E2SN7x",
+    "restoredOwnList": true,
+    "guestPromptsSeen": []
+  }
+]

@@ -1,0 +1,51 @@
+{
+  "capturedAt": "2026-09-15T20:54:34.219Z",
+  "phase": "before",
+  "revision": "4105c5d1c914f5d0838619da93c3b8d28b4a780e",
+  "images": [
+    {
+      "filename": "followers-desktop.png",
+      "route": "/devnet/followers/",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "revision": "4105c5d1c914f5d0838619da93c3b8d28b4a780e",
+      "buildId": "4105c5d1",
+      "sha256": "34bb354d50b1b906bbf191792b430f4501dde113b6c6e0840682c5a5025b85fe"
+    },
+    {
+      "filename": "following-desktop.png",
+      "route": "/devnet/following/",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "revision": "4105c5d1c914f5d0838619da93c3b8d28b4a780e",
+      "buildId": "4105c5d1",
+      "sha256": "3b247ad8d25f1b85cc57130e747d7da1a6c8d5daeb75bd8dd2e8aaefb7514630"
+    },
+    {
+      "filename": "followers-mobile.png",
+      "route": "/devnet/followers/",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "revision": "4105c5d1c914f5d0838619da93c3b8d28b4a780e",
+      "buildId": "4105c5d1",
+      "sha256": "863448689c133b30fb3bb624d43556a515a794fa2ff226a44e5f34a284c8f919"
+    },
+    {
+      "filename": "following-mobile.png",
+      "route": "/devnet/following/",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "revision": "4105c5d1c914f5d0838619da93c3b8d28b4a780e",
+      "buildId": "4105c5d1",
+      "sha256": "9849ad35728d17ef83c0a040dbccb58a6628e3c217801c170717c23ba74d81ed"
+    }
+  ]
+}

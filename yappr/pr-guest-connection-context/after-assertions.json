@@ -1,0 +1,55 @@
+{
+  "capturedAt": "2026-09-15T20:55:20.883Z",
+  "phase": "after",
+  "revision": "980ab21326c76ae3649980f3510d3d9116b22428",
+  "images": [
+    {
+      "filename": "followers-desktop.png",
+      "route": "/devnet/followers/",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "revision": "980ab21326c76ae3649980f3510d3d9116b22428",
+      "buildId": "980ab213",
+      "sha256": "db1efe965a789f5d2d975c07bd0060b0649466cf8774d6d0351d5b4c337db85b",
+      "recoveryAction": "Sign In opened existing login dialog"
+    },
+    {
+      "filename": "following-desktop.png",
+      "route": "/devnet/following/",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "revision": "980ab21326c76ae3649980f3510d3d9116b22428",
+      "buildId": "980ab213",
+      "sha256": "a4c331514ae3ea933acb454ae389b25b643d87c2ccf37f1bdcf756c83410cdb6",
+      "recoveryAction": "Explore Yappr opened /devnet/explore/"
+    },
+    {
+      "filename": "followers-mobile.png",
+      "route": "/devnet/followers/",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "revision": "980ab21326c76ae3649980f3510d3d9116b22428",
+      "buildId": "980ab213",
+      "sha256": "91541285546e478c648ddf7a5cc30dbb27dc53a53f6c8bd7ce9e120d892c9c6d",
+      "recoveryAction": "Sign In opened existing login dialog"
+    },
+    {
+      "filename": "following-mobile.png",
+      "route": "/devnet/following/",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "revision": "980ab21326c76ae3649980f3510d3d9116b22428",
+      "buildId": "980ab213",
+      "sha256": "7fdda2d91f107e0ad711be3764be22d4e292c1fb255d4dc0e6efa8507e5c5b10",
+      "recoveryAction": "Explore Yappr opened /devnet/explore/"
+    }
+  ]
+}
