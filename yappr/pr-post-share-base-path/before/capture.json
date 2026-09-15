@@ -1,0 +1,21 @@
+{
+  "side": "before",
+  "revision": "4105c5d1c914f5d0838619da93c3b8d28b4a780e",
+  "base": "http://127.0.0.1:3211/devnet",
+  "postId": "Aey3uVJBpk7hEUi48zxRfZMavt3pQNeTdsUXkp4zppCd",
+  "question": "QA poll42 2026-09-15 1789508659124 choose a test option",
+  "copiedUrl": "http://127.0.0.1:3211/post?id=Aey3uVJBpk7hEUi48zxRfZMavt3pQNeTdsUXkp4zppCd",
+  "destinationUrl": "http://127.0.0.1:3211/post?id=Aey3uVJBpk7hEUi48zxRfZMavt3pQNeTdsUXkp4zppCd",
+  "status": 404,
+  "destinationBody": "DEVNET|Running on a Dash Platform devnet. Data may be reset.\n404\nThis page could not be found.",
+  "at": "2026-09-15T21:56:35.320Z",
+  "viewport": {
+    "width": 1280,
+    "height": 1000
+  },
+  "freshBrowserContext": true,
+  "session": "guest",
+  "sourceWorktreeClean": true,
+  "buildCommand": "npm run build:devnet",
+  "buildId": "4105c5d1"
+}

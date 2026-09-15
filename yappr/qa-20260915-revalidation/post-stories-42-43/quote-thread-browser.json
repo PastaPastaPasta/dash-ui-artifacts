@@ -1,0 +1,67 @@
+{
+  "revision": "4105c5d1c914f5d0838619da93c3b8d28b4a780e",
+  "author": "BnkpxN1fNp4aQdQM6EhSd12ytb84NCZeTG7rSmyaZVUJ",
+  "reader": "6j2znBwntSsuAAitnMLBN9YMx8cx98ZPDpod5yRjhhFg",
+  "quoteText": "QA quote43 2026-09-15 1789508867539",
+  "threadTag": "QA thread42 2026-09-15 1789508867539",
+  "stages": [
+    {
+      "stage": "quote composer includes target post",
+      "at": "2026-09-15T21:47:51.455Z",
+      "url": "http://127.0.0.1:3211/devnet/post/?id=Aey3uVJBpk7hEUi48zxRfZMavt3pQNeTdsUXkp4zppCd"
+    },
+    {
+      "stage": "fresh author session sees quote text and referenced post",
+      "at": "2026-09-15T21:48:11.753Z",
+      "url": "http://127.0.0.1:3211/devnet/post/?id=4oqu9oaaL9TRwHdPaxjtSEMhE6JHicDC4SWSEeALziZ5"
+    },
+    {
+      "stage": "three-part thread composer",
+      "at": "2026-09-15T21:48:13.240Z",
+      "url": "http://127.0.0.1:3211/devnet/feed/"
+    },
+    {
+      "stage": "three-part thread submission finished",
+      "at": "2026-09-15T21:48:25.966Z",
+      "url": "http://127.0.0.1:3211/devnet/feed/"
+    },
+    {
+      "stage": "failure",
+      "at": "2026-09-15T21:49:46.581Z",
+      "url": "http://127.0.0.1:3211/devnet/post/?id=CSJApE3RuvpZwrox3MLyQuKEZHBxjLPP7Eo4Y1wzMBxn"
+    }
+  ],
+  "errors": [
+    {
+      "idx": 43,
+      "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    },
+    {
+      "idx": 42,
+      "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    },
+    {
+      "idx": 42,
+      "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    },
+    {
+      "idx": 43,
+      "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    }
+  ],
+  "quotedPostId": "Aey3uVJBpk7hEUi48zxRfZMavt3pQNeTdsUXkp4zppCd",
+  "quotePostId": "4oqu9oaaL9TRwHdPaxjtSEMhE6JHicDC4SWSEeALziZ5",
+  "quoteSuccess": true,
+  "threadParts": [
+    "QA thread42 2026-09-15 1789508867539 part 1 of 3",
+    "QA thread42 2026-09-15 1789508867539 part 2 of 3",
+    "QA thread42 2026-09-15 1789508867539 part 3 of 3"
+  ],
+  "threadRootId": "7foMhZq2UAc2QTnosgaNhUhKi1Bwv89rd8CqDVHihPUu",
+  "threadReplyIds": [
+    "2KBKMfyLKHihy1791TNNYJLaETfSbdQQ3kGQJBrjgWfd",
+    "CSJApE3RuvpZwrox3MLyQuKEZHBxjLPP7Eo4Y1wzMBxn"
+  ],
+  "failure": "Error: expect(locator).toBeVisible() failed\n\nLocator: getByText('QA thread42 2026-09-15 1789508867539 part 2 of 3', { exact: true })\nExpected: visible\nTimeout: 60000ms\nError: element(s) not found\n\nCall log:\n  - Expect \"to.be.visible\" with timeout 60000ms\n  - waiting for getByText('QA thread42 2026-09-15 1789508867539 part 2 of 3', { exact: true })\n",
+  "visibleBody": "DEVNET|Running on a Dash Platform devnet. Data may be reset.\nYappr\nHome\nFollowing\nFollowers\nExplore\nStore\nBlog\nNotifications\nMessages\nBookmarks\nProfile\nSettings\nPost\n\n@nadiaw93.dash\n\n6j2znB...hhFg\n\nPost\nUnknown User\nBnkpxN1f...yaZVUJ\n\u00b7\n1m\nQA thread42 2026-09-15 1789508867539 part 1 of 3\nHarriet Ikeda\n@harriet-mixes7.dash\n\u00b7\n1m\nQA thread42 2026-09-15 1789508867539 part 3 of 3\nPost your reply\n\nNo replies yet. Be the first to reply!\n\nTrending\n1\n\n#masternodes\n\n32 likes\n\n2\n\n#hiking\n\n13 likes\n\n3\n\n#dashplatform\n\n13 likes\n\n4\n\n#life\n\n12 likes\n\n5\n\n#weekend\n\n11 likes\n\n6\n\n#dash\n\n11 likes\n\n7\n\n#shoplocal\n\n6 likes\n\n8\n\n#memes\n\n6 likes\n\nShow more\nStats\nTotal Posts\n6.5K\nYour Posts\n37\nFollowers\n0\nFollowing\n0\nTermsPrivacyCookiesAbout"
+}

@@ -1,0 +1,21 @@
+{
+  "side": "after",
+  "revision": "b125d3d2b97c723f17ac7932de63b94b8034311e",
+  "base": "http://127.0.0.1:3226/devnet",
+  "postId": "Aey3uVJBpk7hEUi48zxRfZMavt3pQNeTdsUXkp4zppCd",
+  "question": "QA poll42 2026-09-15 1789508659124 choose a test option",
+  "copiedUrl": "http://127.0.0.1:3226/devnet/post/?id=Aey3uVJBpk7hEUi48zxRfZMavt3pQNeTdsUXkp4zppCd",
+  "destinationUrl": "http://127.0.0.1:3226/devnet/post/?id=Aey3uVJBpk7hEUi48zxRfZMavt3pQNeTdsUXkp4zppCd",
+  "status": 200,
+  "destinationBody": "DEVNET|Running on a Dash Platform devnet. Data may be reset.\nYappr\nHome\nExplore\nStore\nBlog\nSign In\n\nJoin Yappr to share your voice on the decentralized web\n\nPost\nHarriet Ikeda\n@harriet-mixes7.dash\n\u00b7\n14m\nQA poll42 2026-09-15 1789508659124 choose a test option\nQA option A\n50% \u00b7 1\nQA option B\n50% \u00b7 1\n2 votes\nSign in to vote\nPowered by Pollr\n\nLog in to reply\n\nNo replies yet. Be the first to reply!\n\nTrending\n1\n\n#masternodes\n\n32 likes\n\n2\n\n#hiking\n\n13 likes\n\n3\n\n#dashplatform\n\n13 likes\n\n4\n\n#life\n\n12 likes\n\n5\n\n#weekend\n\n11 likes\n\n6\n\n#dash\n\n11 likes\n\n7\n\n#shoplocal\n\n6 likes\n\n8\n\n#memes\n\n6 likes\n\nShow more\nStats\nTotal Posts\n6.5K\nTermsPrivacyCookiesAbout",
+  "at": "2026-09-15T21:58:48.342Z",
+  "viewport": {
+    "width": 1280,
+    "height": 1000
+  },
+  "freshBrowserContext": true,
+  "session": "guest",
+  "sourceWorktreeClean": true,
+  "buildCommand": "npm run build:devnet",
+  "buildId": "b125d3d2"
+}

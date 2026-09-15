@@ -1,0 +1,73 @@
+{
+  "revision": "4105c5d1c914f5d0838619da93c3b8d28b4a780e",
+  "author": "BnkpxN1fNp4aQdQM6EhSd12ytb84NCZeTG7rSmyaZVUJ",
+  "reader": "6j2znBwntSsuAAitnMLBN9YMx8cx98ZPDpod5yRjhhFg",
+  "question": "QA poll42 2026-09-15 1789508659124 choose a test option",
+  "choices": [
+    "QA option A",
+    "QA option B"
+  ],
+  "stages": [
+    {
+      "stage": "poll draft with two choices and one-day close",
+      "at": "2026-09-15T21:44:19.808Z",
+      "url": "http://127.0.0.1:3211/devnet/feed/"
+    },
+    {
+      "stage": "poll post submitted",
+      "at": "2026-09-15T21:44:29.499Z",
+      "url": "http://127.0.0.1:3211/devnet/feed/"
+    },
+    {
+      "stage": "fresh reader sees poll choices",
+      "at": "2026-09-15T21:44:45.446Z",
+      "url": "http://127.0.0.1:3211/devnet/post/?id=Aey3uVJBpk7hEUi48zxRfZMavt3pQNeTdsUXkp4zppCd"
+    },
+    {
+      "stage": "vote accepted",
+      "at": "2026-09-15T21:44:49.554Z",
+      "url": "http://127.0.0.1:3211/devnet/post/?id=Aey3uVJBpk7hEUi48zxRfZMavt3pQNeTdsUXkp4zppCd"
+    },
+    {
+      "stage": "single-choice vote persists in fresh reader session",
+      "at": "2026-09-15T21:44:54.954Z",
+      "url": "http://127.0.0.1:3211/devnet/post/?id=Aey3uVJBpk7hEUi48zxRfZMavt3pQNeTdsUXkp4zppCd"
+    },
+    {
+      "stage": "share button copied URL",
+      "at": "2026-09-15T21:44:56.517Z",
+      "url": "http://127.0.0.1:3211/devnet/post/?id=Aey3uVJBpk7hEUi48zxRfZMavt3pQNeTdsUXkp4zppCd"
+    },
+    {
+      "stage": "opened copied post link",
+      "at": "2026-09-15T21:44:58.095Z",
+      "url": "http://127.0.0.1:3211/post?id=Aey3uVJBpk7hEUi48zxRfZMavt3pQNeTdsUXkp4zppCd"
+    }
+  ],
+  "errors": [
+    {
+      "idx": 42,
+      "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    },
+    {
+      "idx": 43,
+      "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    },
+    {
+      "idx": 43,
+      "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    }
+  ],
+  "postId": "Aey3uVJBpk7hEUi48zxRfZMavt3pQNeTdsUXkp4zppCd",
+  "embed": {
+    "embedId": "DMN4Y5rkdCiFBUmhzgzizJbMFX6RpQaqLq4666Hc6aB3",
+    "embedDocType": "poll",
+    "embedContractId": "GvsLuXtg8KibQusPt2LfBg7DvvHUDDDzhjcVnD38EbuR"
+  },
+  "voteSuccess": true,
+  "copiedUrl": "http://127.0.0.1:3211/post?id=Aey3uVJBpk7hEUi48zxRfZMavt3pQNeTdsUXkp4zppCd",
+  "expectedUrl": "http://127.0.0.1:3211/devnet/post?id=Aey3uVJBpk7hEUi48zxRfZMavt3pQNeTdsUXkp4zppCd",
+  "copiedUrlResponse": 404,
+  "shareKeepsBasePath": false,
+  "completed": true
+}

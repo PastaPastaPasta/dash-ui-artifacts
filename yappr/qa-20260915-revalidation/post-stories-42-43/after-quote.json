@@ -1,0 +1,67 @@
+{
+  "author": "BnkpxN1fNp4aQdQM6EhSd12ytb84NCZeTG7rSmyaZVUJ",
+  "reader": "6j2znBwntSsuAAitnMLBN9YMx8cx98ZPDpod5yRjhhFg",
+  "contract": "CdUkSHkQwGXXAkzKqrcrjUWLsj7qErK9XAZmLzJEhirU",
+  "pollContract": "GvsLuXtg8KibQusPt2LfBg7DvvHUDDDzhjcVnD38EbuR",
+  "at": "2026-09-15T21:48:00.112Z",
+  "documents": {
+    "BnkpxN1fNp4aQdQM6EhSd12ytb84NCZeTG7rSmyaZVUJ:post": [
+      {
+        "id": "Aey3uVJBpk7hEUi48zxRfZMavt3pQNeTdsUXkp4zppCd",
+        "$formatVersion": "0",
+        "$id": "Aey3uVJBpk7hEUi48zxRfZMavt3pQNeTdsUXkp4zppCd",
+        "$ownerId": "BnkpxN1fNp4aQdQM6EhSd12ytb84NCZeTG7rSmyaZVUJ",
+        "author": "BnkpxN1fNp4aQdQM6EhSd12ytb84NCZeTG7rSmyaZVUJ",
+        "content": "QA poll42 2026-09-15 1789508659124 choose a test option",
+        "embedContractId": "GvsLuXtg8KibQusPt2LfBg7DvvHUDDDzhjcVnD38EbuR",
+        "embedDocType": "poll",
+        "embedId": "DMN4Y5rkdCiFBUmhzgzizJbMFX6RpQaqLq4666Hc6aB3",
+        "language": "en",
+        "$revision": 1,
+        "$createdAt": 1789508668130,
+        "$updatedAt": null,
+        "$transferredAt": null,
+        "$createdAtBlockHeight": null,
+        "$updatedAtBlockHeight": null,
+        "$transferredAtBlockHeight": null,
+        "$createdAtCoreBlockHeight": null,
+        "$updatedAtCoreBlockHeight": null,
+        "$transferredAtCoreBlockHeight": null,
+        "$creatorId": null,
+        "$contractVersion": 1,
+        "$dataContractId": "CdUkSHkQwGXXAkzKqrcrjUWLsj7qErK9XAZmLzJEhirU",
+        "$type": "post"
+      }
+    ],
+    "BnkpxN1fNp4aQdQM6EhSd12ytb84NCZeTG7rSmyaZVUJ:reply": [],
+    "6j2znBwntSsuAAitnMLBN9YMx8cx98ZPDpod5yRjhhFg:post": [
+      {
+        "id": "4oqu9oaaL9TRwHdPaxjtSEMhE6JHicDC4SWSEeALziZ5",
+        "$formatVersion": "0",
+        "$id": "4oqu9oaaL9TRwHdPaxjtSEMhE6JHicDC4SWSEeALziZ5",
+        "$ownerId": "6j2znBwntSsuAAitnMLBN9YMx8cx98ZPDpod5yRjhhFg",
+        "author": "6j2znBwntSsuAAitnMLBN9YMx8cx98ZPDpod5yRjhhFg",
+        "content": "QA quote43 2026-09-15 1789508867539",
+        "language": "en",
+        "quotedPostId": "Aey3uVJBpk7hEUi48zxRfZMavt3pQNeTdsUXkp4zppCd",
+        "quotedPostOwnerId": "BnkpxN1fNp4aQdQM6EhSd12ytb84NCZeTG7rSmyaZVUJ",
+        "$revision": 1,
+        "$createdAt": 1789508874457,
+        "$updatedAt": null,
+        "$transferredAt": null,
+        "$createdAtBlockHeight": null,
+        "$updatedAtBlockHeight": null,
+        "$transferredAtBlockHeight": null,
+        "$createdAtCoreBlockHeight": null,
+        "$updatedAtCoreBlockHeight": null,
+        "$transferredAtCoreBlockHeight": null,
+        "$creatorId": null,
+        "$contractVersion": 1,
+        "$dataContractId": "CdUkSHkQwGXXAkzKqrcrjUWLsj7qErK9XAZmLzJEhirU",
+        "$type": "post"
+      }
+    ],
+    "6j2znBwntSsuAAitnMLBN9YMx8cx98ZPDpod5yRjhhFg:reply": []
+  },
+  "scopeNote": "Only this QA run post/reply records retained; poll/vote query results retained."
+}

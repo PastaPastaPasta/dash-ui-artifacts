@@ -1,0 +1,60 @@
+{
+  "revision": "4105c5d1c914f5d0838619da93c3b8d28b4a780e",
+  "author": "BnkpxN1fNp4aQdQM6EhSd12ytb84NCZeTG7rSmyaZVUJ",
+  "reader": "6j2znBwntSsuAAitnMLBN9YMx8cx98ZPDpod5yRjhhFg",
+  "quoteText": "QA quote43 2026-09-15 1789509494838",
+  "threadTag": "QA thread42 2026-09-15 1789509494838",
+  "stages": [
+    {
+      "stage": "own thread reply delete confirmation",
+      "at": "2026-09-15T21:58:20.164Z",
+      "url": "http://127.0.0.1:3211/devnet/post/?id=CSJApE3RuvpZwrox3MLyQuKEZHBxjLPP7Eo4Y1wzMBxn"
+    },
+    {
+      "stage": "fresh reader sees deleted reply tombstone",
+      "at": "2026-09-15T21:58:30.350Z",
+      "url": "http://127.0.0.1:3211/devnet/post/?id=CSJApE3RuvpZwrox3MLyQuKEZHBxjLPP7Eo4Y1wzMBxn"
+    }
+  ],
+  "errors": [
+    {
+      "idx": 42,
+      "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    },
+    {
+      "idx": 43,
+      "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    },
+    {
+      "idx": 42,
+      "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    },
+    {
+      "idx": 43,
+      "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    },
+    {
+      "idx": 42,
+      "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    },
+    {
+      "idx": 43,
+      "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    }
+  ],
+  "deleted": [
+    {
+      "id": "CSJApE3RuvpZwrox3MLyQuKEZHBxjLPP7Eo4Y1wzMBxn",
+      "type": "reply"
+    },
+    {
+      "id": "2KBKMfyLKHihy1791TNNYJLaETfSbdQQ3kGQJBrjgWfd",
+      "type": "reply"
+    },
+    {
+      "id": "7foMhZq2UAc2QTnosgaNhUhKi1Bwv89rd8CqDVHihPUu",
+      "type": "post"
+    }
+  ],
+  "deleteSuccess": true
+}
