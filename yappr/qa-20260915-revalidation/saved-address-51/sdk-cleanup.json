@@ -1,0 +1,15 @@
+{
+  "at": "2026-09-15T23:39:56.038Z",
+  "identityId": "9enksyZPnWQUovGXXAQ879uJtBvbHTUY3ewJ5Tq5QNVe",
+  "documents": [
+    {
+      "id": "Fio3E9RNkP2Su23cXQfX5dvAc3MckewAgv8W7B3uqokz",
+      "revision": 17,
+      "encryptedBytes": 77,
+      "decryptedPayload": {
+        "version": 1,
+        "addresses": []
+      }
+    }
+  ]
+}

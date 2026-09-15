@@ -1,0 +1,14 @@
+{
+  "at": "2026-09-15T23:40:41.576Z",
+  "revision": "d566e38956925576e439957f3817b19e10182662",
+  "identityId": "9enksyZPnWQUovGXXAQ879uJtBvbHTUY3ewJ5Tq5QNVe",
+  "authentication": "restored seeded QA auth session; encryption key entered using real UI",
+  "steps": [
+    {
+      "at": "2026-09-15T23:40:48.103Z",
+      "step": "Encryption key restored through UI; saved-address section inspected without reload"
+    }
+  ],
+  "postRestoreSavedSection": "Saved Shipping Addresses\n\nNo saved addresses yet. Save an address during checkout for faster ordering.\n\nManage Saved Addresses",
+  "manageWorksWithoutReload": true
+}

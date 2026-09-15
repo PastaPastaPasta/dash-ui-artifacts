@@ -1,0 +1,13 @@
+{
+  "at": "2026-09-15T23:40:35.217Z",
+  "revision": "4105c5d1c914f5d0838619da93c3b8d28b4a780e",
+  "identityId": "9enksyZPnWQUovGXXAQ879uJtBvbHTUY3ewJ5Tq5QNVe",
+  "authentication": "restored seeded QA auth session; encryption key entered using real UI",
+  "steps": [
+    {
+      "at": "2026-09-15T23:40:41.255Z",
+      "step": "Encryption key restored through UI; saved-address section inspected without reload"
+    }
+  ],
+  "postRestoreSavedSection": "Saved Shipping Addresses\n\nTo save shipping addresses securely, you need to set up an encryption key. Your addresses will be encrypted so only you can access them.\n\nYou can add an encryption key in the Privacy & Security section above."
+}

@@ -1,0 +1,12 @@
+{
+  "side": "after",
+  "base": "http://127.0.0.1:3245/devnet",
+  "revision": "afd913348775e345c9d1968556ad73d999413775",
+  "at": "2026-09-15T23:37:43.327Z",
+  "steps": [
+    "Delete default; remaining address badge 1"
+  ],
+  "defaultCount": 1,
+  "nondefaultDeletionPassed": true,
+  "freshPersistencePassed": true
+}

@@ -1,0 +1,11 @@
+{
+  "at": "2026-09-15T23:33:42.026Z",
+  "revision": "4105c5d1c914f5d0838619da93c3b8d28b4a780e",
+  "buyerIdentityId": "9enksyZPnWQUovGXXAQ879uJtBvbHTUY3ewJ5Tq5QNVe",
+  "noPaymentSent": true,
+  "noShipmentRequested": true,
+  "savedAddressReused": true,
+  "shippingLookupRace": "First immediate attempt hit known PR431 issue; unchanged address progressed after waiting4 seconds.",
+  "review": "Checkout\nCancel\n1\n2\n3\nPayment\n\nQA devnet test wallet\n\ntdash:yebJ474guauJnZJ8JiC6zABRbANjgQsVNK\n\nBack to payment options\ntD\nDash (Testnet)\n\nScan to send payment\n\nFetching price...\n\nAddress\n\nyebJ474guauJnZJ8JiC6zABRbANjgQsVNK\n\nWaiting for payment...\n\nAuto-detecting\nCopy Address\nOpen in Wallet\n\nOr use the button above to open in your wallet app\n\nTransaction ID (optional)\n\nTransaction will be auto-detected when you send payment\n\nRefund Address (optional) - tdash:\nReview Order\nQA Commerce 40 20260915\n\nQA Parcel 40 20260915\n\n0.0000 DASH\n\nx1\n\nShip to:\n\nQA Buyer 51\n\n123 QA Test Lane\n\nQA City, IL 60602\n\nUS\n\nSubtotal\n0.0000 DASH\nShipping\n0.0000 DASH\nTotal\n0.0000 DASH\nOrder Notes (optional)\nPlace Order\n\nYour order details will be encrypted and sent securely to the seller.",
+  "result": "Order Placed!\n\nYour order has been sent to the seller. They will process it and provide updates.\n\nView Orders\nContinue Shopping"
+}

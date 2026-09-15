@@ -1,0 +1,33 @@
+{
+  "at": "2026-09-15T23:27:47.458Z",
+  "identityId": "9enksyZPnWQUovGXXAQ879uJtBvbHTUY3ewJ5Tq5QNVe",
+  "documents": [
+    {
+      "id": "Fio3E9RNkP2Su23cXQfX5dvAc3MckewAgv8W7B3uqokz",
+      "revision": 5,
+      "encryptedBytes": 360,
+      "decryptedPayload": {
+        "version": 1,
+        "addresses": [
+          {
+            "id": "fb7aa024-3d6c-4108-ac84-0a0b6fcc5a06",
+            "label": "QA Home 51",
+            "address": {
+              "name": "QA Buyer 51",
+              "street": "123 QA Test Lane",
+              "city": "QA City",
+              "state": "IL",
+              "postalCode": "60602",
+              "country": "US"
+            },
+            "contact": {
+              "email": "qa-buyer@example.invalid"
+            },
+            "isDefault": true,
+            "createdAt": 1789514720133
+          }
+        ]
+      }
+    }
+  ]
+}

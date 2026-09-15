@@ -1,0 +1,10 @@
+{
+  "at": "2026-09-15T23:38:12.929Z",
+  "orderId": "6QG73j7P4BUunFrkzHYcxUuA9TJ2XPJ1u9zcwhFmmudf",
+  "sellerId": "5Qazb9Ncc7LgLSSWkPj36Qpp5ZpEoQEcHNR2Ync7cJcK",
+  "buyerIdentityId": "9enksyZPnWQUovGXXAQ879uJtBvbHTUY3ewJ5Tq5QNVe",
+  "sellerCancelled": true,
+  "freshBuyerStatusPassed": true,
+  "freshBuyerDecryptionPassed": true,
+  "buyerBody": "My Orders\nSeller Orders\nQA Commerce 40 20260915\n\nOrder #6QG73j7P...0.0000 DASH\n\n9/15/2026\n\nCancelled\n\nItems\n\nQA Parcel 40 20260915 x1\n0.0000 DASH\nSubtotal\n0.0000 DASH\nShipping\n0.0000 DASH\nTotal\n0.0000 DASH\n\nShips to\n\nQA Buyer 51, QA City, US\n\nQA cancellation test only. No payment sent; no shipment.\n\nLeave Review"
+}

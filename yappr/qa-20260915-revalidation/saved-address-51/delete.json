@@ -1,0 +1,9 @@
+{
+  "at": "2026-09-15T23:26:36.624Z",
+  "cancelDeletionPassed": true,
+  "immediateRemaining": "Saved Addresses\nQA Home 51\n\nQA Buyer 51\n\n123 QA Test Lane, QA City, IL, 60602\n\nClose\nAdd Address",
+  "immediateDefaultCount": 0,
+  "freshRemaining": "Saved Addresses\nQA Home 51\nDefault\n\nQA Buyer 51\n\n123 QA Test Lane, QA City, IL, 60602\n\nClose\nAdd Address",
+  "freshDefaultCount": 1,
+  "deletedAndFreshReadPassed": true
+}

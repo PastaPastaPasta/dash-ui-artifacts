@@ -1,0 +1,55 @@
+{
+  "side": "before",
+  "base": "http://127.0.0.1:3232/devnet",
+  "revision": "4105c5d1c914f5d0838619da93c3b8d28b4a780e",
+  "at": "2026-09-15T23:39:18.232Z",
+  "noAddressWrites": true,
+  "fullNameFocused": "radix-:r5:",
+  "labelMappings": [
+    {
+      "text": "Label *",
+      "for": "",
+      "hasControl": false
+    },
+    {
+      "text": "Full Name *",
+      "for": "",
+      "hasControl": false
+    },
+    {
+      "text": "Street Address *",
+      "for": "",
+      "hasControl": false
+    },
+    {
+      "text": "City *",
+      "for": "",
+      "hasControl": false
+    },
+    {
+      "text": "State/Province",
+      "for": "",
+      "hasControl": false
+    },
+    {
+      "text": "Postal Code *",
+      "for": "",
+      "hasControl": false
+    },
+    {
+      "text": "Country *",
+      "for": "",
+      "hasControl": false
+    },
+    {
+      "text": "Email",
+      "for": "",
+      "hasControl": false
+    },
+    {
+      "text": "Phone",
+      "for": "",
+      "hasControl": false
+    }
+  ]
+}

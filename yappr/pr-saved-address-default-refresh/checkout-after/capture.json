@@ -1,0 +1,14 @@
+{
+  "side": "after",
+  "base": "http://127.0.0.1:3245/devnet",
+  "revision": "afd913348775e345c9d1968556ad73d999413775",
+  "at": "2026-09-15T23:39:20.429Z",
+  "steps": [
+    "Delete default; remaining address badge 1"
+  ],
+  "defaultCount": 1,
+  "checkoutDefaultDeletionPassed": true,
+  "lastAddressDeletionPassed": true,
+  "freshEmptySettingsPassed": true,
+  "cartCleared": true
+}

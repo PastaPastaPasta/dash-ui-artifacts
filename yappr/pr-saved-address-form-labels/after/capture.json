@@ -1,0 +1,56 @@
+{
+  "side": "after",
+  "base": "http://127.0.0.1:3246/devnet",
+  "revision": "4369bc2a16826d28c1bc6554034fa420a29e8c4d",
+  "at": "2026-09-15T23:38:16.682Z",
+  "noAddressWrites": true,
+  "fullNameFocused": ":r5:-name",
+  "labelMappings": [
+    {
+      "text": "Label *",
+      "for": ":r5:-label",
+      "hasControl": true
+    },
+    {
+      "text": "Full Name *",
+      "for": ":r5:-name",
+      "hasControl": true
+    },
+    {
+      "text": "Street Address *",
+      "for": ":r5:-street",
+      "hasControl": true
+    },
+    {
+      "text": "City *",
+      "for": ":r5:-city",
+      "hasControl": true
+    },
+    {
+      "text": "State/Province",
+      "for": ":r5:-state",
+      "hasControl": true
+    },
+    {
+      "text": "Postal Code *",
+      "for": ":r5:-postalCode",
+      "hasControl": true
+    },
+    {
+      "text": "Country *",
+      "for": ":r5:-country",
+      "hasControl": true
+    },
+    {
+      "text": "Email",
+      "for": ":r5:-email",
+      "hasControl": true
+    },
+    {
+      "text": "Phone",
+      "for": ":r5:-phone",
+      "hasControl": true
+    }
+  ],
+  "namedControlsWork": true
+}

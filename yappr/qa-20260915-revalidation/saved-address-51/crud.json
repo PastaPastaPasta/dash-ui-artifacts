@@ -1,0 +1,32 @@
+{
+  "at": "2026-09-15T23:25:17.930Z",
+  "revision": "4105c5d1c914f5d0838619da93c3b8d28b4a780e",
+  "steps": [
+    {
+      "step": "Empty required fields correctly rejected",
+      "at": "2026-09-15T23:25:19.822Z"
+    },
+    {
+      "step": "Created first address; marked default",
+      "at": "2026-09-15T23:25:21.787Z"
+    },
+    {
+      "step": "Created second address; first remains default",
+      "at": "2026-09-15T23:25:24.274Z"
+    },
+    {
+      "step": "Edited second address label and street",
+      "at": "2026-09-15T23:25:26.228Z"
+    },
+    {
+      "step": "Changed default to edited address",
+      "at": "2026-09-15T23:25:28.148Z"
+    },
+    {
+      "step": "Fresh reload decrypts both addresses and preserves updated default",
+      "at": "2026-09-15T23:25:29.153Z"
+    }
+  ],
+  "error": "TimeoutError: locator.innerText: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('alertdialog')\u001b[22m\n",
+  "body": "DEVNET|Running on a Dash Platform devnet. Data may be reset.\nYappr\nHome\nFollowing\nFollowers\nExplore\nStore\nBlog\nNotifications\nMessages\nBookmarks\nProfile\nSettings\nPost\n\n@seeds-tariq7.dash\n\n9enksy...QNVe\n\nPrivacy & Security\nAuth Vault\n\nOne encrypted bundle with password and passkey unlock methods\n\nKeys Status\nCanonical Secret\nPrivate key\nEncryption Key\nExternal\nActive\nTransfer Key\nVault locked on this device\nPasskeys\nNone\n\nNo password unlock found\n\nAdd a password wrapper so this auth vault can be unlocked with your username and password.\n\nAdd Password Unlock\nAdd Passkey\n\nKeep at least two unlock methods if you want a realistic recovery path.\n\nHow it works:\n•\nOne encrypted auth bundle is stored on Dash Platform\n•\nPasswords and passkeys each wrap the same vault key instead of duplicating secrets\n•\nWallet QR users keep their wallet login secret as the canonical root material\n•\nYappr captures encryption and transfer keys into the same vault once they are learned\nPrivacy\n\nLink Previews\n\nShow previews with titles, descriptions, and images for links\n\nPrivacy note: Some URLs (YouTube, Reddit, IPFS, etc.) are fetched directly from their services. Other URLs use third-party proxy servers to fetch metadata. These services may log the URLs you view.\n\nThird-party services used: allorigins.win, corsproxy.io\n\nBlur Media From People You Don't Follow\n\nImages and link previews from accounts you don't follow stay hidden behind a blurred placeholder until you tap to reveal them\n\nDirect Messages\n\nRead Receipts\n\nLet others see when you've read their messages\n\nNSFW Content\n\nHow to handle posts their author flagged as NSFW\n\nWarn first\n\nCover NSFW posts until you choose to show them\n\nAlways show\n\nShow NSFW posts without a warning\n\nHide\n\nRemove NSFW posts from your feeds\n\nBlock Lists\n\nFollow trusted users' block lists to help filter your feed. When enabled, anyone they block will also be hidden from your feed.\n\nYou're not following anyone yet\n\nFollow users to see them here\n\nBlocked Users\n\nYou haven't blocked anyone\n\nSaved Shipping Addresses\n\n2 saved addresses\n\nQA Home 51\n- QA City, US\nQA Office 51\nDefault\n- QA City, US\nManage Saved Addresses\nTrending\n1\n\n#masternodes\n\n32 likes\n\n2\n\n#hiking\n\n13 likes\n\n3\n\n#dashplatform\n\n13 likes\n\n4\n\n#life\n\n12 likes\n\n5\n\n#weekend\n\n11 likes\n\n6\n\n#dash\n\n11 likes\n\n7\n\n#shoplocal\n\n6 likes\n\n8\n\n#memes\n\n6 likes\n\nShow more\nStats\nTotal Posts\n6.5K\nYour Posts\n63\nFollowers\n0\nFollowing\n0\nTermsPrivacyCookiesAbout\nSaved Addresses\nQA Home 51\n\nQA Buyer 51\n\n123 QA Test Lane, QA City, IL, 60602\n\nQA Office 51\nDefault\n\nQA Buyer 51\n\n789 QA Test Lane, QA City, IL, 60602\n\nClose\nAdd Address\nDelete Address\n\nAre you sure you want to delete this saved address? This action cannot be undone.\n\nCancel\nDelete"
+}
