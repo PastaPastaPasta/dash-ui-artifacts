@@ -1,0 +1,24 @@
+{
+  "beforeRevision": "4105c5d1c914f5d0838619da93c3b8d28b4a780e",
+  "afterRevision": "fdec9891614efac75ba0397eff9f7df418938c18",
+  "buildIds": [
+    "4105c5d1",
+    "fdec9891"
+  ],
+  "network": "devnet-moutai",
+  "viewport": {
+    "width": 1280,
+    "height": 1000
+  },
+  "route": "/devnet/login/ -> /devnet/feed/",
+  "browser": "Chromium Playwright headless",
+  "authentication": "Actual key login in independent fresh contexts; same unnamed funded identity. No injected session. No filledsecret capture.",
+  "adapter": "Identical prefix-stripping static export adapter, before3232 and after3233",
+  "measurement": "After auth settles 2.5sec: before usernameheading1/input1/backdrops2; after usernameheading0/input0/backdrops1. Clicking visible backup Skip for now reveals usernameinput on both.",
+  "sha256": {
+    "before/backup-step.png": "7c1e5e73e1826f47edc40f75c66c0812c35a8f1b970f2607a4be9355ed677d34",
+    "before/username-next.png": "e455212f330da52ccb38a1af900ccbd74985835a376245eb48bb39e1f21e32b0",
+    "after/backup-step.png": "0f83d8e5f7b43d9b8df2f45e2ff01eb392d2b971492e2123366f3915855fe433",
+    "after/username-next.png": "e455212f330da52ccb38a1af900ccbd74985835a376245eb48bb39e1f21e32b0"
+  }
+}

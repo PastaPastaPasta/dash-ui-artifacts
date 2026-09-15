@@ -1,0 +1,14 @@
+{
+  "side": "after",
+  "base": "http://127.0.0.1:3233/devnet",
+  "revision": "fdec9891614efac75ba0397eff9f7df418938c18",
+  "identityId": "57i6krpfkLARMr9SbXSGhxtCd4dk6BFkJUMpuom4EiiX",
+  "at": "2026-09-15T23:05:56.333Z",
+  "actualKeyLogin": true,
+  "secretEntryCaptured": false,
+  "usernameHeadingsDuringBackup": 0,
+  "usernameInputsDuringBackup": 0,
+  "backdrops": 1,
+  "usernameContinuesAfterSkip": true,
+  "passed": true
+}
