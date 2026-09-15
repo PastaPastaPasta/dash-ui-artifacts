@@ -1,0 +1,24 @@
+{
+  "revision": "4105c5d1c914f5d0838619da93c3b8d28b4a780e",
+  "at": "2026-09-15T22:45:12.413Z",
+  "buyer": "9enksyZPnWQUovGXXAQ879uJtBvbHTUY3ewJ5Tq5QNVe",
+  "recipient": "5rxCEiuGfwPkYFQ94mvxDaDG7W7dEdpU2zhq7aTLJ1cM",
+  "stages": [
+    {
+      "stage": "Fresh buyer session shows670YAPP",
+      "at": "2026-09-15T22:45:14.808Z",
+      "url": "http://127.0.0.1:3211/devnet/feed/"
+    },
+    {
+      "stage": "Fresh recipient session shows increasedcredits",
+      "at": "2026-09-15T22:45:17.291Z",
+      "url": "http://127.0.0.1:3211/devnet/feed/"
+    }
+  ],
+  "purchaseText": "YAPP Purchased!\n\nBuy YAPP tokens to post, comment, and like on Yappr.\n\nPurchased 100 YAPP\n\nNew balance: 570 YAPP\n\nDone",
+  "purchasePassed": true,
+  "tipText": "Send Tip\n\nSend a Dash tip to Olamide Doyle\n\nTip sent successfully!\n\nYou sent 0.001 DASH to Olamide Doyle\n\nSave transfer key for future tips?\n\nYour transfer key will be securely stored so you won't need to enter it again.\n\nNo thanks\nSave key",
+  "tipPassed": true,
+  "freshBuyerYapp670": true,
+  "freshRecipientBalance": true
+}

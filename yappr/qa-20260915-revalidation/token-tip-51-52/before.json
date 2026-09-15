@@ -1,0 +1,20 @@
+{
+  "at": "2026-09-15T22:30:51.027Z",
+  "tokenId": "FTGFNJZZFnts5bcRnHZ6jgFgx1ztytHTVjmNDkqp6yZe",
+  "identities": {
+    "51": {
+      "id": "9enksyZPnWQUovGXXAQ879uJtBvbHTUY3ewJ5Tq5QNVe",
+      "credits": "16039828620",
+      "tokens": {
+        "FTGFNJZZFnts5bcRnHZ6jgFgx1ztytHTVjmNDkqp6yZe": "570"
+      }
+    },
+    "52": {
+      "id": "5rxCEiuGfwPkYFQ94mvxDaDG7W7dEdpU2zhq7aTLJ1cM",
+      "credits": "23826917680",
+      "tokens": {
+        "FTGFNJZZFnts5bcRnHZ6jgFgx1ztytHTVjmNDkqp6yZe": "1040"
+      }
+    }
+  }
+}

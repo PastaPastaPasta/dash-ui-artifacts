@@ -1,0 +1,24 @@
+{
+  "revision": "4105c5d1c914f5d0838619da93c3b8d28b4a780e",
+  "buildId": "4105c5d1",
+  "origin": "http://127.0.0.1:3211/devnet/",
+  "network": "devnet-moutai",
+  "browser": "Chromium Playwright headless",
+  "viewport": {
+    "width": 1280,
+    "height": 1000
+  },
+  "authentication": "Seeded personas51/52 restored in browser fixture; purchases and transfer used actual UI and real critical/transfer keys. No response interception. Fresh balance checks use modals that fetch live credits.",
+  "screenshots": "All final images inspected original resolution. Filled secret inputs excluded. Tip input/confirmation recaptured with stable animations in a cancelled revisit after the single successfultransfer.",
+  "sha256": {
+    "buy-minimum-validation.png": "965b5ca07ba4214216c6ff2c6364c6e3952d5b9e8e5a6be779a1678d8244b052",
+    "buy-confirm.png": "79f910fd7e612c20e4e02db803bac1efc9db035c313e487ff55ec8698ffe16c9",
+    "buy-critical-required.png": "9f1d401a3067a4b47d7970ba02daa864f4577f538bf976f600f8a38f004e5481",
+    "buy-success.png": "72f27d0b955d75652f85d56d74c4b360ea9d874f186e153571bea0fa9ed8e02f",
+    "tip-input.png": "f6f98ca6d4ce5a467988adb8557a2cb5d51e898470bffc86001192dc0654bdcf",
+    "tip-confirm.png": "a033772afda2d6dd405a1c1c369fe37bce9cdeb6eeed43e9fdd5e2263c1237ab",
+    "tip-success.png": "78eb9e2b12df188435f8508ad1f6ed5fd80077a20f9e6d4444ff099c681a0b0d",
+    "buyer-fresh-balance.png": "16d8f7da2b2f9b8139b73bb3819f43e389755d4db5455824ed1276eff4be4e8b",
+    "recipient-fresh-balance.png": "9370bc6be1666968cfe7f8f6bdf8c68c48ae5b8101d0e4dc4274b1fabf6e2af7"
+  }
+}
