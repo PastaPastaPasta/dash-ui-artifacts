@@ -1,0 +1,152 @@
+{
+  "base": "4105c5d1c914f5d0838619da93c3b8d28b4a780e",
+  "head": "c4bd6206a7f8ee2abca240032860c1ea1ddbf400",
+  "query": "masternode",
+  "initialScanned": 100,
+  "initialMatches": 0,
+  "afterDoubleClick": {
+    "scope": "Searched the latest 200 English posts. Older posts have not been searched yet.",
+    "posts": [
+      {
+        "id": "CEzcAWEwXgDWRoB8zyim5MFd9kLAndEYWbVfPaGK5C7M",
+        "text": "·\n1h\nLearned today the masternode count crossed a few thousand years ago and has hovered there through every price cycle. Collateral does that. \n#masternodes",
+        "times": [
+          {
+            "tag": "TIME",
+            "title": "9/15/2026, 9:36:54 PM",
+            "datetime": "2026-09-15T21:36:54.436Z",
+            "text": "1h"
+          }
+        ]
+      },
+      {
+        "id": "7d6rcf4FWCod2sX2MbRgLQmv8ARGPCNTYdCyGZrmhbNz",
+        "text": "·\n1h\nHistorical trivia for the bored: Litecoin was the base, X11 was the twist, masternodes were the invention. Everything since builds on the third one. 🚴",
+        "times": [
+          {
+            "tag": "TIME",
+            "title": "9/15/2026, 9:36:43 PM",
+            "datetime": "2026-09-15T21:36:43.403Z",
+            "text": "1h"
+          }
+        ]
+      },
+      {
+        "id": "AE58MQrqmBMWDwfWWfhWBFfcKKD9oZtdBXcX41yfxf1R",
+        "text": "·\n1h\nMasternode operators: the only people who read the monthly proposals more carefully than they read their own leases. \n#masternodes",
+        "times": [
+          {
+            "tag": "TIME",
+            "title": "9/15/2026, 9:36:20 PM",
+            "datetime": "2026-09-15T21:36:20.488Z",
+            "text": "1h"
+          }
+        ]
+      },
+      {
+        "id": "7ueyYwTuPpS3pdAHBZx8Z5Xo3eg5VuSKAQ4ZtMZCBY9J",
+        "text": "·\n1h\nunpopular opinion in my house: the masternode collateral should have been 500. my wife says 1000 and she runs one so she wins 🚴 \n#masternodes",
+        "times": [
+          {
+            "tag": "TIME",
+            "title": "9/15/2026, 9:35:58 PM",
+            "datetime": "2026-09-15T21:35:58.316Z",
+            "text": "1h"
+          }
+        ]
+      }
+    ]
+  },
+  "offline": {
+    "scope": "Searched the latest 200 English posts. Older posts have not been searched yet.",
+    "ids": [
+      "CEzcAWEwXgDWRoB8zyim5MFd9kLAndEYWbVfPaGK5C7M",
+      "7d6rcf4FWCod2sX2MbRgLQmv8ARGPCNTYdCyGZrmhbNz",
+      "AE58MQrqmBMWDwfWWfhWBFfcKKD9oZtdBXcX41yfxf1R",
+      "7ueyYwTuPpS3pdAHBZx8Z5Xo3eg5VuSKAQ4ZtMZCBY9J"
+    ],
+    "error": "Could not search posts. Please try again."
+  },
+  "retry": {
+    "scope": "Searched the latest 300 English posts. Older posts have not been searched yet.",
+    "ids": [
+      "CEzcAWEwXgDWRoB8zyim5MFd9kLAndEYWbVfPaGK5C7M",
+      "7d6rcf4FWCod2sX2MbRgLQmv8ARGPCNTYdCyGZrmhbNz",
+      "AE58MQrqmBMWDwfWWfhWBFfcKKD9oZtdBXcX41yfxf1R",
+      "7ueyYwTuPpS3pdAHBZx8Z5Xo3eg5VuSKAQ4ZtMZCBY9J",
+      "77PtVYCTa7HGszFNRjinZbp1M3nUyLHcFJZjxyWbCSi2"
+    ]
+  },
+  "exhaustion": [
+    "Searched the latest 200 English posts. Older posts have not been searched yet.",
+    "Searched the latest 300 English posts. Older posts have not been searched yet.",
+    "Searched the latest 400 English posts. Older posts have not been searched yet.",
+    "Searched the latest 500 English posts. Older posts have not been searched yet.",
+    "Searched the latest 600 English posts. Older posts have not been searched yet.",
+    "Searched the latest 700 English posts. Older posts have not been searched yet.",
+    "Searched the latest 800 English posts. Older posts have not been searched yet.",
+    "Searched the latest 900 English posts. Older posts have not been searched yet.",
+    "Searched the latest 1000 English posts. Older posts have not been searched yet.",
+    "Searched the latest 1100 English posts. Older posts have not been searched yet.",
+    "Searched the latest 1200 English posts. Older posts have not been searched yet.",
+    "Searched the latest 1300 English posts. Older posts have not been searched yet.",
+    "Searched the latest 1400 English posts. Older posts have not been searched yet.",
+    "Searched the latest 1500 English posts. Older posts have not been searched yet.",
+    "Searched the latest 1600 English posts. Older posts have not been searched yet.",
+    "Searched the latest 1700 English posts. Older posts have not been searched yet.",
+    "Searched the latest 1800 English posts. Older posts have not been searched yet.",
+    "Searched the latest 1900 English posts. Older posts have not been searched yet.",
+    "Searched the latest 2000 English posts. Older posts have not been searched yet.",
+    "Searched the latest 2100 English posts. Older posts have not been searched yet.",
+    "Searched the latest 2200 English posts. Older posts have not been searched yet.",
+    "Searched the latest 2300 English posts. Older posts have not been searched yet.",
+    "Searched the latest 2400 English posts. Older posts have not been searched yet.",
+    "Searched the latest 2500 English posts. Older posts have not been searched yet.",
+    "Searched the latest 2600 English posts. Older posts have not been searched yet.",
+    "Searched the latest 2700 English posts. Older posts have not been searched yet.",
+    "Searched the latest 2800 English posts. Older posts have not been searched yet.",
+    "Searched the latest 2900 English posts. Older posts have not been searched yet.",
+    "Searched the latest 3000 English posts. Older posts have not been searched yet.",
+    "Searched the latest 3100 English posts. Older posts have not been searched yet.",
+    "Searched the latest 3200 English posts. Older posts have not been searched yet.",
+    "Searched the latest 3300 English posts. Older posts have not been searched yet.",
+    "Searched the latest 3400 English posts. Older posts have not been searched yet.",
+    "Searched the latest 3500 English posts. Older posts have not been searched yet.",
+    "Searched the latest 3600 English posts. Older posts have not been searched yet.",
+    "Searched the latest 3700 English posts. Older posts have not been searched yet.",
+    "Searched the latest 3800 English posts. Older posts have not been searched yet.",
+    "Searched the latest 3900 English posts. Older posts have not been searched yet.",
+    "Searched the latest 4000 English posts. Older posts have not been searched yet.",
+    "Searched the latest 4100 English posts. Older posts have not been searched yet.",
+    "Searched the latest 4200 English posts. Older posts have not been searched yet.",
+    "Searched the latest 4300 English posts. Older posts have not been searched yet.",
+    "Searched the latest 4400 English posts. Older posts have not been searched yet.",
+    "Searched the latest 4500 English posts. Older posts have not been searched yet.",
+    "Searched the latest 4600 English posts. Older posts have not been searched yet.",
+    "Searched the latest 4700 English posts. Older posts have not been searched yet.",
+    "Searched the latest 4800 English posts. Older posts have not been searched yet.",
+    "Searched the latest 4900 English posts. Older posts have not been searched yet.",
+    "Searched the latest 5000 English posts. Older posts have not been searched yet.",
+    "Searched the latest 5100 English posts. Older posts have not been searched yet.",
+    "Searched the latest 5200 English posts. Older posts have not been searched yet.",
+    "Searched the latest 5300 English posts. Older posts have not been searched yet.",
+    "Searched the latest 5400 English posts. Older posts have not been searched yet.",
+    "Searched the latest 5500 English posts. Older posts have not been searched yet.",
+    "Searched the latest 5600 English posts. Older posts have not been searched yet.",
+    "Searched the latest 5700 English posts. Older posts have not been searched yet.",
+    "Searched the latest 5800 English posts. Older posts have not been searched yet.",
+    "Searched the latest 5900 English posts. Older posts have not been searched yet.",
+    "Searched the latest 6000 English posts. Older posts have not been searched yet.",
+    "Searched the latest 6100 English posts. Older posts have not been searched yet.",
+    "Searched the latest 6200 English posts. Older posts have not been searched yet.",
+    "Searched the latest 6300 English posts. Older posts have not been searched yet.",
+    "Searched the latest 6400 English posts. Older posts have not been searched yet.",
+    "Searched all 6492 English posts. End of post history."
+  ],
+  "initialFailureMessageVerified": true,
+  "initialOfflineRetry": "First retry still failed; subsequent retry after recovery succeeded. No results/cursor corruption.",
+  "oldQueryIgnored": true,
+  "whitespaceEquivalent": true,
+  "unicodePunctuationHandled": true,
+  "emptyQueryRestoresExplore": true
+}
