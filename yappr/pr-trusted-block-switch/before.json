@@ -1,0 +1,12 @@
+[
+  {
+    "mobile": false,
+    "ax": "- link \"User avatar just yusuf @yusuf49.dash\":\n  - /url: /devnet/user/?id=4SFrGiHwDXKgcrDquF5wvFQ9oaWUGfqm8W4Wk4Qy6JBs\n  - img \"User avatar\"\n  - paragraph: just yusuf\n  - paragraph: \"@yusuf49.dash\"\n- switch",
+    "overflow": false
+  },
+  {
+    "mobile": true,
+    "ax": "- link \"User avatar just yusuf @yusuf49.dash\":\n  - /url: /devnet/user/?id=4SFrGiHwDXKgcrDquF5wvFQ9oaWUGfqm8W4Wk4Qy6JBs\n  - img \"User avatar\"\n  - paragraph: just yusuf\n  - paragraph: \"@yusuf49.dash\"\n- switch",
+    "overflow": false
+  }
+]
