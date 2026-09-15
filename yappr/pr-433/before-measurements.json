@@ -1,0 +1,91 @@
+{
+  "state": "before",
+  "revision": "4105c5d1c914f5d0838619da93c3b8d28b4a780e",
+  "identity": "4WJqx5yBKTW3v6FbkvwNZpGvWyafDzTjMSZLZEYwtC8R",
+  "surfaces": [
+    {
+      "section": "notifications",
+      "switches": [
+        {
+          "name": "",
+          "description": "",
+          "checked": "true"
+        },
+        {
+          "name": "",
+          "description": "",
+          "checked": "true"
+        },
+        {
+          "name": "",
+          "description": "",
+          "checked": "true"
+        },
+        {
+          "name": "",
+          "description": "",
+          "checked": "true"
+        },
+        {
+          "name": "",
+          "description": "",
+          "checked": "true"
+        },
+        {
+          "name": "",
+          "description": "",
+          "checked": "true"
+        },
+        {
+          "name": "",
+          "description": "",
+          "checked": "true"
+        }
+      ],
+      "ariaSnapshot": "- main:\n  - button\n  - heading \"Notifications\" [level=1]\n  - heading \"Push Notifications\" [level=3]\n  - paragraph: Likes\n  - paragraph: When someone likes your posts\n  - switch [checked]\n  - paragraph: Reposts\n  - paragraph: When someone reposts your content\n  - switch [checked]\n  - paragraph: Replies\n  - paragraph: When someone replies to you\n  - switch [checked]\n  - paragraph: Follows\n  - paragraph: When someone follows you\n  - switch [checked]\n  - paragraph: Mentions\n  - paragraph: When someone mentions you\n  - switch [checked]\n  - paragraph: Messages\n  - paragraph: When you receive new messages\n  - switch [checked]\n  - paragraph: Blog posts\n  - paragraph: When a blog you follow publishes a new post\n  - switch [checked]"
+    },
+    {
+      "section": "privacy",
+      "switches": [
+        {
+          "name": "",
+          "description": "",
+          "checked": "true"
+        },
+        {
+          "name": "",
+          "description": "",
+          "checked": "true"
+        },
+        {
+          "name": "",
+          "description": "",
+          "checked": "true"
+        }
+      ],
+      "ariaSnapshot": "- main:\n  - button\n  - heading \"Privacy & Security\" [level=1]\n  - heading \"Privacy\" [level=3]\n  - paragraph: Link Previews\n  - paragraph: Show previews with titles, descriptions, and images for links\n  - switch [checked]\n  - paragraph:\n    - strong: \"Privacy note:\"\n    - text: Some URLs (YouTube, Reddit, IPFS, etc.) are fetched directly from their services. Other URLs use third-party proxy servers to fetch metadata. These services may log the URLs you view.\n  - paragraph:\n    - text: \"Third-party services used:\"\n    - link \"allorigins.win\":\n      - /url: https://allorigins.win/\n    - text: \",\"\n    - link \"corsproxy.io\":\n      - /url: https://corsproxy.io/\n  - paragraph: Blur Media From People You Don't Follow\n  - paragraph: Images and link previews from accounts you don't follow stay hidden behind a blurred placeholder until you tap to reveal them\n  - switch [checked]\n  - heading \"Direct Messages\" [level=3]\n  - paragraph: Read Receipts\n  - paragraph: Let others see when you've read their messages\n  - switch [checked]\n  - heading \"NSFW Content\" [level=3]\n  - paragraph: How to handle posts their author flagged as NSFW\n  - radiogroup:\n    - radio \"Warn first Cover NSFW posts until you choose to show them\" [checked]\n    - paragraph: Warn first\n    - paragraph: Cover NSFW posts until you choose to show them\n    - radio \"Always show Show NSFW posts without a warning\"\n    - paragraph: Always show\n    - paragraph: Show NSFW posts without a warning\n    - radio \"Hide Remove NSFW posts from your feeds\"\n    - paragraph: Hide\n    - paragraph: Remove NSFW posts from your feeds\n  - heading \"Block Lists\" [level=3]\n  - paragraph: Follow trusted users' block lists to help filter your feed\n  - heading \"Blocked Users\" [level=3]\n  - heading \"Saved Shipping Addresses\" [level=3]\n  - paragraph: To save shipping addresses securely, you need to set up an encryption key. Your addresses will be encrypted so only you can access them.\n  - paragraph: You can add an encryption key in the Privacy & Security section above."
+    },
+    {
+      "section": "appearance",
+      "switches": [
+        {
+          "name": "",
+          "description": "",
+          "checked": "false"
+        }
+      ],
+      "ariaSnapshot": "- main:\n  - button\n  - heading \"Appearance\" [level=1]\n  - heading \"Theme\" [level=3]\n  - radiogroup:\n    - radio \"Light\" [checked]\n    - text: Light\n    - radio \"Dark\"\n    - text: Dark\n    - radio \"System\"\n    - text: System\n  - heading \"Performance\" [level=3]\n  - paragraph: Potato Mode\n  - paragraph: Disable blur effects and visual flair. Enable this if Yappr feels sluggish on your device.\n  - switch\n  - heading \"Feed Language\" [level=3]\n  - paragraph: Choose the language for the \"For You\" feed. Posts in other languages will not appear.\n  - combobox:\n    - option \"English\" [selected]\n    - option \"Spanish\"\n    - option \"French\"\n    - option \"German\"\n    - option \"Portuguese\"\n    - option \"Russian\"\n    - option \"Chinese\"\n    - option \"Japanese\"\n    - option \"Korean\"\n    - option \"Arabic\"\n    - option \"Hindi\"\n    - option \"Italian\"\n    - option \"Dutch\"\n    - option \"Polish\"\n    - option \"Turkish\""
+    }
+  ],
+  "checks": [
+    {
+      "action": "Click visible Likes label",
+      "checked": "true"
+    },
+    {
+      "action": "Reload preserves resulting preference",
+      "pass": true
+    }
+  ],
+  "success": true
+}

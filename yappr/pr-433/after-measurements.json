@@ -1,0 +1,139 @@
+{
+  "state": "after",
+  "revision": "097455ec08559b713311156787951b3b2acb4dbf",
+  "identity": "4WJqx5yBKTW3v6FbkvwNZpGvWyafDzTjMSZLZEYwtC8R",
+  "surfaces": [
+    {
+      "section": "notifications",
+      "switches": [
+        {
+          "name": "Likes",
+          "description": "When someone likes your posts",
+          "checked": "true"
+        },
+        {
+          "name": "Reposts",
+          "description": "When someone reposts your content",
+          "checked": "true"
+        },
+        {
+          "name": "Replies",
+          "description": "When someone replies to you",
+          "checked": "true"
+        },
+        {
+          "name": "Follows",
+          "description": "When someone follows you",
+          "checked": "true"
+        },
+        {
+          "name": "Mentions",
+          "description": "When someone mentions you",
+          "checked": "true"
+        },
+        {
+          "name": "Messages",
+          "description": "When you receive new messages",
+          "checked": "true"
+        },
+        {
+          "name": "Blog posts",
+          "description": "When a blog you follow publishes a new post",
+          "checked": "true"
+        }
+      ],
+      "ariaSnapshot": "- main:\n  - button\n  - heading \"Notifications\" [level=1]\n  - heading \"Push Notifications\" [level=3]\n  - text: Likes\n  - paragraph: When someone likes your posts\n  - switch \"Likes\" [checked]\n  - text: Reposts\n  - paragraph: When someone reposts your content\n  - switch \"Reposts\" [checked]\n  - text: Replies\n  - paragraph: When someone replies to you\n  - switch \"Replies\" [checked]\n  - text: Follows\n  - paragraph: When someone follows you\n  - switch \"Follows\" [checked]\n  - text: Mentions\n  - paragraph: When someone mentions you\n  - switch \"Mentions\" [checked]\n  - text: Messages\n  - paragraph: When you receive new messages\n  - switch \"Messages\" [checked]\n  - text: Blog posts\n  - paragraph: When a blog you follow publishes a new post\n  - switch \"Blog posts\" [checked]"
+    },
+    {
+      "section": "privacy",
+      "switches": [
+        {
+          "name": "Link Previews",
+          "description": "Show previews with titles, descriptions, and images for links",
+          "checked": "true"
+        },
+        {
+          "name": "Blur Media From People You Don't Follow",
+          "description": "Images and link previews from accounts you don't follow stay hidden behind a blurred placeholder until you tap to reveal them",
+          "checked": "true"
+        },
+        {
+          "name": "Read Receipts",
+          "description": "Let others see when you've read their messages",
+          "checked": "true"
+        }
+      ],
+      "ariaSnapshot": "- main:\n  - button\n  - heading \"Privacy & Security\" [level=1]\n  - heading \"Privacy\" [level=3]\n  - text: Link Previews\n  - paragraph: Show previews with titles, descriptions, and images for links\n  - switch \"Link Previews\" [checked]\n  - paragraph:\n    - strong: \"Privacy note:\"\n    - text: Some URLs (YouTube, Reddit, IPFS, etc.) are fetched directly from their services. Other URLs use third-party proxy servers to fetch metadata. These services may log the URLs you view.\n  - paragraph:\n    - text: \"Third-party services used:\"\n    - link \"allorigins.win\":\n      - /url: https://allorigins.win/\n    - text: \",\"\n    - link \"corsproxy.io\":\n      - /url: https://corsproxy.io/\n  - text: Blur Media From People You Don't Follow\n  - paragraph: Images and link previews from accounts you don't follow stay hidden behind a blurred placeholder until you tap to reveal them\n  - switch \"Blur Media From People You Don't Follow\" [checked]\n  - heading \"Direct Messages\" [level=3]\n  - text: Read Receipts\n  - paragraph: Let others see when you've read their messages\n  - switch \"Read Receipts\" [checked]\n  - heading \"NSFW Content\" [level=3]\n  - paragraph: How to handle posts their author flagged as NSFW\n  - radiogroup:\n    - radio \"Warn first Cover NSFW posts until you choose to show them\" [checked]\n    - paragraph: Warn first\n    - paragraph: Cover NSFW posts until you choose to show them\n    - radio \"Always show Show NSFW posts without a warning\"\n    - paragraph: Always show\n    - paragraph: Show NSFW posts without a warning\n    - radio \"Hide Remove NSFW posts from your feeds\"\n    - paragraph: Hide\n    - paragraph: Remove NSFW posts from your feeds\n  - heading \"Block Lists\" [level=3]\n  - paragraph: Follow trusted users' block lists to help filter your feed. When enabled, anyone they block will also be hidden from your feed.\n  - paragraph: You're not following anyone yet\n  - paragraph: Follow users to see them here\n  - heading \"Blocked Users\" [level=3]\n  - paragraph: You haven't blocked anyone\n  - heading \"Saved Shipping Addresses\" [level=3]\n  - paragraph: To save shipping addresses securely, you need to set up an encryption key. Your addresses will be encrypted so only you can access them.\n  - paragraph: You can add an encryption key in the Privacy & Security section above."
+    },
+    {
+      "section": "appearance",
+      "switches": [
+        {
+          "name": "Potato Mode",
+          "description": "Disable blur effects and visual flair. Enable this if Yappr feels sluggish on your device.",
+          "checked": "false"
+        }
+      ],
+      "ariaSnapshot": "- main:\n  - button\n  - heading \"Appearance\" [level=1]\n  - heading \"Theme\" [level=3]\n  - radiogroup:\n    - radio \"Light\" [checked]\n    - text: Light\n    - radio \"Dark\"\n    - text: Dark\n    - radio \"System\"\n    - text: System\n  - heading \"Performance\" [level=3]\n  - text: Potato Mode\n  - paragraph: Disable blur effects and visual flair. Enable this if Yappr feels sluggish on your device.\n  - switch \"Potato Mode\"\n  - heading \"Feed Language\" [level=3]\n  - paragraph: Choose the language for the \"For You\" feed. Posts in other languages will not appear.\n  - combobox:\n    - option \"English\" [selected]\n    - option \"Spanish\"\n    - option \"French\"\n    - option \"German\"\n    - option \"Portuguese\"\n    - option \"Russian\"\n    - option \"Chinese\"\n    - option \"Japanese\"\n    - option \"Korean\"\n    - option \"Arabic\"\n    - option \"Hindi\"\n    - option \"Italian\"\n    - option \"Dutch\"\n    - option \"Polish\"\n    - option \"Turkish\""
+    }
+  ],
+  "checks": [
+    {
+      "action": "Click visible Likes label",
+      "checked": "false"
+    },
+    {
+      "action": "Reload preserves resulting preference",
+      "pass": true
+    },
+    {
+      "action": "Space toggles focused switch and restores original preference",
+      "pass": true
+    },
+    {
+      "action": "Keyboard toggle and restore Likes",
+      "pass": true
+    },
+    {
+      "action": "Keyboard toggle and restore Reposts",
+      "pass": true
+    },
+    {
+      "action": "Keyboard toggle and restore Replies",
+      "pass": true
+    },
+    {
+      "action": "Keyboard toggle and restore Follows",
+      "pass": true
+    },
+    {
+      "action": "Keyboard toggle and restore Mentions",
+      "pass": true
+    },
+    {
+      "action": "Keyboard toggle and restore Messages",
+      "pass": true
+    },
+    {
+      "action": "Keyboard toggle and restore Blog posts",
+      "pass": true
+    },
+    {
+      "action": "Keyboard toggle and restore Link Previews",
+      "pass": true
+    },
+    {
+      "action": "Keyboard toggle and restore Blur Media From People You Don't Follow",
+      "pass": true
+    },
+    {
+      "action": "Keyboard toggle and restore Read Receipts",
+      "pass": true
+    },
+    {
+      "action": "Keyboard toggle and restore Potato Mode",
+      "pass": true
+    }
+  ],
+  "success": true
+}
