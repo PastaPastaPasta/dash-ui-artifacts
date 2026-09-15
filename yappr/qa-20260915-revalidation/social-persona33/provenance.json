@@ -1,0 +1,63 @@
+{
+  "revision": "4105c5d1c914f5d0838619da93c3b8d28b4a780e",
+  "buildId": "4105c5d1",
+  "runtime": "http://127.0.0.1:3211/devnet/",
+  "sourceWorktree": "/Users/pasta/.t3/worktrees/yappr/a11y-blog-before",
+  "network": "devnet moutai",
+  "socialContract": "CdUkSHkQwGXXAkzKqrcrjUWLsj7qErK9XAZmLzJEhirU",
+  "viewport": {
+    "width": 1280,
+    "height": 900
+  },
+  "actor": "6XrmCbPVLPWyda1fRTeFNZ9xhx8tdPH5rkNmtG9FWqek",
+  "target": "sNnNFK4vrjhy6nPYpj2FSUhREY8CRG3QZscn61nXhAg",
+  "post": "9mcdDNznWP86bScjmMykF1kzNpecneoFoZVVNAB5qCFd",
+  "reply": "Fm49xnhGoKheyBWKPn2KuzgeMwwuVDPgd61MRznovZg4",
+  "followDocument": "CL5jkCc8mn1ycP499pUrufSYnM2udf8GKy1CB4Fz5BUC",
+  "initial": {
+    "follow": 0,
+    "repost": 0
+  },
+  "final": {
+    "follow": 0,
+    "repost": 0,
+    "replyRetained": true
+  },
+  "images": {
+    "reply-fresh-readback.png": {
+      "sha256": "2ce8ead10b577f4956f47352f1a6c49519732782d95d6508a34e4667fb50dda3",
+      "inspectedOriginalResolution": true
+    },
+    "repost-fresh-readback.png": {
+      "sha256": "f7a27dc1e342e96d15b4a5f4b0c76f3e75badde23fdb7d178a6058a7cd5afa5a",
+      "inspectedOriginalResolution": true
+    },
+    "undo-repost-fresh-readback.png": {
+      "sha256": "6060c8d5674bd2237ba35f1a01afb64028979d36ac6257109009df0f3877ba19",
+      "inspectedOriginalResolution": true
+    },
+    "follow-own-list.png": {
+      "sha256": "bf2d8845712bba1e7b9f459c4888cb465fcd1dae9db36f606bd7209a460d508a",
+      "inspectedOriginalResolution": true
+    },
+    "follow-target-list.png": {
+      "sha256": "f2c16fb10ec75b2fbc2e35608dd02e8427d7d57b7f49fa44a26482b2656604d4",
+      "inspectedOriginalResolution": true
+    },
+    "unfollow-own-list.png": {
+      "sha256": "59e2be2530414ac024dd8202e65f8f3f54f0cdfd174d830294ab0d64b8d931c9",
+      "inspectedOriginalResolution": true
+    },
+    "unfollow-target-list.png": {
+      "sha256": "ef025ba925fd34f642a2ec03046156b22b55cea7780206f5257c6d37b4703efb",
+      "inspectedOriginalResolution": true
+    }
+  },
+  "limitations": [
+    "One actor and one target on live devnet; no inference of universal platform correctness.",
+    "Intermediate repost document ID not collected before undo; fresh-session UI readback confirms intermediate state.",
+    "Unfollow images recaptured read-only after display names settled.",
+    "Live global post statistics changed during test.",
+    "reply-before-submit.png excluded because captured during modal animation."
+  ]
+}

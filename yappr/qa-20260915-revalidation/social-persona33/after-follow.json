@@ -1,0 +1,70 @@
+{
+  "actor": "6XrmCbPVLPWyda1fRTeFNZ9xhx8tdPH5rkNmtG9FWqek",
+  "author": "sNnNFK4vrjhy6nPYpj2FSUhREY8CRG3QZscn61nXhAg",
+  "post": "9mcdDNznWP86bScjmMykF1kzNpecneoFoZVVNAB5qCFd",
+  "contract": "CdUkSHkQwGXXAkzKqrcrjUWLsj7qErK9XAZmLzJEhirU",
+  "capturedAt": "2026-09-15T21:06:33.095Z",
+  "follow": {
+    "count": 1,
+    "records": [
+      {
+        "id": "CL5jkCc8mn1ycP499pUrufSYnM2udf8GKy1CB4Fz5BUC",
+        "data": {
+          "$formatVersion": "0",
+          "$id": "CL5jkCc8mn1ycP499pUrufSYnM2udf8GKy1CB4Fz5BUC",
+          "$ownerId": "6XrmCbPVLPWyda1fRTeFNZ9xhx8tdPH5rkNmtG9FWqek",
+          "followingId": "sNnNFK4vrjhy6nPYpj2FSUhREY8CRG3QZscn61nXhAg",
+          "$revision": null,
+          "$createdAt": 1789506387396,
+          "$updatedAt": null,
+          "$transferredAt": null,
+          "$createdAtBlockHeight": null,
+          "$updatedAtBlockHeight": null,
+          "$transferredAtBlockHeight": null,
+          "$createdAtCoreBlockHeight": null,
+          "$updatedAtCoreBlockHeight": null,
+          "$transferredAtCoreBlockHeight": null,
+          "$creatorId": null,
+          "$contractVersion": 1,
+          "$dataContractId": "CdUkSHkQwGXXAkzKqrcrjUWLsj7qErK9XAZmLzJEhirU",
+          "$type": "follow"
+        }
+      }
+    ]
+  },
+  "repost": {
+    "count": 0,
+    "records": []
+  },
+  "reply": {
+    "count": 1,
+    "records": [
+      {
+        "id": "Fm49xnhGoKheyBWKPn2KuzgeMwwuVDPgd61MRznovZg4",
+        "data": {
+          "$formatVersion": "0",
+          "$id": "Fm49xnhGoKheyBWKPn2KuzgeMwwuVDPgd61MRznovZg4",
+          "$ownerId": "6XrmCbPVLPWyda1fRTeFNZ9xhx8tdPH5rkNmtG9FWqek",
+          "author": "6XrmCbPVLPWyda1fRTeFNZ9xhx8tdPH5rkNmtG9FWqek",
+          "content": "QA persona33 reply 2026-09-15 1789506251896",
+          "parentOwnerId": "sNnNFK4vrjhy6nPYpj2FSUhREY8CRG3QZscn61nXhAg",
+          "rootPostId": "9mcdDNznWP86bScjmMykF1kzNpecneoFoZVVNAB5qCFd",
+          "$revision": 1,
+          "$createdAt": 1789506262823,
+          "$updatedAt": null,
+          "$transferredAt": null,
+          "$createdAtBlockHeight": null,
+          "$updatedAtBlockHeight": null,
+          "$transferredAtBlockHeight": null,
+          "$createdAtCoreBlockHeight": null,
+          "$updatedAtCoreBlockHeight": null,
+          "$transferredAtCoreBlockHeight": null,
+          "$creatorId": null,
+          "$contractVersion": 1,
+          "$dataContractId": "CdUkSHkQwGXXAkzKqrcrjUWLsj7qErK9XAZmLzJEhirU",
+          "$type": "reply"
+        }
+      }
+    ]
+  }
+}
