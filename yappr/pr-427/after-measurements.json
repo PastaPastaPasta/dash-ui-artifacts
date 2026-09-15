@@ -1,0 +1,131 @@
+{
+  "head": "c259236b416e9b2ac1b1fbb6f61b8ba48e46cba3",
+  "fixture": {
+    "identity": "4WJqx5yBKTW3v6FbkvwNZpGvWyafDzTjMSZLZEYwtC8R",
+    "title": "QA lifecycle blog 20260915 p44",
+    "url": "http://127.0.0.1:3211/devnet/blog/",
+    "articleTitle": "QA article lifecycle 20260915 p44",
+    "articleBody": "QA article body. This devnet fixture tests publication, editing, comments, and normal readback.",
+    "articleUrl": "http://127.0.0.1:3211/devnet/blog/?blog=GZkg15HyWHb3L4QjcnE6xU2AqkPBtxSYhC76qVHSu1rz&post=qa-article-lifecycle-20260915-p44",
+    "blogId": "GZkg15HyWHb3L4QjcnE6xU2AqkPBtxSYhC76qVHSu1rz",
+    "slug": "qa-article-lifecycle-20260915-p44",
+    "editedBody": "QA article body EDITED. This devnet fixture verifies normal on-chain updates and comment lifecycle.",
+    "themeStyle": "font-family: var(--blog-body-font);"
+  },
+  "themes": {
+    "light": {
+      "dashboard": {
+        "title": {
+          "text": "QA lifecycle blog 20260915 p44",
+          "color": "rgb(17, 24, 39)",
+          "background": "rgba(0, 0, 0, 0)",
+          "classes": "truncate text-lg font-semibold text-gray-900 dark:text-white"
+        },
+        "selectedTab": {
+          "text": "Posts (1)",
+          "color": "rgb(17, 24, 39)",
+          "background": "rgba(0, 0, 0, 0)",
+          "classes": "relative px-4 py-2.5 text-sm font-medium transition-colors text-gray-900 dark:text-white"
+        }
+      },
+      "editor": {
+        "title": {
+          "text": "QA article lifecycle 20260915 p44",
+          "color": "rgb(17, 24, 39)",
+          "background": "rgba(0, 0, 0, 0)",
+          "classes": "min-w-0 flex-1 bg-transparent text-[32px] font-bold leading-tight text-gray-900 dark:text-white placeholder:text-gray-500 dark:placeholder:text-gray-600 focus:outline-none"
+        },
+        "body": {
+          "text": "QA article body EDITED. This devnet fixture verifies normal on-chain updates and comment lifecycle.",
+          "color": "rgb(63, 63, 63)",
+          "background": "rgba(0, 0, 0, 0)",
+          "classes": "bn-block-content"
+        },
+        "scheme": "light"
+      },
+      "preview": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "color": "rgb(15, 23, 42)",
+        "heading": "#155e75",
+        "font": "Inter, system-ui, sans-serif"
+      },
+      "create": {
+        "title": {
+          "text": "Create Blog",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "classes": "text-lg font-semibold"
+        },
+        "container": {
+          "text": "Create BlogBlog nameDescriptionAvatarPaste a URL belowPaste image URLHeader imagePaste a URL belowPaste image URLCancelCreate Blog",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(255, 255, 255)",
+          "classes": "fixed left-1/2 top-1/2 z-50 w-[95vw] max-w-2xl -translate-x-1/2 -translate-y-1/2 rounded-xl border border-gray-200 dark:border-gray-800 bg-white dark:bg-neutral-950 p-5"
+        }
+      },
+      "reader": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "color": "rgb(15, 23, 42)",
+        "heading": "#155e75",
+        "font": "Inter, system-ui, sans-serif"
+      }
+    },
+    "dark": {
+      "dashboard": {
+        "title": {
+          "text": "QA lifecycle blog 20260915 p44",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)",
+          "classes": "truncate text-lg font-semibold text-gray-900 dark:text-white"
+        },
+        "selectedTab": {
+          "text": "Posts (1)",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)",
+          "classes": "relative px-4 py-2.5 text-sm font-medium transition-colors text-gray-900 dark:text-white"
+        }
+      },
+      "editor": {
+        "title": {
+          "text": "QA article lifecycle 20260915 p44",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)",
+          "classes": "min-w-0 flex-1 bg-transparent text-[32px] font-bold leading-tight text-gray-900 dark:text-white placeholder:text-gray-500 dark:placeholder:text-gray-600 focus:outline-none"
+        },
+        "body": {
+          "text": "QA article body EDITED. This devnet fixture verifies normal on-chain updates and comment lifecycle.",
+          "color": "rgb(229, 231, 235)",
+          "background": "rgba(0, 0, 0, 0)",
+          "classes": "bn-block-content"
+        },
+        "scheme": "dark"
+      },
+      "preview": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "color": "rgb(15, 23, 42)",
+        "heading": "#155e75",
+        "font": "Inter, system-ui, sans-serif"
+      },
+      "create": {
+        "title": {
+          "text": "Create Blog",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)",
+          "classes": "text-lg font-semibold"
+        },
+        "container": {
+          "text": "Create BlogBlog nameDescriptionAvatarPaste a URL belowPaste image URLHeader imagePaste a URL belowPaste image URLCancelCreate Blog",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(10, 10, 10)",
+          "classes": "fixed left-1/2 top-1/2 z-50 w-[95vw] max-w-2xl -translate-x-1/2 -translate-y-1/2 rounded-xl border border-gray-200 dark:border-gray-800 bg-white dark:bg-neutral-950 p-5"
+        }
+      },
+      "reader": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "color": "rgb(15, 23, 42)",
+        "heading": "#155e75",
+        "font": "Inter, system-ui, sans-serif"
+      }
+    }
+  }
+}

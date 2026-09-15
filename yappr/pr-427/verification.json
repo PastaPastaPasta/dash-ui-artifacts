@@ -1,0 +1,9 @@
+{
+  "light_reader_palette_font_unchanged": true,
+  "light_preview_palette_font_unchanged": true,
+  "dark_reader_palette_font_unchanged": true,
+  "dark_preview_palette_font_unchanged": true,
+  "dark_editor_text_color_unchanged": true,
+  "light_editor_follows_app_theme": true,
+  "fixture_mutations_performed": false
+}
