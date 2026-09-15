@@ -1,0 +1,125 @@
+{
+  "kind": "storage-labels",
+  "state": "after",
+  "revision": "d4994c473fe815b05e23aad31b5552834ca803e9",
+  "identity": "4WJqx5yBKTW3v6FbkvwNZpGvWyafDzTjMSZLZEYwtC8R",
+  "surfaces": [
+    {
+      "surface": "pinata",
+      "controls": [
+        {
+          "role": "button",
+          "name": "Post",
+          "description": ""
+        },
+        {
+          "role": "button",
+          "name": "Identity 4WJqx5...tC8R",
+          "description": ""
+        },
+        {
+          "role": "button",
+          "name": "Connect with Email",
+          "description": ""
+        },
+        {
+          "role": "textbox",
+          "name": "JWT (secret access token)",
+          "description": ""
+        },
+        {
+          "role": "textbox",
+          "name": "Gateway Domain (optional)",
+          "description": ""
+        },
+        {
+          "role": "button",
+          "name": "Cancel",
+          "description": ""
+        },
+        {
+          "role": "button",
+          "name": "Connect",
+          "description": ""
+        },
+        {
+          "role": "button",
+          "name": "",
+          "description": ""
+        },
+        {
+          "role": "textbox",
+          "name": "Search users & hashtags",
+          "description": ""
+        }
+      ],
+      "snapshot": "- text: DEVNET|Running on a Dash Platform devnet. Data may be reset.\n- link \"Yappr\":\n  - /url: /devnet/welcome/\n- navigation:\n  - link \"Home\":\n    - /url: /devnet/feed/\n  - link \"Following\":\n    - /url: /devnet/following/\n  - link \"Followers\":\n    - /url: /devnet/followers/\n  - link \"Explore\":\n    - /url: /devnet/explore/\n  - link \"Store\":\n    - /url: /devnet/store/\n  - link \"Blog\":\n    - /url: /devnet/blog/\n  - link \"Notifications\":\n    - /url: /devnet/notifications/\n  - link \"Messages\":\n    - /url: /devnet/messages/\n  - link \"Bookmarks\":\n    - /url: /devnet/bookmarks/\n  - link \"Profile\":\n    - /url: /devnet/user/?id=4WJqx5yBKTW3v6FbkvwNZpGvWyafDzTjMSZLZEYwtC8R\n  - link \"Settings\":\n    - /url: /devnet/settings/\n- button \"Post\"\n- button \"Identity 4WJqx5...tC8R\":\n  - paragraph: Identity\n  - paragraph: 4WJqx5...tC8R\n- main:\n  - button\n  - heading \"Storage\" [level=1]\n  - heading \"Storage Provider\" [level=3]\n  - paragraph: Connect a storage provider to attach images to your posts. Only one provider can be connected at a time.\n  - text: Storacha\n  - paragraph: 5GB free tier available. Requires credit card for signup.\n  - button \"Connect with Email\"\n  - text: Pinata\n  - paragraph: Enter your Pinata JWT\n  - paragraph:\n    - text: Create an API key with\n    - strong: \"Files: Write\"\n    - text: permission, then copy the\n    - strong: JWT (secret access token)\n    - text: .\n  - link \"Open Pinata Dashboard\":\n    - /url: https://app.pinata.cloud/developers/api-keys\n  - text: JWT (secret access token)\n  - textbox \"JWT (secret access token)\":\n    - /placeholder: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...\n  - text: Gateway Domain (optional)\n  - textbox \"Gateway Domain (optional)\":\n    - /placeholder: my-gateway.mypinata.cloud\n  - paragraph: Your custom gateway for faster content delivery.\n  - button \"Cancel\"\n  - button \"Connect\" [disabled]\n  - heading \"How it works:\" [level=4]\n  - list:\n    - listitem: • Images are uploaded to IPFS via your chosen provider\n    - listitem:\n      - text: • Posts reference images using\n      - code: ipfs://CID\n      - text: URLs\n    - listitem: • Images are publicly accessible via IPFS gateways\n- textbox \"Search users & hashtags\"\n- heading \"Trending\" [level=2]\n- heading \"Stats\" [level=2]\n- link \"Powered by Dash Evolution\":\n  - /url: https://github.com/dashpay/platform\n  - img \"Powered by Dash Evolution\"\n- link \"Terms\":\n  - /url: /devnet/terms/\n- link \"Privacy\":\n  - /url: /devnet/privacy/\n- link \"Cookies\":\n  - /url: /devnet/cookies/\n- link \"About\":\n  - /url: /devnet/about/\n- alert"
+    },
+    {
+      "surface": "storacha",
+      "controls": [
+        {
+          "role": "button",
+          "name": "Post",
+          "description": ""
+        },
+        {
+          "role": "button",
+          "name": "Your avatar @soren-notes7.dash 4WJqx5...tC8R",
+          "description": ""
+        },
+        {
+          "role": "textbox",
+          "name": "Email Address",
+          "description": ""
+        },
+        {
+          "role": "button",
+          "name": "Cancel",
+          "description": ""
+        },
+        {
+          "role": "button",
+          "name": "Connect",
+          "description": ""
+        },
+        {
+          "role": "button",
+          "name": "Connect with JWT",
+          "description": ""
+        },
+        {
+          "role": "button",
+          "name": "",
+          "description": ""
+        },
+        {
+          "role": "textbox",
+          "name": "Search users & hashtags",
+          "description": ""
+        }
+      ],
+      "snapshot": "- text: DEVNET|Running on a Dash Platform devnet. Data may be reset.\n- link \"Yappr\":\n  - /url: /devnet/welcome/\n- navigation:\n  - link \"Home\":\n    - /url: /devnet/feed/\n  - link \"Following\":\n    - /url: /devnet/following/\n  - link \"Followers\":\n    - /url: /devnet/followers/\n  - link \"Explore\":\n    - /url: /devnet/explore/\n  - link \"Store\":\n    - /url: /devnet/store/\n  - link \"Blog\":\n    - /url: /devnet/blog/\n  - link \"Notifications\":\n    - /url: /devnet/notifications/\n  - link \"Messages\":\n    - /url: /devnet/messages/\n  - link \"Bookmarks\":\n    - /url: /devnet/bookmarks/\n  - link \"Profile\":\n    - /url: /devnet/user/?id=4WJqx5yBKTW3v6FbkvwNZpGvWyafDzTjMSZLZEYwtC8R\n  - link \"Settings\":\n    - /url: /devnet/settings/\n- button \"Post\"\n- button \"Your avatar @soren-notes7.dash 4WJqx5...tC8R\":\n  - img \"Your avatar\"\n  - paragraph: \"@soren-notes7.dash\"\n  - paragraph: 4WJqx5...tC8R\n- main:\n  - button\n  - heading \"Storage\" [level=1]\n  - heading \"Storage Provider\" [level=3]\n  - paragraph: Connect a storage provider to attach images to your posts. Only one provider can be connected at a time.\n  - text: Storacha\n  - paragraph: Email verification required\n  - paragraph: Enter your email address. You'll receive a verification link to complete the connection.\n  - text: Email Address\n  - textbox \"Email Address\":\n    - /placeholder: \"[email protected]\"\n  - button \"Cancel\"\n  - button \"Connect\" [disabled]\n  - text: Pinata\n  - paragraph: 1GB free tier, no credit card required.\n  - button \"Connect with JWT\"\n  - heading \"How it works:\" [level=4]\n  - list:\n    - listitem: • Images are uploaded to IPFS via your chosen provider\n    - listitem:\n      - text: • Posts reference images using\n      - code: ipfs://CID\n      - text: URLs\n    - listitem: • Images are publicly accessible via IPFS gateways\n- textbox \"Search users & hashtags\"\n- heading \"Trending\" [level=2]\n- list:\n  - listitem:\n    - 'link \"1 #masternodes 32 likes\"':\n      - /url: /devnet/hashtag/?tag=masternodes\n      - text: \"1\"\n      - paragraph: \"#masternodes\"\n      - paragraph: 32 likes\n  - listitem:\n    - 'link \"2 #hiking 13 likes\"':\n      - /url: /devnet/hashtag/?tag=hiking\n      - text: \"2\"\n      - paragraph: \"#hiking\"\n      - paragraph: 13 likes\n  - listitem:\n    - 'link \"3 #dashplatform 13 likes\"':\n      - /url: /devnet/hashtag/?tag=dashplatform\n      - text: \"3\"\n      - paragraph: \"#dashplatform\"\n      - paragraph: 13 likes\n  - listitem:\n    - 'link \"4 #life 12 likes\"':\n      - /url: /devnet/hashtag/?tag=life\n      - text: \"4\"\n      - paragraph: \"#life\"\n      - paragraph: 12 likes\n  - listitem:\n    - 'link \"5 #weekend 11 likes\"':\n      - /url: /devnet/hashtag/?tag=weekend\n      - text: \"5\"\n      - paragraph: \"#weekend\"\n      - paragraph: 11 likes\n  - listitem:\n    - 'link \"6 #dash 11 likes\"':\n      - /url: /devnet/hashtag/?tag=dash\n      - text: \"6\"\n      - paragraph: \"#dash\"\n      - paragraph: 11 likes\n  - listitem:\n    - 'link \"7 #shoplocal 6 likes\"':\n      - /url: /devnet/hashtag/?tag=shoplocal\n      - text: \"7\"\n      - paragraph: \"#shoplocal\"\n      - paragraph: 6 likes\n  - listitem:\n    - 'link \"8 #memes 6 likes\"':\n      - /url: /devnet/hashtag/?tag=memes\n      - text: \"8\"\n      - paragraph: \"#memes\"\n      - paragraph: 6 likes\n  - listitem:\n    - link \"Show more\":\n      - /url: /devnet/explore/\n- heading \"Stats\" [level=2]\n- text: Total Posts 6.5K Your Posts 120 Followers 0 Following 0\n- link \"Powered by Dash Evolution\":\n  - /url: https://github.com/dashpay/platform\n  - img \"Powered by Dash Evolution\"\n- link \"Terms\":\n  - /url: /devnet/terms/\n- link \"Privacy\":\n  - /url: /devnet/privacy/\n- link \"Cookies\":\n  - /url: /devnet/cookies/\n- link \"About\":\n  - /url: /devnet/about/\n- alert"
+    }
+  ],
+  "checks": [
+    {
+      "name": "JWT label focuses input",
+      "focus": true
+    },
+    {
+      "name": "Gateway label focuses input",
+      "pass": true
+    },
+    {
+      "name": "Email label focuses input",
+      "focus": true
+    },
+    {
+      "name": "Empty connect stays disabled and Cancel dismisses each form",
+      "pass": true
+    }
+  ],
+  "noCredentialOrEmailSubmitted": true,
+  "success": true
+}
