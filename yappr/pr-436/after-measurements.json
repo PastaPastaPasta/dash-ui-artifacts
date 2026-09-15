@@ -1,0 +1,36 @@
+{
+  "kind": "contacts-dialog",
+  "state": "after",
+  "revision": "fa58063098973c6d308e937b90d32a56e854e3ae",
+  "identity": "4WJqx5yBKTW3v6FbkvwNZpGvWyafDzTjMSZLZEYwtC8R",
+  "surfaces": [
+    {
+      "surface": "contacts",
+      "controls": [
+        {
+          "role": "dialog",
+          "name": "Dash Pay Contacts",
+          "description": "Find and follow your mutual Dash Pay contacts on Yappr."
+        },
+        {
+          "role": "button",
+          "name": "Close contacts",
+          "description": "Close contacts"
+        }
+      ],
+      "snapshot": "- dialog \"Dash Pay Contacts\":\n  - heading \"Dash Pay Contacts\" [level=2]\n  - button \"Close contacts\"\n  - text: Close contacts\n  - tooltip \"Close contacts\"\n  - paragraph: Find and follow your mutual Dash Pay contacts on Yappr.\n  - img\n  - heading \"No unfollowed contacts\" [level=3]\n  - paragraph: You don't have any mutual Dash Pay contacts yet."
+    }
+  ],
+  "checks": [
+    {
+      "name": "Escape closes dialog",
+      "pass": true
+    },
+    {
+      "name": "Close button dismisses dialog",
+      "pass": true
+    }
+  ],
+  "noCredentialOrEmailSubmitted": true,
+  "success": true
+}
