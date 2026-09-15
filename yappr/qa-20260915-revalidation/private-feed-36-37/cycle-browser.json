@@ -1,0 +1,88 @@
+{
+  "revision": "4105c5d1c914f5d0838619da93c3b8d28b4a780e",
+  "owner": "7D12htK5tT9cVbEEJwGS3PAnAZyoF11vW1fXjGePe6Jn",
+  "follower": "FSKjtD7izsATQWr6fZSgbJPxiJM3MZNTLGAj1SvtJu2z",
+  "stages": [
+    {
+      "stage": "registered encryption key accepted for persona36",
+      "at": "2026-09-15T21:27:15.426Z",
+      "url": "http://127.0.0.1:3211/devnet/settings/?section=privateFeed"
+    },
+    {
+      "stage": "enabled private feed loaded in fresh owner session",
+      "at": "2026-09-15T21:27:15.427Z",
+      "url": "http://127.0.0.1:3211/devnet/settings/?section=privateFeed"
+    },
+    {
+      "stage": "private-only compose before submit",
+      "at": "2026-09-15T21:27:16.362Z",
+      "url": "http://127.0.0.1:3211/devnet/settings/?section=privateFeed"
+    },
+    {
+      "stage": "private post submission completed",
+      "at": "2026-09-15T21:27:22.827Z",
+      "url": "http://127.0.0.1:3211/devnet/settings/?section=privateFeed"
+    },
+    {
+      "stage": "owner read own private post after page navigation",
+      "at": "2026-09-15T21:27:37.713Z",
+      "url": "http://127.0.0.1:3211/devnet/post/?id=GKGz8rFrbdp72TwUhfQDrUtbz5huwEP6VJ6T2D7jXAmN"
+    },
+    {
+      "stage": "follower requested access via owner profile",
+      "at": "2026-09-15T21:28:01.156Z",
+      "url": "http://127.0.0.1:3211/devnet/user/?id=7D12htK5tT9cVbEEJwGS3PAnAZyoF11vW1fXjGePe6Jn"
+    },
+    {
+      "stage": "owner sees the pending request",
+      "at": "2026-09-15T21:28:17.069Z",
+      "url": "http://127.0.0.1:3211/devnet/settings/?section=privateFeed"
+    },
+    {
+      "stage": "owner approved the requested follower",
+      "at": "2026-09-15T21:28:22.456Z",
+      "url": "http://127.0.0.1:3211/devnet/settings/?section=privateFeed"
+    },
+    {
+      "stage": "registered encryption key accepted for persona37",
+      "at": "2026-09-15T21:28:42.738Z",
+      "url": "http://127.0.0.1:3211/devnet/post/?id=GKGz8rFrbdp72TwUhfQDrUtbz5huwEP6VJ6T2D7jXAmN"
+    },
+    {
+      "stage": "fresh approved follower recovered keys and read private post",
+      "at": "2026-09-15T21:28:42.740Z",
+      "url": "http://127.0.0.1:3211/devnet/post/?id=GKGz8rFrbdp72TwUhfQDrUtbz5huwEP6VJ6T2D7jXAmN"
+    }
+  ],
+  "errors": [
+    {
+      "idx": 36,
+      "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    },
+    {
+      "idx": 36,
+      "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    },
+    {
+      "idx": 37,
+      "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    },
+    {
+      "idx": 37,
+      "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    },
+    {
+      "idx": 36,
+      "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    },
+    {
+      "idx": 37,
+      "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    }
+  ],
+  "privateText": "QA private feed owner36 2026-09-15 1789507628052",
+  "postId": "GKGz8rFrbdp72TwUhfQDrUtbz5huwEP6VJ6T2D7jXAmN",
+  "requestId": "2xeknUsr69VutysSr56pu6N1VPvyNMoTF2NJ8c2ehw9j",
+  "grantId": "E2FgUTBnBsmE9en1otdLrJwXLeVDLA68q9pTEVYreUks",
+  "successThroughRead": true
+}

@@ -1,0 +1,100 @@
+{
+  "revision": "4105c5d1c914f5d0838619da93c3b8d28b4a780e",
+  "buildId": "4105c5d1",
+  "runtime": "http://127.0.0.1:3211/devnet/",
+  "sourceWorktree": "/Users/pasta/.t3/worktrees/yappr/a11y-blog-before",
+  "network": "devnet moutai",
+  "socialContract": "CdUkSHkQwGXXAkzKqrcrjUWLsj7qErK9XAZmLzJEhirU",
+  "viewport": {
+    "width": 1280,
+    "height": 1000
+  },
+  "owner": "7D12htK5tT9cVbEEJwGS3PAnAZyoF11vW1fXjGePe6Jn",
+  "follower": "FSKjtD7izsATQWr6fZSgbJPxiJM3MZNTLGAj1SvtJu2z",
+  "stateDocument": "BJmHrMZJ29mf5TNB3qxZcPvH4hPFbWv2bdpSAZjckg79",
+  "epoch1Post": "GKGz8rFrbdp72TwUhfQDrUtbz5huwEP6VJ6T2D7jXAmN",
+  "requestDocument": "2xeknUsr69VutysSr56pu6N1VPvyNMoTF2NJ8c2ehw9j",
+  "grantDocument": "E2FgUTBnBsmE9en1otdLrJwXLeVDLA68q9pTEVYreUks",
+  "rekeyDocument": "7NTpQdUKbbz79u7xuA6d3rWukvWgGaz2FJH5cmch8MBw",
+  "epoch2Post": "BqYTdPePdeknt4oA2T2P8mmDLZxTzrdf5UzUv7uRsxhq",
+  "initial": {
+    "feed": false,
+    "grant": false,
+    "request": false,
+    "follow": false
+  },
+  "final": {
+    "feed": true,
+    "epoch": 2,
+    "grant": false,
+    "request": false,
+    "follow": false,
+    "qaPostsRetained": true
+  },
+  "images": {
+    "enable-before.png": {
+      "sha256": "9e572b707befc6944362cd8c2e3475b2a9f9328938bfe9115988b2aac58bff72",
+      "inspectedOriginalResolution": true
+    },
+    "enable-after.png": {
+      "sha256": "4586ae5720b7b858a509475eddc0667cbf33f12d475a342cada35291ddedb695",
+      "inspectedOriginalResolution": true
+    },
+    "owner-fresh-setup.png": {
+      "sha256": "d453ed9de4f2cba7c8a158373af014370432554277173af1567be0dd7ea3cae8",
+      "inspectedOriginalResolution": true
+    },
+    "private-compose.png": {
+      "sha256": "2ce3b82fa80f76480d3f060c0683da0b4c3febd1a4605ee030f9c20fb5518fd2",
+      "inspectedOriginalResolution": true
+    },
+    "owner-private-readback.png": {
+      "sha256": "451bb4311cc402046faec6fc9e3645418a3ef48c049f0d6b91849990d5d65840",
+      "inspectedOriginalResolution": true
+    },
+    "request-pending.png": {
+      "sha256": "b1252c138d4fc3aa14fea9a41231c230ab11f9ce12cb1fdb658a0f1504d79397",
+      "inspectedOriginalResolution": true
+    },
+    "owner-pending-request.png": {
+      "sha256": "02f9244c3275fa95590ef90948e22afdd74bd80fa6f665c54732f05dce8feec2",
+      "inspectedOriginalResolution": true
+    },
+    "owner-approved.png": {
+      "sha256": "7338eef9aff966d2ee416cceda4e9225d752cc92f4ff1d88bb244684a8e2e79c",
+      "inspectedOriginalResolution": true
+    },
+    "follower-private-readback.png": {
+      "sha256": "dfe0029ca443b264531bb8ca80236ab7ed5dc39038be73d58c7373cd8675339b",
+      "inspectedOriginalResolution": true
+    },
+    "revoke-confirm.png": {
+      "sha256": "48b32c3166e5a5835f77b2279df7c93148cde751f25ebd890f48f8e336b78a53",
+      "inspectedOriginalResolution": true
+    },
+    "owner-revoked.png": {
+      "sha256": "fe69609f1940f26ba481227cef3b85c40be276099cf1afb260516704bd6db9a1",
+      "inspectedOriginalResolution": true
+    },
+    "owner-future-post.png": {
+      "sha256": "5c259dc78859a83191ed19b0168b0612cbe457bdcb4b8312078042772e7cd13a",
+      "inspectedOriginalResolution": true
+    },
+    "recipient-future-locked.png": {
+      "sha256": "c266afe49624442bafbe9343ce341b0328aa2088eb5629877f1a572d972be29b",
+      "inspectedOriginalResolution": true
+    },
+    "recipient-profile-after-revoke.png": {
+      "sha256": "1ae498da006281c28dc26c52cee2d348a6bb25de6877dbeb6c961e5282e0431d",
+      "inspectedOriginalResolution": true
+    }
+  },
+  "limitations": [
+    "This is a normal feature workflow, not a cryptographic or access-control audit.",
+    "No reply submission or access-bypass attempt after revocation.",
+    "Owner/follower author display name briefly unresolved in two future-post screenshots; identity IDs and live document readbacks establish provenance.",
+    "Live seeding continued adding unrelated public posts and changing statistics.",
+    "Owner pending request screenshot includes unrelated dashboard loading placeholders.",
+    "Initial cycle-run1-harness-selector-error.json is a test-selector error before writes, not a product failure."
+  ]
+}
