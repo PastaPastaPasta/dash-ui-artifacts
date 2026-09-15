@@ -36,8 +36,57 @@
     "BnkpxN1fNp4aQdQM6EhSd12ytb84NCZeTG7rSmyaZVUJ:reply": [],
     "6j2znBwntSsuAAitnMLBN9YMx8cx98ZPDpod5yRjhhFg:post": [],
     "6j2znBwntSsuAAitnMLBN9YMx8cx98ZPDpod5yRjhhFg:reply": [],
-    "poll": [],
-    "vote": []
+    "poll": [
+      {
+        "id": "DMN4Y5rkdCiFBUmhzgzizJbMFX6RpQaqLq4666Hc6aB3",
+        "$formatVersion": "0",
+        "$id": "DMN4Y5rkdCiFBUmhzgzizJbMFX6RpQaqLq4666Hc6aB3",
+        "$ownerId": "BnkpxN1fNp4aQdQM6EhSd12ytb84NCZeTG7rSmyaZVUJ",
+        "endsAt": 1789595060637,
+        "option0": "QA option A",
+        "option1": "QA option B",
+        "question": "QA poll42 2026-09-15 1789508659124 choose a test option",
+        "$revision": null,
+        "$createdAt": 1789508664938,
+        "$updatedAt": null,
+        "$transferredAt": null,
+        "$createdAtBlockHeight": null,
+        "$updatedAtBlockHeight": null,
+        "$transferredAtBlockHeight": null,
+        "$createdAtCoreBlockHeight": null,
+        "$updatedAtCoreBlockHeight": null,
+        "$transferredAtCoreBlockHeight": null,
+        "$creatorId": null,
+        "$contractVersion": 1,
+        "$dataContractId": "GvsLuXtg8KibQusPt2LfBg7DvvHUDDDzhjcVnD38EbuR",
+        "$type": "poll"
+      }
+    ],
+    "vote": [
+      {
+        "id": "9miM1Y6s1KoTCfnqHfJceU9BHN6rpFZrpPWZkASP67X3",
+        "$formatVersion": "0",
+        "$id": "9miM1Y6s1KoTCfnqHfJceU9BHN6rpFZrpPWZkASP67X3",
+        "$ownerId": "6j2znBwntSsuAAitnMLBN9YMx8cx98ZPDpod5yRjhhFg",
+        "choice": 0,
+        "pollId": "DMN4Y5rkdCiFBUmhzgzizJbMFX6RpQaqLq4666Hc6aB3",
+        "pollOwnerId": "BnkpxN1fNp4aQdQM6EhSd12ytb84NCZeTG7rSmyaZVUJ",
+        "$revision": null,
+        "$createdAt": 1789508688516,
+        "$updatedAt": null,
+        "$transferredAt": null,
+        "$createdAtBlockHeight": null,
+        "$updatedAtBlockHeight": null,
+        "$transferredAtBlockHeight": null,
+        "$createdAtCoreBlockHeight": null,
+        "$updatedAtCoreBlockHeight": null,
+        "$transferredAtCoreBlockHeight": null,
+        "$creatorId": null,
+        "$contractVersion": 1,
+        "$dataContractId": "GvsLuXtg8KibQusPt2LfBg7DvvHUDDDzhjcVnD38EbuR",
+        "$type": "vote"
+      }
+    ]
   },
   "scopeNote": "Only this QA run post/reply records retained; poll/vote query results retained."
 }
