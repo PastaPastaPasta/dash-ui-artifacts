@@ -1,0 +1,396 @@
+[
+  {
+    "state": "before",
+    "revision": "4105c5d1c914f5d0838619da93c3b8d28b4a780e",
+    "url": "/devnet/about/",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "theme": "dark",
+    "locale": "en-US",
+    "timezone": "America/Chicago",
+    "session": "signed out; fresh browser context",
+    "syntheticDOM": false,
+    "hiddenTabStops": 4,
+    "timeline": [
+      {
+        "elapsedMs": 740,
+        "action": "Start: focus last About resource link",
+        "tag": "A",
+        "text": "Dash.orgThe Dash cryptocurrency project",
+        "href": "https://www.dash.org",
+        "ariaLabel": null,
+        "inClosedSheet": false,
+        "inSheet": false,
+        "sheetInert": false,
+        "sheetAriaHidden": null,
+        "rect": {
+          "x": 48,
+          "y": 559,
+          "width": 294,
+          "height": 80
+        },
+        "focusedAriaSnapshot": "- link \"Dash.org The Dash cryptocurrency project\":\n  - /url: https://www.dash.org\n  - heading \"Dash.org\" [level=3]\n  - paragraph: The Dash cryptocurrency project",
+        "sheetAriaSnapshot": "- heading \"Menu\" [level=3]\n- button\n- link \"Store\":\n  - /url: /devnet/store/\n- link \"Blog\":\n  - /url: /devnet/blog/\n- button \"Sign In\""
+      },
+      {
+        "elapsedMs": 2763,
+        "action": "Tab 1",
+        "tag": "BUTTON",
+        "text": "",
+        "href": null,
+        "ariaLabel": null,
+        "inClosedSheet": true,
+        "inSheet": true,
+        "sheetInert": false,
+        "sheetAriaHidden": null,
+        "rect": {
+          "x": 346,
+          "y": 805,
+          "width": 36,
+          "height": 36
+        },
+        "focusedAriaSnapshot": "- button",
+        "sheetAriaSnapshot": "- heading \"Menu\" [level=3]\n- button\n- link \"Store\":\n  - /url: /devnet/store/\n- link \"Blog\":\n  - /url: /devnet/blog/\n- button \"Sign In\""
+      },
+      {
+        "elapsedMs": 4790,
+        "action": "Tab 2",
+        "tag": "A",
+        "text": "Store",
+        "href": "/devnet/store/",
+        "ariaLabel": null,
+        "inClosedSheet": true,
+        "inSheet": true,
+        "sheetInert": false,
+        "sheetAriaHidden": null,
+        "rect": {
+          "x": 16,
+          "y": 857,
+          "width": 83.5,
+          "height": 68
+        },
+        "focusedAriaSnapshot": "- link \"Store\":\n  - /url: /devnet/store/",
+        "sheetAriaSnapshot": "- heading \"Menu\" [level=3]\n- button\n- link \"Store\":\n  - /url: /devnet/store/\n- link \"Blog\":\n  - /url: /devnet/blog/\n- button \"Sign In\""
+      },
+      {
+        "elapsedMs": 6798,
+        "action": "Tab 3",
+        "tag": "A",
+        "text": "Blog",
+        "href": "/devnet/blog/",
+        "ariaLabel": null,
+        "inClosedSheet": true,
+        "inSheet": true,
+        "sheetInert": false,
+        "sheetAriaHidden": null,
+        "rect": {
+          "x": 107.5,
+          "y": 857,
+          "width": 83.5,
+          "height": 68
+        },
+        "focusedAriaSnapshot": "- link \"Blog\":\n  - /url: /devnet/blog/",
+        "sheetAriaSnapshot": "- heading \"Menu\" [level=3]\n- button\n- link \"Store\":\n  - /url: /devnet/store/\n- link \"Blog\":\n  - /url: /devnet/blog/\n- button \"Sign In\""
+      },
+      {
+        "elapsedMs": 8805,
+        "action": "Tab 4",
+        "tag": "BUTTON",
+        "text": "Sign In",
+        "href": null,
+        "ariaLabel": null,
+        "inClosedSheet": true,
+        "inSheet": true,
+        "sheetInert": false,
+        "sheetAriaHidden": null,
+        "rect": {
+          "x": 16,
+          "y": 958,
+          "width": 358,
+          "height": 48
+        },
+        "focusedAriaSnapshot": "- button \"Sign In\"",
+        "sheetAriaSnapshot": "- heading \"Menu\" [level=3]\n- button\n- link \"Store\":\n  - /url: /devnet/store/\n- link \"Blog\":\n  - /url: /devnet/blog/\n- button \"Sign In\""
+      },
+      {
+        "elapsedMs": 10815,
+        "action": "Tab 5",
+        "tag": "A",
+        "text": "",
+        "href": "/devnet/",
+        "ariaLabel": null,
+        "inClosedSheet": false,
+        "inSheet": false,
+        "sheetInert": false,
+        "sheetAriaHidden": null,
+        "rect": {
+          "x": 0,
+          "y": 788,
+          "width": 83.5,
+          "height": 56
+        },
+        "focusedAriaSnapshot": "- link:\n  - /url: /devnet/",
+        "sheetAriaSnapshot": "- heading \"Menu\" [level=3]\n- button\n- link \"Store\":\n  - /url: /devnet/store/\n- link \"Blog\":\n  - /url: /devnet/blog/\n- button \"Sign In\""
+      },
+      {
+        "elapsedMs": 13731,
+        "action": "Enter on menu toggle",
+        "tag": "BUTTON",
+        "text": "",
+        "href": null,
+        "ariaLabel": null,
+        "inClosedSheet": false,
+        "inSheet": false,
+        "sheetInert": false,
+        "sheetAriaHidden": null,
+        "rect": {
+          "x": 306.5,
+          "y": 788,
+          "width": 83.5,
+          "height": 56
+        },
+        "focusedAriaSnapshot": "- button",
+        "sheetAriaSnapshot": "- heading \"Menu\" [level=3]\n- button\n- link \"Store\":\n  - /url: /devnet/store/\n- link \"Blog\":\n  - /url: /devnet/blog/\n- button \"Sign In\""
+      },
+      {
+        "elapsedMs": 15956,
+        "action": "Escape",
+        "tag": "BUTTON",
+        "text": "",
+        "href": null,
+        "ariaLabel": null,
+        "inClosedSheet": false,
+        "inSheet": false,
+        "sheetInert": false,
+        "sheetAriaHidden": null,
+        "rect": {
+          "x": 306.5,
+          "y": 788,
+          "width": 83.5,
+          "height": 56
+        },
+        "focusedAriaSnapshot": "- button",
+        "sheetAriaSnapshot": "- heading \"Menu\" [level=3]\n- button\n- link \"Store\":\n  - /url: /devnet/store/\n- link \"Blog\":\n  - /url: /devnet/blog/\n- button \"Sign In\""
+      },
+      {
+        "elapsedMs": 18702,
+        "action": "Click close",
+        "tag": "BUTTON",
+        "text": "",
+        "href": null,
+        "ariaLabel": null,
+        "inClosedSheet": true,
+        "inSheet": true,
+        "sheetInert": false,
+        "sheetAriaHidden": null,
+        "rect": {
+          "x": 346,
+          "y": 805,
+          "width": 36,
+          "height": 36
+        },
+        "focusedAriaSnapshot": "- button",
+        "sheetAriaSnapshot": "- heading \"Menu\" [level=3]\n- button\n- link \"Store\":\n  - /url: /devnet/store/\n- link \"Blog\":\n  - /url: /devnet/blog/\n- button \"Sign In\""
+      }
+    ]
+  },
+  {
+    "state": "after",
+    "revision": "44061e3e0e1b2653f01ded0b36fdd32fcf3d4cf2",
+    "url": "/devnet/about/",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "theme": "dark",
+    "locale": "en-US",
+    "timezone": "America/Chicago",
+    "session": "signed out; fresh browser context",
+    "syntheticDOM": false,
+    "hiddenTabStops": 0,
+    "timeline": [
+      {
+        "elapsedMs": 708,
+        "action": "Start: focus last About resource link",
+        "tag": "A",
+        "text": "Dash.orgThe Dash cryptocurrency project",
+        "href": "https://www.dash.org",
+        "ariaLabel": null,
+        "inClosedSheet": false,
+        "inSheet": false,
+        "sheetInert": true,
+        "sheetAriaHidden": "true",
+        "rect": {
+          "x": 48,
+          "y": 559,
+          "width": 294,
+          "height": 80
+        },
+        "focusedAriaSnapshot": "- link \"Dash.org The Dash cryptocurrency project\":\n  - /url: https://www.dash.org\n  - heading \"Dash.org\" [level=3]\n  - paragraph: The Dash cryptocurrency project",
+        "sheetAriaSnapshot": ""
+      },
+      {
+        "elapsedMs": 2742,
+        "action": "Tab 1",
+        "tag": "A",
+        "text": "",
+        "href": "/devnet/",
+        "ariaLabel": null,
+        "inClosedSheet": false,
+        "inSheet": false,
+        "sheetInert": true,
+        "sheetAriaHidden": "true",
+        "rect": {
+          "x": 0,
+          "y": 788,
+          "width": 83.5,
+          "height": 56
+        },
+        "focusedAriaSnapshot": "- link:\n  - /url: /devnet/",
+        "sheetAriaSnapshot": ""
+      },
+      {
+        "elapsedMs": 4770,
+        "action": "Tab 2",
+        "tag": "A",
+        "text": "",
+        "href": "/devnet/explore/",
+        "ariaLabel": null,
+        "inClosedSheet": false,
+        "inSheet": false,
+        "sheetInert": true,
+        "sheetAriaHidden": "true",
+        "rect": {
+          "x": 83.5,
+          "y": 788,
+          "width": 83.5,
+          "height": 56
+        },
+        "focusedAriaSnapshot": "- link:\n  - /url: /devnet/explore/",
+        "sheetAriaSnapshot": ""
+      },
+      {
+        "elapsedMs": 6778,
+        "action": "Tab 3",
+        "tag": "BUTTON",
+        "text": "",
+        "href": null,
+        "ariaLabel": null,
+        "inClosedSheet": false,
+        "inSheet": false,
+        "sheetInert": true,
+        "sheetAriaHidden": "true",
+        "rect": {
+          "x": 167,
+          "y": 780,
+          "width": 56,
+          "height": 56
+        },
+        "focusedAriaSnapshot": "- button",
+        "sheetAriaSnapshot": ""
+      },
+      {
+        "elapsedMs": 8786,
+        "action": "Tab 4",
+        "tag": "A",
+        "text": "",
+        "href": "/devnet/messages/",
+        "ariaLabel": null,
+        "inClosedSheet": false,
+        "inSheet": false,
+        "sheetInert": true,
+        "sheetAriaHidden": "true",
+        "rect": {
+          "x": 223,
+          "y": 788,
+          "width": 83.5,
+          "height": 56
+        },
+        "focusedAriaSnapshot": "- link:\n  - /url: /devnet/messages/",
+        "sheetAriaSnapshot": ""
+      },
+      {
+        "elapsedMs": 10794,
+        "action": "Tab 5",
+        "tag": "BUTTON",
+        "text": "",
+        "href": null,
+        "ariaLabel": null,
+        "inClosedSheet": false,
+        "inSheet": false,
+        "sheetInert": true,
+        "sheetAriaHidden": "true",
+        "rect": {
+          "x": 306.5,
+          "y": 788,
+          "width": 83.5,
+          "height": 56
+        },
+        "focusedAriaSnapshot": "- button",
+        "sheetAriaSnapshot": ""
+      },
+      {
+        "elapsedMs": 13707,
+        "action": "Enter on menu toggle",
+        "tag": "BUTTON",
+        "text": "",
+        "href": null,
+        "ariaLabel": null,
+        "inClosedSheet": false,
+        "inSheet": true,
+        "sheetInert": false,
+        "sheetAriaHidden": "false",
+        "rect": {
+          "x": 346,
+          "y": 571,
+          "width": 36,
+          "height": 36
+        },
+        "focusedAriaSnapshot": "- button",
+        "sheetAriaSnapshot": "- heading \"Menu\" [level=3]\n- button\n- link \"Store\":\n  - /url: /devnet/store/\n- link \"Blog\":\n  - /url: /devnet/blog/\n- button \"Sign In\""
+      },
+      {
+        "elapsedMs": 15925,
+        "action": "Escape",
+        "tag": "BUTTON",
+        "text": "",
+        "href": null,
+        "ariaLabel": null,
+        "inClosedSheet": false,
+        "inSheet": false,
+        "sheetInert": true,
+        "sheetAriaHidden": "true",
+        "rect": {
+          "x": 306.5,
+          "y": 788,
+          "width": 83.5,
+          "height": 56
+        },
+        "focusedAriaSnapshot": "- button",
+        "sheetAriaSnapshot": ""
+      },
+      {
+        "elapsedMs": 19460,
+        "action": "Click close",
+        "tag": "BUTTON",
+        "text": "",
+        "href": null,
+        "ariaLabel": null,
+        "inClosedSheet": false,
+        "inSheet": false,
+        "sheetInert": true,
+        "sheetAriaHidden": "true",
+        "rect": {
+          "x": 306.5,
+          "y": 788,
+          "width": 83.5,
+          "height": 56
+        },
+        "focusedAriaSnapshot": "- button",
+        "sheetAriaSnapshot": ""
+      }
+    ]
+  }
+]
