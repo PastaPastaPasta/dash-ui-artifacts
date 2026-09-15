@@ -1,0 +1,49 @@
+{
+  "state": "before",
+  "revision": "4105c5d1c914f5d0838619da93c3b8d28b4a780e",
+  "identity": "5NW5MP2yVzqGavBCZtpfJ72CcGhiN2vX7RsdtJpQhhda",
+  "store": "98FYBhEF9Q8xNzbamzy66Dm5cMQ5gm9MoAZaiy518sNp",
+  "product": "25n2uxxtBSAWVWZBD86uGXdkHW7nYP25jpgfpPY87qRH",
+  "fields": [
+    {
+      "role": "textbox",
+      "name": ""
+    },
+    {
+      "role": "textbox",
+      "name": ""
+    },
+    {
+      "role": "textbox",
+      "name": ""
+    },
+    {
+      "role": "textbox",
+      "name": ""
+    },
+    {
+      "role": "textbox",
+      "name": ""
+    },
+    {
+      "role": "combobox",
+      "name": ""
+    },
+    {
+      "role": "textbox",
+      "name": ""
+    },
+    {
+      "role": "textbox",
+      "name": ""
+    },
+    {
+      "role": "textbox",
+      "name": "Search users & hashtags"
+    }
+  ],
+  "snapshot": "- main:\n  - button\n  - heading \"Checkout\" [level=1]\n  - button \"Cancel\"\n  - text: 1 2 3\n  - checkbox \"Add a shipping address\" [checked]\n  - text: Add a shipping address Your address is encrypted and will only be shared with the merchant after you complete your order. Shipping Address Full Name *\n  - textbox\n  - text: Street Address *\n  - textbox\n  - text: City *\n  - textbox\n  - text: State/Province\n  - textbox\n  - text: Postal Code *\n  - textbox\n  - text: Country *\n  - combobox:\n    - option \"United States\" [selected]\n    - option \"Canada\"\n    - option \"United Kingdom\"\n    - option \"Australia\"\n    - option \"Germany\"\n    - option \"France\"\n  - text: Contact Information Email\n  - textbox\n  - text: Phone\n  - textbox\n  - button \"Continue\"",
+  "nameFocused": false,
+  "noOrderSubmitted": true,
+  "success": true
+}

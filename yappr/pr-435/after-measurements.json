@@ -1,0 +1,83 @@
+{
+  "state": "after",
+  "revision": "d5711f335a0c78a0cd203203b52d210837c66ecc",
+  "identity": "5NW5MP2yVzqGavBCZtpfJ72CcGhiN2vX7RsdtJpQhhda",
+  "store": "98FYBhEF9Q8xNzbamzy66Dm5cMQ5gm9MoAZaiy518sNp",
+  "product": "25n2uxxtBSAWVWZBD86uGXdkHW7nYP25jpgfpPY87qRH",
+  "fields": [
+    {
+      "role": "textbox",
+      "name": "Full Name *"
+    },
+    {
+      "role": "textbox",
+      "name": "Street Address *"
+    },
+    {
+      "role": "textbox",
+      "name": "City *"
+    },
+    {
+      "role": "textbox",
+      "name": "State/Province"
+    },
+    {
+      "role": "textbox",
+      "name": "Postal Code *"
+    },
+    {
+      "role": "combobox",
+      "name": "Country *"
+    },
+    {
+      "role": "textbox",
+      "name": "Email"
+    },
+    {
+      "role": "textbox",
+      "name": "Phone"
+    },
+    {
+      "role": "textbox",
+      "name": "Search users & hashtags"
+    }
+  ],
+  "snapshot": "- main:\n  - button\n  - heading \"Checkout\" [level=1]\n  - button \"Cancel\"\n  - text: 1 2 3\n  - checkbox \"Add a shipping address\" [checked]\n  - text: Add a shipping address Your address is encrypted and will only be shared with the merchant after you complete your order. Shipping Address Full Name *\n  - textbox \"Full Name *\"\n  - text: Street Address *\n  - textbox \"Street Address *\"\n  - text: City *\n  - textbox \"City *\"\n  - text: State/Province\n  - textbox \"State/Province\"\n  - text: Postal Code *\n  - textbox \"Postal Code *\"\n  - text: Country *\n  - combobox \"Country *\":\n    - option \"United States\" [selected]\n    - option \"Canada\"\n    - option \"United Kingdom\"\n    - option \"Australia\"\n    - option \"Germany\"\n    - option \"France\"\n  - text: Contact Information Email\n  - textbox \"Email\"\n  - text: Phone\n  - textbox \"Phone\"\n  - button \"Continue\"",
+  "nameFocused": true,
+  "labelFocusChecks": [
+    {
+      "label": "Full Name *",
+      "pass": true
+    },
+    {
+      "label": "Street Address *",
+      "pass": true
+    },
+    {
+      "label": "City *",
+      "pass": true
+    },
+    {
+      "label": "State/Province",
+      "pass": true
+    },
+    {
+      "label": "Postal Code *",
+      "pass": true
+    },
+    {
+      "label": "Country *",
+      "pass": true
+    },
+    {
+      "label": "Email",
+      "pass": true
+    },
+    {
+      "label": "Phone",
+      "pass": true
+    }
+  ],
+  "noOrderSubmitted": true,
+  "success": true
+}
