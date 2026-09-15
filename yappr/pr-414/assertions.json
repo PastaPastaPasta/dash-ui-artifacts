@@ -1,0 +1,26 @@
+[
+  {
+    "state": "before",
+    "revision": "4105c5d1c914f5d0838619da93c3b8d28b4a780e",
+    "postId": "8Pu2yqcvPTnhtikJ2cWRnC2eukzLFHSJkrVEimGUjf47",
+    "identityId": "H4P7NB1JNJ3B9LRpPixi3sUs7qhN5w9xs9YbQSBFh8Z1",
+    "accessibleName": "",
+    "tooltipVisible": false,
+    "keyboardMenuOpensAndCloses": true,
+    "focusReturnsToTrigger": true,
+    "expandedStateChangesCorrectly": true,
+    "ariaSnapshot": "- button"
+  },
+  {
+    "state": "after",
+    "revision": "1d5daf5b233baed9a334810914345a32d9996d4a",
+    "postId": "8Pu2yqcvPTnhtikJ2cWRnC2eukzLFHSJkrVEimGUjf47",
+    "identityId": "H4P7NB1JNJ3B9LRpPixi3sUs7qhN5w9xs9YbQSBFh8Z1",
+    "accessibleName": "Post options",
+    "tooltipVisible": true,
+    "keyboardMenuOpensAndCloses": true,
+    "focusReturnsToTrigger": true,
+    "expandedStateChangesCorrectly": true,
+    "ariaSnapshot": "- button \"Post options\""
+  }
+]
