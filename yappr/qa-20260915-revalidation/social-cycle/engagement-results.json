@@ -1,0 +1,31 @@
+{
+  "revision": "4105c5d1c914f5d0838619da93c3b8d28b4a780e",
+  "actor": "5XGUxtqUKXN1bU5Wgu2XNFphzALUks1qTFmXW3AVgpva",
+  "author": "sNnNFK4vrjhy6nPYpj2FSUhREY8CRG3QZscn61nXhAg",
+  "post": "9mcdDNznWP86bScjmMykF1kzNpecneoFoZVVNAB5qCFd",
+  "marker": "QA social write 2026-09-15 1789505590300",
+  "steps": [
+    {
+      "step": "like settled",
+      "passed": true
+    },
+    {
+      "step": "bookmark success toast",
+      "passed": true
+    },
+    {
+      "step": "fresh context like and bookmark readback",
+      "passed": true
+    },
+    {
+      "step": "unlike and unbookmark settled",
+      "passed": true
+    },
+    {
+      "step": "fresh context unlike/unbookmark readback",
+      "passed": true,
+      "text": "Bookmarks\n\n0 saved posts\n\nSave posts for later\n\nDon't let the good ones fly away! Bookmark posts to easily find them again."
+    }
+  ],
+  "harnessCorrection": "Initial empty-state assertion used nonexistent text No bookmarks yet. A subsequent negative-only check ran before hydration and its loading screenshot was rejected. Rechecked by waiting for the real Save posts for later heading, then verified absence of the specific saved post; no product failure inferred."
+}
