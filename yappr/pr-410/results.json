@@ -1,0 +1,82 @@
+[
+  {
+    "variant": "before",
+    "revision": "4105c5d1c914f5d0838619da93c3b8d28b4a780e",
+    "surface": "type-modal",
+    "filename": "before-type-modal.png",
+    "focusFilename": "before-type-modal-focus.png",
+    "url": "http://localhost:4181/devnet/qa/payment-validation/",
+    "passed": true,
+    "body": "DEVNET|Running on a Dash Platform devnet. Data may be reset.\nYappr\nHome\nExplore\nStore\nBlog\nSign In\n\nJoin Yappr to share your voice on the decentralized web\n\nPayment modal — QA fixture\n\nActual PaymentMethodModal with an observed save callback.\n\nTrending\nStats\nTermsPrivacyCookiesAbout\nAdd Payment Method\nSelect Type\nCustom URI\nPayment Type\ntD\nDash (Testnet)\nD\nDash\nB\nBitcoin\nE\nEthereum\nL\nLitecoin\nM\nMonero\nD\nDogecoin\nBC\nBitcoin Cash\nZ\nZcash\nXL\nStellar\nX\nXRP\nS\nSolana\nA\nCardano\nP\nPolkadot\nT\nTron\nLN\nLightning\nAddress *\n\nYour testnet Dash wallet address\n\nLabel (optional)\nCancel\nAdding...\nTest-only save observer\n\nFixture: Ready\n\nCallback invocations: 1\n\ntdash:y123\n\nPersistence is stubbed; no blockchain write."
+  },
+  {
+    "variant": "before",
+    "revision": "4105c5d1c914f5d0838619da93c3b8d28b4a780e",
+    "surface": "custom-modal",
+    "filename": "before-custom-modal.png",
+    "focusFilename": "before-custom-modal-focus.png",
+    "url": "http://localhost:4181/devnet/qa/payment-validation/",
+    "passed": true,
+    "body": "DEVNET|Running on a Dash Platform devnet. Data may be reset.\nYappr\nHome\nExplore\nStore\nBlog\nSign In\n\nJoin Yappr to share your voice on the decentralized web\n\nPayment modal — QA fixture\n\nActual PaymentMethodModal with an observed save callback.\n\nTrending\nStats\nTermsPrivacyCookiesAbout\nAdd Payment Method\nSelect Type\nCustom URI\nPayment URI *\n\nSupported: Dash, Dash (Testnet), Bitcoin, Litecoin, Ethereum, Monero, Dogecoin, Bitcoin Cash, Zcash, Stellar, XRP, Solana, Cardano, Polkadot, Tron, Lightning\n\nLabel (optional)\nCancel\nAdding...\nTest-only save observer\n\nFixture: Ready\n\nCallback invocations: 1\n\ntdash:y123\n\nPersistence is stubbed; no blockchain write."
+  },
+  {
+    "variant": "before",
+    "revision": "4105c5d1c914f5d0838619da93c3b8d28b4a780e",
+    "surface": "profile",
+    "filename": "before-profile.png",
+    "focusFilename": "before-profile-focus.png",
+    "url": "http://localhost:4181/devnet/qa/profile-payment-validation/",
+    "passed": true,
+    "body": "DEVNET|Running on a Dash Platform devnet. Data may be reset.\nYappr\nHome\nExplore\nStore\nBlog\nSign In\n\nJoin Yappr to share your voice on the decentralized web\n\nProfile payment addresses — QA fixture\n\nActual PaymentUriInput. Changes remain in local fixture state.\n\nPayment Addresses\n\nAdd cryptocurrency addresses where others can send you tips\n\ntDash\ny123\nAdd\nSupported: Dash, Bitcoin, Litecoin, Ethereum, Monero, Dogecoin, Bitcoin Cash, Zcash, Stellar, XRP, Solana, Cardano, Polkadot, Tron, Lightning\nTest-only change observer\n\nFixture: Ready\n\nAccepted URI count: 1\n\n[\"tdash:y123\"]\nTrending\nStats\nTermsPrivacyCookiesAbout"
+  },
+  {
+    "variant": "after",
+    "revision": "57d2395ae22566f79b355baaf5fad13dcf347c34",
+    "surface": "type-modal",
+    "filename": "after-type-modal.png",
+    "focusFilename": "after-type-modal-focus.png",
+    "url": "http://localhost:4182/devnet/qa/payment-validation/",
+    "passed": true,
+    "body": "DEVNET|Running on a Dash Platform devnet. Data may be reset.\nYappr\nHome\nExplore\nStore\nBlog\nSign In\n\nJoin Yappr to share your voice on the decentralized web\n\nPayment modal — QA fixture\n\nActual PaymentMethodModal with an observed save callback.\n\nTrending\nStats\nTermsPrivacyCookiesAbout\nAdd Payment Method\nSelect Type\nCustom URI\nPayment Type\ntD\nDash (Testnet)\nD\nDash\nB\nBitcoin\nE\nEthereum\nL\nLitecoin\nM\nMonero\nD\nDogecoin\nBC\nBitcoin Cash\nZ\nZcash\nXL\nStellar\nX\nXRP\nS\nSolana\nA\nCardano\nP\nPolkadot\nT\nTron\nLN\nLightning\nAddress *\n\nEnter a valid Dash testnet address (tdash:).\n\nLabel (optional)\nCancel\nAdd Payment\nTest-only save observer\n\nFixture: Ready\n\nCallback invocations: 0\n\nNo save requested\n\nPersistence is stubbed; no blockchain write."
+  },
+  {
+    "variant": "after",
+    "revision": "57d2395ae22566f79b355baaf5fad13dcf347c34",
+    "surface": "custom-modal",
+    "filename": "after-custom-modal.png",
+    "focusFilename": "after-custom-modal-focus.png",
+    "url": "http://localhost:4182/devnet/qa/payment-validation/",
+    "passed": true,
+    "body": "DEVNET|Running on a Dash Platform devnet. Data may be reset.\nYappr\nHome\nExplore\nStore\nBlog\nSign In\n\nJoin Yappr to share your voice on the decentralized web\n\nPayment modal — QA fixture\n\nActual PaymentMethodModal with an observed save callback.\n\nTrending\nStats\nTermsPrivacyCookiesAbout\nAdd Payment Method\nSelect Type\nCustom URI\nPayment URI *\n\nEnter a valid Dash testnet address (tdash:).\n\nLabel (optional)\nCancel\nAdd Payment\nTest-only save observer\n\nFixture: Ready\n\nCallback invocations: 0\n\nNo save requested\n\nPersistence is stubbed; no blockchain write."
+  },
+  {
+    "variant": "after",
+    "revision": "57d2395ae22566f79b355baaf5fad13dcf347c34",
+    "surface": "profile",
+    "filename": "after-profile.png",
+    "focusFilename": "after-profile-focus.png",
+    "url": "http://localhost:4182/devnet/qa/profile-payment-validation/",
+    "passed": true,
+    "body": "DEVNET|Running on a Dash Platform devnet. Data may be reset.\nYappr\nHome\nExplore\nStore\nBlog\nSign In\n\nJoin Yappr to share your voice on the decentralized web\n\nProfile payment addresses — QA fixture\n\nActual PaymentUriInput. Changes remain in local fixture state.\n\nPayment Addresses\n\nAdd cryptocurrency addresses where others can send you tips\n\nAdd\nPlease enter a valid payment URI (e.g., tdash:y..., dash:XnNh3..., bitcoin:bc1...)\nSupported: Dash, Bitcoin, Litecoin, Ethereum, Monero, Dogecoin, Bitcoin Cash, Zcash, Stellar, XRP, Solana, Cardano, Polkadot, Tron, Lightning\nTest-only change observer\n\nFixture: Ready\n\nAccepted URI count: 0\n\n[]\nTrending\nStats\nTermsPrivacyCookiesAbout"
+  },
+  {
+    "name": "valid-testnet",
+    "passed": true
+  },
+  {
+    "name": "valid-mainnet",
+    "passed": true
+  },
+  {
+    "name": "wrong-network",
+    "passed": true
+  },
+  {
+    "name": "query-parameters-preserved-modal",
+    "passed": true
+  },
+  {
+    "name": "query-parameters-preserved-profile",
+    "passed": true
+  }
+]
