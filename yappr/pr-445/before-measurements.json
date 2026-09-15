@@ -1,0 +1,20 @@
+{
+  "state": "before",
+  "revision": "4105c5d1c914f5d0838619da93c3b8d28b4a780e",
+  "checks": [
+    {
+      "name": "plain alice7 search",
+      "results": "Alice\n\n@alice7\n\nAlice\n\n@alice7-sept\n\nView all results for \"alice7\""
+    },
+    {
+      "name": "whitespace trim compatibility",
+      "pass": true
+    },
+    {
+      "name": "hashtag suggestion compatibility",
+      "pass": true
+    }
+  ],
+  "handleResults": "No results found for \"@alice7\"",
+  "success": true
+}

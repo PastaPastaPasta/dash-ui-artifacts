@@ -1,0 +1,24 @@
+{
+  "state": "after",
+  "revision": "0efafda0f197cb6c8bce710c65b767340d04dc13",
+  "checks": [
+    {
+      "name": "plain alice7 search",
+      "results": "Alice\n\n@alice7\n\nAlice\n\n@alice7-sept\n\nView all results for \"alice7\""
+    },
+    {
+      "name": "@alice7 Enter selects expected identity",
+      "pass": true
+    },
+    {
+      "name": "whitespace trim compatibility",
+      "pass": true
+    },
+    {
+      "name": "hashtag suggestion compatibility",
+      "pass": true
+    }
+  ],
+  "handleResults": "Alice\n\n@alice7\n\nAlice\n\n@alice7-sept\n\nView all results for \"@alice7\"",
+  "success": true
+}
