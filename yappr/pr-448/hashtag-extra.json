@@ -1,0 +1,96 @@
+{
+  "checks": [
+    "Small/empty fixture loaded",
+    "Nonexistent tag ends empty without sentinel",
+    "Offline continuation preserves50 posts and exposes manual retry",
+    "Manual retry succeeds with100 unique posts"
+  ],
+  "requests": [
+    {
+      "url": "https://seed-1.moutai.networks.dash.org:1443//org.dash.platform.dapi.v0.Platform/getDataContractsLatestVersions",
+      "length": 316
+    },
+    {
+      "url": "https://seed-2.moutai.networks.dash.org:1443//org.dash.platform.dapi.v0.Platform/getDocuments",
+      "length": 74
+    },
+    {
+      "url": "https://seed-4.moutai.networks.dash.org:1443//org.dash.platform.dapi.v0.Platform/getDataContract",
+      "length": 43
+    },
+    {
+      "url": "https://seed-5.moutai.networks.dash.org:1443//org.dash.platform.dapi.v0.Platform/getDocuments",
+      "length": 53
+    },
+    {
+      "url": "https://seed-3.moutai.networks.dash.org:1443//org.dash.platform.dapi.v0.Platform/getDocuments",
+      "length": 650
+    },
+    {
+      "url": "https://seed-1.moutai.networks.dash.org:1443//org.dash.platform.dapi.v0.Platform/getDataContractsLatestVersions",
+      "length": 316
+    },
+    {
+      "url": "https://seed-2.moutai.networks.dash.org:1443//org.dash.platform.dapi.v0.Platform/getDocuments",
+      "length": 74
+    },
+    {
+      "url": "https://seed-4.moutai.networks.dash.org:1443//org.dash.platform.dapi.v0.Platform/getDataContract",
+      "length": 43
+    },
+    {
+      "url": "https://seed-5.moutai.networks.dash.org:1443//org.dash.platform.dapi.v0.Platform/getDocuments",
+      "length": 53
+    },
+    {
+      "url": "https://seed-3.moutai.networks.dash.org:1443//org.dash.platform.dapi.v0.Platform/getDocuments",
+      "length": 656
+    },
+    {
+      "url": "https://seed-1.moutai.networks.dash.org:1443//org.dash.platform.dapi.v0.Platform/getDataContractsLatestVersions",
+      "length": 316
+    },
+    {
+      "url": "https://seed-2.moutai.networks.dash.org:1443//org.dash.platform.dapi.v0.Platform/getDocuments",
+      "length": 74
+    },
+    {
+      "url": "https://seed-4.moutai.networks.dash.org:1443//org.dash.platform.dapi.v0.Platform/getDataContract",
+      "length": 43
+    },
+    {
+      "url": "https://seed-5.moutai.networks.dash.org:1443//org.dash.platform.dapi.v0.Platform/getDocuments",
+      "length": 53
+    },
+    {
+      "url": "https://seed-3.moutai.networks.dash.org:1443//org.dash.platform.dapi.v0.Platform/getDocuments",
+      "length": 644
+    },
+    {
+      "url": "https://seed-1.moutai.networks.dash.org:1443//org.dash.platform.dapi.v0.Platform/getDocuments",
+      "length": 154
+    },
+    {
+      "url": "https://seed-2.moutai.networks.dash.org:1443//org.dash.platform.dapi.v0.Platform/getDocuments",
+      "length": 154
+    },
+    {
+      "url": "https://seed-4.moutai.networks.dash.org:1443//org.dash.platform.dapi.v0.Platform/getDocuments",
+      "length": 154
+    },
+    {
+      "url": "https://seed-5.moutai.networks.dash.org:1443//org.dash.platform.dapi.v0.Platform/getDocuments",
+      "length": 154
+    },
+    {
+      "url": "https://seed-3.moutai.networks.dash.org:1443//org.dash.platform.dapi.v0.Platform/getDocuments",
+      "length": 154
+    },
+    {
+      "url": "https://seed-3.moutai.networks.dash.org:1443//org.dash.platform.dapi.v0.Platform/getDocuments",
+      "length": 2858
+    }
+  ],
+  "small": 0,
+  "smallText": "qa20260915\n\n0 posts\n\nLatest\nTop\nNo posts yet\n\nBe the first to post with #qa20260915\n\nLooking for older posts? Browse the previous version of Yappr"
+}

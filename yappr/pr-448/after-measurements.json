@@ -1,0 +1,1585 @@
+{
+  "state": "after",
+  "revision": "3114a282dfb50130812ac6e142b04964db5e9857",
+  "tag": "dash",
+  "checks": [
+    {
+      "name": "All loaded IDs unique and chronological; known older post present",
+      "pass": true
+    }
+  ],
+  "initial": [
+    {
+      "id": "FxwCp9MD5pPpDq91RY51eZDJspmsX7s9qMM3KCHJN3i9",
+      "text": "Soren Pereira\n@soren-film3.dash\n·\n2h\nwhoever kept a block explorer running through 2015 while the name changed under it deserves a plaque. \n#dash",
+      "time": "2026-09-15T21:38:02.298Z"
+    },
+    {
+      "id": "EWjjJVMsaNaTUg8oJeeUfAcpF2SG9xVGkBkaW7wzPijU",
+      "text": "Nia Farah\n@postingnia5.dash\n·\n2h\nat the wedding the groom paid the band in dash and the band had to check what that was and then had to check that it was instant and then played an extra song not a great time to be me \n#dash",
+      "time": "2026-09-15T21:36:43.403Z"
+    },
+    {
+      "id": "AxgFtmqYpKJMLsrX3bjLrxMCDUy5eMdXZqnNkrb5JYMa",
+      "text": "Gianna Marlowe\n@gianna-pays-5.dash\n·\n2h\nlove that i can look at somebody's yappr profile and know the follower count isn't a number some server made up. it's proven from the root hash. \n#dash",
+      "time": "2026-09-15T21:36:43.403Z"
+    },
+    {
+      "id": "4xt7PX4tojEXWC8MsevV8DBUW87JRecGyDLbUjqpuCcj",
+      "text": "Sabine Yilmaz\n@sabine-ceramics8.dash\n·\n2h\nclosed the comic i started in 2014. 48 pages. the last 40 were done this month. the first 8 took the years. that math is very normal for me. ✏️ \n#dash\n\nMedia from someone you don't follow\n\nShow",
+      "time": "2026-09-15T21:36:32.077Z"
+    },
+    {
+      "id": "ChQHfPwnqC5aEKdXNLQ6Ko1j2NDHsw286h61mfQPMXfj",
+      "text": "Rosa Yamamoto\n@seeds-rosa7.dash\n·\n2h\nDecember 2017 I checked the price 5 times before breakfast. January 2018 I stopped checking. That whole arc is why I can't take charts seriously anymore. \n#dash",
+      "time": "2026-09-15T21:36:20.488Z"
+    },
+    {
+      "id": "DyLBZsVqUHBjbRmJVDpRsd2B9fK4SmUAvJ7AdfGe9Wi",
+      "text": "Omar Nkemelu\n@plots-omar7.dash\n·\n2h\nUncle claims the fish was this big. Don't trust, verify. No photo, no fish. \n#dash",
+      "time": "2026-09-15T21:36:09.862Z"
+    },
+    {
+      "id": "9XKUu7fAsn8pFBEBJPpBxuniqRGzYE3zkf9SC1xrKBGB",
+      "text": "just carol\n@lightcarol7.dash\n·\n2h\nVendor at the Calgary night market pointed at his QR code, pointed at his phone, said 'one second,' and it was one second. Sold. \n#dash",
+      "time": "2026-09-15T21:35:46.521Z"
+    },
+    {
+      "id": "8CJhV4DDCvatQwYKeyST2iSSH2npBTYoqih87efnxT6S",
+      "text": "Anders Walsh\n@anders-walsh9.dash\n·\n2h\ngrandma uses dash. grandma does not know she uses dash. the app just says send and she sends. \n#dash",
+      "time": "2026-09-15T21:35:46.521Z"
+    },
+    {
+      "id": "Bu7Emop7Ex8VvW5nTKBTEmp8kqT5ipvFgBhLHYmnHPV3",
+      "text": "Gianna Marlowe\n@gianna-pays-5.dash\n·\n2h\ngenuine question from a skeptic: why does a monthly treasury need to be 10 percent of the block reward. i have been told 4 times and it has not stuck \n#dash",
+      "time": "2026-09-15T21:35:12.265Z"
+    },
+    {
+      "id": "ERoKaQFkZwu9j7VWt6oiXQAfPJ7a8NSSr1fTwa7mfxQw",
+      "text": "Hamza Kaplan\n@hamzak78.dash\n·\n2h\nReunion couldn't agree on what year it launched so I said January 18, 2014, block 1, and now I'm 'the nerd.' Fine. \n#dash",
+      "time": "2026-09-15T21:35:02.652Z"
+    },
+    {
+      "id": "25h3i3b8cTBsAfFmKHjLV1cz4n3BGE3zLudFugMPWwLH",
+      "text": "gabriel\n@gabrielo83.dash\n·\n2h\nfreezer inventory: my dinner, three frozen kongs, a bag of peas that is medical for the dog and also for me. \n#dash",
+      "time": "2026-09-15T21:34:49.789Z"
+    },
+    {
+      "id": "Dsv7gc4z3yajPqxhzXiZSasNzBCawahmNmE9cNjL1Sot",
+      "text": "Soren Tran\n@soren-notes7.dash\n·\n2h\nwatching my nephew ask his phone for a merkle proof of his allowance. yappr did this. yappr made this. 🐶 \n#dash",
+      "time": "2026-09-15T21:34:39.223Z"
+    },
+    {
+      "id": "5jAU65YtFHRzA7uz2p7E2d2EsEp36gDCCVraPJ4fVaXC",
+      "text": "Gianna Marlowe\n@gianna-pays-5.dash\n·\n2h\nbus app says 4 minutes. dont trust, verify, walk that's the roll. \n#dash",
+      "time": "2026-09-15T21:34:15.691Z"
+    },
+    {
+      "id": "55WezSzqw97QVHHzfWGiAwRasryRdLS515chgGhvqRfG",
+      "text": "Bianca Gallagher\n@bianca-translat6.dash\n·\n2h\nPartner says the leftovers are sitll good. Don't trust, verify. Sniffed. Debatable. \n#dash",
+      "time": "2026-09-15T21:33:52.958Z"
+    },
+    {
+      "id": "5FsiidssJgnfj7SFVDfxHauvYQLtsxZYgjqHouCN53QR",
+      "text": "Nils Mahoney\n@mahoney-pages5.dash\n·\n2h\nceltic injury report is a dont trust, verify situation \n#dash",
+      "time": "2026-09-15T21:33:41.688Z"
+    },
+    {
+      "id": "4W4FkuzSVmYccvokLcMaEV6kisQ3gA6p4w46evysfiDZ",
+      "text": "Lin I.\n@lin-snaps3.dash\n·\n2h\nyou can explain Dash to your grandmother in one sentence: it is cash, but on the phone. Try that with an L2. \n#dash",
+      "time": "2026-09-15T21:33:41.688Z"
+    },
+    {
+      "id": "H8wSjdEr4UmWia2s53VazdhLhUEPRao7GZ4fNh3Pv3HA",
+      "text": "Ife Kowalski\n@ife-recipes5.dash\n·\n2h\nfinding out the darkcoin era lasted only about a year but takes up 40 percent of every history thread. 💀 \n#dash",
+      "time": "2026-09-15T21:32:44.761Z"
+    },
+    {
+      "id": "44kbab8xUbTyYfCApNJENhivgiQDQAec4nQp9vNiapbr",
+      "text": "Sasha Nascimento\n@paints-sasha9.dash\n·\n2h\ni have now read the words \"digital cash\" 49 times today and i am starting to believe them \n#dash",
+      "time": "2026-09-15T21:32:44.761Z"
+    },
+    {
+      "id": "9G3hPBrXmCDEi6EEVP4WVEW6HRP2LXHQTHEsGgs5iwoL",
+      "text": "Anders Walsh\n@anders-walsh9.dash\n·\n2h\nlabel says low sugar. dont trust, verify the back known issue \n#dash",
+      "time": "2026-09-15T21:32:33.762Z"
+    },
+    {
+      "id": "FQimeiG9m68ZsffAkp4X2h3moZgjYn2bb9qDqp7JfEHy",
+      "text": "Chidi Moreno\n@campingchidi5.dash\n·\n2h\nthe proof is 8kb. the answer is 1 byte. this is the most honest ratio in computing. \n#dash",
+      "time": "2026-09-15T21:32:10.955Z"
+    },
+    {
+      "id": "Bdcox2mGXixweBqkHRNyE1xWntc1PpyjDLKeEevudDCN",
+      "text": "Sigrid Nguyen\n@sigrid-tea-3.dash\n·\n2h\nref said it was a foul. dont trust, verify. replay says no \n#dash",
+      "time": "2026-09-15T21:31:49.351Z"
+    },
+    {
+      "id": "F8QFdnt6VmRuh7MM9VdM4xCooBDEDHxmj2pj1ozzgc6Z",
+      "text": "Chidi Moreno\n@campingchidi5.dash\n·\n2h\nexplained a merkle proof with a receipt from a bike repair shop and my roommate said so the receipt is the proof and i said yes and she said why did that take you ten minutes \n#dash",
+      "time": "2026-09-15T21:31:38.224Z"
+    },
+    {
+      "id": "3HZoMFC2JD8tFGxYmrr3eik21UVqAMWRfX5WvKEPF1tY",
+      "text": "Lin I.\n@lin-snaps3.dash\n·\n2h\n2191244 blocks since Jan 18, 2014 and not one of them asked for permission. \n#dash",
+      "time": "2026-09-15T21:31:38.224Z"
+    },
+    {
+      "id": "2AqE8buVZtUy3SZAaw8xWAjh3APh2EK9mjTgKamUy7mh",
+      "text": "Lin I.\n@lin-snaps3.dash\n·\n2h\nfield note: reminder that 1000 DASH collateral is not a fee; it's a promise you can afford to keep. same energy as a #[must_use] annotation. \n#dash",
+      "time": "2026-09-15T21:30:28.746Z"
+    },
+    {
+      "id": "GsiCVGJEJP7JMpS1pVPadekYHazkZdx4hoa8kRa92sxH",
+      "text": "Dr. Hamza\n@hamza1981.dash\n·\n2h\n12 years. Block 1 on January 18, 2014. I was in Porto eating khachapuri and had no idea. \n#dash",
+      "time": "2026-09-15T21:30:17.259Z"
+    },
+    {
+      "id": "3Sbr9UHEZzM9Ji12szeezFQRdPZ5ZjSLQje5AwpUfPVW",
+      "text": "gabriel\n@gabrielo83.dash\n·\n2h\npromised the dog five minutes. a woman at the door said \"they don't understand time.\" ma'am, he cried like it was a month. \n#dash\n\nMedia from someone you don't follow\n\nShow",
+      "time": "2026-09-15T21:30:04.506Z"
+    },
+    {
+      "id": "784njS9rifvuuL6PcRteMYpDB4tDCqTAeNQWKhxrzYu6",
+      "text": "Lin I.\n@lin-snaps3.dash\n·\n2h\nAnyone got a favourite way to draw a merkle tree in the terminal; nested indentation gets sad past depth 6 \n#dash",
+      "time": "2026-09-15T21:29:43.821Z"
+    },
+    {
+      "id": "3nhBz3vTBngnkzeY3dg4yoC3cKri8wCirqrUc4acsoey",
+      "text": "Rúben Fujita\n@ruben-bytes2.dash\n·\n2h\nwhen the proof verifies but the value looks wrong, the value is right and your mental model is wrong. writing this down for the 3th time \n#dash",
+      "time": "2026-09-15T21:29:43.821Z"
+    },
+    {
+      "id": "E4yv4dH2LJmtW9dMb6FKuuMoAAoKnc6Tu2grEkGHXrYH",
+      "text": "Lin I.\n@lin-snaps3.dash\n·\n2h\nheight check: 2190667. everything else in my life is unconfirmed \n#dash",
+      "time": "2026-09-15T21:29:08.864Z"
+    },
+    {
+      "id": "7hfdnx2jMXounUF9UJo7KGg6nnnXd4QC2HcWYRUy2BvL",
+      "text": "Zoë Lindgren\n@lindgren-shoots6.dash\n·\n2h\nWallet installed, address copied, coffee bought. The whole onboarding was shorter than this post. \n#dash",
+      "time": "2026-09-15T21:28:57.558Z"
+    },
+    {
+      "id": "7csKXCsKyYGsdhdXyJsego9dM6viWF89EEHJoxhuFmAy",
+      "text": "Jana Okafor\n@jana-ramen7.dash\n·\n2h\nUnderrated: a spare network cable in every colour so you can tell the node's uplink from the printer's at a glance. Yes I plugged the wrong one once. \n#dash",
+      "time": "2026-09-15T21:28:34.928Z"
+    },
+    {
+      "id": "3RXmSLYGGyA78zRY79uNBRQ4VSRHcwtyUdymsYnHpD2Y",
+      "text": "Frankie Demir\n@pays-frankie5.dash\n·\n2h\nSplit the bill six ways in Dash at dinner. Six locks in under ten seconds. The waiter watched like it was a card trick. \n#dash",
+      "time": "2026-09-15T21:28:23.597Z"
+    },
+    {
+      "id": "Bo6Lz3SpYKtVfnK2ivZfgbESEzpUf7pS8BMUB3Aas69s",
+      "text": "Harriet Holm\n@harriet-synths-9.dash\n·\n2h\nsomeone in the group chat said \"Dash is boring\" and I've never heard a nicer compliment for a currency \n#dash",
+      "time": "2026-09-15T21:28:11.574Z"
+    },
+    {
+      "id": "DcEG2QEiKwJMYKSvjwGpeqzZn9E68NAw1qHJbqpRUebM",
+      "text": "Lin I.\n@lin-snaps3.dash\n·\n2h\nDaughter asked why I say verify instead of check. Said check is for lists; verify is for people who might be lying. \"So all of them.\" She's been listening. \n#dash",
+      "time": "2026-09-15T21:27:36.282Z"
+    },
+    {
+      "id": "6edTjPVEX6VBRLn1djyySdvjMvSeujU1ebsAHfB5LyHi",
+      "text": "Rúben Fujita\n@ruben-bytes2.dash\n·\n2h\nevery time a quorum rotates i lose one cached connection and gain a tiny bit of respect for whoever wrote the retry logic in the sdk. closing the laptop now \n#dash",
+      "time": "2026-09-15T21:27:36.282Z"
+    },
+    {
+      "id": "CfT1irTzhnK56veGfcM7gE6SEgFzURHzc5p3Cvekd3hz",
+      "text": "Dr. Hamza\n@hamza1981.dash\n·\n2h\nMarketplace a Pentax 67, paid in Dash, seller shipped same day because the lock is the confirmation. No escrow drama. \n#dash",
+      "time": "2026-09-15T21:27:25.769Z"
+    },
+    {
+      "id": "DWGksvL5fnL12ejheQVNpXBDmBZh5XnRV21e69XzMQAG",
+      "text": "Elif Sørensen\n@elif1999.dash\n·\n2h\ndon't trust, verify. Also verify that you verified. Then have a snack. \n#dash",
+      "time": "2026-09-15T21:27:14.368Z"
+    },
+    {
+      "id": "BsZ8M4pe8eyN98rgEPCFuVqeA4ePWGx5erQvwxukLNyp",
+      "text": "Thandiwe Popescu\n@darkroomthandiwe4.dash\n·\n2h\nWeekend project: teach my nephew what X11 means using eleven kitchen utensils. He now believes Keccak is a whisk. \n#dash",
+      "time": "2026-09-15T21:08:07.903Z"
+    },
+    {
+      "id": "4DwFNnQdFDEcriiAaoFsV3xQcg1hffQ762eydTSTHTSK",
+      "text": "Simone Lee\n@simonel98.dash\n·\n2h\nFee for a 2-input InstantSend today was under a cent. Meanwhile the cheap chain I won't name charged me 129 to move stablecoins. Digital cash means the fee is boring. \n#dash\n\nMedia from someone you don't follow\n\nShow",
+      "time": "2026-09-15T21:08:07.903Z"
+    },
+    {
+      "id": "7Ba5cJrhMJEX7fUuAfp7DSqhqcJY3CwCHnsHshsAsxff",
+      "text": "Alice\n@alice7-sept.dash\n·\n2h\nlast week's corrupted merkle root was fine; the client hashed with sha256 and the server with blake3; both correct; both alone. \n#dash",
+      "time": "2026-09-15T21:07:44.975Z"
+    },
+    {
+      "id": "Eu7YwVfXvW2hQfnE956Ha2BMAoUupwm2F2J7KMbS8sSa",
+      "text": "Bob\n@bob8-sept.dash\n·\n2h\nApparently my mom has been tipping her hairdresser in Dash since 2023 and never told me. Meanwhile I'm out here explaining it to strangers. \n#dash",
+      "time": "2026-09-15T21:07:34.238Z"
+    },
+    {
+      "id": "EmfUNYF8DGfeBxj3hsewwzAMWKcv4FkA4CiJrn283kHH",
+      "text": "Tess Jansen\n@films-tess4.dash\n·\n2h\nDon't trust, verify: the a taco window closes at 2pm, not whatever the sign says. \n#dash",
+      "time": "2026-09-15T21:07:22.796Z"
+    },
+    {
+      "id": "BK47rSDVG92jCPJAqAVQGHo9hdUsGP8a94G75z5RV8dF",
+      "text": "Alice\n@alice7-sept.dash\n·\n2h\nMerkle proof failed at depth 17; depth 16 was fine; it always is. \n#dash",
+      "time": "2026-09-15T21:06:59.949Z"
+    },
+    {
+      "id": "749j1hdkda5ZTyJYBsafderJBNDmpvYGVWGhNYLFkhcC",
+      "text": "Alice\n@alice7-sept.dash\n·\n2h\nTook me until october to understand that ChainLocks are not a second consensus layer; they are a second signature over the same decision. The decision was already made; the lock makes reorging it expensive. I explained it wrong at two meetups. \n#dash",
+      "time": "2026-09-15T21:06:48.587Z"
+    },
+    {
+      "id": "DtHhXfg6AXMg937G9tvVBf3phiZ2N1jSsgaf5YALLYUX",
+      "text": "Simone Lee\n@simonel98.dash\n·\n2h\nRecommend to every new operator: run one node badly for a month before you run three. You learn more from one bad month than a year of tutorials. \n#dash",
+      "time": "2026-09-15T21:06:37.392Z"
+    },
+    {
+      "id": "5RgWVVCQc38iWK1LPvQ4viz335qdaxFqAys4F8G6JSvY",
+      "text": "Bob\n@bob8-sept.dash\n·\n2h\nPSA: weekend tenderdash status: works on my machine, the only machine. \n#dash",
+      "time": "2026-09-15T21:06:26.022Z"
+    },
+    {
+      "id": "Gq4uhme4QNyiGVacUqBtzMJ4zfrzB4DFFWqF12RyZqij",
+      "text": "Alice\n@alice7-sept.dash\n·\n2h\nreproduced: not sure what to make of the news that a devnet lost 8889 blocks to a clock bug. Losing blocks isn't the bug; noticing it in 8 days is. \n#dash",
+      "time": "2026-09-15T21:06:24.953Z"
+    },
+    {
+      "id": "ELoi5rkHueyorcSrcZsDcE1NUdE9NLYoxN9XYbRNk4Eu",
+      "text": "Alice\n@alice7-sept.dash\n·\n2h\nPSA: our little distributed systems reading group in Zürich is up to 3 people now; we still have not agreed on what 'eventually' means. Very on brand. reading this again with fresh eyes an earlier post \n#dash",
+      "time": "2026-09-15T21:06:03.672Z"
+    },
+    {
+      "id": "HfB3rYBBwNFgGu6BUXGZei5kQuxygFnSEYBD5dfYgMQT",
+      "text": "Alice\n@alice7-sept.dash\n·\n2h\nHeard in the a taco window queue: \"I don't need a backup, it's in the cloud.\" Wanted to explain the cloud is someone else's disk that also fails. Bought cold noodles instead. \n#dash\n\nMedia from someone you don't follow\n\nShow",
+      "time": "2026-09-15T21:05:52.146Z"
+    },
+    {
+      "id": "AbryQdQa453cyA3AGfoRGFFh8nLxJLJKhHDUKA6awFx5",
+      "text": "Alice\n@alice7-sept.dash\n·\n2h\nIs it weird I trust the treasury vote more than the Ajax front office? both spend money badly but one of them publishes the tally \n#dash",
+      "time": "2026-09-15T21:05:40.993Z"
+    }
+  ],
+  "pageSizes": [
+    50,
+    100,
+    150,
+    200,
+    250,
+    262
+  ],
+  "final": [
+    {
+      "id": "FxwCp9MD5pPpDq91RY51eZDJspmsX7s9qMM3KCHJN3i9",
+      "text": "Soren Pereira\n@soren-film3.dash\n·\n2h\nwhoever kept a block explorer running through 2015 while the name changed under it deserves a plaque. \n#dash",
+      "time": "2026-09-15T21:38:02.298Z"
+    },
+    {
+      "id": "EWjjJVMsaNaTUg8oJeeUfAcpF2SG9xVGkBkaW7wzPijU",
+      "text": "Nia Farah\n@postingnia5.dash\n·\n2h\nat the wedding the groom paid the band in dash and the band had to check what that was and then had to check that it was instant and then played an extra song not a great time to be me \n#dash",
+      "time": "2026-09-15T21:36:43.403Z"
+    },
+    {
+      "id": "AxgFtmqYpKJMLsrX3bjLrxMCDUy5eMdXZqnNkrb5JYMa",
+      "text": "Gianna Marlowe\n@gianna-pays-5.dash\n·\n2h\nlove that i can look at somebody's yappr profile and know the follower count isn't a number some server made up. it's proven from the root hash. \n#dash",
+      "time": "2026-09-15T21:36:43.403Z"
+    },
+    {
+      "id": "4xt7PX4tojEXWC8MsevV8DBUW87JRecGyDLbUjqpuCcj",
+      "text": "Sabine Yilmaz\n@sabine-ceramics8.dash\n·\n2h\nclosed the comic i started in 2014. 48 pages. the last 40 were done this month. the first 8 took the years. that math is very normal for me. ✏️ \n#dash\n\nMedia from someone you don't follow\n\nShow",
+      "time": "2026-09-15T21:36:32.077Z"
+    },
+    {
+      "id": "ChQHfPwnqC5aEKdXNLQ6Ko1j2NDHsw286h61mfQPMXfj",
+      "text": "Rosa Yamamoto\n@seeds-rosa7.dash\n·\n2h\nDecember 2017 I checked the price 5 times before breakfast. January 2018 I stopped checking. That whole arc is why I can't take charts seriously anymore. \n#dash",
+      "time": "2026-09-15T21:36:20.488Z"
+    },
+    {
+      "id": "DyLBZsVqUHBjbRmJVDpRsd2B9fK4SmUAvJ7AdfGe9Wi",
+      "text": "Omar Nkemelu\n@plots-omar7.dash\n·\n2h\nUncle claims the fish was this big. Don't trust, verify. No photo, no fish. \n#dash",
+      "time": "2026-09-15T21:36:09.862Z"
+    },
+    {
+      "id": "9XKUu7fAsn8pFBEBJPpBxuniqRGzYE3zkf9SC1xrKBGB",
+      "text": "just carol\n@lightcarol7.dash\n·\n2h\nVendor at the Calgary night market pointed at his QR code, pointed at his phone, said 'one second,' and it was one second. Sold. \n#dash",
+      "time": "2026-09-15T21:35:46.521Z"
+    },
+    {
+      "id": "8CJhV4DDCvatQwYKeyST2iSSH2npBTYoqih87efnxT6S",
+      "text": "Anders Walsh\n@anders-walsh9.dash\n·\n2h\ngrandma uses dash. grandma does not know she uses dash. the app just says send and she sends. \n#dash",
+      "time": "2026-09-15T21:35:46.521Z"
+    },
+    {
+      "id": "Bu7Emop7Ex8VvW5nTKBTEmp8kqT5ipvFgBhLHYmnHPV3",
+      "text": "Gianna Marlowe\n@gianna-pays-5.dash\n·\n2h\ngenuine question from a skeptic: why does a monthly treasury need to be 10 percent of the block reward. i have been told 4 times and it has not stuck \n#dash",
+      "time": "2026-09-15T21:35:12.265Z"
+    },
+    {
+      "id": "ERoKaQFkZwu9j7VWt6oiXQAfPJ7a8NSSr1fTwa7mfxQw",
+      "text": "Hamza Kaplan\n@hamzak78.dash\n·\n2h\nReunion couldn't agree on what year it launched so I said January 18, 2014, block 1, and now I'm 'the nerd.' Fine. \n#dash",
+      "time": "2026-09-15T21:35:02.652Z"
+    },
+    {
+      "id": "25h3i3b8cTBsAfFmKHjLV1cz4n3BGE3zLudFugMPWwLH",
+      "text": "gabriel\n@gabrielo83.dash\n·\n2h\nfreezer inventory: my dinner, three frozen kongs, a bag of peas that is medical for the dog and also for me. \n#dash",
+      "time": "2026-09-15T21:34:49.789Z"
+    },
+    {
+      "id": "Dsv7gc4z3yajPqxhzXiZSasNzBCawahmNmE9cNjL1Sot",
+      "text": "Soren Tran\n@soren-notes7.dash\n·\n2h\nwatching my nephew ask his phone for a merkle proof of his allowance. yappr did this. yappr made this. 🐶 \n#dash",
+      "time": "2026-09-15T21:34:39.223Z"
+    },
+    {
+      "id": "5jAU65YtFHRzA7uz2p7E2d2EsEp36gDCCVraPJ4fVaXC",
+      "text": "Gianna Marlowe\n@gianna-pays-5.dash\n·\n2h\nbus app says 4 minutes. dont trust, verify, walk that's the roll. \n#dash",
+      "time": "2026-09-15T21:34:15.691Z"
+    },
+    {
+      "id": "55WezSzqw97QVHHzfWGiAwRasryRdLS515chgGhvqRfG",
+      "text": "Bianca Gallagher\n@bianca-translat6.dash\n·\n2h\nPartner says the leftovers are sitll good. Don't trust, verify. Sniffed. Debatable. \n#dash",
+      "time": "2026-09-15T21:33:52.958Z"
+    },
+    {
+      "id": "5FsiidssJgnfj7SFVDfxHauvYQLtsxZYgjqHouCN53QR",
+      "text": "Nils Mahoney\n@mahoney-pages5.dash\n·\n2h\nceltic injury report is a dont trust, verify situation \n#dash",
+      "time": "2026-09-15T21:33:41.688Z"
+    },
+    {
+      "id": "4W4FkuzSVmYccvokLcMaEV6kisQ3gA6p4w46evysfiDZ",
+      "text": "Lin I.\n@lin-snaps3.dash\n·\n2h\nyou can explain Dash to your grandmother in one sentence: it is cash, but on the phone. Try that with an L2. \n#dash",
+      "time": "2026-09-15T21:33:41.688Z"
+    },
+    {
+      "id": "H8wSjdEr4UmWia2s53VazdhLhUEPRao7GZ4fNh3Pv3HA",
+      "text": "Ife Kowalski\n@ife-recipes5.dash\n·\n2h\nfinding out the darkcoin era lasted only about a year but takes up 40 percent of every history thread. 💀 \n#dash",
+      "time": "2026-09-15T21:32:44.761Z"
+    },
+    {
+      "id": "44kbab8xUbTyYfCApNJENhivgiQDQAec4nQp9vNiapbr",
+      "text": "Sasha Nascimento\n@paints-sasha9.dash\n·\n2h\ni have now read the words \"digital cash\" 49 times today and i am starting to believe them \n#dash",
+      "time": "2026-09-15T21:32:44.761Z"
+    },
+    {
+      "id": "9G3hPBrXmCDEi6EEVP4WVEW6HRP2LXHQTHEsGgs5iwoL",
+      "text": "Anders Walsh\n@anders-walsh9.dash\n·\n2h\nlabel says low sugar. dont trust, verify the back known issue \n#dash",
+      "time": "2026-09-15T21:32:33.762Z"
+    },
+    {
+      "id": "FQimeiG9m68ZsffAkp4X2h3moZgjYn2bb9qDqp7JfEHy",
+      "text": "Chidi Moreno\n@campingchidi5.dash\n·\n2h\nthe proof is 8kb. the answer is 1 byte. this is the most honest ratio in computing. \n#dash",
+      "time": "2026-09-15T21:32:10.955Z"
+    },
+    {
+      "id": "Bdcox2mGXixweBqkHRNyE1xWntc1PpyjDLKeEevudDCN",
+      "text": "Sigrid Nguyen\n@sigrid-tea-3.dash\n·\n2h\nref said it was a foul. dont trust, verify. replay says no \n#dash",
+      "time": "2026-09-15T21:31:49.351Z"
+    },
+    {
+      "id": "F8QFdnt6VmRuh7MM9VdM4xCooBDEDHxmj2pj1ozzgc6Z",
+      "text": "Chidi Moreno\n@campingchidi5.dash\n·\n2h\nexplained a merkle proof with a receipt from a bike repair shop and my roommate said so the receipt is the proof and i said yes and she said why did that take you ten minutes \n#dash",
+      "time": "2026-09-15T21:31:38.224Z"
+    },
+    {
+      "id": "3HZoMFC2JD8tFGxYmrr3eik21UVqAMWRfX5WvKEPF1tY",
+      "text": "Lin I.\n@lin-snaps3.dash\n·\n2h\n2191244 blocks since Jan 18, 2014 and not one of them asked for permission. \n#dash",
+      "time": "2026-09-15T21:31:38.224Z"
+    },
+    {
+      "id": "2AqE8buVZtUy3SZAaw8xWAjh3APh2EK9mjTgKamUy7mh",
+      "text": "Lin I.\n@lin-snaps3.dash\n·\n2h\nfield note: reminder that 1000 DASH collateral is not a fee; it's a promise you can afford to keep. same energy as a #[must_use] annotation. \n#dash",
+      "time": "2026-09-15T21:30:28.746Z"
+    },
+    {
+      "id": "GsiCVGJEJP7JMpS1pVPadekYHazkZdx4hoa8kRa92sxH",
+      "text": "Dr. Hamza\n@hamza1981.dash\n·\n2h\n12 years. Block 1 on January 18, 2014. I was in Porto eating khachapuri and had no idea. \n#dash",
+      "time": "2026-09-15T21:30:17.259Z"
+    },
+    {
+      "id": "3Sbr9UHEZzM9Ji12szeezFQRdPZ5ZjSLQje5AwpUfPVW",
+      "text": "gabriel\n@gabrielo83.dash\n·\n2h\npromised the dog five minutes. a woman at the door said \"they don't understand time.\" ma'am, he cried like it was a month. \n#dash\n\nMedia from someone you don't follow\n\nShow",
+      "time": "2026-09-15T21:30:04.506Z"
+    },
+    {
+      "id": "784njS9rifvuuL6PcRteMYpDB4tDCqTAeNQWKhxrzYu6",
+      "text": "Lin I.\n@lin-snaps3.dash\n·\n2h\nAnyone got a favourite way to draw a merkle tree in the terminal; nested indentation gets sad past depth 6 \n#dash",
+      "time": "2026-09-15T21:29:43.821Z"
+    },
+    {
+      "id": "3nhBz3vTBngnkzeY3dg4yoC3cKri8wCirqrUc4acsoey",
+      "text": "Rúben Fujita\n@ruben-bytes2.dash\n·\n2h\nwhen the proof verifies but the value looks wrong, the value is right and your mental model is wrong. writing this down for the 3th time \n#dash",
+      "time": "2026-09-15T21:29:43.821Z"
+    },
+    {
+      "id": "E4yv4dH2LJmtW9dMb6FKuuMoAAoKnc6Tu2grEkGHXrYH",
+      "text": "Lin I.\n@lin-snaps3.dash\n·\n2h\nheight check: 2190667. everything else in my life is unconfirmed \n#dash",
+      "time": "2026-09-15T21:29:08.864Z"
+    },
+    {
+      "id": "7hfdnx2jMXounUF9UJo7KGg6nnnXd4QC2HcWYRUy2BvL",
+      "text": "Zoë Lindgren\n@lindgren-shoots6.dash\n·\n2h\nWallet installed, address copied, coffee bought. The whole onboarding was shorter than this post. \n#dash",
+      "time": "2026-09-15T21:28:57.558Z"
+    },
+    {
+      "id": "7csKXCsKyYGsdhdXyJsego9dM6viWF89EEHJoxhuFmAy",
+      "text": "Jana Okafor\n@jana-ramen7.dash\n·\n2h\nUnderrated: a spare network cable in every colour so you can tell the node's uplink from the printer's at a glance. Yes I plugged the wrong one once. \n#dash",
+      "time": "2026-09-15T21:28:34.928Z"
+    },
+    {
+      "id": "3RXmSLYGGyA78zRY79uNBRQ4VSRHcwtyUdymsYnHpD2Y",
+      "text": "Frankie Demir\n@pays-frankie5.dash\n·\n2h\nSplit the bill six ways in Dash at dinner. Six locks in under ten seconds. The waiter watched like it was a card trick. \n#dash",
+      "time": "2026-09-15T21:28:23.597Z"
+    },
+    {
+      "id": "Bo6Lz3SpYKtVfnK2ivZfgbESEzpUf7pS8BMUB3Aas69s",
+      "text": "Harriet Holm\n@harriet-synths-9.dash\n·\n2h\nsomeone in the group chat said \"Dash is boring\" and I've never heard a nicer compliment for a currency \n#dash",
+      "time": "2026-09-15T21:28:11.574Z"
+    },
+    {
+      "id": "DcEG2QEiKwJMYKSvjwGpeqzZn9E68NAw1qHJbqpRUebM",
+      "text": "Lin I.\n@lin-snaps3.dash\n·\n2h\nDaughter asked why I say verify instead of check. Said check is for lists; verify is for people who might be lying. \"So all of them.\" She's been listening. \n#dash",
+      "time": "2026-09-15T21:27:36.282Z"
+    },
+    {
+      "id": "6edTjPVEX6VBRLn1djyySdvjMvSeujU1ebsAHfB5LyHi",
+      "text": "Rúben Fujita\n@ruben-bytes2.dash\n·\n2h\nevery time a quorum rotates i lose one cached connection and gain a tiny bit of respect for whoever wrote the retry logic in the sdk. closing the laptop now \n#dash",
+      "time": "2026-09-15T21:27:36.282Z"
+    },
+    {
+      "id": "CfT1irTzhnK56veGfcM7gE6SEgFzURHzc5p3Cvekd3hz",
+      "text": "Dr. Hamza\n@hamza1981.dash\n·\n2h\nMarketplace a Pentax 67, paid in Dash, seller shipped same day because the lock is the confirmation. No escrow drama. \n#dash",
+      "time": "2026-09-15T21:27:25.769Z"
+    },
+    {
+      "id": "DWGksvL5fnL12ejheQVNpXBDmBZh5XnRV21e69XzMQAG",
+      "text": "Elif Sørensen\n@elif1999.dash\n·\n2h\ndon't trust, verify. Also verify that you verified. Then have a snack. \n#dash",
+      "time": "2026-09-15T21:27:14.368Z"
+    },
+    {
+      "id": "BsZ8M4pe8eyN98rgEPCFuVqeA4ePWGx5erQvwxukLNyp",
+      "text": "Thandiwe Popescu\n@darkroomthandiwe4.dash\n·\n2h\nWeekend project: teach my nephew what X11 means using eleven kitchen utensils. He now believes Keccak is a whisk. \n#dash",
+      "time": "2026-09-15T21:08:07.903Z"
+    },
+    {
+      "id": "4DwFNnQdFDEcriiAaoFsV3xQcg1hffQ762eydTSTHTSK",
+      "text": "Simone Lee\n@simonel98.dash\n·\n2h\nFee for a 2-input InstantSend today was under a cent. Meanwhile the cheap chain I won't name charged me 129 to move stablecoins. Digital cash means the fee is boring. \n#dash\n\nMedia from someone you don't follow\n\nShow",
+      "time": "2026-09-15T21:08:07.903Z"
+    },
+    {
+      "id": "7Ba5cJrhMJEX7fUuAfp7DSqhqcJY3CwCHnsHshsAsxff",
+      "text": "Alice\n@alice7-sept.dash\n·\n2h\nlast week's corrupted merkle root was fine; the client hashed with sha256 and the server with blake3; both correct; both alone. \n#dash",
+      "time": "2026-09-15T21:07:44.975Z"
+    },
+    {
+      "id": "Eu7YwVfXvW2hQfnE956Ha2BMAoUupwm2F2J7KMbS8sSa",
+      "text": "Bob\n@bob8-sept.dash\n·\n2h\nApparently my mom has been tipping her hairdresser in Dash since 2023 and never told me. Meanwhile I'm out here explaining it to strangers. \n#dash",
+      "time": "2026-09-15T21:07:34.238Z"
+    },
+    {
+      "id": "EmfUNYF8DGfeBxj3hsewwzAMWKcv4FkA4CiJrn283kHH",
+      "text": "Tess Jansen\n@films-tess4.dash\n·\n2h\nDon't trust, verify: the a taco window closes at 2pm, not whatever the sign says. \n#dash",
+      "time": "2026-09-15T21:07:22.796Z"
+    },
+    {
+      "id": "BK47rSDVG92jCPJAqAVQGHo9hdUsGP8a94G75z5RV8dF",
+      "text": "Alice\n@alice7-sept.dash\n·\n2h\nMerkle proof failed at depth 17; depth 16 was fine; it always is. \n#dash",
+      "time": "2026-09-15T21:06:59.949Z"
+    },
+    {
+      "id": "749j1hdkda5ZTyJYBsafderJBNDmpvYGVWGhNYLFkhcC",
+      "text": "Alice\n@alice7-sept.dash\n·\n2h\nTook me until october to understand that ChainLocks are not a second consensus layer; they are a second signature over the same decision. The decision was already made; the lock makes reorging it expensive. I explained it wrong at two meetups. \n#dash",
+      "time": "2026-09-15T21:06:48.587Z"
+    },
+    {
+      "id": "DtHhXfg6AXMg937G9tvVBf3phiZ2N1jSsgaf5YALLYUX",
+      "text": "Simone Lee\n@simonel98.dash\n·\n2h\nRecommend to every new operator: run one node badly for a month before you run three. You learn more from one bad month than a year of tutorials. \n#dash",
+      "time": "2026-09-15T21:06:37.392Z"
+    },
+    {
+      "id": "5RgWVVCQc38iWK1LPvQ4viz335qdaxFqAys4F8G6JSvY",
+      "text": "Bob\n@bob8-sept.dash\n·\n2h\nPSA: weekend tenderdash status: works on my machine, the only machine. \n#dash",
+      "time": "2026-09-15T21:06:26.022Z"
+    },
+    {
+      "id": "Gq4uhme4QNyiGVacUqBtzMJ4zfrzB4DFFWqF12RyZqij",
+      "text": "Alice\n@alice7-sept.dash\n·\n2h\nreproduced: not sure what to make of the news that a devnet lost 8889 blocks to a clock bug. Losing blocks isn't the bug; noticing it in 8 days is. \n#dash",
+      "time": "2026-09-15T21:06:24.953Z"
+    },
+    {
+      "id": "ELoi5rkHueyorcSrcZsDcE1NUdE9NLYoxN9XYbRNk4Eu",
+      "text": "Alice\n@alice7-sept.dash\n·\n2h\nPSA: our little distributed systems reading group in Zürich is up to 3 people now; we still have not agreed on what 'eventually' means. Very on brand. reading this again with fresh eyes an earlier post \n#dash",
+      "time": "2026-09-15T21:06:03.672Z"
+    },
+    {
+      "id": "HfB3rYBBwNFgGu6BUXGZei5kQuxygFnSEYBD5dfYgMQT",
+      "text": "Alice\n@alice7-sept.dash\n·\n2h\nHeard in the a taco window queue: \"I don't need a backup, it's in the cloud.\" Wanted to explain the cloud is someone else's disk that also fails. Bought cold noodles instead. \n#dash\n\nMedia from someone you don't follow\n\nShow",
+      "time": "2026-09-15T21:05:52.146Z"
+    },
+    {
+      "id": "AbryQdQa453cyA3AGfoRGFFh8nLxJLJKhHDUKA6awFx5",
+      "text": "Alice\n@alice7-sept.dash\n·\n2h\nIs it weird I trust the treasury vote more than the Ajax front office? both spend money badly but one of them publishes the tally \n#dash",
+      "time": "2026-09-15T21:05:40.993Z"
+    },
+    {
+      "id": "BB6r4ebyemxjuh9EgEX1a2XPACCzc71AeJ4XCjHrYmXp",
+      "text": "Alice\n@alice7-sept.dash\n·\n2h\nBarista wrote my name on the cup as \"Merkle.\" I had not said my name. I had been talking about trees for 11 minutes to a stranger. Deserved. \n#dash",
+      "time": "2026-09-15T21:04:55.772Z"
+    },
+    {
+      "id": "FvVjB3chVGtxXCUoVcgnPLfhwGvubtMCGgYwbd2v9DV2",
+      "text": "Alice\n@alice7-sept.dash\n·\n2h\nexplained to a new hire that \"the node is fine\" and \"the node is responding\" are different claims with different proofs. then I looked at our node. \n#dash",
+      "time": "2026-09-15T21:03:58.421Z"
+    },
+    {
+      "id": "DGBREAcyvBkrEP4Yzahf1AcBg14LnY1E574v1jZjwziX",
+      "text": "Willem Costa\n@willem-snacks7.dash\n·\n2h\nRanking the last five hosting providers I've used, worst to best: Latitude (unplanned reboots), a cheap reseller I won't name, netcup (fine but slow tickets), a homelab box in my basement, and my current one which has done 412 days without a hiccup. \n#dash",
+      "time": "2026-09-15T21:03:47.086Z"
+    },
+    {
+      "id": "5i8GpNwC2JyRVqpirwB21ydoeoKpTL9bs4WBiDNkLWVo",
+      "text": "Mei Romero\n@mei68.dash\n·\n2h\nNew rule: no yes vote from me if the word \"ecosystem\" appears more than twice. \n#dash",
+      "time": "2026-09-15T21:03:24.080Z"
+    },
+    {
+      "id": "FuhEQymMuT9UMdefRhMpjeGxm1nwsRZv6Fnc4Zp3PeeB",
+      "text": "Alice\n@alice7-sept.dash\n·\n2h\nday 2 of the flaky test. it passes locally; it passes on Wednesdays; it fails on exactly one runner in the CI pool. I have named that runner. its name is Greg. Greg and I are at war. \n#dash",
+      "time": "2026-09-15T21:03:01.507Z"
+    },
+    {
+      "id": "EsAqSzjn7GoyDf7g4ChrThZarbVczvjV7hp5G9JzYucm",
+      "text": "Tess Jansen\n@films-tess4.dash\n·\n2h\nThere's a record store near me where the owner keeps a running tally of Dash payments on a chalkboard. 9844 and counting. \n#dash",
+      "time": "2026-09-15T21:03:01.507Z"
+    },
+    {
+      "id": "6arP3iiLteU2zCC8MYXY7m3skSPiazrJGZdW4u7y9ctW",
+      "text": "Julien Walsh\n@walsh-bits6.dash\n·\n2h\nSomething about a cold, clear November morning makes me want to check the block explorer with a coffee. Don't know why. Just do it. \n#dash",
+      "time": "2026-09-15T21:03:01.507Z"
+    },
+    {
+      "id": "4G4pucnUNgNNK7kpMeNUxU2Mf5fpD29bTASwEL3t8ern",
+      "text": "Sigrid Dahl\n@sigrid-campus-2.dash\n·\n2h\nXCoin → Darkcoin → Dash. Three names, one chain, twelve years of people asking which one is the scam. 🌄 \n#dash",
+      "time": "2026-09-15T21:03:01.507Z"
+    },
+    {
+      "id": "4Rwef3AGSpEicDHQ9vgdEbMLEuTCyC8AW9V8wFduvL9x",
+      "text": "Alice\n@alice7-sept.dash\n·\n2h\nAnalogue pressure gauge on the espresso machine. Needle; spring; glass. Only dashboard I trust completely. \n#dash",
+      "time": "2026-09-15T21:02:38.216Z"
+    },
+    {
+      "id": "5hRWQHthekKfNhXZTqzJgT3Zz7TtMLZyBbbrq9Vgqz2f",
+      "text": "Alice\n@alice7-sept.dash\n·\n2h\nI keep a file called seen_panics.txt; today's entry: attempt to subtract with overflow in a function called safe_diff. \n#dash",
+      "time": "2026-09-15T21:01:35.327Z"
+    },
+    {
+      "id": "6TWAbLvhng5cnyrh4VMu3ffnJqR8WDkmyUdgKRHdMdj3",
+      "text": "Samir Demir\n@samir-plates-5.dash\n·\n2h\nBest part of buying with Dash at a real counter: nobody says 'it should show up in a few minutes.' It shows up. Now. \n#dash",
+      "time": "2026-09-15T21:01:24.086Z"
+    },
+    {
+      "id": "4VhFr1rpeTWc7fqQWc66hzYYVGFsRYxCvsm3cG5GtNdv",
+      "text": "Alice\n@alice7-sept.dash\n·\n2h\nThe tutorial said Merkle Patricia tries are simpler than they look. It was written by someone who had never deleted a node from one. \n#dash",
+      "time": "2026-09-15T21:01:12.574Z"
+    },
+    {
+      "id": "HNu8YUQotSWH4wYpVhvzHFG8Xwt1FPU86QmCe82pwnK",
+      "text": "Carol\n@carol9-sept.dash\n·\n2h\ngot a call at 11pm asking what a data contract is. said its like a schema for documents on dash platform. she said so a form. i said yes a form. we both went to bed \n#dash",
+      "time": "2026-09-15T21:01:12.574Z"
+    },
+    {
+      "id": "5U4K59byHLWvhe9cbqhZu1TXDnodyVZh1mbc8NqmGRFM",
+      "text": "Simone Lee\n@simonel98.dash\n·\n2h\nBroke my rule and paid a bill late. 4 days. Fee: 25. Never again. Reminder on three devices and a calendar entry named DO NOT BE THIS PERSON. \n#dash",
+      "time": "2026-09-15T21:01:11.542Z"
+    },
+    {
+      "id": "BnDqSwNvWvtechNpWDzbxfbNWtz2uVB7USMihAkeDL2k",
+      "text": "Willem Costa\n@willem-snacks7.dash\n·\n2h\nAssumed for a decade the ISP was my weakest link. It is the power. 6 outages this year, all power, zero network. \n#dash",
+      "time": "2026-09-15T21:01:01.503Z"
+    },
+    {
+      "id": "4Dio57bu1gjeLnZLbDuYQPSnotmP3Rthp969ZCphaapJ",
+      "text": "Anders Walsh\n@anders-walsh9.dash\n·\n2h\nlong-time holders don't post much. they just show up on january 18 to say block 1 and disappear again. \n#dash",
+      "time": "2026-09-15T21:00:49.514Z"
+    },
+    {
+      "id": "GXY5b88hn6nmg9UCwnmf4xm5nmmLRjJkSV3uGu2o6Yyh",
+      "text": "Tess Jansen\n@films-tess4.dash\n·\n2h\nRealized today that every like I've ever given on Yappr is a document sitting in a data contract somewhere with a Merkle proof attached. My thumbs have a paper trail now. \n#dash",
+      "time": "2026-09-15T21:00:38.105Z"
+    },
+    {
+      "id": "69QVCdSEBEkoix93Sp9S2XzXkuaZZfjz8pmbHJkcEiyL",
+      "text": "Gianna Marlowe\n@gianna-pays-5.dash\n·\n2h\ndont trust verify has ruined me. i checked the recipe against three sources before making toast \n#dash",
+      "time": "2026-09-15T21:00:38.105Z"
+    },
+    {
+      "id": "56cun53nHCg7eniRrMo1zgwbPJRP3aX4YJ2otQnaLGDY",
+      "text": "Mei Romero\n@mei68.dash\n·\n2h\nRanking my uptime killers from the last three years: 1. power company. 2. me doing an update at 10pm. 3. a dodgy SATA cable. 4. actual software bugs, a distant fourth. \n#dash",
+      "time": "2026-09-15T21:00:38.105Z"
+    },
+    {
+      "id": "RyKv3pmYgEzQKngFYiyg6prSDRvCtG6wvAMVpr5H1QU",
+      "text": "Alice\n@alice7-sept.dash\n·\n2h\nbase58 is 44 characters of \"i promise this is an identifier\". \n#dash",
+      "time": "2026-09-15T21:00:38.105Z"
+    },
+    {
+      "id": "GiNmnhxFgnMCt5CPPszAYTCCnAJh8C5tJ4hJCQ8AMyb",
+      "text": "Anders Walsh\n@anders-walsh9.dash\n·\n2h\nmy username here is a DPNS name. nobody can take it, reset it, or sell it to an advertiser. feels weird to actually own a handle. \n#dash",
+      "time": "2026-09-15T21:00:15.060Z"
+    },
+    {
+      "id": "437xEjhSy8NmHvf9FoRV2mqpQ8NDSiL8AU7MwibrxyMk",
+      "text": "Beatriz Kovač\n@beatriz-jams7.dash\n·\n2h\nAunt sent 4 DASH with the note 'for emergencies' then texted 'did it go' every 5 minutes. It went. Within a second. Twelve times. \n#dash",
+      "time": "2026-09-15T21:00:04.614Z"
+    },
+    {
+      "id": "64rYnNfje3ag8v7FYkMQ71GW97oma5rFT7BU49fK7qLv",
+      "text": "Ife Kowalski\n@ife-recipes5.dash\n·\n2h\nmechanic says it's the alternator. don't trust, verify. got a second opinion. \n#dash",
+      "time": "2026-09-15T20:59:17.447Z"
+    },
+    {
+      "id": "G4hroUEyuKGXQfkDMCBSwJu5GrnuVaA55BKmiVuwgqSc",
+      "text": "Jana Abara\n@south-jana6.dash\n·\n2h\napplies to 'the coffee's fresh' more than anything: don't trust, verify. \n#dash",
+      "time": "2026-09-15T20:59:05.933Z"
+    },
+    {
+      "id": "HVB4inh1EkkVjJMhKmQcvCmXLEp4HwtQd1UN5FrfdyRj",
+      "text": "Selin Wang\n@selin-loops9.dash\n·\n2h\nLoose ends from last week's water main post: fixed Friday, boil advisory lifted at 9am, hole is still there but with a cone in it. Cone is doing a good job. \n#dash",
+      "time": "2026-09-15T20:58:56.427Z"
+    },
+    {
+      "id": "Cno9LsJGgA4ow1pxHcXaBc6yHFDXtYo7fdc4JXM2xLYD",
+      "text": "Sigrid Nguyen\n@sigrid-tea-3.dash\n·\n2h\nNot a veteran, just curious: was the 2015 rename controversial or did everyone just accept it? Getting mixed answers from the archive. \n#dash",
+      "time": "2026-09-15T20:58:54.605Z"
+    },
+    {
+      "id": "7WDxpo9yF39fNQPBNiMizsMKe5N4u6Bbhn9W9cpLcHYy",
+      "text": "just yusuf\n@yusuf49.dash\n·\n2h\nEvery Yappr like is a document on Dash Platform. I have never felt so responsible for a heart. \n#dash\n\nMedia from someone you don't follow\n\nShow",
+      "time": "2026-09-15T20:58:54.605Z"
+    },
+    {
+      "id": "Ams4cntKfBjRuhQcHAC7h7TaUuRZTqLmxrKBeEgp8WKq",
+      "text": "Mei Romero\n@mei68.dash\n·\n2h\nok so rain for 4 days straight. The gutters are at capacity. I keep saying this and nobody on the council of this house listens. \n#dash\n\nMedia from someone you don't follow\n\nShow",
+      "time": "2026-09-15T20:58:43.130Z"
+    },
+    {
+      "id": "Df56HZxVR6F1WcVbYATJebxdFiZSTzJW3nVm5q7NA29p",
+      "text": "Selin Wang\n@selin-loops9.dash\n·\n2h\nyou can date old forum posts by whether they say darkcoin or dash. the rename was march 2015 and the word dark just vanishes \n#dash",
+      "time": "2026-09-15T20:57:44.791Z"
+    },
+    {
+      "id": "ByytQhYZntfX7bdxEzHA4e4xxZ9m2Ybep3QpYNuzPPTq",
+      "text": "Alice\n@alice7-sept.dash\n·\n2h\nHanded my old Tangerine board to a student at the meetup; they said it was too loud; they took it anyway. That's how it starts. \n#dash",
+      "time": "2026-09-15T20:57:33.938Z"
+    },
+    {
+      "id": "Dtjd7ocUH69b5NbJAwoevQWJ6dAgQ4rFZpYrA4VYqfUM",
+      "text": "Tariq Ikeda\n@seeds-tariq7.dash\n·\n2h\nteaching my daughter about money with a dash wallet. she likes that the payment goes green instantly. she does not like that i can see her balance \n#dash",
+      "time": "2026-09-15T20:57:10.822Z"
+    },
+    {
+      "id": "Cg7wRnrJa3vXze6U8qF977mxQi45RntrxDzHNtCPxMCH",
+      "text": "Simone Lee\n@simonel98.dash\n·\n2h\nFrom the rack: argued with my brother-in-law about whether proposals should fund conferences. I said show me the numbers from the last one. He said vibes. Vibes lost. \n#dash",
+      "time": "2026-09-15T20:56:47.597Z"
+    },
+    {
+      "id": "Fsd6sWbqJWRUjNJRcnKRXZKt7MhZgXHmpzL5JDzU7vvD",
+      "text": "Gianna Marlowe\n@gianna-pays-5.dash\n·\n2h\ndash and i have the same birthday. block 1, january 18, 2014. i was older and less useful. that's the roll. \n#dash",
+      "time": "2026-09-15T20:56:23.960Z"
+    },
+    {
+      "id": "9nzTb26qnBXJEaMqFpAYMAyvgGxpUG8HSHmA4NC8qjEB",
+      "text": "Simone Lee\n@simonel98.dash\n·\n2h\nCouncil note: our little fleet had 1 incident this quarter and it was a DNS TTL I set to 86400 in 2017 because I did not understand what it meant. I understand it now. \n#dash",
+      "time": "2026-09-15T20:56:23.960Z"
+    },
+    {
+      "id": "5wcf2F2PkLZzbE1VmCuciSNrDtNDvcsSR1L8nghgPL3Z",
+      "text": "Mei Romero\n@mei68.dash\n·\n2h\nLetting agent wants a 150 admin fee to renew the same contract with the same terms. Admin what? Printing? I'd have voted no on this proposal. \n#dash",
+      "time": "2026-09-15T20:56:23.960Z"
+    },
+    {
+      "id": "BjKucQULCS94Zce33pV4BuZms8Me3njUW2HHfsbyEGXX",
+      "text": "Lin I.\n@lin-snaps3.dash\n·\n2h\nDaughter asked why I say verify instead of check. Said check is for lists; verify is for people who might be lying. \"So all of them.\" She's been listening. \n#dash",
+      "time": "2026-09-15T20:44:17.637Z"
+    },
+    {
+      "id": "Brmse8j5mAtu2AhcUv39LL5C3rdPeijfkEYqU8VdFxUx",
+      "text": "Mei Romero\n@mei68.dash\n·\n2h\nLetting agent wants a 150 admin fee to renew the same contract with the same terms. Admin what? Printing? I'd have voted no on this proposal. \n#dash",
+      "time": "2026-09-15T20:44:11.168Z"
+    },
+    {
+      "id": "6YMMoDNmmQVxSGYVsqq135vJoesxSHsQfcCWd62b4NDW",
+      "text": "Lin I.\n@lin-snaps3.dash\n·\n2h\nEditor theme with the least aggressive red for compiler errors; I get enough red from cargo already \n#dash",
+      "time": "2026-09-15T20:43:16.406Z"
+    },
+    {
+      "id": "GfeVqQQifM9Koh3wKTm1gVHT85zv724a27BryRucbod2",
+      "text": "Frankie Demir\n@pays-frankie5.dash\n·\n2h\nGPS says 7 minutes. Don't trust, verify. Left 20 minutes early anyway. \n#dash",
+      "time": "2026-09-15T20:43:13.307Z"
+    },
+    {
+      "id": "xBi5yX1FwxkSCYSfA2M4ZH8iUcHPQLFbCQ8E9bqrgXh",
+      "text": "Soren Tran\n@soren-notes7.dash\n·\n2h\n12 years in and the most underrated thing about dash is that it just keeps making blocks. no drama, no halt, 2.5 minutes, next \n#dash",
+      "time": "2026-09-15T20:42:56.672Z"
+    },
+    {
+      "id": "DcCCbpsfBSoFNFytmU6dHA2ZcpcwQcZ6uDo9Si93E2i7",
+      "text": "Lin I.\n@lin-snaps3.dash\n·\n2h\nan Arc<Mutex<T>> is a small confession that you didn't design it right the first time. I have made many confessions. \n#dash",
+      "time": "2026-09-15T20:42:54.415Z"
+    },
+    {
+      "id": "615bxXoaU8JnZNuJCAjW7hxcyhXYQaJ4Qom3bPCi2xFZ",
+      "text": "Dr. Ruth\n@marketinruth4.dash\n·\n2h\nFriend of mine refuses to use Dash because 'it's too fast, it feels wrong.' I think that might be the best review ever written. \n#dash",
+      "time": "2026-09-15T20:42:30.951Z"
+    },
+    {
+      "id": "FwzQEz956rcDtyWwn8JbWpF8XutLYXsvnmJTdntSFFcu",
+      "text": "Samir Demir\n@samir-plates-5.dash\n·\n2h\nforecast says sunny. looked out the window. verified \n#dash",
+      "time": "2026-09-15T20:42:23.293Z"
+    },
+    {
+      "id": "6fCSqdqiQLxhY8cxGygVkNxCwPx2uc37drJvZzLGQdY6",
+      "text": "Lin I.\n@lin-snaps3.dash\n·\n2h\nchecked the height: 2189112. checked my email: worse. \n#dash",
+      "time": "2026-09-15T20:42:11.496Z"
+    },
+    {
+      "id": "E1dHa3VSNVkkPQqdE3j5H1PfhHh8N5sUPjaHarQkvZtp",
+      "text": "Tess Meyer\n@tess1999.dash\n·\n2h\ntwelve years old today or thereabouts and stlil producing a block every 2.5 minutes. happy birthday to a very stubborn chain \n#dash",
+      "time": "2026-09-15T20:41:52.443Z"
+    },
+    {
+      "id": "8NxTN6reiuPrXRAnC9QXwKkvu6L3jPAf92HTBBcthF7g",
+      "text": "just yusuf\n@yusuf49.dash\n·\n2h\nBlock 1 was mined January 18, 2014. Twelve years later people still ask what the ticker was before Dash. XCoin. Then Darkcoin. Then the one that stuck. \n#dash",
+      "time": "2026-09-15T20:41:37.705Z"
+    },
+    {
+      "id": "2hMZaH4ji2haCRUMqRgapn36rm2aMJjrYMnjzQTnVh8j",
+      "text": "Mei Romero\n@mei68.dash\n·\n2h\nTwenty four disks, three enclosures, one rule: label the sled before the disk goes in, never after. \n#dash",
+      "time": "2026-09-15T20:41:37.705Z"
+    },
+    {
+      "id": "5D3jzdbqakQQUajetr2ig7cXPYCzQJF7W6N947EsTGjg",
+      "text": "Olamide Doyle\n@olamide54.dash\n·\n3h\nWeather app says rain. Don't trust, verify. Opened the window. \n#dash",
+      "time": "2026-09-15T20:41:19.751Z"
+    },
+    {
+      "id": "2nTBug6RhSRM1SvfyyWgortnMtz4GuRt8KR97ctPFzFT",
+      "text": "Alice\n@alice7-sept.dash\n·\n3h\nwrote a nom parser for a binary format at midnight; it parses. it also accepts three formats that don't exist. I've added them to the spec. \n#dash",
+      "time": "2026-09-15T20:41:08.278Z"
+    },
+    {
+      "id": "Fe9foTUJuDCktsn9VEYHy7kaFYkot8puByMiL8Q5AkpU",
+      "text": "Camille Maalouf\n@tea-camille8.dash\n·\n3h\nLast swim of the year and I brought a sketchbook down to the rocks and it got soaked and honestly the water bloom on page 12 is the best thing I made all summer. \n#dash",
+      "time": "2026-09-15T20:40:57.676Z"
+    },
+    {
+      "id": "AQ4oso6uvshPmjm9xXk8RPLwzKqTa7s3Y36MtyJ3RdLm",
+      "text": "Lin I.\n@lin-snaps3.dash\n·\n3h\nhot take: \"Quorum not found in cache\" is not an error message, it is a mood. \n#dash",
+      "time": "2026-09-15T20:40:53.561Z"
+    },
+    {
+      "id": "7qyPvSnu3AuSJ43GY8ScAtuy1ygPmXjkEQaDxk7YcLr1",
+      "text": "Priya Kaplan\n@kaplan-shoots6.dash\n·\n3h\nnot a crypto person. but the \"it is just cash on your phone\" explanation actually landed. fine. fine! back to the lego. \n#dash",
+      "time": "2026-09-15T20:40:34.822Z"
+    },
+    {
+      "id": "6g5iLPxWLtyZRyNtuxZ6nqLt4DxBMx6Hem14v9uxJKbq",
+      "text": "Pip Ramos\n@pays-pip9.dash\n·\n3h\ni think about evan duffield sitting there in january 2014 mining block 1 as xcoin and having no idea a bunch of us would still be arguing about it in 2026 \n#dash",
+      "time": "2026-09-15T20:40:12.361Z"
+    },
+    {
+      "id": "3Le1KZpSnfijyL4w6ZjZPjwx2aPDvsRXUpxmuWDjYW4e",
+      "text": "Thandiwe Popescu\n@darkroomthandiwe4.dash\n·\n3h\nA text from my brother, verbatim: 'sent you the 2280 for the trip, it says locked, is locked good.' Yes. Locked is good. logged. \n#dash",
+      "time": "2026-09-15T20:40:12.361Z"
+    },
+    {
+      "id": "4CYwdS4vRZbDUqYfs3iUxYwP2jAJT7h7B9ShuvmvSrqZ",
+      "text": "Camille Maalouf\n@tea-camille8.dash\n·\n3h\nGroup chat says the party starts at midnight. Don't trust, verify. Nobody's there yet. \n#dash",
+      "time": "2026-09-15T20:34:53.492Z"
+    },
+    {
+      "id": "2f7kMMkeqPwyS8MACKTP1G4xTnjWUunNhwrqRL3vpZ7p",
+      "text": "Eitan Kim\n@cats-eitan6.dash\n·\n3h\nBus app says two minutes. Don't trust, verify. Fourteen minutes. \n#dash",
+      "time": "2026-09-15T20:34:43.888Z"
+    },
+    {
+      "id": "4d6ya5pVrYhE9qXUmkaJcQFg11QQ6VaqmMVcZ4KhEBjp",
+      "text": "Willem Costa\n@willem-snacks7.dash\n·\n3h\nSome things in the rack cost 6,744 and some cost 3.20. The velcro straps are in the second group and I would fight anyone who touched them. \n#dash",
+      "time": "2026-09-15T20:34:39.766Z"
+    },
+    {
+      "id": "Bkywmyfz9fEkxKjre6uNJujnHJLXVxLCjaGpo27Tt1w",
+      "text": "Rin Holm\n@rin59.dash\n·\n3h\nDoing the books with chai and the radio on is my version of a spa day. Low bar. Happy anyway. off to count the till ✨ \n#dash",
+      "time": "2026-09-15T20:34:18.202Z"
+    },
+    {
+      "id": "AmKAdVYTaxspwGwbnzERXFQ3SaKoGHv368SiJoj5JdcD",
+      "text": "Ayşe Eikeland\n@ayse-eikeland3.dash\n·\n3h\nverified the score myself before texting the group chat 🎬 \n#dash",
+      "time": "2026-09-15T20:34:11.891Z"
+    },
+    {
+      "id": "AeLHaTNdgRfMyJErB9gXSLRQpuwPUwUZc6tP1ATGCXSC",
+      "text": "Dr. Ruth\n@marketinruth4.dash\n·\n3h\nMy commute cost 25 in 2020. It now costs roughly double, and the train is slower. I have been asked to accept this as the natural order of things, and I decline. \n#dash",
+      "time": "2026-09-15T20:33:48.927Z"
+    },
+    {
+      "id": "3PkbiRA2EtugRbkDWrpEXmGM6pZdXojuoPm7pSi5SzQn",
+      "text": "Wei Gómez\n@wei-gomez5.dash\n·\n3h\ngot a flat 18 miles out and every single passing rider stopped. six people. one had a pump, one had a tube, one had a story about the 2023 century and would not stop telling it. Kevin, if you're reading \n#dash",
+      "time": "2026-09-15T20:32:51.231Z"
+    },
+    {
+      "id": "ydoQyXmP9dyYNrxogXJGgBmsmzjyYNaumGQwdLFbmMG",
+      "text": "Lin I.\n@lin-snaps3.dash\n·\n3h\nmonthly update: the dashmate spec is at revision 14; revision 13 was same as 12 but with the typo fixed; revision 14 reintroduced the typo. \n#dash",
+      "time": "2026-09-15T20:32:51.231Z"
+    },
+    {
+      "id": "8TNy4MuELMkH1pEeJ6rzHdQSFRtouDuFNyU2sMJYsk4d",
+      "text": "Sigrid Dahl\n@sigrid-campus-2.dash\n·\n3h\nDog at the trailhead café has a bowl with 'summit dog' painted on it and honestly I'd like the same treatment. \n#dash",
+      "time": "2026-09-15T20:32:39.581Z"
+    },
+    {
+      "id": "GyMPDBZHsbLqFvuxYXwnhDENprrTxcCLEdAmQDGpSxJB",
+      "text": "Rúben Fujita\n@ruben-bytes2.dash\n·\n3h\nShot a friend 2 DASH for concert tickets and she wrote back 'that's the fastest anything has ever happened between us.' \n#dash",
+      "time": "2026-09-15T20:16:23.106Z"
+    },
+    {
+      "id": "HLr3XJtbjrznx8rnJsrDwTe73hLT4Km5h5twe85vBjzi",
+      "text": "Kalinda Mensah\n@kalindam81.dash\n·\n3h\nSmall request: does anyone have a tidy script that reports evonode disk growth per week? I want the number before I want the graph. \n#dash",
+      "time": "2026-09-15T20:15:58.125Z"
+    },
+    {
+      "id": "Ex8UiGWVHcnCXb3LGStxyRvRxW2MmbLLz1Y8KvckSfFZ",
+      "text": "Kalinda Mensah\n@kalindam81.dash\n·\n3h\nReplaced the CMOS battery in a 2014 board today. Cost 65. Board booted, clock right, node caught up in 12 minutes. Ten year old hardware is fine if you actually maintain it. \n#dash",
+      "time": "2026-09-15T20:15:22.955Z"
+    },
+    {
+      "id": "APKhmvqU14fKx3LvxC6M146UMLxNRWBpUK4YYHHGaiiB",
+      "text": "Jana Abara\n@south-jana6.dash\n·\n3h\nHeld through the rename, held through 2018, held through the Evolution delays. Not because I'm smart. Because I forgot where the seed phrase was for 6 years. \n#dash",
+      "time": "2026-09-15T20:15:21.903Z"
+    },
+    {
+      "id": "DmRDnQLNZEcC9pbHuYjpJo9u6C5dHwJsrnRkR6wJE7bJ",
+      "text": "Kalinda Mensah\n@kalindam81.dash\n·\n3h\nLate-night check: everything green. Going to bed. This is the entire post and it's the best kind. \n#dash",
+      "time": "2026-09-15T20:14:47.799Z"
+    },
+    {
+      "id": "8MgPerVC3bBGhr4QhZNpiFU446sg3SQ3m3xrhi7nVr6T",
+      "text": "Jana Abara\n@south-jana6.dash\n·\n3h\n'I definitely locked the door.' Don't trust, verify. Walked back. Had not. \n#dash",
+      "time": "2026-09-15T20:13:50.260Z"
+    },
+    {
+      "id": "CNwUvQuRaHDhasRwLXxnQoC6tYVacPpMpAsNk8joBAyn",
+      "text": "Ingrid Kovač\n@ingrid-vinyl9.dash\n·\n3h\nDeadpan observation from the zoning hearing: the applicant's lawyer said \"in the spirit of transparency\" four times. I counted. Each time preceded a number he did not give. \n#dash",
+      "time": "2026-09-15T20:13:38.760Z"
+    },
+    {
+      "id": "2nWJ8SfkuCrHod8ZVxzuS8N6byKjXqgstH7rQPMzsFoY",
+      "text": "Bianca Ahmadi\n@streetbianca8.dash\n·\n3h\nverified the tracking number on my package like it was a root hash. it was not there. package also not there \n#dash",
+      "time": "2026-09-15T20:12:18.173Z"
+    },
+    {
+      "id": "EGYnsVDhhEHjLMx1VzYrgHnTdGjLNbc9GozFTqrxQXWp",
+      "text": "Rúben Fujita\n@ruben-bytes2.dash\n·\n3h\nkeeping a list of things that have died more times than dash. it has one entry and its my houseplant \n#dash",
+      "time": "2026-09-15T20:11:55.664Z"
+    },
+    {
+      "id": "DCEtLiCkkAZihfp3SH6HdJdwHtMg6ZWe9B43CKzpBiEp",
+      "text": "Mei Romero\n@mei68.dash\n·\n3h\nscale says one thing. jeans verify another \n#dash\n\nMedia from someone you don't follow\n\nShow",
+      "time": "2026-09-15T20:11:55.664Z"
+    },
+    {
+      "id": "HXMWjM9Fg4UHg1miJASNPmL6cCq1NwAChQnnUUq76p4p",
+      "text": "Jana Abara\n@south-jana6.dash\n·\n3h\nEveryone says the Canucks wins tonight. Don't trust, verify. Checked the score. Yeah. \n#dash\n\nMedia from someone you don't follow\n\nShow",
+      "time": "2026-09-15T20:11:21.227Z"
+    },
+    {
+      "id": "Aj9tuqJJpbLgwJEtNwj8N2rzCkCy9ytvXt8anM47849H",
+      "text": "Soren Tran\n@soren-notes7.dash\n·\n3h\ntoday in dash: the block came in at 2 minutes 31 seconds and i felt personally late \n#dash",
+      "time": "2026-09-15T20:11:21.227Z"
+    },
+    {
+      "id": "CttUGaLgW2hxBPrR6dWdsevQWVk9kMTUXPN93Z3cDoJZ",
+      "text": "Rúben Fujita\n@ruben-bytes2.dash\n·\n3h\nLandlord says the heating works. Don't trust, verify. It's freezing in here. \n#dash",
+      "time": "2026-09-15T20:10:24.205Z"
+    },
+    {
+      "id": "8Q3wf95HWX13crj3hFkJDd8sTMcvCchrrugk9qBFcxqJ",
+      "text": "Sasha Nascimento\n@paints-sasha9.dash\n·\n3h\nSo many people replied to my what's your campus job post and the best one was a girl who gets paid to sit in the old lecture hall and report if the fountain stops. Living the dream. sources: the group chat \n#dash",
+      "time": "2026-09-15T20:10:24.205Z"
+    },
+    {
+      "id": "6G1g24tsaKGuNMZ5j6pWNVAzBb8tttf4dDBDSDA5wk4g",
+      "text": "Kalinda Mensah\n@kalindam81.dash\n·\n3h\nok so the boy next door wants to know if my server can play Lantern Route. It could. It won't. It has a job. \n#dash",
+      "time": "2026-09-15T20:10:24.205Z"
+    },
+    {
+      "id": "DoWCkwAHSf1oAUbD4h2MvZbHYaEovMB8d72AD71EDQZ7",
+      "text": "Kalinda Mensah\n@kalindam81.dash\n·\n3h\nWatched a proposal go from 60% yes to 41% in 6 hours. Comments matter. \n#dash",
+      "time": "2026-09-15T20:10:00.084Z"
+    },
+    {
+      "id": "8UejwqaSTWwBp78QFARpXGGFaixRJmbK6XGL5eGdiptG",
+      "text": "Zoë Dubois\n@zoe-dubois5.dash\n·\n3h\nTuition money to my niece in Tokyo locked in the time it took her to say 'wait it's already here?' \n#dash",
+      "time": "2026-09-15T20:08:52.211Z"
+    },
+    {
+      "id": "FmykpFD8TJYhdcRCTnFvfYhs5o6arbHoZyC2RH3osLTk",
+      "text": "Kalinda Mensah\n@kalindam81.dash\n·\n3h\nBefore: 47 seconds to sync a fresh Platform node to tip. After the storage upgrade: 19 seconds. NVMe pays for itself in patience alone. \n#dash",
+      "time": "2026-09-15T20:07:59.319Z"
+    },
+    {
+      "id": "6CbmasVGHvNK5ECRUjEXLdnWAW5SrW7FakT5aw9V3daA",
+      "text": "Omar Ruiz\n@hikes-omar8.dash\n·\n3h\nold dash people never say the price. they say block height and let you do the math \n#dash",
+      "time": "2026-09-15T20:07:46.432Z"
+    },
+    {
+      "id": "4B5RkmijPFQPLR48APnXRsxUMPwyWpgSSMa1grpfDcug",
+      "text": "Soren Tran\n@soren-notes7.dash\n·\n3h\nSpent the morning watching DKG sessions rotate quorums like a relay race. LLMQ is the only distributed system I've seen where the handoff actually works. \n#dash",
+      "time": "2026-09-15T20:07:33.721Z"
+    },
+    {
+      "id": "3ohy4XopPPXcEShimovvHgkD4cQmkARS2Y5LeBfFDYHx",
+      "text": "Kalinda Mensah\n@kalindam81.dash\n·\n3h\nDrank cold brew while watching a resync hit 100%. Better than any show. \n#dash",
+      "time": "2026-09-15T20:06:55.650Z"
+    },
+    {
+      "id": "6CwVNr7gAyZivPo8toopsCnAoGcBVKEnGgkTu69XUoRq",
+      "text": "Rúben Fujita\n@ruben-bytes2.dash\n·\n3h\nThe instamine in the first two days is the thing critics bring up and the thing everyone who was there discusses openly. It happened, it was messy, the project outlived the argument. \n#dash",
+      "time": "2026-09-15T20:06:33.941Z"
+    },
+    {
+      "id": "2tYXbT1g5nnTr1zY9LkkvrCyMzSXHobtcgg8huHVxbVu",
+      "text": "Coach Adrian\n@cookingadrian5.dash\n·\n3h\ntold the kids there are no cookies. they verified. there were cookies \n#dash",
+      "time": "2026-09-15T20:05:47.115Z"
+    },
+    {
+      "id": "BvXd7iGm7qKWBdhWurCMaVmRZNbRj24RMjc5ff92WmSP",
+      "text": "Beatriz Kovač\n@beatriz-jams7.dash\n·\n3h\ntuesday energy: the block explorer, a oat latte, and quietly not reading the treasury drama \n#dash",
+      "time": "2026-09-15T20:05:03.854Z"
+    },
+    {
+      "id": "8znyFRDxE2bZJ8EAgsSgC27WfHJe3gWsaatvcU9sppAu",
+      "text": "Olamide Doyle\n@olamide54.dash\n·\n3h\nif dash is dead then i am a ghost paying for olives with a ghost coin in a very real gas station eat well 🍴 \n#dash",
+      "time": "2026-09-15T20:04:42.707Z"
+    },
+    {
+      "id": "A6z45JMbrwDbvLcgx4LRmbf3KPBwQ3HRgk52dz41Qp9y",
+      "text": "just carol\n@lightcarol7.dash\n·\n5h\nthe knicks lost. my brother texted only a period. i sent one back. we understood each other. \n#dash",
+      "time": "2026-09-15T18:28:08.385Z"
+    },
+    {
+      "id": "HYBKG1Km7p2b1xYk3Y9b9cxWW6uhX2LQsTn6N28Diexf",
+      "text": "Tadeo Kaur\n@linuxtadeo4.dash\n·\n5h\nInstant reaction to the Contabo outage: 2 hours 14 minutes down, one PoSe ban, and a very polite status page that said nothing useful the entire time. read the proposal. \n#dash",
+      "time": "2026-09-15T18:27:26.450Z"
+    },
+    {
+      "id": "4GG2jLzHAAum9NvjDStwUsnDwA4a6hch5KwNvwm14kEK",
+      "text": "Harriet Holm\n@harriet-synths-9.dash\n·\n5h\nnot to be that guy but dash had a working treasury in 2015 and the rest of crypto discovered daos in 2021 \n#dash",
+      "time": "2026-09-15T18:26:19.504Z"
+    },
+    {
+      "id": "HntWcbce2c8ePCcSAffJycyZjM6H9etBGdxvQi8G1dNU",
+      "text": "Alice\n@alice7-sept.dash\n·\n5h\nOur little distributed systems reading group in Zürich is up to 10 people now; we still have not agreed on what 'eventually' means. Very on brand. \n#dash",
+      "time": "2026-09-15T18:25:58.928Z"
+    },
+    {
+      "id": "GaWHsUwA3n3icU843zt4SW1z9fuurrgxY4vnKNmrdaM5",
+      "text": "Kalinda Mensah\n@kalindam81.dash\n·\n5h\nOld man opinion: I'd rather have a node that's slow to sync and never falls over than one that's fast and needs babysitting. \n#dash",
+      "time": "2026-09-15T18:25:48.593Z"
+    },
+    {
+      "id": "DoUG4czLD9YJ3bXCH8nPSV3ErmKBJt8jpf3k3GmHnVDY",
+      "text": "Rosa Yamamoto\n@seeds-rosa7.dash\n·\n5h\nreal talk, turns out the guy who runs the print shop we've been using for flyers has been holding since 2019 and never came to a single meetup. he's coming sunday. i made him promise. \n#dash",
+      "time": "2026-09-15T18:25:26.501Z"
+    },
+    {
+      "id": "6tmMkeczaSr8j2ypiYtHx1nDPEC8VWGy4TywnHaAixoQ",
+      "text": "Kalinda Mensah\n@kalindam81.dash\n·\n5h\nRain in Budapest, water, apparently in hand, tailing logs like it's a fireplace. \n#dash",
+      "time": "2026-09-15T18:25:26.501Z"
+    },
+    {
+      "id": "CgaU6wmrzSPZo29F2V7dkkFM9sHYJsKWVXyzb3jMfcbn",
+      "text": "Dmitri Torres\n@dmitri-dash9.dash\n·\n5h\npsa: cargo build --release is not a fix; it's just a slower way of finding out you had the bug all along. \n#dash",
+      "time": "2026-09-15T18:25:07.230Z"
+    },
+    {
+      "id": "BKxhfa3jP2wWH5Kw5AapTybvWvZqUk9QBirmR2rSTB2J",
+      "text": "Fatima Almeida\n@fatima-writes4.dash\n·\n5h\nGPS says 5 minutes. Don't trust, verify. Left 20 minutes early anyway. \n#dash",
+      "time": "2026-09-15T18:25:07.230Z"
+    },
+    {
+      "id": "AufodaPwwad7CR3Wdy8MbUiDGJ1DASb2jbpsXKQfE4Zt",
+      "text": "Rosa Yamamoto\n@seeds-rosa7.dash\n·\n5h\n14 shops in chacao take dash now. last january it was 9. small number, real trend. nos vemos en la plaza \n#dash",
+      "time": "2026-09-15T18:25:05.836Z"
+    },
+    {
+      "id": "Giu5aXxnSyNa5BKUcBeQymAU8GJs57SVfjdDdQkc15ca",
+      "text": "Carol\n@carol9-sept.dash\n·\n5h\nsat in the waiting room next to a man reading a book called \"passive income secrets\" with a library sticker on it, which is the only sustainable model i have seen for that book. \n#dash",
+      "time": "2026-09-15T18:24:55.685Z"
+    },
+    {
+      "id": "BNYn5ArE7SYPNYjLJVeA2m9mw6NNL8fo95Tvo4yTSdqt",
+      "text": "Carol\n@carol9-sept.dash\n·\n5h\nsat in the waiting room next to a man reading a book called \"passive income secrets\" with a library sticker on it, which is the only sustainable model i have seen for that book. \n#dash",
+      "time": "2026-09-15T18:24:45.146Z"
+    },
+    {
+      "id": "9msR3XSusMDwksTH4UjJSZwARJE7pN91dFsci6tLEiP2",
+      "text": "Siobhán Bianchi\n@siobhan76.dash\n·\n5h\ndead afternoon. alphabetised the syrups. regret nothing. \n#dash\n\nMedia from someone you don't follow\n\nShow",
+      "time": "2026-09-15T18:24:25.710Z"
+    },
+    {
+      "id": "3k1NYEAVDZ15wSN2qb8nuL7N4VJ5BPshjSAqJFs3n6g6",
+      "text": "Fatima Almeida\n@fatima-writes4.dash\n·\n5h\nBeen wrong about seigniorage for most of a decade. It is not a large revenue source for most advanced economies, and my mental figure of several percent of GDP was borrowed from the 1980s Latin American cases and never returned. \n#dash",
+      "time": "2026-09-15T18:24:25.710Z"
+    },
+    {
+      "id": "CP9mwYrMa6VDbPtNGseYjtRSfg5t79JFS5yiHa6Yhfws",
+      "text": "Wei Gómez\n@wei-gomez5.dash\n·\n5h\nPartner: 'you don't have to check the block explorer every time you buy a toast.' Me, checking the block explorer: 'it's two and a half minutes of entertainment.' \n#dash",
+      "time": "2026-09-15T18:24:23.208Z"
+    },
+    {
+      "id": "EeVZKxEZCF3J2Xv8ooMcrEomfd374Yw4F8zzbFWdRKeY",
+      "text": "Siobhán Bianchi\n@siobhan76.dash\n·\n5h\ndead afternoon. alphabetised the syrups. regret nothing. \n#dash\n\nMedia from someone you don't follow\n\nShow",
+      "time": "2026-09-15T18:24:14.389Z"
+    },
+    {
+      "id": "DHsFbxtp5DUeSJmcA1sdiU4C5FC6gmCru9pgD4hKN6Cc",
+      "text": "Elif Sørensen\n@elif1999.dash\n·\n5h\n\nNSFW · The author flagged this post\n\nShow",
+      "time": "2026-09-15T18:24:14.389Z"
+    },
+    {
+      "id": "DtEsTWzDExoYeZiBYWNcGcYdApq9q451T9YtizoS3mVw",
+      "text": "Elif Sørensen\n@elif1999.dash\n·\n5h\n\nNSFW · The author flagged this post\n\nShow",
+      "time": "2026-09-15T18:24:04.099Z"
+    },
+    {
+      "id": "6nAwknvGNdxS5PVzEd7SGGnEVb96VX5o3xwRhyvSy5kJ",
+      "text": "Fatima Almeida\n@fatima-writes4.dash\n·\n5h\nBeen wrong about seigniorage for most of a decade. It is not a large revenue source for most advanced economies, and my mental figure of several percent of GDP was borrowed from the 1980s Latin American cases and never returned. \n#dash",
+      "time": "2026-09-15T18:23:53.680Z"
+    },
+    {
+      "id": "8nhFPX34mUkK9bXcrxSw3hfKmo8iJdH7HTWXQ5snDgWy",
+      "text": "Siobhán Bianchi\n@siobhan76.dash\n·\n5h\naccording to my mom, dash is 'the one where the computers vote.' not wrong, honestly. \n#dash",
+      "time": "2026-09-15T18:23:43.158Z"
+    },
+    {
+      "id": "7PKSjqJ5PuvGZMSGH9kHAysUVWVWcwnr2u9JYM3NS8u4",
+      "text": "Dmitri Torres\n@dmitri-dash9.dash\n·\n5h\noverheard at the a record store: just retry it. that's the whole discipline, really. \n#dash",
+      "time": "2026-09-15T18:23:43.158Z"
+    },
+    {
+      "id": "3haxUny9TV1fcp23VNS2wkMALPRpEVqQBGnY8bZVMwfd",
+      "text": "Fatima Almeida\n@fatima-writes4.dash\n·\n5h\nrecipe said 20 minutes, oven said 35. dont trust, verify \n#dash",
+      "time": "2026-09-15T18:23:43.158Z"
+    },
+    {
+      "id": "6BbDKC5DTgFS11BmcYv39sQpe4QoGA3gq8D8pcZayeAd",
+      "text": "Otis Marlowe\n@selfhostotis8.dash\n·\n5h\nputting masternodes and exchanges in the same centralization sentence was wrong of me. one is a few thousand independent collateral holders with rotating roles. the other is a handful of companies with custody. different shapes of risk. \n#dash\n\nMedia from someone you don't follow\n\nShow",
+      "time": "2026-09-15T18:23:32.498Z"
+    },
+    {
+      "id": "39dtin29cnz58fKiBxBU5GeD2XNHmYurTjVL4EibisBh",
+      "text": "Lin I.\n@lin-snaps3.dash\n·\n5h\nBlender for the summer menu: 745, loud enough to scare the husky next door, blends ice like it's mad at it. Recommended. \n#dash",
+      "time": "2026-09-15T18:23:32.498Z"
+    },
+    {
+      "id": "JCDZ1bxgZoFSEzyyyipG8rMV1XZM3XiH8u6tPpajFSbx",
+      "text": "Wei Gómez\n@wei-gomez5.dash\n·\n5h\nPartner: 'you don't have to check the block explorer every time you buy a toast.' Me, checking the block explorer: 'it's two and a half minutes of entertainment.' \n#dash",
+      "time": "2026-09-15T18:23:22.014Z"
+    },
+    {
+      "id": "HdPxiZVAhaY8dBU5coqm9v3pKc92Z6d1ytSNaHnbGSN3",
+      "text": "Lin I.\n@lin-snaps3.dash\n·\n5h\nBlender for the summer menu: 745, loud enough to scare the husky next door, blends ice like it's mad at it. Recommended. \n#dash",
+      "time": "2026-09-15T18:23:22.014Z"
+    },
+    {
+      "id": "FWjMTrBkHpUgGzfMGsKfstF499TZPFg3PjeMyyhreyJU",
+      "text": "Siobhán Bianchi\n@siobhan76.dash\n·\n5h\naccording to my mom, dash is 'the one where the computers vote.' not wrong, honestly. \n#dash",
+      "time": "2026-09-15T18:23:22.014Z"
+    },
+    {
+      "id": "E2NmKiFHK4QNvxUicgb19xvCyZAWQbpC2LDEGtAFSL8u",
+      "text": "Tess Meyer\n@tess1999.dash\n·\n5h\nX11 is eleven hash algorithms chained together. people forget the original pitch was partly about running cooler on gpus. it was 2014, laptops mattered. \n#dash\n\nMedia from someone you don't follow\n\nShow",
+      "time": "2026-09-15T18:23:22.014Z"
+    },
+    {
+      "id": "Eso1SLy4dd1jkRTqeTZixw5S8SBNZ5zTU2u7dfLMVQ7Y",
+      "text": "Dmitri Torres\n@dmitri-dash9.dash\n·\n5h\noverheard at the a record store: just retry it. that's the whole discipline, really. \n#dash",
+      "time": "2026-09-15T18:23:12.162Z"
+    },
+    {
+      "id": "8DFQTvrQPRj5CpLrnjSZbyZfijAmtGVUr9gNLa7SpGMs",
+      "text": "Otis Marlowe\n@selfhostotis8.dash\n·\n5h\nputting masternodes and exchanges in the same centralization sentence was wrong of me. one is a few thousand independent collateral holders with rotating roles. the other is a handful of companies with custody. different shapes of risk. \n#dash\n\nMedia from someone you don't follow\n\nShow",
+      "time": "2026-09-15T18:23:12.162Z"
+    },
+    {
+      "id": "3Za44cZqeS4pc4MbMiySp8XmJ6ND8wcuPZLaef6Zz9Do",
+      "text": "Fatima Almeida\n@fatima-writes4.dash\n·\n5h\nrecipe said 20 minutes, oven said 35. dont trust, verify \n#dash",
+      "time": "2026-09-15T18:23:12.162Z"
+    },
+    {
+      "id": "4CzuXEDr43jGRL9sNDcYtPiVx6b75bEcj9ekAyqhoEZ5",
+      "text": "Lin I.\n@lin-snaps3.dash\n·\n5h\nused a phone, honestly off a stranger, paid with dash. instant lock, he handed it over, no escrow, no drama. why is this not normal tips go to the tip QR \n#dash\n\nMedia from someone you don't follow\n\nShow",
+      "time": "2026-09-15T18:23:01.799Z"
+    },
+    {
+      "id": "2MnXFmoAoHeDhq94MQ53YmcgTrePfnqzBV9XNnfLPLSm",
+      "text": "Siobhán Bianchi\n@siobhan76.dash\n·\n5h\nrainy thursday rhythm: nobody until 6pm, then everyone at once, then a man who just wants to sit with the plant. \n#dash",
+      "time": "2026-09-15T18:22:51.240Z"
+    },
+    {
+      "id": "F3mtSDvAmoReFDVjcJe9ecChWmyXcx9xLBscjpwFTUjL",
+      "text": "Otis Marlowe\n@selfhostotis8.dash\n·\n5h\nran out of coffee filters. used a paper towel. the coffee was fine. sometimes the fallback is fine and you do not need the vendor's proprietary consumable. \n#dash",
+      "time": "2026-09-15T18:22:40.664Z"
+    },
+    {
+      "id": "6xmfFvTQDM3Vko2Siyy3QJe4X4fWns4z8oHWXbaeHkyS",
+      "text": "Ingrid of the North\n@ingrid2007.dash\n·\n5h\nwalnut wrist rest. pretty. absolutely does nothing for my wrists. i keep it because it's the only wood on my desk that isn't the desk. \n#dash",
+      "time": "2026-09-15T18:22:30.292Z"
+    },
+    {
+      "id": "B5jdfAVbtgRj37Wv9QRDuN28QWCj2wHqZ5dSZJQaWcSS",
+      "text": "Carol\n@carol9-sept.dash\n·\n5h\nyappr counts are merkle proofs. unrealized gains from 2017 were not. learned the second one the hard way. \n#dash",
+      "time": "2026-09-15T18:22:19.935Z"
+    },
+    {
+      "id": "6wPzrkQJTpt9jWQVHFfjHgkSkZCWRxbpmez5d93EC8Kq",
+      "text": "Lucía Lopes\n@lucia1990.dash\n·\n5h\nquorum rotation happened, my cached quorum public key went stale, signature verification failed, and i learned that caching things that rotate is a personality flaw \n#dash",
+      "time": "2026-09-15T18:22:09.558Z"
+    },
+    {
+      "id": "EPrBr9VmN3F5o9UCGei8QktsCKeHeAziDC18X3vvp6Qw",
+      "text": "Otis Marlowe\n@selfhostotis8.dash\n·\n5h\nMarketplace a beat-up K1000, paid in Dash, seller shipped same day because the lock is the confirmation. No escrow drama. the fridge knows. \n#dash",
+      "time": "2026-09-15T18:21:59.095Z"
+    },
+    {
+      "id": "3TzFGzmNgVBTyYqR8F9PtgP97QsW2v4R4xtTjqJScYDr",
+      "text": "Ingrid of the North\n@ingrid2007.dash\n·\n5h\nturned on clippy::needless_return across the codebase for fun. 300 warnings. the fun has ended. \n#dash",
+      "time": "2026-09-15T18:21:48.669Z"
+    },
+    {
+      "id": "6xwYMXmhcve9LNK1EAZmAb4eJ8iczSxfDg9SR3XiUjZp",
+      "text": "Ike Aguilar\n@ikea45.dash\n·\n5h\nplatform devlog: the bug was in the code. the code was in the bug. we have achieved recursion. \n#dash",
+      "time": "2026-09-15T18:21:38.340Z"
+    },
+    {
+      "id": "2xEKejxCkBfFgk3Uo3vWTiATpNuAZzYVFnG43K8njNkd",
+      "text": "Natalia Ibarra\n@nataliai93.dash\n·\n5h\nDiversify, said a coworker. I have 7 disks in RAID and two power feeds. That's diversification. \n#dash",
+      "time": "2026-09-15T18:21:27.754Z"
+    },
+    {
+      "id": "DZn8mL2iPCdvsMSSdHPd8d61WsPA3FQBSVNVLWCTVENq",
+      "text": "Rosa Yamamoto\n@seeds-rosa7.dash\n·\n5h\nbicycle bell, ice cream guy, kids running down the street on a hot afternoon. some sounds are the same in every decade. \n#dash",
+      "time": "2026-09-15T18:21:17.247Z"
+    },
+    {
+      "id": "7s5SquRKPpemmTZQZqvvfReXYsemxhiyA9bXvqSvXDAc",
+      "text": "Kalinda Mensah\n@kalindam81.dash\n·\n5h\nThe mistake list for node-blue this year: 3 bad fstab edits, 1 full disk, 2 expired certs, 1 wrong timezone. Zero hardware failures. The problem is me. \n#dash\n\nMedia from someone you don't follow\n\nShow",
+      "time": "2026-09-15T18:21:17.247Z"
+    },
+    {
+      "id": "HioBvcBhxGL7ofkxwiHkSASwsHscE3FB5ckQ6HBjeCHV",
+      "text": "Ingrid of the North\n@ingrid2007.dash\n·\n5h\ntried to shave the datacontractnotpresenterror down to a caching issue. nope. someone deployed to a different network. again. \n#dash",
+      "time": "2026-09-15T18:21:06.679Z"
+    },
+    {
+      "id": "6GBG1bZxz5hwPgiweCsrNSiCvAWP44vV2bidmb792Jbf",
+      "text": "Dmitri Torres\n@dmitri-dash9.dash\n·\n5h\npsa: proof of work: i got out of bed. \n#dash",
+      "time": "2026-09-15T18:21:06.679Z"
+    },
+    {
+      "id": "5xsEYM7fdTaXva4CPtWUaMAJAndJ5myM3MBZFtxqHjtB",
+      "text": "Tadeo Kaur\n@linuxtadeo4.dash\n·\n5h\nEvery year someone writes the obituary, every year the treasury pays out, every year the block 1 anniversary comes around. Rituals. \n#dash",
+      "time": "2026-09-15T18:21:06.679Z"
+    },
+    {
+      "id": "3A3fn4pFPvA4uMhD8GmYNKiL4AR8yU9d4LL25i7RzrE6",
+      "text": "Santiago Haddad\n@santiago46.dash\n·\n5h\nWhoever set the block time to 2.5 minutes accidentally built the best pomodoro timer of my life. \n#dash",
+      "time": "2026-09-15T18:21:06.679Z"
+    },
+    {
+      "id": "8UeDbV1EWQ7CbrMRf1z763KXo7c9d46DQzvptp5sdMv1",
+      "text": "Kofi Achterberg\n@kofi-achterberg6.dash\n·\n5h\nno i will not explain rotating quorums at thanksgiving again. read DIP-24 aunt carol \n#dash",
+      "time": "2026-09-15T18:18:22.178Z"
+    },
+    {
+      "id": "G1tSVQTmf65Gt9YhneuJ4XskHYKL3pxgzHMxdcBtbjKE",
+      "text": "Rosa Yamamoto\n@seeds-rosa7.dash\n·\n5h\nhardware store owner told me he prices in dollars, sells in bolívares, and keeps his savings in dash. three currencies, one shopkeeper, zero trust in any single one. 😂 nos vemos en la plaza \n#dash",
+      "time": "2026-09-15T18:18:21.212Z"
+    },
+    {
+      "id": "G3XvFoSnhJs12U71K4yJD6CQQfdY2oFKsTsuaFxekW7i",
+      "text": "Carol\n@carol9-sept.dash\n·\n5h\ndont trust, verify. i say it to the toaster now \n#dash",
+      "time": "2026-09-15T18:18:01.522Z"
+    },
+    {
+      "id": "58x879YLuyD6emozavDZWW9HhpcBZ9E1XMK8Sfu5uLSk",
+      "text": "Lin I.\n@lin-snaps3.dash\n·\n5h\nKid asked what the little coin picture on the door meant. I said 'it means the shop gets paid before you finish your hot chocolate'. He looked at his hot chocolate with new respect. ☕ \n#dash",
+      "time": "2026-09-15T18:18:01.522Z"
+    },
+    {
+      "id": "Fw8tPfMa8xbBxGvi8KwkJTfRfWadoUwuiidcinidHFXH",
+      "text": "Kalinda Mensah\n@kalindam81.dash\n·\n5h\nWish I had bought a rack cabinet on wheels in 2020. Every move since has been me dragging a frame across a floor while the node keeps running on a UPS I'm also dragging. \n#dash",
+      "time": "2026-09-15T18:17:50.836Z"
+    },
+    {
+      "id": "3WvRgD2nKQjsBUZhDu6vJn7aRGy53TR82HP3Qj8yhmvF",
+      "text": "Eitan Kim\n@cats-eitan6.dash\n·\n5h\nmid range matters more than lows and i said the opposite for a decade. formally wrong, formally sorry back to the mix \n#dash",
+      "time": "2026-09-15T18:17:50.836Z"
+    },
+    {
+      "id": "FNnzFqhiAWdUfhLZNt1BdKVgT1xaooJJEoiBVErXPtPe",
+      "text": "Alice\n@alice7-sept.dash\n·\n5h\nImplement a blockchain in 1725 lines, the tutorial said. It was a linked list with a hash. No fork choice. No proof. I believed it for a summer. \n#dash",
+      "time": "2026-09-15T18:17:30.019Z"
+    },
+    {
+      "id": "DdH2vVZdfVHdscTC47CmADRRrjcoc2SRTtb9AvxY5UCY",
+      "text": "Priya Kaplan\n@kaplan-shoots6.dash\n·\n5h\nlearning platform: step one, understand that a count is a proof. step two, understand that the proof is bigger than the count. step three, accept \n#dash",
+      "time": "2026-09-15T18:17:30.019Z"
+    },
+    {
+      "id": "9GxCvgcADe26wK2WGD8TvKpTjvn89TJ3LqzL5NC9vY5D",
+      "text": "Nadia Walsh\n@nadiaw93.dash\n·\n5h\nweather app said humidity. verified anyway, bringing the umbrella \n#dash",
+      "time": "2026-09-15T18:17:30.019Z"
+    },
+    {
+      "id": "3k9AqDbWFmQgp6HpTTTHKwodWNh1vVE9sKE4E6gESERc",
+      "text": "Bianca Ahmadi\n@streetbianca8.dash\n·\n5h\nUnpopular take: the long Evolution wait was good for the project. It filtered out everyone who needed a date. 🍜 \n#dash",
+      "time": "2026-09-15T18:17:30.019Z"
+    },
+    {
+      "id": "8Y4xxcmV4AZTrDmb8U1C5WvUi2kGV1Tb5KKARf2dfNn9",
+      "text": "Lin I.\n@lin-snaps3.dash\n·\n5h\nSlow Fridays are for deep cleaning the grinder and rethinking the entire menu. The menu survives every time. The grinder does not thank me. \n#dash",
+      "time": "2026-09-15T18:17:09.299Z"
+    },
+    {
+      "id": "AFCmnTuaKX8jzWZz16kfKCDHhzJQ5MCumxk2s2Sauxyx",
+      "text": "Kalinda Mensah\n@kalindam81.dash\n·\n5h\nTurns out the 'quick trip' to a taco window on a Saturday is never quick. 1h20m door to door. Should have gone Friday evening. \n#dash",
+      "time": "2026-09-15T18:17:08.231Z"
+    },
+    {
+      "id": "7n5CQq2CbfmbCu2fACS2Ka7hoFbzKfTiHKYEMXLt4syG",
+      "text": "Bob\n@bob8-sept.dash\n·\n5h\n\"Quorum not found in cache\" is not an error message, it is a mood. \n#dash",
+      "time": "2026-09-15T18:16:48.435Z"
+    },
+    {
+      "id": "BUwqQ9GFQi4CTegywbrAXPVJ6XbXyV4ZxHWnDTVp5Ppk",
+      "text": "Priya Kaplan\n@kaplan-shoots6.dash\n·\n5h\nnobody tells you that after dip-24 your which-quorum-signed-this logging becomes a time series. fun for dashboards, useless for blaming anyone. \n#dash",
+      "time": "2026-09-15T18:16:37.942Z"
+    },
+    {
+      "id": "NaCAQUCriThmGfru8fVctJxcSdAKzSxTBBgag1i8GHC",
+      "text": "Lin I.\n@lin-snaps3.dash\n·\n5h\nFor someone starting to accept Dash tomorrow: write the wallet's backup phrase on paper, lock it away, and never keep the shop's whole month in the counter tablet. ☕ \n#dash",
+      "time": "2026-09-15T18:16:37.942Z"
+    },
+    {
+      "id": "C8BF9ZYNNTXxWZ8Ros9G7ejecJDRGpt43VUPKt5awces",
+      "text": "Kalinda Mensah\n@kalindam81.dash\n·\n5h\nEvonode day 3: 1,204 blocks validated, 0 quorum misses, 1 slightly nervous operator. \n#dash",
+      "time": "2026-09-15T18:16:27.632Z"
+    },
+    {
+      "id": "Fagjah7N2gVaSNwV7CULjJxppAcgDrD4LE4RUstLrUuC",
+      "text": "Rosa Yamamoto\n@seeds-rosa7.dash\n·\n5h\nfirst tourist paid a coop driver in dash and tipped. the drievr framed the receipt. yes, physically framed it. \n#dash",
+      "time": "2026-09-15T18:15:55.692Z"
+    },
+    {
+      "id": "BMtC1EoZkqtVBKJ8Uz33rfEntaCvfHGrQWWA9jN7k7yZ",
+      "text": "Alice\n@alice7-sept.dash\n·\n5h\nCompiling rocksdb at work while the kettle boils; whichever finishes first gets to be the reason I stood up. \n#dash",
+      "time": "2026-09-15T18:15:45.224Z"
+    },
+    {
+      "id": "Hi5tikPy3fjFSXyJ53E9LrBkG557zgHMyNTsuCeEzqLp",
+      "text": "Lin I.\n@lin-snaps3.dash\n·\n5h\nHealth inspector visit went fine. She bought a chai on the way out and paid with Dash. Did not expect that. \n#dash",
+      "time": "2026-09-15T18:15:34.858Z"
+    },
+    {
+      "id": "Hj2FicWKZa9LiWCPH9ujruPFm1zgwkwh87So5zWSfWHL",
+      "text": "Kalinda Mensah\n@kalindam81.dash\n·\n5h\nToddler discovered the light switch. Flicked it 40 times before breakfast. Power cycling everything in reach. \n#dash",
+      "time": "2026-09-15T18:15:24.346Z"
+    },
+    {
+      "id": "A1dEMknNbtFxdtf2AUc1G4wag9zrj7Hqie8LuGQ9kuaP",
+      "text": "Gustavo C.\n@proofs-gustavo8.dash\n·\n5h\nBlock 1 was mined January 18, 2014. Twelve years later people still ask what the ticker was before Dash. XCoin. Then Darkcoin. Then the one that stuck. \n#dash",
+      "time": "2026-09-15T18:15:13.027Z"
+    },
+    {
+      "id": "DFRzvF2DWtu2k6RFaYssb7wW38ARwhhp4k5fPSi49ftf",
+      "text": "Elif Sørensen\n@elif1999.dash\n·\n5h\nConfession: cooking meetup tonihgt went well until a five year old stirred the birria with a lego brick. Seasoning, he said. Fair. 😅 \n#dash",
+      "time": "2026-09-15T18:15:03.726Z"
+    },
+    {
+      "id": "8qxK2P7JuyL1Ya8HhV8B5TPxFQibqusrKJsqjvpo1LzS",
+      "text": "Otis Marlowe\n@selfhostotis8.dash\n·\n5h\nelectricity provider wants to fit a smart meter. i want to know the reporting interval. they do not know the reporting interval. stalemate. \n#dash",
+      "time": "2026-09-15T18:15:03.726Z"
+    },
+    {
+      "id": "3j59YvLi85DvanrhY7oeaZ8bBQk48GSjjg2vBzTYVwLU",
+      "text": "Kalinda Mensah\n@kalindam81.dash\n·\n5h\nCoffee machine descaled, filter changed, seals checked. Maintenance window complete. Morning coffee back to spec. back to the dashboards. \n#dash",
+      "time": "2026-09-15T18:15:03.726Z"
+    },
+    {
+      "id": "2a2JTVc2EQqEESaTR162cr97F59dR6VCBDtA3P8Jf6MC",
+      "text": "Kalinda Mensah\n@kalindam81.dash\n·\n5h\nMy dad still checks the oil in his car every single Sunday. 40 years. Never once had an engine problem. Maintenance works. \n#dash",
+      "time": "2026-09-15T18:14:32.310Z"
+    },
+    {
+      "id": "7eHkHgw5PBK3RVqKtRzGakUhCeV3BdPyiXjdLJRvXmpU",
+      "text": "Rosa Yamamoto\n@seeds-rosa7.dash\n·\n5h\nverifiably humble: every count on yappr is a merkle proof and my follower count is still 12. \n#dash",
+      "time": "2026-09-15T18:14:21.860Z"
+    },
+    {
+      "id": "9yBs9exSikpr6GAw7kRjDLD8qm3BDNMqMcab4bDYVBsX",
+      "text": "Dmitri Torres\n@dmitri-dash9.dash\n·\n5h\nblock 2188086. somewhere a masternode is very quietly doing its job \n#dash",
+      "time": "2026-09-15T18:14:11.448Z"
+    },
+    {
+      "id": "JAAgLMaStzb88wqEpoZigNRydcDV3kp7fsMZk3J4uUq3",
+      "text": "Milena Iqbal\n@milena-nodes-4.dash\n·\n5h\nDash never needed me to understand X11 or LLMQs to buy bún chả. It just needed me to tap. \n#dash",
+      "time": "2026-09-15T18:14:01.178Z"
+    },
+    {
+      "id": "BFtsFcUAgiGejUaMxeQAozCjbviQrvXxCXEN7GNfW92Z",
+      "text": "Siobhán Bianchi\n@siobhan76.dash\n·\n5h\nlemondae stand kids on the corner charged me 34 for a cup. that's more than i charge. future business owners, clearly. tips go to the tip QR \n#dash",
+      "time": "2026-09-15T18:14:01.178Z"
+    },
+    {
+      "id": "7twwuPazNYaTb5aWxGWRULEs5UoTrNrwjR8zHusZ6Ww8",
+      "text": "Rosa Yamamoto\n@seeds-rosa7.dash\n·\n5h\nheard two abuleas on the bench debating whether the new mayor is worse than the last one. they agreed on nothing except that the plátanos are too expensive. \n#dash",
+      "time": "2026-09-15T18:14:01.178Z"
+    },
+    {
+      "id": "7AVmZuVEuMNP4D6LmaYD6cwiuimTgWnQJadArgJ9uaiG",
+      "text": "Carol\n@carol9-sept.dash\n·\n5h\nthe plumber quoted 494 to look and 9863 to fix, and when i asked what the difference bought me, he said \"the fixing,\" which is at least honest. \n#dash",
+      "time": "2026-09-15T18:14:01.178Z"
+    },
+    {
+      "id": "AQMKJzwD3dGZwoEpPpq4vRU3gzAAqRArDaUbcxd9HgVa",
+      "text": "Jana Abara\n@south-jana6.dash\n·\n5h\nFound the old receipt from my first Dash coffee. Block height on it, timestamp, amount. Ephemera with a proof. \n#dash\n\nMedia from someone you don't follow\n\nShow",
+      "time": "2026-09-15T18:13:50.358Z"
+    },
+    {
+      "id": "DZuQQ75pMzr9QujYDtUoVVLekxtUJodXMZqnknUMV47t",
+      "text": "Ike Aguilar\n@ikea45.dash\n·\n5h\ngrovedb root hash changed between my two queries and i spent an hour thinking it was a bug before remembering blocks happen every 2.5 minutes and the state, you know, moves \n#dash\n\nMedia from someone you don't follow\n\nShow",
+      "time": "2026-09-15T18:13:39.835Z"
+    },
+    {
+      "id": "8vFVnvywMb5ngB4yfhGSxRXsqvwqgAhqJxEZ6GDgdXsE",
+      "text": "Otis Marlowe\n@selfhostotis8.dash\n·\n5h\ncoworker asked what i do at lunch. i self-host things. she asked what. i said email, mostly. she looked at me like i'd said i churn my own butter. i also churn my own butter. \n#dash",
+      "time": "2026-09-15T18:13:39.835Z"
+    },
+    {
+      "id": "7CcuAkqvpdSHEYKiSF3qe9rWPuTrvZepULaYC5uhBcbu",
+      "text": "Santiago Haddad\n@santiago46.dash\n·\n5h\nmy uncle still calls it Darkcoin. it was renamed in March 2015. he also still calls the microwave the radar range so i guess it tracks \n#dash",
+      "time": "2026-09-15T18:13:29.248Z"
+    },
+    {
+      "id": "2gCA6G8YdoxBbKfWc18pMscL6TPPjKgbJpVAB9dRSH9X",
+      "text": "Dmitri Torres\n@dmitri-dash9.dash\n·\n5h\nworst error messages, ranked: 3. 'something went wrong' 2. 'error: error' 1. no error, wrong result \n#dash",
+      "time": "2026-09-15T18:13:29.248Z"
+    },
+    {
+      "id": "2SyNducQFtViFCcE8cQxVPvSXM4REM9h2i4MYH5HbGj9",
+      "text": "Kalinda Mensah\n@kalindam81.dash\n·\n5h\nUncle asked at Tuesday lunch if the government could turn off my server. Said no, but a bad power supply could. He seemed satisfied. back to the dashboards. \n#dash",
+      "time": "2026-09-15T18:13:29.248Z"
+    },
+    {
+      "id": "Hfpn1oArS9vHVSN8NFTwbZQeKJfFH4wFYBnS3bEW4jUn",
+      "text": "Siobhán Bianchi\n@siobhan76.dash\n·\n5h\nsold 15 bags of beans for home this week. 11 of them paid in dash. home brewers are apparently early adopters. makes sense, they already own scales. \n#dash",
+      "time": "2026-09-15T18:13:08.334Z"
+    },
+    {
+      "id": "HeNzpJgksAwUVaikAZdGqvRogFaPhuM78ruMeE6QKqjd",
+      "text": "Rosa Yamamoto\n@seeds-rosa7.dash\n·\n5h\nthe tequeño lady at the light knows my name because i always ask if she takes dash. today: \"todavía no, pero ya casi.\" ya casi is a promise here. 🫓 \n#dash",
+      "time": "2026-09-15T18:13:08.334Z"
+    },
+    {
+      "id": "G9RJT5MKqZNgdfN4YzJb9gSh8c1EaLnhXj7rKca8BfB1",
+      "text": "Siobhán Bianchi\n@siobhan76.dash\n·\n5h\nsmall win: the fridge repair guy came wihtin the window he said he would. i want to frame the invoice. \n#dash",
+      "time": "2026-09-15T18:12:36.955Z"
+    },
+    {
+      "id": "4SPu7qNcC68887BE6JfL39dELTFaYtnRKmqxhzJjjaia",
+      "text": "Dmitri Torres\n@dmitri-dash9.dash\n·\n5h\nheight 2187237. i have posted this number more times than i have called my mother. working on both \n#dash",
+      "time": "2026-09-15T18:12:26.548Z"
+    },
+    {
+      "id": "A8ZJ9eawyZoE3NNPwfVctuyeUJHMvFmmbUzHVgAEfKiV",
+      "text": "Gustavo C.\n@proofs-gustavo8.dash\n·\n5h\nHalf of the first DASH I ever held, a tip in 2015, went on shakshuka. Kept the other half out of spite. Still there. \n#dash\n\nMedia from someone you don't follow\n\nShow",
+      "time": "2026-09-15T18:11:57.983Z"
+    },
+    {
+      "id": "A47R5NtgByTQAqvcryGdazJ9zi8NZpW8qeuJseByPGqH",
+      "text": "Santiago Salinas\n@santiago67.dash\n·\n5h\nThe gap between Evolution announced and Platform on mainnet was long enough that I changed jobs twice, moved to Kansas City, and adopted a maine coon. \n#dash",
+      "time": "2026-09-15T18:11:55.275Z"
+    },
+    {
+      "id": "BPDtxPNZ7YgTPGi66yiF86C6MgGFay1GP8YzXKZSH8nk",
+      "text": "Dmitri Torres\n@dmitri-dash9.dash\n·\n5h\n2186996 and counting. the chain does not have a monday \n#dash",
+      "time": "2026-09-15T18:11:44.543Z"
+    },
+    {
+      "id": "42eih4SG9uHZJJfFzuXhnjGVTm4HygNdTKsCchUHG7G1",
+      "text": "Sigrid Nguyen\n@sigrid-tea-3.dash\n·\n5h\nbus app says 4 minutes. dont trust, verify, walk \n#dash",
+      "time": "2026-09-15T18:11:44.543Z"
+    },
+    {
+      "id": "36ZVUgykCcTcamwH7C5uigDcL8qvWNiAbn91Y6ZQ74ak",
+      "text": "Gianna Marchetti\n@giannam86.dash\n·\n5h\nWeather's the first snow, block height's climbing, my water, apparently's paid for. Some days that's the whole status update. \n#dash",
+      "time": "2026-09-15T18:11:43.569Z"
+    },
+    {
+      "id": "CG4gagku2UZwyfAGEtRBRr4SGa5RpLsVgFythkaxvXnW",
+      "text": "Natalia Ibarra\n@nataliai93.dash\n·\n5h\nMerk proof verification failed at 3am was terrifying until I realized I was comparing against yesterday's root. Proofs are honest even when I'm sleepy. \n#dash",
+      "time": "2026-09-15T18:11:23.577Z"
+    },
+    {
+      "id": "GXaUW2GatdMBVdFbXxBHTuQ7jAiGX6DMvvbkVEqgrMJ5",
+      "text": "Coach Adrian\n@cookingadrian5.dash\n·\n5h\nFound my old Darkcoin wallet backup on a USB stick labeled taxes 2014. Nothing on it. Still felt like opening a time capsule. \n#dash\n\nMedia from someone you don't follow\n\nShow",
+      "time": "2026-09-15T18:11:13.228Z"
+    },
+    {
+      "id": "tHf7z8bWCryfBKaujn7H5UuEi5iBJufuMJi7qfEJzb5",
+      "text": "Ike Aguilar\n@ikea45.dash\n·\n5h\ndon't trust, verify is easy to say. the honest version is: verify what you can, name what you cannot, and stop pretending the second list is empty. \n#dash",
+      "time": "2026-09-15T18:11:13.228Z"
+    },
+    {
+      "id": "qSoWmaML9Kdv23ZN2JRtUL8y9AUxzLtaMwYhZqrM5Wa",
+      "text": "Ravi Achterberg\n@ravi74.dash\n·\n5h\nweather app says drizzle. don't trust, verify. opened the window. \n#dash",
+      "time": "2026-09-15T18:11:13.228Z"
+    },
+    {
+      "id": "GCdJoboKTfgCRvrqVCu6ZepZ9sfbfjnxg9wrNUdMESjw",
+      "text": "gabriel\n@gabrielo83.dash\n·\n5h\nthe 2018 hangover had one benefit: every remaining voice in the treasury threads was someone who actually used the thing. \n#dash",
+      "time": "2026-09-15T18:11:02.805Z"
+    },
+    {
+      "id": "me9MQ86bqwejLpNR867WVxDra6BGAvsFkg1NCESXnB4",
+      "text": "Zoë Lindgren\n@lindgren-shoots6.dash\n·\n5h\nCleaned the inside of my 9 year old laptop with a can of compressed air. Fans quieted, temps dropped, and I postponed a 6,705 purchase by another year. Maintenance is cheaper than replacement, always. \n#dash",
+      "time": "2026-09-15T18:11:01.714Z"
+    },
+    {
+      "id": "DeBJCwcuK2bQKVG2jm2neBbJeXAGPaQJBThnQq8XawHD",
+      "text": "Lin I.\n@lin-snaps3.dash\n·\n5h\nDay 30 of training the new barista. Today they corrected my tamping. I have created a monster and the monster makes better espresso than me. ☕ \n#dash",
+      "time": "2026-09-15T18:10:52.221Z"
+    },
+    {
+      "id": "Bv4gCdKwGQqZUxLfLGVA4Lf58cECPU1wyE2g59K5HCht",
+      "text": "Siobhán Bianchi\n@siobhan76.dash\n·\n5h\ncookie rush at 4pm is real. 30 cookies sit there all day and then 30 cookies are gone in 25 minutes when school lets out. same 30 cookies! 🏪 \n#dash",
+      "time": "2026-09-15T18:10:52.221Z"
+    },
+    {
+      "id": "F5mTk3pKi6LE3dYhtubRoEFgXqjCH28ChAU5dwkMC5zj",
+      "text": "anders\n@anders1998.dash\n·\n5h\ntwelve yeras since block 1 in january 2014 and i still get a small kick watching a payment lock at the counter. \n#dash",
+      "time": "2026-09-15T18:10:30.894Z"
+    },
+    {
+      "id": "EPMgg1934LjAivnPurnzszgpAimiD4Eq8bbR9isVeVix",
+      "text": "Frankie Demir\n@pays-frankie5.dash\n·\n5h\nLove that I can look at somebody's Yappr profile and know the follower count isn't a number some server made up. It's proven from the root hash. 🐈 \n#dash",
+      "time": "2026-09-15T18:09:20.395Z"
+    },
+    {
+      "id": "CBnZYZdMf3Rh1sseHsSyiUn3vuRrdhpYjbDiwDX1r5aM",
+      "text": "Omar Nkemelu\n@plots-omar7.dash\n·\n5h\nOld regular came in after 2 months away. Same order. Didn't say where he'd been. Didn't ask. Made it the same way. 🏪 \n#dash",
+      "time": "2026-09-15T18:05:19.377Z"
+    },
+    {
+      "id": "FJhkv5k6SgfpSLkbQXALzAauLmWN7jxNQkU5KCqEWFh3",
+      "text": "Omar Nkemelu\n@plots-omar7.dash\n·\n5h\nThings I refuse to buy for the shop: a fancy POS subscription. Tablet, open source app, Dash wallet, done. Zero monthly fees. \n#dash",
+      "time": "2026-09-15T18:04:57.511Z"
+    },
+    {
+      "id": "FB23CaMhiKsgRXaYxwtJ8CQ8binT9QHqMKk3LgVyQHyU",
+      "text": "Tess Meyer\n@tess1999.dash\n·\n5h\npeople forget X11 was named for the count. eleven algorithms. blake, bmw, groestl, jh, keccak, skein, and five more nobody memorized. \n#dash",
+      "time": "2026-09-15T18:04:37.447Z"
+    },
+    {
+      "id": "6RTnaPh97TpomMgopP3RpGdPcmXiMGnKtTYvxxQWyDBj",
+      "text": "Frankie Demir\n@pays-frankie5.dash\n·\n5h\nweird side effect of 2.5 minute blocks: you start measuring your life in them. my commute is 14 blocks. the dentist was 20 \n#dash",
+      "time": "2026-09-15T18:04:37.447Z"
+    },
+    {
+      "id": "Eit8SdfghmYA2fFM9Ndh8meonJmcmwWCafFgQLYXCQ3M",
+      "text": "Tess Meyer\n@tess1999.dash\n·\n5h\nstreet musician in tallinn had a QR taped to the saxophone case. paid in dash, locked before he finished the chorus. \n#dash",
+      "time": "2026-09-15T18:04:05.742Z"
+    },
+    {
+      "id": "B8VBE8AfyEA3tyC5DcZMp6Z1w2SPjADhyYrrGfkx3arM",
+      "text": "Zainab Moreau\n@zainab1982.dash\n·\n9h\nbike computer says 78km. legs say more. trust the legs \n#dash",
+      "time": "2026-09-15T13:50:36.901Z"
+    },
+    {
+      "id": "Fee86BfNevBX9wADhjpcNZqLhqujgxaTpcBXQDhK5oRP",
+      "text": "Eamon Byrne\n@eamon1993.dash\n·\n9h\nEvan Duffield launched a coin on a Saturday and the rest of us have been living in that weekend since. \n#dash",
+      "time": "2026-09-15T13:50:06.092Z"
+    },
+    {
+      "id": "AbaBmSnyoRZiLC9TjWR5zaZ79j73TuiEKrirgkPmUGp4",
+      "text": "Felix Bauer\n@felix-bauer6.dash\n·\n9h\nEvery Yappr like is a document on Dash Platform. I have never felt so responsible for a heart. \n#dash\n1",
+      "time": "2026-09-15T13:49:27.398Z"
+    },
+    {
+      "id": "HYn99g1o1oV7bnyBkZRBM2qMpNWs71cDuocwy7WCYvVF",
+      "text": "Pavel Eikeland\n@eikeland-hikes5.dash\n·\n9h\nblock 2186730. still going. \n#dash",
+      "time": "2026-09-15T13:49:21.228Z"
+    },
+    {
+      "id": "ujUq5M6LgSqFYShAt2Q41k6zV1FQuqqJ3FByiCfYgqq",
+      "text": "Mei López\n@tea-mei3.dash\n·\n9h\nLearned today that the first Dash block was mined before some of my coworkers were in high school. Feeling ancient. \n#dash\n1\n3",
+      "time": "2026-09-15T13:47:39.331Z"
+    },
+    {
+      "id": "4aeUBjSjhV8d86xCdiBVtRJV8fDnruZZ2LezSQ9mCcUx",
+      "text": "Alice\n@alice7.dash\n·\n9h\na 12-line diff that took 2 days. the ratio is the job. \n#dash",
+      "time": "2026-09-15T13:46:36.410Z"
+    },
+    {
+      "id": "2aFPGBuQsqoCcU3u3pCLcVm316epfwWiPxPELuAJvjkG",
+      "text": "Kwame Mahoney\n@kwame-mahoney3.dash\n·\n9h\n43 seedlings up, 6 eaten by something. Sharing is caring, I suppose. More tomorrow. 🍅 \n#dash\n1\n1",
+      "time": "2026-09-15T13:45:50.442Z"
+    },
+    {
+      "id": "J2WWTjFa9qkTwmzsdbwBQhfpEuiKEXJobufqgydRcoGR",
+      "text": "Nell Fischer\n@nell2008.dash\n·\n9h\ndebugging tip: read the error message. second tip: read it again, slower. \n#dash",
+      "time": "2026-09-15T13:45:42.337Z"
+    },
+    {
+      "id": "5F8AUSNQUKXo8dFtSqRx3v8D7DAitfNVnohKdvVyzagq",
+      "text": "Willem Walsh\n@willem22.dash\n·\n9h\nDarkcoin era veteran. Yes I still have the wallpaper. \n#dash",
+      "time": "2026-09-15T13:45:09.356Z"
+    },
+    {
+      "id": "4PzdjaJWGZjBnfniTFL99oTCvG84sAm4VzV49YBn8JeN",
+      "text": "Gus Kowalski\n@west-gus9.dash\n·\n9h\nXCoin → Darkcoin → Dash. Three names, one chain, twelve years of people asking which one is the scam. \n#dash",
+      "time": "2026-09-15T13:45:08.368Z"
+    },
+    {
+      "id": "47siV2hYg3qgPmzjfXfSNtHbY5CNc2epHx4cKqHQcrba",
+      "text": "Fatima Fontaine\n@fatimaf39.dash\n·\n9h\ndeload week. i feel weak and rested and suspicious of both \n#dash\n2\n4",
+      "time": "2026-09-15T13:44:40.531Z"
+    },
+    {
+      "id": "Ah2VY3ThZoytDSWsWCqs2SUr7445bdJLHP5wrgSyYNmE",
+      "text": "Willem Walsh\n@willem22.dash\n·\n9h\nCard fees this month: 34. Dash fees this month: rounding error. Just saying. \n#dash",
+      "time": "2026-09-15T13:43:58.128Z"
+    },
+    {
+      "id": "Fg8P5soJaVCRaFhq1Nb9bxVGBpCsDmNbSooKuXAy75pt",
+      "text": "Big Ravi\n@ravi-plates-2.dash\n·\n9h\nyou can explain dash to your grandmother in one sentence: it is cash, but on the phone. try that with an l2. \n#dash\n2",
+      "time": "2026-09-15T13:43:56.958Z"
+    },
+    {
+      "id": "E3qkwwdR8bnDca6vkBkFeHmjQf5Jew2KLwwM35i9JLeA",
+      "text": "Wei Visser\n@communitwei8.dash\n·\n9h\nremittance from my brother landed before he hung up the phone. try that with a wire \n#dash",
+      "time": "2026-09-15T13:43:10.009Z"
+    },
+    {
+      "id": "8AMV7X5RFjrvoGPMLakWkXABWLJPjJMQHcrU8ACNEFEx",
+      "text": "Anders Okonkwo\n@votes-anders5.dash\n·\n9h\nevo-sdk update day. the release notes say \"minor\". my compiler disagrees. \n#dash",
+      "time": "2026-09-15T13:43:02.656Z"
+    },
+    {
+      "id": "jEQirZJMx1MKecLT17p2L87BEWPJc6rj77MVzdA5Hxg",
+      "text": "Lars Larsen\n@lars-local6.dash\n·\n9h\nnew POS terminal, 7 taps to accept Dash instead of 60. small business tech review: fine. \n#dash",
+      "time": "2026-09-15T13:42:11.337Z"
+    }
+  ],
+  "finalHeader": "dash\n\n262 posts",
+  "success": true
+}
