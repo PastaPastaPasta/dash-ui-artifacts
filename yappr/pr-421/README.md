@@ -8,6 +8,12 @@
 
 ## Before and after
 
+The result toasts at native scale, from identical `(480, 1, 320, 90)` crops:
+
+| Before — failed Save | After — successful Save |
+| --- | --- |
+| ![Before result toast](comparison/before/save-result.png) | ![After result toast](comparison/after/save-result.png) |
+
 | Before — exact staging base | After — full PR head |
 | --- | --- |
 | ![Before save fails](comparison/before/profile-save-focus.png) | ![After save succeeds](comparison/after/profile-save-focus.png) |
@@ -48,8 +54,10 @@ The seed account and live timeline are synthetic QA fixtures. Posts, post counts
 - `afc18ba7e2fa674e20ab616514424977269b0c2a1260d89a65549520918b88b6` — `before-readback.json`
 - `088e7f6634af1f2327584f6c1d46dee41a5ec036eb8b04c87d3c2f1d7bd94b52` — `comparison/after/profile-save-focus.png`
 - `b430b07b69b6ee8ed102c85efea5b34609267b352346a9947378baf3f40aba33` — `comparison/after/profile-save.png`
+- `c93d5e476c45af0c0e9d1ad13818ad102fb9c5c71699487e9041aec15a3a0918` — `comparison/after/save-result.png`
 - `84f03377ccf5057e5f32b1e187436479f7a9bb45a492f2e4fa47346ab44f4641` — `comparison/before/profile-save-focus.png`
 - `f9adc129a8ecfc65d656997259c0bbc5350512213717612591e57ac51a6a16ec` — `comparison/before/profile-save.png`
+- `056c468267643e6f20efc0a039c211a0668beb66cdac1f43eb6f963fa3b52e41` — `comparison/before/save-result.png`
 - `d525b3353b793dbe89c9d28c35a2850549f2f81dee6a0095918d6ff3cc7f1849` — `restore.png`
 - `e81aee585a9687b0602eee16d60be48d9fa8cdc14ee9f389cb68e7011ca8780d` — `restored-readback.json`
 - `ec54968e69c8ae5e686a594bfcb3f5af7cb36cf8d1e258e6f835a128690a824f` — `verification.json`
