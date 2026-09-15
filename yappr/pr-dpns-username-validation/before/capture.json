@@ -1,0 +1,12 @@
+{
+  "side": "before",
+  "base": "http://127.0.0.1:3232/devnet",
+  "revision": "4105c5d1c914f5d0838619da93c3b8d28b4a780e",
+  "identityId": "57i6krpfkLARMr9SbXSGhxtCd4dk6BFkJUMpuom4EiiX",
+  "at": "2026-09-15T23:14:05.189Z",
+  "actualKeyLogin": true,
+  "secretEntryCaptured": false,
+  "validHyphenAccepted": false,
+  "submittedRegistration": false,
+  "passed": true
+}

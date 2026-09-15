@@ -1,0 +1,102 @@
+{
+  "at": "2026-09-15T23:09:24.833Z",
+  "sdk": "@dashevo/evo-sdk 4.2.0-dev.11",
+  "cases": [
+    {
+      "label": "a",
+      "length": 1,
+      "valid": false,
+      "normalized": "a"
+    },
+    {
+      "label": "ab",
+      "length": 2,
+      "valid": false,
+      "normalized": "ab"
+    },
+    {
+      "label": "abc",
+      "length": 3,
+      "valid": true,
+      "normalized": "abc"
+    },
+    {
+      "label": "aaaaaaaaaaaaaaaaaaa",
+      "length": 19,
+      "valid": true,
+      "normalized": "aaaaaaaaaaaaaaaaaaa"
+    },
+    {
+      "label": "aaaaaaaaaaaaaaaaaaaa",
+      "length": 20,
+      "valid": true,
+      "normalized": "aaaaaaaaaaaaaaaaaaaa"
+    },
+    {
+      "label": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "length": 63,
+      "valid": true,
+      "normalized": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+    },
+    {
+      "label": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "length": 64,
+      "valid": false,
+      "normalized": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+    },
+    {
+      "label": "qa-ordered-9511",
+      "length": 15,
+      "valid": true,
+      "normalized": "qa-0rdered-9511"
+    },
+    {
+      "label": "qa_ordered9511",
+      "length": 14,
+      "valid": false,
+      "normalized": "qa_0rdered9511"
+    },
+    {
+      "label": "-abc",
+      "length": 4,
+      "valid": false,
+      "normalized": "-abc"
+    },
+    {
+      "label": "abc-",
+      "length": 4,
+      "valid": false,
+      "normalized": "abc-"
+    },
+    {
+      "label": "a--b",
+      "length": 4,
+      "valid": false,
+      "normalized": "a--b"
+    },
+    {
+      "label": "a_b",
+      "length": 3,
+      "valid": false,
+      "normalized": "a_b"
+    },
+    {
+      "label": "a b",
+      "length": 3,
+      "valid": false,
+      "normalized": "a b"
+    },
+    {
+      "label": "ąbc",
+      "length": 3,
+      "valid": false,
+      "normalized": "ąbc"
+    },
+    {
+      "label": "a.b",
+      "length": 3,
+      "valid": false,
+      "normalized": "a.b"
+    }
+  ]
+}
