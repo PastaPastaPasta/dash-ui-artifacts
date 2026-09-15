@@ -1,0 +1,46 @@
+[
+  {
+    "variant": "before",
+    "revision": "4105c5d1c914f5d0838619da93c3b8d28b4a780e",
+    "file": "before-desktop.png",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "url": "http://localhost:4178/devnet/store/view/",
+    "body": "DEVNET|Running on a Dash Platform devnet. Data may be reset.\nYappr\nHome\nExplore\nStore\nBlog\nSign In\n\nJoin Yappr to share your voice on the decentralized web\n\nTrending\n1\n\n#masternodes\n\n32 likes\n\n2\n\n#hiking\n\n13 likes\n\n3\n\n#dashplatform\n\n13 likes\n\n4\n\n#life\n\n12 likes\n\n5\n\n#weekend\n\n11 likes\n\n6\n\n#dash\n\n11 likes\n\n7\n\n#shoplocal\n\n6 likes\n\n8\n\n#memes\n\n6 likes\n\nShow more\nStats\nTotal Posts\n3.2K\nTermsPrivacyCookiesAbout"
+  },
+  {
+    "variant": "before",
+    "revision": "4105c5d1c914f5d0838619da93c3b8d28b4a780e",
+    "file": "before-mobile.png",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "url": "http://localhost:4178/devnet/store/view/",
+    "body": "DEVNET|Data may be reset\nMenu\nStore\nBlog\nSign In"
+  },
+  {
+    "variant": "after",
+    "revision": "6cc35c1a671d03773acd5922d3812e9f228cfd35",
+    "file": "after-desktop.png",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "url": "http://localhost:4177/devnet/store/view/",
+    "body": "DEVNET|Running on a Dash Platform devnet. Data may be reset.\nYappr\nHome\nExplore\nStore\nBlog\nSign In\n\nJoin Yappr to share your voice on the decentralized web\n\nStore link is missing an ID\n\nThis store link is incomplete. Browse the available stores to choose one.\n\nBrowse Stores\nTrending\n1\n\n#masternodes\n\n32 likes\n\n2\n\n#hiking\n\n13 likes\n\n3\n\n#dashplatform\n\n13 likes\n\n4\n\n#life\n\n12 likes\n\n5\n\n#weekend\n\n11 likes\n\n6\n\n#dash\n\n11 likes\n\n7\n\n#shoplocal\n\n6 likes\n\n8\n\n#memes\n\n6 likes\n\nShow more\nStats\nTotal Posts\n3.2K\nTermsPrivacyCookiesAbout"
+  },
+  {
+    "variant": "after",
+    "revision": "6cc35c1a671d03773acd5922d3812e9f228cfd35",
+    "file": "after-mobile.png",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "url": "http://localhost:4177/devnet/store/view/",
+    "body": "DEVNET|Data may be reset\nStore link is missing an ID\n\nThis store link is incomplete. Browse the available stores to choose one.\n\nBrowse Stores\nMenu\nStore\nBlog\nSign In"
+  }
+]
