@@ -1,0 +1,6 @@
+{
+  "label": "after",
+  "action": "Focus empty Passphrase input, press Escape once",
+  "closed": true,
+  "focusReturned": true
+}

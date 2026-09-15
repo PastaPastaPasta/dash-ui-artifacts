@@ -1,0 +1,10 @@
+{
+  "label": "after",
+  "roleCount": 1,
+  "outsideKeyboardStops": 0,
+  "sliderLabelFocus": true,
+  "escapeClosed": true,
+  "focusReturned": true,
+  "emptySecretVisibilityToggle": true,
+  "ax": "- dialog \"Protect Your Auth Vault\":\n  - button \"Close auth vault\"\n  - text: Close auth vault\n  - tooltip \"Close auth vault\"\n  - heading \"Protect Your Auth Vault\" [level=2]\n  - paragraph: Add an unlock method for your unified auth vault on Dash Platform. Passkeys and passwords both unlock the same secret bundle without duplicating it.\n  - paragraph: Key included in backup\n  - text: Unified Secret BundleOne blob unlocked by password or passkey\n  - paragraph: Add a passkey now\n  - paragraph: Use a device or password-manager passkey to unlock this same auth vault on future sign-ins.\n  - button \"Add Passkey\"\n  - text: or add a password\n  - paragraph: Password Warning\n  - list:\n    - listitem: Your encrypted auth vault metadata will be stored publicly on Dash Platform\n    - listitem:\n      - strong: Anyone who knows your password can unlock your login secret bundle\n    - listitem: Keep at least one fallback login method in case you lose this password\n  - text: Passphrase (0/16 min)\n  - textbox \"Passphrase (0/16 min)\":\n    - /placeholder: Enter a strong passphrase (16+ characters)\n  - button \"Show passphrases\"\n  - text: Confirm Passphrase\n  - textbox \"Confirm Passphrase\":\n    - /placeholder: Confirm your passphrase\n  - text: Security Strength\n  - slider \"Security Strength\": \"2\"\n  - text: 1s (faster) 30s (stronger) ~27.1M iterations (2.0s to decrypt)\n  - checkbox \"I understand that anyone with my password can access my private key from the public backup\"\n  - text: I understand that anyone with my password can access my private key from the public backup\n  - button \"Skip for now\"\n  - button \"Backup to Chain\" [disabled]\n  - paragraph: Backing up for @soren-notes7.dash"
+}
