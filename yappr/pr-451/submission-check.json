@@ -1,0 +1,13 @@
+{
+  "order": "3m7cxEPLdVZN9aaen3BdPEYZjsuke3CAaGiKRc6azQHW",
+  "rating": 4,
+  "title": "Synthetic QA review 52 — keyboard test",
+  "checks": [
+    "Space selects4; one Tab from radio group reaches Title; real signed review submission succeeds",
+    "Reviewed order remains unavailable for duplicate review after fresh reload",
+    "Submitted review title/content visible in store Reviews tab",
+    "Fresh guest store readback renders exactly4 filled stars for QA52 review"
+  ],
+  "storeReview": "Olamide Doyle\n·\n·\n9/15/2026\nSynthetic QA review 52 — keyboard test\n\nSynthetic devnet QA fixture for keyboard accessibility and persistence. No actual purchase, payment, or shipment.",
+  "success": true
+}

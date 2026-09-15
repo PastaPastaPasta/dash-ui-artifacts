@@ -1,0 +1,13 @@
+{
+  "state": "before",
+  "revision": "eb895be71a7207c73fb9329ac9d9bb7b398f53da",
+  "buyer": "5rxCEiuGfwPkYFQ94mvxDaDG7W7dEdpU2zhq7aTLJ1cM",
+  "order": "3m7cxEPLdVZN9aaen3BdPEYZjsuke3CAaGiKRc6azQHW",
+  "checks": [
+    "Cancel resets rating; mobile dialog stays within390px; initial submit disabled"
+  ],
+  "beforeSnapshot": "- dialog \"Leave a Review\":\n  - heading \"Leave a Review\" [level=2]\n  - button\n  - paragraph: QA Commerce 40 20260915\n  - paragraph: How was your experience?\n  - button\n  - button\n  - button\n  - button\n  - button\n  - paragraph: Tap a star to rate\n  - text: Title (optional)\n  - textbox \"Summarize your experience\"\n  - paragraph: 0/100\n  - text: Review (optional)\n  - textbox \"Share details of your experience...\"\n  - paragraph: 0/1000\n  - button \"Cancel\"\n  - button \"Submit Review\" [disabled]",
+  "afterArrowSnapshot": "- dialog \"Leave a Review\":\n  - heading \"Leave a Review\" [level=2]\n  - button\n  - paragraph: QA Commerce 40 20260915\n  - paragraph: How was your experience?\n  - button\n  - button\n  - button\n  - button\n  - button\n  - paragraph: Tap a star to rate\n  - text: Title (optional)\n  - textbox \"Summarize your experience\"\n  - paragraph: 0/100\n  - text: Review (optional)\n  - textbox \"Share details of your experience...\"\n  - paragraph: 0/1000\n  - button \"Cancel\"\n  - button \"Submit Review\" [disabled]",
+  "noReviewSubmitted": true,
+  "success": true
+}
