@@ -1,0 +1,22 @@
+[
+  {
+    "state": "before",
+    "revision": "4105c5d1c914f5d0838619da93c3b8d28b4a780e",
+    "identityId": "H4P7NB1JNJ3B9LRpPixi3sUs7qhN5w9xs9YbQSBFh8Z1",
+    "url": "http://localhost:3211/devnet/blog/",
+    "title": "Create Blog",
+    "describedByTargetExists": false,
+    "description": "",
+    "cancelDismissesDialog": true
+  },
+  {
+    "state": "after",
+    "revision": "10f00a7af3aa1906ff13b500d59eb41d742e7da7",
+    "identityId": "H4P7NB1JNJ3B9LRpPixi3sUs7qhN5w9xs9YbQSBFh8Z1",
+    "url": "http://localhost:3212/devnet/blog/",
+    "title": "Create Blog",
+    "describedByTargetExists": true,
+    "description": "Give your blog a name, then add an optional description and images.",
+    "cancelDismissesDialog": true
+  }
+]
