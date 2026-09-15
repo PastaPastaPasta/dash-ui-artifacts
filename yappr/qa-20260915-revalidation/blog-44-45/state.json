@@ -1,0 +1,12 @@
+{
+  "identity": "4WJqx5yBKTW3v6FbkvwNZpGvWyafDzTjMSZLZEYwtC8R",
+  "title": "QA lifecycle blog 20260915 p44",
+  "url": "http://127.0.0.1:3211/devnet/blog/",
+  "articleTitle": "QA article lifecycle 20260915 p44",
+  "articleBody": "QA article body. This devnet fixture tests publication, editing, comments, and normal readback.",
+  "articleUrl": "http://127.0.0.1:3211/devnet/blog/?blog=GZkg15HyWHb3L4QjcnE6xU2AqkPBtxSYhC76qVHSu1rz&post=qa-article-lifecycle-20260915-p44",
+  "blogId": "GZkg15HyWHb3L4QjcnE6xU2AqkPBtxSYhC76qVHSu1rz",
+  "slug": "qa-article-lifecycle-20260915-p44",
+  "editedBody": "QA article body EDITED. This devnet fixture verifies normal on-chain updates and comment lifecycle.",
+  "themeStyle": "font-family: var(--blog-body-font);"
+}
