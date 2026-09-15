@@ -1,0 +1,34 @@
+[
+  {
+    "state": "before",
+    "revision": "4105c5d1c914f5d0838619da93c3b8d28b4a780e",
+    "postId": "8Pu2yqcvPTnhtikJ2cWRnC2eukzLFHSJkrVEimGUjf47",
+    "identityId": "H4P7NB1JNJ3B9LRpPixi3sUs7qhN5w9xs9YbQSBFh8Z1",
+    "actionNames": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "bookmarkPressed": null,
+    "repostTooltipVisible": false,
+    "keyboardMenuOpensAndCloses": true,
+    "ariaSnapshot": "- article:\n  - link \"Bianca Ahmadi\":\n    - /url: /devnet/user/?id=9LQjbxV6BiArha9QiiLAp1ziN2i497SR1giWvxZD4b2R\n    - img \"Bianca Ahmadi\"\n  - link \"Bianca Ahmadi\":\n    - /url: /devnet/user/?id=9LQjbxV6BiArha9QiiLAp1ziN2i497SR1giWvxZD4b2R\n  - link \"@streetbianca8.dash\":\n    - /url: /devnet/user/?id=9LQjbxV6BiArha9QiiLAp1ziN2i497SR1giWvxZD4b2R\n  - text: ·\n  - time: 17m\n  - button\n  - text: someone in the group chat is definitely a weather service and won't admit it. the quality of the advice gives it away every time. 🫓\n  - button\n  - button\n  - button\n  - button\n  - button\n  - button"
+  },
+  {
+    "state": "after",
+    "revision": "0aba68a8aeb2c5d96631da051f65dd5c62804caf",
+    "postId": "8Pu2yqcvPTnhtikJ2cWRnC2eukzLFHSJkrVEimGUjf47",
+    "identityId": "H4P7NB1JNJ3B9LRpPixi3sUs7qhN5w9xs9YbQSBFh8Z1",
+    "actionNames": [
+      "Reply, 0 replies",
+      "Repost or quote, 0 reposts",
+      "Like, 0 likes",
+      "Bookmark"
+    ],
+    "bookmarkPressed": "false",
+    "repostTooltipVisible": true,
+    "keyboardMenuOpensAndCloses": true,
+    "ariaSnapshot": "- article:\n  - link \"Bianca Ahmadi\":\n    - /url: /devnet/user/?id=9LQjbxV6BiArha9QiiLAp1ziN2i497SR1giWvxZD4b2R\n    - img \"Bianca Ahmadi\"\n  - link \"Bianca Ahmadi\":\n    - /url: /devnet/user/?id=9LQjbxV6BiArha9QiiLAp1ziN2i497SR1giWvxZD4b2R\n  - link \"@streetbianca8.dash\":\n    - /url: /devnet/user/?id=9LQjbxV6BiArha9QiiLAp1ziN2i497SR1giWvxZD4b2R\n  - text: ·\n  - time: 17m\n  - button\n  - text: someone in the group chat is definitely a weather service and won't admit it. the quality of the advice gives it away every time. 🫓\n  - button \"Reply, 0 replies\"\n  - button \"Repost or quote, 0 reposts\"\n  - button \"Like, 0 likes\"\n  - button \"Tip\"\n  - button \"Bookmark\"\n  - button \"Share\""
+  }
+]
