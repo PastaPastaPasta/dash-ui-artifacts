@@ -1,0 +1,68 @@
+{
+  "url": "http://127.0.0.1:3223/devnet/user/?id=BgQh6T8KCWL99TqasQV6f3pm24hzbVQux1dUhZ2bX7sN",
+  "actor": "BgQh6T8KCWL99TqasQV6f3pm24hzbVQux1dUhZ2bX7sN",
+  "at": "2026-09-15T21:15:26.084Z",
+  "fields": [
+    {
+      "tag": "INPUT",
+      "id": ":r78:-name",
+      "labels": [
+        "Name"
+      ],
+      "placeholder": null,
+      "focused": true,
+      "value": "Ravi Achterberg",
+      "visibleLabel": "Name",
+      "ariaSnapshot": "- textbox \"Name\": Ravi Achterberg"
+    },
+    {
+      "tag": "INPUT",
+      "id": ":r78:-pronouns",
+      "labels": [
+        "Pronouns"
+      ],
+      "placeholder": "e.g. she/her",
+      "focused": true,
+      "value": "",
+      "visibleLabel": "Pronouns",
+      "ariaSnapshot": "- textbox \"Pronouns\":\n  - /placeholder: e.g. she/her"
+    },
+    {
+      "tag": "TEXTAREA",
+      "id": ":r78:-bio",
+      "labels": [
+        "Bio"
+      ],
+      "placeholder": null,
+      "focused": true,
+      "value": "Backpacking on a budget that would frighten my parents.",
+      "visibleLabel": "Bio",
+      "ariaSnapshot": "- textbox \"Bio\": Backpacking on a budget that would frighten my parents."
+    },
+    {
+      "tag": "INPUT",
+      "id": ":r78:-location",
+      "labels": [
+        "Location"
+      ],
+      "placeholder": null,
+      "focused": true,
+      "value": "Tokyo, Japan",
+      "visibleLabel": "Location",
+      "ariaSnapshot": "- textbox \"Location\": Tokyo, Japan"
+    },
+    {
+      "tag": "INPUT",
+      "id": ":r78:-website",
+      "labels": [
+        "Website"
+      ],
+      "placeholder": "https://example.com",
+      "focused": true,
+      "value": "",
+      "visibleLabel": "Website",
+      "ariaSnapshot": "- textbox \"Website\":\n  - /placeholder: https://example.com"
+    }
+  ],
+  "cancelled": true
+}

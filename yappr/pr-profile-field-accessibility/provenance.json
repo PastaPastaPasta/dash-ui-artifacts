@@ -1,0 +1,56 @@
+{
+  "before": {
+    "revision": "4105c5d1c914f5d0838619da93c3b8d28b4a780e",
+    "buildId": "4105c5d1",
+    "source": "/Users/pasta/.t3/worktrees/yappr/a11y-blog-before",
+    "runtime": "http://127.0.0.1:3211/devnet/"
+  },
+  "after": {
+    "revision": "e54f768df254d6eee0de9cbc4f8e7cf219579e15",
+    "buildId": "e54f768d",
+    "source": "/Users/pasta/.t3/worktrees/yappr/a11y-profile-fields",
+    "runtime": "http://127.0.0.1:3223/devnet/"
+  },
+  "viewport": {
+    "width": 1280,
+    "height": 1000
+  },
+  "scrollY": 200,
+  "theme": "light",
+  "fixture": {
+    "network": "devnet moutai",
+    "identity": "BgQh6T8KCWL99TqasQV6f3pm24hzbVQux1dUhZ2bX7sN",
+    "username": "ravi74",
+    "displayName": "Ravi Achterberg",
+    "bio": "Backpacking on a budget that would frighten my parents.",
+    "location": "Tokyo, Japan",
+    "profileSaved": false
+  },
+  "images": {
+    "comparison/before/name-label-click.png": {
+      "sha256": "499e0019ebbac73e1e56b7d4aefb5b9fb9c4bb88ab971f610b987414ae162baa",
+      "inspectedOriginalResolution": true
+    },
+    "comparison/before/bio-label-click.png": {
+      "sha256": "499e0019ebbac73e1e56b7d4aefb5b9fb9c4bb88ab971f610b987414ae162baa",
+      "inspectedOriginalResolution": true
+    },
+    "comparison/after/name-label-click.png": {
+      "sha256": "8102ba48ced64f8c2e69e86e9d967ae7cad5fcc0e64bbbd89d4f31b4e6c3be40",
+      "inspectedOriginalResolution": true
+    },
+    "comparison/after/bio-label-click.png": {
+      "sha256": "08081143694cfb5ad0e8b61b6d420fd9b0d2fbee59f35fef1554b9f033142d2d",
+      "inspectedOriginalResolution": true
+    }
+  },
+  "knownUnrelatedVisuals": [
+    "Powered by Dash Evolution footer asset fails to load in both revisions.",
+    "Global live network statistics may change independently."
+  ],
+  "verification": {
+    "before": "All five visible labels fail to focus controls; Name/Bio/Location unnamed, Pronouns/Website placeholder-named.",
+    "after": "All five label clicks focus their intended field; accessible names match visible labels.",
+    "draft": "All five text values unchanged between captures, Cancel used in both sessions."
+  }
+}
