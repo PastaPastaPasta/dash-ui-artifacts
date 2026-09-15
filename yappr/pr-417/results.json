@@ -1,0 +1,40 @@
+[
+  {
+    "variant": "before",
+    "revision": "4105c5d1c914f5d0838619da93c3b8d28b4a780e",
+    "fixture": {
+      "blogId": "BkqjYQ95Mm2vNGEaoKbE473jodp7ZPFQr1Mj3jmqw6wA",
+      "postId": "5cY37VaxiKxBnprHfXG11Nx37eDv6Jb8RHYDMCmWWi8G",
+      "ownerId": "H4P7NB1JNJ3B9LRpPixi3sUs7qhN5w9xs9YbQSBFh8Z1",
+      "title": "QA embed navigation 20260915",
+      "slug": "qa-embed-navigation-20260915"
+    },
+    "snippets": [
+      "<iframe src=\"https://yap.pr/embed/?post=5cY37VaxiKxBnprHfXG11Nx37eDv6Jb8RHYDMCmWWi8G&owner=H4P7NB1JNJ3B9LRpPixi3sUs7qhN5w9xs9YbQSBFh8Z1&theme=light\" width=\"100%\" height=\"600\" style=\"border:none\"></iframe>",
+      "<div data-yappr-post=\"5cY37VaxiKxBnprHfXG11Nx37eDv6Jb8RHYDMCmWWi8G\" data-yappr-owner=\"H4P7NB1JNJ3B9LRpPixi3sUs7qhN5w9xs9YbQSBFh8Z1\" data-yappr-theme=\"light\"></div>\n<script src=\"https://yap.pr/embed.js\"></script>"
+    ],
+    "href": "/blog?blog=BkqjYQ95Mm2vNGEaoKbE473jodp7ZPFQr1Mj3jmqw6wA&post=qa-embed-navigation-20260915",
+    "destination": "http://localhost:3211/blog?blog=BkqjYQ95Mm2vNGEaoKbE473jodp7ZPFQr1Mj3jmqw6wA&post=qa-embed-navigation-20260915",
+    "body": "DEVNET|Running on a Dash Platform devnet. Data may be reset.\n404\nThis page could not be found.",
+    "passed": true
+  },
+  {
+    "variant": "after",
+    "revision": "5ca005cafe8111fcee1b37aebec212f53421fd0f",
+    "fixture": {
+      "blogId": "BkqjYQ95Mm2vNGEaoKbE473jodp7ZPFQr1Mj3jmqw6wA",
+      "postId": "5cY37VaxiKxBnprHfXG11Nx37eDv6Jb8RHYDMCmWWi8G",
+      "ownerId": "H4P7NB1JNJ3B9LRpPixi3sUs7qhN5w9xs9YbQSBFh8Z1",
+      "title": "QA embed navigation 20260915",
+      "slug": "qa-embed-navigation-20260915"
+    },
+    "snippets": [
+      "<iframe src=\"https://yap.pr/devnet/embed/?post=5cY37VaxiKxBnprHfXG11Nx37eDv6Jb8RHYDMCmWWi8G&owner=H4P7NB1JNJ3B9LRpPixi3sUs7qhN5w9xs9YbQSBFh8Z1&theme=light\" width=\"100%\" height=\"600\" style=\"border:none\"></iframe>",
+      "<div data-yappr-post=\"5cY37VaxiKxBnprHfXG11Nx37eDv6Jb8RHYDMCmWWi8G\" data-yappr-owner=\"H4P7NB1JNJ3B9LRpPixi3sUs7qhN5w9xs9YbQSBFh8Z1\" data-yappr-theme=\"light\"></div>\n<script src=\"https://yap.pr/devnet/embed.js\"></script>"
+    ],
+    "href": "/devnet/blog/?blog=BkqjYQ95Mm2vNGEaoKbE473jodp7ZPFQr1Mj3jmqw6wA&post=qa-embed-navigation-20260915",
+    "destination": "http://localhost:4184/devnet/blog/?blog=BkqjYQ95Mm2vNGEaoKbE473jodp7ZPFQr1Mj3jmqw6wA&post=qa-embed-navigation-20260915",
+    "body": "DEVNET|Running on a Dash Platform devnet. Data may be reset.\nPosts\nYappr\nQA embed navigation 20260915\n\nQA fixture for devnet embed-link navigation. Safe to remove after review.\n\n0 comments\n\nQA Blog 20260915\n\n@ike-park7 · 16 minutes ago\n\n1 min read\nAa\n\nThis is a QA test article for verifying that View on Yappr stays on the devnet deployment. Created through the regular Yappr blog editor on 2026-09-15.\n\n\n\n\nComments (0)\n\n0/500\n\nPost comment\n\nNo comments yet.",
+    "passed": true
+  }
+]
