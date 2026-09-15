@@ -8,7 +8,8 @@ All DASH values now show8decimal places, preserving the native currency precisio
 
 | Before — exact base | After — full PR head |
 | --- | --- |
+| ![Order detail before](before/buyer-order-detail.png) | ![Order detail after](after/buyer-order-detail.png) |
 | ![Product incorrectly displays zero](before/storefront.png) | ![Same product displays0.00000100 DASH](after/storefront.png) |
 | ![Order nonzero amounts display zero](before/buyer-order.png) | ![Same order preserves subtotal, shipping and total](after/buyer-order.png) |
 
-All4final PNGs were opened at original resolution and inspected for content, matching fixture and absence of secrets. Full-resolution files are available via the image links. See EVIDENCE_MATRIX.md and SHA256SUMS.
+All6final PNGs were opened at original resolution and inspected for content, matching fixture and absence of secrets. Full-resolution files are available via the image links. See EVIDENCE_MATRIX.md and SHA256SUMS.
