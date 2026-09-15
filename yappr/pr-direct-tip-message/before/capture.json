@@ -1,0 +1,17 @@
+{
+  "side": "before",
+  "revision": "4105c5d1c914f5d0838619da93c3b8d28b4a780e",
+  "at": "2026-09-15T22:58:42.774Z",
+  "base": "http://127.0.0.1:3232/devnet",
+  "sender": "9enksyZPnWQUovGXXAQ879uJtBvbHTUY3ewJ5Tq5QNVe",
+  "recipient": "5rxCEiuGfwPkYFQ94mvxDaDG7W7dEdpU2zhq7aTLJ1cM",
+  "viewport": {
+    "width": 1280,
+    "height": 1000
+  },
+  "steps": [
+    "Profile tip captured with blanksecret; no transfer",
+    "Profile tip confirmation captured; no transfer"
+  ],
+  "passed": true
+}

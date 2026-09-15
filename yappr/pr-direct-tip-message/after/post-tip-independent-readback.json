@@ -1,0 +1,32 @@
+{
+  "at": "2026-09-15T23:01:31.334Z",
+  "note": [
+    {
+      "$formatVersion": "0",
+      "$id": "GFsXw21wrN81gVbf58vroFswUuifBCdX7kJv4ynTbsEG",
+      "$ownerId": "9enksyZPnWQUovGXXAQ879uJtBvbHTUY3ewJ5Tq5QNVe",
+      "author": "9enksyZPnWQUovGXXAQ879uJtBvbHTUY3ewJ5Tq5QNVe",
+      "content": "tip:100000000\nQA post-tip note51 2026-09-15",
+      "parentOwnerId": "5rxCEiuGfwPkYFQ94mvxDaDG7W7dEdpU2zhq7aTLJ1cM",
+      "rootPostId": "ANDXaFtsUkT5GRzKRVh7yhWUiK7LQbxxpSGGAo2e55Jb",
+      "$revision": 1,
+      "$createdAt": 1789513184585,
+      "$updatedAt": null,
+      "$transferredAt": null,
+      "$createdAtBlockHeight": null,
+      "$updatedAtBlockHeight": null,
+      "$transferredAtBlockHeight": null,
+      "$createdAtCoreBlockHeight": null,
+      "$updatedAtCoreBlockHeight": null,
+      "$transferredAtCoreBlockHeight": null,
+      "$creatorId": null,
+      "$contractVersion": 1,
+      "$dataContractId": "CdUkSHkQwGXXAkzKqrcrjUWLsj7qErK9XAZmLzJEhirU",
+      "$type": "reply"
+    }
+  ],
+  "recipientCredits": "24026917680",
+  "senderYapp": {
+    "FTGFNJZZFnts5bcRnHZ6jgFgx1ztytHTVjmNDkqp6yZe": "667"
+  }
+}

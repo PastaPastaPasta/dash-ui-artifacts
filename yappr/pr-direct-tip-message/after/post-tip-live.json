@@ -1,0 +1,17 @@
+{
+  "side": "after",
+  "revision": "3d3046e8d43de6d884c8a5ea24a31fd68215bb92",
+  "at": "2026-09-15T22:59:39.034Z",
+  "base": "http://127.0.0.1:3230/devnet",
+  "sender": "9enksyZPnWQUovGXXAQ879uJtBvbHTUY3ewJ5Tq5QNVe",
+  "recipient": "5rxCEiuGfwPkYFQ94mvxDaDG7W7dEdpU2zhq7aTLJ1cM",
+  "viewport": {
+    "width": 1280,
+    "height": 1000
+  },
+  "steps": [
+    "Post tip retains optionalmessage",
+    "Post tip sent0.001DASH and note visible after reload"
+  ],
+  "passed": true
+}

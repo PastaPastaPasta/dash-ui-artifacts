@@ -1,0 +1,26 @@
+{
+  "beforeRevision": "4105c5d1c914f5d0838619da93c3b8d28b4a780e",
+  "afterRevision": "3d3046e8d43de6d884c8a5ea24a31fd68215bb92",
+  "buildIds": [
+    "4105c5d1",
+    "3d3046e8"
+  ],
+  "route": "/devnet/user/?id=5rxCEiuGfwPkYFQ94mvxDaDG7W7dEdpU2zhq7aTLJ1cM",
+  "viewport": {
+    "width": 1280,
+    "height": 1000
+  },
+  "network": "devnet-moutai",
+  "fixture": "Same seeded sender51 and recipient52, restored authenticated sessions; actual buttons. Blank secrets in all screenshots.",
+  "adapter": "Same prefix-stripping Python static export server on before3232/after3230. No page response interception.",
+  "validation": "Full devnet build, zero-warninglint, independent source review approved; actual before/head profiletip inputs+confirmation and after posttip100millioncredittransfer+publicnote readback.",
+  "sha256": {
+    "before/profile-tip-confirm.png": "ba95c4930acf4d222212b14d645a582e8f8f9ed19fc4c26b121185604816722c",
+    "before/profile-tip.png": "87f40f58631188624cd98947644ee8beb2ec0f9d669702a45626a710c61eb74c",
+    "after/profile-tip-confirm.png": "5f36b9e0cc11a55b65bb322c2070a5c3c5c51dfa104ef36cf2edc731ff2ab5cc",
+    "after/post-tip-note-readback.png": "ec518ba7c1a286a37ba7a82f96b171b0597e7dd1c733c7e254376b9d6bb99c5e",
+    "after/post-tip-note-preserved.png": "4d25e837bc457e61a3d722355a6f113725386f33e0c6efd58e60199f540589d2",
+    "after/post-tip-success.png": "1560700eb3035c4fff02dbe77a43548ab2c2f863f25d569f4b4948e2e9d33918",
+    "after/profile-tip.png": "646ffd828267690403284d9f1818bde05248f90e2b1c1b08e393403417094719"
+  }
+}
