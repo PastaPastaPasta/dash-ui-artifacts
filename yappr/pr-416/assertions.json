@@ -1,0 +1,45 @@
+[
+  {
+    "state": "before",
+    "revision": "4105c5d1c914f5d0838619da93c3b8d28b4a780e",
+    "viewport": "390x844",
+    "session": "signed out",
+    "names": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "ariaSnapshot": "- navigation:\n  - link:\n    - /url: /devnet/\n  - link:\n    - /url: /devnet/explore/\n  - button\n  - link:\n    - /url: /devnet/messages/\n  - button",
+    "menuOpensAndCloses": true,
+    "exploreNavigationWorks": true,
+    "postButtonOpensSignIn": true,
+    "menuExpandedStateExposed": false
+  },
+  {
+    "state": "after",
+    "revision": "2baa1660d0b3cf65cf1d426a7fabcb8197471822",
+    "viewport": "390x844",
+    "session": "signed out",
+    "names": [
+      "Home",
+      "Explore",
+      "Sign in to post",
+      "Messages",
+      "Menu"
+    ],
+    "ariaSnapshot": "- navigation \"Mobile navigation\":\n  - link \"Home\":\n    - /url: /devnet/\n  - link \"Explore\":\n    - /url: /devnet/explore/\n  - button \"Sign in to post\"\n  - link \"Messages\":\n    - /url: /devnet/messages/\n  - button \"Menu\"",
+    "menuOpensAndCloses": true,
+    "exploreNavigationWorks": true,
+    "postButtonOpensSignIn": true,
+    "menuExpandedStateExposed": true
+  },
+  {
+    "state": "after authenticated",
+    "identityId": "H4P7NB1JNJ3B9LRpPixi3sUs7qhN5w9xs9YbQSBFh8Z1",
+    "composeAccessibleName": "Create post",
+    "composeOpens": true,
+    "submitted": false
+  }
+]
