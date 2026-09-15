@@ -1,0 +1,36 @@
+{
+  "kind": "settings-back-label",
+  "state": "before",
+  "revision": "4105c5d1c914f5d0838619da93c3b8d28b4a780e",
+  "identity": "4WJqx5yBKTW3v6FbkvwNZpGvWyafDzTjMSZLZEYwtC8R",
+  "checks": [
+    {
+      "name": "Back Enter activation returns to previous Settings page",
+      "pass": true
+    }
+  ],
+  "controls": [
+    {
+      "role": "button",
+      "name": "Post",
+      "description": ""
+    },
+    {
+      "role": "button",
+      "name": "Your avatar @soren-notes7.dash 4WJqx5...tC8R",
+      "description": ""
+    },
+    {
+      "role": "combobox",
+      "name": "",
+      "description": ""
+    },
+    {
+      "role": "button",
+      "name": "",
+      "description": ""
+    }
+  ],
+  "snapshot": "- main:\n  - button\n  - heading \"Appearance\" [level=1]\n  - heading \"Theme\" [level=3]\n  - radiogroup:\n    - radio \"Light\" [checked]\n    - text: Light\n    - radio \"Dark\"\n    - text: Dark\n    - radio \"System\"\n    - text: System\n  - heading \"Performance\" [level=3]\n  - paragraph: Potato Mode\n  - paragraph: Disable blur effects and visual flair. Enable this if Yappr feels sluggish on your device.\n  - switch\n  - heading \"Feed Language\" [level=3]\n  - paragraph: Choose the language for the \"For You\" feed. Posts in other languages will not appear.\n  - combobox:\n    - option \"English\" [selected]\n    - option \"Spanish\"\n    - option \"French\"\n    - option \"German\"\n    - option \"Portuguese\"\n    - option \"Russian\"\n    - option \"Chinese\"\n    - option \"Japanese\"\n    - option \"Korean\"\n    - option \"Arabic\"\n    - option \"Hindi\"\n    - option \"Italian\"\n    - option \"Dutch\"\n    - option \"Polish\"\n    - option \"Turkish\"",
+  "success": true
+}
