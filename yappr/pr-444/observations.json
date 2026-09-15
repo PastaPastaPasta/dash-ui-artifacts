@@ -1,0 +1,18 @@
+{
+  "base": "4105c5d1c914f5d0838619da93c3b8d28b4a780e",
+  "head": "b08d889f87cd94ee1f4ec977331b90e3d69827e4",
+  "author": "VQpFJTzQqdTzMQQcJmKhARpXBE5f9GjwRZ8UMCY2stW",
+  "recipient": "DdnSLypHfhbYHJUgLrLWEK1Qv1e4SVaFCc8UDpeZmnRC",
+  "samePostForRender": "4faUhcYZGdYhYf1BLKwg7RPgGdDQjcBDdpLAtBs5nmtg",
+  "afterPublishedPost": "AGRLKvfiUQWdhadft4GG3Z4V2v9zoxCuy8BQS9M5ZHTx",
+  "controlNonhyphenPost": "9gWVtfjkRp9dytJiKZ3FJENZnt3sqppe5V3bc1VkZavs",
+  "beforeFullMentionLink": false,
+  "afterFullMentionLink": true,
+  "afterFullMentionClickDestination": "DdnSLypHfhbYHJUgLrLWEK1Qv1e4SVaFCc8UDpeZmnRC",
+  "beforeHyphenAutocomplete": false,
+  "afterHyphenAutocomplete": true,
+  "beforeMentionNotification": false,
+  "afterMentionNotificationFreshReload": true,
+  "afterMentionsFilter": true,
+  "afterNotificationPostLink": "http://localhost:4193/devnet/post/?id=AGRLKvfiUQWdhadft4GG3Z4V2v9zoxCuy8BQS9M5ZHTx"
+}
