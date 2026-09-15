@@ -1,0 +1,11 @@
+{
+  "revision": "4105c5d1c914f5d0838619da93c3b8d28b4a780e",
+  "identity": "sNnNFK4vrjhy6nPYpj2FSUhREY8CRG3QZscn61nXhAg",
+  "steps": [
+    "Current reply notification from persona33 appears",
+    "Replies tab includes saved reply notification",
+    "Mark all as read survives reload in same browser",
+    "Reply notification opens its persisted reply detail"
+  ],
+  "replyHref": "/devnet/post/?id=Fm49xnhGoKheyBWKPn2KuzgeMwwuVDPgd61MRznovZg4"
+}

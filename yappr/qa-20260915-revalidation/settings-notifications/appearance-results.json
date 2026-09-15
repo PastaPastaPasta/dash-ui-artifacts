@@ -1,0 +1,10 @@
+{
+  "revision": "4105c5d1c914f5d0838619da93c3b8d28b4a780e",
+  "identity": "4epjp48EuEG7UetQ7uExDsYNsoWLeVWU9Ym26sXb64WM",
+  "steps": [
+    "Dark radio applies dark theme",
+    "Dark selection persists after reload",
+    "Light radio applies light theme",
+    "System follows dark and light media preference changes"
+  ]
+}

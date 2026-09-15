@@ -1,0 +1,11 @@
+{
+  "phase": "after",
+  "base": "http://127.0.0.1:3231/devnet",
+  "url": "http://127.0.0.1:3231/devnet/hashtag/?tag=masternodes",
+  "heading": [
+    "masternodes",
+    "Trending",
+    "Stats"
+  ],
+  "posts": 45
+}
