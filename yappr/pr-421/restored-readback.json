@@ -1,0 +1,23 @@
+{
+  "$formatVersion": "0",
+  "$id": "E9YQNDpKLYUrjsWBKMUbpRh98Mh22yy4cQEcarZwMWwk",
+  "$ownerId": "HKnHfmJ7WVNhvzPRagtJDuae6SjezpnzHUgXkuVRBpgK",
+  "avatar": "{\"seed\":\"santiago67-ridge\",\"style\":\"fun-emoji\"}",
+  "bio": "Bikepacking out of Kansas City. Slow uphill, fast downhill, always hungry.",
+  "displayName": "Santiago Salinas",
+  "location": "Kansas City, MO",
+  "$revision": 7,
+  "$createdAt": 1789495586807,
+  "$updatedAt": 1789507927653,
+  "$transferredAt": null,
+  "$createdAtBlockHeight": null,
+  "$updatedAtBlockHeight": null,
+  "$transferredAtBlockHeight": null,
+  "$createdAtCoreBlockHeight": null,
+  "$updatedAtCoreBlockHeight": null,
+  "$transferredAtCoreBlockHeight": null,
+  "$creatorId": null,
+  "$contractVersion": 1,
+  "$dataContractId": "6cyzfCVkov5RqJzRpXTmCAjYWBGqB1SzsBxrsnd8AUyb",
+  "$type": "profile"
+}

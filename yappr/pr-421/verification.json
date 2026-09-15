@@ -1,0 +1,14 @@
+{
+  "identity": "HKnHfmJ7WVNhvzPRagtJDuae6SjezpnzHUgXkuVRBpgK",
+  "document": "E9YQNDpKLYUrjsWBKMUbpRh98Mh22yy4cQEcarZwMWwk",
+  "contract": "6cyzfCVkov5RqJzRpXTmCAjYWBGqB1SzsBxrsnd8AUyb",
+  "beforeRevision": 4,
+  "afterRevision": 5,
+  "restoredRevision": 7,
+  "baselineFailedSavePreservedContent": true,
+  "fixedSavePersistedMarker": true,
+  "rawAvatarPreservedExactly": true,
+  "restoredAllOriginalContractFieldsExactly": true,
+  "uiDraftAddsNsfwFalse": true,
+  "cleanup": "Original bio restored using UI; original optional-field absence restored via normal signed SDK replace."
+}
