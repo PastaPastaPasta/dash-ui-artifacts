@@ -1,0 +1,1464 @@
+{
+  "base": "4105c5d1c914f5d0838619da93c3b8d28b4a780e",
+  "head": "c6e59eaf5b8d64bdcf4e9930c2ce2f5a38137bcb",
+  "beforeInitial": {
+    "posts": [
+      {
+        "id": "3ELgqvL2oWXkHWjnedrain3w5HxEWQ8RmhSRR2mgqbph",
+        "text": "Alice\n@alice7.dash\n·\n9h\nthe 1000 DASH masternode collateral is the most expensive way to say \"I will keep a server on\". \n#masternodes\n4\n4\n17",
+        "times": [
+          {
+            "tag": "TIME",
+            "title": "9/15/2026, 1:42:30 PM",
+            "datetime": "2026-09-15T13:42:30.304Z",
+            "text": "9h"
+          }
+        ]
+      },
+      {
+        "id": "4uGpsKmzZQdqe3X53V8Stai3tqEGyFtumgex911tyn33",
+        "text": "Kwame Mahoney\n@kwame-mahoney3.dash\n·\n9h\nFirst tomato of the year. It is small and slightly cracked and it is perfect. More tomorrow.\n2\n2\n16",
+        "times": [
+          {
+            "tag": "TIME",
+            "title": "9/15/2026, 1:48:10 PM",
+            "datetime": "2026-09-15T13:48:10.740Z",
+            "text": "9h"
+          }
+        ]
+      },
+      {
+        "id": "DgCH2oaKQLCVMsPcsTipncpB22s6q7mSz6SARqURMg1R",
+        "text": "akira\n@akirak38.dash\n·\n9h\nmade a granola bar at 6pm and called it dinner. adulthood\n4\n14",
+        "times": [
+          {
+            "tag": "TIME",
+            "title": "9/15/2026, 1:46:58 PM",
+            "datetime": "2026-09-15T13:46:58.044Z",
+            "text": "9h"
+          }
+        ]
+      },
+      {
+        "id": "FBYw9xXCgTgazTdJDWJe9pNZQhbfD7fYjzDvecmKTNgn",
+        "text": "Alice\n@alice7.dash\n·\n9h\nCI is red. the failing test is called test_should_never_fail. whoever named it summoned this \n#dashplatform\n6\n13",
+        "times": [
+          {
+            "tag": "TIME",
+            "title": "9/15/2026, 1:48:53 PM",
+            "datetime": "2026-09-15T13:48:53.729Z",
+            "text": "9h"
+          }
+        ]
+      },
+      {
+        "id": "DUrfX2PF4o4feqTDspEYPy4aqHRMbNMbpytQdZgzGDiS",
+        "text": "Kamil Kumar\n@kamilk91.dash\n·\n9h\nthe printer worked first try and i am suspicious 🥪\n4\n1\n11",
+        "times": [
+          {
+            "tag": "TIME",
+            "title": "9/15/2026, 1:46:24 PM",
+            "datetime": "2026-09-15T13:46:24.272Z",
+            "text": "9h"
+          }
+        ]
+      },
+      {
+        "id": "BgC9pUdbquyv7GTqMmTu69m1SLXqvwH9i8EUxnCgDgpd",
+        "text": "Carol\n@carol9.dash\n·\n9h\nrewatched an old faovrite and it held up. rare\n10",
+        "times": [
+          {
+            "tag": "TIME",
+            "title": "9/15/2026, 1:48:20 PM",
+            "datetime": "2026-09-15T13:48:20.172Z",
+            "text": "9h"
+          }
+        ]
+      },
+      {
+        "id": "8dNXv3xhXLa58jH9MsVro1mqcG75zpGtEyHUhLNyotbC",
+        "text": "Fernanda Vasquez\n@fernandav60.dash\n·\n9h\nPoSe score back to zero. i am a good operator again. the machine forgives.\n10",
+        "times": [
+          {
+            "tag": "TIME",
+            "title": "9/15/2026, 1:47:48 PM",
+            "datetime": "2026-09-15T13:47:48.773Z",
+            "text": "9h"
+          }
+        ]
+      },
+      {
+        "id": "EtFHjLBppCHw2jZ1rVfBpdYjvMmNBtgDSLfX7yV2dL8d",
+        "text": "Alice\n@alice7.dash\n·\n9h\nEvery app you have ever used answered this question with a database you were not allowed to see.\n2\n9",
+        "times": [
+          {
+            "tag": "TIME",
+            "title": "9/15/2026, 1:49:03 PM",
+            "datetime": "2026-09-15T13:49:03.292Z",
+            "text": "9h"
+          }
+        ]
+      },
+      {
+        "id": "ChRJY7oMwzbG7AzQtShQPFhqwWRbGbPim58exjnMzDXg",
+        "text": "akira\n@akirak38.dash\n·\n9h\nit is 6am and i have done exactly one (1) thing today. it was a good thing\n1\n9",
+        "times": [
+          {
+            "tag": "TIME",
+            "title": "9/15/2026, 1:48:37 PM",
+            "datetime": "2026-09-15T13:48:37.071Z",
+            "text": "9h"
+          }
+        ]
+      },
+      {
+        "id": "BMe9uM7NZNGoJib6Lxki5EfamtF7mmbr2LuM7CALaqE8",
+        "text": "Elif Castillo\n@elif27.dash\n·\n9h\na 3-hour outage in 2022 still haunts me. that is why there are two nodes now. \n#masternodes\n1\n8",
+        "times": [
+          {
+            "tag": "TIME",
+            "title": "9/15/2026, 1:44:43 PM",
+            "datetime": "2026-09-15T13:44:43.592Z",
+            "text": "9h"
+          }
+        ]
+      },
+      {
+        "id": "GueT72oLuxBBCF3FrHrjbcVwiNTxRoVLSAW9hN98GCMx",
+        "text": "Mei López\n@tea-mei3.dash\n·\n9h\nsmall result: the thing we thought did the thing does not do the thing. this is a good day\n2\n1\n7",
+        "times": [
+          {
+            "tag": "TIME",
+            "title": "9/15/2026, 1:45:42 PM",
+            "datetime": "2026-09-15T13:45:42.337Z",
+            "text": "9h"
+          }
+        ]
+      },
+      {
+        "id": "CLHvdHZrboWfmpgPNNGM1vjeXjJSL3rP2CSRaTvThasF",
+        "text": "Tuan Souza\n@tuan-mixes3.dash\n·\n9h\nmixed the track. remixed it. unmixed it. back to the demo...\n1\n1\n7",
+        "times": [
+          {
+            "tag": "TIME",
+            "title": "9/15/2026, 1:42:43 PM",
+            "datetime": "2026-09-15T13:42:43.460Z",
+            "text": "9h"
+          }
+        ]
+      },
+      {
+        "id": "7pX6HB4JPJkFXRLxc1M93BcncDMbwbDWTaoiLhipxMzw",
+        "text": "Alice\n@alice7.dash\n·\n9h\nthe group chat has been discussing one photo for 2 hours\n1\n7",
+        "times": [
+          {
+            "tag": "TIME",
+            "title": "9/15/2026, 1:43:52 PM",
+            "datetime": "2026-09-15T13:43:52.848Z",
+            "text": "9h"
+          }
+        ]
+      },
+      {
+        "id": "HWd1TkexYt4sJ1gygoiWmCaGZGFmUgPYTNBdZanjSXmZ",
+        "text": "Joon Hayashi\n@joon79.dash\n·\n9h\ntoday's achievement: replied to an email from may\n2\n6",
+        "times": [
+          {
+            "tag": "TIME",
+            "title": "9/15/2026, 1:48:45 PM",
+            "datetime": "2026-09-15T13:48:45.497Z",
+            "text": "9h"
+          }
+        ]
+      },
+      {
+        "id": "EPUg6Ls2YCuH7Zegpopu78uaeLvAoKmoGXSKv8vRyxKr",
+        "text": "akira\n@akirak38.dash\n·\n9h\nit is 7:40 and i have done exactly one (1) thing today. it was a good thing\n3\n6",
+        "times": [
+          {
+            "tag": "TIME",
+            "title": "9/15/2026, 1:43:44 PM",
+            "datetime": "2026-09-15T13:43:44.699Z",
+            "text": "9h"
+          }
+        ]
+      },
+      {
+        "id": "DZqJStvgwqBqPGSAZo6V8Gq94hgNQnkGxNhK7FSYMXcY",
+        "text": "Zainab Moreau\n@zainab1982.dash\n·\n9h\ngear review: the jacket is waterproof. the rain is more waterproof \n#hiking\n2\n6",
+        "times": [
+          {
+            "tag": "TIME",
+            "title": "9/15/2026, 1:41:10 PM",
+            "datetime": "2026-09-15T13:41:10.061Z",
+            "text": "9h"
+          }
+        ]
+      },
+      {
+        "id": "8CR4HnuMdQoYVgRhVZL1vK7qt95SHebKNGzWLdv3J9mC",
+        "text": "Bob\n@bob8.dash\n·\n9h\nDIP-3 made masternode lists deterministic. it did not make my test suite deterministic. sigh \n#masternodes\n3\n6",
+        "times": [
+          {
+            "tag": "TIME",
+            "title": "9/15/2026, 1:49:34 PM",
+            "datetime": "2026-09-15T13:49:34.101Z",
+            "text": "9h"
+          }
+        ]
+      },
+      {
+        "id": "6pAPhpeNHWFVRtEEZsy3q4JvVb3NbJEcDc9fkt9185kL",
+        "text": "Natalia Haddad\n@natalia-travel5.dash\n·\n9h\nnight train from Los Angeles: 213 for a bunk and a sunrise. flights could never\n1\n6",
+        "times": [
+          {
+            "tag": "TIME",
+            "title": "9/15/2026, 1:41:33 PM",
+            "datetime": "2026-09-15T13:41:33.818Z",
+            "text": "9h"
+          }
+        ]
+      },
+      {
+        "id": "6AvLe9JZ9GKhMCAaTVQmsx1kRZ2Ydkk78j9EzRFrgd36",
+        "text": "Fatima Fontaine\n@fatimaf39.dash\n·\n9h\nsmall joy: the bus was on time and the driver nodded \n#life\n6",
+        "times": [
+          {
+            "tag": "TIME",
+            "title": "9/15/2026, 1:45:56 PM",
+            "datetime": "2026-09-15T13:45:56.662Z",
+            "text": "9h"
+          }
+        ]
+      },
+      {
+        "id": "3eA3g29McxmrcfM8rwksMtcYSd2StLuk5hBWcYj2p5bo",
+        "text": "Zainab Moreau\n@zainab1982.dash\n·\n9h\nrewatched an old favorite and it held up. rare 🌄 \n#life\n1\n6",
+        "times": [
+          {
+            "tag": "TIME",
+            "title": "9/15/2026, 1:45:10 PM",
+            "datetime": "2026-09-15T13:45:10.438Z",
+            "text": "9h"
+          }
+        ]
+      }
+    ],
+    "scrollY": 1973
+  },
+  "beforeLoaded": {
+    "posts": [
+      {
+        "id": "3ELgqvL2oWXkHWjnedrain3w5HxEWQ8RmhSRR2mgqbph",
+        "text": "Alice\n@alice7.dash\n·\n9h\nthe 1000 DASH masternode collateral is the most expensive way to say \"I will keep a server on\". \n#masternodes\n4\n4\n17",
+        "times": [
+          {
+            "tag": "TIME",
+            "title": "9/15/2026, 1:42:30 PM",
+            "datetime": "2026-09-15T13:42:30.304Z",
+            "text": "9h"
+          }
+        ]
+      },
+      {
+        "id": "4uGpsKmzZQdqe3X53V8Stai3tqEGyFtumgex911tyn33",
+        "text": "Kwame Mahoney\n@kwame-mahoney3.dash\n·\n9h\nFirst tomato of the year. It is small and slightly cracked and it is perfect. More tomorrow.\n2\n2\n16",
+        "times": [
+          {
+            "tag": "TIME",
+            "title": "9/15/2026, 1:48:10 PM",
+            "datetime": "2026-09-15T13:48:10.740Z",
+            "text": "9h"
+          }
+        ]
+      },
+      {
+        "id": "DgCH2oaKQLCVMsPcsTipncpB22s6q7mSz6SARqURMg1R",
+        "text": "akira\n@akirak38.dash\n·\n9h\nmade a granola bar at 6pm and called it dinner. adulthood\n4\n14",
+        "times": [
+          {
+            "tag": "TIME",
+            "title": "9/15/2026, 1:46:58 PM",
+            "datetime": "2026-09-15T13:46:58.044Z",
+            "text": "9h"
+          }
+        ]
+      },
+      {
+        "id": "FBYw9xXCgTgazTdJDWJe9pNZQhbfD7fYjzDvecmKTNgn",
+        "text": "Alice\n@alice7.dash\n·\n9h\nCI is red. the failing test is called test_should_never_fail. whoever named it summoned this \n#dashplatform\n6\n13",
+        "times": [
+          {
+            "tag": "TIME",
+            "title": "9/15/2026, 1:48:53 PM",
+            "datetime": "2026-09-15T13:48:53.729Z",
+            "text": "9h"
+          }
+        ]
+      },
+      {
+        "id": "DUrfX2PF4o4feqTDspEYPy4aqHRMbNMbpytQdZgzGDiS",
+        "text": "Kamil Kumar\n@kamilk91.dash\n·\n9h\nthe printer worked first try and i am suspicious 🥪\n4\n1\n11",
+        "times": [
+          {
+            "tag": "TIME",
+            "title": "9/15/2026, 1:46:24 PM",
+            "datetime": "2026-09-15T13:46:24.272Z",
+            "text": "9h"
+          }
+        ]
+      },
+      {
+        "id": "BgC9pUdbquyv7GTqMmTu69m1SLXqvwH9i8EUxnCgDgpd",
+        "text": "Carol\n@carol9.dash\n·\n9h\nrewatched an old faovrite and it held up. rare\n10",
+        "times": [
+          {
+            "tag": "TIME",
+            "title": "9/15/2026, 1:48:20 PM",
+            "datetime": "2026-09-15T13:48:20.172Z",
+            "text": "9h"
+          }
+        ]
+      },
+      {
+        "id": "8dNXv3xhXLa58jH9MsVro1mqcG75zpGtEyHUhLNyotbC",
+        "text": "Fernanda Vasquez\n@fernandav60.dash\n·\n9h\nPoSe score back to zero. i am a good operator again. the machine forgives.\n10",
+        "times": [
+          {
+            "tag": "TIME",
+            "title": "9/15/2026, 1:47:48 PM",
+            "datetime": "2026-09-15T13:47:48.773Z",
+            "text": "9h"
+          }
+        ]
+      },
+      {
+        "id": "EtFHjLBppCHw2jZ1rVfBpdYjvMmNBtgDSLfX7yV2dL8d",
+        "text": "Alice\n@alice7.dash\n·\n9h\nEvery app you have ever used answered this question with a database you were not allowed to see.\n2\n9",
+        "times": [
+          {
+            "tag": "TIME",
+            "title": "9/15/2026, 1:49:03 PM",
+            "datetime": "2026-09-15T13:49:03.292Z",
+            "text": "9h"
+          }
+        ]
+      },
+      {
+        "id": "ChRJY7oMwzbG7AzQtShQPFhqwWRbGbPim58exjnMzDXg",
+        "text": "akira\n@akirak38.dash\n·\n9h\nit is 6am and i have done exactly one (1) thing today. it was a good thing\n1\n9",
+        "times": [
+          {
+            "tag": "TIME",
+            "title": "9/15/2026, 1:48:37 PM",
+            "datetime": "2026-09-15T13:48:37.071Z",
+            "text": "9h"
+          }
+        ]
+      },
+      {
+        "id": "BMe9uM7NZNGoJib6Lxki5EfamtF7mmbr2LuM7CALaqE8",
+        "text": "Elif Castillo\n@elif27.dash\n·\n9h\na 3-hour outage in 2022 still haunts me. that is why there are two nodes now. \n#masternodes\n1\n8",
+        "times": [
+          {
+            "tag": "TIME",
+            "title": "9/15/2026, 1:44:43 PM",
+            "datetime": "2026-09-15T13:44:43.592Z",
+            "text": "9h"
+          }
+        ]
+      },
+      {
+        "id": "GueT72oLuxBBCF3FrHrjbcVwiNTxRoVLSAW9hN98GCMx",
+        "text": "Mei López\n@tea-mei3.dash\n·\n9h\nsmall result: the thing we thought did the thing does not do the thing. this is a good day\n2\n1\n7",
+        "times": [
+          {
+            "tag": "TIME",
+            "title": "9/15/2026, 1:45:42 PM",
+            "datetime": "2026-09-15T13:45:42.337Z",
+            "text": "9h"
+          }
+        ]
+      },
+      {
+        "id": "CLHvdHZrboWfmpgPNNGM1vjeXjJSL3rP2CSRaTvThasF",
+        "text": "Tuan Souza\n@tuan-mixes3.dash\n·\n9h\nmixed the track. remixed it. unmixed it. back to the demo...\n1\n1\n7",
+        "times": [
+          {
+            "tag": "TIME",
+            "title": "9/15/2026, 1:42:43 PM",
+            "datetime": "2026-09-15T13:42:43.460Z",
+            "text": "9h"
+          }
+        ]
+      },
+      {
+        "id": "7pX6HB4JPJkFXRLxc1M93BcncDMbwbDWTaoiLhipxMzw",
+        "text": "Alice\n@alice7.dash\n·\n9h\nthe group chat has been discussing one photo for 2 hours\n1\n7",
+        "times": [
+          {
+            "tag": "TIME",
+            "title": "9/15/2026, 1:43:52 PM",
+            "datetime": "2026-09-15T13:43:52.848Z",
+            "text": "9h"
+          }
+        ]
+      },
+      {
+        "id": "HWd1TkexYt4sJ1gygoiWmCaGZGFmUgPYTNBdZanjSXmZ",
+        "text": "Joon Hayashi\n@joon79.dash\n·\n9h\ntoday's achievement: replied to an email from may\n2\n6",
+        "times": [
+          {
+            "tag": "TIME",
+            "title": "9/15/2026, 1:48:45 PM",
+            "datetime": "2026-09-15T13:48:45.497Z",
+            "text": "9h"
+          }
+        ]
+      },
+      {
+        "id": "EPUg6Ls2YCuH7Zegpopu78uaeLvAoKmoGXSKv8vRyxKr",
+        "text": "akira\n@akirak38.dash\n·\n9h\nit is 7:40 and i have done exactly one (1) thing today. it was a good thing\n3\n6",
+        "times": [
+          {
+            "tag": "TIME",
+            "title": "9/15/2026, 1:43:44 PM",
+            "datetime": "2026-09-15T13:43:44.699Z",
+            "text": "9h"
+          }
+        ]
+      },
+      {
+        "id": "DZqJStvgwqBqPGSAZo6V8Gq94hgNQnkGxNhK7FSYMXcY",
+        "text": "Zainab Moreau\n@zainab1982.dash\n·\n9h\ngear review: the jacket is waterproof. the rain is more waterproof \n#hiking\n2\n6",
+        "times": [
+          {
+            "tag": "TIME",
+            "title": "9/15/2026, 1:41:10 PM",
+            "datetime": "2026-09-15T13:41:10.061Z",
+            "text": "9h"
+          }
+        ]
+      },
+      {
+        "id": "8CR4HnuMdQoYVgRhVZL1vK7qt95SHebKNGzWLdv3J9mC",
+        "text": "Bob\n@bob8.dash\n·\n9h\nDIP-3 made masternode lists deterministic. it did not make my test suite deterministic. sigh \n#masternodes\n3\n6",
+        "times": [
+          {
+            "tag": "TIME",
+            "title": "9/15/2026, 1:49:34 PM",
+            "datetime": "2026-09-15T13:49:34.101Z",
+            "text": "9h"
+          }
+        ]
+      },
+      {
+        "id": "6pAPhpeNHWFVRtEEZsy3q4JvVb3NbJEcDc9fkt9185kL",
+        "text": "Natalia Haddad\n@natalia-travel5.dash\n·\n9h\nnight train from Los Angeles: 213 for a bunk and a sunrise. flights could never\n1\n6",
+        "times": [
+          {
+            "tag": "TIME",
+            "title": "9/15/2026, 1:41:33 PM",
+            "datetime": "2026-09-15T13:41:33.818Z",
+            "text": "9h"
+          }
+        ]
+      },
+      {
+        "id": "6AvLe9JZ9GKhMCAaTVQmsx1kRZ2Ydkk78j9EzRFrgd36",
+        "text": "Fatima Fontaine\n@fatimaf39.dash\n·\n9h\nsmall joy: the bus was on time and the driver nodded \n#life\n6",
+        "times": [
+          {
+            "tag": "TIME",
+            "title": "9/15/2026, 1:45:56 PM",
+            "datetime": "2026-09-15T13:45:56.662Z",
+            "text": "9h"
+          }
+        ]
+      },
+      {
+        "id": "3eA3g29McxmrcfM8rwksMtcYSd2StLuk5hBWcYj2p5bo",
+        "text": "Zainab Moreau\n@zainab1982.dash\n·\n9h\nrewatched an old favorite and it held up. rare 🌄 \n#life\n1\n6",
+        "times": [
+          {
+            "tag": "TIME",
+            "title": "9/15/2026, 1:45:10 PM",
+            "datetime": "2026-09-15T13:45:10.438Z",
+            "text": "9h"
+          }
+        ]
+      },
+      {
+        "id": "3boNG1d7oG7brL2pcCNTFtRcVXHFLAfhKuRcJFZTccMN",
+        "text": "Big Tomás\n@tomas-gardenin2.dash\n·\n9h\nFrost warning tonight. Fleece on the beans, kettle on for me. 🐦 \n#gardening\n6",
+        "times": [
+          {
+            "tag": "TIME",
+            "title": "9/15/2026, 1:43:39 PM",
+            "datetime": "2026-09-15T13:43:39.581Z",
+            "text": "9h"
+          }
+        ]
+      },
+      {
+        "id": "3HDjziN6W96Fzip6SmpP1h68q5BU65poD4ysmMKTyiCn",
+        "text": "Lars Larsen\n@lars-local6.dash\n·\n9h\nsomeone asked if we take crypto. I said we take Dash. they said \"is that crypto\". i said \"it's cash\". long conversation. 🧾 \n#shoplocal\n4\n3\n6",
+        "times": [
+          {
+            "tag": "TIME",
+            "title": "9/15/2026, 1:41:43 PM",
+            "datetime": "2026-09-15T13:41:43.773Z",
+            "text": "9h"
+          }
+        ]
+      },
+      {
+        "id": "Ab9o9nrE8dJXD4g1PVVhfo7FtAzq7pfPmdsYw9XYHiBa",
+        "text": "Bob\n@bob8.dash\n·\n9h\nit is 9am and i have done exactly one (1) thing today. it was a good thing\n2\n5",
+        "times": [
+          {
+            "tag": "TIME",
+            "title": "9/15/2026, 1:49:10 PM",
+            "datetime": "2026-09-15T13:49:10.799Z",
+            "text": "9h"
+          }
+        ]
+      },
+      {
+        "id": "7RyY2vVENJNiwtn9mRmC9WEc6XnYMZZXkrKd1Y9oxkqx",
+        "text": "Sigrid Lindqvist\n@sigridl41.dash\n·\n9h\nday 13 of pretending i understand what my coworkers do \n#memes\n5",
+        "times": [
+          {
+            "tag": "TIME",
+            "title": "9/15/2026, 1:48:27 PM",
+            "datetime": "2026-09-15T13:48:27.536Z",
+            "text": "9h"
+          }
+        ]
+      },
+      {
+        "id": "3cqumj633vQr3uB1PaiCLxJWzVacfQJshNvoHDsPFhCC",
+        "text": "Eamon Byrne\n@eamon1993.dash\n·\n9h\nthe street was empty except for the light. that is enough.\n1\n5",
+        "times": [
+          {
+            "tag": "TIME",
+            "title": "9/15/2026, 1:45:33 PM",
+            "datetime": "2026-09-15T13:45:33.166Z",
+            "text": "9h"
+          }
+        ]
+      },
+      {
+        "id": "2hLsFVVDmN49khvocNbRci6RMJXR1XMGfUjxjc6MioUj",
+        "text": "akira\n@akirak38.dash\n·\n9h\nquiet tuesday. reading, chai, nothing. recommend \n#weekend\n1\n5",
+        "times": [
+          {
+            "tag": "TIME",
+            "title": "9/15/2026, 1:48:47 PM",
+            "datetime": "2026-09-15T13:48:47.512Z",
+            "text": "9h"
+          }
+        ]
+      },
+      {
+        "id": "w2VP51DRZvk8J7qrhG2oPM9oz2zPtWBCJrZCgCNwdDP",
+        "text": "Joon Chen\n@joon72.dash\n·\n9h\nCaracas update: the neighbor's cat has adopted our porch. we did not apply\n1\n5",
+        "times": [
+          {
+            "tag": "TIME",
+            "title": "9/15/2026, 1:48:02 PM",
+            "datetime": "2026-09-15T13:48:02.222Z",
+            "text": "9h"
+          }
+        ]
+      },
+      {
+        "id": "ERpXjiTiLe4vmjkXuXKUrLqFpjPwTosP1x9PyC7FWtYN",
+        "text": "Coach Aiko\n@fog-aiko7.dash\n·\n9h\ncampus thread nobody asked for: the university has repainted the lines in lot c THREE times this semester. apparently the first two were \"the wrong shade of yellow\". 1/\n4",
+        "times": [
+          {
+            "tag": "TIME",
+            "title": "9/15/2026, 1:47:19 PM",
+            "datetime": "2026-09-15T13:47:19.738Z",
+            "text": "9h"
+          }
+        ]
+      },
+      {
+        "id": "CYb59Qb8xGkmmUA5suWQr8dUHtJ5DjvdfafpWEtwpWLE",
+        "text": "Zainab (real)\n@zainab1987.dash\n·\n9h\ncoffee. window. rain. good\n4",
+        "times": [
+          {
+            "tag": "TIME",
+            "title": "9/15/2026, 1:42:24 PM",
+            "datetime": "2026-09-15T13:42:24.193Z",
+            "text": "9h"
+          }
+        ]
+      },
+      {
+        "id": "8oLztR4YgBfU21GxUvSoUE3hTgGqgsJz7sbW48Y2sUzC",
+        "text": "Gustavo Silva\n@gustavo-silva8.dash\n·\n9h\nThis morning: the compost has reached the temperature of a good bath. This is the most exciting thing that happened this week.\n2\n4",
+        "times": [
+          {
+            "tag": "TIME",
+            "title": "9/15/2026, 1:44:06 PM",
+            "datetime": "2026-09-15T13:44:06.685Z",
+            "text": "9h"
+          }
+        ]
+      },
+      {
+        "id": "84ekf1SaHhi1zeaTXKCLvdYPtbeaXBHKU1bSgZSxNv2C",
+        "text": "Bob\n@bob8.dash\n·\n9h\nrenamed a variable. 8,845 tests failed. one of them was right \n#food\n2\n1\n4",
+        "times": [
+          {
+            "tag": "TIME",
+            "title": "9/15/2026, 1:40:31 PM",
+            "datetime": "2026-09-15T13:40:31.204Z",
+            "text": "9h"
+          }
+        ]
+      },
+      {
+        "id": "5WYi7hM6mxm37u5on1XRY8FjNLV42mhNMCYHmPcsMv2K",
+        "text": "Carol\n@carol9.dash\n·\n9h\ni do not need a whitepaper. i need a receipt. \n#econ\n1\n4",
+        "times": [
+          {
+            "tag": "TIME",
+            "title": "9/15/2026, 1:50:22 PM",
+            "datetime": "2026-09-15T13:50:22.746Z",
+            "text": "9h"
+          }
+        ]
+      },
+      {
+        "id": "4Xo4tN68bxLctiTzgfv8LeSzTsmAUjh5Uv6m8p6beYsP",
+        "text": "Gus Kowalski\n@west-gus9.dash\n·\n9h\n\nNSFW · The author flagged this post\n\nShow\n4",
+        "times": [
+          {
+            "tag": "TIME",
+            "title": "9/15/2026, 1:49:55 PM",
+            "datetime": "2026-09-15T13:49:55.103Z",
+            "text": "9h"
+          }
+        ]
+      },
+      {
+        "id": "47siV2hYg3qgPmzjfXfSNtHbY5CNc2epHx4cKqHQcrba",
+        "text": "Fatima Fontaine\n@fatimaf39.dash\n·\n9h\ndeload week. i feel weak and rested and suspicious of both \n#dash\n2\n4",
+        "times": [
+          {
+            "tag": "TIME",
+            "title": "9/15/2026, 1:44:40 PM",
+            "datetime": "2026-09-15T13:44:40.531Z",
+            "text": "9h"
+          }
+        ]
+      },
+      {
+        "id": "3BGyJxqxKiku7K7idDyjP8tDLrS9JpA4R5Jfp1bcd9PB",
+        "text": "Dr. Ingrid\n@ingrid1988.dash\n·\n9h\nbenchmark day. everything is faster except the thing we changed\n2\n4",
+        "times": [
+          {
+            "tag": "TIME",
+            "title": "9/15/2026, 1:40:38 PM",
+            "datetime": "2026-09-15T13:40:38.498Z",
+            "text": "9h"
+          }
+        ]
+      },
+      {
+        "id": "YRZwuYZyqh7imA8WWFGtuGXm38PxdBrgpJH6MP4vfza",
+        "text": "Gus Kowalski\n@west-gus9.dash\n·\n9h\nTorrada, a flat white, and a newspaper someone left behind. Total 90. Some mornings the city hands you the good life\n\nMedia from someone you don't follow\n\nShow\n1\n4",
+        "times": [
+          {
+            "tag": "TIME",
+            "title": "9/15/2026, 1:44:36 PM",
+            "datetime": "2026-09-15T13:44:36.535Z",
+            "text": "9h"
+          }
+        ]
+      },
+      {
+        "id": "JDsyh9e55yV6naa9ntYqhTqdpdiABF6hnicRbCwWmugK",
+        "text": "Teodora Pereira\n@sleepteodora6.dash\n·\n9h\nthe four-year-old has declared crackers \"spicy\". it is toast.\n1\n3",
+        "times": [
+          {
+            "tag": "TIME",
+            "title": "9/15/2026, 1:46:38 PM",
+            "datetime": "2026-09-15T13:46:38.581Z",
+            "text": "9h"
+          }
+        ]
+      },
+      {
+        "id": "HWRpm5BQGjncwdy6Qrqr8vkiuCDMLZq2anWeR9tT3Fhw",
+        "text": "Dr. Sigrid\n@sigrid-lund7.dash\n·\n9h\nmade leftover pizza at 3am and called it dinner. adulthood\n3",
+        "times": [
+          {
+            "tag": "TIME",
+            "title": "9/15/2026, 1:46:39 PM",
+            "datetime": "2026-09-15T13:46:39.623Z",
+            "text": "9h"
+          }
+        ]
+      },
+      {
+        "id": "FyvVNdMccuT2fRGQSGVKVsidZrWaEgW19UHSUgXp5bGK",
+        "text": "Amir López\n@tailgatiamir9.dash\n·\n9h\nfantasy update: i am 3th in my own league. i am the commissioner. \n#football\n2\n1\n3",
+        "times": [
+          {
+            "tag": "TIME",
+            "title": "9/15/2026, 1:43:56 PM",
+            "datetime": "2026-09-15T13:43:56.958Z",
+            "text": "9h"
+          }
+        ]
+      },
+      {
+        "id": "Ehg3Jh8V88WJ66cxDJeURgsvM8iQt8i13y16XYra2y43",
+        "text": "Mei López\n@tea-mei3.dash\n·\n9h\na reminder that \"it depends\" is a complete scientific answer\n1\n3",
+        "times": [
+          {
+            "tag": "TIME",
+            "title": "9/15/2026, 1:45:06 PM",
+            "datetime": "2026-09-15T13:45:06.228Z",
+            "text": "9h"
+          }
+        ]
+      }
+    ],
+    "scrollY": 0
+  },
+  "afterInitial": {
+    "posts": [
+      {
+        "id": "3ELgqvL2oWXkHWjnedrain3w5HxEWQ8RmhSRR2mgqbph",
+        "text": "Alice\n@alice7.dash\n·\n9h\nthe 1000 DASH masternode collateral is the most expensive way to say \"I will keep a server on\". \n#masternodes\n4\n4\n17",
+        "times": [
+          {
+            "tag": "TIME",
+            "title": "9/15/2026, 1:42:30 PM",
+            "datetime": "2026-09-15T13:42:30.304Z",
+            "text": "9h"
+          }
+        ]
+      },
+      {
+        "id": "4uGpsKmzZQdqe3X53V8Stai3tqEGyFtumgex911tyn33",
+        "text": "Kwame Mahoney\n@kwame-mahoney3.dash\n·\n9h\nFirst tomato of the year. It is small and slightly cracked and it is perfect. More tomorrow.\n2\n2\n16",
+        "times": [
+          {
+            "tag": "TIME",
+            "title": "9/15/2026, 1:48:10 PM",
+            "datetime": "2026-09-15T13:48:10.740Z",
+            "text": "9h"
+          }
+        ]
+      },
+      {
+        "id": "DgCH2oaKQLCVMsPcsTipncpB22s6q7mSz6SARqURMg1R",
+        "text": "akira\n@akirak38.dash\n·\n9h\nmade a granola bar at 6pm and called it dinner. adulthood\n4\n14",
+        "times": [
+          {
+            "tag": "TIME",
+            "title": "9/15/2026, 1:46:58 PM",
+            "datetime": "2026-09-15T13:46:58.044Z",
+            "text": "9h"
+          }
+        ]
+      },
+      {
+        "id": "FBYw9xXCgTgazTdJDWJe9pNZQhbfD7fYjzDvecmKTNgn",
+        "text": "Alice\n@alice7.dash\n·\n9h\nCI is red. the failing test is called test_should_never_fail. whoever named it summoned this \n#dashplatform\n6\n13",
+        "times": [
+          {
+            "tag": "TIME",
+            "title": "9/15/2026, 1:48:53 PM",
+            "datetime": "2026-09-15T13:48:53.729Z",
+            "text": "9h"
+          }
+        ]
+      },
+      {
+        "id": "DUrfX2PF4o4feqTDspEYPy4aqHRMbNMbpytQdZgzGDiS",
+        "text": "Kamil Kumar\n@kamilk91.dash\n·\n9h\nthe printer worked first try and i am suspicious 🥪\n4\n1\n11",
+        "times": [
+          {
+            "tag": "TIME",
+            "title": "9/15/2026, 1:46:24 PM",
+            "datetime": "2026-09-15T13:46:24.272Z",
+            "text": "9h"
+          }
+        ]
+      },
+      {
+        "id": "BgC9pUdbquyv7GTqMmTu69m1SLXqvwH9i8EUxnCgDgpd",
+        "text": "Carol\n@carol9.dash\n·\n9h\nrewatched an old faovrite and it held up. rare\n10",
+        "times": [
+          {
+            "tag": "TIME",
+            "title": "9/15/2026, 1:48:20 PM",
+            "datetime": "2026-09-15T13:48:20.172Z",
+            "text": "9h"
+          }
+        ]
+      },
+      {
+        "id": "8dNXv3xhXLa58jH9MsVro1mqcG75zpGtEyHUhLNyotbC",
+        "text": "Fernanda Vasquez\n@fernandav60.dash\n·\n9h\nPoSe score back to zero. i am a good operator again. the machine forgives.\n10",
+        "times": [
+          {
+            "tag": "TIME",
+            "title": "9/15/2026, 1:47:48 PM",
+            "datetime": "2026-09-15T13:47:48.773Z",
+            "text": "9h"
+          }
+        ]
+      },
+      {
+        "id": "EtFHjLBppCHw2jZ1rVfBpdYjvMmNBtgDSLfX7yV2dL8d",
+        "text": "Alice\n@alice7.dash\n·\n9h\nEvery app you have ever used answered this question with a database you were not allowed to see.\n2\n9",
+        "times": [
+          {
+            "tag": "TIME",
+            "title": "9/15/2026, 1:49:03 PM",
+            "datetime": "2026-09-15T13:49:03.292Z",
+            "text": "9h"
+          }
+        ]
+      },
+      {
+        "id": "ChRJY7oMwzbG7AzQtShQPFhqwWRbGbPim58exjnMzDXg",
+        "text": "akira\n@akirak38.dash\n·\n9h\nit is 6am and i have done exactly one (1) thing today. it was a good thing\n1\n9",
+        "times": [
+          {
+            "tag": "TIME",
+            "title": "9/15/2026, 1:48:37 PM",
+            "datetime": "2026-09-15T13:48:37.071Z",
+            "text": "9h"
+          }
+        ]
+      },
+      {
+        "id": "BMe9uM7NZNGoJib6Lxki5EfamtF7mmbr2LuM7CALaqE8",
+        "text": "Elif Castillo\n@elif27.dash\n·\n9h\na 3-hour outage in 2022 still haunts me. that is why there are two nodes now. \n#masternodes\n1\n8",
+        "times": [
+          {
+            "tag": "TIME",
+            "title": "9/15/2026, 1:44:43 PM",
+            "datetime": "2026-09-15T13:44:43.592Z",
+            "text": "9h"
+          }
+        ]
+      },
+      {
+        "id": "GueT72oLuxBBCF3FrHrjbcVwiNTxRoVLSAW9hN98GCMx",
+        "text": "Mei López\n@tea-mei3.dash\n·\n9h\nsmall result: the thing we thought did the thing does not do the thing. this is a good day\n2\n1\n7",
+        "times": [
+          {
+            "tag": "TIME",
+            "title": "9/15/2026, 1:45:42 PM",
+            "datetime": "2026-09-15T13:45:42.337Z",
+            "text": "9h"
+          }
+        ]
+      },
+      {
+        "id": "CLHvdHZrboWfmpgPNNGM1vjeXjJSL3rP2CSRaTvThasF",
+        "text": "Tuan Souza\n@tuan-mixes3.dash\n·\n9h\nmixed the track. remixed it. unmixed it. back to the demo...\n1\n1\n7",
+        "times": [
+          {
+            "tag": "TIME",
+            "title": "9/15/2026, 1:42:43 PM",
+            "datetime": "2026-09-15T13:42:43.460Z",
+            "text": "9h"
+          }
+        ]
+      },
+      {
+        "id": "7pX6HB4JPJkFXRLxc1M93BcncDMbwbDWTaoiLhipxMzw",
+        "text": "Alice\n@alice7.dash\n·\n9h\nthe group chat has been discussing one photo for 2 hours\n1\n7",
+        "times": [
+          {
+            "tag": "TIME",
+            "title": "9/15/2026, 1:43:52 PM",
+            "datetime": "2026-09-15T13:43:52.848Z",
+            "text": "9h"
+          }
+        ]
+      },
+      {
+        "id": "HWd1TkexYt4sJ1gygoiWmCaGZGFmUgPYTNBdZanjSXmZ",
+        "text": "Joon Hayashi\n@joon79.dash\n·\n9h\ntoday's achievement: replied to an email from may\n2\n6",
+        "times": [
+          {
+            "tag": "TIME",
+            "title": "9/15/2026, 1:48:45 PM",
+            "datetime": "2026-09-15T13:48:45.497Z",
+            "text": "9h"
+          }
+        ]
+      },
+      {
+        "id": "EPUg6Ls2YCuH7Zegpopu78uaeLvAoKmoGXSKv8vRyxKr",
+        "text": "akira\n@akirak38.dash\n·\n9h\nit is 7:40 and i have done exactly one (1) thing today. it was a good thing\n3\n6",
+        "times": [
+          {
+            "tag": "TIME",
+            "title": "9/15/2026, 1:43:44 PM",
+            "datetime": "2026-09-15T13:43:44.699Z",
+            "text": "9h"
+          }
+        ]
+      },
+      {
+        "id": "DZqJStvgwqBqPGSAZo6V8Gq94hgNQnkGxNhK7FSYMXcY",
+        "text": "Zainab Moreau\n@zainab1982.dash\n·\n9h\ngear review: the jacket is waterproof. the rain is more waterproof \n#hiking\n2\n6",
+        "times": [
+          {
+            "tag": "TIME",
+            "title": "9/15/2026, 1:41:10 PM",
+            "datetime": "2026-09-15T13:41:10.061Z",
+            "text": "9h"
+          }
+        ]
+      },
+      {
+        "id": "8CR4HnuMdQoYVgRhVZL1vK7qt95SHebKNGzWLdv3J9mC",
+        "text": "Bob\n@bob8.dash\n·\n9h\nDIP-3 made masternode lists deterministic. it did not make my test suite deterministic. sigh \n#masternodes\n3\n6",
+        "times": [
+          {
+            "tag": "TIME",
+            "title": "9/15/2026, 1:49:34 PM",
+            "datetime": "2026-09-15T13:49:34.101Z",
+            "text": "9h"
+          }
+        ]
+      },
+      {
+        "id": "6pAPhpeNHWFVRtEEZsy3q4JvVb3NbJEcDc9fkt9185kL",
+        "text": "Natalia Haddad\n@natalia-travel5.dash\n·\n9h\nnight train from Los Angeles: 213 for a bunk and a sunrise. flights could never\n1\n6",
+        "times": [
+          {
+            "tag": "TIME",
+            "title": "9/15/2026, 1:41:33 PM",
+            "datetime": "2026-09-15T13:41:33.818Z",
+            "text": "9h"
+          }
+        ]
+      },
+      {
+        "id": "6AvLe9JZ9GKhMCAaTVQmsx1kRZ2Ydkk78j9EzRFrgd36",
+        "text": "Fatima Fontaine\n@fatimaf39.dash\n·\n9h\nsmall joy: the bus was on time and the driver nodded \n#life\n6",
+        "times": [
+          {
+            "tag": "TIME",
+            "title": "9/15/2026, 1:45:56 PM",
+            "datetime": "2026-09-15T13:45:56.662Z",
+            "text": "9h"
+          }
+        ]
+      },
+      {
+        "id": "3eA3g29McxmrcfM8rwksMtcYSd2StLuk5hBWcYj2p5bo",
+        "text": "Zainab Moreau\n@zainab1982.dash\n·\n9h\nrewatched an old favorite and it held up. rare 🌄 \n#life\n1\n6",
+        "times": [
+          {
+            "tag": "TIME",
+            "title": "9/15/2026, 1:45:10 PM",
+            "datetime": "2026-09-15T13:45:10.438Z",
+            "text": "9h"
+          }
+        ]
+      }
+    ],
+    "scrollY": 1973
+  },
+  "afterLoaded": {
+    "posts": [
+      {
+        "id": "3ELgqvL2oWXkHWjnedrain3w5HxEWQ8RmhSRR2mgqbph",
+        "text": "Alice\n@alice7.dash\n·\n9h\nthe 1000 DASH masternode collateral is the most expensive way to say \"I will keep a server on\". \n#masternodes\n4\n4\n17",
+        "times": [
+          {
+            "tag": "TIME",
+            "title": "9/15/2026, 1:42:30 PM",
+            "datetime": "2026-09-15T13:42:30.304Z",
+            "text": "9h"
+          }
+        ]
+      },
+      {
+        "id": "4uGpsKmzZQdqe3X53V8Stai3tqEGyFtumgex911tyn33",
+        "text": "Kwame Mahoney\n@kwame-mahoney3.dash\n·\n9h\nFirst tomato of the year. It is small and slightly cracked and it is perfect. More tomorrow.\n2\n2\n16",
+        "times": [
+          {
+            "tag": "TIME",
+            "title": "9/15/2026, 1:48:10 PM",
+            "datetime": "2026-09-15T13:48:10.740Z",
+            "text": "9h"
+          }
+        ]
+      },
+      {
+        "id": "DgCH2oaKQLCVMsPcsTipncpB22s6q7mSz6SARqURMg1R",
+        "text": "akira\n@akirak38.dash\n·\n9h\nmade a granola bar at 6pm and called it dinner. adulthood\n4\n14",
+        "times": [
+          {
+            "tag": "TIME",
+            "title": "9/15/2026, 1:46:58 PM",
+            "datetime": "2026-09-15T13:46:58.044Z",
+            "text": "9h"
+          }
+        ]
+      },
+      {
+        "id": "FBYw9xXCgTgazTdJDWJe9pNZQhbfD7fYjzDvecmKTNgn",
+        "text": "Alice\n@alice7.dash\n·\n9h\nCI is red. the failing test is called test_should_never_fail. whoever named it summoned this \n#dashplatform\n6\n13",
+        "times": [
+          {
+            "tag": "TIME",
+            "title": "9/15/2026, 1:48:53 PM",
+            "datetime": "2026-09-15T13:48:53.729Z",
+            "text": "9h"
+          }
+        ]
+      },
+      {
+        "id": "DUrfX2PF4o4feqTDspEYPy4aqHRMbNMbpytQdZgzGDiS",
+        "text": "Kamil Kumar\n@kamilk91.dash\n·\n9h\nthe printer worked first try and i am suspicious 🥪\n4\n1\n11",
+        "times": [
+          {
+            "tag": "TIME",
+            "title": "9/15/2026, 1:46:24 PM",
+            "datetime": "2026-09-15T13:46:24.272Z",
+            "text": "9h"
+          }
+        ]
+      },
+      {
+        "id": "BgC9pUdbquyv7GTqMmTu69m1SLXqvwH9i8EUxnCgDgpd",
+        "text": "Carol\n@carol9.dash\n·\n9h\nrewatched an old faovrite and it held up. rare\n10",
+        "times": [
+          {
+            "tag": "TIME",
+            "title": "9/15/2026, 1:48:20 PM",
+            "datetime": "2026-09-15T13:48:20.172Z",
+            "text": "9h"
+          }
+        ]
+      },
+      {
+        "id": "8dNXv3xhXLa58jH9MsVro1mqcG75zpGtEyHUhLNyotbC",
+        "text": "Fernanda Vasquez\n@fernandav60.dash\n·\n9h\nPoSe score back to zero. i am a good operator again. the machine forgives.\n10",
+        "times": [
+          {
+            "tag": "TIME",
+            "title": "9/15/2026, 1:47:48 PM",
+            "datetime": "2026-09-15T13:47:48.773Z",
+            "text": "9h"
+          }
+        ]
+      },
+      {
+        "id": "EtFHjLBppCHw2jZ1rVfBpdYjvMmNBtgDSLfX7yV2dL8d",
+        "text": "Alice\n@alice7.dash\n·\n9h\nEvery app you have ever used answered this question with a database you were not allowed to see.\n2\n9",
+        "times": [
+          {
+            "tag": "TIME",
+            "title": "9/15/2026, 1:49:03 PM",
+            "datetime": "2026-09-15T13:49:03.292Z",
+            "text": "9h"
+          }
+        ]
+      },
+      {
+        "id": "ChRJY7oMwzbG7AzQtShQPFhqwWRbGbPim58exjnMzDXg",
+        "text": "akira\n@akirak38.dash\n·\n9h\nit is 6am and i have done exactly one (1) thing today. it was a good thing\n1\n9",
+        "times": [
+          {
+            "tag": "TIME",
+            "title": "9/15/2026, 1:48:37 PM",
+            "datetime": "2026-09-15T13:48:37.071Z",
+            "text": "9h"
+          }
+        ]
+      },
+      {
+        "id": "BMe9uM7NZNGoJib6Lxki5EfamtF7mmbr2LuM7CALaqE8",
+        "text": "Elif Castillo\n@elif27.dash\n·\n9h\na 3-hour outage in 2022 still haunts me. that is why there are two nodes now. \n#masternodes\n1\n8",
+        "times": [
+          {
+            "tag": "TIME",
+            "title": "9/15/2026, 1:44:43 PM",
+            "datetime": "2026-09-15T13:44:43.592Z",
+            "text": "9h"
+          }
+        ]
+      },
+      {
+        "id": "GueT72oLuxBBCF3FrHrjbcVwiNTxRoVLSAW9hN98GCMx",
+        "text": "Mei López\n@tea-mei3.dash\n·\n9h\nsmall result: the thing we thought did the thing does not do the thing. this is a good day\n2\n1\n7",
+        "times": [
+          {
+            "tag": "TIME",
+            "title": "9/15/2026, 1:45:42 PM",
+            "datetime": "2026-09-15T13:45:42.337Z",
+            "text": "9h"
+          }
+        ]
+      },
+      {
+        "id": "CLHvdHZrboWfmpgPNNGM1vjeXjJSL3rP2CSRaTvThasF",
+        "text": "Tuan Souza\n@tuan-mixes3.dash\n·\n9h\nmixed the track. remixed it. unmixed it. back to the demo...\n1\n1\n7",
+        "times": [
+          {
+            "tag": "TIME",
+            "title": "9/15/2026, 1:42:43 PM",
+            "datetime": "2026-09-15T13:42:43.460Z",
+            "text": "9h"
+          }
+        ]
+      },
+      {
+        "id": "7pX6HB4JPJkFXRLxc1M93BcncDMbwbDWTaoiLhipxMzw",
+        "text": "Alice\n@alice7.dash\n·\n9h\nthe group chat has been discussing one photo for 2 hours\n1\n7",
+        "times": [
+          {
+            "tag": "TIME",
+            "title": "9/15/2026, 1:43:52 PM",
+            "datetime": "2026-09-15T13:43:52.848Z",
+            "text": "9h"
+          }
+        ]
+      },
+      {
+        "id": "HWd1TkexYt4sJ1gygoiWmCaGZGFmUgPYTNBdZanjSXmZ",
+        "text": "Joon Hayashi\n@joon79.dash\n·\n9h\ntoday's achievement: replied to an email from may\n2\n6",
+        "times": [
+          {
+            "tag": "TIME",
+            "title": "9/15/2026, 1:48:45 PM",
+            "datetime": "2026-09-15T13:48:45.497Z",
+            "text": "9h"
+          }
+        ]
+      },
+      {
+        "id": "EPUg6Ls2YCuH7Zegpopu78uaeLvAoKmoGXSKv8vRyxKr",
+        "text": "akira\n@akirak38.dash\n·\n9h\nit is 7:40 and i have done exactly one (1) thing today. it was a good thing\n3\n6",
+        "times": [
+          {
+            "tag": "TIME",
+            "title": "9/15/2026, 1:43:44 PM",
+            "datetime": "2026-09-15T13:43:44.699Z",
+            "text": "9h"
+          }
+        ]
+      },
+      {
+        "id": "DZqJStvgwqBqPGSAZo6V8Gq94hgNQnkGxNhK7FSYMXcY",
+        "text": "Zainab Moreau\n@zainab1982.dash\n·\n9h\ngear review: the jacket is waterproof. the rain is more waterproof \n#hiking\n2\n6",
+        "times": [
+          {
+            "tag": "TIME",
+            "title": "9/15/2026, 1:41:10 PM",
+            "datetime": "2026-09-15T13:41:10.061Z",
+            "text": "9h"
+          }
+        ]
+      },
+      {
+        "id": "8CR4HnuMdQoYVgRhVZL1vK7qt95SHebKNGzWLdv3J9mC",
+        "text": "Bob\n@bob8.dash\n·\n9h\nDIP-3 made masternode lists deterministic. it did not make my test suite deterministic. sigh \n#masternodes\n3\n6",
+        "times": [
+          {
+            "tag": "TIME",
+            "title": "9/15/2026, 1:49:34 PM",
+            "datetime": "2026-09-15T13:49:34.101Z",
+            "text": "9h"
+          }
+        ]
+      },
+      {
+        "id": "6pAPhpeNHWFVRtEEZsy3q4JvVb3NbJEcDc9fkt9185kL",
+        "text": "Natalia Haddad\n@natalia-travel5.dash\n·\n9h\nnight train from Los Angeles: 213 for a bunk and a sunrise. flights could never\n1\n6",
+        "times": [
+          {
+            "tag": "TIME",
+            "title": "9/15/2026, 1:41:33 PM",
+            "datetime": "2026-09-15T13:41:33.818Z",
+            "text": "9h"
+          }
+        ]
+      },
+      {
+        "id": "6AvLe9JZ9GKhMCAaTVQmsx1kRZ2Ydkk78j9EzRFrgd36",
+        "text": "Fatima Fontaine\n@fatimaf39.dash\n·\n9h\nsmall joy: the bus was on time and the driver nodded \n#life\n6",
+        "times": [
+          {
+            "tag": "TIME",
+            "title": "9/15/2026, 1:45:56 PM",
+            "datetime": "2026-09-15T13:45:56.662Z",
+            "text": "9h"
+          }
+        ]
+      },
+      {
+        "id": "3eA3g29McxmrcfM8rwksMtcYSd2StLuk5hBWcYj2p5bo",
+        "text": "Zainab Moreau\n@zainab1982.dash\n·\n9h\nrewatched an old favorite and it held up. rare 🌄 \n#life\n1\n6",
+        "times": [
+          {
+            "tag": "TIME",
+            "title": "9/15/2026, 1:45:10 PM",
+            "datetime": "2026-09-15T13:45:10.438Z",
+            "text": "9h"
+          }
+        ]
+      },
+      {
+        "id": "3boNG1d7oG7brL2pcCNTFtRcVXHFLAfhKuRcJFZTccMN",
+        "text": "Big Tomás\n@tomas-gardenin2.dash\n·\n9h\nFrost warning tonight. Fleece on the beans, kettle on for me. 🐦 \n#gardening\n6",
+        "times": [
+          {
+            "tag": "TIME",
+            "title": "9/15/2026, 1:43:39 PM",
+            "datetime": "2026-09-15T13:43:39.581Z",
+            "text": "9h"
+          }
+        ]
+      },
+      {
+        "id": "3HDjziN6W96Fzip6SmpP1h68q5BU65poD4ysmMKTyiCn",
+        "text": "Lars Larsen\n@lars-local6.dash\n·\n9h\nsomeone asked if we take crypto. I said we take Dash. they said \"is that crypto\". i said \"it's cash\". long conversation. 🧾 \n#shoplocal\n4\n3\n6",
+        "times": [
+          {
+            "tag": "TIME",
+            "title": "9/15/2026, 1:41:43 PM",
+            "datetime": "2026-09-15T13:41:43.773Z",
+            "text": "9h"
+          }
+        ]
+      },
+      {
+        "id": "Ab9o9nrE8dJXD4g1PVVhfo7FtAzq7pfPmdsYw9XYHiBa",
+        "text": "Bob\n@bob8.dash\n·\n9h\nit is 9am and i have done exactly one (1) thing today. it was a good thing\n2\n5",
+        "times": [
+          {
+            "tag": "TIME",
+            "title": "9/15/2026, 1:49:10 PM",
+            "datetime": "2026-09-15T13:49:10.799Z",
+            "text": "9h"
+          }
+        ]
+      },
+      {
+        "id": "7RyY2vVENJNiwtn9mRmC9WEc6XnYMZZXkrKd1Y9oxkqx",
+        "text": "Sigrid Lindqvist\n@sigridl41.dash\n·\n9h\nday 13 of pretending i understand what my coworkers do \n#memes\n5",
+        "times": [
+          {
+            "tag": "TIME",
+            "title": "9/15/2026, 1:48:27 PM",
+            "datetime": "2026-09-15T13:48:27.536Z",
+            "text": "9h"
+          }
+        ]
+      },
+      {
+        "id": "3cqumj633vQr3uB1PaiCLxJWzVacfQJshNvoHDsPFhCC",
+        "text": "Eamon Byrne\n@eamon1993.dash\n·\n9h\nthe street was empty except for the light. that is enough.\n1\n5",
+        "times": [
+          {
+            "tag": "TIME",
+            "title": "9/15/2026, 1:45:33 PM",
+            "datetime": "2026-09-15T13:45:33.166Z",
+            "text": "9h"
+          }
+        ]
+      },
+      {
+        "id": "2hLsFVVDmN49khvocNbRci6RMJXR1XMGfUjxjc6MioUj",
+        "text": "akira\n@akirak38.dash\n·\n9h\nquiet tuesday. reading, chai, nothing. recommend \n#weekend\n1\n5",
+        "times": [
+          {
+            "tag": "TIME",
+            "title": "9/15/2026, 1:48:47 PM",
+            "datetime": "2026-09-15T13:48:47.512Z",
+            "text": "9h"
+          }
+        ]
+      },
+      {
+        "id": "w2VP51DRZvk8J7qrhG2oPM9oz2zPtWBCJrZCgCNwdDP",
+        "text": "Joon Chen\n@joon72.dash\n·\n9h\nCaracas update: the neighbor's cat has adopted our porch. we did not apply\n1\n5",
+        "times": [
+          {
+            "tag": "TIME",
+            "title": "9/15/2026, 1:48:02 PM",
+            "datetime": "2026-09-15T13:48:02.222Z",
+            "text": "9h"
+          }
+        ]
+      },
+      {
+        "id": "ERpXjiTiLe4vmjkXuXKUrLqFpjPwTosP1x9PyC7FWtYN",
+        "text": "Coach Aiko\n@fog-aiko7.dash\n·\n9h\ncampus thread nobody asked for: the university has repainted the lines in lot c THREE times this semester. apparently the first two were \"the wrong shade of yellow\". 1/\n4",
+        "times": [
+          {
+            "tag": "TIME",
+            "title": "9/15/2026, 1:47:19 PM",
+            "datetime": "2026-09-15T13:47:19.738Z",
+            "text": "9h"
+          }
+        ]
+      },
+      {
+        "id": "CYb59Qb8xGkmmUA5suWQr8dUHtJ5DjvdfafpWEtwpWLE",
+        "text": "Zainab (real)\n@zainab1987.dash\n·\n9h\ncoffee. window. rain. good\n4",
+        "times": [
+          {
+            "tag": "TIME",
+            "title": "9/15/2026, 1:42:24 PM",
+            "datetime": "2026-09-15T13:42:24.193Z",
+            "text": "9h"
+          }
+        ]
+      },
+      {
+        "id": "8oLztR4YgBfU21GxUvSoUE3hTgGqgsJz7sbW48Y2sUzC",
+        "text": "Gustavo Silva\n@gustavo-silva8.dash\n·\n9h\nThis morning: the compost has reached the temperature of a good bath. This is the most exciting thing that happened this week.\n2\n4",
+        "times": [
+          {
+            "tag": "TIME",
+            "title": "9/15/2026, 1:44:06 PM",
+            "datetime": "2026-09-15T13:44:06.685Z",
+            "text": "9h"
+          }
+        ]
+      },
+      {
+        "id": "84ekf1SaHhi1zeaTXKCLvdYPtbeaXBHKU1bSgZSxNv2C",
+        "text": "Bob\n@bob8.dash\n·\n9h\nrenamed a variable. 8,845 tests failed. one of them was right \n#food\n2\n1\n4",
+        "times": [
+          {
+            "tag": "TIME",
+            "title": "9/15/2026, 1:40:31 PM",
+            "datetime": "2026-09-15T13:40:31.204Z",
+            "text": "9h"
+          }
+        ]
+      },
+      {
+        "id": "5WYi7hM6mxm37u5on1XRY8FjNLV42mhNMCYHmPcsMv2K",
+        "text": "Carol\n@carol9.dash\n·\n9h\ni do not need a whitepaper. i need a receipt. \n#econ\n1\n4",
+        "times": [
+          {
+            "tag": "TIME",
+            "title": "9/15/2026, 1:50:22 PM",
+            "datetime": "2026-09-15T13:50:22.746Z",
+            "text": "9h"
+          }
+        ]
+      },
+      {
+        "id": "4Xo4tN68bxLctiTzgfv8LeSzTsmAUjh5Uv6m8p6beYsP",
+        "text": "Gus Kowalski\n@west-gus9.dash\n·\n9h\n\nNSFW · The author flagged this post\n\nShow\n4",
+        "times": [
+          {
+            "tag": "TIME",
+            "title": "9/15/2026, 1:49:55 PM",
+            "datetime": "2026-09-15T13:49:55.103Z",
+            "text": "9h"
+          }
+        ]
+      },
+      {
+        "id": "47siV2hYg3qgPmzjfXfSNtHbY5CNc2epHx4cKqHQcrba",
+        "text": "Fatima Fontaine\n@fatimaf39.dash\n·\n9h\ndeload week. i feel weak and rested and suspicious of both \n#dash\n2\n4",
+        "times": [
+          {
+            "tag": "TIME",
+            "title": "9/15/2026, 1:44:40 PM",
+            "datetime": "2026-09-15T13:44:40.531Z",
+            "text": "9h"
+          }
+        ]
+      },
+      {
+        "id": "3BGyJxqxKiku7K7idDyjP8tDLrS9JpA4R5Jfp1bcd9PB",
+        "text": "Dr. Ingrid\n@ingrid1988.dash\n·\n9h\nbenchmark day. everything is faster except the thing we changed\n2\n4",
+        "times": [
+          {
+            "tag": "TIME",
+            "title": "9/15/2026, 1:40:38 PM",
+            "datetime": "2026-09-15T13:40:38.498Z",
+            "text": "9h"
+          }
+        ]
+      },
+      {
+        "id": "YRZwuYZyqh7imA8WWFGtuGXm38PxdBrgpJH6MP4vfza",
+        "text": "Gus Kowalski\n@west-gus9.dash\n·\n9h\nTorrada, a flat white, and a newspaper someone left behind. Total 90. Some mornings the city hands you the good life\n\nMedia from someone you don't follow\n\nShow\n1\n4",
+        "times": [
+          {
+            "tag": "TIME",
+            "title": "9/15/2026, 1:44:36 PM",
+            "datetime": "2026-09-15T13:44:36.535Z",
+            "text": "9h"
+          }
+        ]
+      },
+      {
+        "id": "JDsyh9e55yV6naa9ntYqhTqdpdiABF6hnicRbCwWmugK",
+        "text": "Teodora Pereira\n@sleepteodora6.dash\n·\n9h\nthe four-year-old has declared crackers \"spicy\". it is toast.\n1\n3",
+        "times": [
+          {
+            "tag": "TIME",
+            "title": "9/15/2026, 1:46:38 PM",
+            "datetime": "2026-09-15T13:46:38.581Z",
+            "text": "9h"
+          }
+        ]
+      },
+      {
+        "id": "HWRpm5BQGjncwdy6Qrqr8vkiuCDMLZq2anWeR9tT3Fhw",
+        "text": "Dr. Sigrid\n@sigrid-lund7.dash\n·\n9h\nmade leftover pizza at 3am and called it dinner. adulthood\n3",
+        "times": [
+          {
+            "tag": "TIME",
+            "title": "9/15/2026, 1:46:39 PM",
+            "datetime": "2026-09-15T13:46:39.623Z",
+            "text": "9h"
+          }
+        ]
+      },
+      {
+        "id": "FyvVNdMccuT2fRGQSGVKVsidZrWaEgW19UHSUgXp5bGK",
+        "text": "Amir López\n@tailgatiamir9.dash\n·\n9h\nfantasy update: i am 3th in my own league. i am the commissioner. \n#football\n2\n1\n3",
+        "times": [
+          {
+            "tag": "TIME",
+            "title": "9/15/2026, 1:43:56 PM",
+            "datetime": "2026-09-15T13:43:56.958Z",
+            "text": "9h"
+          }
+        ]
+      },
+      {
+        "id": "Ehg3Jh8V88WJ66cxDJeURgsvM8iQt8i13y16XYra2y43",
+        "text": "Mei López\n@tea-mei3.dash\n·\n9h\na reminder that \"it depends\" is a complete scientific answer\n1\n3",
+        "times": [
+          {
+            "tag": "TIME",
+            "title": "9/15/2026, 1:45:06 PM",
+            "datetime": "2026-09-15T13:45:06.228Z",
+            "text": "9h"
+          }
+        ]
+      }
+    ],
+    "scrollY": 1973
+  }
+}
