@@ -1,0 +1,26 @@
+[
+  {
+    "label": "before",
+    "revision": "4105c5d1c914f5d0838619da93c3b8d28b4a780e",
+    "url": "http://127.0.0.1:3211/devnet/embed/",
+    "http": 200,
+    "text": "Loading post...",
+    "fixture": "No post query; external HTTPS aborted to simulate unavailable Platform",
+    "viewport": {
+      "width": 900,
+      "height": 550
+    }
+  },
+  {
+    "label": "after",
+    "revision": "d7705672eb22c783fb05f19917319ded12a10cf6",
+    "url": "http://127.0.0.1:4176/devnet/embed/",
+    "http": 200,
+    "text": "Post unavailable\n\nThis embed link is missing its post.\n\nBrowse blogs on Yappr",
+    "fixture": "No post query; external HTTPS aborted to simulate unavailable Platform",
+    "viewport": {
+      "width": 900,
+      "height": 550
+    }
+  }
+]

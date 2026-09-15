@@ -1,0 +1,21 @@
+{
+  "before": {
+    "revision": "4105c5d1c914f5d0838619da93c3b8d28b4a780e",
+    "policy": "default-src 'self'; script-src 'self' 'unsafe-eval' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; img-src 'self' data: https: blob:; font-src 'self' https://fonts.gstatic.com; connect-src 'self' https: wss: https://44.240.98.102:1443; worker-src 'self' blob:; child-src 'self' blob:; media-src 'self' https: blob:; frame-src 'self' blob: https://www.youtube-nocookie.com https://www.youtube.com",
+    "observed": {
+      "outcome": "blocked",
+      "effectiveDirective": "script-src-elem",
+      "blockedURI": "https://static.cloudflareinsights.com/beacon.min.js",
+      "disposition": "enforce"
+    }
+  },
+  "after": {
+    "revision": "8af4ed40d8ff8e7f2e1f99c1312ff6b0adf44444",
+    "policy": "default-src 'self'; script-src 'self' 'unsafe-eval' 'unsafe-inline' https://static.cloudflareinsights.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; img-src 'self' data: https: blob:; font-src 'self' https://fonts.gstatic.com; connect-src 'self' https: wss: https://44.240.98.102:1443; worker-src 'self' blob:; child-src 'self' blob:; media-src 'self' https: blob:; frame-src 'self' blob: https://www.youtube-nocookie.com https://www.youtube.com",
+    "observed": {
+      "outcome": "loaded",
+      "event": "HTMLScriptElement load",
+      "src": "https://static.cloudflareinsights.com/beacon.min.js"
+    }
+  }
+}
