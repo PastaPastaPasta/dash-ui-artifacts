@@ -1,0 +1,14 @@
+{
+  "comparison/before/malformed-profile.png": {
+    "bytes": 164621,
+    "sha256": "c269a35f7a22c5e2eb375f4bdee1aed9e4f9dfc684aa7d5b96315dfb7b55687a"
+  },
+  "comparison/after/malformed-profile.png": {
+    "bytes": 75140,
+    "sha256": "91333ea12af4720c1a2f887c37469f52821d88e6ab8a818b15c5a362524d8908"
+  },
+  "README.md": {
+    "bytes": 1755,
+    "sha256": "6a14724ed5cf0b498890318bb2fdf9803ed5e3b430f9e77a967d588fd02f988a"
+  }
+}
