@@ -1,0 +1,85 @@
+{
+  "state": "after",
+  "revision": "b859758af3926c76fba47a5dd149ff30ce8b7a5c",
+  "identityId": "9NFhqxW8upkFMVTE5h5VmYWLdSEJ26B2iMKdhCFgsWkd",
+  "desktop": {
+    "width": 1440,
+    "height": 1200
+  },
+  "checks": [
+    {
+      "name": "desktop Escape",
+      "focused": true,
+      "active": {
+        "tag": "BUTTON",
+        "id": "",
+        "text": "Create Blog"
+      }
+    },
+    {
+      "name": "desktop Cancel",
+      "focused": true,
+      "active": {
+        "tag": "BUTTON",
+        "id": "",
+        "text": "Create Blog"
+      }
+    },
+    {
+      "name": "desktop Close",
+      "focused": true,
+      "active": {
+        "tag": "BUTTON",
+        "id": "",
+        "text": "Create Blog"
+      }
+    },
+    {
+      "name": "desktop Overlay",
+      "focused": true,
+      "active": {
+        "tag": "BUTTON",
+        "id": "",
+        "text": "Create Blog"
+      }
+    },
+    {
+      "name": "mobile Escape",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "focused": true,
+      "active": {
+        "tag": "BUTTON",
+        "id": "",
+        "text": "Create Blog"
+      }
+    },
+    {
+      "name": "mobile Escape",
+      "viewport": {
+        "width": 320,
+        "height": 740
+      },
+      "focused": true,
+      "active": {
+        "tag": "BUTTON",
+        "id": "",
+        "text": "Create Blog"
+      }
+    }
+  ],
+  "compiledHash": "b859758a",
+  "trappedTabCount": 12,
+  "clip": {
+    "x": 341,
+    "y": 109,
+    "width": 682,
+    "height": 56
+  },
+  "keyboardReopensWithoutRefocus": true,
+  "noFormValuesEntered": true,
+  "noCreateSubmitted": true,
+  "success": true
+}

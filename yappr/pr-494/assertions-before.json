@@ -1,0 +1,84 @@
+{
+  "state": "before",
+  "revision": "cf0efbc10b8757137063113ebbd2061e8b87d8f7",
+  "identityId": "9NFhqxW8upkFMVTE5h5VmYWLdSEJ26B2iMKdhCFgsWkd",
+  "desktop": {
+    "width": 1440,
+    "height": 1200
+  },
+  "checks": [
+    {
+      "name": "desktop Escape",
+      "focused": false,
+      "active": {
+        "tag": "BODY",
+        "id": "",
+        "text": ""
+      }
+    },
+    {
+      "name": "desktop Cancel",
+      "focused": false,
+      "active": {
+        "tag": "BODY",
+        "id": "",
+        "text": ""
+      }
+    },
+    {
+      "name": "desktop Close",
+      "focused": false,
+      "active": {
+        "tag": "BODY",
+        "id": "",
+        "text": ""
+      }
+    },
+    {
+      "name": "desktop Overlay",
+      "focused": false,
+      "active": {
+        "tag": "BODY",
+        "id": "",
+        "text": ""
+      }
+    },
+    {
+      "name": "mobile Escape",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "focused": false,
+      "active": {
+        "tag": "BODY",
+        "id": "",
+        "text": ""
+      }
+    },
+    {
+      "name": "mobile Escape",
+      "viewport": {
+        "width": 320,
+        "height": 740
+      },
+      "focused": false,
+      "active": {
+        "tag": "BODY",
+        "id": "",
+        "text": ""
+      }
+    }
+  ],
+  "compiledHash": "cf0efbc1",
+  "trappedTabCount": 12,
+  "clip": {
+    "x": 341,
+    "y": 109,
+    "width": 682,
+    "height": 56
+  },
+  "noFormValuesEntered": true,
+  "noCreateSubmitted": true,
+  "success": true
+}

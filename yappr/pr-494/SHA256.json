@@ -1,0 +1,42 @@
+{
+  "EVIDENCE_MATRIX.md": {
+    "size": 1122,
+    "sha256": "33540fc3375fbb1d09737b2b4fde38ebbde4eff7862747aad5ab9893be033844"
+  },
+  "assertions-before.json": {
+    "size": 1509,
+    "sha256": "2dfc9c7fb5779d359c6c68fac3ebcb612a59a0c95d13a02abcbed8def790d152"
+  },
+  "assertions-after.json": {
+    "size": 1621,
+    "sha256": "241e6d1120e8d683bc79048381f4d622cc409ad1f6a430ab9c883c14196bd7c8"
+  },
+  "before-open.png": {
+    "size": 166894,
+    "sha256": "ff6aa3583eb7c464d443e267ad004649787626477ffbaa83f773ac053ea82254"
+  },
+  "before-escape-overview.png": {
+    "size": 196128,
+    "sha256": "135466854d6315aef69cb41ecc74f677998eeb3bce205007133fee365cb4d7f6"
+  },
+  "before-escape-focus.png": {
+    "size": 6638,
+    "sha256": "dfdd48f3ba4c9a645bacaeceb8cc310cb132468ed1486943f670a593ac2f4862"
+  },
+  "after-open.png": {
+    "size": 166894,
+    "sha256": "ff6aa3583eb7c464d443e267ad004649787626477ffbaa83f773ac053ea82254"
+  },
+  "after-escape-overview.png": {
+    "size": 196593,
+    "sha256": "f33733c8ed689505d1350fe2a0adb8f9115ea22cc229c29e868ac537bbffdf1f"
+  },
+  "after-escape-focus.png": {
+    "size": 7169,
+    "sha256": "baaeba82d33393a971b00acdfa4cb9cdb535e2660b19008eb612ff3fd77b6f4f"
+  },
+  "README.md": {
+    "size": 2976,
+    "sha256": "b123bcd8bf15d74c390b0b85495806fda8b73b7c88a0c6edbb7f54301ad63334"
+  }
+}
