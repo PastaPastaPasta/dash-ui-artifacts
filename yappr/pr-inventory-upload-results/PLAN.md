@@ -1,0 +1,4 @@
+| Claim | Before | After | Fixture | Visible delta |
+|---|---|---|---|---|
+| Failed CSV uploads keep completion/errors available | cf0efbc10b8757137063113ebbd2061e8b87d8f7 | ad1af47f7bd977834e6758365aa3828c85f6d4e0 | Merchant62 storeCP3dEXrdMEbbiFNHakoRkC86DonfVftuzUyaY4ngrnQb, both Inventory and Manage routes; one harmless zero-price row, Chromium offline after preview | Base returns silently to inventory; head shows0/1 UploadComplete and error until Done |
+Independent committed production devnet builds, unchanged static adapter, same1280×900viewport/theme/session fixture. No response/body/DOM mocks. Offline failure creates no product. A separate successful head upload of one disposable zero-price product on each route verifies refresh leaves result open; exact IDs retained for cleanup. No payment.

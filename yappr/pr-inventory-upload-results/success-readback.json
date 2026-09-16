@@ -1,0 +1,16 @@
+{
+  "revision": "ad1af47f7bd977834e6758365aa3828c85f6d4e0",
+  "passed": true,
+  "bothActualProductsVisibleInFreshInventory": true,
+  "items": [
+    {
+      "id": "AnUnxLK1UgWCarrxV9aabGdKG8UsFXwQBXaFDdqx7Qmp",
+      "title": "QA117 Successful manage"
+    },
+    {
+      "id": "2j26J7FfWDtFDntxs9rPLgQ6rx1QNEGwHL35rKdigNSL",
+      "title": "QA117 Successful inventory"
+    }
+  ],
+  "limitation": "Manage displays oldest100; successful new item absent there is separately tracked QA122. Summary/Done and underlying writes passed; initial harness incorrectly demanded beyond100 item in capped Manage list."
+}

@@ -1,0 +1,27 @@
+{
+  "revision": "ad1af47f7bd977834e6758365aa3828c85f6d4e0",
+  "base": "http://127.0.0.1:4317/devnet",
+  "checks": [
+    {
+      "route": "inventory",
+      "result": "Upload Inventory\n\nChoose a CSV file, review its products, and upload them to your inventory.\n\nUpload Complete\n\nSuccessfully uploaded 0 of 1 items\n\n1 item failed to upload:\n\nQA117 Offline No Write: transport error: grpc error: code: 'Internal error', message: \"Failed to call gRPC service: JS API error: TypeError: Failed to fetch\"\nDone"
+    },
+    {
+      "route": "inventory",
+      "successRetained": true
+    },
+    {
+      "route": "inventory",
+      "freshSuccessReadback": true
+    },
+    {
+      "route": "manage",
+      "result": "Upload Inventory\n\nChoose a CSV file, review its products, and upload them to your inventory.\n\nUpload Complete\n\nSuccessfully uploaded 0 of 1 items\n\n1 item failed to upload:\n\nQA117 Offline No Write: transport error: grpc error: code: 'Internal error', message: \"Failed to call gRPC service: JS API error: TypeError: Failed to fetch\"\nDone"
+    },
+    {
+      "route": "manage",
+      "successRetained": true
+    }
+  ],
+  "error": "Error: expect(locator).toBeVisible() failed\n\nLocator: getByText('QA117 Successful manage', { exact: true })\nExpected: visible\nTimeout: 90000ms\nError: element(s) not found\n\nCall log:\n  - Expect \"to.be.visible\" with timeout 90000ms\n  - waiting for getByText('QA117 Successful manage', { exact: true })\n"
+}
