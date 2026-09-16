@@ -1,0 +1,20 @@
+[
+  {
+    "label": "before",
+    "revision": "cf0efbc10b8757137063113ebbd2061e8b87d8f7",
+    "expectedFailureExitCode": 1,
+    "retainedTraceCount": 1,
+    "harmlessMarkerRecordedInTrace": true,
+    "screenshotCount": 1,
+    "fixture": "Harmless data URL; public marker only; no credential environment forwarded; no real accounts"
+  },
+  {
+    "label": "after",
+    "revision": "d1f204d050a97a793d3832978f4e60eb012987f3",
+    "expectedFailureExitCode": 1,
+    "retainedTraceCount": 0,
+    "harmlessMarkerRecordedInTrace": false,
+    "screenshotCount": 1,
+    "fixture": "Harmless data URL; public marker only; no credential environment forwarded; no real accounts"
+  }
+]
