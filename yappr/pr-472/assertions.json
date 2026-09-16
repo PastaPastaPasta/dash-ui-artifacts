@@ -1,0 +1,154 @@
+{
+  "fixture": {
+    "identityId": "CNARhSLcQRfdxLZXTrvDVtVGKg1RHXjwJTpGSd2DXLGw",
+    "blogId": "BdMQRKM6xT8jx4bKbkhP3wYo7V835pDjcEWTbN5PMNRU",
+    "name": "QA exhaustive blog 20260915 p64",
+    "avatarUrl": "https://yap.pr/yappr.png",
+    "login": "Normal registered authentication key 2 UI login; no injected state"
+  },
+  "variants": [
+    {
+      "state": "before",
+      "view": "desktop",
+      "viewport": {
+        "width": 1280,
+        "height": 1100
+      },
+      "revision": "c98a6ecd7e26ae5bc9fc8e400e6011eb8465b3a0",
+      "checks": [
+        "Actual pointer click blocked by clipped control; avatar stays unchanged",
+        "Enter bubbles upload handler and navigates away to Settings",
+        "Fresh page readback restores original avatar and exact metadata; no Save or persistent mutation"
+      ],
+      "compiledRevisionVerified": true,
+      "initialMetadata": {
+        "name": "QA exhaustive blog 20260915 p64",
+        "description": "Dedicated devnet QA fixture. Retained because normal UI does not expose blog/article deletion.",
+        "labels": [
+          "QA Alpha",
+          "QA New"
+        ],
+        "avatar": "https://yap.pr/yappr.png"
+      },
+      "removeHit": {
+        "box": {
+          "x": 557.5,
+          "y": 550,
+          "width": 28,
+          "height": 28
+        },
+        "receivesPointer": false
+      },
+      "keyboardDestination": "http://localhost:3260/devnet/settings/",
+      "success": true
+    },
+    {
+      "state": "before",
+      "view": "mobile",
+      "viewport": {
+        "width": 390,
+        "height": 960
+      },
+      "revision": "c98a6ecd7e26ae5bc9fc8e400e6011eb8465b3a0",
+      "checks": [
+        "Actual pointer click blocked by clipped control; avatar stays unchanged",
+        "Enter bubbles upload handler and navigates away to Settings",
+        "Fresh page readback restores original avatar and exact metadata; no Save or persistent mutation"
+      ],
+      "compiledRevisionVerified": true,
+      "initialMetadata": {
+        "name": "QA exhaustive blog 20260915 p64",
+        "description": "Dedicated devnet QA fixture. Retained because normal UI does not expose blog/article deletion.",
+        "labels": [
+          "QA Alpha",
+          "QA New"
+        ],
+        "avatar": "https://yap.pr/yappr.png"
+      },
+      "removeHit": {
+        "box": {
+          "x": 316,
+          "y": 562,
+          "width": 28,
+          "height": 28
+        },
+        "receivesPointer": false
+      },
+      "keyboardDestination": "http://localhost:3260/devnet/settings/",
+      "success": true
+    },
+    {
+      "state": "after",
+      "view": "desktop",
+      "viewport": {
+        "width": 1280,
+        "height": 1100
+      },
+      "revision": "1f3074b1ea3167f9ca55e57f47afd84205998756",
+      "checks": [
+        "Pointer Remove clears unsaved preview without leaving blog",
+        "Enter clears only unsaved avatar and remains on blog",
+        "Fresh page readback restores original avatar and exact metadata; no Save or persistent mutation",
+        "Space also clears only draft; fresh readback remains unchanged"
+      ],
+      "compiledRevisionVerified": true,
+      "initialMetadata": {
+        "name": "QA exhaustive blog 20260915 p64",
+        "description": "Dedicated devnet QA fixture. Retained because normal UI does not expose blog/article deletion.",
+        "labels": [
+          "QA Alpha",
+          "QA New"
+        ],
+        "avatar": "https://yap.pr/yappr.png"
+      },
+      "removeHit": {
+        "box": {
+          "x": 558.5,
+          "y": 549,
+          "width": 28,
+          "height": 28
+        },
+        "receivesPointer": true
+      },
+      "keyboardDestination": "http://localhost:3300/devnet/blog/",
+      "success": true
+    },
+    {
+      "state": "after",
+      "view": "mobile",
+      "viewport": {
+        "width": 390,
+        "height": 960
+      },
+      "revision": "1f3074b1ea3167f9ca55e57f47afd84205998756",
+      "checks": [
+        "Pointer Remove clears unsaved preview without leaving blog",
+        "Enter clears only unsaved avatar and remains on blog",
+        "Fresh page readback restores original avatar and exact metadata; no Save or persistent mutation",
+        "Space also clears only draft; fresh readback remains unchanged"
+      ],
+      "compiledRevisionVerified": true,
+      "initialMetadata": {
+        "name": "QA exhaustive blog 20260915 p64",
+        "description": "Dedicated devnet QA fixture. Retained because normal UI does not expose blog/article deletion.",
+        "labels": [
+          "QA Alpha",
+          "QA New"
+        ],
+        "avatar": "https://yap.pr/yappr.png"
+      },
+      "removeHit": {
+        "box": {
+          "x": 317,
+          "y": 561,
+          "width": 28,
+          "height": 28
+        },
+        "receivesPointer": true
+      },
+      "keyboardDestination": "http://localhost:3300/devnet/blog/",
+      "success": true
+    }
+  ],
+  "success": true
+}
