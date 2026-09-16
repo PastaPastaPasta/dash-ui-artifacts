@@ -1,14 +1,14 @@
 # Yappr #509 — refuse unsupported private-feed resets before mutation
 
-Exact historical staging base `cf0efbc10b8757137063113ebbd2061e8b87d8f7`; full signed PR head `14217bea918e4676cd8e4c0c13d059561295c4d2`. Separate production devnet exports, compiled hashes checked in Settings About, served at3288/3299 with identical root/subpath asset mapping. Fresh Chromium contexts, light theme, en-US, America/Chicago, scale1; desktop1440×1200, mobile390×844 and320×800. Same synthetic owner61 `8yBzzwur8s7BirZDX1yq3NCkv3HM3cgjsL3PZVjeVdSd` / `codes-esperanza7`, normal authentication-key2 sign-in. No state injection, network mocks, or credential artifacts.
+Exact historical staging base `cf0efbc10b8757137063113ebbd2061e8b87d8f7`; full signed PR head `14217bea918e4676cd8e4c0c13d059561295c4d2`. Separate production devnet exports, compiled hashes checked in Settings About, served at ports 3288/3299 with identical root/subpath asset mapping. Fresh Chromium contexts, light theme, en-US, America/Chicago, scale 1; desktop 1440×1200, mobile 390×844 and 320×800. Same synthetic owner 61 `8yBzzwur8s7BirZDX1yq3NCkv3HM3cgjsL3PZVjeVdSd` / `codes-esperanza7`, normal authentication-key 2 sign-in. No state injection, network mocks, or credential artifacts.
 
 ## Confirmed problem and scope
 
 The live devnet social contract `CdUkSHkQwGXXAkzKqrcrjUWLsj7qErK9XAZmLzJEhirU` v1 declares `privateFeedState.documentsMutable=false`, `canBeDeleted=false`, and a unique owner index. The old Reset path deletes grants and rekeys before attempting an unsupported replacement of that owner state. A batch API cannot make the forbidden replacement/deletion valid.
 
-During the earlier QA82 empty-feed cycle at `471094556c8d5d9457676f205dfe4df2a0742117`, normal approval/revocation produced epoch2 / one revocation. Reset then failed, and a fresh UI read showed epoch1 / zero revocations. The state-replacement error was recorded from the real dialog. That reset implementation is byte-identical to this PR's exact cf0 base (source blob `cbee470b875397a2dc829dcf8c440008803455e7`). The earlier [revoke comparison](https://github.com/PastaPastaPasta/dash-ui-artifacts/blob/c54f0d4f7baf2dcbd14207a19a61116e324c6838/yappr/pr-493/README.md) explicitly excludes reset success. No populated-feed data-loss experiment was performed: this owner had no grants or private posts before reset. The ordinary residual request/follow were later removed through the UI.
+During the earlier QA82 empty-feed cycle at `471094556c8d5d9457676f205dfe4df2a0742117`, normal approval/revocation produced epoch 2 / one revocation. Reset then failed, and a fresh UI read showed epoch 1 / zero revocations. The state-replacement error was recorded from the real dialog. That reset implementation is byte-identical to this PR's exact cf0 base (source blob `cbee470b875397a2dc829dcf8c440008803455e7`). The earlier [revoke comparison](https://github.com/PastaPastaPasta/dash-ui-artifacts/blob/c54f0d4f7baf2dcbd14207a19a61116e324c6838/yappr/pr-493/README.md) explicitly excludes reset success. No populated-feed data-loss experiment was performed: this owner had no grants or private posts before reset. The ordinary residual request/follow were later removed through the UI.
 
-For this exact-base comparison, fresh read-only checks confirmed zero grants, zero rekeys and zero private posts, with78 public seed posts. One authorized controlled empty retry reproduced the real error below. The screenshot captures only the error element; its bounds were checked not to intersect any populated secret input. No credential or populated secret field is shown.
+For this exact-base comparison, fresh read-only checks confirmed zero grants, zero rekeys and zero private posts, with 78 public seed posts. One authorized controlled empty retry reproduced the real error below. The screenshot captures only the error element; its bounds were checked not to intersect any populated secret input. No credential or populated secret field is shown.
 
 ![Actual immutable-state error after normal empty-feed reset](comparison/before/actual-error.png)
 
@@ -34,7 +34,7 @@ The before form is empty for privacy; the separate error capture above proves th
 |---|---|
 | ![Before claims a new-key reset is available](comparison/before/lost-key.png) | ![After directs owner to original key](comparison/after/lost-key.png) |
 
-The existing “I Found My Key” path returns to manual key entry and Skip closes it. The help-to-settings navigation correction is separate PR#482; these screenshots inspect the help content, not that destination callback. The direct `/devnet/settings/?section=privateFeed&action=reset` route was independently opened on this head and displayed only safe information.
+The existing “I Found My Key” path returns to manual key entry and Skip closes it. The help-to-settings navigation correction is separate PR #482; these screenshots inspect the help content, not that destination callback. The direct `/devnet/settings/?section=privateFeed&action=reset` route was independently opened on this head and displayed only safe information.
 
 ## Mobile
 
@@ -52,11 +52,11 @@ Normal manual entry of the registered original encryption key still succeeds and
 
 ![Original key saved after normal manual recovery](comparison/after/original-key-recovery.png)
 
-No private-post decryption claim is made for this empty fixture. The three read-only snapshots — before the controlled empty retry, after that retry, and after the fixed UI plus original-key entry — have identical document inventories. Private-feed state `CVcE2hV6s1XAZGRnPeaZKZrWjSCedmQ5XPCSEyco6wNu`, revision1, retains SHA-256 `802eec4f6002b8e1ab757c960dfa056a5e09af7eeac2dbe7ae191b88301f2681`; grants/rekeys/private-post counts stay0, and all78 public-post IDs match. See `metadata-verification.json` and the three snapshots.
+No private-post decryption claim is made for this empty fixture. The three read-only snapshots — before the controlled empty retry, after that retry, and after the fixed UI plus original-key entry — have identical document inventories. Private-feed state `CVcE2hV6s1XAZGRnPeaZKZrWjSCedmQ5XPCSEyco6wNu`, revision 1, retains SHA-256 `802eec4f6002b8e1ab757c960dfa056a5e09af7eeac2dbe7ae191b88301f2681`; grants/rekeys/private-post counts stay 0, and all 78 public-post IDs match. See `metadata-verification.json` and the three snapshots.
 
 Targeted ESLint, full TypeScript, production devnet build, and independent source review passed. The offline no-writes regression fails against the exact base after its mocked grant/rekey deletion calls; it passes on the head and asserts no delete/update/create or local-key clearing/reinitialization. The live head checks cover informational dialog dismissal, direct reset-query navigation, desktop/mobile text, no secret inputs, and successful original-key Save plus reload.
 
-All12 final PNGs were inspected at original resolution. Early captures during dialog animation were discarded and replaced after both animation and statistics loading settled. Native element captures are not resized or annotated. The earlier cleared-input screenshot that lost its inline error is not included; the authoritative error-only capture above preserves the actual displayed error.
+All 12 final PNGs were inspected at original resolution. Early captures during dialog animation were discarded and replaced after both animation and statistics loading settled. Native element captures are not resized or annotated. The earlier cleared-input screenshot that lost its inline error is not included; the authoritative error-only capture above preserves the actual displayed error.
 
 Integration: this removes the reset-form portion of #483's labels while keeping its Enable-label fix useful, and removes #493's reset callback while its Enable/Revoke refresh remains useful. Those removals follow from the unsupported reset feature being disabled.
 
