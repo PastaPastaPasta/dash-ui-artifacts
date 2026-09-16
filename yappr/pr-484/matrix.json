@@ -1,0 +1,8 @@
+{
+  "surface": "Top feed refresh after transport returns online",
+  "base": "733faf53cd893cba861476a4af75b442ed67ca72",
+  "head": "80f03385b49f4c7bac7823e233ec1df8a8e0e90c",
+  "shared": "devnet public Top All time, guest, 1440x1000 light en-US America/Chicago",
+  "expected": "Before remains empty after reconnect/Refresh; after restores ranked posts in same page/session",
+  "injection": "None; Playwright browser transport offline/online only"
+}
