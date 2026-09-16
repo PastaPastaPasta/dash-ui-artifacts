@@ -78,5 +78,13 @@
       "url": "http://127.0.0.1:3320/"
     }
   ],
-  "cleanup": "All guest contexts closed; no credentials entered or wallet approval attempted. Screenshots were delayed until no-response state to avoid publishing ephemeral request QR codes."
+  "cleanup": "All guest contexts closed; no credentials entered or wallet approval attempted. Screenshots were delayed until no-response state to avoid publishing ephemeral request QR codes.",
+  "devnetAfterRecapture": {
+    "at": "2026-09-16T04:41:05.778Z",
+    "head": "88a64b8c18a75907f15c0f054a5dde44ac410cb4",
+    "reason": "Capture server now serves the same root logo assets as live staging; previous missing logo was capture-host configuration, not a product defect.",
+    "dialogsAfterClose": 0,
+    "url": "http://127.0.0.1:3296/devnet/",
+    "logoNaturalWidth": 1584
+  }
 }

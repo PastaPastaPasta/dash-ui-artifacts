@@ -7,7 +7,7 @@ Clicking **Close** on the login route previously reopened the sign-in dialog. Th
 | Before — frozen staging base | `cf0efbc10b8757137063113ebbd2061e8b87d8f7` |
 | After — full PR head | `88a64b8c18a75907f15c0f054a5dde44ac410cb4` |
 
-Both revisions were built independently as static production exports with the same devnet environment; the root-path build still connects to devnet. Fresh unauthenticated Chromium contexts, 1280×1000 viewport, light theme. No identity, credential, or wallet approval was used. Screenshots show the state **after clicking Close**. Before captures wait for the real 120-second wallet no-response state so no ephemeral request QR is published; after captures were delayed during the same run. Live home statistics can change independently of this fix.
+Both revisions were built independently as static production exports with the same devnet environment; the root-path build still connects to devnet. Fresh unauthenticated Chromium contexts, 1280×1000 viewport, light theme. No identity, credential, or wallet approval was used. Screenshots show the state **after clicking Close**. Before captures wait for the real 120-second wallet no-response state so no ephemeral request QR is published; root after capture was delayed during the same run. The devnet after image was recaptured against the identical build after matching the live host's root logo asset routes. Live home statistics can change independently of this fix.
 
 ## Devnet deployment
 
@@ -15,7 +15,7 @@ Both revisions were built independently as static production exports with the sa
 | --- | --- |
 | ![Sign-in remains open after Close](before/devnet-after-close.png) | ![Close returns to devnet home with no dialog](after/devnet-after-close.png) |
 
-The existing missing landing-page logo in the devnet path is unrelated to this change and is tracked separately. It is not repaired or hidden in this evidence.
+The original evidence commit `65ea18fdfb689dc319e2834d5ab6d5e1f15e10c9` had an unrelated missing logo caused by the local capture server rejecting the root `/pbde-light.png` path. Real staging and the frozen comparison server both serve that asset successfully. This image supersedes that capture after the local server was configured to match those asset routes; application source and head revision are unchanged. See [recapture procedure](recapture.cjs).
 
 ## Root deployment
 
