@@ -1,0 +1,9 @@
+
+Running 2 tests using 1 worker
+
+(node:1910) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 [smoke] › e2e/smoke/sdk-offline-recovery.spec.ts:4:5 › feed reads recover after offline requests exhaust the SDK endpoint pool (4.9s)
+  ✓  2 [smoke] › e2e/smoke/sdk-offline-recovery.spec.ts:40:5 › feed reads recover from exhausted addresses while the browser stays online (5.1s)
+
+  2 passed (10.3s)

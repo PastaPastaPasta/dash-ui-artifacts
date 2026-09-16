@@ -1,0 +1,10 @@
+{
+  "base": {
+    "url": "http://127.0.0.1:3288/devnet/",
+    "buildId": "cf0efbc1"
+  },
+  "head": {
+    "url": "http://127.0.0.1:4208/devnet/",
+    "buildId": "87bdb83b"
+  }
+}

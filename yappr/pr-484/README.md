@@ -1,43 +1,23 @@
-# Yappr PR #484 — Recover SDK reads after offline endpoint exhaustion
+# Yappr PR #484 — recover exhausted SDK connections (QA77)
 
-Source PR: https://github.com/PastaPastaPasta/yappr/pull/484
+This final comparison covers both browser online recovery and the additional case where DAPI failures exhaust the SDK address pool while the browser remains online. It supersedes the earlier head-only scope. Source PR: https://github.com/PastaPastaPasta/yappr/pull/484.
 
-- Before: frozen staging base `733faf53cd893cba861476a4af75b442ed67ca72` (production BUILD_ID `733faf53`).
-- After: signed full PR head `80f03385b49f4c7bac7823e233ec1df8a8e0e90c` (production BUILD_ID `80f03385`).
-- Independent clean worktrees and production `build:devnet` exports, served with the same local static helper on ports 4203/4204. Both use the actual configured devnet backend.
-- Separate fresh Chromium contexts; 1440×1000 viewport, scale 1, light theme, en-US, America/Chicago. Public Top / All time feed, same initial 20 post IDs.
+Before exact target base: `cf0efbc10b8757137063113ebbd2061e8b87d8f7`. After full signed PR head: `87bdb83bbb98497d0f9354e6841ca067a763a8ec`. Both independent production devnet exports report their matching build IDs ([runtime readback](online-recovery/runtime-builds.json)). Chromium viewport 1440×1100, light theme, separate contexts and ordinary visible identity/WIF login. No auth/storage/DOM/SDK state injection or fabricated responses.
 
-## Visible result after connectivity returns
-
-Both sessions started with 20 ranked posts. Each received five ordinary Refresh clicks while Playwright's browser transport was offline; both reached the SDK's real `no available addresses to use` error. Transport was then restored and the ordinary Refresh button clicked, without navigating or reloading.
+Both sessions used QA identity `1R7KNEEbzqg3574bybNCTJjvctH1jFg76vNc6PsWVet` (Anika Zhang / programmanika5) and the identical single-post draft `QA77 explicit retry 2026-09-16T04:56:30.814Z`. Playwright aborted only broadcast transport requests before delivery, without inspecting or modifying payloads. The browser stayed online. The initial action failed and retained the draft in both builds. The route was explicitly removed, then both sessions waited four seconds without any broadcast. One ordinary Post retry was then clicked in each.
 
 | Before — exact base | After — full PR head |
 |---|---|
-| ![Before: online Refresh remains empty](comparison/before/reconnected.png) | ![After: online Refresh restores ranked posts](comparison/after/reconnected.png) |
+| ![Retry still reports Platform unavailable and retains the draft](online-recovery/before-retry-detail.png) | ![Explicit retry succeeds and closes the composer](online-recovery/after-retry-detail.png) |
 
-Before stayed at zero posts and emitted no backend request for that online Refresh. After made seven backend requests and restored the same 20 post IDs. The screenshot demonstrates the visible empty-versus-restored state; connectivity, request counts and IDs are documented in the JSON measurements. A subsequent full reload of the baseline restored those same 20 IDs, providing a working-backend control.
+These matching detail crops come from inspected full originals: [before](online-recovery/before-online-retry.png), [after](online-recovery/after-online-retry.png). No reload, navigation or online event occurred before either retry result. The baseline sent no new broadcast after restoration and again reported unavailable. The fixed build delivered exactly one broadcast after the explicit retry and showed “Post created successfully!”.
 
-## Matching healthy starting state
+The existing post retry layer and SDK endpoint failover are unchanged: the initial failed action attempted five blocked transport requests in the baseline and nine in the fixed build. The observer itself calls no operation again; its regression tests verify one rejected broadcast remains rejected and is not repeated, even when recovery fails. Do not interpret the fault-injection attempt counts as duplicate delivered posts: every initial request was blocked before delivery.
 
-| Before — exact base | After — full PR head |
-|---|---|
-| ![Before: healthy initial feed](comparison/before/ready.png) | ![After: healthy initial feed](comparison/after/ready.png) |
+An independent SDK read found exactly one matching post `oLAscppjFhBsks9otKJ3PaQZEFGAx14HMcRjLUMDXe3` ([public readback](online-recovery/published-readback.json)). The profile does not refresh its list after successful publication, an independent defect tracked as QA147; therefore the [persisted post screenshot](online-recovery/after-post-readback.png) was captured after reload and is explicitly separate from the no-reload retry-success pair. No claim about profile freshness is made for this patch. [UI/transport assertions](online-recovery/live-test.json) and [evidence matrix](online-recovery/matrix.md) provide the full sequence.
 
-No application state, DOM, SDK internals, service results, or HTTP responses were injected. Only browser transport connectivity was changed. The content is the existing seeded devnet dataset. No state-transition writes were performed by this check. These are final unmodified screenshots, each inspected at original resolution.
+The owner then deleted the post through the ordinary UI. A fresh UI load showed the tombstone; an independent [cleanup readback](online-recovery/cleanup-readback.json) confirms revision 2, deleted=true and empty content. Two earlier screenshot-setup trials also left only confirmed tombstones; their public IDs are recorded in the ledger. There are no live test posts from this check.
 
-## Compatibility and validation
+Validation: 277 unit tests, lint, full application/E2E TypeScript, production devnet build, independent code-review-validator and code-simplifier review passed. Both final real-browser smoke tests passed ([log](online-recovery/head-e2e.log)): offline→online feed recovery and address exhaustion while remaining online. Additional unit controls cover query-only recovery, concurrent read/write failures sharing a single rebuild, stale-instance failures, validation-error no-rebuild, unchanged synchronous/stream returns, retained original rejection, and no write replay by the observer. The wrapper covers SDK facades; direct raw-WASM calls remain outside this observer. The client fix does not establish a Dash Platform or GroveDB defect.
 
-- An additional normal login with existing QA identity `VQpFJTzQqdTzMQQcJmKhARpXBE5f9GjwRZ8UMCY2stW` (@hamzak78) repeated the five offline Refreshes and online Refresh. The same 20 posts returned; the Profile link still targeted the same identity and no Sign In prompt returned. No credentials are included.
-- 238 unit tests, lint, full application TypeScript, E2E TypeScript, and production devnet build passed. Seven focused unit tests use mocked SDK/React hooks to cover concurrent readers, failed bootstrap/recovery, retained configuration, shared error-recovery backoff, stale provider completions, and stable readiness. Those mocks are unit-test coverage, not browser evidence.
-- The same real-browser smoke regression failed on the frozen base at the recovered-list assertion and passed on the final head; neither run skipped. This claim covers that targeted regression, not the full devnet E2E suite.
-- Independent code-review-validator/code-simplifier review approved the final change. Bootstrap readiness stays true after startup so reconnect does not retrigger form population; the service gates readers while its SDK is rebuilt.
-- This identifies a client/session recovery problem. It does not establish a Dash Platform or GroveDB defect. The change rebuilds connectivity; it does not replay writes.
-
-## Measurements
-
-- [Before and reload-control measurements](before-results.json)
-- [After measurements](after-results.json)
-- [Authenticated compatibility measurements](authenticated-results.json)
-- [Evidence matrix](matrix.json)
-- [Baseline E2E failure](base-e2e.log) / [head E2E pass](head-e2e.log)
-- [SHA-256 manifest](SHA256SUMS)
+All final images were opened at original resolution before publication. Earlier offline guest/authenticated 20-post comparisons remain available as explicitly historical evidence at [base733faf53/head80f03385](https://github.com/PastaPastaPasta/dash-ui-artifacts/blob/dcb166962601ecf68878b51ae872dd110620aa47/yappr/pr-484/README.md); they are not the final-head comparison.

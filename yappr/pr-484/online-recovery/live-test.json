@@ -1,0 +1,217 @@
+{
+  "base": "cf0efbc10b8757137063113ebbd2061e8b87d8f7",
+  "head": "87bdb83bbb98497d0f9354e6841ca067a763a8ec",
+  "identity": "1R7KNEEbzqg3574bybNCTJjvctH1jFg76vNc6PsWVet",
+  "content": "QA77 explicit retry 2026-09-16T04:56:30.814Z",
+  "ordinaryUiLogin": true,
+  "viewport": {
+    "width": 1440,
+    "height": 1100
+  },
+  "before": {
+    "broadcasts": [
+      {
+        "path": "//org.dash.platform.dapi.v0.Platform/broadcastStateTransition",
+        "blockedBeforeDelivery": true,
+        "manualRetries": 0,
+        "at": 1789534595034
+      },
+      {
+        "path": "//org.dash.platform.dapi.v0.Platform/broadcastStateTransition",
+        "blockedBeforeDelivery": true,
+        "manualRetries": 0,
+        "at": 1789534595049
+      },
+      {
+        "path": "//org.dash.platform.dapi.v0.Platform/broadcastStateTransition",
+        "blockedBeforeDelivery": true,
+        "manualRetries": 0,
+        "at": 1789534595063
+      },
+      {
+        "path": "//org.dash.platform.dapi.v0.Platform/broadcastStateTransition",
+        "blockedBeforeDelivery": true,
+        "manualRetries": 0,
+        "at": 1789534595078
+      },
+      {
+        "path": "//org.dash.platform.dapi.v0.Platform/broadcastStateTransition",
+        "blockedBeforeDelivery": true,
+        "manualRetries": 0,
+        "at": 1789534596938
+      }
+    ],
+    "safeErrors": [
+      {
+        "category": "no available addresses",
+        "manualRetries": 0
+      },
+      {
+        "category": "no available addresses",
+        "manualRetries": 0
+      },
+      {
+        "category": "no available addresses",
+        "manualRetries": 0
+      },
+      {
+        "category": "no available addresses",
+        "manualRetries": 0
+      },
+      {
+        "category": "no available addresses",
+        "manualRetries": 0
+      },
+      {
+        "category": "no available addresses",
+        "manualRetries": 0
+      },
+      {
+        "category": "no available addresses",
+        "manualRetries": 0
+      },
+      {
+        "category": "no available addresses",
+        "manualRetries": 1
+      },
+      {
+        "category": "no available addresses",
+        "manualRetries": 1
+      },
+      {
+        "category": "no available addresses",
+        "manualRetries": 1
+      },
+      {
+        "category": "no available addresses",
+        "manualRetries": 1
+      }
+    ],
+    "manualRetries": 1,
+    "firstFailure": {
+      "draft": "QA77 explicit retry 2026-09-16T04:56:30.814Z",
+      "online": true,
+      "broadcasts": 5
+    },
+    "restoredAt": 1789534601105,
+    "beforeRetry": {
+      "broadcasts": 5,
+      "msAfterRestore": 4003
+    },
+    "afterRetry": {
+      "draft": "QA77 explicit retry 2026-09-16T04:56:30.814Z",
+      "notices": [
+        "Dash Platform is temporarily unavailable. Please try again in a few moments.",
+        ""
+      ],
+      "online": true,
+      "broadcasts": 5
+    }
+  },
+  "after": {
+    "broadcasts": [
+      {
+        "path": "//org.dash.platform.dapi.v0.Platform/broadcastStateTransition",
+        "blockedBeforeDelivery": true,
+        "manualRetries": 0,
+        "at": 1789534609790
+      },
+      {
+        "path": "//org.dash.platform.dapi.v0.Platform/broadcastStateTransition",
+        "blockedBeforeDelivery": true,
+        "manualRetries": 0,
+        "at": 1789534609806
+      },
+      {
+        "path": "//org.dash.platform.dapi.v0.Platform/broadcastStateTransition",
+        "blockedBeforeDelivery": true,
+        "manualRetries": 0,
+        "at": 1789534609820
+      },
+      {
+        "path": "//org.dash.platform.dapi.v0.Platform/broadcastStateTransition",
+        "blockedBeforeDelivery": true,
+        "manualRetries": 0,
+        "at": 1789534609832
+      },
+      {
+        "path": "//org.dash.platform.dapi.v0.Platform/broadcastStateTransition",
+        "blockedBeforeDelivery": true,
+        "manualRetries": 0,
+        "at": 1789534612285
+      },
+      {
+        "path": "//org.dash.platform.dapi.v0.Platform/broadcastStateTransition",
+        "blockedBeforeDelivery": true,
+        "manualRetries": 0,
+        "at": 1789534619408
+      },
+      {
+        "path": "//org.dash.platform.dapi.v0.Platform/broadcastStateTransition",
+        "blockedBeforeDelivery": true,
+        "manualRetries": 0,
+        "at": 1789534619423
+      },
+      {
+        "path": "//org.dash.platform.dapi.v0.Platform/broadcastStateTransition",
+        "blockedBeforeDelivery": true,
+        "manualRetries": 0,
+        "at": 1789534619437
+      },
+      {
+        "path": "//org.dash.platform.dapi.v0.Platform/broadcastStateTransition",
+        "blockedBeforeDelivery": true,
+        "manualRetries": 0,
+        "at": 1789534619451
+      },
+      {
+        "path": "//org.dash.platform.dapi.v0.Platform/broadcastStateTransition",
+        "blockedBeforeDelivery": false,
+        "manualRetries": 1,
+        "at": 1789534624267
+      }
+    ],
+    "safeErrors": [
+      {
+        "category": "no available addresses",
+        "manualRetries": 0
+      },
+      {
+        "category": "no available addresses",
+        "manualRetries": 0
+      },
+      {
+        "category": "no available addresses",
+        "manualRetries": 0
+      }
+    ],
+    "manualRetries": 1,
+    "firstFailure": {
+      "draft": "QA77 explicit retry 2026-09-16T04:56:30.814Z",
+      "online": true,
+      "broadcasts": 9
+    },
+    "restoredAt": 1789534619873,
+    "beforeRetry": {
+      "broadcasts": 9,
+      "msAfterRestore": 4003
+    },
+    "confirmedWithoutReload": true,
+    "postId": "oLAscppjFhBsks9otKJ3PaQZEFGAx14HMcRjLUMDXe3",
+    "afterRetry": {
+      "online": true,
+      "broadcasts": 10,
+      "postVisible": true,
+      "postId": "oLAscppjFhBsks9otKJ3PaQZEFGAx14HMcRjLUMDXe3"
+    }
+  },
+  "cleanup": {
+    "ownerUiDeletion": true,
+    "freshUiTombstone": true,
+    "publicReadback": "cleanup-readback.json",
+    "firstTwoCaptureTrialsAlsoDeleted": [
+      "e3LLpsEqqkxnuVu4kfTxc1UwogEsvqHJj7WK8PeAZ62",
+      "GZzccLtCv3EDp2p8fFTgVPNrLHmKdCLtUcd1Un4M8v2K"
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "at": "2026-09-16T04:58:14.103Z",
+  "contract": "CdUkSHkQwGXXAkzKqrcrjUWLsj7qErK9XAZmLzJEhirU",
+  "owner": "1R7KNEEbzqg3574bybNCTJjvctH1jFg76vNc6PsWVet",
+  "content": "QA77 explicit retry 2026-09-16T04:56:30.814Z",
+  "rowsScanned": 66,
+  "matches": [
+    {
+      "id": "oLAscppjFhBsks9otKJ3PaQZEFGAx14HMcRjLUMDXe3",
+      "owner": "1R7KNEEbzqg3574bybNCTJjvctH1jFg76vNc6PsWVet",
+      "content": "",
+      "createdAt": 1789534624586,
+      "revision": 2,
+      "deleted": true
+    }
+  ]
+}
