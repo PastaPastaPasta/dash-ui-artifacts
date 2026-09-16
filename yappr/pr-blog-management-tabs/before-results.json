@@ -1,0 +1,422 @@
+[
+  {
+    "variant": "before",
+    "width": 320,
+    "bounds": {
+      "width": 320,
+      "documentWidth": 327,
+      "tabs": [
+        {
+          "text": "Posts (11)",
+          "x": 20,
+          "right": 88.734375,
+          "y": 179,
+          "height": 60,
+          "font": "14px",
+          "padding": "10px 16px",
+          "scrollWidth": 69,
+          "clientWidth": 69
+        },
+        {
+          "text": "New Post",
+          "x": 92.734375,
+          "right": 154.203125,
+          "y": 179,
+          "height": 60,
+          "font": "14px",
+          "padding": "10px 16px",
+          "scrollWidth": 61,
+          "clientWidth": 61
+        },
+        {
+          "text": "Settings",
+          "x": 158.203125,
+          "right": 245.140625,
+          "y": 179,
+          "height": 60,
+          "font": "14px",
+          "padding": "10px 16px",
+          "scrollWidth": 87,
+          "clientWidth": 87
+        },
+        {
+          "text": "Theme",
+          "x": 249.140625,
+          "right": 326.578125,
+          "y": 179,
+          "height": 60,
+          "font": "14px",
+          "padding": "10px 16px",
+          "scrollWidth": 77,
+          "clientWidth": 77
+        }
+      ]
+    },
+    "keyboard": [
+      {
+        "text": "Posts (11)",
+        "left": 20,
+        "right": 88.734375,
+        "top": 179,
+        "bottom": 239
+      },
+      {
+        "text": "New Post",
+        "left": 92.734375,
+        "right": 154.203125,
+        "top": 179,
+        "bottom": 239
+      },
+      {
+        "text": "Settings",
+        "left": 158.203125,
+        "right": 245.140625,
+        "top": 179,
+        "bottom": 239
+      },
+      {
+        "text": "Theme",
+        "left": 249.140625,
+        "right": 326.578125,
+        "top": 179,
+        "bottom": 239
+      }
+    ]
+  },
+  {
+    "variant": "before",
+    "width": 360,
+    "bounds": {
+      "width": 360,
+      "documentWidth": 360,
+      "tabs": [
+        {
+          "text": "Posts (11)",
+          "x": 20,
+          "right": 92.40625,
+          "y": 179,
+          "height": 60,
+          "font": "14px",
+          "padding": "10px 16px",
+          "scrollWidth": 72,
+          "clientWidth": 72
+        },
+        {
+          "text": "New Post",
+          "x": 96.40625,
+          "right": 167.625,
+          "y": 179,
+          "height": 60,
+          "font": "14px",
+          "padding": "10px 16px",
+          "scrollWidth": 71,
+          "clientWidth": 71
+        },
+        {
+          "text": "Settings",
+          "x": 171.625,
+          "right": 258.5625,
+          "y": 179,
+          "height": 60,
+          "font": "14px",
+          "padding": "10px 16px",
+          "scrollWidth": 87,
+          "clientWidth": 87
+        },
+        {
+          "text": "Theme",
+          "x": 262.5625,
+          "right": 340,
+          "y": 179,
+          "height": 60,
+          "font": "14px",
+          "padding": "10px 16px",
+          "scrollWidth": 77,
+          "clientWidth": 77
+        }
+      ]
+    },
+    "keyboard": [
+      {
+        "text": "Posts (11)",
+        "left": 20,
+        "right": 92.40625,
+        "top": 179,
+        "bottom": 239
+      },
+      {
+        "text": "New Post",
+        "left": 96.40625,
+        "right": 167.625,
+        "top": 179,
+        "bottom": 239
+      },
+      {
+        "text": "Settings",
+        "left": 171.625,
+        "right": 258.5625,
+        "top": 179,
+        "bottom": 239
+      },
+      {
+        "text": "Theme",
+        "left": 262.5625,
+        "right": 340,
+        "top": 179,
+        "bottom": 239
+      }
+    ]
+  },
+  {
+    "variant": "before",
+    "width": 375,
+    "bounds": {
+      "width": 375,
+      "documentWidth": 375,
+      "tabs": [
+        {
+          "text": "Posts (11)",
+          "x": 20,
+          "right": 100.015625,
+          "y": 179,
+          "height": 60,
+          "font": "14px",
+          "padding": "10px 16px",
+          "scrollWidth": 80,
+          "clientWidth": 80
+        },
+        {
+          "text": "New Post",
+          "x": 104.015625,
+          "right": 182.625,
+          "y": 179,
+          "height": 60,
+          "font": "14px",
+          "padding": "10px 16px",
+          "scrollWidth": 79,
+          "clientWidth": 79
+        },
+        {
+          "text": "Settings",
+          "x": 186.625,
+          "right": 273.5625,
+          "y": 179,
+          "height": 60,
+          "font": "14px",
+          "padding": "10px 16px",
+          "scrollWidth": 87,
+          "clientWidth": 87
+        },
+        {
+          "text": "Theme",
+          "x": 277.5625,
+          "right": 355,
+          "y": 179,
+          "height": 60,
+          "font": "14px",
+          "padding": "10px 16px",
+          "scrollWidth": 77,
+          "clientWidth": 77
+        }
+      ]
+    },
+    "keyboard": [
+      {
+        "text": "Posts (11)",
+        "left": 20,
+        "right": 100.015625,
+        "top": 179,
+        "bottom": 239
+      },
+      {
+        "text": "New Post",
+        "left": 104.015625,
+        "right": 182.625,
+        "top": 179,
+        "bottom": 239
+      },
+      {
+        "text": "Settings",
+        "left": 186.625,
+        "right": 273.5625,
+        "top": 179,
+        "bottom": 239
+      },
+      {
+        "text": "Theme",
+        "left": 277.5625,
+        "right": 355,
+        "top": 179,
+        "bottom": 239
+      }
+    ]
+  },
+  {
+    "variant": "before",
+    "width": 390,
+    "bounds": {
+      "width": 390,
+      "documentWidth": 390,
+      "tabs": [
+        {
+          "text": "Posts (11)",
+          "x": 20,
+          "right": 107.625,
+          "y": 179,
+          "height": 60,
+          "font": "14px",
+          "padding": "10px 16px",
+          "scrollWidth": 88,
+          "clientWidth": 88
+        },
+        {
+          "text": "New Post",
+          "x": 111.625,
+          "right": 197.625,
+          "y": 179,
+          "height": 60,
+          "font": "14px",
+          "padding": "10px 16px",
+          "scrollWidth": 86,
+          "clientWidth": 86
+        },
+        {
+          "text": "Settings",
+          "x": 201.625,
+          "right": 288.5625,
+          "y": 179,
+          "height": 60,
+          "font": "14px",
+          "padding": "10px 16px",
+          "scrollWidth": 87,
+          "clientWidth": 87
+        },
+        {
+          "text": "Theme",
+          "x": 292.5625,
+          "right": 370,
+          "y": 179,
+          "height": 60,
+          "font": "14px",
+          "padding": "10px 16px",
+          "scrollWidth": 77,
+          "clientWidth": 77
+        }
+      ]
+    },
+    "keyboard": [
+      {
+        "text": "Posts (11)",
+        "left": 20,
+        "right": 107.625,
+        "top": 179,
+        "bottom": 239
+      },
+      {
+        "text": "New Post",
+        "left": 111.625,
+        "right": 197.625,
+        "top": 179,
+        "bottom": 239
+      },
+      {
+        "text": "Settings",
+        "left": 201.625,
+        "right": 288.5625,
+        "top": 179,
+        "bottom": 239
+      },
+      {
+        "text": "Theme",
+        "left": 292.5625,
+        "right": 370,
+        "top": 179,
+        "bottom": 239
+      }
+    ]
+  },
+  {
+    "variant": "before",
+    "width": 1280,
+    "bounds": {
+      "width": 1280,
+      "documentWidth": 1280,
+      "tabs": [
+        {
+          "text": "Posts (11)",
+          "x": 295,
+          "right": 391.375,
+          "y": 187,
+          "height": 40,
+          "font": "14px",
+          "padding": "10px 16px",
+          "scrollWidth": 96,
+          "clientWidth": 96
+        },
+        {
+          "text": "New Post",
+          "x": 395.375,
+          "right": 489.859375,
+          "y": 187,
+          "height": 40,
+          "font": "14px",
+          "padding": "10px 16px",
+          "scrollWidth": 94,
+          "clientWidth": 94
+        },
+        {
+          "text": "Settings",
+          "x": 493.859375,
+          "right": 580.796875,
+          "y": 187,
+          "height": 40,
+          "font": "14px",
+          "padding": "10px 16px",
+          "scrollWidth": 87,
+          "clientWidth": 87
+        },
+        {
+          "text": "Theme",
+          "x": 584.796875,
+          "right": 662.234375,
+          "y": 187,
+          "height": 40,
+          "font": "14px",
+          "padding": "10px 16px",
+          "scrollWidth": 77,
+          "clientWidth": 77
+        }
+      ]
+    },
+    "keyboard": [
+      {
+        "text": "Posts (11)",
+        "left": 295,
+        "right": 391.375,
+        "top": 187,
+        "bottom": 227
+      },
+      {
+        "text": "New Post",
+        "left": 395.375,
+        "right": 489.859375,
+        "top": 187,
+        "bottom": 227
+      },
+      {
+        "text": "Settings",
+        "left": 493.859375,
+        "right": 580.796875,
+        "top": 187,
+        "bottom": 227
+      },
+      {
+        "text": "Theme",
+        "left": 584.796875,
+        "right": 662.234375,
+        "top": 187,
+        "bottom": 227
+      }
+    ]
+  }
+]
