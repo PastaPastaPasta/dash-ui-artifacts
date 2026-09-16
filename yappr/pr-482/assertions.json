@@ -1,0 +1,83 @@
+{
+  "fixture": {
+    "identityId": "9NFhqxW8upkFMVTE5h5VmYWLdSEJ26B2iMKdhCFgsWkd",
+    "login": "Normal private-key login with registered authentication key2; locked vault, no encryption key entered"
+  },
+  "variants": [
+    {
+      "state": "before",
+      "revision": "733faf53cd893cba861476a4af75b442ed67ca72",
+      "view": "desktop",
+      "viewport": {
+        "width": 1440,
+        "height": 1100
+      },
+      "checks": [
+        "Same enabled private feed; session encryption key absent",
+        "Broken navigation drops /devnet and displays404"
+      ],
+      "compiledRevisionVerified": true,
+      "triggerUrl": "http://localhost:3278/devnet/settings/?section=privateFeed",
+      "activation": "Mouse click",
+      "destinationUrl": "http://localhost:3278/settings?section=privateFeed&action=reset",
+      "success": true
+    },
+    {
+      "state": "before",
+      "revision": "733faf53cd893cba861476a4af75b442ed67ca72",
+      "view": "mobile",
+      "viewport": {
+        "width": 390,
+        "height": 960
+      },
+      "checks": [
+        "Same enabled private feed; session encryption key absent",
+        "Broken navigation drops /devnet and displays404"
+      ],
+      "compiledRevisionVerified": true,
+      "triggerUrl": "http://localhost:3278/devnet/settings/?section=privateFeed",
+      "activation": "Keyboard Enter",
+      "destinationUrl": "http://localhost:3278/settings?section=privateFeed&action=reset",
+      "success": true
+    },
+    {
+      "state": "after",
+      "revision": "462dd9be4f221954bbde9590f6ba0b2a4452cc82",
+      "view": "desktop",
+      "viewport": {
+        "width": 1440,
+        "height": 1100
+      },
+      "checks": [
+        "Same enabled private feed; session encryption key absent",
+        "Correct /devnet settings destination automatically opens real reset confirmation; empty form disabled; action parameter cleared",
+        "Cancel then full reload preserves enabled feed and does not reopen confirmation; reset never submitted"
+      ],
+      "compiledRevisionVerified": true,
+      "triggerUrl": "http://localhost:3292/devnet/settings/?section=privateFeed",
+      "activation": "Mouse click",
+      "destinationUrl": "http://localhost:3292/devnet/settings/?section=privateFeed",
+      "success": true
+    },
+    {
+      "state": "after",
+      "revision": "462dd9be4f221954bbde9590f6ba0b2a4452cc82",
+      "view": "mobile",
+      "viewport": {
+        "width": 390,
+        "height": 960
+      },
+      "checks": [
+        "Same enabled private feed; session encryption key absent",
+        "Correct /devnet settings destination automatically opens real reset confirmation; empty form disabled; action parameter cleared",
+        "Cancel then full reload preserves enabled feed and does not reopen confirmation; reset never submitted"
+      ],
+      "compiledRevisionVerified": true,
+      "triggerUrl": "http://localhost:3292/devnet/settings/?section=privateFeed",
+      "activation": "Keyboard Enter",
+      "destinationUrl": "http://localhost:3292/devnet/settings/?section=privateFeed",
+      "success": true
+    }
+  ],
+  "success": true
+}
