@@ -1,0 +1,23 @@
+{
+  "before-callout-info.png": "46a7284c6c01de4926e9db7381c67a47a769d5f99140c91bb9ccc3c6dc84afdd",
+  "before-callout-warning.png": "c6d56719ccee05feb8e448be0f0478e8f619e900a9c53935a2b7bb4bc9a21dd4",
+  "before-callout-tip.png": "38dce123c7273c25000d287fcb4f3a3c6ef54e3d82f3888cb409dcb202f45994",
+  "before-callout-note.png": "28c5e646ce4bba8b82975523b5ad2cf48f2911bcab6fd488e9a447dee4db3931",
+  "before-toc.png": "3e43634c4809bfa562296528a1d77700543c837843aa188e12abe30b8e1ca229",
+  "before-editor-light.png": "9caf898432b3261156f5c15cbf354210c538f4b40ad23cbd70dd67ade0858975",
+  "before-editor-dark.png": "76880af43c314bd31ad0b94a264dfd14bc6f5483430622df1e6fc12b680075f6",
+  "before-reader-light.png": "eb1aa2e25d1e056a2362b65454d6e78ac3a66ce4abbf728f62c510cb67d0b5f6",
+  "after-callout-info.png": "84baf362985bb1e7e34fe51d6807674eb629f8af113928e5a403a69aeb34607b",
+  "after-callout-warning.png": "cfdcb6f9ba1416524cb9afa8abc1d35662f720035e3fea18899aaa44abb476cd",
+  "after-callout-tip.png": "a051f9ffe716059c3202bac6d20bb53cacbdec1e37e83a2bfc0026872d0be65c",
+  "after-callout-note.png": "098d3d46bc8185cd68621c448fb0b269034f040d3a94985aac943eaa980012a2",
+  "after-toc.png": "a94f238abf547014ee1c46f581b23e4d5e71e86c44f2b966a82aa1c86ee7fbe2",
+  "after-editor-light.png": "87d44dee17bb1f621a2bb02bb12510b4b6d54bdedf22d1de67324c13e3c54e60",
+  "after-editor-dark.png": "76880af43c314bd31ad0b94a264dfd14bc6f5483430622df1e6fc12b680075f6",
+  "after-reader-light.png": "67dedd67bfe0e3233fa14d7358fcdcd9b4442bc5668bcc7f6f823365180c45a7",
+  "before-results.json": "ff136315e272133726d97258e3feda08efd2707d523eb8b315c19a77865f00a0",
+  "after-results.json": "4fc78cd86d96a3730e611824aecdd83c833d5195892cb3aa29b2bfeb13d2aacf",
+  "before-reader-regression.json": "34bd4cb2b02985e1d6030f30a6e6a56f3b31a3f3a95a47a49c20a1d076957e04",
+  "after-reader-regression.json": "9e06e2a13aba8d940ba8e4c2e867375b7b88909f45833e4819340774f5552f64",
+  "reader-compatibility.json": "c5b4364491edd57bf9abb3117416e89caaad7f5b9dc7b259825d653d79991d85"
+}

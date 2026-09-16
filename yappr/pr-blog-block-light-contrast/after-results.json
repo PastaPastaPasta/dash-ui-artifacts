@@ -1,0 +1,421 @@
+{
+  "variant": "after",
+  "measurements": [
+    {
+      "name": "toc",
+      "mode": "light",
+      "text": "Table of Contents (auto-generated on view)",
+      "foreground": "rgb(17, 24, 39)",
+      "background": [
+        159.8,
+        162.6,
+        168.6
+      ],
+      "contrast": 6.986933756067894,
+      "fontSize": "14px"
+    },
+    {
+      "name": "column-label",
+      "mode": "light",
+      "text": "Columns",
+      "foreground": "rgb(55, 65, 81)",
+      "background": [
+        204,
+        204,
+        204
+      ],
+      "contrast": 6.418315356501967,
+      "fontSize": "12px"
+    },
+    {
+      "name": "column-text",
+      "mode": "light",
+      "text": "QA right",
+      "foreground": "rgb(17, 24, 39)",
+      "background": [
+        163.20000000000002,
+        163.20000000000002,
+        163.20000000000002
+      ],
+      "contrast": 7.049365968569549,
+      "fontSize": "14px"
+    },
+    {
+      "name": "column-placeholder",
+      "mode": "light",
+      "text": "Column 2",
+      "foreground": "rgb(31, 41, 55)",
+      "background": [
+        163.20000000000002,
+        163.20000000000002,
+        163.20000000000002
+      ],
+      "contrast": 5.833152705933968,
+      "fontSize": "14px"
+    },
+    {
+      "name": "column-source",
+      "mode": "light",
+      "text": "QA left | QA middle | QA right",
+      "foreground": "rgb(17, 24, 39)",
+      "background": [
+        163.20000000000002,
+        163.20000000000002,
+        163.20000000000002
+      ],
+      "contrast": 7.049365968569549,
+      "fontSize": "14px"
+    },
+    {
+      "name": "column-help",
+      "mode": "light",
+      "text": "Edit source text (use | to separate columns)",
+      "foreground": "rgb(55, 65, 81)",
+      "background": [
+        204,
+        204,
+        204
+      ],
+      "contrast": 6.418315356501967,
+      "fontSize": "16px"
+    },
+    {
+      "name": "footnote-marker",
+      "mode": "light",
+      "text": "[1]",
+      "foreground": "rgb(55, 65, 81)",
+      "background": [
+        204,
+        204,
+        204
+      ],
+      "contrast": 6.418315356501967,
+      "fontSize": "12px"
+    },
+    {
+      "name": "footnote-text",
+      "mode": "light",
+      "text": "QA actual footnote explanation",
+      "foreground": "rgb(17, 24, 39)",
+      "background": [
+        204,
+        204,
+        204
+      ],
+      "contrast": 11.046392343638603,
+      "fontSize": "14px"
+    },
+    {
+      "name": "info-callout",
+      "mode": "light",
+      "text": "QA useful callout explanation",
+      "foreground": "rgb(22, 78, 99)",
+      "background": [
+        230.1,
+        247.7,
+        250.7
+      ],
+      "contrast": 8.310282307899836,
+      "fontSize": "14px"
+    },
+    {
+      "name": "warning-callout",
+      "mode": "light",
+      "text": "QA useful callout explanation",
+      "foreground": "rgb(120, 53, 15)",
+      "background": [
+        254,
+        245.3,
+        230.6
+      ],
+      "contrast": 8.40731246553176,
+      "fontSize": "14px"
+    },
+    {
+      "name": "tip-callout",
+      "mode": "light",
+      "text": "QA useful callout explanation",
+      "foreground": "rgb(6, 78, 59)",
+      "background": [
+        231.1,
+        248,
+        242.4
+      ],
+      "contrast": 8.846886309081668,
+      "fontSize": "14px"
+    },
+    {
+      "name": "note-callout",
+      "mode": "light",
+      "text": "QA useful callout explanation",
+      "foreground": "rgb(76, 29, 149)",
+      "background": [
+        243.4,
+        238.7,
+        254.1
+      ],
+      "contrast": 9.686393270697208,
+      "fontSize": "14px"
+    },
+    {
+      "name": "toc",
+      "mode": "dark",
+      "text": "Table of Contents (auto-generated on view)",
+      "foreground": "rgb(209, 213, 219)",
+      "background": [
+        25.4,
+        28.2,
+        34.2
+      ],
+      "contrast": 11.552019143058747,
+      "fontSize": "14px"
+    },
+    {
+      "name": "column-label",
+      "mode": "dark",
+      "text": "Columns",
+      "foreground": "rgb(156, 163, 175)",
+      "background": [
+        24.8,
+        24.8,
+        24.8
+      ],
+      "contrast": 6.938927778639379,
+      "fontSize": "12px"
+    },
+    {
+      "name": "column-text",
+      "mode": "dark",
+      "text": "QA right",
+      "foreground": "rgb(243, 244, 246)",
+      "background": [
+        19.840000000000003,
+        19.840000000000003,
+        19.840000000000003
+      ],
+      "contrast": 16.763065937296098,
+      "fontSize": "14px"
+    },
+    {
+      "name": "column-placeholder",
+      "mode": "dark",
+      "text": "Column 2",
+      "foreground": "rgb(107, 114, 128)",
+      "background": [
+        19.840000000000003,
+        19.840000000000003,
+        19.840000000000003
+      ],
+      "contrast": 3.8159155393700335,
+      "fontSize": "14px"
+    },
+    {
+      "name": "column-source",
+      "mode": "dark",
+      "text": "QA left | QA middle | QA right",
+      "foreground": "rgb(243, 244, 246)",
+      "background": [
+        19.840000000000003,
+        19.840000000000003,
+        19.840000000000003
+      ],
+      "contrast": 16.763065937296098,
+      "fontSize": "14px"
+    },
+    {
+      "name": "column-help",
+      "mode": "dark",
+      "text": "Edit source text (use | to separate columns)",
+      "foreground": "rgb(156, 163, 175)",
+      "background": [
+        24.8,
+        24.8,
+        24.8
+      ],
+      "contrast": 6.938927778639379,
+      "fontSize": "16px"
+    },
+    {
+      "name": "footnote-marker",
+      "mode": "dark",
+      "text": "[1]",
+      "foreground": "rgb(209, 213, 219)",
+      "background": [
+        24.8,
+        24.8,
+        24.8
+      ],
+      "contrast": 11.955671008074212,
+      "fontSize": "12px"
+    },
+    {
+      "name": "footnote-text",
+      "mode": "dark",
+      "text": "QA actual footnote explanation",
+      "foreground": "rgb(243, 244, 246)",
+      "background": [
+        24.8,
+        24.8,
+        24.8
+      ],
+      "contrast": 16.00781040839711,
+      "fontSize": "14px"
+    },
+    {
+      "name": "info-callout",
+      "mode": "dark",
+      "text": "QA useful callout explanation",
+      "foreground": "rgb(207, 250, 254)",
+      "background": [
+        28.500000000000004,
+        46.1,
+        49.10000000000001
+      ],
+      "contrast": 12.609224824206285,
+      "fontSize": "14px"
+    },
+    {
+      "name": "warning-callout",
+      "mode": "dark",
+      "text": "QA useful callout explanation",
+      "foreground": "rgb(254, 243, 199)",
+      "background": [
+        52.400000000000006,
+        43.7,
+        29.000000000000004
+      ],
+      "contrast": 12.393404252950445,
+      "fontSize": "14px"
+    },
+    {
+      "name": "tip-callout",
+      "mode": "dark",
+      "text": "QA useful callout explanation",
+      "foreground": "rgb(209, 250, 229)",
+      "background": [
+        29.500000000000004,
+        46.400000000000006,
+        40.800000000000004
+      ],
+      "contrast": 12.4899639881256,
+      "fontSize": "14px"
+    },
+    {
+      "name": "note-callout",
+      "mode": "dark",
+      "text": "QA useful callout explanation",
+      "foreground": "rgb(237, 233, 254)",
+      "background": [
+        41.800000000000004,
+        37.1,
+        52.5
+      ],
+      "contrast": 12.509165116212293,
+      "fontSize": "14px"
+    },
+    {
+      "name": "reader-toc-title",
+      "mode": "Light",
+      "text": "Table of contents",
+      "foreground": "rgb(55, 65, 81)",
+      "background": [
+        204,
+        204,
+        204
+      ],
+      "contrast": 6.418315356501967,
+      "fontSize": "17px"
+    },
+    {
+      "name": "reader-toc-link",
+      "mode": "Light",
+      "text": "1. QA custom heading",
+      "foreground": "rgb(21, 94, 117)",
+      "background": [
+        204,
+        204,
+        204
+      ],
+      "contrast": 4.525010000838932,
+      "fontSize": "14px"
+    },
+    {
+      "name": "reader-footnote-reference",
+      "mode": "Light",
+      "text": "[1]",
+      "foreground": "rgb(21, 94, 117)",
+      "background": [
+        255,
+        255,
+        255
+      ],
+      "contrast": 7.266842816941486,
+      "fontSize": "12px"
+    },
+    {
+      "name": "reader-warning-callout",
+      "mode": "Light",
+      "text": "QA useful callout explanation",
+      "foreground": "rgb(120, 53, 15)",
+      "background": [
+        254,
+        245.3,
+        230.6
+      ],
+      "contrast": 8.40731246553176,
+      "fontSize": "14px"
+    },
+    {
+      "name": "reader-toc-title",
+      "mode": "Dark",
+      "text": "Table of contents",
+      "foreground": "rgb(156, 163, 175)",
+      "background": [
+        14.4,
+        14.4,
+        14.4
+      ],
+      "contrast": 7.582488060701771,
+      "fontSize": "17px"
+    },
+    {
+      "name": "reader-toc-link",
+      "mode": "Dark",
+      "text": "1. QA custom heading",
+      "foreground": "rgb(103, 232, 249)",
+      "background": [
+        14.4,
+        14.4,
+        14.4
+      ],
+      "contrast": 13.28050203208401,
+      "fontSize": "14px"
+    },
+    {
+      "name": "reader-footnote-reference",
+      "mode": "Dark",
+      "text": "[1]",
+      "foreground": "rgb(103, 232, 249)",
+      "background": [
+        18,
+        18,
+        18
+      ],
+      "contrast": 12.923791512777484,
+      "fontSize": "12px"
+    },
+    {
+      "name": "reader-warning-callout",
+      "mode": "Dark",
+      "text": "QA useful callout explanation",
+      "foreground": "rgb(254, 243, 199)",
+      "background": [
+        40.7,
+        32,
+        17.3
+      ],
+      "contrast": 14.418912540692963,
+      "fontSize": "14px"
+    }
+  ]
+}

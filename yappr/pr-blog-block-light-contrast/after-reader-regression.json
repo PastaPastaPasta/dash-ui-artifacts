@@ -1,0 +1,1735 @@
+{
+  "variant": "after",
+  "rows": [
+    {
+      "kind": "secondary",
+      "mode": "Author",
+      "measurements": [
+        {
+          "type": "paragraph",
+          "text": "QA custom block recovery paragraph.",
+          "width": 916,
+          "color": "rgb(229, 231, 235)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "heading",
+          "text": "QA custom heading",
+          "width": 916,
+          "color": "rgb(248, 250, 252)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "text": "",
+          "width": 916,
+          "color": "rgb(229, 231, 235)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "text": "",
+          "width": 916,
+          "color": "rgb(229, 231, 235)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "tableOfContents",
+          "text": "Table of contents1. QA custom heading",
+          "width": 916,
+          "color": "rgb(229, 231, 235)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "text": "",
+          "width": 916,
+          "color": "rgb(229, 231, 235)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "codeBlock",
+          "text": "print(\"QA python recovery\")",
+          "width": 916,
+          "color": "rgb(229, 231, 235)",
+          "background": "rgb(22, 22, 22)",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "text": "",
+          "width": 916,
+          "color": "rgb(229, 231, 235)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "simpleTable",
+          "text": "QA first cellQA final cell",
+          "width": 916,
+          "color": "rgb(229, 231, 235)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "text": "",
+          "width": 916,
+          "color": "rgb(229, 231, 235)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "columnLayout",
+          "text": "Columns23Column 1Column 2",
+          "width": 916,
+          "color": "rgb(229, 231, 235)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "columnLayout",
+          "text": "Columns23QA leftQA middleQA right",
+          "width": 916,
+          "color": "rgb(229, 231, 235)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "footnote",
+          "text": "",
+          "width": 916,
+          "color": "rgb(229, 231, 235)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "footnote",
+          "text": "[1]",
+          "width": 916,
+          "color": "rgb(229, 231, 235)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "backgroundSection",
+          "text": "QA highlighted paragraph",
+          "width": 916,
+          "color": "rgb(229, 231, 235)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "text": "",
+          "width": 916,
+          "color": "rgb(229, 231, 235)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "callout",
+          "text": "Info",
+          "width": 916,
+          "color": "rgb(229, 231, 235)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "callout",
+          "text": "WarningQA useful callout explanation",
+          "width": 916,
+          "color": "rgb(229, 231, 235)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "divider",
+          "text": "",
+          "width": 916,
+          "color": "rgb(229, 231, 235)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "text": "",
+          "width": 916,
+          "color": "rgb(229, 231, 235)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "spacer",
+          "text": "",
+          "width": 916,
+          "color": "rgb(229, 231, 235)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "text": "",
+          "width": 916,
+          "color": "rgb(229, 231, 235)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        }
+      ]
+    },
+    {
+      "kind": "secondary",
+      "mode": "Light",
+      "measurements": [
+        {
+          "type": "paragraph",
+          "text": "QA custom block recovery paragraph.",
+          "width": 916,
+          "color": "rgb(26, 26, 26)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "heading",
+          "text": "QA custom heading",
+          "width": 916,
+          "color": "rgb(17, 17, 17)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "text": "",
+          "width": 916,
+          "color": "rgb(26, 26, 26)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "text": "",
+          "width": 916,
+          "color": "rgb(26, 26, 26)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "tableOfContents",
+          "text": "Table of contents1. QA custom heading",
+          "width": 916,
+          "color": "rgb(26, 26, 26)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "text": "",
+          "width": 916,
+          "color": "rgb(26, 26, 26)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "codeBlock",
+          "text": "print(\"QA python recovery\")",
+          "width": 916,
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(22, 22, 22)",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "text": "",
+          "width": 916,
+          "color": "rgb(26, 26, 26)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "simpleTable",
+          "text": "QA first cellQA final cell",
+          "width": 916,
+          "color": "rgb(26, 26, 26)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "text": "",
+          "width": 916,
+          "color": "rgb(26, 26, 26)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "columnLayout",
+          "text": "Columns23Column 1Column 2",
+          "width": 916,
+          "color": "rgb(26, 26, 26)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "columnLayout",
+          "text": "Columns23QA leftQA middleQA right",
+          "width": 916,
+          "color": "rgb(26, 26, 26)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "footnote",
+          "text": "",
+          "width": 916,
+          "color": "rgb(26, 26, 26)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "footnote",
+          "text": "[1]",
+          "width": 916,
+          "color": "rgb(26, 26, 26)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "backgroundSection",
+          "text": "QA highlighted paragraph",
+          "width": 916,
+          "color": "rgb(26, 26, 26)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "text": "",
+          "width": 916,
+          "color": "rgb(26, 26, 26)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "callout",
+          "text": "Info",
+          "width": 916,
+          "color": "rgb(26, 26, 26)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "callout",
+          "text": "WarningQA useful callout explanation",
+          "width": 916,
+          "color": "rgb(26, 26, 26)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "divider",
+          "text": "",
+          "width": 916,
+          "color": "rgb(26, 26, 26)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "text": "",
+          "width": 916,
+          "color": "rgb(26, 26, 26)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "spacer",
+          "text": "",
+          "width": 916,
+          "color": "rgb(26, 26, 26)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "text": "",
+          "width": 916,
+          "color": "rgb(26, 26, 26)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        }
+      ]
+    },
+    {
+      "kind": "secondary",
+      "mode": "Dark",
+      "measurements": [
+        {
+          "type": "paragraph",
+          "text": "QA custom block recovery paragraph.",
+          "width": 916,
+          "color": "rgb(212, 212, 212)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "heading",
+          "text": "QA custom heading",
+          "width": 916,
+          "color": "rgb(245, 245, 245)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "text": "",
+          "width": 916,
+          "color": "rgb(212, 212, 212)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "text": "",
+          "width": 916,
+          "color": "rgb(212, 212, 212)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "tableOfContents",
+          "text": "Table of contents1. QA custom heading",
+          "width": 916,
+          "color": "rgb(212, 212, 212)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "text": "",
+          "width": 916,
+          "color": "rgb(212, 212, 212)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "codeBlock",
+          "text": "print(\"QA python recovery\")",
+          "width": 916,
+          "color": "rgb(212, 212, 212)",
+          "background": "rgb(22, 22, 22)",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "text": "",
+          "width": 916,
+          "color": "rgb(212, 212, 212)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "simpleTable",
+          "text": "QA first cellQA final cell",
+          "width": 916,
+          "color": "rgb(212, 212, 212)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "text": "",
+          "width": 916,
+          "color": "rgb(212, 212, 212)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "columnLayout",
+          "text": "Columns23Column 1Column 2",
+          "width": 916,
+          "color": "rgb(212, 212, 212)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "columnLayout",
+          "text": "Columns23QA leftQA middleQA right",
+          "width": 916,
+          "color": "rgb(212, 212, 212)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "footnote",
+          "text": "",
+          "width": 916,
+          "color": "rgb(212, 212, 212)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "footnote",
+          "text": "[1]",
+          "width": 916,
+          "color": "rgb(212, 212, 212)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "backgroundSection",
+          "text": "QA highlighted paragraph",
+          "width": 916,
+          "color": "rgb(212, 212, 212)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "text": "",
+          "width": 916,
+          "color": "rgb(212, 212, 212)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "callout",
+          "text": "Info",
+          "width": 916,
+          "color": "rgb(212, 212, 212)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "callout",
+          "text": "WarningQA useful callout explanation",
+          "width": 916,
+          "color": "rgb(212, 212, 212)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "divider",
+          "text": "",
+          "width": 916,
+          "color": "rgb(212, 212, 212)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "text": "",
+          "width": 916,
+          "color": "rgb(212, 212, 212)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "spacer",
+          "text": "",
+          "width": 916,
+          "color": "rgb(212, 212, 212)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "text": "",
+          "width": 916,
+          "color": "rgb(212, 212, 212)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        }
+      ]
+    },
+    {
+      "kind": "secondary",
+      "mode": "Sepia",
+      "measurements": [
+        {
+          "type": "paragraph",
+          "text": "QA custom block recovery paragraph.",
+          "width": 916,
+          "color": "rgb(92, 64, 51)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "heading",
+          "text": "QA custom heading",
+          "width": 916,
+          "color": "rgb(62, 39, 35)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "text": "",
+          "width": 916,
+          "color": "rgb(92, 64, 51)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "text": "",
+          "width": 916,
+          "color": "rgb(92, 64, 51)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "tableOfContents",
+          "text": "Table of contents1. QA custom heading",
+          "width": 916,
+          "color": "rgb(92, 64, 51)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "text": "",
+          "width": 916,
+          "color": "rgb(92, 64, 51)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "codeBlock",
+          "text": "print(\"QA python recovery\")",
+          "width": 916,
+          "color": "rgb(92, 64, 51)",
+          "background": "rgb(22, 22, 22)",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "text": "",
+          "width": 916,
+          "color": "rgb(92, 64, 51)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "simpleTable",
+          "text": "QA first cellQA final cell",
+          "width": 916,
+          "color": "rgb(92, 64, 51)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "text": "",
+          "width": 916,
+          "color": "rgb(92, 64, 51)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "columnLayout",
+          "text": "Columns23Column 1Column 2",
+          "width": 916,
+          "color": "rgb(92, 64, 51)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "columnLayout",
+          "text": "Columns23QA leftQA middleQA right",
+          "width": 916,
+          "color": "rgb(92, 64, 51)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "footnote",
+          "text": "",
+          "width": 916,
+          "color": "rgb(92, 64, 51)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "footnote",
+          "text": "[1]",
+          "width": 916,
+          "color": "rgb(92, 64, 51)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "backgroundSection",
+          "text": "QA highlighted paragraph",
+          "width": 916,
+          "color": "rgb(92, 64, 51)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "text": "",
+          "width": 916,
+          "color": "rgb(92, 64, 51)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "callout",
+          "text": "Info",
+          "width": 916,
+          "color": "rgb(92, 64, 51)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "callout",
+          "text": "WarningQA useful callout explanation",
+          "width": 916,
+          "color": "rgb(92, 64, 51)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "divider",
+          "text": "",
+          "width": 916,
+          "color": "rgb(92, 64, 51)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "text": "",
+          "width": 916,
+          "color": "rgb(92, 64, 51)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "spacer",
+          "text": "",
+          "width": 916,
+          "color": "rgb(92, 64, 51)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "text": "",
+          "width": 916,
+          "color": "rgb(92, 64, 51)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        }
+      ]
+    },
+    {
+      "kind": "rich",
+      "mode": "Author",
+      "measurements": [
+        {
+          "type": "paragraph",
+          "text": "QA ordinary paragraph.",
+          "width": 916,
+          "color": "rgb(229, 231, 235)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "heading",
+          "text": "QA section heading",
+          "width": 916,
+          "color": "rgb(248, 250, 252)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "text": "Reader formatting bold words",
+          "width": 916,
+          "color": "rgb(229, 231, 235)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "bulletListItem",
+          "text": "First bullet",
+          "width": 916,
+          "color": "rgb(229, 231, 235)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "bulletListItem",
+          "text": "Second bullet",
+          "width": 916,
+          "color": "rgb(229, 231, 235)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "text": "",
+          "width": 916,
+          "color": "rgb(229, 231, 235)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "text": "",
+          "width": 916,
+          "color": "rgb(229, 231, 235)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "tableOfContents",
+          "text": "Table of contents1. QA section heading",
+          "width": 916,
+          "color": "rgb(229, 231, 235)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "text": "",
+          "width": 916,
+          "color": "rgb(229, 231, 235)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "codeBlock",
+          "text": "const qa = \"persisted\";",
+          "width": 916,
+          "color": "rgb(229, 231, 235)",
+          "background": "rgb(22, 22, 22)",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "text": "",
+          "width": 916,
+          "color": "rgb(229, 231, 235)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "simpleTable",
+          "text": "QA table cellLast cell",
+          "width": 916,
+          "color": "rgb(229, 231, 235)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "text": "",
+          "width": 916,
+          "color": "rgb(229, 231, 235)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "columnLayout",
+          "text": "Columns23Column 1Column 2Column 3",
+          "width": 916,
+          "color": "rgb(229, 231, 235)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "columnLayout",
+          "text": "Columns23Column 1Column 2",
+          "width": 916,
+          "color": "rgb(229, 231, 235)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "footnote",
+          "text": "",
+          "width": 916,
+          "color": "rgb(229, 231, 235)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "footnote",
+          "text": "[1]",
+          "width": 916,
+          "color": "rgb(229, 231, 235)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "backgroundSection",
+          "text": "",
+          "width": 916,
+          "color": "rgb(229, 231, 235)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "backgroundSection",
+          "text": "Write highlighted content...",
+          "width": 916,
+          "color": "rgb(229, 231, 235)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "callout",
+          "text": "Info",
+          "width": 916,
+          "color": "rgb(229, 231, 235)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "callout",
+          "text": "InfoWrite callout text...",
+          "width": 916,
+          "color": "rgb(229, 231, 235)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "divider",
+          "text": "",
+          "width": 916,
+          "color": "rgb(229, 231, 235)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "text": "",
+          "width": 916,
+          "color": "rgb(229, 231, 235)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "spacer",
+          "text": "",
+          "width": 916,
+          "color": "rgb(229, 231, 235)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "text": "",
+          "width": 916,
+          "color": "rgb(229, 231, 235)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "videoEmbed",
+          "text": "YouTube",
+          "width": 916,
+          "color": "rgb(229, 231, 235)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": [
+            {
+              "src": "https://img.youtube.com/vi/dQw4w9WgXcQ/maxresdefault.jpg",
+              "complete": true,
+              "width": 1280
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "",
+          "width": 916,
+          "color": "rgb(229, 231, 235)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "image",
+          "text": "",
+          "width": 916,
+          "color": "rgb(229, 231, 235)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": [
+            {
+              "src": "https://yap.pr/yappr.png",
+              "complete": true,
+              "width": 1024
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "",
+          "width": 916,
+          "color": "rgb(229, 231, 235)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        }
+      ]
+    },
+    {
+      "kind": "rich",
+      "mode": "Light",
+      "measurements": [
+        {
+          "type": "paragraph",
+          "text": "QA ordinary paragraph.",
+          "width": 916,
+          "color": "rgb(26, 26, 26)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "heading",
+          "text": "QA section heading",
+          "width": 916,
+          "color": "rgb(17, 17, 17)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "text": "Reader formatting bold words",
+          "width": 916,
+          "color": "rgb(26, 26, 26)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "bulletListItem",
+          "text": "First bullet",
+          "width": 916,
+          "color": "rgb(26, 26, 26)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "bulletListItem",
+          "text": "Second bullet",
+          "width": 916,
+          "color": "rgb(26, 26, 26)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "text": "",
+          "width": 916,
+          "color": "rgb(26, 26, 26)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "text": "",
+          "width": 916,
+          "color": "rgb(26, 26, 26)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "tableOfContents",
+          "text": "Table of contents1. QA section heading",
+          "width": 916,
+          "color": "rgb(26, 26, 26)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "text": "",
+          "width": 916,
+          "color": "rgb(26, 26, 26)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "codeBlock",
+          "text": "const qa = \"persisted\";",
+          "width": 916,
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(22, 22, 22)",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "text": "",
+          "width": 916,
+          "color": "rgb(26, 26, 26)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "simpleTable",
+          "text": "QA table cellLast cell",
+          "width": 916,
+          "color": "rgb(26, 26, 26)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "text": "",
+          "width": 916,
+          "color": "rgb(26, 26, 26)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "columnLayout",
+          "text": "Columns23Column 1Column 2Column 3",
+          "width": 916,
+          "color": "rgb(26, 26, 26)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "columnLayout",
+          "text": "Columns23Column 1Column 2",
+          "width": 916,
+          "color": "rgb(26, 26, 26)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "footnote",
+          "text": "",
+          "width": 916,
+          "color": "rgb(26, 26, 26)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "footnote",
+          "text": "[1]",
+          "width": 916,
+          "color": "rgb(26, 26, 26)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "backgroundSection",
+          "text": "",
+          "width": 916,
+          "color": "rgb(26, 26, 26)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "backgroundSection",
+          "text": "Write highlighted content...",
+          "width": 916,
+          "color": "rgb(26, 26, 26)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "callout",
+          "text": "Info",
+          "width": 916,
+          "color": "rgb(26, 26, 26)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "callout",
+          "text": "InfoWrite callout text...",
+          "width": 916,
+          "color": "rgb(26, 26, 26)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "divider",
+          "text": "",
+          "width": 916,
+          "color": "rgb(26, 26, 26)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "text": "",
+          "width": 916,
+          "color": "rgb(26, 26, 26)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "spacer",
+          "text": "",
+          "width": 916,
+          "color": "rgb(26, 26, 26)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "text": "",
+          "width": 916,
+          "color": "rgb(26, 26, 26)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "videoEmbed",
+          "text": "YouTube",
+          "width": 916,
+          "color": "rgb(26, 26, 26)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": [
+            {
+              "src": "https://img.youtube.com/vi/dQw4w9WgXcQ/maxresdefault.jpg",
+              "complete": true,
+              "width": 1280
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "",
+          "width": 916,
+          "color": "rgb(26, 26, 26)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "image",
+          "text": "",
+          "width": 916,
+          "color": "rgb(26, 26, 26)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": [
+            {
+              "src": "https://yap.pr/yappr.png",
+              "complete": true,
+              "width": 1024
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "",
+          "width": 916,
+          "color": "rgb(26, 26, 26)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        }
+      ]
+    },
+    {
+      "kind": "rich",
+      "mode": "Dark",
+      "measurements": [
+        {
+          "type": "paragraph",
+          "text": "QA ordinary paragraph.",
+          "width": 916,
+          "color": "rgb(212, 212, 212)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "heading",
+          "text": "QA section heading",
+          "width": 916,
+          "color": "rgb(245, 245, 245)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "text": "Reader formatting bold words",
+          "width": 916,
+          "color": "rgb(212, 212, 212)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "bulletListItem",
+          "text": "First bullet",
+          "width": 916,
+          "color": "rgb(212, 212, 212)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "bulletListItem",
+          "text": "Second bullet",
+          "width": 916,
+          "color": "rgb(212, 212, 212)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "text": "",
+          "width": 916,
+          "color": "rgb(212, 212, 212)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "text": "",
+          "width": 916,
+          "color": "rgb(212, 212, 212)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "tableOfContents",
+          "text": "Table of contents1. QA section heading",
+          "width": 916,
+          "color": "rgb(212, 212, 212)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "text": "",
+          "width": 916,
+          "color": "rgb(212, 212, 212)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "codeBlock",
+          "text": "const qa = \"persisted\";",
+          "width": 916,
+          "color": "rgb(212, 212, 212)",
+          "background": "rgb(22, 22, 22)",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "text": "",
+          "width": 916,
+          "color": "rgb(212, 212, 212)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "simpleTable",
+          "text": "QA table cellLast cell",
+          "width": 916,
+          "color": "rgb(212, 212, 212)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "text": "",
+          "width": 916,
+          "color": "rgb(212, 212, 212)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "columnLayout",
+          "text": "Columns23Column 1Column 2Column 3",
+          "width": 916,
+          "color": "rgb(212, 212, 212)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "columnLayout",
+          "text": "Columns23Column 1Column 2",
+          "width": 916,
+          "color": "rgb(212, 212, 212)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "footnote",
+          "text": "",
+          "width": 916,
+          "color": "rgb(212, 212, 212)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "footnote",
+          "text": "[1]",
+          "width": 916,
+          "color": "rgb(212, 212, 212)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "backgroundSection",
+          "text": "",
+          "width": 916,
+          "color": "rgb(212, 212, 212)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "backgroundSection",
+          "text": "Write highlighted content...",
+          "width": 916,
+          "color": "rgb(212, 212, 212)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "callout",
+          "text": "Info",
+          "width": 916,
+          "color": "rgb(212, 212, 212)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "callout",
+          "text": "InfoWrite callout text...",
+          "width": 916,
+          "color": "rgb(212, 212, 212)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "divider",
+          "text": "",
+          "width": 916,
+          "color": "rgb(212, 212, 212)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "text": "",
+          "width": 916,
+          "color": "rgb(212, 212, 212)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "spacer",
+          "text": "",
+          "width": 916,
+          "color": "rgb(212, 212, 212)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "text": "",
+          "width": 916,
+          "color": "rgb(212, 212, 212)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "videoEmbed",
+          "text": "YouTube",
+          "width": 916,
+          "color": "rgb(212, 212, 212)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": [
+            {
+              "src": "https://img.youtube.com/vi/dQw4w9WgXcQ/maxresdefault.jpg",
+              "complete": true,
+              "width": 1280
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "",
+          "width": 916,
+          "color": "rgb(212, 212, 212)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "image",
+          "text": "",
+          "width": 916,
+          "color": "rgb(212, 212, 212)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": [
+            {
+              "src": "https://yap.pr/yappr.png",
+              "complete": true,
+              "width": 1024
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "",
+          "width": 916,
+          "color": "rgb(212, 212, 212)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        }
+      ]
+    },
+    {
+      "kind": "rich",
+      "mode": "Sepia",
+      "measurements": [
+        {
+          "type": "paragraph",
+          "text": "QA ordinary paragraph.",
+          "width": 916,
+          "color": "rgb(92, 64, 51)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "heading",
+          "text": "QA section heading",
+          "width": 916,
+          "color": "rgb(62, 39, 35)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "text": "Reader formatting bold words",
+          "width": 916,
+          "color": "rgb(92, 64, 51)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "bulletListItem",
+          "text": "First bullet",
+          "width": 916,
+          "color": "rgb(92, 64, 51)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "bulletListItem",
+          "text": "Second bullet",
+          "width": 916,
+          "color": "rgb(92, 64, 51)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "text": "",
+          "width": 916,
+          "color": "rgb(92, 64, 51)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "text": "",
+          "width": 916,
+          "color": "rgb(92, 64, 51)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "tableOfContents",
+          "text": "Table of contents1. QA section heading",
+          "width": 916,
+          "color": "rgb(92, 64, 51)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "text": "",
+          "width": 916,
+          "color": "rgb(92, 64, 51)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "codeBlock",
+          "text": "const qa = \"persisted\";",
+          "width": 916,
+          "color": "rgb(92, 64, 51)",
+          "background": "rgb(22, 22, 22)",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "text": "",
+          "width": 916,
+          "color": "rgb(92, 64, 51)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "simpleTable",
+          "text": "QA table cellLast cell",
+          "width": 916,
+          "color": "rgb(92, 64, 51)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "text": "",
+          "width": 916,
+          "color": "rgb(92, 64, 51)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "columnLayout",
+          "text": "Columns23Column 1Column 2Column 3",
+          "width": 916,
+          "color": "rgb(92, 64, 51)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "columnLayout",
+          "text": "Columns23Column 1Column 2",
+          "width": 916,
+          "color": "rgb(92, 64, 51)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "footnote",
+          "text": "",
+          "width": 916,
+          "color": "rgb(92, 64, 51)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "footnote",
+          "text": "[1]",
+          "width": 916,
+          "color": "rgb(92, 64, 51)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "backgroundSection",
+          "text": "",
+          "width": 916,
+          "color": "rgb(92, 64, 51)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "backgroundSection",
+          "text": "Write highlighted content...",
+          "width": 916,
+          "color": "rgb(92, 64, 51)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "callout",
+          "text": "Info",
+          "width": 916,
+          "color": "rgb(92, 64, 51)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "callout",
+          "text": "InfoWrite callout text...",
+          "width": 916,
+          "color": "rgb(92, 64, 51)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "divider",
+          "text": "",
+          "width": 916,
+          "color": "rgb(92, 64, 51)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "text": "",
+          "width": 916,
+          "color": "rgb(92, 64, 51)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "spacer",
+          "text": "",
+          "width": 916,
+          "color": "rgb(92, 64, 51)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "text": "",
+          "width": 916,
+          "color": "rgb(92, 64, 51)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "videoEmbed",
+          "text": "YouTube",
+          "width": 916,
+          "color": "rgb(92, 64, 51)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": [
+            {
+              "src": "https://img.youtube.com/vi/dQw4w9WgXcQ/maxresdefault.jpg",
+              "complete": true,
+              "width": 1280
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "",
+          "width": 916,
+          "color": "rgb(92, 64, 51)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        },
+        {
+          "type": "image",
+          "text": "",
+          "width": 916,
+          "color": "rgb(92, 64, 51)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": [
+            {
+              "src": "https://yap.pr/yappr.png",
+              "complete": true,
+              "width": 1024
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "",
+          "width": 916,
+          "color": "rgb(92, 64, 51)",
+          "background": "rgba(0, 0, 0, 0)",
+          "images": []
+        }
+      ]
+    }
+  ],
+  "persistence": "Sepia survives reload, reset restores Author",
+  "writes": 0
+}
