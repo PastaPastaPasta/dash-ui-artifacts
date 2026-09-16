@@ -1,0 +1,12 @@
+{
+  "oldHead": "e18682a89e16308e261ef38cf06ef5270fcf80f7",
+  "oldBase": "cf0efbc10b8757137063113ebbd2061e8b87d8f7",
+  "newBase": "b859758af3926c76fba47a5dd149ff30ce8b7a5c",
+  "oldCommits": [
+    "ba8a6331",
+    "e18682a8"
+  ],
+  "targetRepository": "PastaPastaPasta/yappr",
+  "headBranch": "fix/blog-create-mobile-scroll",
+  "newBaseBranch": "fix/create-blog-focus-return"
+}

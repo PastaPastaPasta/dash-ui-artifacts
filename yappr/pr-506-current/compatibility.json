@@ -1,0 +1,113 @@
+{
+  "revision": "40dfb424fe6f7314af6bb2e359e9d4195798263f",
+  "base": "http://127.0.0.1:3317/devnet",
+  "persona": 64,
+  "blogsCreated": 0,
+  "cases": [
+    {
+      "width": 320,
+      "height": 700,
+      "keyboardSteps": 24,
+      "escapes": 0,
+      "clipped": 0
+    },
+    {
+      "width": 320,
+      "height": 700,
+      "mode": "Escape",
+      "closed": true,
+      "openerRestored": true
+    },
+    {
+      "width": 320,
+      "height": 700,
+      "mode": "Cancel",
+      "closed": true,
+      "openerRestored": true
+    },
+    {
+      "width": 320,
+      "height": 700,
+      "mode": "Close",
+      "closed": true,
+      "openerRestored": true
+    },
+    {
+      "width": 320,
+      "height": 700,
+      "mode": "backdrop",
+      "closed": true,
+      "openerRestored": true
+    },
+    {
+      "width": 700,
+      "height": 320,
+      "keyboardSteps": 24,
+      "escapes": 0,
+      "clipped": 0
+    },
+    {
+      "width": 700,
+      "height": 320,
+      "mode": "Escape",
+      "closed": true,
+      "openerRestored": true
+    },
+    {
+      "width": 700,
+      "height": 320,
+      "mode": "Cancel",
+      "closed": true,
+      "openerRestored": true
+    },
+    {
+      "width": 700,
+      "height": 320,
+      "mode": "Close",
+      "closed": true,
+      "openerRestored": true
+    },
+    {
+      "width": 700,
+      "height": 320,
+      "mode": "backdrop",
+      "closed": true,
+      "openerRestored": true
+    },
+    {
+      "width": 1280,
+      "height": 900,
+      "keyboardSteps": 24,
+      "escapes": 0,
+      "clipped": 0
+    },
+    {
+      "width": 1280,
+      "height": 900,
+      "mode": "Escape",
+      "closed": true,
+      "openerRestored": true
+    },
+    {
+      "width": 1280,
+      "height": 900,
+      "mode": "Cancel",
+      "closed": true,
+      "openerRestored": true
+    },
+    {
+      "width": 1280,
+      "height": 900,
+      "mode": "Close",
+      "closed": true,
+      "openerRestored": true
+    },
+    {
+      "width": 1280,
+      "height": 900,
+      "mode": "backdrop",
+      "closed": true,
+      "openerRestored": true
+    }
+  ]
+}
