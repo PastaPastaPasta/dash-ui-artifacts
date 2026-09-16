@@ -1,34 +1,38 @@
 {
   "README.md": {
-    "bytes": 3199,
-    "sha256": "6c3537c438cefbf474243e573d1b8e0dc35d246201e08c03e670909370dfc632"
+    "bytes": 3540,
+    "sha256": "b2d13df2ac0d0e3d49cc411e39d17d09ed622b83316a8bf32f8276c02e7bd540"
   },
-  "fixture.json": {
-    "bytes": 10104,
-    "sha256": "7a9a52ef5cd21ff0f61379c4073c53d31f210f08775d9b05f0ef476f5099b370"
-  },
-  "comparison/before/history-end.png": {
-    "bytes": 195802,
-    "sha256": "4444785103cd9a6a3494c091f6653d069354f0900d979a6828740742609ffee3"
+  "cleanup.json": {
+    "bytes": 6395,
+    "sha256": "23a755621d7fb7af3d35fe4e41337246b4cc0aa0876c91af217ea946fe9d81e1"
   },
   "comparison/after/history-end.png": {
     "bytes": 199210,
     "sha256": "249e486243a44515768fffbe7c59642106ed5d285c1610eac052db5a13f3c3ab"
   },
+  "comparison/after/incremental-error.png": {
+    "bytes": 189838,
+    "sha256": "9fc78b8923dbd1e51fd20ba75b9620cef2da90a65b87b93712e1c35f234d9730"
+  },
+  "comparison/after/initial-error.png": {
+    "bytes": 173932,
+    "sha256": "7457758867ba702215b0b69c84ad77e612dcaad9bcabddf5d26cf36bc4a90a93"
+  },
   "comparison/after/next-page-control.png": {
     "bytes": 186312,
     "sha256": "d859cac74e8dcee9c1f8a5d9bdb2417ca0d86eb3ada9972861300fb0ffa4ef0b"
   },
-  "comparison/after/incremental-error.png": {
-    "bytes": 189838,
-    "sha256": "9fc78b8923dbd1e51fd20ba75b9620cef2da90a65b87b93712e1c35f234d9730"
+  "comparison/before/history-end.png": {
+    "bytes": 195802,
+    "sha256": "4444785103cd9a6a3494c091f6653d069354f0900d979a6828740742609ffee3"
   },
   "comparison/before/initial-error.png": {
     "bytes": 169578,
     "sha256": "009497554f44686c0b0a367def9791a35214b5105eb0da01eceeedea9717a318"
   },
-  "comparison/after/initial-error.png": {
-    "bytes": 173932,
-    "sha256": "7457758867ba702215b0b69c84ad77e612dcaad9bcabddf5d26cf36bc4a90a93"
+  "fixture.json": {
+    "bytes": 10104,
+    "sha256": "7a9a52ef5cd21ff0f61379c4073c53d31f210f08775d9b05f0ef476f5099b370"
   }
 }
