@@ -1,0 +1,66 @@
+{
+  "phase": "before",
+  "revision": "cf0efbc10b8757137063113ebbd2061e8b87d8f7",
+  "fixture": "persona70 dedicated read-only existing QA identity; seeded scoped session, not login evidence",
+  "cases": [
+    {
+      "name": "desktop",
+      "width": 1280,
+      "height": 900,
+      "base": "http://127.0.0.1:3288/devnet",
+      "offlineText": "Dash Pay Contacts\nClose contacts\nClose contacts\n\nFind and follow your mutual Dash Pay contacts on Yappr.\n\nNo unfollowed contacts\n\nYou don't have any mutual Dash Pay contacts yet.",
+      "failed": [
+        {
+          "origin": "https://seed-5.moutai.networks.dash.org:1443",
+          "error": "net::ERR_INTERNET_DISCONNECTED"
+        },
+        {
+          "origin": "https://seed-1.moutai.networks.dash.org:1443",
+          "error": "net::ERR_INTERNET_DISCONNECTED"
+        },
+        {
+          "origin": "https://seed-2.moutai.networks.dash.org:1443",
+          "error": "net::ERR_INTERNET_DISCONNECTED"
+        },
+        {
+          "origin": "https://seed-4.moutai.networks.dash.org:1443",
+          "error": "net::ERR_INTERNET_DISCONNECTED"
+        }
+      ],
+      "newReadsAfterReconnect": 0,
+      "recoveryAction": "Close/reopen served cached failed-empty result",
+      "emptyText": "Dash Pay Contacts\nClose contacts\nClose contacts\n\nFind and follow your mutual Dash Pay contacts on Yappr.\n\nNo unfollowed contacts\n\nYou don't have any mutual Dash Pay contacts yet."
+    },
+    {
+      "name": "mobile",
+      "width": 390,
+      "height": 844,
+      "base": "http://127.0.0.1:3288/devnet",
+      "offlineText": "Dash Pay Contacts\nClose contacts\nClose contacts\n\nFind and follow your mutual Dash Pay contacts on Yappr.\n\nNo unfollowed contacts\n\nYou don't have any mutual Dash Pay contacts yet.",
+      "failed": [
+        {
+          "origin": "https://seed-1.moutai.networks.dash.org:1443",
+          "error": "net::ERR_INTERNET_DISCONNECTED"
+        },
+        {
+          "origin": "https://seed-2.moutai.networks.dash.org:1443",
+          "error": "net::ERR_INTERNET_DISCONNECTED"
+        },
+        {
+          "origin": "https://seed-4.moutai.networks.dash.org:1443",
+          "error": "net::ERR_INTERNET_DISCONNECTED"
+        },
+        {
+          "origin": "https://seed-5.moutai.networks.dash.org:1443",
+          "error": "net::ERR_INTERNET_DISCONNECTED"
+        }
+      ],
+      "newReadsAfterReconnect": 0,
+      "recoveryAction": "Close/reopen served cached failed-empty result",
+      "emptyText": "Dash Pay Contacts\nClose contacts\nClose contacts\n\nFind and follow your mutual Dash Pay contacts on Yappr.\n\nNo unfollowed contacts\n\nYou don't have any mutual Dash Pay contacts yet."
+    }
+  ],
+  "healthyEmpty": true,
+  "identity": "G7KNn78UJvYLVMZdAZRwiXnBknjeMFU2sccCuKc5su5j",
+  "cleanup": "All contexts restored online and disposed. No Platform writes."
+}

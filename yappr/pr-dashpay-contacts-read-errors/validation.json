@@ -1,0 +1,18 @@
+{
+  "base": "cf0efbc10b8757137063113ebbd2061e8b87d8f7",
+  "head": "9c646c1b754de5308580056f2f0bcd66a212951c",
+  "baselineRegression": {
+    "total": 9,
+    "passed": 4,
+    "failed": 5
+  },
+  "headUnit": {
+    "tests": 274,
+    "files": 38,
+    "passed": 274
+  },
+  "targetedLint": "passed",
+  "typescript": "passed",
+  "committedProductionBuild": "passed",
+  "independentReview": "approved"
+}
