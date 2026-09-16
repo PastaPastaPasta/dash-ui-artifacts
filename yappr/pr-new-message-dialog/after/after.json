@@ -1,0 +1,161 @@
+{
+  "base": "http://127.0.0.1:3256/devnet",
+  "label": "after",
+  "namedDialogs": 1,
+  "namedRecipient": 1,
+  "forward": [
+    {
+      "inside": true,
+      "tag": "BUTTON",
+      "name": "Cancel",
+      "placeholder": null
+    },
+    {
+      "inside": true,
+      "tag": "BUTTON",
+      "name": "Close new message",
+      "placeholder": null
+    },
+    {
+      "inside": true,
+      "tag": "INPUT",
+      "name": "",
+      "placeholder": "Search by username..."
+    },
+    {
+      "inside": true,
+      "tag": "BUTTON",
+      "name": "Cancel",
+      "placeholder": null
+    },
+    {
+      "inside": true,
+      "tag": "BUTTON",
+      "name": "Close new message",
+      "placeholder": null
+    },
+    {
+      "inside": true,
+      "tag": "INPUT",
+      "name": "",
+      "placeholder": "Search by username..."
+    },
+    {
+      "inside": true,
+      "tag": "BUTTON",
+      "name": "Cancel",
+      "placeholder": null
+    },
+    {
+      "inside": true,
+      "tag": "BUTTON",
+      "name": "Close new message",
+      "placeholder": null
+    },
+    {
+      "inside": true,
+      "tag": "INPUT",
+      "name": "",
+      "placeholder": "Search by username..."
+    },
+    {
+      "inside": true,
+      "tag": "BUTTON",
+      "name": "Cancel",
+      "placeholder": null
+    },
+    {
+      "inside": true,
+      "tag": "BUTTON",
+      "name": "Close new message",
+      "placeholder": null
+    },
+    {
+      "inside": true,
+      "tag": "INPUT",
+      "name": "",
+      "placeholder": "Search by username..."
+    }
+  ],
+  "backward": [
+    {
+      "inside": true,
+      "tag": "BUTTON",
+      "name": "Close new message",
+      "placeholder": null
+    },
+    {
+      "inside": true,
+      "tag": "BUTTON",
+      "name": "Cancel",
+      "placeholder": null
+    },
+    {
+      "inside": true,
+      "tag": "INPUT",
+      "name": "",
+      "placeholder": "Search by username..."
+    },
+    {
+      "inside": true,
+      "tag": "BUTTON",
+      "name": "Close new message",
+      "placeholder": null
+    },
+    {
+      "inside": true,
+      "tag": "BUTTON",
+      "name": "Cancel",
+      "placeholder": null
+    },
+    {
+      "inside": true,
+      "tag": "INPUT",
+      "name": "",
+      "placeholder": "Search by username..."
+    },
+    {
+      "inside": true,
+      "tag": "BUTTON",
+      "name": "Close new message",
+      "placeholder": null
+    },
+    {
+      "inside": true,
+      "tag": "BUTTON",
+      "name": "Cancel",
+      "placeholder": null
+    },
+    {
+      "inside": true,
+      "tag": "INPUT",
+      "name": "",
+      "placeholder": "Search by username..."
+    },
+    {
+      "inside": true,
+      "tag": "BUTTON",
+      "name": "Close new message",
+      "placeholder": null
+    },
+    {
+      "inside": true,
+      "tag": "BUTTON",
+      "name": "Cancel",
+      "placeholder": null
+    },
+    {
+      "inside": true,
+      "tag": "INPUT",
+      "name": "",
+      "placeholder": "Search by username..."
+    }
+  ],
+  "escapeClosed": true,
+  "cancelCloseAndReturn": true,
+  "closeCloseAndReturn": true,
+  "backdropCloseAndReturn": true,
+  "identitySelection": true,
+  "mobileSelectionFocus": true,
+  "mobileFits": true
+}

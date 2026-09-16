@@ -1,0 +1,155 @@
+{
+  "base": "http://127.0.0.1:3240/devnet",
+  "label": "before",
+  "namedDialogs": 0,
+  "namedRecipient": 0,
+  "forward": [
+    {
+      "inside": true,
+      "tag": "BUTTON",
+      "name": "Cancel",
+      "placeholder": null
+    },
+    {
+      "inside": false,
+      "tag": "BODY",
+      "name": "((e,t,r,i,n,a,s,o)=>{let l=document.documentElement,d=[\"ligh",
+      "placeholder": null
+    },
+    {
+      "inside": false,
+      "tag": "A",
+      "name": "Yappr",
+      "placeholder": null
+    },
+    {
+      "inside": false,
+      "tag": "A",
+      "name": "Home",
+      "placeholder": null
+    },
+    {
+      "inside": false,
+      "tag": "A",
+      "name": "Following",
+      "placeholder": null
+    },
+    {
+      "inside": false,
+      "tag": "A",
+      "name": "Followers",
+      "placeholder": null
+    },
+    {
+      "inside": false,
+      "tag": "A",
+      "name": "Explore",
+      "placeholder": null
+    },
+    {
+      "inside": false,
+      "tag": "A",
+      "name": "Store",
+      "placeholder": null
+    },
+    {
+      "inside": false,
+      "tag": "A",
+      "name": "Blog",
+      "placeholder": null
+    },
+    {
+      "inside": false,
+      "tag": "A",
+      "name": "Notifications",
+      "placeholder": null
+    },
+    {
+      "inside": false,
+      "tag": "A",
+      "name": "Messages",
+      "placeholder": null
+    },
+    {
+      "inside": false,
+      "tag": "A",
+      "name": "Bookmarks",
+      "placeholder": null
+    }
+  ],
+  "backward": [
+    {
+      "inside": true,
+      "tag": "BUTTON",
+      "name": "",
+      "placeholder": null
+    },
+    {
+      "inside": false,
+      "tag": "BUTTON",
+      "name": "New message",
+      "placeholder": null
+    },
+    {
+      "inside": false,
+      "tag": "INPUT",
+      "name": "",
+      "placeholder": "Search messages"
+    },
+    {
+      "inside": false,
+      "tag": "BUTTON",
+      "name": "",
+      "placeholder": null
+    },
+    {
+      "inside": false,
+      "tag": "BUTTON",
+      "name": "IdentityHVVUwJ...5WWu",
+      "placeholder": null
+    },
+    {
+      "inside": false,
+      "tag": "BUTTON",
+      "name": "Post",
+      "placeholder": null
+    },
+    {
+      "inside": false,
+      "tag": "A",
+      "name": "Settings",
+      "placeholder": null
+    },
+    {
+      "inside": false,
+      "tag": "A",
+      "name": "Profile",
+      "placeholder": null
+    },
+    {
+      "inside": false,
+      "tag": "A",
+      "name": "Bookmarks",
+      "placeholder": null
+    },
+    {
+      "inside": false,
+      "tag": "A",
+      "name": "Messages",
+      "placeholder": null
+    },
+    {
+      "inside": false,
+      "tag": "A",
+      "name": "Notifications",
+      "placeholder": null
+    },
+    {
+      "inside": false,
+      "tag": "A",
+      "name": "Blog",
+      "placeholder": null
+    }
+  ],
+  "escapeClosed": false
+}
