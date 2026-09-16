@@ -1,0 +1,52 @@
+{
+  "side": "before",
+  "revision": "c98a6ecd7e26ae5bc9fc8e400e6011eb8465b3a0",
+  "storeId": "GJdJn1iWx9CdtqRXetwa39Kkr3ZG2fBajQbcE1u6aJKr",
+  "route": "http://127.0.0.1:3260/devnet/store/item/add/?storeId=GJdJn1iWx9CdtqRXetwa39Kkr3ZG2fBajQbcE1u6aJKr",
+  "submitted": false,
+  "checks": [
+    {
+      "currency": "DASH",
+      "value": "0.00001",
+      "unchangedOnSelection": true,
+      "step": "0.00000001",
+      "label": "Price"
+    },
+    {
+      "currency": "USD",
+      "value": "12.34",
+      "unchangedOnSelection": true,
+      "step": "0.01",
+      "label": "Price"
+    },
+    {
+      "currency": "EUR",
+      "value": "12.34",
+      "unchangedOnSelection": true,
+      "step": "0.01",
+      "label": "Price"
+    },
+    {
+      "currency": "GBP",
+      "value": "12.34",
+      "unchangedOnSelection": true,
+      "step": "0.01",
+      "label": "Price"
+    },
+    {
+      "currency": "CAD",
+      "value": "12.34",
+      "unchangedOnSelection": true,
+      "step": "0.01",
+      "label": "Price"
+    },
+    {
+      "currency": "DASH",
+      "value": "12.34",
+      "unchangedOnSelection": true,
+      "step": "0.00000001",
+      "label": "Price"
+    }
+  ],
+  "passed": true
+}
