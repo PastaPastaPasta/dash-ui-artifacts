@@ -1,0 +1,315 @@
+{
+  "label": "after",
+  "base": "http://127.0.0.1:3313/devnet",
+  "revision": "d0a3832dc834a4e7ca8961854cf241dd69f9317f",
+  "post": "A97wUuDzx6uxJAKKxicTJZHrhL4huq8w58uiSXZM7tHa",
+  "votesSubmitted": 0,
+  "credentialSubmissions": 0,
+  "cases": [
+    "Close dismisses",
+    "backdrop dismisses and restores poll opener",
+    "Escape dismisses and restores poll opener",
+    "sidebar open and Escape restores sidebar opener",
+    "advanced empty form disabled; dismissal resets disclosure",
+    "390px reduced-motion bounds, keyboard confinement and Escape restoration"
+  ],
+  "initialFocus": {
+    "inside": true,
+    "tag": "BUTTON",
+    "label": "Close",
+    "text": ""
+  },
+  "escapeCloses": true,
+  "forward": [
+    {
+      "inside": true,
+      "tag": "BUTTON",
+      "label": null,
+      "text": "Copy link"
+    },
+    {
+      "inside": true,
+      "tag": "BUTTON",
+      "label": null,
+      "text": "Sign in with a passkey"
+    },
+    {
+      "inside": true,
+      "tag": "BUTTON",
+      "label": null,
+      "text": "Sign in with a password or private key"
+    },
+    {
+      "inside": true,
+      "tag": "A",
+      "label": null,
+      "text": "Create an identity"
+    },
+    {
+      "inside": true,
+      "tag": "BUTTON",
+      "label": "Close",
+      "text": ""
+    },
+    {
+      "inside": true,
+      "tag": "BUTTON",
+      "label": null,
+      "text": "Copy link"
+    },
+    {
+      "inside": true,
+      "tag": "BUTTON",
+      "label": null,
+      "text": "Sign in with a passkey"
+    },
+    {
+      "inside": true,
+      "tag": "BUTTON",
+      "label": null,
+      "text": "Sign in with a password or private key"
+    },
+    {
+      "inside": true,
+      "tag": "A",
+      "label": null,
+      "text": "Create an identity"
+    },
+    {
+      "inside": true,
+      "tag": "BUTTON",
+      "label": "Close",
+      "text": ""
+    },
+    {
+      "inside": true,
+      "tag": "BUTTON",
+      "label": null,
+      "text": "Copy link"
+    },
+    {
+      "inside": true,
+      "tag": "BUTTON",
+      "label": null,
+      "text": "Sign in with a passkey"
+    },
+    {
+      "inside": true,
+      "tag": "BUTTON",
+      "label": null,
+      "text": "Sign in with a password or private key"
+    },
+    {
+      "inside": true,
+      "tag": "A",
+      "label": null,
+      "text": "Create an identity"
+    },
+    {
+      "inside": true,
+      "tag": "BUTTON",
+      "label": "Close",
+      "text": ""
+    },
+    {
+      "inside": true,
+      "tag": "BUTTON",
+      "label": null,
+      "text": "Copy link"
+    },
+    {
+      "inside": true,
+      "tag": "BUTTON",
+      "label": null,
+      "text": "Sign in with a passkey"
+    },
+    {
+      "inside": true,
+      "tag": "BUTTON",
+      "label": null,
+      "text": "Sign in with a password or private key"
+    },
+    {
+      "inside": true,
+      "tag": "A",
+      "label": null,
+      "text": "Create an identity"
+    },
+    {
+      "inside": true,
+      "tag": "BUTTON",
+      "label": "Close",
+      "text": ""
+    },
+    {
+      "inside": true,
+      "tag": "BUTTON",
+      "label": null,
+      "text": "Copy link"
+    },
+    {
+      "inside": true,
+      "tag": "BUTTON",
+      "label": null,
+      "text": "Sign in with a passkey"
+    },
+    {
+      "inside": true,
+      "tag": "BUTTON",
+      "label": null,
+      "text": "Sign in with a password or private key"
+    },
+    {
+      "inside": true,
+      "tag": "A",
+      "label": null,
+      "text": "Create an identity"
+    }
+  ],
+  "backward": [
+    {
+      "inside": true,
+      "tag": "A",
+      "label": null,
+      "text": "Create an identity"
+    },
+    {
+      "inside": true,
+      "tag": "BUTTON",
+      "label": null,
+      "text": "Sign in with a password or private key"
+    },
+    {
+      "inside": true,
+      "tag": "BUTTON",
+      "label": null,
+      "text": "Sign in with a passkey"
+    },
+    {
+      "inside": true,
+      "tag": "BUTTON",
+      "label": null,
+      "text": "Copy link"
+    },
+    {
+      "inside": true,
+      "tag": "BUTTON",
+      "label": "Close",
+      "text": ""
+    },
+    {
+      "inside": true,
+      "tag": "A",
+      "label": null,
+      "text": "Create an identity"
+    },
+    {
+      "inside": true,
+      "tag": "BUTTON",
+      "label": null,
+      "text": "Sign in with a password or private key"
+    },
+    {
+      "inside": true,
+      "tag": "BUTTON",
+      "label": null,
+      "text": "Sign in with a passkey"
+    },
+    {
+      "inside": true,
+      "tag": "BUTTON",
+      "label": null,
+      "text": "Copy link"
+    },
+    {
+      "inside": true,
+      "tag": "BUTTON",
+      "label": "Close",
+      "text": ""
+    },
+    {
+      "inside": true,
+      "tag": "A",
+      "label": null,
+      "text": "Create an identity"
+    },
+    {
+      "inside": true,
+      "tag": "BUTTON",
+      "label": null,
+      "text": "Sign in with a password or private key"
+    },
+    {
+      "inside": true,
+      "tag": "BUTTON",
+      "label": null,
+      "text": "Sign in with a passkey"
+    },
+    {
+      "inside": true,
+      "tag": "BUTTON",
+      "label": null,
+      "text": "Copy link"
+    },
+    {
+      "inside": true,
+      "tag": "BUTTON",
+      "label": "Close",
+      "text": ""
+    },
+    {
+      "inside": true,
+      "tag": "A",
+      "label": null,
+      "text": "Create an identity"
+    },
+    {
+      "inside": true,
+      "tag": "BUTTON",
+      "label": null,
+      "text": "Sign in with a password or private key"
+    },
+    {
+      "inside": true,
+      "tag": "BUTTON",
+      "label": null,
+      "text": "Sign in with a passkey"
+    },
+    {
+      "inside": true,
+      "tag": "BUTTON",
+      "label": null,
+      "text": "Copy link"
+    },
+    {
+      "inside": true,
+      "tag": "BUTTON",
+      "label": "Close",
+      "text": ""
+    },
+    {
+      "inside": true,
+      "tag": "A",
+      "label": null,
+      "text": "Create an identity"
+    },
+    {
+      "inside": true,
+      "tag": "BUTTON",
+      "label": null,
+      "text": "Sign in with a password or private key"
+    },
+    {
+      "inside": true,
+      "tag": "BUTTON",
+      "label": null,
+      "text": "Sign in with a passkey"
+    },
+    {
+      "inside": true,
+      "tag": "BUTTON",
+      "label": null,
+      "text": "Copy link"
+    }
+  ]
+}

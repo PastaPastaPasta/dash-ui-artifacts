@@ -1,0 +1,310 @@
+{
+  "label": "before",
+  "base": "http://127.0.0.1:3288/devnet",
+  "revision": "cf0efbc10b8757137063113ebbd2061e8b87d8f7",
+  "post": "A97wUuDzx6uxJAKKxicTJZHrhL4huq8w58uiSXZM7tHa",
+  "votesSubmitted": 0,
+  "credentialSubmissions": 0,
+  "cases": [
+    "Close dismisses"
+  ],
+  "initialFocus": {
+    "inside": false,
+    "tag": "BUTTON",
+    "label": null,
+    "text": "Sign in to vote"
+  },
+  "escapeCloses": false,
+  "forward": [
+    {
+      "inside": true,
+      "tag": "BUTTON",
+      "label": null,
+      "text": "Copy link"
+    },
+    {
+      "inside": true,
+      "tag": "BUTTON",
+      "label": null,
+      "text": "Sign in with a passkey"
+    },
+    {
+      "inside": true,
+      "tag": "BUTTON",
+      "label": null,
+      "text": "Sign in with a password or private key"
+    },
+    {
+      "inside": true,
+      "tag": "A",
+      "label": null,
+      "text": "Create an identity"
+    },
+    {
+      "inside": false,
+      "tag": "BODY",
+      "label": null,
+      "text": "((e,t,r,i,n,a,s,o)=>{let l=document.documentElement,d=[\"ligh"
+    },
+    {
+      "inside": false,
+      "tag": "A",
+      "label": null,
+      "text": "Yappr"
+    },
+    {
+      "inside": false,
+      "tag": "A",
+      "label": null,
+      "text": "Home"
+    },
+    {
+      "inside": false,
+      "tag": "A",
+      "label": null,
+      "text": "Explore"
+    },
+    {
+      "inside": false,
+      "tag": "A",
+      "label": null,
+      "text": "Store"
+    },
+    {
+      "inside": false,
+      "tag": "A",
+      "label": null,
+      "text": "Blog"
+    },
+    {
+      "inside": false,
+      "tag": "BUTTON",
+      "label": null,
+      "text": "Sign In"
+    },
+    {
+      "inside": false,
+      "tag": "BUTTON",
+      "label": null,
+      "text": ""
+    },
+    {
+      "inside": false,
+      "tag": "A",
+      "label": null,
+      "text": ""
+    },
+    {
+      "inside": false,
+      "tag": "A",
+      "label": null,
+      "text": "Bianca Laurent"
+    },
+    {
+      "inside": false,
+      "tag": "A",
+      "label": null,
+      "text": "@bianca-laurent3.dash"
+    },
+    {
+      "inside": false,
+      "tag": "BUTTON",
+      "label": "Post options",
+      "text": ""
+    },
+    {
+      "inside": false,
+      "tag": "BUTTON",
+      "label": null,
+      "text": "Sign in to vote"
+    },
+    {
+      "inside": false,
+      "tag": "BUTTON",
+      "label": "Reply, 0 replies",
+      "text": ""
+    },
+    {
+      "inside": false,
+      "tag": "BUTTON",
+      "label": "Repost or quote, 0 reposts",
+      "text": ""
+    },
+    {
+      "inside": false,
+      "tag": "BUTTON",
+      "label": "Like, 0 likes",
+      "text": ""
+    },
+    {
+      "inside": false,
+      "tag": "DIV",
+      "label": null,
+      "text": ""
+    },
+    {
+      "inside": false,
+      "tag": "BUTTON",
+      "label": "Tip",
+      "text": ""
+    },
+    {
+      "inside": false,
+      "tag": "BUTTON",
+      "label": "Bookmark",
+      "text": ""
+    },
+    {
+      "inside": false,
+      "tag": "BUTTON",
+      "label": "Share",
+      "text": ""
+    }
+  ],
+  "backward": [
+    {
+      "inside": false,
+      "tag": "A",
+      "label": null,
+      "text": "About"
+    },
+    {
+      "inside": false,
+      "tag": "A",
+      "label": null,
+      "text": "Cookies"
+    },
+    {
+      "inside": false,
+      "tag": "A",
+      "label": null,
+      "text": "Privacy"
+    },
+    {
+      "inside": false,
+      "tag": "A",
+      "label": null,
+      "text": "Terms"
+    },
+    {
+      "inside": false,
+      "tag": "A",
+      "label": null,
+      "text": ""
+    },
+    {
+      "inside": false,
+      "tag": "A",
+      "label": null,
+      "text": "Show more"
+    },
+    {
+      "inside": false,
+      "tag": "A",
+      "label": null,
+      "text": "8#memes6 likes"
+    },
+    {
+      "inside": false,
+      "tag": "A",
+      "label": null,
+      "text": "7#shoplocal6 likes"
+    },
+    {
+      "inside": false,
+      "tag": "A",
+      "label": null,
+      "text": "6#dash11 likes"
+    },
+    {
+      "inside": false,
+      "tag": "A",
+      "label": null,
+      "text": "5#weekend11 likes"
+    },
+    {
+      "inside": false,
+      "tag": "A",
+      "label": null,
+      "text": "4#life12 likes"
+    },
+    {
+      "inside": false,
+      "tag": "A",
+      "label": null,
+      "text": "3#dashplatform13 likes"
+    },
+    {
+      "inside": false,
+      "tag": "A",
+      "label": null,
+      "text": "2#hiking13 likes"
+    },
+    {
+      "inside": false,
+      "tag": "A",
+      "label": null,
+      "text": "1#masternodes32 likes"
+    },
+    {
+      "inside": false,
+      "tag": "INPUT",
+      "label": null,
+      "text": ""
+    },
+    {
+      "inside": false,
+      "tag": "BUTTON",
+      "label": null,
+      "text": "Log in"
+    },
+    {
+      "inside": false,
+      "tag": "BUTTON",
+      "label": "Share",
+      "text": ""
+    },
+    {
+      "inside": false,
+      "tag": "BUTTON",
+      "label": "Bookmark",
+      "text": ""
+    },
+    {
+      "inside": false,
+      "tag": "BUTTON",
+      "label": "Tip",
+      "text": ""
+    },
+    {
+      "inside": false,
+      "tag": "DIV",
+      "label": null,
+      "text": ""
+    },
+    {
+      "inside": false,
+      "tag": "BUTTON",
+      "label": "Like, 0 likes",
+      "text": ""
+    },
+    {
+      "inside": false,
+      "tag": "BUTTON",
+      "label": "Repost or quote, 0 reposts",
+      "text": ""
+    },
+    {
+      "inside": false,
+      "tag": "BUTTON",
+      "label": "Reply, 0 replies",
+      "text": ""
+    },
+    {
+      "inside": false,
+      "tag": "BUTTON",
+      "label": null,
+      "text": "Sign in to vote"
+    }
+  ]
+}
