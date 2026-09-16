@@ -1,0 +1,11 @@
+{
+  "base": "http://127.0.0.1:3290/devnet",
+  "currentHead": "7f259cfef8df477a7763c9c9d4680defb55a76f1",
+  "desktopNewMessageOpenerFocusReturn": true,
+  "search": "samir-plates-5",
+  "selectedIdentity": "6yDkcAPd29Y24aLt1Ec1ZaRfwd4BCMJB6Swg9tgeYFmx",
+  "usernameSearchSelectionPassed": true,
+  "emptyIdentity": "D4kmKRzYkxQs9CVHHCmNQ6HUCwmXvJpBcH1gKKWNsih8",
+  "emptyWelcomeOpenerFocusReturn": true,
+  "messageWrites": 0
+}
