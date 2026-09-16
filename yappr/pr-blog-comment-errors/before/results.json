@@ -1,0 +1,14 @@
+{
+  "phase": "before",
+  "base": "http://127.0.0.1:3288/devnet",
+  "identity": "9cjhprZAFUDVG71Fo8b5eCzHpwjo9Aj9npcRRpmCJBbw",
+  "content": "QA139 temporary comment — delete failure feedback.",
+  "draft": "QA139 temporary draft — reconnect and retry posting.",
+  "checks": [
+    "Own row retained and Delete enabled after offline failure",
+    "Draft retained and Post comment enabled after offline failure"
+  ],
+  "deleteToast": "You can only delete your own comments",
+  "postToast": "transport error: grpc error: code: 'Internal error', message: \"Failed to call gRPC service: JS API error: TypeError: Failed to fetch\"",
+  "success": true
+}

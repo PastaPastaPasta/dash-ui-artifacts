@@ -1,0 +1,16 @@
+[
+  {
+    "phase": "before",
+    "source": "cf0efbc10b8757137063113ebbd2061e8b87d8f7",
+    "localBuild": "cf0efbc1",
+    "servedBuild": "cf0efbc1",
+    "url": "http://127.0.0.1:3288/devnet/"
+  },
+  {
+    "phase": "after",
+    "source": "1abae6535f769005f7d73cb209e7b12b54dc5188",
+    "localBuild": "1abae653",
+    "servedBuild": "1abae653",
+    "url": "http://127.0.0.1:3375/devnet/"
+  }
+]

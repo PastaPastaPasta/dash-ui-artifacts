@@ -1,0 +1,9 @@
+{
+  "checks": [
+    "Delete retry after reconnect removes original owned comment, fresh reload confirms zero",
+    "Retained draft retries online and persists once; fresh reload confirms exactly one comment",
+    "Temporary retry comment deleted; fresh reader65 returns to zero",
+    "Fresh owner64 read confirms zero"
+  ],
+  "restoredZero": true
+}

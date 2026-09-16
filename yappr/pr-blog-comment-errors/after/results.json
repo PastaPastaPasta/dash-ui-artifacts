@@ -1,0 +1,14 @@
+{
+  "phase": "after",
+  "base": "http://127.0.0.1:3375/devnet",
+  "identity": "9cjhprZAFUDVG71Fo8b5eCzHpwjo9Aj9npcRRpmCJBbw",
+  "content": "QA139 temporary comment — delete failure feedback.",
+  "draft": "QA139 temporary draft — reconnect and retry posting.",
+  "checks": [
+    "Own row retained and Delete enabled after offline failure",
+    "Draft retained and Post comment enabled after offline failure"
+  ],
+  "deleteToast": "Failed to delete comment. Please try again.",
+  "postToast": "Failed to post comment. Please try again.",
+  "success": true
+}
