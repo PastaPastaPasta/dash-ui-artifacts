@@ -1,0 +1,44 @@
+{
+  "revision": "3665c8862e930a8b6b6fc14d03f6f67cf096b632",
+  "text": "QA cashtag indexing check: $DASH",
+  "checks": [
+    {
+      "case": "publish-cashtag-link-latest",
+      "passed": true,
+      "url": "http://127.0.0.1:3374/devnet/hashtag/?tag=dash_cashtag",
+      "text": "DASH\n\n1 post\n\nLatest\nTop\nDr. Hamza\n@hamza1981.dash\n·\n6s\nQA cashtag indexing check: \n$DASH"
+    },
+    {
+      "case": "like-cashtag-post",
+      "passed": true
+    },
+    {
+      "case": "cashtag-top-all-time",
+      "passed": true
+    },
+    {
+      "case": "cashtag-top-today",
+      "passed": true
+    },
+    {
+      "case": "unlike-cashtag-post",
+      "passed": true
+    },
+    {
+      "case": "63-character-symbol-saves-and-links-to61-character-tag",
+      "passed": true,
+      "storedTag": "qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq_cashtag",
+      "url": "http://127.0.0.1:3374/devnet/hashtag/?tag=qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq_cashtag"
+    }
+  ],
+  "postIds": [
+    "391MamDebj29ksh3vdShyQ6eG8oKoJeeVefPoAw8Havw",
+    "3L5xfB6e5amDsyYVitxMjxUhbj6PZtg3Hs77agjEt6ba"
+  ],
+  "base": "http://127.0.0.1:3374/devnet",
+  "postId": "391MamDebj29ksh3vdShyQ6eG8oKoJeeVefPoAw8Havw",
+  "createdAt": "2026-09-16T04:53:49.371Z",
+  "buildId": "3665c886",
+  "likeMayExist": false,
+  "longPostId": "3L5xfB6e5amDsyYVitxMjxUhbj6PZtg3Hs77agjEt6ba"
+}

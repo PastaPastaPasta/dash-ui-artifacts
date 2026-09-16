@@ -1,0 +1,16 @@
+{
+  "revision": "cf0efbc10b8757137063113ebbd2061e8b87d8f7",
+  "text": "QA cashtag indexing check: $DASH",
+  "checks": [
+    {
+      "case": "successful-publish-but-cashtag-empty",
+      "passed": true,
+      "url": "http://127.0.0.1:3288/devnet/hashtag/?tag=dash_cashtag",
+      "text": "DASH\n\n0 posts\n\nLatest\nTop\nNo posts yet\n\nBe the first to post with $DASH\n\nLooking for older posts? Browse the previous version of Yappr"
+    }
+  ],
+  "base": "http://127.0.0.1:3288/devnet",
+  "postId": "GGLWFjSveCfigSfLXjtuzHYS9FNC4S3Fv6ArNpvx7q5A",
+  "createdAt": "2026-09-16T04:50:10.003Z",
+  "buildId": "cf0efbc1"
+}

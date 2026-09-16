@@ -1,0 +1,32 @@
+{
+  "readAt": "2026-09-16T04:55:04.122Z",
+  "posts": [
+    {
+      "postId": "GGLWFjSveCfigSfLXjtuzHYS9FNC4S3Fv6ArNpvx7q5A",
+      "exists": true,
+      "deleted": false,
+      "content": "QA cashtag indexing check: $DASH",
+      "hasHashtag": false,
+      "hashtag": null,
+      "revision": 1
+    },
+    {
+      "postId": "391MamDebj29ksh3vdShyQ6eG8oKoJeeVefPoAw8Havw",
+      "exists": true,
+      "deleted": false,
+      "content": "QA cashtag indexing check: $DASH",
+      "hasHashtag": true,
+      "hashtag": "dash_cashtag",
+      "revision": 1
+    },
+    {
+      "postId": "3L5xfB6e5amDsyYVitxMjxUhbj6PZtg3Hs77agjEt6ba",
+      "exists": true,
+      "deleted": false,
+      "content": "QA cashtag encoded length check: $QQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQ",
+      "hasHashtag": true,
+      "hashtag": "qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq_cashtag",
+      "revision": 1
+    }
+  ]
+}

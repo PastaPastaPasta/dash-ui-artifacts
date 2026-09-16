@@ -1,0 +1,23 @@
+{
+  "checks": [
+    {
+      "case": "73like-absent",
+      "passed": true
+    },
+    {
+      "case": "delete-post-ui",
+      "postId": "GGLWFjSveCfigSfLXjtuzHYS9FNC4S3Fv6ArNpvx7q5A",
+      "passed": true
+    },
+    {
+      "case": "delete-post-ui",
+      "postId": "391MamDebj29ksh3vdShyQ6eG8oKoJeeVefPoAw8Havw",
+      "passed": true
+    },
+    {
+      "case": "delete-post-ui",
+      "postId": "3L5xfB6e5amDsyYVitxMjxUhbj6PZtg3Hs77agjEt6ba",
+      "passed": true
+    }
+  ]
+}
