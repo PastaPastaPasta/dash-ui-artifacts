@@ -1,0 +1,53 @@
+{
+  "revision": "d0033afc5e9be1c1b95ae723ff78c121f9ddbbc7",
+  "base": "http://127.0.0.1:4335/devnet",
+  "checks": [
+    {
+      "name": "shipping two Tabs from Cancel remain in panel",
+      "detail": {
+        "expected": false,
+        "active": {
+          "tag": "A",
+          "text": "Yappr"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "name": "payment two Tabs from Cancel remain in panel",
+      "detail": {
+        "expected": false,
+        "active": {
+          "tag": "A",
+          "text": "Yappr"
+        }
+      },
+      "status": "pass"
+    }
+  ],
+  "shippingPortrait": {
+    "x": 24.949996948242188,
+    "y": 61.192962646484375,
+    "width": 340.09999084472656,
+    "height": 721.6140441894531
+  },
+  "shippingLandscape": {
+    "x": 178.8000030517578,
+    "y": 28.275009155273438,
+    "width": 486.40000915527344,
+    "height": 333.44996643066406
+  },
+  "paymentPortrait": {
+    "x": 24.866607666015625,
+    "y": 73.74298095703125,
+    "width": 340.26678466796875,
+    "height": 696.4984130859375
+  },
+  "paymentLandscape": {
+    "x": 209.1999969482422,
+    "y": -2.125,
+    "width": 425.59999084472656,
+    "height": 394.25
+  },
+  "passed": true
+}

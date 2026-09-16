@@ -1,0 +1,101 @@
+{
+  "revision": "e06696b68eafabbba8ec621820c3b0cdc292536d",
+  "base": "http://127.0.0.1:4345/devnet",
+  "checks": [
+    {
+      "name": "shipping two Tabs from Cancel remain in panel",
+      "detail": {
+        "expected": true,
+        "active": {
+          "tag": "INPUT",
+          "text": ""
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "name": "shipping thirty forward and reverse Tabs remain inside",
+      "status": "pass"
+    },
+    {
+      "name": "shipping Escape closes and restores opener",
+      "status": "pass"
+    },
+    {
+      "name": "shipping Cancel closes and restores opener",
+      "status": "pass"
+    },
+    {
+      "name": "shipping Close closes and restores opener",
+      "status": "pass"
+    },
+    {
+      "name": "shipping outside closes and restores opener",
+      "status": "pass"
+    },
+    {
+      "name": "shipping form interaction retained, canceled without write",
+      "status": "pass"
+    },
+    {
+      "name": "payment two Tabs from Cancel remain in panel",
+      "detail": {
+        "expected": true,
+        "active": {
+          "tag": "BUTTON",
+          "text": "Select Type"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "name": "payment thirty forward and reverse Tabs remain inside",
+      "status": "pass"
+    },
+    {
+      "name": "payment Escape closes and restores opener",
+      "status": "pass"
+    },
+    {
+      "name": "payment Cancel closes and restores opener",
+      "status": "pass"
+    },
+    {
+      "name": "payment Close closes and restores opener",
+      "status": "pass"
+    },
+    {
+      "name": "payment outside closes and restores opener",
+      "status": "pass"
+    },
+    {
+      "name": "payment form interaction retained, canceled without write",
+      "status": "pass"
+    }
+  ],
+  "shippingPortrait": {
+    "x": 16,
+    "y": 42.203125,
+    "width": 358,
+    "height": 759.59375
+  },
+  "shippingLandscape": {
+    "x": 166,
+    "y": 19.5,
+    "width": 512,
+    "height": 351
+  },
+  "paymentPortrait": {
+    "x": 16,
+    "y": 55.59375,
+    "width": 358,
+    "height": 732.796875
+  },
+  "paymentLandscape": {
+    "x": 198,
+    "y": -12.5,
+    "width": 448,
+    "height": 415
+  },
+  "passed": true
+}
