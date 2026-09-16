@@ -1,0 +1,27 @@
+{
+  "revision": "cf0efbc10b8757137063113ebbd2061e8b87d8f7",
+  "origin": "http://localhost:3288/devnet",
+  "owner": "9NFhqxW8upkFMVTE5h5VmYWLdSEJ26B2iMKdhCFgsWkd",
+  "actor": "4epjp48EuEG7UetQ7uExDsYNsoWLeVWU9Ym26sXb64WM",
+  "at": "2026-09-16T04:58:02.694Z",
+  "checks": [
+    "All7ordinarypreferencesoff persistedreload; actual38private-request notification remains visible beforeandafterreload",
+    "Originalordinarypreferencesrestoredandfreshreloadverified"
+  ],
+  "original": {
+    "Likes": "true",
+    "Reposts": "true",
+    "Replies": "true",
+    "Follows": "true",
+    "Mentions": "true",
+    "Messages": "true",
+    "Blog posts": "true"
+  },
+  "allOffReloadVerified": true,
+  "followCreated": true,
+  "requestCreated": true,
+  "notificationText": "Natalia Ibarra requested access to your private feed3s\n\nView Requests",
+  "preferencesRestored": true,
+  "pendingForR5": true,
+  "success": true
+}

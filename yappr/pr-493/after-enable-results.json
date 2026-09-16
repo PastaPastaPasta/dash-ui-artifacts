@@ -1,0 +1,18 @@
+{
+  "revision": "eef277a640d2226c8ee127e1a6a78e0308c8316c",
+  "persona": 80,
+  "state": "after",
+  "identityId": "FdEpAQb1kgKCWXsgQCtAf8g1KXL2zNXVkLj4we2wQagg",
+  "checks": [
+    "Fresh normal password login restores reserved fixture with unlocked password vault",
+    "Actual first Enable retains accepted key immediately",
+    "Expected key status persists after reload"
+  ],
+  "phase": "fresh-password-login",
+  "compiledRevisionVerified": true,
+  "hasStoredEncryptionKeyBefore": false,
+  "feedEnabled": true,
+  "hasStoredEncryptionKeyAfter": true,
+  "afterEnableText": "Private Feed\nPrivate Feed\n\nCreate encrypted posts visible only to approved followers\n\nPrivate feed is enabled\n\nYou can create encrypted posts that only approved followers can see.\nEnabled: 9/16/2026\n\n0\n\n/ 1024\n\nFollowers\n\n1\n\n/ 2000\n\nEpoch\n\n1024\n\nAvailable\n\nSlots\n\nEncryption Key\nKey stored for this session\n\nYou can create and view private posts\n\nCapacity:\n•\nUp to 1,024 private followers\n•\nUp to 1,999 revocations before migration needed\nRecovery\n\nReset unavailable\n\nYour existing private feed cannot be reset. Keep your original encryption key to recover access.\n\nView recovery information\nYour Private Feed\n\nOverview of your private feed activity and stats\n\n0\n\n/1024\n\nFollowers\n\n0\n\n \n\nPending\n\n0\n\n(recent)\n\nPrivate Posts\n\nEpoch Usage\n0/1999 revocations\nPrivate Feed Requests\n\nApprove or ignore requests to access your private feed\n\nNo pending requests\n\nPrivate Followers\n0/1024\n\nManage who can access your private posts\n\nNo private followers yet\n\nApprove follow requests to grant access to your private posts",
+  "error": "expect(locator).toBeVisible() failed\n\nLocator: getByText('Key stored for this session', { exact: true })\nExpected: visible\nTimeout: 120000ms\nError: element(s) not found\n\nCall log:\n  - Expect \"to.be.visible\" with timeout 120000ms\n  - waiting for getByText('Key stored for this session', { exact: true })\n"
+}

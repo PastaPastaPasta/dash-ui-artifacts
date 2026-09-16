@@ -1,0 +1,40 @@
+{
+  "state": "after",
+  "revision": "eef277a640d2226c8ee127e1a6a78e0308c8316c",
+  "origin": "http://localhost:3297/devnet",
+  "owner": "9NFhqxW8upkFMVTE5h5VmYWLdSEJ26B2iMKdhCFgsWkd",
+  "actor": "4epjp48EuEG7UetQ7uExDsYNsoWLeVWU9Ym26sXb64WM",
+  "at": "2026-09-16T05:13:47.443Z",
+  "checks": [
+    "Revoke immediately refreshes dashboard0 andincrementedepoch plusrequestqueue withoutreload",
+    "Freshreadback0followers/incrementedepoch; originalrequestpersistsfornextcycleorfinalcancel"
+  ],
+  "initial": {
+    "main": "Private Feed\nPrivate Feed\n\nCreate encrypted posts visible only to approved followers\n\nPrivate feed is enabled\n\nYou can create encrypted posts that only approved followers can see.\nEnabled: 9/15/2026\n\n0\n\n/ 1024\n\nFollowers\n\n3\n\n/ 2000\n\nEpoch\n\n1024\n\nAvailable\n\nSlots\n\nEncryption Key\nKey stored for this session\n\nYou can create and view private posts\n\nCapacity:\n•\nUp to 1,024 private followers\n•\nUp to 1,999 revocations before migration needed\nRecovery\n\nReset unavailable\n\nYour existing private feed cannot be reset. Keep your original encryption key to recover access.\n\nView recovery information\nYour Private Feed\n\nOverview of your private feed activity and stats\n\n0\n\n/1024\n\nFollowers\n\n1\n\n \n\nPending\n\n0\n\n(recent)\n\nPrivate Posts\n\nEpoch Usage\n2/1999 revocations\nRecent Activity\nLeaf 0 revoked\n1 minute ago\nLeaf 0 revoked\n2 hours ago\nPrivate Feed Requests\n1\n\nApprove or ignore requests to access your private feed\n\nNatalia Ibarra\n\n@nataliai93.dash\n\nRequested 15 minutes ago\n\nApprove\nIgnore\nPrivate Followers\n0/1024\n\nManage who can access your private posts\n\nNo private followers yet\n\nApprove follow requests to grant access to your private posts",
+    "followers": "0",
+    "epoch": "Epoch Usage\n2/1999 revocations",
+    "pending": "1"
+  },
+  "previousRevocations": 2,
+  "granted": false,
+  "afterApprove": {
+    "main": "Private Feed\nPrivate Feed\n\nCreate encrypted posts visible only to approved followers\n\nPrivate feed is enabled\n\nYou can create encrypted posts that only approved followers can see.\nEnabled: 9/15/2026\n\n1\n\n/ 1024\n\nFollowers\n\n3\n\n/ 2000\n\nEpoch\n\n1023\n\nAvailable\n\nSlots\n\nEncryption Key\nKey stored for this session\n\nYou can create and view private posts\n\nCapacity:\n•\nUp to 1,024 private followers\n•\nUp to 1,999 revocations before migration needed\nRecovery\n\nReset unavailable\n\nYour existing private feed cannot be reset. Keep your original encryption key to recover access.\n\nView recovery information\nYour Private Feed\n\nOverview of your private feed activity and stats\n\n1\n\n/1024\n\nFollowers\n\n0\n\n \n\nPending\n\n0\n\n(recent)\n\nPrivate Posts\n\nEpoch Usage\n2/1999 revocations\nRecent Activity\nLeaf 0 revoked\n1 minute ago\nLeaf 0 revoked\n2 hours ago\nPrivate Feed Requests\n\nApprove or ignore requests to access your private feed\n\nNo pending requests\n\nPrivate Followers\n1/1024\n\nManage who can access your private posts\n\nNatalia Ibarra\n\n@nataliai93.dash\n\nFollowing since Sep 16, 2026\n\nRevoke\n\nRevoking access will prevent the user from seeing your future private posts. They will still be able to see posts from when they had access.",
+    "followers": "1",
+    "epoch": "Epoch Usage\n2/1999 revocations",
+    "pending": "0"
+  },
+  "revoked": true,
+  "immediate": {
+    "main": "Private Feed\nPrivate Feed\n\nCreate encrypted posts visible only to approved followers\n\nPrivate feed is enabled\n\nYou can create encrypted posts that only approved followers can see.\nEnabled: 9/15/2026\n\n0\n\n/ 1024\n\nFollowers\n\n4\n\n/ 2000\n\nEpoch\n\n1024\n\nAvailable\n\nSlots\n\nEncryption Key\nKey stored for this session\n\nYou can create and view private posts\n\nCapacity:\n•\nUp to 1,024 private followers\n•\nUp to 1,999 revocations before migration needed\nRecovery\n\nReset unavailable\n\nYour existing private feed cannot be reset. Keep your original encryption key to recover access.\n\nView recovery information\nYour Private Feed\n\nOverview of your private feed activity and stats\n\n0\n\n/1024\n\nFollowers\n\n1\n\n \n\nPending\n\n0\n\n(recent)\n\nPrivate Posts\n\nEpoch Usage\n3/1999 revocations\nRecent Activity\nLeaf 0 revoked\n3 seconds ago\nLeaf 0 revoked\n1 minute ago\nLeaf 0 revoked\n2 hours ago\nPrivate Feed Requests\n1\n\nApprove or ignore requests to access your private feed\n\nNatalia Ibarra\n\n@nataliai93.dash\n\nRequested 15 minutes ago\n\nApprove\nIgnore\nPrivate Followers\n0/1024\n\nManage who can access your private posts\n\nNo private followers yet\n\nApprove follow requests to grant access to your private posts",
+    "followers": "0",
+    "epoch": "Epoch Usage\n3/1999 revocations",
+    "pending": "1"
+  },
+  "reloaded": {
+    "main": "Private Feed\nPrivate Feed\n\nCreate encrypted posts visible only to approved followers\n\nPrivate feed is enabled\n\nYou can create encrypted posts that only approved followers can see.\nEnabled: 9/15/2026\n\n0\n\n/ 1024\n\nFollowers\n\n4\n\n/ 2000\n\nEpoch\n\n1024\n\nAvailable\n\nSlots\n\nEncryption Key\nKey stored for this session\n\nYou can create and view private posts\n\nCapacity:\n•\nUp to 1,024 private followers\n•\nUp to 1,999 revocations before migration needed\nRecovery\n\nReset unavailable\n\nYour existing private feed cannot be reset. Keep your original encryption key to recover access.\n\nView recovery information\nYour Private Feed\n\nOverview of your private feed activity and stats\n\n0\n\n/1024\n\nFollowers\n\n1\n\n \n\nPending\n\n0\n\n(recent)\n\nPrivate Posts\n\nEpoch Usage\n3/1999 revocations\nRecent Activity\nLeaf 0 revoked\n11 seconds ago\nLeaf 0 revoked\n1 minute ago\nLeaf 0 revoked\n2 hours ago\nPrivate Feed Requests\n1\n\nApprove or ignore requests to access your private feed\n\nNatalia Ibarra\n\n@nataliai93.dash\n\nRequested 15 minutes ago\n\nApprove\nIgnore\nPrivate Followers\n0/1024\n\nManage who can access your private posts\n\nNo private followers yet\n\nApprove follow requests to grant access to your private posts",
+    "followers": "0",
+    "epoch": "Epoch Usage\n3/1999 revocations",
+    "pending": "1"
+  },
+  "success": true
+}
