@@ -1,0 +1,6 @@
+
+> yappr@0.1.0 lint
+> next lint --dir app --dir components --dir contexts --dir hooks --dir lib --dir types --max-warnings 0
+
+ ⚠ Specified "headers" will not automatically work with "output: export". See more info here: https://nextjs.org/docs/messages/export-no-custom-routes
+✔ No ESLint warnings or errors

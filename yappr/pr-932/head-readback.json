@@ -1,0 +1,31 @@
+{
+  "at": "2026-09-16T05:19:28.795Z",
+  "contract": "CdUkSHkQwGXXAkzKqrcrjUWLsj7qErK9XAZmLzJEhirU",
+  "owner": "1R7KNEEbzqg3574bybNCTJjvctH1jFg76vNc6PsWVet",
+  "content": "QA147 profile live update 2026-09-16T05:10:28.337Z",
+  "rowsScanned": 69,
+  "matches": [
+    {
+      "id": "4FEYftyRGJs832fk8NGomcJ28LjLNu7w9yAGEmBhngua",
+      "owner": "1R7KNEEbzqg3574bybNCTJjvctH1jFg76vNc6PsWVet",
+      "content": "QA147 inactive tab 1789535888849",
+      "createdAt": 1789535889623,
+      "revision": 1
+    },
+    {
+      "id": "HG2t6bDnQWmUKqBgKq2zdsrLDEbJDKJhRmaNb8cWiMPD",
+      "owner": "1R7KNEEbzqg3574bybNCTJjvctH1jFg76vNc6PsWVet",
+      "content": "QA147 profile live update 2026-09-16T05:10:28.337Z",
+      "createdAt": 1789535886619,
+      "revision": 1
+    },
+    {
+      "id": "8m9CWFyxSyrijCwJA4Ssvq5pntokw9cZSQAr5jVyUPpp",
+      "owner": "1R7KNEEbzqg3574bybNCTJjvctH1jFg76vNc6PsWVet",
+      "content": "",
+      "createdAt": 1789535433109,
+      "revision": 2,
+      "deleted": true
+    }
+  ]
+}

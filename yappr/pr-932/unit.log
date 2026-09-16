@@ -1,0 +1,527 @@
+
+> yappr@0.1.0 test
+> vitest run
+
+
+ RUN  v3.2.7 /private/tmp/yappr-profile-created-post-refresh
+
+ ✓ lib/social-link-validation.test.ts (17 tests) 2ms
+ ✓ lib/contracts/bundled-contracts.test.ts (4 tests) 23ms
+ ✓ lib/bloom-filter.test.ts (8 tests) 54ms
+stdout | lib/services/unified-profile-service.test.ts > profile replacements > rejects a failed replacement so callers cannot report a successful save
+[37m2026-09-16 05:10:58.132[39m[0m[0m	[31m[1mERROR[22m[39m[0m[0m	[37mlib/logger.ts:81[39m[0m[0m[1m[37m	yappr[39m[22m[0m[0m	UnifiedProfileService: Error updating profile:
+
+[97m[101m[1m Error [22m[49m[39m[0m[0m Replacement rejected[0m[0m
+error stack:
+  • [33munified-profile-service.ts[39m[0m[0m	UnifiedProfileService.updateProfile[0m[0m
+	[37mlib/services/unified-profile-service.ts:810[39m[0m[0m
+  • [33mtask_queues[39m[0m[0m	processTicksAndRejections[0m[0m
+	[37mnode:internal/process/task_queues:103[39m[0m[0m
+  • [33munified-profile-service.test.ts[39m[0m[0m	[0m[0m
+	[37mlib/services/unified-profile-service.test.ts:83[39m[0m[0m
+  • [33mchunk-hooks.js[39m[0m[0m	[0m[0m
+	[37m/Users/pasta/.t3/worktrees/yappr/qa-staging-eb895be7/node_modules/@vitest/runner/dist/chunk-hooks.js:752[39m[0m[0m[0m[0m
+
+ ✓ lib/crypto/keys.test.ts (14 tests) 10ms
+stdout | lib/feed/load-post-enrichment.test.ts > shared post enrichment > does not supply zero counts for a failed chunk or mix its result into a successful kind
+[37m2026-09-16 05:10:58.133[39m[0m[0m	[33m[1mWARN[22m[39m[0m[0m	[37mlib/logger.ts:78[39m[0m[0m[1m[37m	yappr[39m[22m[0m[0m	Composite enrichment failed; using ordinary enrichment for this batch
+
+[97m[101m[1m Error [22m[49m[39m[0m[0m bad proof[0m[0m
+error stack:
+  • [33mload-post-enrichment.test.ts[39m[0m[0m	[0m[0m
+	[37mlib/feed/load-post-enrichment.test.ts:37[39m[0m[0m
+  • [33mchunk-hooks.js[39m[0m[0m	[0m[0m
+	[37m/Users/pasta/.t3/worktrees/yappr/qa-staging-eb895be7/node_modules/@vitest/runner/dist/chunk-hooks.js:155[39m[0m[0m
+  • [33mchunk-hooks.js[39m[0m[0m	[0m[0m
+	[37m/Users/pasta/.t3/worktrees/yappr/qa-staging-eb895be7/node_modules/@vitest/runner/dist/chunk-hooks.js:752[39m[0m[0m
+  • [33mchunk-hooks.js[39m[0m[0m	[0m[0m
+	[37m/Users/pasta/.t3/worktrees/yappr/qa-staging-eb895be7/node_modules/@vitest/runner/dist/chunk-hooks.js:1897[39m[0m[0m
+  • [33m<anonymous>[39m[0m[0m	new Promise[0m[0m
+	[37m[39m[0m[0m
+  • [33mchunk-hooks.js[39m[0m[0m	runWithTimeout[0m[0m
+	[37m/Users/pasta/.t3/worktrees/yappr/qa-staging-eb895be7/node_modules/@vitest/runner/dist/chunk-hooks.js:1863[39m[0m[0m
+  • [33mchunk-hooks.js[39m[0m[0m	runTest[0m[0m
+	[37m/Users/pasta/.t3/worktrees/yappr/qa-staging-eb895be7/node_modules/@vitest/runner/dist/chunk-hooks.js:1574[39m[0m[0m
+  • [33mtask_queues[39m[0m[0m	processTicksAndRejections[0m[0m
+	[37mnode:internal/process/task_queues:103[39m[0m[0m
+  • [33mchunk-hooks.js[39m[0m[0m	runSuite[0m[0m
+	[37m/Users/pasta/.t3/worktrees/yappr/qa-staging-eb895be7/node_modules/@vitest/runner/dist/chunk-hooks.js:1729[39m[0m[0m
+  • [33mchunk-hooks.js[39m[0m[0m	runSuite[0m[0m
+	[37m/Users/pasta/.t3/worktrees/yappr/qa-staging-eb895be7/node_modules/@vitest/runner/dist/chunk-hooks.js:1729[39m[0m[0m[0m[0m
+
+ ✓ lib/services/unified-profile-service.test.ts (5 tests) 12ms
+stdout | lib/services/document-query-bundle.test.ts > explicit document query bundles > discards an incomplete proof and recovers independent members
+[37m2026-09-16 05:10:58.141[39m[0m[0m	[33m[1mWARN[22m[39m[0m[0m	[37mlib/logger.ts:78[39m[0m[0m[1m[37m	yappr[39m[22m[0m[0m	Composite siblings failed; retrying individual queries
+
+[97m[101m[1m Error [22m[49m[39m[0m[0m Incomplete composite sibling response[0m[0m
+error stack:
+  • [33mdocument-query-bundle.ts[39m[0m[0m	[0m[0m
+	[37mlib/services/document-query-bundle.ts:30[39m[0m[0m
+  • [33mtask_queues[39m[0m[0m	processTicksAndRejections[0m[0m
+	[37mnode:internal/process/task_queues:103[39m[0m[0m
+  • [33mpagination-utils.ts[39m[0m[0m	worker[0m[0m
+	[37mlib/services/pagination-utils.ts:77[39m[0m[0m
+  • [33mindex 0[39m[0m[0m	async Promise.all[0m[0m
+	[37m[39m[0m[0m
+  • [33mpagination-utils.ts[39m[0m[0m	mapLimit[0m[0m
+	[37mlib/services/pagination-utils.ts:80[39m[0m[0m
+  • [33mdocument-query-bundle.ts[39m[0m[0m	queryDocumentBundle[0m[0m
+	[37mlib/services/document-query-bundle.ts:14[39m[0m[0m
+  • [33mdocument-query-bundle.test.ts[39m[0m[0m	[0m[0m
+	[37mlib/services/document-query-bundle.test.ts:45[39m[0m[0m
+  • [33mchunk-hooks.js[39m[0m[0m	[0m[0m
+	[37m/Users/pasta/.t3/worktrees/yappr/qa-staging-eb895be7/node_modules/@vitest/runner/dist/chunk-hooks.js:752[39m[0m[0m[0m[0m
+
+stdout | lib/services/document-query-bundle.test.ts > explicit document query bundles > discards an incomplete proof and recovers independent members
+[37m2026-09-16 05:10:58.147[39m[0m[0m	[31m[1mERROR[22m[39m[0m[0m	[37mlib/logger.ts:81[39m[0m[0m[1m[37m	yappr[39m[22m[0m[0m	Document bundle member failed source0
+
+[97m[101m[1m Error [22m[49m[39m[0m[0m one unavailable[0m[0m
+error stack:
+  • [33mdocument-query-bundle.test.ts[39m[0m[0m	[0m[0m
+	[37mlib/services/document-query-bundle.test.ts:41[39m[0m[0m
+  • [33mchunk-hooks.js[39m[0m[0m	[0m[0m
+	[37m/Users/pasta/.t3/worktrees/yappr/qa-staging-eb895be7/node_modules/@vitest/runner/dist/chunk-hooks.js:155[39m[0m[0m
+  • [33mchunk-hooks.js[39m[0m[0m	[0m[0m
+	[37m/Users/pasta/.t3/worktrees/yappr/qa-staging-eb895be7/node_modules/@vitest/runner/dist/chunk-hooks.js:752[39m[0m[0m
+  • [33mchunk-hooks.js[39m[0m[0m	[0m[0m
+	[37m/Users/pasta/.t3/worktrees/yappr/qa-staging-eb895be7/node_modules/@vitest/runner/dist/chunk-hooks.js:1897[39m[0m[0m
+  • [33m<anonymous>[39m[0m[0m	new Promise[0m[0m
+	[37m[39m[0m[0m
+  • [33mchunk-hooks.js[39m[0m[0m	runWithTimeout[0m[0m
+	[37m/Users/pasta/.t3/worktrees/yappr/qa-staging-eb895be7/node_modules/@vitest/runner/dist/chunk-hooks.js:1863[39m[0m[0m
+  • [33mchunk-hooks.js[39m[0m[0m	runTest[0m[0m
+	[37m/Users/pasta/.t3/worktrees/yappr/qa-staging-eb895be7/node_modules/@vitest/runner/dist/chunk-hooks.js:1574[39m[0m[0m
+  • [33mtask_queues[39m[0m[0m	processTicksAndRejections[0m[0m
+	[37mnode:internal/process/task_queues:103[39m[0m[0m
+  • [33mchunk-hooks.js[39m[0m[0m	runSuite[0m[0m
+	[37m/Users/pasta/.t3/worktrees/yappr/qa-staging-eb895be7/node_modules/@vitest/runner/dist/chunk-hooks.js:1729[39m[0m[0m
+  • [33mchunk-hooks.js[39m[0m[0m	runSuite[0m[0m
+	[37m/Users/pasta/.t3/worktrees/yappr/qa-staging-eb895be7/node_modules/@vitest/runner/dist/chunk-hooks.js:1729[39m[0m[0m[0m[0m
+
+ ✓ lib/services/ranked-likes.test.ts (1 test) 132ms
+ ✓ lib/feed/load-post-enrichment.test.ts (3 tests) 140ms
+stdout | lib/services/document-query-bundle.test.ts > explicit document query bundles > does not let failed identity reads masquerade as proven absence
+[37m2026-09-16 05:10:58.172[39m[0m[0m	[33m[1mWARN[22m[39m[0m[0m	[37mlib/logger.ts:78[39m[0m[0m[1m[37m	yappr[39m[22m[0m[0m	Composite siblings failed; retrying individual queries
+
+[97m[101m[1m Error [22m[49m[39m[0m[0m bad proof[0m[0m
+error stack:
+  • [33mdocument-query-bundle.test.ts[39m[0m[0m	[0m[0m
+	[37mlib/services/document-query-bundle.test.ts:50[39m[0m[0m
+  • [33mchunk-hooks.js[39m[0m[0m	[0m[0m
+	[37m/Users/pasta/.t3/worktrees/yappr/qa-staging-eb895be7/node_modules/@vitest/runner/dist/chunk-hooks.js:155[39m[0m[0m
+  • [33mchunk-hooks.js[39m[0m[0m	[0m[0m
+	[37m/Users/pasta/.t3/worktrees/yappr/qa-staging-eb895be7/node_modules/@vitest/runner/dist/chunk-hooks.js:752[39m[0m[0m
+  • [33mchunk-hooks.js[39m[0m[0m	[0m[0m
+	[37m/Users/pasta/.t3/worktrees/yappr/qa-staging-eb895be7/node_modules/@vitest/runner/dist/chunk-hooks.js:1897[39m[0m[0m
+  • [33m<anonymous>[39m[0m[0m	new Promise[0m[0m
+	[37m[39m[0m[0m
+  • [33mchunk-hooks.js[39m[0m[0m	runWithTimeout[0m[0m
+	[37m/Users/pasta/.t3/worktrees/yappr/qa-staging-eb895be7/node_modules/@vitest/runner/dist/chunk-hooks.js:1863[39m[0m[0m
+  • [33mchunk-hooks.js[39m[0m[0m	runTest[0m[0m
+	[37m/Users/pasta/.t3/worktrees/yappr/qa-staging-eb895be7/node_modules/@vitest/runner/dist/chunk-hooks.js:1574[39m[0m[0m
+  • [33mtask_queues[39m[0m[0m	processTicksAndRejections[0m[0m
+	[37mnode:internal/process/task_queues:103[39m[0m[0m
+  • [33mchunk-hooks.js[39m[0m[0m	runSuite[0m[0m
+	[37m/Users/pasta/.t3/worktrees/yappr/qa-staging-eb895be7/node_modules/@vitest/runner/dist/chunk-hooks.js:1729[39m[0m[0m
+  • [33mchunk-hooks.js[39m[0m[0m	runSuite[0m[0m
+	[37m/Users/pasta/.t3/worktrees/yappr/qa-staging-eb895be7/node_modules/@vitest/runner/dist/chunk-hooks.js:1729[39m[0m[0m[0m[0m
+
+ ✓ lib/message-encryption.test.ts (4 tests) 27ms
+ ✓ lib/services/document-query-bundle.test.ts (5 tests) 236ms
+ ✓ lib/crypto/compat.test.ts (3 tests) 47ms
+ ✓ lib/crypto/aes-gcm.test.ts (10 tests) 22ms
+stdout | lib/services/direct-message-service.test.ts > conversation query bundles > keeps independently available conversations when one ordinary fallback fails
+[37m2026-09-16 05:10:58.380[39m[0m[0m	[33m[1mWARN[22m[39m[0m[0m	[37mlib/logger.ts:78[39m[0m[0m[1m[37m	yappr[39m[22m[0m[0m	Composite siblings failed; retrying individual queries
+
+[97m[101m[1m Error [22m[49m[39m[0m[0m unavailable composite[0m[0m
+error stack:
+  • [33mdirect-message-service.test.ts[39m[0m[0m	[0m[0m
+	[37mlib/services/direct-message-service.test.ts:86[39m[0m[0m
+  • [33mchunk-hooks.js[39m[0m[0m	[0m[0m
+	[37m/Users/pasta/.t3/worktrees/yappr/qa-staging-eb895be7/node_modules/@vitest/runner/dist/chunk-hooks.js:155[39m[0m[0m
+  • [33mchunk-hooks.js[39m[0m[0m	[0m[0m
+	[37m/Users/pasta/.t3/worktrees/yappr/qa-staging-eb895be7/node_modules/@vitest/runner/dist/chunk-hooks.js:752[39m[0m[0m
+  • [33mchunk-hooks.js[39m[0m[0m	[0m[0m
+	[37m/Users/pasta/.t3/worktrees/yappr/qa-staging-eb895be7/node_modules/@vitest/runner/dist/chunk-hooks.js:1897[39m[0m[0m
+  • [33m<anonymous>[39m[0m[0m	new Promise[0m[0m
+	[37m[39m[0m[0m
+  • [33mchunk-hooks.js[39m[0m[0m	runWithTimeout[0m[0m
+	[37m/Users/pasta/.t3/worktrees/yappr/qa-staging-eb895be7/node_modules/@vitest/runner/dist/chunk-hooks.js:1863[39m[0m[0m
+  • [33mchunk-hooks.js[39m[0m[0m	runTest[0m[0m
+	[37m/Users/pasta/.t3/worktrees/yappr/qa-staging-eb895be7/node_modules/@vitest/runner/dist/chunk-hooks.js:1574[39m[0m[0m
+  • [33mtask_queues[39m[0m[0m	processTicksAndRejections[0m[0m
+	[37mnode:internal/process/task_queues:103[39m[0m[0m
+  • [33mchunk-hooks.js[39m[0m[0m	runSuite[0m[0m
+	[37m/Users/pasta/.t3/worktrees/yappr/qa-staging-eb895be7/node_modules/@vitest/runner/dist/chunk-hooks.js:1729[39m[0m[0m
+  • [33mchunk-hooks.js[39m[0m[0m	runSuite[0m[0m
+	[37m/Users/pasta/.t3/worktrees/yappr/qa-staging-eb895be7/node_modules/@vitest/runner/dist/chunk-hooks.js:1729[39m[0m[0m[0m[0m
+
+stdout | lib/services/direct-message-service.test.ts > conversation query bundles > keeps independently available conversations when one ordinary fallback fails
+[37m2026-09-16 05:10:58.387[39m[0m[0m	[31m[1mERROR[22m[39m[0m[0m	[37mlib/logger.ts:81[39m[0m[0m[1m[37m	yappr[39m[22m[0m[0m	Document bundle member failed directMessage
+
+[97m[101m[1m Error [22m[49m[39m[0m[0m unavailable conversation[0m[0m
+error stack:
+  • [33mdirect-message-service.test.ts[39m[0m[0m	[0m[0m
+	[37mlib/services/direct-message-service.test.ts:87[39m[0m[0m
+  • [33mchunk-hooks.js[39m[0m[0m	[0m[0m
+	[37m/Users/pasta/.t3/worktrees/yappr/qa-staging-eb895be7/node_modules/@vitest/runner/dist/chunk-hooks.js:155[39m[0m[0m
+  • [33mchunk-hooks.js[39m[0m[0m	[0m[0m
+	[37m/Users/pasta/.t3/worktrees/yappr/qa-staging-eb895be7/node_modules/@vitest/runner/dist/chunk-hooks.js:752[39m[0m[0m
+  • [33mchunk-hooks.js[39m[0m[0m	[0m[0m
+	[37m/Users/pasta/.t3/worktrees/yappr/qa-staging-eb895be7/node_modules/@vitest/runner/dist/chunk-hooks.js:1897[39m[0m[0m
+  • [33m<anonymous>[39m[0m[0m	new Promise[0m[0m
+	[37m[39m[0m[0m
+  • [33mchunk-hooks.js[39m[0m[0m	runWithTimeout[0m[0m
+	[37m/Users/pasta/.t3/worktrees/yappr/qa-staging-eb895be7/node_modules/@vitest/runner/dist/chunk-hooks.js:1863[39m[0m[0m
+  • [33mchunk-hooks.js[39m[0m[0m	runTest[0m[0m
+	[37m/Users/pasta/.t3/worktrees/yappr/qa-staging-eb895be7/node_modules/@vitest/runner/dist/chunk-hooks.js:1574[39m[0m[0m
+  • [33mtask_queues[39m[0m[0m	processTicksAndRejections[0m[0m
+	[37mnode:internal/process/task_queues:103[39m[0m[0m
+  • [33mchunk-hooks.js[39m[0m[0m	runSuite[0m[0m
+	[37m/Users/pasta/.t3/worktrees/yappr/qa-staging-eb895be7/node_modules/@vitest/runner/dist/chunk-hooks.js:1729[39m[0m[0m
+  • [33mchunk-hooks.js[39m[0m[0m	runSuite[0m[0m
+	[37m/Users/pasta/.t3/worktrees/yappr/qa-staging-eb895be7/node_modules/@vitest/runner/dist/chunk-hooks.js:1729[39m[0m[0m[0m[0m
+
+ ✓ lib/utils/format.test.ts (7 tests) 11ms
+ ✓ lib/caches/ttl-map.test.ts (5 tests) 5ms
+stdout | lib/services/dpns-service.test.ts > DPNS composite cache seeds > does not cache a failed alias chunk as an absence
+[37m2026-09-16 05:10:58.434[39m[0m[0m	[31m[1mERROR[22m[39m[0m[0m	[37mlib/logger.ts:81[39m[0m[0m[1m[37m	yappr[39m[22m[0m[0m	DPNS: Batch alias resolution error:
+
+[97m[101m[1m Error [22m[49m[39m[0m[0m offline[0m[0m
+error stack:
+  • [33mdpns-service.test.ts[39m[0m[0m	[0m[0m
+	[37mlib/services/dpns-service.test.ts:43[39m[0m[0m
+  • [33mchunk-hooks.js[39m[0m[0m	[0m[0m
+	[37m/Users/pasta/.t3/worktrees/yappr/qa-staging-eb895be7/node_modules/@vitest/runner/dist/chunk-hooks.js:155[39m[0m[0m
+  • [33mchunk-hooks.js[39m[0m[0m	[0m[0m
+	[37m/Users/pasta/.t3/worktrees/yappr/qa-staging-eb895be7/node_modules/@vitest/runner/dist/chunk-hooks.js:752[39m[0m[0m
+  • [33mchunk-hooks.js[39m[0m[0m	[0m[0m
+	[37m/Users/pasta/.t3/worktrees/yappr/qa-staging-eb895be7/node_modules/@vitest/runner/dist/chunk-hooks.js:1897[39m[0m[0m
+  • [33m<anonymous>[39m[0m[0m	new Promise[0m[0m
+	[37m[39m[0m[0m
+  • [33mchunk-hooks.js[39m[0m[0m	runWithTimeout[0m[0m
+	[37m/Users/pasta/.t3/worktrees/yappr/qa-staging-eb895be7/node_modules/@vitest/runner/dist/chunk-hooks.js:1863[39m[0m[0m
+  • [33mchunk-hooks.js[39m[0m[0m	runTest[0m[0m
+	[37m/Users/pasta/.t3/worktrees/yappr/qa-staging-eb895be7/node_modules/@vitest/runner/dist/chunk-hooks.js:1574[39m[0m[0m
+  • [33mtask_queues[39m[0m[0m	processTicksAndRejections[0m[0m
+	[37mnode:internal/process/task_queues:103[39m[0m[0m
+  • [33mchunk-hooks.js[39m[0m[0m	runSuite[0m[0m
+	[37m/Users/pasta/.t3/worktrees/yappr/qa-staging-eb895be7/node_modules/@vitest/runner/dist/chunk-hooks.js:1729[39m[0m[0m
+  • [33mchunk-hooks.js[39m[0m[0m	runSuite[0m[0m
+	[37m/Users/pasta/.t3/worktrees/yappr/qa-staging-eb895be7/node_modules/@vitest/runner/dist/chunk-hooks.js:1729[39m[0m[0m[0m[0m
+
+ ✓ lib/services/dpns-service.test.ts (23 tests) 22ms
+stdout | lib/services/follow-service.test.ts > connection list read failures > getFollowing distinguishes a failed read from a successful empty list
+[37m2026-09-16 05:10:58.481[39m[0m[0m	[31m[1mERROR[22m[39m[0m[0m	[37mlib/logger.ts:81[39m[0m[0m[1m[37m	yappr[39m[22m[0m[0m	Error getting following:
+
+[97m[101m[1m Error [22m[49m[39m[0m[0m offline[0m[0m
+error stack:
+  • [33mfollow-service.test.ts[39m[0m[0m	[0m[0m
+	[37mlib/services/follow-service.test.ts:13[39m[0m[0m
+  • [33mchunk-hooks.js[39m[0m[0m	[0m[0m
+	[37m/Users/pasta/.t3/worktrees/yappr/qa-staging-eb895be7/node_modules/@vitest/runner/dist/chunk-hooks.js:155[39m[0m[0m
+  • [33mchunk-hooks.js[39m[0m[0m	[0m[0m
+	[37m/Users/pasta/.t3/worktrees/yappr/qa-staging-eb895be7/node_modules/@vitest/runner/dist/chunk-hooks.js:752[39m[0m[0m
+  • [33mchunk-hooks.js[39m[0m[0m	[0m[0m
+	[37m/Users/pasta/.t3/worktrees/yappr/qa-staging-eb895be7/node_modules/@vitest/runner/dist/chunk-hooks.js:1897[39m[0m[0m
+  • [33m<anonymous>[39m[0m[0m	new Promise[0m[0m
+	[37m[39m[0m[0m
+  • [33mchunk-hooks.js[39m[0m[0m	runWithTimeout[0m[0m
+	[37m/Users/pasta/.t3/worktrees/yappr/qa-staging-eb895be7/node_modules/@vitest/runner/dist/chunk-hooks.js:1863[39m[0m[0m
+  • [33mchunk-hooks.js[39m[0m[0m	runTest[0m[0m
+	[37m/Users/pasta/.t3/worktrees/yappr/qa-staging-eb895be7/node_modules/@vitest/runner/dist/chunk-hooks.js:1574[39m[0m[0m
+  • [33mtask_queues[39m[0m[0m	processTicksAndRejections[0m[0m
+	[37mnode:internal/process/task_queues:103[39m[0m[0m
+  • [33mchunk-hooks.js[39m[0m[0m	runSuite[0m[0m
+	[37m/Users/pasta/.t3/worktrees/yappr/qa-staging-eb895be7/node_modules/@vitest/runner/dist/chunk-hooks.js:1729[39m[0m[0m
+  • [33mchunk-hooks.js[39m[0m[0m	runSuite[0m[0m
+	[37m/Users/pasta/.t3/worktrees/yappr/qa-staging-eb895be7/node_modules/@vitest/runner/dist/chunk-hooks.js:1729[39m[0m[0m[0m[0m
+
+stdout | lib/services/follow-service.test.ts > connection list read failures > getFollowing preserves the legacy fallback for callers that do not opt in
+[37m2026-09-16 05:10:58.486[39m[0m[0m	[31m[1mERROR[22m[39m[0m[0m	[37mlib/logger.ts:81[39m[0m[0m[1m[37m	yappr[39m[22m[0m[0m	Error getting following:
+
+[97m[101m[1m Error [22m[49m[39m[0m[0m offline[0m[0m
+error stack:
+  • [33mfollow-service.test.ts[39m[0m[0m	[0m[0m
+	[37mlib/services/follow-service.test.ts:21[39m[0m[0m
+  • [33mchunk-hooks.js[39m[0m[0m	[0m[0m
+	[37m/Users/pasta/.t3/worktrees/yappr/qa-staging-eb895be7/node_modules/@vitest/runner/dist/chunk-hooks.js:155[39m[0m[0m
+  • [33mchunk-hooks.js[39m[0m[0m	[0m[0m
+	[37m/Users/pasta/.t3/worktrees/yappr/qa-staging-eb895be7/node_modules/@vitest/runner/dist/chunk-hooks.js:752[39m[0m[0m
+  • [33mchunk-hooks.js[39m[0m[0m	[0m[0m
+	[37m/Users/pasta/.t3/worktrees/yappr/qa-staging-eb895be7/node_modules/@vitest/runner/dist/chunk-hooks.js:1897[39m[0m[0m
+  • [33m<anonymous>[39m[0m[0m	new Promise[0m[0m
+	[37m[39m[0m[0m
+  • [33mchunk-hooks.js[39m[0m[0m	runWithTimeout[0m[0m
+	[37m/Users/pasta/.t3/worktrees/yappr/qa-staging-eb895be7/node_modules/@vitest/runner/dist/chunk-hooks.js:1863[39m[0m[0m
+  • [33mchunk-hooks.js[39m[0m[0m	runTest[0m[0m
+	[37m/Users/pasta/.t3/worktrees/yappr/qa-staging-eb895be7/node_modules/@vitest/runner/dist/chunk-hooks.js:1574[39m[0m[0m
+  • [33mtask_queues[39m[0m[0m	processTicksAndRejections[0m[0m
+	[37mnode:internal/process/task_queues:103[39m[0m[0m
+  • [33mchunk-hooks.js[39m[0m[0m	runSuite[0m[0m
+	[37m/Users/pasta/.t3/worktrees/yappr/qa-staging-eb895be7/node_modules/@vitest/runner/dist/chunk-hooks.js:1729[39m[0m[0m
+  • [33mchunk-hooks.js[39m[0m[0m	runSuite[0m[0m
+	[37m/Users/pasta/.t3/worktrees/yappr/qa-staging-eb895be7/node_modules/@vitest/runner/dist/chunk-hooks.js:1729[39m[0m[0m[0m[0m
+
+stdout | lib/services/follow-service.test.ts > connection list read failures > getFollowers distinguishes a failed read from a successful empty list
+[37m2026-09-16 05:10:58.487[39m[0m[0m	[31m[1mERROR[22m[39m[0m[0m	[37mlib/logger.ts:81[39m[0m[0m[1m[37m	yappr[39m[22m[0m[0m	Error getting followers:
+
+[97m[101m[1m Error [22m[49m[39m[0m[0m offline[0m[0m
+error stack:
+  • [33mfollow-service.test.ts[39m[0m[0m	[0m[0m
+	[37mlib/services/follow-service.test.ts:13[39m[0m[0m
+  • [33mchunk-hooks.js[39m[0m[0m	[0m[0m
+	[37m/Users/pasta/.t3/worktrees/yappr/qa-staging-eb895be7/node_modules/@vitest/runner/dist/chunk-hooks.js:155[39m[0m[0m
+  • [33mchunk-hooks.js[39m[0m[0m	[0m[0m
+	[37m/Users/pasta/.t3/worktrees/yappr/qa-staging-eb895be7/node_modules/@vitest/runner/dist/chunk-hooks.js:752[39m[0m[0m
+  • [33mchunk-hooks.js[39m[0m[0m	[0m[0m
+	[37m/Users/pasta/.t3/worktrees/yappr/qa-staging-eb895be7/node_modules/@vitest/runner/dist/chunk-hooks.js:1897[39m[0m[0m
+  • [33m<anonymous>[39m[0m[0m	new Promise[0m[0m
+	[37m[39m[0m[0m
+  • [33mchunk-hooks.js[39m[0m[0m	runWithTimeout[0m[0m
+	[37m/Users/pasta/.t3/worktrees/yappr/qa-staging-eb895be7/node_modules/@vitest/runner/dist/chunk-hooks.js:1863[39m[0m[0m
+  • [33mchunk-hooks.js[39m[0m[0m	runTest[0m[0m
+	[37m/Users/pasta/.t3/worktrees/yappr/qa-staging-eb895be7/node_modules/@vitest/runner/dist/chunk-hooks.js:1574[39m[0m[0m
+  • [33mtask_queues[39m[0m[0m	processTicksAndRejections[0m[0m
+	[37mnode:internal/process/task_queues:103[39m[0m[0m
+  • [33mchunk-hooks.js[39m[0m[0m	runSuite[0m[0m
+	[37m/Users/pasta/.t3/worktrees/yappr/qa-staging-eb895be7/node_modules/@vitest/runner/dist/chunk-hooks.js:1729[39m[0m[0m
+  • [33mchunk-hooks.js[39m[0m[0m	runSuite[0m[0m
+	[37m/Users/pasta/.t3/worktrees/yappr/qa-staging-eb895be7/node_modules/@vitest/runner/dist/chunk-hooks.js:1729[39m[0m[0m[0m[0m
+
+stdout | lib/services/follow-service.test.ts > connection list read failures > getFollowers preserves the legacy fallback for callers that do not opt in
+[37m2026-09-16 05:10:58.487[39m[0m[0m	[31m[1mERROR[22m[39m[0m[0m	[37mlib/logger.ts:81[39m[0m[0m[1m[37m	yappr[39m[22m[0m[0m	Error getting followers:
+
+[97m[101m[1m Error [22m[49m[39m[0m[0m offline[0m[0m
+error stack:
+  • [33mfollow-service.test.ts[39m[0m[0m	[0m[0m
+	[37mlib/services/follow-service.test.ts:21[39m[0m[0m
+  • [33mchunk-hooks.js[39m[0m[0m	[0m[0m
+	[37m/Users/pasta/.t3/worktrees/yappr/qa-staging-eb895be7/node_modules/@vitest/runner/dist/chunk-hooks.js:155[39m[0m[0m
+  • [33mchunk-hooks.js[39m[0m[0m	[0m[0m
+	[37m/Users/pasta/.t3/worktrees/yappr/qa-staging-eb895be7/node_modules/@vitest/runner/dist/chunk-hooks.js:752[39m[0m[0m
+  • [33mchunk-hooks.js[39m[0m[0m	[0m[0m
+	[37m/Users/pasta/.t3/worktrees/yappr/qa-staging-eb895be7/node_modules/@vitest/runner/dist/chunk-hooks.js:1897[39m[0m[0m
+  • [33m<anonymous>[39m[0m[0m	new Promise[0m[0m
+	[37m[39m[0m[0m
+  • [33mchunk-hooks.js[39m[0m[0m	runWithTimeout[0m[0m
+	[37m/Users/pasta/.t3/worktrees/yappr/qa-staging-eb895be7/node_modules/@vitest/runner/dist/chunk-hooks.js:1863[39m[0m[0m
+  • [33mchunk-hooks.js[39m[0m[0m	runTest[0m[0m
+	[37m/Users/pasta/.t3/worktrees/yappr/qa-staging-eb895be7/node_modules/@vitest/runner/dist/chunk-hooks.js:1574[39m[0m[0m
+  • [33mtask_queues[39m[0m[0m	processTicksAndRejections[0m[0m
+	[37mnode:internal/process/task_queues:103[39m[0m[0m
+  • [33mchunk-hooks.js[39m[0m[0m	runSuite[0m[0m
+	[37m/Users/pasta/.t3/worktrees/yappr/qa-staging-eb895be7/node_modules/@vitest/runner/dist/chunk-hooks.js:1729[39m[0m[0m
+  • [33mchunk-hooks.js[39m[0m[0m	runSuite[0m[0m
+	[37m/Users/pasta/.t3/worktrees/yappr/qa-staging-eb895be7/node_modules/@vitest/runner/dist/chunk-hooks.js:1729[39m[0m[0m[0m[0m
+
+ ✓ lib/crypto/wif.test.ts (11 tests) 6ms
+ ✓ lib/utils/payment-uri.test.ts (17 tests) 4ms
+ ✓ lib/services/follow-service.test.ts (4 tests) 10ms
+stdout | lib/feed/load-for-you-feed.test.ts > For You pagination > should return every timestamp tie over three pages using document cursors
+[37m2026-09-16 05:10:58.492[39m[0m[0m	[32m[1mDEBUG[22m[39m[0m[0m	[37mlib/logger.ts:72[39m[0m[0m[1m[37m	yappr[39m[22m[0m[0m	Feed: Loading posts  (iteration 1)
+
+stdout | lib/feed/load-for-you-feed.test.ts > For You pagination > should return every timestamp tie over three pages using document cursors
+[37m2026-09-16 05:10:58.498[39m[0m[0m	[32m[1mDEBUG[22m[39m[0m[0m	[37mlib/logger.ts:72[39m[0m[0m[1m[37m	yappr[39m[22m[0m[0m	Feed: First batch has 20 posts
+
+stdout | lib/feed/load-for-you-feed.test.ts > For You pagination > should return every timestamp tie over three pages using document cursors
+[37m2026-09-16 05:10:58.499[39m[0m[0m	[32m[1mDEBUG[22m[39m[0m[0m	[37mlib/logger.ts:72[39m[0m[0m[1m[37m	yappr[39m[22m[0m[0m	Feed: Loading posts starting after post00000019 (iteration 1)
+
+stdout | lib/feed/load-for-you-feed.test.ts > For You pagination > should return every timestamp tie over three pages using document cursors
+[37m2026-09-16 05:10:58.499[39m[0m[0m	[32m[1mDEBUG[22m[39m[0m[0m	[37mlib/logger.ts:72[39m[0m[0m[1m[37m	yappr[39m[22m[0m[0m	Feed: First batch has 20 posts
+
+stdout | lib/feed/load-for-you-feed.test.ts > For You pagination > should return every timestamp tie over three pages using document cursors
+[37m2026-09-16 05:10:58.500[39m[0m[0m	[32m[1mDEBUG[22m[39m[0m[0m	[37mlib/logger.ts:72[39m[0m[0m[1m[37m	yappr[39m[22m[0m[0m	Feed: Loading posts starting after post00000039 (iteration 1)
+
+stdout | lib/feed/load-for-you-feed.test.ts > For You pagination > should return every timestamp tie over three pages using document cursors
+[37m2026-09-16 05:10:58.500[39m[0m[0m	[32m[1mDEBUG[22m[39m[0m[0m	[37mlib/logger.ts:72[39m[0m[0m[1m[37m	yappr[39m[22m[0m[0m	Feed: First batch has 1 posts
+
+stdout | lib/feed/load-for-you-feed.test.ts > For You pagination > requires composite enrichment for every page
+[37m2026-09-16 05:10:58.501[39m[0m[0m	[32m[1mDEBUG[22m[39m[0m[0m	[37mlib/logger.ts:72[39m[0m[0m[1m[37m	yappr[39m[22m[0m[0m	Feed: Loading posts starting after post00000019 (iteration 1)
+
+stdout | lib/feed/load-for-you-feed.test.ts > For You pagination > should preserve the raw timeline cursor when the last card is a tombstone
+[37m2026-09-16 05:10:58.501[39m[0m[0m	[32m[1mDEBUG[22m[39m[0m[0m	[37mlib/logger.ts:72[39m[0m[0m[1m[37m	yappr[39m[22m[0m[0m	Feed: Loading posts starting after post00000019 (iteration 1)
+
+stdout | lib/feed/load-for-you-feed.test.ts > For You pagination > should preserve the raw timeline cursor when the last card is a tombstone
+[37m2026-09-16 05:10:58.501[39m[0m[0m	[32m[1mDEBUG[22m[39m[0m[0m	[37mlib/logger.ts:72[39m[0m[0m[1m[37m	yappr[39m[22m[0m[0m	Feed: First batch has 2 posts
+
+ ✓ lib/feed/load-for-you-feed.test.ts (3 tests) 11ms
+stdout | lib/services/direct-message-service.test.ts > message polling cursor > retains its last confirmed cursor when the network fails
+[37m2026-09-16 05:10:58.581[39m[0m[0m	[31m[1mERROR[22m[39m[0m[0m	[37mlib/logger.ts:81[39m[0m[0m[1m[37m	yappr[39m[22m[0m[0m	Error getting raw messages:
+
+[97m[101m[1m Error [22m[49m[39m[0m[0m offline[0m[0m
+error stack:
+  • [33mdirect-message-service.test.ts[39m[0m[0m	[0m[0m
+	[37mlib/services/direct-message-service.test.ts:131[39m[0m[0m
+  • [33mchunk-hooks.js[39m[0m[0m	[0m[0m
+	[37m/Users/pasta/.t3/worktrees/yappr/qa-staging-eb895be7/node_modules/@vitest/runner/dist/chunk-hooks.js:155[39m[0m[0m
+  • [33mchunk-hooks.js[39m[0m[0m	[0m[0m
+	[37m/Users/pasta/.t3/worktrees/yappr/qa-staging-eb895be7/node_modules/@vitest/runner/dist/chunk-hooks.js:752[39m[0m[0m
+  • [33mchunk-hooks.js[39m[0m[0m	[0m[0m
+	[37m/Users/pasta/.t3/worktrees/yappr/qa-staging-eb895be7/node_modules/@vitest/runner/dist/chunk-hooks.js:1897[39m[0m[0m
+  • [33m<anonymous>[39m[0m[0m	new Promise[0m[0m
+	[37m[39m[0m[0m
+  • [33mchunk-hooks.js[39m[0m[0m	runWithTimeout[0m[0m
+	[37m/Users/pasta/.t3/worktrees/yappr/qa-staging-eb895be7/node_modules/@vitest/runner/dist/chunk-hooks.js:1863[39m[0m[0m
+  • [33mchunk-hooks.js[39m[0m[0m	runTest[0m[0m
+	[37m/Users/pasta/.t3/worktrees/yappr/qa-staging-eb895be7/node_modules/@vitest/runner/dist/chunk-hooks.js:1574[39m[0m[0m
+  • [33mtask_queues[39m[0m[0m	processTicksAndRejections[0m[0m
+	[37mnode:internal/process/task_queues:103[39m[0m[0m
+  • [33mchunk-hooks.js[39m[0m[0m	runSuite[0m[0m
+	[37m/Users/pasta/.t3/worktrees/yappr/qa-staging-eb895be7/node_modules/@vitest/runner/dist/chunk-hooks.js:1729[39m[0m[0m
+  • [33mchunk-hooks.js[39m[0m[0m	runSuite[0m[0m
+	[37m/Users/pasta/.t3/worktrees/yappr/qa-staging-eb895be7/node_modules/@vitest/runner/dist/chunk-hooks.js:1729[39m[0m[0m[0m[0m
+
+ ✓ lib/services/direct-message-service.test.ts (5 tests) 561ms
+ ✓ lib/bytes.test.ts (12 tests) 8ms
+ ✓ lib/utils/compression.test.ts (7 tests) 4ms
+ ✓ lib/services/request-deduplicator.test.ts (2 tests) 5ms
+ ✓ lib/embed/embed-script.test.ts (6 tests) 3ms
+stdout | lib/services/reply-service.test.ts > profile reply pagination > reaches the oldest reply after a full page without repeating the cursor
+[37m2026-09-16 05:10:58.667[39m[0m[0m	[32m[1mDEBUG[22m[39m[0m[0m	[37mlib/logger.ts:72[39m[0m[0m[1m[37m	yappr[39m[22m[0m[0m	Querying reply documents: {
+  dataContractId: [32m'9oDC6xdg8WRixTD2j3FCBq3vtsrf6bRGjXSJbhtFoma9'[39m,
+  documentTypeName: [32m'reply'[39m,
+  where: 
+   [
+     [
+       [32m'$ownerId'[39m,
+       [32m'=='[39m,
+       [32m'111111111'[39m 
+     ],
+     [
+       [32m'$createdAt'[39m,
+       [32m'>'[39m,
+       [33m0[39m 
+     ] 
+   ],
+  orderBy: 
+   [
+     [
+       [32m'$ownerId'[39m,
+       [32m'asc'[39m 
+     ],
+     [
+       [32m'$createdAt'[39m,
+       [32m'desc'[39m 
+     ] 
+   ],
+  limit: [33m50[39m 
+}
+
+stdout | lib/services/reply-service.test.ts > profile reply pagination > reaches the oldest reply after a full page without repeating the cursor
+[37m2026-09-16 05:10:58.685[39m[0m[0m	[32m[1mDEBUG[22m[39m[0m[0m	[37mlib/logger.ts:72[39m[0m[0m[1m[37m	yappr[39m[22m[0m[0m	reply query returned 50 documents
+
+stdout | lib/services/reply-service.test.ts > profile reply pagination > reaches the oldest reply after a full page without repeating the cursor
+[37m2026-09-16 05:10:58.687[39m[0m[0m	[32m[1mDEBUG[22m[39m[0m[0m	[37mlib/logger.ts:72[39m[0m[0m[1m[37m	yappr[39m[22m[0m[0m	Querying reply documents: {
+  dataContractId: [32m'9oDC6xdg8WRixTD2j3FCBq3vtsrf6bRGjXSJbhtFoma9'[39m,
+  documentTypeName: [32m'reply'[39m,
+  where: 
+   [
+     [
+       [32m'$ownerId'[39m,
+       [32m'=='[39m,
+       [32m'111111111'[39m 
+     ],
+     [
+       [32m'$createdAt'[39m,
+       [32m'>'[39m,
+       [33m0[39m 
+     ] 
+   ],
+  orderBy: 
+   [
+     [
+       [32m'$ownerId'[39m,
+       [32m'asc'[39m 
+     ],
+     [
+       [32m'$createdAt'[39m,
+       [32m'desc'[39m 
+     ] 
+   ],
+  limit: [33m50[39m,
+  startAfter: [32m'reply-49'[39m 
+}
+
+stdout | lib/services/reply-service.test.ts > profile reply pagination > reaches the oldest reply after a full page without repeating the cursor
+[37m2026-09-16 05:10:58.687[39m[0m[0m	[32m[1mDEBUG[22m[39m[0m[0m	[37mlib/logger.ts:72[39m[0m[0m[1m[37m	yappr[39m[22m[0m[0m	reply query returned 1 documents
+
+stdout | lib/services/reply-service.test.ts > profile reply pagination > does not turn a failed next page into successful end-of-history
+[37m2026-09-16 05:10:58.689[39m[0m[0m	[32m[1mDEBUG[22m[39m[0m[0m	[37mlib/logger.ts:72[39m[0m[0m[1m[37m	yappr[39m[22m[0m[0m	Querying reply documents: {
+  dataContractId: [32m'9oDC6xdg8WRixTD2j3FCBq3vtsrf6bRGjXSJbhtFoma9'[39m,
+  documentTypeName: [32m'reply'[39m,
+  where: 
+   [
+     [
+       [32m'$ownerId'[39m,
+       [32m'=='[39m,
+       [32m'111111111'[39m 
+     ],
+     [
+       [32m'$createdAt'[39m,
+       [32m'>'[39m,
+       [33m0[39m 
+     ] 
+   ],
+  orderBy: 
+   [
+     [
+       [32m'$ownerId'[39m,
+       [32m'asc'[39m 
+     ],
+     [
+       [32m'$createdAt'[39m,
+       [32m'desc'[39m 
+     ] 
+   ],
+  limit: [33m50[39m,
+  startAfter: [32m'reply-49'[39m 
+}
+
+stdout | lib/services/reply-service.test.ts > profile reply pagination > does not turn a failed next page into successful end-of-history
+[37m2026-09-16 05:10:58.689[39m[0m[0m	[31m[1mERROR[22m[39m[0m[0m	[37mlib/logger.ts:81[39m[0m[0m[1m[37m	yappr[39m[22m[0m[0m	Error querying reply documents:
+
+[97m[101m[1m Error [22m[49m[39m[0m[0m offline[0m[0m
+error stack:
+  • [33mreply-service.test.ts[39m[0m[0m	[0m[0m
+	[37mlib/services/reply-service.test.ts:33[39m[0m[0m
+  • [33mchunk-hooks.js[39m[0m[0m	[0m[0m
+	[37m/Users/pasta/.t3/worktrees/yappr/qa-staging-eb895be7/node_modules/@vitest/runner/dist/chunk-hooks.js:155[39m[0m[0m
+  • [33mchunk-hooks.js[39m[0m[0m	[0m[0m
+	[37m/Users/pasta/.t3/worktrees/yappr/qa-staging-eb895be7/node_modules/@vitest/runner/dist/chunk-hooks.js:752[39m[0m[0m
+  • [33mchunk-hooks.js[39m[0m[0m	[0m[0m
+	[37m/Users/pasta/.t3/worktrees/yappr/qa-staging-eb895be7/node_modules/@vitest/runner/dist/chunk-hooks.js:1897[39m[0m[0m
+  • [33m<anonymous>[39m[0m[0m	new Promise[0m[0m
+	[37m[39m[0m[0m
+  • [33mchunk-hooks.js[39m[0m[0m	runWithTimeout[0m[0m
+	[37m/Users/pasta/.t3/worktrees/yappr/qa-staging-eb895be7/node_modules/@vitest/runner/dist/chunk-hooks.js:1863[39m[0m[0m
+  • [33mchunk-hooks.js[39m[0m[0m	runTest[0m[0m
+	[37m/Users/pasta/.t3/worktrees/yappr/qa-staging-eb895be7/node_modules/@vitest/runner/dist/chunk-hooks.js:1574[39m[0m[0m
+  • [33mtask_queues[39m[0m[0m	processTicksAndRejections[0m[0m
+	[37mnode:internal/process/task_queues:103[39m[0m[0m
+  • [33mchunk-hooks.js[39m[0m[0m	runSuite[0m[0m
+	[37m/Users/pasta/.t3/worktrees/yappr/qa-staging-eb895be7/node_modules/@vitest/runner/dist/chunk-hooks.js:1729[39m[0m[0m
+  • [33mchunk-hooks.js[39m[0m[0m	runSuite[0m[0m
+	[37m/Users/pasta/.t3/worktrees/yappr/qa-staging-eb895be7/node_modules/@vitest/runner/dist/chunk-hooks.js:1729[39m[0m[0m[0m[0m
+
+ ✓ lib/services/reply-service.test.ts (2 tests) 24ms
+ ✓ lib/modal-store.test.ts (5 tests) 2ms
+ ✓ lib/post-helpers.test.ts (9 tests) 3ms
+ ✓ lib/embed/embed-snippets.test.ts (5 tests) 5ms
+ ✓ lib/compose/mention-query.test.ts (4 tests) 3ms
+ ✓ lib/services/private-feed-key-store.test.ts (4 tests) 3ms
+ ✓ lib/services/crypto-price-service.test.ts (6 tests) 3ms
+ ✓ lib/profile-links.test.ts (13 tests) 2ms
+ ✓ lib/identity-bridge.test.ts (4 tests) 2ms
+ ✓ lib/crypto/hash.test.ts (2 tests) 17ms
+ ✓ lib/utils/slug.test.ts (6 tests) 14ms
+ ✓ lib/link-preview/urls.test.ts (15 tests) 9ms
+ ✓ lib/feed/composite-feed-page.test.ts (12 tests) 940ms
+   ✓ composite feed page > uses reply surfaces and preserves caller linkage without mutating the input  407ms
+ ✓ lib/compose/publish-thread.test.ts (2 tests) 2ms
+
+ Test Files  37 passed (37)
+      Tests  265 passed (265)
+   Start at  00:10:57
+   Duration  1.74s (transform 1.54s, setup 0ms, collect 4.17s, tests 2.38s, environment 7ms, prepare 2.41s)
+
