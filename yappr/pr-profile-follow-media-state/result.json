@@ -1,0 +1,43 @@
+{
+  "base": "cf0efbc10b8757137063113ebbd2061e8b87d8f7",
+  "head": "4759d05e82c40008b9a03766ebed3c07ce27227d",
+  "at": "2026-09-16T03:55:15.351Z",
+  "author": "HMqf6LRJ4uxwjQqNYdJXrENQNFSuLbB91hfj7j8zy8P3",
+  "ids": [
+    "DBBQWxCPSQbrWW2oNBQGCTmE2FNfToy47GS3yTFCBPpS",
+    "3ASQZnn539Upiwr6fD62YrhmnhU1gmmTbGszJ5paSfDT"
+  ],
+  "sides": [
+    {
+      "side": "before",
+      "afterFollow": [
+        {
+          "gate": 1,
+          "images": 0
+        },
+        {
+          "gate": 1,
+          "images": 0
+        }
+      ],
+      "afterUnfollow": "Both mounted cards gated after completed Unfollowed action",
+      "freshReload": "Follow button confirms unfollow persisted"
+    },
+    {
+      "side": "after",
+      "afterFollow": [
+        {
+          "gate": 0,
+          "images": 1
+        },
+        {
+          "gate": 0,
+          "images": 1
+        }
+      ],
+      "afterUnfollow": "Both mounted cards gated after completed Unfollowed action",
+      "freshReload": "Follow button confirms unfollow persisted"
+    }
+  ],
+  "cleanup": "Original66→67 not-followed relationship restored and confirmed from fresh contexts after each side; no posts modified"
+}
