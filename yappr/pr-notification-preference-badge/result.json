@@ -1,0 +1,23 @@
+{
+  "base": "cf0efbc10b8757137063113ebbd2061e8b87d8f7",
+  "head": "70336915ff4bcc58f3e1f352e0dcc35de9b44ee0",
+  "at": "2026-09-16T03:53:01.031Z",
+  "post": "6QeYEV4WgH4HLfnKQGqmrGnKWCQS5PwxxMECK6CZ4scS",
+  "sides": [
+    {
+      "side": "before",
+      "disabledSidebar": "1\nNotifications",
+      "hiddenRowCount": 0,
+      "reenable": "Row and unread1 restored without being marked read",
+      "read": "Explicit mark-all cleared badge and persisted after reload"
+    },
+    {
+      "side": "after",
+      "disabledSidebar": "Notifications",
+      "hiddenRowCount": 0,
+      "reenable": "Row and unread1 restored without being marked read",
+      "read": "Explicit mark-all cleared badge and persisted after reload"
+    }
+  ],
+  "cleanup": "Controlled like removed; fresh actor reload confirms unliked. Preferences restored enabled in disposable contexts."
+}

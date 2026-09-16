@@ -1,0 +1,34 @@
+{
+  "result.json": {
+    "sha256": "65aadfdf9b0ac0c2d129af6adbf141647c51e61f6955c59ff597a24e7e068329",
+    "bytes": 860
+  },
+  "README.md": {
+    "sha256": "855c98c40ca12c7d1eb27e93e5953c94c459780991bf24ab393d30106248d293",
+    "bytes": 3315
+  },
+  "before/enabled.png": {
+    "sha256": "daceeb35f9b8e9d3c8d16c5569c343fcaafe8eca43f1880f3e4bb592b60917fe",
+    "bytes": 113714
+  },
+  "before/disabled-reloaded.png": {
+    "sha256": "c34d09fc38bc4ab1a9ac9bae18e78da76ff8250a2426d5b786d7a0cb67e515f3",
+    "bytes": 106064
+  },
+  "before/badge-focused.png": {
+    "sha256": "9b51648d441a9a1bd09712c881e7ca6bb8593d1987853a99a03e299b3f666ead",
+    "bytes": 3582
+  },
+  "after/enabled.png": {
+    "sha256": "b1207055b41f2c0e0a11e09546dd7d6f43eb89d7fd54308052de30bd667d52da",
+    "bytes": 114230
+  },
+  "after/disabled-reloaded.png": {
+    "sha256": "15dffb5da644683833ae6712ae75d878a50daedb9f358e65549c27eeb704c2da",
+    "bytes": 106359
+  },
+  "after/badge-focused.png": {
+    "sha256": "cfff1a00168f3eed5c0a28ab8703aefe14d0c8d4832162c842530fcde74c073b",
+    "bytes": 3206
+  }
+}
