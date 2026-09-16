@@ -1,0 +1,10 @@
+{
+  "revision": "cf0efbc10b8757137063113ebbd2061e8b87d8f7",
+  "identityId": "9mE6YoGGuAfK3bC4jj3tq3jMzkELKsHnkF2ZWEmCBkP3",
+  "source": "Actual original CI signing key restored privately from prior failed trace; no trace republished",
+  "toast": [
+    "Failed to create post: No suitable signing key found that matches your stored private key. Document operations require a CRITICAL or HIGH security level AUTHENTICATION key."
+  ],
+  "dialogStillOpen": true,
+  "url": "http://localhost:3497/devnet/feed/"
+}

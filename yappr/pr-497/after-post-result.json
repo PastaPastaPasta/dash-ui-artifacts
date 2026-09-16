@@ -1,0 +1,10 @@
+{
+  "revision": "bcd859dcac2e5d089d61857d8585548614b21cd5",
+  "identityId": "EShbqnfLdmctGWaUCnU3FNKMenYmxiQEiawY3q2pLQm2",
+  "postId": "JAtagssAfxqfyyKCrobSoQTdTM2t9Ymr4MZdMAieQ2fZ",
+  "postText": "QA devnet CI credential validation 2026-09-15",
+  "source": "New dedicated devnet seed; all derived keys verified against registered identity; programmatic authentication",
+  "dialogClosed": true,
+  "postReadBack": true,
+  "url": "http://localhost:3498/devnet/post?id=JAtagssAfxqfyyKCrobSoQTdTM2t9Ymr4MZdMAieQ2fZ"
+}

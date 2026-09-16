@@ -1,0 +1,35 @@
+{
+  "at": "2026-09-16T03:18:49.161Z",
+  "network": "devnet-moutai",
+  "identityId": "EShbqnfLdmctGWaUCnU3FNKMenYmxiQEiawY3q2pLQm2",
+  "derivationIdentityIndex": 0,
+  "authKeyId": 2,
+  "comparisons": [
+    {
+      "keyId": 0,
+      "matchesEnabledKey": true
+    },
+    {
+      "keyId": 1,
+      "matchesEnabledKey": true
+    },
+    {
+      "keyId": 2,
+      "matchesEnabledKey": true
+    },
+    {
+      "keyId": 3,
+      "matchesEnabledKey": true
+    },
+    {
+      "keyId": 4,
+      "matchesEnabledKey": true
+    }
+  ],
+  "usernames": [
+    "yappr-ci-devnet-260915.dash"
+  ],
+  "balance": "2639558620",
+  "yappBalance": "1000",
+  "source": "Fresh retained dedicated seed; no shared/testnet credential changed"
+}

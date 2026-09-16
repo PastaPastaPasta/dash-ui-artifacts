@@ -1,0 +1,12 @@
+{
+  "at": "2026-09-16T03:17:33.836Z",
+  "identityId": "EShbqnfLdmctGWaUCnU3FNKMenYmxiQEiawY3q2pLQm2",
+  "network": "devnet-moutai",
+  "splitTxid": "281b0c09a9ca44cb9cb0598772c1612092e0af1e682d95c4542e696df7706172",
+  "lockTxid": "525abf9104a587c2116e2bb08e057e84cef00a64528f8dd348c10952413d0ab9",
+  "blockHeight": 71665,
+  "coreChainLockedHeight": 71665,
+  "balance": "3868572060",
+  "usernames": [],
+  "method": "Documented SDK provisioning from retained devnet treasury; separate from actual UI login"
+}
