@@ -1,0 +1,92 @@
+{
+  "revision": "cf0efbc10b8757137063113ebbd2061e8b87d8f7",
+  "base": "http://127.0.0.1:3288/devnet",
+  "checks": [
+    {
+      "name": "shipping label Zone Name *",
+      "status": "observed",
+      "detail": {
+        "focused": false,
+        "labels": []
+      }
+    },
+    {
+      "name": "shipping label Region",
+      "status": "observed",
+      "detail": {
+        "focused": false,
+        "labels": []
+      }
+    },
+    {
+      "name": "shipping label Priority",
+      "status": "observed",
+      "detail": {
+        "focused": false,
+        "labels": []
+      }
+    },
+    {
+      "name": "shipping label Base Rate",
+      "status": "observed",
+      "detail": {
+        "focused": false,
+        "labels": []
+      }
+    },
+    {
+      "name": "shipping label Currency",
+      "status": "observed",
+      "detail": {
+        "focused": false,
+        "labels": []
+      }
+    },
+    {
+      "name": "shipping label Weight Rate (optional)",
+      "status": "observed",
+      "detail": {
+        "focused": false,
+        "labels": []
+      }
+    },
+    {
+      "name": "status label Status",
+      "status": "observed",
+      "detail": {
+        "focused": false,
+        "labels": []
+      }
+    },
+    {
+      "name": "status label Carrier",
+      "status": "observed",
+      "detail": {
+        "focused": false,
+        "labels": []
+      }
+    },
+    {
+      "name": "status label Tracking Number",
+      "status": "observed",
+      "detail": {
+        "focused": false,
+        "labels": []
+      }
+    },
+    {
+      "name": "status label Message to Buyer",
+      "status": "observed",
+      "detail": {
+        "focused": false,
+        "labels": []
+      }
+    },
+    {
+      "name": "shipping andstatus label checks ended byCancel; no zone orstatus write",
+      "status": "pass"
+    }
+  ],
+  "shippingAria": "- text: DEVNET|Running on a Dash Platform devnet. Data may be reset.\n- link \"Yappr\":\n  - /url: /devnet/welcome/\n- navigation:\n  - link \"Home\":\n    - /url: /devnet/feed/\n  - link \"Following\":\n    - /url: /devnet/following/\n  - link \"Followers\":\n    - /url: /devnet/followers/\n  - link \"Explore\":\n    - /url: /devnet/explore/\n  - link \"Store\":\n    - /url: /devnet/store/\n  - link \"Blog\":\n    - /url: /devnet/blog/\n  - link \"Notifications\":\n    - /url: /devnet/notifications/\n  - link \"Messages\":\n    - /url: /devnet/messages/\n  - link \"Bookmarks\":\n    - /url: /devnet/bookmarks/\n  - link \"Profile\":\n    - /url: /devnet/user/?id=pE4KifoG3Jrvwkse3kng9vJ8wK1M2kBDC9FEeQgfRLC\n  - link \"Settings\":\n    - /url: /devnet/settings/\n- button \"Post\"\n- button \"Your avatar @selin-loops9.dash pE4Kif...fRLC\":\n  - img \"Your avatar\"\n  - paragraph: \"@selin-loops9.dash\"\n  - paragraph: pE4Kif...fRLC\n- main:\n  - button\n  - heading \"Manage Store\" [level=1]\n  - button \"Orders 1\"\n  - img \"QA Commerce62 Transition Lab\"\n  - heading \"QA Commerce62 Transition Lab\" [level=2]\n  - paragraph: Active\n  - button \"View Store\"\n  - button \"Products\"\n  - button \"Shipping\"\n  - button \"Settings\"\n  - heading \"Shipping Zones (3)\" [level=3]\n  - button \"Add Zone\"\n  - heading \"QA62 Illinois Tier\" [level=4]\n  - paragraph: \"Flat rate: 0.00100000 DASH\"\n  - button\n  - button\n  - heading \"QA62 US Canada\" [level=4]\n  - paragraph: \"Flat rate: 0.00200000 DASH\"\n  - button\n  - button\n  - heading \"QA62 Worldwide\" [level=4]\n  - paragraph: \"Flat rate: 0.00400000 DASH\"\n  - button\n  - button\n- textbox \"Search users & hashtags\"\n- heading \"Trending\" [level=2]\n- list:\n  - listitem:\n    - 'link \"1 #masternodes 32 likes\"':\n      - /url: /devnet/hashtag/?tag=masternodes\n      - text: \"1\"\n      - paragraph: \"#masternodes\"\n      - paragraph: 32 likes\n  - listitem:\n    - 'link \"2 #hiking 13 likes\"':\n      - /url: /devnet/hashtag/?tag=hiking\n      - text: \"2\"\n      - paragraph: \"#hiking\"\n      - paragraph: 13 likes\n  - listitem:\n    - 'link \"3 #dashplatform 13 likes\"':\n      - /url: /devnet/hashtag/?tag=dashplatform\n      - text: \"3\"\n      - paragraph: \"#dashplatform\"\n      - paragraph: 13 likes\n  - listitem:\n    - 'link \"4 #life 12 likes\"':\n      - /url: /devnet/hashtag/?tag=life\n      - text: \"4\"\n      - paragraph: \"#life\"\n      - paragraph: 12 likes\n  - listitem:\n    - 'link \"5 #weekend 11 likes\"':\n      - /url: /devnet/hashtag/?tag=weekend\n      - text: \"5\"\n      - paragraph: \"#weekend\"\n      - paragraph: 11 likes\n  - listitem:\n    - 'link \"6 #dash 11 likes\"':\n      - /url: /devnet/hashtag/?tag=dash\n      - text: \"6\"\n      - paragraph: \"#dash\"\n      - paragraph: 11 likes\n  - listitem:\n    - 'link \"7 #shoplocal 6 likes\"':\n      - /url: /devnet/hashtag/?tag=shoplocal\n      - text: \"7\"\n      - paragraph: \"#shoplocal\"\n      - paragraph: 6 likes\n  - listitem:\n    - 'link \"8 #memes 6 likes\"':\n      - /url: /devnet/hashtag/?tag=memes\n      - text: \"8\"\n      - paragraph: \"#memes\"\n      - paragraph: 6 likes\n  - listitem:\n    - link \"Show more\":\n      - /url: /devnet/explore/\n- heading \"Stats\" [level=2]\n- text: Total Posts 6.5K Your Posts 58 Followers 0 Following 0\n- link \"Powered by Dash Evolution\":\n  - /url: https://github.com/dashpay/platform\n  - img \"Powered by Dash Evolution\"\n- link \"Terms\":\n  - /url: /devnet/terms/\n- link \"Privacy\":\n  - /url: /devnet/privacy/\n- link \"Cookies\":\n  - /url: /devnet/cookies/\n- link \"About\":\n  - /url: /devnet/about/\n- heading \"Add Shipping Zone\" [level=2]\n- button\n- text: Zone Name *\n- textbox \"e.g., Domestic, Europe, Worldwide\"\n- text: Region\n- checkbox \"Worldwide (ships to all countries)\"\n- text: Worldwide (ships to all countries)\n- textbox \"e.g., US, US|CA, US.IL\"\n- paragraph: \"Examples: US, US|CA, US.IL (state), US.6 (zip prefix), CA.K (postal prefix)\"\n- text: Priority\n- spinbutton \"0\"\n- paragraph: Lower = higher priority. Use to make specific zones (e.g., US.IL) match before general ones (e.g., US).\n- heading \"PRICING\" [level=3]\n- text: Base Rate $\n- spinbutton \"0.00\"\n- text: Currency\n- combobox:\n  - option \"USD\"\n  - option \"EUR\"\n  - option \"GBP\"\n  - option \"CAD\"\n  - option \"DASH\" [selected]\n- text: Weight Rate (optional) $\n- spinbutton \"0.00\"\n- text: per\n- combobox:\n  - option \"lb\" [selected]\n  - option \"oz\"\n  - option \"kg\"\n  - option \"g\"\n  - option \"item\"\n- paragraph: Additional charge per weight unit. Leave empty for no weight-based pricing.\n- text: Order Size Multipliers (optional)\n- paragraph: Scale shipping cost based on order subtotal. 100% = normal, 0% = free shipping.\n- button \"Add tier\"\n- button \"Cancel\"\n- button \"Create Zone\" [disabled]\n- alert",
+  "passed": true
+}
