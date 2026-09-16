@@ -1,0 +1,21 @@
+{
+  "label": "after",
+  "base": "http://127.0.0.1:3254/devnet",
+  "controls": [
+    {
+      "control": "new",
+      "name": "New conversation"
+    },
+    {
+      "control": "send",
+      "name": "Send message"
+    },
+    {
+      "control": "back",
+      "name": "Back to conversations"
+    }
+  ],
+  "newOpens": true,
+  "emptySendDisabled": true,
+  "backOpensList": true
+}

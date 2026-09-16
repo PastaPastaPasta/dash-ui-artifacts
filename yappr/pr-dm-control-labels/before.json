@@ -1,0 +1,21 @@
+{
+  "label": "before",
+  "base": "http://127.0.0.1:3240/devnet",
+  "controls": [
+    {
+      "control": "new",
+      "name": null
+    },
+    {
+      "control": "send",
+      "name": null
+    },
+    {
+      "control": "back",
+      "name": null
+    }
+  ],
+  "newOpens": true,
+  "emptySendDisabled": true,
+  "backOpensList": true
+}
