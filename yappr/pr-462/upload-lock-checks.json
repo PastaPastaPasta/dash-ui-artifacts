@@ -1,0 +1,15 @@
+{
+  "head": "191f52a64fc19ecdae5ae7729e4ee41249448cd4",
+  "storeId": "98FYBhEF9Q8xNzbamzy66Dm5cMQ5gm9MoAZaiy518sNp",
+  "fixture": "QA UploadLock59",
+  "disclosure": "Real synthetic devnet product import. Delay actual broadcast briefly to test dismissal lock, then release unchanged. Zero stock, no payment or shipment.",
+  "checks": [
+    "During held actual broadcast: aria-busy true, close disabled, Escape/outside leave upload open",
+    "Release original actual broadcast: completes and closes normally",
+    "Fresh inventory and editor confirm the actual imported fixture"
+  ],
+  "heldRequestURL": "//org.dash.platform.dapi.v0.Platform/broadcastStateTransition",
+  "row": "\t\t\nQA UploadLock59\n\tQA-LOCK59\t0.0000 DASH\tOut of stock\tactive\t",
+  "itemId": "2UDAJXVxt8sEPk7yU19nUNUg6noK7ZKrC37Ti8mNXcBh",
+  "success": true
+}

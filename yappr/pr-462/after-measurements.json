@@ -1,0 +1,21 @@
+{
+  "state": "after",
+  "revision": "191f52a64fc19ecdae5ae7729e4ee41249448cd4",
+  "store": "98FYBhEF9Q8xNzbamzy66Dm5cMQ5gm9MoAZaiy518sNp",
+  "checks": [
+    "Enter opens real file chooser; empty CSV validation disables upload;12Tab and12Shift+Tab stay within dialog",
+    "Escape closes and returns focus to Upload CSV",
+    "Outside pointer dismisses and restores opener",
+    "Close icon dismisses and restores opener",
+    "390px dialog and picker keyboard flow fit; Cancel works"
+  ],
+  "afterTab": {
+    "tag": "BUTTON",
+    "placeholder": null,
+    "text": "Click to select a CSV fileSupported format: .csv"
+  },
+  "dialogCount": 1,
+  "escapeCloses": true,
+  "noUploadSubmitted": true,
+  "success": true
+}
