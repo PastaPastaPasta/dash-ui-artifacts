@@ -1,0 +1,11 @@
+{
+  "files": {
+    "README.md": "d39af3cd80c144797782c6c7bc68697b4c4babe8e44d90f05aa9dd4517511cc5",
+    "browser-restart-restored.png": "d23ae85740270efd6294b772a76201617460f5dddb320d8ac28166ea9b400805",
+    "identity-key-login.png": "53254d59f3a2af4a1c9f2946cd57b25ea72a2eb16d4afed110c5533105eff2bb",
+    "logged-out.png": "e89a7425e4c7f97c4cd6bbced26467768ff9f98b4dbc14586df374517d0aacba",
+    "result.json": "2a337bc491de7a2713d37e36c90022dfac7e43fac427590cb1633b25efd2d239",
+    "unknown-username-rejected.png": "a02a8b6302710048dc1a0620382446cfb86c125e121972469ca75fb95d528a30",
+    "username-critical-key-login.png": "f83853cc13bb3c8b7b1048c0c39efa11308c6dbaf7ce18e840cadfb4b662f911"
+  }
+}

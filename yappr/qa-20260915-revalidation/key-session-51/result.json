@@ -1,0 +1,42 @@
+{
+  "at": "2026-09-15T23:52:43.370Z",
+  "revision": "eb895be71a7207c73fb9329ac9d9bb7b398f53da",
+  "identityId": "9enksyZPnWQUovGXXAQ879uJtBvbHTUY3ewJ5Tq5QNVe",
+  "actualLoginUI": true,
+  "storageInjection": false,
+  "steps": [
+    {
+      "step": "Identity ID + high authentication key signs in through actual UI",
+      "at": "2026-09-15T23:52:48.276Z"
+    },
+    {
+      "step": "Reload preserves authenticated session and restored encryption key",
+      "at": "2026-09-15T23:52:51.944Z"
+    },
+    {
+      "step": "Fresh Chromium process restores session and key from dedicated disk profile, without storage injection",
+      "at": "2026-09-15T23:52:54.361Z"
+    },
+    {
+      "step": "Logout clears auth session and all scoped secret entries; reload stays logged out",
+      "at": "2026-09-15T23:52:55.140Z"
+    },
+    {
+      "step": "Username with .dash suffix + critical authentication key restores same identity",
+      "at": "2026-09-15T23:52:58.892Z"
+    },
+    {
+      "step": "Unregistered username rejected with disabled sign-in; ended logged out",
+      "at": "2026-09-15T23:53:01.088Z"
+    }
+  ],
+  "firstLogout": {
+    "sessionPresent": false,
+    "privateSecretEntries": 0
+  },
+  "secondLogout": {
+    "sessionPresent": false,
+    "privateSecretEntries": 0
+  },
+  "passed": true
+}

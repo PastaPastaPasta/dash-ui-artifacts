@@ -1,0 +1,19 @@
+{
+  "at": "2026-09-16T00:09:42.474Z",
+  "base": "http://127.0.0.1:3245/devnet",
+  "revision": "75212692e6f031f02afc701c230b3152a5cd997c",
+  "identityId": "57i6krpfkLARMr9SbXSGhxtCd4dk6BFkJUMpuom4EiiX",
+  "actualKeyLogin": true,
+  "storageInjection": false,
+  "submittedRegistration": false,
+  "steps": [
+    "Keyboard focus captured on second remove control",
+    "Enter removes only focused row; last remaining row remains disabled",
+    "Blank row keeps explicit accessible name and hover tooltip"
+  ],
+  "pageErrors": [],
+  "focusedButtonAriaSnapshot": "- button \"Remove username qamanage9517\"",
+  "accessibleName": "Remove username qamanage9517",
+  "dismissedWithoutRegistration": true,
+  "passed": true
+}

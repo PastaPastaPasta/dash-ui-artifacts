@@ -1,0 +1,19 @@
+{
+  "at": "2026-09-16T00:10:00.917Z",
+  "base": "http://127.0.0.1:3244/devnet",
+  "revision": "be8d9de41d93e6fcd7dc853caca7ee212ff05c0b",
+  "identityId": "57i6krpfkLARMr9SbXSGhxtCd4dk6BFkJUMpuom4EiiX",
+  "actualKeyLogin": true,
+  "storageInjection": false,
+  "submittedRegistration": false,
+  "steps": [
+    "Identical labels show 2 inline errors and disable availability",
+    "DPNS homograph alias duplicate blocked",
+    "Editing alias to a distinct label clears overlay and live check offers 2 distinct names",
+    "Removing an alias duplicate clears overlay and restores availability immediately",
+    "Empty, whitespace, non-ASCII and invalid text render without errors"
+  ],
+  "pageErrors": [],
+  "dismissedWithoutRegistration": true,
+  "passed": true
+}

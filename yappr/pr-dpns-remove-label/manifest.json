@@ -1,0 +1,12 @@
+{
+  "files": {
+    "README.md": "d56094b26f90bb2f8e308fb30ee368034ce0f376ce90c590a4420772077c0fed",
+    "after/blank-remove-tooltip.png": "a8032f7ce17c30d16028660d1bec2f57518952a1c8ebe57817c1c47788825378",
+    "after/focused-remove.png": "9a37f3e15b42a4352fe469cfc460dc9ffdf001af48c2ded2214c658d63b7a101",
+    "after/result.json": "3d2c28431b33581a941c478d36d1b9c691061cd84c64df86346259315dd671ed",
+    "after/row-removed.png": "869753898780fc0a2004343306a1457f6a7b12c213e2f3f4a9bba68b23e4973a",
+    "before/focused-remove.png": "a77fa052753b4fa43573ab03b01170a04888268b69fc487cd80e8ec7da3cd939",
+    "before/result.json": "6667e05fa70f93799e9251d80b6341cccd71b84021fc45272c228f655d399e84",
+    "before/row-removed.png": "869753898780fc0a2004343306a1457f6a7b12c213e2f3f4a9bba68b23e4973a"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "files": {
+    "README.md": "b56f42826ed21e2553cf23ff714c05c8581c1bc195bb367f4bbb7ed508fbab1f",
+    "after/alias-entry.png": "1323860748ca7e9c0515306f9f4c96dff4d4be676fc935f75c05f1f8f9b0f19f",
+    "after/distinct-review.png": "d02d82547fa365e7ae0fef9e277bf4cf12edabeeddf15fa76b9fca4eee1b436b",
+    "after/duplicate-entry.png": "c0f68b1af95169ccc53b4e15839a2c7ecba184074d564c62140d68b34898715c",
+    "after/duplicate-removed.png": "fd3902e17da0a4374e0542d74fca0aa37befa16699fec590ab31da9bc7f281ed",
+    "after/result.json": "96575c83bd320072c62e0f74ccac0fd8b240d110dea4d1beba0726fcc784d4a9",
+    "before/alias-review.png": "ae00392bddca05f1fd1ba7c7871fb9be1e86a063262f95b4b2dfaabe2a637437",
+    "before/duplicate-entry.png": "b0cf1954d2ca9031d8b3dac005bb27cc8a05d01f2ba95c31d649df91ea79cfd5",
+    "before/duplicate-review.png": "3e301c9e4e8dcd1c639bf8796c98a5336d7f1e4185be408fcc3983b54bebd19d",
+    "before/result.json": "88b2f2d1445849b40e2c306c060fe0271e46fb57e7d8575b72c208937230f328"
+  }
+}
