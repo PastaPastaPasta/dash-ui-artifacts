@@ -1,0 +1,11 @@
+{
+  "revision": "12fb4cce4cc0c1110a23492b33a3df3f36dc6fbe",
+  "side": "before",
+  "base": "http://127.0.0.1:3283/devnet",
+  "steps": [
+    "Manual retry hides cart behind Loading cart"
+  ],
+  "method": "Unchanged HTTPS reads delayed via browser routing, then released; no product or rendered UI response mocking",
+  "cartCleaned": true,
+  "passed": true
+}

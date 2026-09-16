@@ -1,0 +1,13 @@
+{
+  "revision": "4454c7922a2897da2e86b617013d4b644fa50509",
+  "side": "after",
+  "base": "http://127.0.0.1:3284/devnet",
+  "steps": [
+    "Manual retry has visible pending state and gates stale checkout and increase",
+    "Two rapid decrements remain usable during pending refresh",
+    "Latest cart quantity wins after overlapping refreshes finish"
+  ],
+  "method": "Unchanged HTTPS reads delayed via browser routing, then released; no product or rendered UI response mocking",
+  "cartCleaned": true,
+  "passed": true
+}

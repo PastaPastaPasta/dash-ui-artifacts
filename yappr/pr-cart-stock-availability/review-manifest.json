@@ -1,0 +1,127 @@
+{
+  "sourceHead": "4454c7922a2897da2e86b617013d4b644fa50509",
+  "primaryBase": "c98a6ecd7e26ae5bc9fc8e400e6011eb8465b3a0",
+  "reviewBefore": "12fb4cce4cc0c1110a23492b33a3df3f36dc6fbe",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 6479,
+      "sha256": "fb318573860dc3bc98ce8a7333570cf1a763415e5fba11323ed696427f99000a"
+    },
+    {
+      "path": "review-matrix.md",
+      "bytes": 2064,
+      "sha256": "19f4d84f741e7af52672827f9f166366ef152c1fc103286a4d40bf67188ee186"
+    },
+    {
+      "path": "primary-before-c98/increment-past-stock.png",
+      "bytes": 126124,
+      "sha256": "d6c82c6f48dc942909e81cf031c93f2b6576c6a04799c897f463222df75f7f53"
+    },
+    {
+      "path": "primary-before-c98/overstock-cart.png",
+      "bytes": 126124,
+      "sha256": "d6c82c6f48dc942909e81cf031c93f2b6576c6a04799c897f463222df75f7f53"
+    },
+    {
+      "path": "primary-before-c98/overstock-checkout.png",
+      "bytes": 183954,
+      "sha256": "e93fcfdda4447f55fec68dae0a8292699fffba3a5ba147ddb4e5b48694398e68"
+    },
+    {
+      "path": "primary-before-c98/result.json",
+      "bytes": 632,
+      "sha256": "a097573ea14efb78c7e0553b7d825f50f905486e6c62c47a1514ea33217eab1b"
+    },
+    {
+      "path": "primary-after-4454/overstock-cart.png",
+      "bytes": 133248,
+      "sha256": "7250b3ad9fe331afbca696e2faaf3103aead6e9873022578c7686ab2ac685124"
+    },
+    {
+      "path": "primary-after-4454/overstock-checkout.png",
+      "bytes": 145407,
+      "sha256": "e42ee5debd2a6e9ffb6b9d0ca47c791fc6b1e0c507250ef8bd06b594db7fad89"
+    },
+    {
+      "path": "primary-after-4454/quantity-recovered.png",
+      "bytes": 127577,
+      "sha256": "820d01948b506ea4c4a30989010d940271e0e25242b09832ae52d837cb3768d1"
+    },
+    {
+      "path": "primary-after-4454/repeated-add-blocked.png",
+      "bytes": 120682,
+      "sha256": "9660d6ce538aaf41b684d074a194f8a2e95408916307769dfdc43397bee4164a"
+    },
+    {
+      "path": "primary-after-4454/result.json",
+      "bytes": 961,
+      "sha256": "47ecd72970817aee22b949985a96f529cf839638dd647fe255e29a1336bc4ab2"
+    },
+    {
+      "path": "primary-after-4454/valid-checkout.png",
+      "bytes": 183869,
+      "sha256": "b7649dff86ee5d1e855fd31f6434177228edc7ab45e01670db483f11bfe52c5f"
+    },
+    {
+      "path": "review-before-12fb/cart-refresh.png",
+      "bytes": 102061,
+      "sha256": "2e6267ebf297bd6336b7d920d3c918b473cf34f87791361d9915f09b134e86c7"
+    },
+    {
+      "path": "review-before-12fb/checkout-failure.png",
+      "bytes": 122088,
+      "sha256": "45442ae00644d5a7988c94d088e085350d17670693d6c0c323a14e74b37e33c7"
+    },
+    {
+      "path": "review-before-12fb/manual-cart-refresh.png",
+      "bytes": 102026,
+      "sha256": "d8e918a2a27798eaf2129d7e81f8b1f42d44a7ac82d87fd0255bbb46fe1b7f6a"
+    },
+    {
+      "path": "review-before-12fb/manual-result.json",
+      "bytes": 355,
+      "sha256": "f8600e94363201a125eed06b395b3b1a90c8db2516d47d274033c85efe8455b3"
+    },
+    {
+      "path": "review-before-12fb/result.json",
+      "bytes": 847,
+      "sha256": "3714eccaa0935de13aa040ffa2344f4ea16151fde3b9e75422082403f0ed15ec"
+    },
+    {
+      "path": "review-after-4454/cart-refresh.png",
+      "bytes": 127262,
+      "sha256": "1cb91783b08efae2a1fa5effc670ab212860e65ab9a4a1286896135b6fa2c1bd"
+    },
+    {
+      "path": "review-after-4454/checkout-failure.png",
+      "bytes": 172586,
+      "sha256": "fa7e099b06f9d49f16ad3e6cccd230b00cee8b3501142202d18f637585db2c61"
+    },
+    {
+      "path": "review-after-4454/checkout-recovered.png",
+      "bytes": 180372,
+      "sha256": "cb0b37fd14c2c0d59beeda2cc66fa6376b254a3d6fa995b80497f3e1cd780550"
+    },
+    {
+      "path": "review-after-4454/manual-cart-refresh.png",
+      "bytes": 127272,
+      "sha256": "fe9d16587588cd74918e9727080021f7260771e252177e6a204e9529f24ab314"
+    },
+    {
+      "path": "review-after-4454/manual-result.json",
+      "bytes": 520,
+      "sha256": "1089fc06dab0a0bcf11bc5253c2e0444d559b482334c8ac121d86e583f613afe"
+    },
+    {
+      "path": "review-after-4454/result.json",
+      "bytes": 1072,
+      "sha256": "f7a7dcdd41c7ca4c18f3376969663af6d521abd7e852c8f9d2e92bf8c669e775"
+    },
+    {
+      "path": "review-after-4454/retained-payment-details.png",
+      "bytes": 170399,
+      "sha256": "f006987bf067e1023db4d9607023a0fa7ff8111d668c102ef8a2e8c40b459412"
+    }
+  ]
+}

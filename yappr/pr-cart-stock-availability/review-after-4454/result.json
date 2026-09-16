@@ -1,0 +1,19 @@
+{
+  "at": "2026-09-16T03:07:19.584Z",
+  "revision": "4454c7922a2897da2e86b617013d4b644fa50509",
+  "base": "http://127.0.0.1:3284/devnet",
+  "side": "after",
+  "viewport": "1440x1100",
+  "storeId": "98FYBhEF9Q8xNzbamzy66Dm5cMQ5gm9MoAZaiy518sNp",
+  "productId": "6mp5PmmL7vU792PGEHC84VNy632gcFDo47c9qMpErD3E",
+  "fixture": "Dedicated buyer52 auth; cart of3 originated in baseline UI. Synthetic contact/shipping and unbroadcast txid. Browser offline mode causes final read failure; no response or UI mocks.",
+  "submittedOrder": false,
+  "steps": [
+    "Quantity correction keeps cart and decrement/remove controls mounted; checkout and increases gated during unchanged delayed reads",
+    "Final offline check preserves visible payment reference, refund address, notes, shipping and checkout state; order creation stays blocked",
+    "Reconnect and in-place retry restore Place Order without clearing payment/draft data; no order submitted",
+    "Existing Back actions confirm contact and every checked shipping field retained"
+  ],
+  "cartCleaned": true,
+  "passed": true
+}

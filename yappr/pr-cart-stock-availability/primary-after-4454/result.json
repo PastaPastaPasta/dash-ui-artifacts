@@ -1,0 +1,19 @@
+{
+  "at": "2026-09-16T03:08:20.820Z",
+  "revision": "4454c7922a2897da2e86b617013d4b644fa50509",
+  "base": "http://127.0.0.1:3284/devnet",
+  "productId": "6mp5PmmL7vU792PGEHC84VNy632gcFDo47c9qMpErD3E",
+  "storeId": "98FYBhEF9Q8xNzbamzy66Dm5cMQ5gm9MoAZaiy518sNp",
+  "authenticationFixture": true,
+  "initialCartFromActualBaselineActions": true,
+  "submittedOrder": false,
+  "steps": [
+    "Existing overstock cart is preserved with an inline availability error and disabled cart checkout; direct checkout allows entering details but an actual Continue to Review attempt stays before payment",
+    "Decrease to 2 recovers checkout while plus stays disabled at stock",
+    "Valid quantity 2 reaches ordinary order review",
+    "Returning to the product shows all 2 units already in the cart and prevents repeated addition",
+    "After removing one unit, product offers exactly one more; total 2 persists across reload"
+  ],
+  "cartCleaned": true,
+  "passed": true
+}
