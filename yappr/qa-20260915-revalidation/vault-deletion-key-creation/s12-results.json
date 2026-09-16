@@ -1,0 +1,30 @@
+{
+  "revision": "cf0efbc10b8757137063113ebbd2061e8b87d8f7",
+  "passwordOnlyPersona68": {
+    "identity": "Ds2e2mw5AXAgPDipvHed4wsYWgQdBPhMThQEXdmkW4RN",
+    "cancelPreserves": true,
+    "compressedWifControlDeleteSucceeded": true,
+    "uncompressedWifDefect": "QA104 / PR501",
+    "postDeleteFreshPasswordSubmitDisabled": true,
+    "postDeleteFreshKeyLoginPassed": true,
+    "headFix": "3b2ee9f2d63dad7adeb09756542c6eb9d943c19b"
+  },
+  "passwordAndPasskeyPersona69": {
+    "identity": "FKyFyQM9kb5dkWw12Vcjf8GwFT21GAVDN5MkT4bPyvHx",
+    "vault": "8PomNLdkos9fVoFSJaQuTHcNkwbUumZjEtzqyHSs4QMv",
+    "passwordAccess": "7U1t23S3Ty1bhpsCJJZoTidU9E3Z6HkB7yuoxrxKAZJU",
+    "passkeyAccess": "Bnz4v4PaNZREoUQgbtMcFwnFVv6BR714T9FhxjAErWxr",
+    "passkeyMethod": "Chromium live CTAP2 virtual authenticator with PRF; no exported or reimported credential",
+    "enrollmentPassed": true,
+    "logoutPasskeyLoginPassedBeforeDelete": true,
+    "cancelPreservesBothUnlockMethods": true,
+    "confirmationText": "Are you sure you want to delete your on-chain key backup? You will need to use your private key to log in.",
+    "confirmDeletePassed": true,
+    "independentVaultAndAccessReadEmpty": true,
+    "retainedPasskeyRejectedAfterLogout": "No passkey login is configured for this selected passkey on this site yet",
+    "formerPasswordSubmitDisabled": true,
+    "identitySpecificPasskeyLookup": "No passkey is enrolled for this identity yet.",
+    "freshKeyFallbackPassed": true
+  },
+  "scope": "Normal UI operations with independent public SDK reads. Deletion does not purport to invalidate already-unlocked sessions or historical/exported ciphertext. Physical-device WebAuthn ceremony not tested."
+}

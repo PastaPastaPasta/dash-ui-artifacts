@@ -1,0 +1,24 @@
+{
+  "revision": "cf0efbc10b8757137063113ebbd2061e8b87d8f7",
+  "identityId": "GEriFkuaUndk4zoBwCJ36Qn9Jy7NgjKsZbJauNdywz4p",
+  "profileName": "QA Encryption Setup",
+  "initialPublicKeys": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "cancelBeforeRegistrationPreservesKeys": true,
+  "continueRequiresBackupAcknowledgment": true,
+  "copyBackupUsed": true,
+  "backupPrivatelySaved": true,
+  "wrongIdentityMasterRejected": "Private key does not match any key on this identity",
+  "wrongRoleLoginKeyRejected": "Identity modifications require a MASTER key. You provided a HIGH key.",
+  "correctMasterCreatedKey": true,
+  "publicKeyMatchesIndependentHkdf": true,
+  "freshIsolatedKeyLoginAutomaticallyRestoresDerivedEncryptionKey": true,
+  "freshSessionEnteredEncryptionKey": false,
+  "newKeyId": 4,
+  "secretValuesPublished": false,
+  "relatedIssue": "QA118 / PR513 accessibility only; creation itself passed baseline"
+}

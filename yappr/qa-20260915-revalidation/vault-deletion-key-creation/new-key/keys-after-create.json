@@ -1,0 +1,38 @@
+{
+  "at": "2026-09-16T04:08:20.489Z",
+  "identityId": "GEriFkuaUndk4zoBwCJ36Qn9Jy7NgjKsZbJauNdywz4p",
+  "publicKeys": [
+    {
+      "keyId": 0,
+      "purpose": "AUTHENTICATION",
+      "securityLevel": "MASTER",
+      "data": "03b00a5e12ca8db362646a237158e01fd494cb9d0daa31c912cc08a250b6109cbb"
+    },
+    {
+      "keyId": 1,
+      "purpose": "AUTHENTICATION",
+      "securityLevel": "CRITICAL",
+      "data": "02ff38dbb38073fbbccd7dd6e39d5457945c0c72ee97e1fcb39c3119b38b27dc9f"
+    },
+    {
+      "keyId": 2,
+      "purpose": "AUTHENTICATION",
+      "securityLevel": "HIGH",
+      "data": "03ceed0dbce68c65e5ae66aad965a57d5a9bcdd657e3ca138d54e2ccff781ad987"
+    },
+    {
+      "keyId": 3,
+      "purpose": "TRANSFER",
+      "securityLevel": "CRITICAL",
+      "data": "036ebc12e5d6866f17687146ba8555728a54902ef99b9155788f83fef65fd2d29f"
+    },
+    {
+      "keyId": 4,
+      "purpose": "ENCRYPTION",
+      "securityLevel": "MEDIUM",
+      "data": "027db02b69e61b4779e729b10eb6973153592ebf8fb9cf0cde1a5e5080009c9b04"
+    }
+  ],
+  "expectedDerivedPublicKey": "027db02b69e61b4779e729b10eb6973153592ebf8fb9cf0cde1a5e5080009c9b04",
+  "derivedEncryptionKeyRegistered": true
+}

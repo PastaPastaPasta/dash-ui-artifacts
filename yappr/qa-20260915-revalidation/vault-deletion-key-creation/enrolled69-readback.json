@@ -1,0 +1,96 @@
+{
+  "at": "2026-09-16T03:51:48.751Z",
+  "network": "devnet",
+  "contract": "aCqjwShJ7Gc218Eic5MSxpibfrNRXzCjFtZcjXSNjS4",
+  "identities": [
+    {
+      "persona": 68,
+      "identityId": "Ds2e2mw5AXAgPDipvHed4wsYWgQdBPhMThQEXdmkW4RN",
+      "publicKeys": [
+        {
+          "keyId": 0,
+          "purpose": "AUTHENTICATION",
+          "securityLevel": "MASTER"
+        },
+        {
+          "keyId": 1,
+          "purpose": "AUTHENTICATION",
+          "securityLevel": "CRITICAL"
+        },
+        {
+          "keyId": 2,
+          "purpose": "AUTHENTICATION",
+          "securityLevel": "HIGH"
+        },
+        {
+          "keyId": 3,
+          "purpose": "TRANSFER",
+          "securityLevel": "CRITICAL"
+        },
+        {
+          "keyId": 4,
+          "purpose": "ENCRYPTION",
+          "securityLevel": "MEDIUM"
+        }
+      ],
+      "documents": {
+        "authVault": [],
+        "authVaultAccess": []
+      }
+    },
+    {
+      "persona": 69,
+      "identityId": "FKyFyQM9kb5dkWw12Vcjf8GwFT21GAVDN5MkT4bPyvHx",
+      "publicKeys": [
+        {
+          "keyId": 0,
+          "purpose": "AUTHENTICATION",
+          "securityLevel": "MASTER"
+        },
+        {
+          "keyId": 1,
+          "purpose": "AUTHENTICATION",
+          "securityLevel": "CRITICAL"
+        },
+        {
+          "keyId": 2,
+          "purpose": "AUTHENTICATION",
+          "securityLevel": "HIGH"
+        },
+        {
+          "keyId": 3,
+          "purpose": "TRANSFER",
+          "securityLevel": "CRITICAL"
+        },
+        {
+          "keyId": 4,
+          "purpose": "ENCRYPTION",
+          "securityLevel": "MEDIUM"
+        }
+      ],
+      "documents": {
+        "authVault": [
+          {
+            "id": "8PomNLdkos9fVoFSJaQuTHcNkwbUumZjEtzqyHSs4QMv",
+            "ownerId": "FKyFyQM9kb5dkWw12Vcjf8GwFT21GAVDN5MkT4bPyvHx",
+            "active": true
+          }
+        ],
+        "authVaultAccess": [
+          {
+            "id": "7U1t23S3Ty1bhpsCJJZoTidU9E3Z6HkB7yuoxrxKAZJU",
+            "ownerId": "FKyFyQM9kb5dkWw12Vcjf8GwFT21GAVDN5MkT4bPyvHx",
+            "kind": "password",
+            "status": "active"
+          },
+          {
+            "id": "Bnz4v4PaNZREoUQgbtMcFwnFVv6BR714T9FhxjAErWxr",
+            "ownerId": "FKyFyQM9kb5dkWw12Vcjf8GwFT21GAVDN5MkT4bPyvHx",
+            "kind": "passkey-prf",
+            "status": "active"
+          }
+        ]
+      }
+    }
+  ]
+}

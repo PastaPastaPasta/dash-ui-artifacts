@@ -1,0 +1,18 @@
+{
+  "README.md": "aa9995aef2d69caae77f7f2e937df1435b94f16926063badeb2bc787639aa722",
+  "deleted69-readback.json": "489c4fcd82cbad679e6c04d629d6aa278dff1437c8a0fe48a71da1ebbd447c70",
+  "enrolled69-readback.json": "ea5d7c752c40f9a799ca046f7ea97aa537c46d954e182b115efd0b1ed7d8dff2",
+  "new-key/created-derived-key.png": "2c84cd5f9fdea2d3f56825021c9cdff85f9281dc35b563ce6807b2e626a8e132",
+  "new-key/fixture.json": "f3b2afd51c2f9550fcb720d05e76b49516b849a2359fb269f121a8421d9ffa0c",
+  "new-key/fresh-login-derived-key.png": "2c84cd5f9fdea2d3f56825021c9cdff85f9281dc35b563ce6807b2e626a8e132",
+  "new-key/keys-after-cancel.json": "e0780159f1856eb8e4867918954f69b6071754d0d44441d4f5f25324d4d5f363",
+  "new-key/keys-after-create.json": "0bff3185cce6678343a9e674125a5291613d641f5896c17739a257897b828afb",
+  "new-key/keys-before.json": "0b700da0bfa76800fe18303334630ec1cadfcbb16549f563042a9fc4c3f9b46b",
+  "new-key/results.json": "9892057d3c3f3481def389e1204248f55298cc43846bff54c8129d4a43533a88",
+  "new-key/wrong-master-rejected.png": "7bd3d661b55915c2ca68873b49ef4b3ba05935279b355cef9a1b811d8ad3a10a",
+  "passkey69-after-delete-rejected.png": "e746f75f39c8945d917360847ac38c389b4ee4f4510087faf934bf67f3be93ae",
+  "password-passkey69-cancelled.png": "f5c0a31d3fc50656e8c6fc4ab2844777fb6d8ae2a3f1760ccb903838ce0c2f1e",
+  "password-passkey69-deleted.png": "3f2b7c823504eaf1769767eadccc96d6b16f62b441447ba29611a8aebad53cb9",
+  "s12-results.json": "b61ea133721abede2b8dcc7da2eff00c7858f73cbfc7e1f692a5dea704006d9e",
+  "wrong-identity-encryption-key.png": "02da9d22dbd83f23ce8cbd3b21ead048d4d97e5b60b889c9b04f966001354a04"
+}
