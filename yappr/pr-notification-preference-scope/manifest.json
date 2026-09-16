@@ -1,0 +1,14 @@
+{
+  "base": "cf0efbc10b8757137063113ebbd2061e8b87d8f7",
+  "head": "1a24e56398cf82932eae275afe8482f81bb0747e",
+  "files": {
+    "EVIDENCE_MATRIX.md": "0611674c2f70d80fbde75dfde69144602300c2b42add967c1ec9fd10c576a36d",
+    "README.md": "56071fd589a5853fccaf44b01b99c79236ae16fb5b759972f254946f1d5aa013",
+    "after/desktop.png": "904bedac6eb94cf9411a3250922619e7930dd865476f571b5116492770871bc9",
+    "after/mobile.png": "ff96e238ba99be3995a0e71d57e7d136e5e97a82142deff65c35133d756fbb50",
+    "after/result.json": "4eece5133ee1df79cbfdca5d881a3d0088771748cb428d4c9ef2ec1547b6d65f",
+    "before/desktop.png": "654a4c4c269a6cc4c357ce05a6203f6f312fa8a98b21bcc6cfe9c36a1399b7d3",
+    "before/mobile.png": "a2208947aa03035ba6a7de8a18144e9daf7a2cda6491a078c74085edb5523e90",
+    "before/result.json": "76d9e0362b0a65655a987aa6d167d845061ab819aacff4f5700316eb249c63d9"
+  }
+}

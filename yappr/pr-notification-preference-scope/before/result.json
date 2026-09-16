@@ -1,0 +1,13 @@
+{
+  "side": "before",
+  "revision": "cf0efbc10b8757137063113ebbd2061e8b87d8f7",
+  "identityId": "57i6krpfkLARMr9SbXSGhxtCd4dk6BFkJUMpuom4EiiX",
+  "normalLogin": true,
+  "storageInjection": false,
+  "serverWrites": false,
+  "checks": [
+    "Six supported switches toggle off, persist after reload, restore on, persist after second reload"
+  ],
+  "compiledRevisionVerified": true,
+  "passed": true
+}
