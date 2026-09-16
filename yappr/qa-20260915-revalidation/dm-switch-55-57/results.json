@@ -1,0 +1,42 @@
+{
+  "base": "http://127.0.0.1:3260/devnet",
+  "identity": "HVVUwJLhEngLH5LkZx8FgUkcso28xK7tn5gaaHke5WWu",
+  "rowTexts": [
+    "Bianca Laurent\n25 minutes ago\n\nbianca-laurent3.dash\n\nYou: QA conversation switching 1789521126453",
+    "Samir Demir\nabout 1 hour ago\n\nsamir-plates-5.dash\n\nYou: QA named send 1789518455191"
+  ],
+  "switches": [
+    {
+      "marker": "QA conversation switching 1789521126453",
+      "isolated": true
+    },
+    {
+      "marker": "QA named send 1789518455191",
+      "isolated": true
+    },
+    {
+      "marker": "QA conversation switching 1789521126453",
+      "isolated": true
+    },
+    {
+      "marker": "QA named send 1789518455191",
+      "isolated": true
+    },
+    {
+      "marker": "QA conversation switching 1789521126453",
+      "isolated": true
+    },
+    {
+      "marker": "QA named send 1789518455191",
+      "isolated": true
+    }
+  ],
+  "idSearch": true,
+  "noMatch": true,
+  "clear": true,
+  "visibleNameSearch": {
+    "name": "Bianca Laurent",
+    "matches": 0
+  },
+  "mobileBack": true
+}
