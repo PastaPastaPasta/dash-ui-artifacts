@@ -1,0 +1,344 @@
+[
+  {
+    "variant": "after",
+    "name": "mobile",
+    "viewport": {
+      "width": 320,
+      "height": 700
+    },
+    "initial": {
+      "x": 8,
+      "y": 16,
+      "width": 304,
+      "height": 668,
+      "scrollTop": 0,
+      "scrollHeight": 873,
+      "clientHeight": 666,
+      "controls": [
+        {
+          "text": "",
+          "aria": null,
+          "x": 263,
+          "y": 37,
+          "width": 28,
+          "height": 28
+        },
+        {
+          "text": "Paste image URL",
+          "aria": null,
+          "x": 29,
+          "y": 639,
+          "width": 111.8125,
+          "height": 16
+        },
+        {
+          "text": "Paste image URL",
+          "aria": null,
+          "x": 29,
+          "y": 798.328125,
+          "width": 111.8125,
+          "height": 16
+        },
+        {
+          "text": "Cancel",
+          "aria": null,
+          "x": 94.296875,
+          "y": 830.328125,
+          "width": 79.359375,
+          "height": 40
+        },
+        {
+          "text": "Create Blog",
+          "aria": null,
+          "x": 181.65625,
+          "y": 830.328125,
+          "width": 109.34375,
+          "height": 40
+        }
+      ]
+    },
+    "scrolled": {
+      "x": 8,
+      "y": 16,
+      "width": 304,
+      "height": 668,
+      "scrollTop": 207,
+      "scrollHeight": 873,
+      "clientHeight": 666,
+      "controls": [
+        {
+          "text": "",
+          "aria": null,
+          "x": 263,
+          "y": -170,
+          "width": 28,
+          "height": 28
+        },
+        {
+          "text": "Paste image URL",
+          "aria": null,
+          "x": 29,
+          "y": 432,
+          "width": 111.8125,
+          "height": 16
+        },
+        {
+          "text": "Paste image URL",
+          "aria": null,
+          "x": 29,
+          "y": 591.328125,
+          "width": 111.8125,
+          "height": 16
+        },
+        {
+          "text": "Cancel",
+          "aria": null,
+          "x": 94.296875,
+          "y": 623.328125,
+          "width": 79.359375,
+          "height": 40
+        },
+        {
+          "text": "Create Blog",
+          "aria": null,
+          "x": 181.65625,
+          "y": 623.328125,
+          "width": 109.34375,
+          "height": 40
+        }
+      ]
+    },
+    "focusAfterClose": {
+      "tag": "BODY",
+      "text": "((e,t,r,i,n,a,s,o)=>{let l=document.documentElement,d=[\"light\",\"dark\"];function "
+    }
+  },
+  {
+    "variant": "after",
+    "name": "landscape",
+    "viewport": {
+      "width": 700,
+      "height": 320
+    },
+    "initial": {
+      "x": 17.5,
+      "y": 16,
+      "width": 665,
+      "height": 288,
+      "scrollTop": 0,
+      "scrollHeight": 736,
+      "clientHeight": 286,
+      "controls": [
+        {
+          "text": "",
+          "aria": null,
+          "x": 633.5,
+          "y": 37,
+          "width": 28,
+          "height": 28
+        },
+        {
+          "text": "Paste image URL",
+          "aria": null,
+          "x": 38.5,
+          "y": 660.5,
+          "width": 111.8125,
+          "height": 16
+        },
+        {
+          "text": "Paste image URL",
+          "aria": null,
+          "x": 358,
+          "y": 458.15625,
+          "width": 111.8125,
+          "height": 16
+        },
+        {
+          "text": "Cancel",
+          "aria": null,
+          "x": 464.796875,
+          "y": 692.5,
+          "width": 79.359375,
+          "height": 40
+        },
+        {
+          "text": "Create Blog",
+          "aria": null,
+          "x": 552.15625,
+          "y": 692.5,
+          "width": 109.34375,
+          "height": 40
+        }
+      ]
+    },
+    "scrolled": {
+      "x": 17.5,
+      "y": 16,
+      "width": 665,
+      "height": 288,
+      "scrollTop": 450,
+      "scrollHeight": 736,
+      "clientHeight": 286,
+      "controls": [
+        {
+          "text": "",
+          "aria": null,
+          "x": 633.5,
+          "y": -413,
+          "width": 28,
+          "height": 28
+        },
+        {
+          "text": "Paste image URL",
+          "aria": null,
+          "x": 38.5,
+          "y": 210.5,
+          "width": 111.8125,
+          "height": 16
+        },
+        {
+          "text": "Paste image URL",
+          "aria": null,
+          "x": 358,
+          "y": 8.15625,
+          "width": 111.8125,
+          "height": 16
+        },
+        {
+          "text": "Cancel",
+          "aria": null,
+          "x": 464.796875,
+          "y": 242.5,
+          "width": 79.359375,
+          "height": 40
+        },
+        {
+          "text": "Create Blog",
+          "aria": null,
+          "x": 552.15625,
+          "y": 242.5,
+          "width": 109.34375,
+          "height": 40
+        }
+      ]
+    },
+    "focusAfterClose": {
+      "tag": "BODY",
+      "text": "((e,t,r,i,n,a,s,o)=>{let l=document.documentElement,d=[\"light\",\"dark\"];function "
+    }
+  },
+  {
+    "variant": "after",
+    "name": "desktop",
+    "viewport": {
+      "width": 1280,
+      "height": 900
+    },
+    "initial": {
+      "x": 304,
+      "y": 79.5,
+      "width": 672,
+      "height": 741,
+      "scrollTop": 0,
+      "scrollHeight": 739,
+      "clientHeight": 739,
+      "controls": [
+        {
+          "text": "",
+          "aria": null,
+          "x": 927,
+          "y": 100.5,
+          "width": 28,
+          "height": 28
+        },
+        {
+          "text": "Paste image URL",
+          "aria": null,
+          "x": 325,
+          "y": 727.5,
+          "width": 111.8125,
+          "height": 16
+        },
+        {
+          "text": "Paste image URL",
+          "aria": null,
+          "x": 648,
+          "y": 522.828125,
+          "width": 111.8125,
+          "height": 16
+        },
+        {
+          "text": "Cancel",
+          "aria": null,
+          "x": 758.296875,
+          "y": 759.5,
+          "width": 79.359375,
+          "height": 40
+        },
+        {
+          "text": "Create Blog",
+          "aria": null,
+          "x": 845.65625,
+          "y": 759.5,
+          "width": 109.34375,
+          "height": 40
+        }
+      ]
+    },
+    "scrolled": {
+      "x": 304,
+      "y": 79.5,
+      "width": 672,
+      "height": 741,
+      "scrollTop": 0,
+      "scrollHeight": 739,
+      "clientHeight": 739,
+      "controls": [
+        {
+          "text": "",
+          "aria": null,
+          "x": 927,
+          "y": 100.5,
+          "width": 28,
+          "height": 28
+        },
+        {
+          "text": "Paste image URL",
+          "aria": null,
+          "x": 325,
+          "y": 727.5,
+          "width": 111.8125,
+          "height": 16
+        },
+        {
+          "text": "Paste image URL",
+          "aria": null,
+          "x": 648,
+          "y": 522.828125,
+          "width": 111.8125,
+          "height": 16
+        },
+        {
+          "text": "Cancel",
+          "aria": null,
+          "x": 758.296875,
+          "y": 759.5,
+          "width": 79.359375,
+          "height": 40
+        },
+        {
+          "text": "Create Blog",
+          "aria": null,
+          "x": 845.65625,
+          "y": 759.5,
+          "width": 109.34375,
+          "height": 40
+        }
+      ]
+    },
+    "focusAfterClose": {
+      "tag": "BODY",
+      "text": "((e,t,r,i,n,a,s,o)=>{let l=document.documentElement,d=[\"light\",\"dark\"];function "
+    }
+  }
+]
