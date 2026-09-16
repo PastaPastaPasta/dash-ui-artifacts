@@ -1,0 +1,98 @@
+{
+  "state": "before",
+  "revision": "cf0efbc10b8757137063113ebbd2061e8b87d8f7",
+  "identityId": "9NFhqxW8upkFMVTE5h5VmYWLdSEJ26B2iMKdhCFgsWkd",
+  "viewport": {
+    "width": 1440,
+    "height": 1200
+  },
+  "checks": [
+    {
+      "name": "reset Escape",
+      "focused": false,
+      "active": {
+        "tag": "BODY",
+        "id": "",
+        "testid": null,
+        "text": ""
+      }
+    },
+    {
+      "name": "reset Cancel",
+      "focused": false,
+      "active": {
+        "tag": "BODY",
+        "id": "",
+        "testid": null,
+        "text": ""
+      }
+    },
+    {
+      "name": "reset Close",
+      "focused": false,
+      "active": {
+        "tag": "BODY",
+        "id": "",
+        "testid": null,
+        "text": ""
+      }
+    },
+    {
+      "name": "reset Overlay",
+      "focused": false,
+      "active": {
+        "tag": "BODY",
+        "id": "",
+        "testid": null,
+        "text": ""
+      }
+    },
+    {
+      "name": "nested Escape to parent opener",
+      "focused": false,
+      "active": {
+        "tag": "BODY",
+        "id": "",
+        "testid": null,
+        "text": ""
+      }
+    },
+    {
+      "name": "nested found-key action to parent opener",
+      "focused": false,
+      "active": {
+        "tag": "BODY",
+        "id": "",
+        "testid": null,
+        "text": ""
+      }
+    },
+    {
+      "name": "parent Escape to page opener",
+      "focused": false,
+      "active": {
+        "tag": "BODY",
+        "id": "",
+        "testid": null,
+        "text": ""
+      }
+    }
+  ],
+  "compiledHash": "cf0efbc1",
+  "openFocus": {
+    "tag": "BUTTON",
+    "id": "",
+    "testid": null,
+    "text": ""
+  },
+  "trappedTabCount": 9,
+  "clip": {
+    "x": 376,
+    "y": 781,
+    "width": 612,
+    "height": 162
+  },
+  "privateFeedStillEnabled": true,
+  "noKeyEntered": true,
+  "success": true
+}

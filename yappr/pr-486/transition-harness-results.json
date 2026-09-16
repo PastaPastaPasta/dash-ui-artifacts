@@ -1,0 +1,11 @@
+{
+  "revision": "f612ec3b8720385ee8cbbc7cbd0166b701b59d98",
+  "fixture": "Disposable React DOM browser harness importing exact committed Modal, Radix, framer-motion and settings store; no network/data/auth mocks",
+  "checks": [
+    "Closing first modal and opening second in one render preserves focus in second after both animations settle",
+    "Disconnected opener is skipped without exception",
+    "Caller open/close focus handlers retain precedence when they preventDefault"
+  ],
+  "pageErrors": [],
+  "success": true
+}

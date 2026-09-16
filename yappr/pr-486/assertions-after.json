@@ -1,0 +1,99 @@
+{
+  "state": "after",
+  "revision": "f612ec3b8720385ee8cbbc7cbd0166b701b59d98",
+  "identityId": "9NFhqxW8upkFMVTE5h5VmYWLdSEJ26B2iMKdhCFgsWkd",
+  "viewport": {
+    "width": 1440,
+    "height": 1200
+  },
+  "checks": [
+    {
+      "name": "reset Escape",
+      "focused": true,
+      "active": {
+        "tag": "BUTTON",
+        "id": "",
+        "testid": "reset-private-feed-btn",
+        "text": "Reset Private Feed"
+      }
+    },
+    {
+      "name": "reset Cancel",
+      "focused": true,
+      "active": {
+        "tag": "BUTTON",
+        "id": "",
+        "testid": "reset-private-feed-btn",
+        "text": "Reset Private Feed"
+      }
+    },
+    {
+      "name": "reset Close",
+      "focused": true,
+      "active": {
+        "tag": "BUTTON",
+        "id": "",
+        "testid": "reset-private-feed-btn",
+        "text": "Reset Private Feed"
+      }
+    },
+    {
+      "name": "reset Overlay",
+      "focused": true,
+      "active": {
+        "tag": "BUTTON",
+        "id": "",
+        "testid": "reset-private-feed-btn",
+        "text": "Reset Private Feed"
+      }
+    },
+    {
+      "name": "nested Escape to parent opener",
+      "focused": true,
+      "active": {
+        "tag": "BUTTON",
+        "id": "",
+        "testid": null,
+        "text": "See recovery options"
+      }
+    },
+    {
+      "name": "nested found-key action to parent opener",
+      "focused": true,
+      "active": {
+        "tag": "BUTTON",
+        "id": "",
+        "testid": null,
+        "text": "See recovery options"
+      }
+    },
+    {
+      "name": "parent Escape to page opener",
+      "focused": true,
+      "active": {
+        "tag": "BUTTON",
+        "id": "",
+        "testid": "encryption-key-input",
+        "text": "Enter Encryption Key"
+      }
+    }
+  ],
+  "compiledHash": "f612ec3b",
+  "openFocus": {
+    "tag": "BUTTON",
+    "id": "",
+    "testid": null,
+    "text": ""
+  },
+  "trappedTabCount": 9,
+  "clip": {
+    "x": 376,
+    "y": 781,
+    "width": 612,
+    "height": 162
+  },
+  "keyboardReopensWithoutRefocus": true,
+  "privateFeedStillEnabled": true,
+  "noKeyEntered": true,
+  "success": true
+}
