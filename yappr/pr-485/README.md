@@ -1,37 +1,59 @@
-# Yappr #485 — retain the encryption key accepted by private-feed setup
+# Yappr PR485: retain the encryption key accepted by private-feed setup
 
-Branch-base staging revision `733faf53cd893cba861476a4af75b442ed67ca72`; full signed PR head `8c102ad4cebc951c7114d0730c050309c67e54aa`. Separate `npm run build:devnet` production exports at localhost ports 3278 and 3293; both compiled About hashes verified. The staging target moved after branch creation; this comparison names the exact frozen pre-change source used, not a moving deployment.
+Source PR: https://github.com/PastaPastaPasta/yappr/pull/485
 
-**Distinct synthetic devnet owners are required for this first-enable comparison:** before persona39 `9NFhqxW8upkFMVTE5h5VmYWLdSEJ26B2iMKdhCFgsWkd` (`hikes-omar8`), after persona60 `GppCz2g6a6JYr7rGtwpEc4VgDX7b7wifz8uWXM1CTx1m` (`kofi-achterberg6`). Both use normal password sign-in with unlocked auth vaults, registered encryption key4, and the first successful Enable flow. Persona60's read-only preflight confirmed no feed, grants or private posts. No feed reset/delete was used to recreate a screenshot. Public owner/sidebar data naturally differs.
+Before — exact PR483 parent: `e65d33681a6c289fa0255bde0d8dfd0366193664`.
+After — full signed PR485 head: `b5b72b15421cdb8df1e4ed600f0dfa4e2e8a8a9f`.
 
-Shared configuration: devnet moutai, checked-in `.env.devnet`, fresh Chromium contexts, light theme, en-US, America/Chicago, 1440×1200, same private-feed settings route and scroll position. Secret fields were empty or absent at capture. No injected response/state, content replacement or clock override was used.
+This refreshed comparison supersedes the earlier staging-base evidence in artifact `d688c8a93f19d285a31057c719d0bfed2f953196`. PR485 is now stacked on PR483. Both revisions were independently built with `npm run build:devnet`, served at localhost3297 and localhost3299 respectively, and verified through the compiled About hash.
 
-Before — frozen branch base, persona39 immediately after actual Enable: feed enabled, but key missing and a second key-entry prompt.
+## Live first-enable comparison
 
-![Before key not entered](comparison/before/focus.png)
+**Distinct synthetic devnet owners are necessary because private-feed creation is immutable.** Before uses persona78 `streetbianca8`, identity `9LQjbxV6BiArha9QiiLAp1ziN2i497SR1giWvxZD4b2R`; after uses persona79 `fatima-writes4`, identity `mxntRqug49iiEeka2RDRnQrf8hJZBkkQe971Am68wnJ`. Both use registered encryption key4, normal password sign-in, an unlocked password vault, and their first Enable operation. Both resulting feeds are at epoch1 with zero followers. No feed reset/delete was used. Owner handles, avatars, identities and existing public post counts naturally differ.
 
-After — full PR head, persona60 immediately after actual Enable: feed enabled and key available.
+Before — feed creation succeeds but the accepted key is missing and the user is prompted to enter it again:
 
-![After key stored](comparison/after/focus.png)
+![Before feed enabled but key missing](comparison/before/focus.png)
 
-The focused images are matching 650×520 pixel crops at x358/y125 from the full screenshots, without resize or annotation. [Before full desktop](comparison/before/desktop.png) · [After full desktop](comparison/after/desktop.png). Five final PNGs were opened and inspected at original resolution, including both crops.
+After — the same flow retains the key immediately and removes the redundant key-entry prompt:
 
-After compatibility check — the same persona60 key is recovered through normal password login in a fresh browser context:
+![After feed enabled and key stored](comparison/after/focus.png)
 
-![Fresh password recovery](comparison/after/fresh-password.png)
+[Before full desktop](comparison/before/desktop.png) · [After full desktop](comparison/after/desktop.png)
 
-Actual head checks: key absent before Enable, first Enable creates the feed and stores the accepted key, no redundant key-entry button, reload retains readiness, fresh-context password login restores the key from the vault. No private post or follower was created. The enabled synthetic feed and password vault are preserved for the ongoing audit. [Head assertions](after-results.json) · [Baseline observations](before-results.json) · [Read-only preflight](persona60-preflight.json) · [Evidence matrix](matrix.md).
+Fresh-browser compatibility check: normal password sign-in still lacks the key before, while the head restores it from the auth vault:
 
-Targeted ESLint, full TypeScript, production devnet build and independent source review passed. Storage-denial and vault-backup failure messages were source-reviewed but were not fault-injected. An unavailable/locked vault follows the existing merge helper behavior; this PR makes no promise of cross-device recovery without an unlocked vault. The separate stale sibling-panel bug (QA82) remains visible immediately after setup and is outside this PR; the panels refresh after reload.
+[Before fresh password sign-in](comparison/before/fresh-password.png) · [After fresh password sign-in](comparison/after/fresh-password.png)
 
-## SHA-256
+The live browser checks confirm no stored encryption key before Enable; successful actual feed creation; missing/stored key status before/after; consistent status after reload; and the corresponding status after password sign-in in a fresh browser. No private post or follower was created. The synthetic feeds/password vaults remain available to the ongoing audit. [Before assertions](before-results.json) · [After assertions](after-results.json) · [Read-only fixture preflight](persona78-79-preflight.json) · [Evidence matrix](matrix.md).
 
-- `8df8274477894aec1f2b9d482e1699099a9680a5b5a80e4f6c63e968cc73d544` — `after-results.json`
-- `44b039168289dd3954d90a9eca7e9dfe269a9dc9130a6142f44ded0c4e9177bc` — `before-results.json`
-- `86a1c26b46efbed4cb9c0893ed900d321b7f493f79f53a3884509305e3098149` — `comparison/after/desktop.png`
-- `8c2c8cfcf720057dbeadb0089ff0b2c8041fb1a899e885d3d39c6ff40b59b01d` — `comparison/after/focus.png`
-- `1a63fc4ac0cb700b0e1b9e8c092b14c1dc9d9eb1081b2cfe90d7df89e39a3feb` — `comparison/after/fresh-password.png`
-- `0d19f98b3a6f68451486b324eccb52478d3f870d3ff752a48d7595dab2323148` — `comparison/before/desktop.png`
-- `8abbf1aa6fa42700446c6a07d7f106562ecf43774e1abaef4334d9f00306ac8b` — `comparison/before/focus.png`
-- `c6802fcbaf04d01c825a46359f1ebac4141446aba506cf0dfa4bb675804778e8` — `matrix.md`
-- `ea636c11c3efd950b823d9cd716b3e1a4667b2c49a9c81b817f84fbab77d8048` — `persona60-preflight.json`
+Shared capture setup: devnet moutai, checked-in `.env.devnet`, Chromium1440×1200, device scale1, light theme, en-US, America/Chicago, same route and top scroll position. The full images are unmodified viewport captures. Focused images capture the same settings card at native resolution; its height decreases after the redundant key-entry button is removed. No resizing or annotation. All six final PNGs were opened and inspected at original resolution. Secret fields were empty or absent; no credentials or browser auth state are published. The live comparison uses ordinary password login without restored session snapshots, DOM replacement, injected product state, or mocked responses.
+
+## Isolated browser regression coverage
+
+The head adds [three component browser regressions](https://github.com/PastaPastaPasta/yappr/blob/b5b72b15421cdb8df1e4ed600f0dfa4e2e8a8a9f/e2e/components/private-feed-enable.spec.ts), run by `npm run test:components` and the dedicated Browser Component Tests CI job. These tests are explicitly synthetic and separate from the live captures above. They render the real `PrivateFeedSettings`, real toast UI, `lib/secure-storage.ts`, platform-auth browser secret store, WIF normalization and localStorage. Chain/auth-vault boundaries, identity validation and unrelated dialogs are mocked; external requests are blocked. The fixture uses public scalar1, never a live credential.
+
+- Successful enable persists canonical WIF locally before vault merge and refreshes enabled status.
+- A targeted localStorage key-write failure is swallowed by the real browser secret store; null readback yields the storage warning, skips vault merge and still refreshes enabled status.
+- A rejected vault merge yields the backup warning, retains the local key and still refreshes enabled status.
+
+Every case asserts the success toast and absence of “Failed to enable private feed” after successful chain creation. All three pass on the fix. With a temporary copy of the exact parent `e65d33681a6c289fa0255bde0d8dfd0366193664` component, all three fail on the expected missing persistence behavior; the temporary copy/alias was removed and the tests passed again. These are functional tests of failure handling, not live Platform fault injection or visual proof of those failure cases.
+
+Validation passed: application lint, explicit harness lint, application/component/live-E2E TypeScript checks, Knip, three component browser tests, existing reset unit tests, production devnet build, independent actual-diff source review and a simplification review. An unavailable/locked vault follows the existing merge helper behavior; recovery through password login was tested with unlocked password vaults.
+
+The separate stale sibling-panel issue QA82 is visible immediately after Enable on both revisions: requests/follower panels still ask to enable the feed. It is outside PR485; those panels refresh after reload. The changed lower-page appearance after a fresh login is not attributed to this key-persistence fix.
+
+## Publication verification
+
+Six final PNGs were inspected at original resolution. All 11 published files are fetched and checked for HTTP status, content type, byte size and SHA256, and the rendered PR and README are checked after publication. Hashes below cover the ten non-README files; the external verification record also hashes this README.
+
+- `6263d99aa677479a2aaaddabf267f570b802dd4ab10286d0e5301b60ba4374b5` — `after-results.json`
+- `802ab5a14e9ceb42040e3d8e536f4962ce8b960eb38ee9bb3d55c0c8fd11ca90` — `before-results.json`
+- `4285447ea8f9c4ecc00f5ad20b79213248abf4da470fbe93652faa91ac261e4b` — `comparison/after/desktop.png`
+- `c12b757c280d546ae641862efddf05ab8627a96beff96a93fb86c7bd91b14358` — `comparison/after/focus.png`
+- `608b5dd5c5fdfab686f9ce18ca2df1f32ab339cc732ac9015e2839d7ed9a4b05` — `comparison/after/fresh-password.png`
+- `74bde294ebb17026f18bde536a8af5fc7f84e3cff600561efe76c6985db1feb1` — `comparison/before/desktop.png`
+- `6e588d27818aa41823180565d57406e178b115a3affbec7468b912313804bead` — `comparison/before/focus.png`
+- `2f95c868ae2006ada43eda709c83c1e294d96611040c3c5a0374407e1d469f50` — `comparison/before/fresh-password.png`
+- `d594854a188b055d08a9006456372eea368830513f5e8cc678ae9df3386c274a` — `matrix.md`
+- `fd57dfe4c2adb0ad3cba3235246b49c72a1f30a00d6b82f4273ff5b095cc3292` — `persona78-79-preflight.json`
