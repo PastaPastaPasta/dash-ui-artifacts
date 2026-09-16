@@ -1,0 +1,8 @@
+{
+  "base": "http://127.0.0.1:3240/devnet",
+  "label": "before",
+  "endsAt": 1789603269967,
+  "browserNow": 1789603271469,
+  "ballotVisible": false,
+  "results": 1
+}
