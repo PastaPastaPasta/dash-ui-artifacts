@@ -1,0 +1,59 @@
+{
+  "label": "before",
+  "base": "http://127.0.0.1:3288/devnet",
+  "revision": "cf0efbc10b8757137063113ebbd2061e8b87d8f7",
+  "persona": "HVVUwJLhEngLH5LkZx8FgUkcso28xK7tn5gaaHke5WWu",
+  "postId": "9mcdDNznWP86bScjmMykF1kzNpecneoFoZVVNAB5qCFd",
+  "cases": [
+    {
+      "name": "reply-escape-reopen",
+      "title": "Reply to post",
+      "text": "Reply to postWrite your reply to the postPublicPreviewReplyReplying to@jimenez-votes5.dashBI</>@#**bold***italic*`code`",
+      "textareas": [
+        ""
+      ],
+      "choices": []
+    },
+    {
+      "name": "quote-backdrop-reopen",
+      "title": "Quote post",
+      "text": "Quote postAdd your thoughts to this quotePublicNSFWPreviewPostBI</>@#**bold***italic*`code`Sakura, allegedly@jimenez-votes5.dash·6 hours agoQA social write 2026-09-15 1789505590300",
+      "textareas": [
+        ""
+      ],
+      "choices": []
+    },
+    {
+      "name": "poll-escape-reopen",
+      "title": "Create a new post",
+      "text": "Create a new postShare your thoughts with the communityPublicNSFWPreviewPostBI</>@#**bold***italic*`code`Poll — your post text is the questionAdd choiceAllow multiple choicesClosesNo end time1 day3 days7 daysPolls live on the Pollr contract. Votes are permanent and cannot be changed.",
+      "textareas": [
+        ""
+      ],
+      "choices": [
+        "Draft choice A",
+        "Draft choice B"
+      ]
+    },
+    {
+      "name": "preview-backdrop-reopen",
+      "title": "Create a new post",
+      "text": "Create a new postShare your thoughts with the communityPublicNSFWEditPostNothing to preview**bold***italic*`code`Add to thread",
+      "textareas": [],
+      "choices": []
+    },
+    {
+      "name": "storage-settings-reopen",
+      "title": "Reply to post",
+      "text": "Reply to postWrite your reply to the postPublicPreviewReplyReplying to@jimenez-votes5.dashBI</>@#**bold***italic*`code`",
+      "textareas": [
+        ""
+      ],
+      "choices": []
+    }
+  ],
+  "messageOrPostWrites": 0,
+  "providerCancelRetainsParentDraft": true,
+  "nsfwRestoresProfileDefault": true,
+  "explicitCloseFreshForAllCases": true
+}

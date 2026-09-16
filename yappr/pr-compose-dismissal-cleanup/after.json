@@ -1,0 +1,58 @@
+{
+  "label": "after",
+  "base": "http://127.0.0.1:3292/devnet",
+  "revision": "a57de1332b390823942a317af1e6f491f5aaa41a",
+  "persona": "HVVUwJLhEngLH5LkZx8FgUkcso28xK7tn5gaaHke5WWu",
+  "postId": "9mcdDNznWP86bScjmMykF1kzNpecneoFoZVVNAB5qCFd",
+  "cases": [
+    {
+      "name": "reply-escape-reopen",
+      "title": "Create a new post",
+      "text": "Create a new postShare your thoughts with the communityPublicNSFWPreviewPostBI</>@#**bold***italic*`code`Add to thread",
+      "textareas": [
+        ""
+      ],
+      "choices": []
+    },
+    {
+      "name": "quote-backdrop-reopen",
+      "title": "Create a new post",
+      "text": "Create a new postShare your thoughts with the communityPublicNSFWPreviewPostBI</>@#**bold***italic*`code`Add to thread",
+      "textareas": [
+        ""
+      ],
+      "choices": []
+    },
+    {
+      "name": "poll-escape-reopen",
+      "title": "Create a new post",
+      "text": "Create a new postShare your thoughts with the communityPublicNSFWPreviewPostBI</>@#**bold***italic*`code`Add to thread",
+      "textareas": [
+        ""
+      ],
+      "choices": []
+    },
+    {
+      "name": "preview-backdrop-reopen",
+      "title": "Create a new post",
+      "text": "Create a new postShare your thoughts with the communityPublicNSFWPreviewPostBI</>@#**bold***italic*`code`Add to thread",
+      "textareas": [
+        ""
+      ],
+      "choices": []
+    },
+    {
+      "name": "storage-settings-reopen",
+      "title": "Create a new post",
+      "text": "Create a new postShare your thoughts with the communityPublicNSFWPreviewPostBI</>@#**bold***italic*`code`Add to thread",
+      "textareas": [
+        ""
+      ],
+      "choices": []
+    }
+  ],
+  "messageOrPostWrites": 0,
+  "providerCancelRetainsParentDraft": true,
+  "nsfwRestoresProfileDefault": true,
+  "explicitCloseFreshForAllCases": true
+}
