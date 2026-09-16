@@ -5,6 +5,7 @@
   "currency": "DASH",
   "csv": "Group,Item Name,Variant,Price,Quantity,SKU\n,QA CSV Currency54,,1.25,2,QA-CSV54\nvariant54,QA CSV Sizes54,Small,1.25,2,QA-S54\nvariant54,QA CSV Sizes54,Large,2.5,0,QA-L54\n",
   "checks": [],
+  "helpText": "Upload Inventory\n\nClick to select a CSV file\n\nSupported format: .csv\n\nNeed a template?\n\nDownload our CSV template with example data to get started quickly.\n\nDownload Template\nCSV Format\n\nYour CSV should include these columns:\n\nItem Name (required) - Product title\nPrice (required) - Price in dollars (e.g., 9.99)\nGroup - Group ID to link variants together\nVariant / Sub Variant - Variant options (e.g., Color, Size)\nQuantity - Stock count or formula (e.g., \"(SKU-NAME)*5\")\nSKU, Category, Tags, Images - Optional fields\nCancel",
   "preview": "Upload Inventory\n\nfixture.csv\n\n2 items found\n\nChange File\nItems to Upload\nItem\tVariants\tPrice\tStock\n\nQA CSV Currency54\n\t-\t0.0000 DASH\t2\n\nQA CSV Sizes54\n\t2 variants\t0.0000 DASH - 0.0000 DASH\t2\nCancel\nUpload 2 Items",
   "noItemsUploaded": true,
   "success": true
