@@ -1,0 +1,105 @@
+[
+  {
+    "phase": "original",
+    "url": "http://127.0.0.1:3288/devnet/blog/",
+    "name": "QA exhaustive blog 20260915 p64",
+    "description": "Dedicated devnet QA fixture. Retained because normal UI does not expose blog/article deletion.",
+    "labels": [
+      "QA Alpha",
+      "QA New"
+    ],
+    "images": [
+      "https://yap.pr/yappr.png"
+    ],
+    "comments": "true"
+  },
+  {
+    "phase": "before-initial",
+    "url": "http://127.0.0.1:3288/devnet/blog/",
+    "name": "QA exhaustive blog 20260915 p64",
+    "description": "Dedicated devnet QA fixture. Retained because normal UI does not expose blog/article deletion.",
+    "labels": [
+      "QA Alpha"
+    ],
+    "images": [
+      "https://yap.pr/yappr.png",
+      "https://yap.pr/yappr.png"
+    ],
+    "comments": "true"
+  },
+  {
+    "phase": "before-cleared-success",
+    "url": "http://127.0.0.1:3288/devnet/blog/",
+    "name": "QA exhaustive blog 20260915 p64",
+    "description": "",
+    "labels": [],
+    "images": [
+      "https://yap.pr/yappr.png"
+    ],
+    "comments": "true"
+  },
+  {
+    "phase": "before-reloaded-returned",
+    "url": "http://127.0.0.1:3288/devnet/blog/",
+    "name": "QA exhaustive blog 20260915 p64",
+    "description": "Dedicated devnet QA fixture. Retained because normal UI does not expose blog/article deletion.",
+    "labels": [
+      "QA Alpha"
+    ],
+    "images": [
+      "https://yap.pr/yappr.png",
+      "https://yap.pr/yappr.png"
+    ],
+    "comments": "true"
+  },
+  {
+    "phase": "after-initial",
+    "url": "http://127.0.0.1:3306/devnet/blog/",
+    "name": "QA exhaustive blog 20260915 p64",
+    "description": "Dedicated devnet QA fixture. Retained because normal UI does not expose blog/article deletion.",
+    "labels": [
+      "QA Alpha"
+    ],
+    "images": [
+      "https://yap.pr/yappr.png",
+      "https://yap.pr/yappr.png"
+    ],
+    "comments": "true"
+  },
+  {
+    "phase": "after-cleared-success",
+    "url": "http://127.0.0.1:3306/devnet/blog/",
+    "name": "QA exhaustive blog 20260915 p64",
+    "description": "",
+    "labels": [],
+    "images": [
+      "https://yap.pr/yappr.png"
+    ],
+    "comments": "true"
+  },
+  {
+    "phase": "after-reloaded-empty",
+    "url": "http://127.0.0.1:3306/devnet/blog/",
+    "name": "QA exhaustive blog 20260915 p64",
+    "description": "",
+    "labels": [],
+    "images": [
+      "https://yap.pr/yappr.png"
+    ],
+    "comments": "true"
+  },
+  {
+    "phase": "restored-original",
+    "url": "http://127.0.0.1:3306/devnet/blog/",
+    "name": "QA exhaustive blog 20260915 p64",
+    "description": "Dedicated devnet QA fixture. Retained because normal UI does not expose blog/article deletion.",
+    "labels": [
+      "QA Alpha",
+      "QA New"
+    ],
+    "images": [
+      "https://yap.pr/yappr.png"
+    ],
+    "comments": "true"
+  }
+]

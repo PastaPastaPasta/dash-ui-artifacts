@@ -1,0 +1,67 @@
+{
+  "base": "cf0efbc10b8757137063113ebbd2061e8b87d8f7",
+  "head": "dc951d9a6c0f23ddf3d6eca9dfbb1cc4a5e3d22e",
+  "blogId": "BdMQRKM6xT8jx4bKbkhP3wYo7V835pDjcEWTbN5PMNRU",
+  "viewport": {
+    "width": 1440,
+    "height": 1250
+  },
+  "focusedCrop": {
+    "left": 350,
+    "top": 220,
+    "right": 1015,
+    "bottom": 1170
+  },
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 4755,
+      "sha256": "efaea895e91ebaa09bf575bc95aedcfaa14a96487b38965be5a0a11c25099ddc"
+    },
+    {
+      "path": "after/01-initial.png",
+      "bytes": 284918,
+      "sha256": "6b743f19edae20df83ed61766d1aff142afdfa9724169f26fb3a598f669c76c1"
+    },
+    {
+      "path": "after/02-cleared-success.png",
+      "bytes": 256033,
+      "sha256": "8ba054a919db8725a5524ed57d534aedb07928724541f04723e008efa59045c3"
+    },
+    {
+      "path": "after/03-reloaded.png",
+      "bytes": 248415,
+      "sha256": "c76c6b6c6da57dbb7db04c153e93ba3bb23babc0911d486f9f6da5bf9c2527d3"
+    },
+    {
+      "path": "after/04-reloaded-focus.png",
+      "bytes": 120314,
+      "sha256": "b77d2d9cd71e08c0d6739d8ec21ee5a5bd6d76b99667456f50dbdcad0b5a0b77"
+    },
+    {
+      "path": "before/01-initial.png",
+      "bytes": 284943,
+      "sha256": "ed641c131e1aa49dac83bfe653e94f091dbc03b3597370de15196e953ecc608d"
+    },
+    {
+      "path": "before/02-cleared-success.png",
+      "bytes": 261974,
+      "sha256": "07ef484d390482ba2f03cb89ff19a5d3471ed7f15b280a3077e44b3e639cf805"
+    },
+    {
+      "path": "before/03-reloaded.png",
+      "bytes": 284947,
+      "sha256": "90b74df99dcd6a9706e305b3233931ceb103201a22607c046aac76df5c65f018"
+    },
+    {
+      "path": "before/04-reloaded-focus.png",
+      "bytes": 149039,
+      "sha256": "39fd44631a848f02d614806697219365b5df96846a53ca56d2bac9dba7af635b"
+    },
+    {
+      "path": "results.json",
+      "bytes": 2791,
+      "sha256": "7c91b9ecfa157eb2c2df972f872b35821b2355a1aaf27fdbbadcd7334e7645eb"
+    }
+  ]
+}
