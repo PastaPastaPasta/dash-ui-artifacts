@@ -1,0 +1,8 @@
+{
+  "guestFollowAuthPrompt": true,
+  "selfProfileHasNoActions": true,
+  "modifiedClick": {
+    "source": "http://127.0.0.1:3374/devnet/user/?id=CK5MaVdcXa6Hs6i3bKFEoTwSEHpV6hkqXLFeDfmT5v7w",
+    "newPage": "http://127.0.0.1:3374/devnet/user/?id=CK5MaVdcXa6Hs6i3bKFEoTwSEHpV6hkqXLFeDfmT5v7w"
+  }
+}

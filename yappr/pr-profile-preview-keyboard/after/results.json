@@ -1,0 +1,44 @@
+[
+  {
+    "phase": "after",
+    "width": 1280,
+    "identity": "CK5MaVdcXa6Hs6i3bKFEoTwSEHpV6hkqXLFeDfmT5v7w",
+    "post": "Dr7Rkro6c4rp4BupbMHA5iXoKrSDtBqCTifWn9PioSrm",
+    "url": "http://127.0.0.1:3374/devnet/user/?id=7q9PdfjVLCZbcLb8wDdExUCokYSdi9Gu251Fqne2jNv9",
+    "sourceHead": "044abe7237c0f314fa84737e75f7f4ba5227cb63",
+    "entryFocus": {
+      "tag": "A",
+      "text": "Tess Jansen@films-tess4.dash",
+      "href": "/devnet/user/?id=7q9PdfjVLCZbcLb8wDdExUCokYSdi9Gu251Fqne2jNv9",
+      "insidePreview": true
+    },
+    "followFocus": {
+      "tag": "BUTTON",
+      "text": "Follow",
+      "href": null,
+      "insidePreview": true
+    },
+    "captureScrollY": 0
+  },
+  {
+    "phase": "after",
+    "width": 390,
+    "identity": "CK5MaVdcXa6Hs6i3bKFEoTwSEHpV6hkqXLFeDfmT5v7w",
+    "post": "Dr7Rkro6c4rp4BupbMHA5iXoKrSDtBqCTifWn9PioSrm",
+    "url": "http://127.0.0.1:3374/devnet/user/?id=7q9PdfjVLCZbcLb8wDdExUCokYSdi9Gu251Fqne2jNv9",
+    "sourceHead": "044abe7237c0f314fa84737e75f7f4ba5227cb63",
+    "entryFocus": {
+      "tag": "A",
+      "text": "Tess Jansen@films-tess4.dash",
+      "href": "/devnet/user/?id=7q9PdfjVLCZbcLb8wDdExUCokYSdi9Gu251Fqne2jNv9",
+      "insidePreview": true
+    },
+    "followFocus": {
+      "tag": "BUTTON",
+      "text": "Follow",
+      "href": null,
+      "insidePreview": true
+    },
+    "captureScrollY": 0
+  }
+]

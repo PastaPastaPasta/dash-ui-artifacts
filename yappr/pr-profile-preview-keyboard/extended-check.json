@@ -1,0 +1,50 @@
+[
+  {
+    "width": 1280,
+    "initial": {
+      "tag": "DIV",
+      "role": "dialog",
+      "loading": true
+    },
+    "bounds": {
+      "x": 292,
+      "y": 366,
+      "width": 320,
+      "height": 251
+    },
+    "primaryEnterUrl": "http://127.0.0.1:3374/devnet/user/?id=7q9PdfjVLCZbcLb8wDdExUCokYSdi9Gu251Fqne2jNv9",
+    "passed": true
+  },
+  {
+    "width": 390,
+    "initial": {
+      "tag": "DIV",
+      "role": "dialog",
+      "loading": true
+    },
+    "bounds": {
+      "x": 16,
+      "y": 312,
+      "width": 320,
+      "height": 251
+    },
+    "primaryEnterUrl": "http://127.0.0.1:3374/devnet/user/?id=7q9PdfjVLCZbcLb8wDdExUCokYSdi9Gu251Fqne2jNv9",
+    "passed": true
+  },
+  {
+    "width": 320,
+    "initial": {
+      "tag": "DIV",
+      "role": "dialog",
+      "loading": true
+    },
+    "bounds": {
+      "x": 16,
+      "y": 312,
+      "width": 304,
+      "height": 251
+    },
+    "primaryEnterUrl": "http://127.0.0.1:3374/devnet/user/?id=7q9PdfjVLCZbcLb8wDdExUCokYSdi9Gu251Fqne2jNv9",
+    "passed": true
+  }
+]

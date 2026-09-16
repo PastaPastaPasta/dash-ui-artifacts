@@ -1,0 +1,44 @@
+[
+  {
+    "phase": "before",
+    "width": 1280,
+    "identity": "CK5MaVdcXa6Hs6i3bKFEoTwSEHpV6hkqXLFeDfmT5v7w",
+    "post": "Dr7Rkro6c4rp4BupbMHA5iXoKrSDtBqCTifWn9PioSrm",
+    "url": "http://127.0.0.1:3288/devnet/user/?id=7q9PdfjVLCZbcLb8wDdExUCokYSdi9Gu251Fqne2jNv9",
+    "sourceHead": "cf0efbc10b8757137063113ebbd2061e8b87d8f7",
+    "entryFocus": {
+      "tag": "A",
+      "text": "",
+      "href": "/devnet/user/?id=7q9PdfjVLCZbcLb8wDdExUCokYSdi9Gu251Fqne2jNv9",
+      "insidePreview": false
+    },
+    "followFocus": {
+      "tag": "BUTTON",
+      "text": "",
+      "href": null,
+      "insidePreview": false
+    },
+    "captureScrollY": 0
+  },
+  {
+    "phase": "before",
+    "width": 390,
+    "identity": "CK5MaVdcXa6Hs6i3bKFEoTwSEHpV6hkqXLFeDfmT5v7w",
+    "post": "Dr7Rkro6c4rp4BupbMHA5iXoKrSDtBqCTifWn9PioSrm",
+    "url": "http://127.0.0.1:3288/devnet/user/?id=7q9PdfjVLCZbcLb8wDdExUCokYSdi9Gu251Fqne2jNv9",
+    "sourceHead": "cf0efbc10b8757137063113ebbd2061e8b87d8f7",
+    "entryFocus": {
+      "tag": "A",
+      "text": "",
+      "href": "/devnet/user/?id=7q9PdfjVLCZbcLb8wDdExUCokYSdi9Gu251Fqne2jNv9",
+      "insidePreview": false
+    },
+    "followFocus": {
+      "tag": "BUTTON",
+      "text": "",
+      "href": null,
+      "insidePreview": false
+    },
+    "captureScrollY": 0
+  }
+]
