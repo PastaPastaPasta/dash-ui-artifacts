@@ -1,0 +1,80 @@
+[
+  {
+    "rev": {
+      "name": "before",
+      "port": 3288,
+      "sha": "cf0efbc10b8757137063113ebbd2061e8b87d8f7"
+    },
+    "viewport": {
+      "width": 1280,
+      "height": 900
+    },
+    "text": "QA ordinary paragraph.\n\nQA section heading\n\nReader formatting bold words\n\nFirst bullet\nSecond bullet\n\n \n\n \n\n \n\n \n\n \n\nColumn 1 | Column 2\n\nFootnote text\n\n \nWrite highlighted content...\n\nINFO\n\n \n\nINFO\n\nWrite callout text...\n\n \n\n \n\n \n\n ",
+    "code": "",
+    "table": [],
+    "videoLinks": [],
+    "width": 1280
+  },
+  {
+    "rev": {
+      "name": "before",
+      "port": 3288,
+      "sha": "cf0efbc10b8757137063113ebbd2061e8b87d8f7"
+    },
+    "viewport": {
+      "width": 320,
+      "height": 900
+    },
+    "text": "QA ordinary paragraph.\n\nQA section heading\n\nReader formatting bold words\n\nFirst bullet\nSecond bullet\n\n \n\n \n\n \n\n \n\n \n\nColumn 1 | Column 2\n\nFootnote text\n\n \nWrite highlighted content...\n\nINFO\n\n \n\nINFO\n\nWrite callout text...\n\n \n\n \n\n \n\n ",
+    "code": "",
+    "table": [],
+    "videoLinks": [],
+    "width": 320
+  },
+  {
+    "rev": {
+      "name": "after",
+      "port": 3357,
+      "sha": "8a92a610c011a9e7ff9fb181801f6e6226540357"
+    },
+    "viewport": {
+      "width": 1280,
+      "height": 900
+    },
+    "text": "QA ordinary paragraph.\n\nQA section heading\n\nReader formatting bold words\n\nFirst bullet\nSecond bullet\n\n \n\n \n\n \n\nconst qa = \"persisted\";\n\n \n\nQA table cell\t\t\n\t\t\n\t\tLast cell\n\n \n\nColumn 1 | Column 2\n\nFootnote text\n\n \nWrite highlighted content...\n\nINFO\n\n \n\nINFO\n\nWrite callout text...\n\n \n\n \n\nWatch video\n\n \n\n ",
+    "code": "const qa = \"persisted\";",
+    "table": [
+      "QA table cellLast cell"
+    ],
+    "videoLinks": [
+      {
+        "href": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        "target": "_top"
+      }
+    ],
+    "width": 1280
+  },
+  {
+    "rev": {
+      "name": "after",
+      "port": 3357,
+      "sha": "8a92a610c011a9e7ff9fb181801f6e6226540357"
+    },
+    "viewport": {
+      "width": 320,
+      "height": 900
+    },
+    "text": "QA ordinary paragraph.\n\nQA section heading\n\nReader formatting bold words\n\nFirst bullet\nSecond bullet\n\n \n\n \n\n \n\nconst qa = \"persisted\";\n\n \n\nQA table cell\t\t\n\t\t\n\t\tLast cell\n\n \n\nColumn 1 | Column 2\n\nFootnote text\n\n \nWrite highlighted content...\n\nINFO\n\n \n\nINFO\n\nWrite callout text...\n\n \n\n \n\nWatch video\n\n \n\n ",
+    "code": "const qa = \"persisted\";",
+    "table": [
+      "QA table cellLast cell"
+    ],
+    "videoLinks": [
+      {
+        "href": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        "target": "_top"
+      }
+    ],
+    "width": 320
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "theme": "dark",
+  "table": "QA table cell\t\t\n\t\t\n\t\tLast cell",
+  "code": "const qa = \"persisted\";",
+  "iframeSandbox": "allow-scripts allow-same-origin allow-top-navigation-by-user-activation",
+  "expectedDestination": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+  "topNavigationRequest": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+  "destinationResponse": "Aborted only the external video destination after observing actual user-activated top navigation; no playback claim."
+}

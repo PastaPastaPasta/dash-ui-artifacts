@@ -58,6 +58,12 @@
         "height": 770,
         "client": 770
       }
+    },
+    "wrapCloseBounds": {
+      "x": 268.59375,
+      "y": -65,
+      "width": 28,
+      "height": 28
     }
   },
   {
@@ -183,6 +189,142 @@
     },
     "clipboardMatches": true,
     "keyboard16TabNoEscapes": true,
+    "keyboardButtonBounds": [
+      {
+        "inside": true,
+        "tag": "BUTTON",
+        "label": "Close",
+        "y": 101,
+        "bottom": 129,
+        "visible": true
+      },
+      {
+        "inside": true,
+        "tag": "BUTTON",
+        "label": null,
+        "y": 155,
+        "bottom": 179,
+        "visible": true
+      },
+      {
+        "inside": true,
+        "tag": "BUTTON",
+        "label": null,
+        "y": 155,
+        "bottom": 179,
+        "visible": true
+      },
+      {
+        "inside": true,
+        "tag": "IFRAME",
+        "label": null,
+        "y": 200,
+        "bottom": 580,
+        "visible": true
+      },
+      {
+        "inside": true,
+        "tag": "PRE",
+        "label": null,
+        "y": 625,
+        "bottom": 667,
+        "visible": true
+      },
+      {
+        "inside": true,
+        "tag": "PRE",
+        "label": null,
+        "y": 699,
+        "bottom": 757,
+        "visible": true
+      },
+      {
+        "inside": true,
+        "tag": "BUTTON",
+        "label": null,
+        "y": 769,
+        "bottom": 809,
+        "visible": true
+      },
+      {
+        "inside": true,
+        "tag": "BUTTON",
+        "label": "Close",
+        "y": 101,
+        "bottom": 129,
+        "visible": true
+      },
+      {
+        "inside": true,
+        "tag": "BUTTON",
+        "label": null,
+        "y": 155,
+        "bottom": 179,
+        "visible": true
+      },
+      {
+        "inside": true,
+        "tag": "BUTTON",
+        "label": null,
+        "y": 155,
+        "bottom": 179,
+        "visible": true
+      },
+      {
+        "inside": true,
+        "tag": "IFRAME",
+        "label": null,
+        "y": 200,
+        "bottom": 580,
+        "visible": true
+      },
+      {
+        "inside": true,
+        "tag": "PRE",
+        "label": null,
+        "y": 625,
+        "bottom": 667,
+        "visible": true
+      },
+      {
+        "inside": true,
+        "tag": "PRE",
+        "label": null,
+        "y": 699,
+        "bottom": 757,
+        "visible": true
+      },
+      {
+        "inside": true,
+        "tag": "BUTTON",
+        "label": null,
+        "y": 769,
+        "bottom": 809,
+        "visible": true
+      },
+      {
+        "inside": true,
+        "tag": "BUTTON",
+        "label": "Close",
+        "y": 101,
+        "bottom": 129,
+        "visible": true
+      },
+      {
+        "inside": true,
+        "tag": "BUTTON",
+        "label": null,
+        "y": 155,
+        "bottom": 179,
+        "visible": true
+      }
+    ],
+    "wrapCloseBounds": {
+      "x": 1039,
+      "y": 101,
+      "width": 28,
+      "height": 28
+    },
     "darkPreview": true,
     "escapeRestoresEmbedFocus": true,
     "menuEscapeRestoresMoreActions": true
@@ -191,7 +333,7 @@
     "rev": {
       "name": "after",
       "port": 3355,
-      "sha": "b6fba4c2b0c4ce9444649993c1be90f64dd4070f"
+      "sha": "3af0497d0966e5ab8419009dbb7a0bf1bc17b378"
     },
     "viewport": {
       "width": 320,
@@ -249,6 +391,142 @@
     },
     "clipboardMatches": true,
     "keyboard16TabNoEscapes": true,
+    "keyboardButtonBounds": [
+      {
+        "inside": true,
+        "tag": "BUTTON",
+        "label": "Close",
+        "y": 17,
+        "bottom": 45,
+        "visible": true
+      },
+      {
+        "inside": true,
+        "tag": "BUTTON",
+        "label": null,
+        "y": 81,
+        "bottom": 105,
+        "visible": true
+      },
+      {
+        "inside": true,
+        "tag": "BUTTON",
+        "label": null,
+        "y": 81,
+        "bottom": 105,
+        "visible": true
+      },
+      {
+        "inside": true,
+        "tag": "IFRAME",
+        "label": null,
+        "y": 126,
+        "bottom": 506,
+        "visible": true
+      },
+      {
+        "inside": true,
+        "tag": "PRE",
+        "label": null,
+        "y": 351,
+        "bottom": 393,
+        "visible": true
+      },
+      {
+        "inside": true,
+        "tag": "PRE",
+        "label": null,
+        "y": 425,
+        "bottom": 483,
+        "visible": true
+      },
+      {
+        "inside": true,
+        "tag": "BUTTON",
+        "label": null,
+        "y": 495,
+        "bottom": 535,
+        "visible": true
+      },
+      {
+        "inside": true,
+        "tag": "BUTTON",
+        "label": "Close",
+        "y": 17,
+        "bottom": 45,
+        "visible": true
+      },
+      {
+        "inside": true,
+        "tag": "BUTTON",
+        "label": null,
+        "y": 81,
+        "bottom": 105,
+        "visible": true
+      },
+      {
+        "inside": true,
+        "tag": "BUTTON",
+        "label": null,
+        "y": 81,
+        "bottom": 105,
+        "visible": true
+      },
+      {
+        "inside": true,
+        "tag": "IFRAME",
+        "label": null,
+        "y": 126,
+        "bottom": 506,
+        "visible": true
+      },
+      {
+        "inside": true,
+        "tag": "PRE",
+        "label": null,
+        "y": 351,
+        "bottom": 393,
+        "visible": true
+      },
+      {
+        "inside": true,
+        "tag": "PRE",
+        "label": null,
+        "y": 425,
+        "bottom": 483,
+        "visible": true
+      },
+      {
+        "inside": true,
+        "tag": "BUTTON",
+        "label": null,
+        "y": 495,
+        "bottom": 535,
+        "visible": true
+      },
+      {
+        "inside": true,
+        "tag": "BUTTON",
+        "label": "Close",
+        "y": 17,
+        "bottom": 45,
+        "visible": true
+      },
+      {
+        "inside": true,
+        "tag": "BUTTON",
+        "label": null,
+        "y": 81,
+        "bottom": 105,
+        "visible": true
+      }
+    ],
+    "wrapCloseBounds": {
+      "x": 268.59375,
+      "y": 17,
+      "width": 28,
+      "height": 28
+    },
     "darkPreview": true,
     "escapeRestoresEmbedFocus": true,
     "menuEscapeRestoresMoreActions": true
@@ -257,7 +535,7 @@
     "rev": {
       "name": "after",
       "port": 3355,
-      "sha": "b6fba4c2b0c4ce9444649993c1be90f64dd4070f"
+      "sha": "3af0497d0966e5ab8419009dbb7a0bf1bc17b378"
     },
     "viewport": {
       "width": 390,
@@ -315,6 +593,142 @@
     },
     "clipboardMatches": true,
     "keyboard16TabNoEscapes": true,
+    "keyboardButtonBounds": [
+      {
+        "inside": true,
+        "tag": "BUTTON",
+        "label": "Close",
+        "y": 17,
+        "bottom": 45,
+        "visible": true
+      },
+      {
+        "inside": true,
+        "tag": "BUTTON",
+        "label": null,
+        "y": 71,
+        "bottom": 95,
+        "visible": true
+      },
+      {
+        "inside": true,
+        "tag": "BUTTON",
+        "label": null,
+        "y": 71,
+        "bottom": 95,
+        "visible": true
+      },
+      {
+        "inside": true,
+        "tag": "IFRAME",
+        "label": null,
+        "y": 116,
+        "bottom": 496,
+        "visible": true
+      },
+      {
+        "inside": true,
+        "tag": "PRE",
+        "label": null,
+        "y": 541,
+        "bottom": 583,
+        "visible": true
+      },
+      {
+        "inside": true,
+        "tag": "PRE",
+        "label": null,
+        "y": 592,
+        "bottom": 650,
+        "visible": true
+      },
+      {
+        "inside": true,
+        "tag": "BUTTON",
+        "label": null,
+        "y": 594,
+        "bottom": 634,
+        "visible": true
+      },
+      {
+        "inside": true,
+        "tag": "BUTTON",
+        "label": "Close",
+        "y": 17,
+        "bottom": 45,
+        "visible": true
+      },
+      {
+        "inside": true,
+        "tag": "BUTTON",
+        "label": null,
+        "y": 71,
+        "bottom": 95,
+        "visible": true
+      },
+      {
+        "inside": true,
+        "tag": "BUTTON",
+        "label": null,
+        "y": 71,
+        "bottom": 95,
+        "visible": true
+      },
+      {
+        "inside": true,
+        "tag": "IFRAME",
+        "label": null,
+        "y": 116,
+        "bottom": 496,
+        "visible": true
+      },
+      {
+        "inside": true,
+        "tag": "PRE",
+        "label": null,
+        "y": 541,
+        "bottom": 583,
+        "visible": true
+      },
+      {
+        "inside": true,
+        "tag": "PRE",
+        "label": null,
+        "y": 592,
+        "bottom": 650,
+        "visible": true
+      },
+      {
+        "inside": true,
+        "tag": "BUTTON",
+        "label": null,
+        "y": 594,
+        "bottom": 634,
+        "visible": true
+      },
+      {
+        "inside": true,
+        "tag": "BUTTON",
+        "label": "Close",
+        "y": 17,
+        "bottom": 45,
+        "visible": true
+      },
+      {
+        "inside": true,
+        "tag": "BUTTON",
+        "label": null,
+        "y": 71,
+        "bottom": 95,
+        "visible": true
+      }
+    ],
+    "wrapCloseBounds": {
+      "x": 337.1953125,
+      "y": 17,
+      "width": 28,
+      "height": 28
+    },
     "darkPreview": true,
     "escapeRestoresEmbedFocus": true,
     "menuEscapeRestoresMoreActions": true
@@ -323,7 +737,7 @@
     "rev": {
       "name": "after",
       "port": 3355,
-      "sha": "b6fba4c2b0c4ce9444649993c1be90f64dd4070f"
+      "sha": "3af0497d0966e5ab8419009dbb7a0bf1bc17b378"
     },
     "viewport": {
       "width": 1280,
@@ -381,6 +795,142 @@
     },
     "clipboardMatches": true,
     "keyboard16TabNoEscapes": true,
+    "keyboardButtonBounds": [
+      {
+        "inside": true,
+        "tag": "BUTTON",
+        "label": "Close",
+        "y": 101,
+        "bottom": 129,
+        "visible": true
+      },
+      {
+        "inside": true,
+        "tag": "BUTTON",
+        "label": null,
+        "y": 155,
+        "bottom": 179,
+        "visible": true
+      },
+      {
+        "inside": true,
+        "tag": "BUTTON",
+        "label": null,
+        "y": 155,
+        "bottom": 179,
+        "visible": true
+      },
+      {
+        "inside": true,
+        "tag": "IFRAME",
+        "label": null,
+        "y": 200,
+        "bottom": 580,
+        "visible": true
+      },
+      {
+        "inside": true,
+        "tag": "PRE",
+        "label": null,
+        "y": 625,
+        "bottom": 667,
+        "visible": true
+      },
+      {
+        "inside": true,
+        "tag": "PRE",
+        "label": null,
+        "y": 699,
+        "bottom": 757,
+        "visible": true
+      },
+      {
+        "inside": true,
+        "tag": "BUTTON",
+        "label": null,
+        "y": 769,
+        "bottom": 809,
+        "visible": true
+      },
+      {
+        "inside": true,
+        "tag": "BUTTON",
+        "label": "Close",
+        "y": 101,
+        "bottom": 129,
+        "visible": true
+      },
+      {
+        "inside": true,
+        "tag": "BUTTON",
+        "label": null,
+        "y": 155,
+        "bottom": 179,
+        "visible": true
+      },
+      {
+        "inside": true,
+        "tag": "BUTTON",
+        "label": null,
+        "y": 155,
+        "bottom": 179,
+        "visible": true
+      },
+      {
+        "inside": true,
+        "tag": "IFRAME",
+        "label": null,
+        "y": 200,
+        "bottom": 580,
+        "visible": true
+      },
+      {
+        "inside": true,
+        "tag": "PRE",
+        "label": null,
+        "y": 625,
+        "bottom": 667,
+        "visible": true
+      },
+      {
+        "inside": true,
+        "tag": "PRE",
+        "label": null,
+        "y": 699,
+        "bottom": 757,
+        "visible": true
+      },
+      {
+        "inside": true,
+        "tag": "BUTTON",
+        "label": null,
+        "y": 769,
+        "bottom": 809,
+        "visible": true
+      },
+      {
+        "inside": true,
+        "tag": "BUTTON",
+        "label": "Close",
+        "y": 101,
+        "bottom": 129,
+        "visible": true
+      },
+      {
+        "inside": true,
+        "tag": "BUTTON",
+        "label": null,
+        "y": 155,
+        "bottom": 179,
+        "visible": true
+      }
+    ],
+    "wrapCloseBounds": {
+      "x": 1039,
+      "y": 101,
+      "width": 28,
+      "height": 28
+    },
     "darkPreview": true,
     "escapeRestoresEmbedFocus": true,
     "menuEscapeRestoresMoreActions": true
