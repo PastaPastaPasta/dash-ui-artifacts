@@ -1,0 +1,9 @@
+{
+  "revision": "030fd00978742eab3a8500262d1b7c287286b293",
+  "base": "http://127.0.0.1:4329/devnet",
+  "tailRecovered": true,
+  "exhaustedNoMatchAndClear104": true,
+  "offlineIncompleteTextAndReloadRecovery": true,
+  "offlineLimitation": "Recovery was verified after full page reload; existing SDK recovery issue QA77 is separate from this filter-continuation fix.",
+  "passed": true
+}
