@@ -36,7 +36,7 @@
     "qualification": "Signing repair worked; dedicated fixture exhausted Platform credits after successful root/reply/like/quote/tombstone tests. Existing nonblocking job conclusion was SUCCESS despite failed tests."
   },
   "creditBudgetCorrection": {
-    "verifiedError": "Insufficient identity balance241039333 required411635040",
+    "verifiedError": "Insufficient identity balance 241039333 required 411635040",
     "balanceAfterTopup": "50233100453",
     "topupDuffs": 50000000
   }
