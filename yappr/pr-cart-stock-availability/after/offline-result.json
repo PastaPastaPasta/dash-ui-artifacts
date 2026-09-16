@@ -1,0 +1,11 @@
+{
+  "at": "2026-09-16T00:32:59.120Z",
+  "revision": "844359dfbc4de41976bfa606b3c06b457750acf9",
+  "method": "Real browser offline mode during availability read; no mocked product responses",
+  "steps": [
+    "Failed availability read preserves stored cart byte-for-byte and blocks checkout",
+    "Online retry restores current availability; decreasing to valid quantity restores checkout"
+  ],
+  "cartCleaned": true,
+  "passed": true
+}

@@ -1,0 +1,16 @@
+{
+  "at": "2026-09-16T00:31:48.621Z",
+  "revision": "eb895be71a7207c73fb9329ac9d9bb7b398f53da",
+  "base": "http://127.0.0.1:3240/devnet",
+  "productId": "6mp5PmmL7vU792PGEHC84VNy632gcFDo47c9qMpErD3E",
+  "storeId": "98FYBhEF9Q8xNzbamzy66Dm5cMQ5gm9MoAZaiy518sNp",
+  "authenticationFixture": true,
+  "initialCartFromActualBaselineActions": true,
+  "submittedOrder": false,
+  "steps": [
+    "Existing naturally overstock cart offers checkout and Place Order for 3 units against stock 2; no new write sent",
+    "Ordinary product Add 2 followed by Cart plus yields 3, retained after reload"
+  ],
+  "cartCleaned": true,
+  "passed": true
+}

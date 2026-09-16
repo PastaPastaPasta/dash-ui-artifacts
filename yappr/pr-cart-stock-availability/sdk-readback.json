@@ -1,0 +1,45 @@
+{
+  "at": "2026-09-16T00:38:32.498Z",
+  "items": [
+    {
+      "id": "6mp5PmmL7vU792PGEHC84VNy632gcFDo47c9qMpErD3E",
+      "title": "QA Inventory Simple52",
+      "stock": 2,
+      "status": "active"
+    },
+    {
+      "id": "3YJDfHhn7k3B6gfWx5EoNcWZnu3DQfGzPx1Pzgz7kD9a",
+      "title": "QA Stock Variant56",
+      "variants": "{\"axes\":[{\"name\":\"Type\",\"options\":[\"Limited\",\"Unlimited\"]}],\"combinations\":[{\"key\":\"Limited\",\"price\":1000,\"stock\":1},{\"key\":\"Unlimited\",\"price\":1000}]}",
+      "status": "active"
+    }
+  ],
+  "buyerOrderIds": [
+    "6qzTuH66vEUW2FaREypaBEZdUAtyPKiJaELqUKnqqfE8",
+    "3m7cxEPLdVZN9aaen3BdPEYZjsuke3CAaGiKRc6azQHW"
+  ],
+  "oversellStatus": [
+    {
+      "$formatVersion": "0",
+      "$id": "GGaqpWbw1Ws6gWu33t4N3xTLiTfFGK6jaBi9f8AzZNgH",
+      "$ownerId": "5Qazb9Ncc7LgLSSWkPj36Qpp5ZpEoQEcHNR2Ync7cJcK",
+      "message": "QA56 oversell test cleanup. No payment sent; no shipment.",
+      "orderId": "6qzTuH66vEUW2FaREypaBEZdUAtyPKiJaELqUKnqqfE8",
+      "status": "cancelled",
+      "$revision": 1,
+      "$createdAt": 1789518812661,
+      "$updatedAt": null,
+      "$transferredAt": null,
+      "$createdAtBlockHeight": null,
+      "$updatedAtBlockHeight": null,
+      "$transferredAtBlockHeight": null,
+      "$createdAtCoreBlockHeight": null,
+      "$updatedAtCoreBlockHeight": null,
+      "$transferredAtCoreBlockHeight": null,
+      "$creatorId": null,
+      "$contractVersion": 1,
+      "$dataContractId": "EZ4wbjXKrmTEmX6Hb8UW1TWYm2RSagK8o25KnvfsZ3z5",
+      "$type": "orderStatusUpdate"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "at": "2026-09-16T00:45:26.354Z",
+  "itemId": "3YJDfHhn7k3B6gfWx5EoNcWZnu3DQfGzPx1Pzgz7kD9a",
+  "firstDeleteReportedSuccessButReturnedOnReload": true,
+  "firstIndependentReadback": "active revision 1",
+  "secondDeleteThroughUI": true,
+  "freshInventoryAbsent": true,
+  "sdkAbsent": true,
+  "passed": true,
+  "relatedIssue": "QA-63: inventory ignores false result from delete; first failure cause not captured, retry succeeded"
+}

@@ -1,0 +1,37 @@
+{
+  "beforeRevision": "eb895be71a7207c73fb9329ac9d9bb7b398f53da",
+  "afterRevision": "844359dfbc4de41976bfa606b3c06b457750acf9",
+  "viewport": {
+    "width": 1440,
+    "height": 1100
+  },
+  "files": {
+    "README.md": "7281332eee54b8a9d674ba8f3568efce318a3d3758aefe669ee17a0bda48389a",
+    "after/offline-cart-preserved.png": "0abfc21d75e97ad8d0544f0b2b2ef81d0038df4ccb05ff68e0efc4d52f51d965",
+    "after/offline-result.json": "6bc3041e7e23f6b5944ba32a43f66cc9a41d96745d02ac0b31465e1ea318772b",
+    "after/overstock-cart.png": "7250b3ad9fe331afbca696e2faaf3103aead6e9873022578c7686ab2ac685124",
+    "after/overstock-checkout.png": "c0d6d4e247cca2e5d9435719c681bb4d0a6d941819735ef6ac63cd8a96913d0f",
+    "after/quantity-recovered.png": "820d01948b506ea4c4a30989010d940271e0e25242b09832ae52d837cb3768d1",
+    "after/repeated-add-blocked.png": "9660d6ce538aaf41b684d074a194f8a2e95408916307769dfdc43397bee4164a",
+    "after/restock-recovered.png": "2a9939d614f48ffd30233478a43085271d672796ab46b6dddbcf33509e47001d",
+    "after/restock-result.json": "cba1eec6eb4b61c961404ba034cf0a10bc76b63256ae6a131ef49fdfaaaa5935",
+    "after/result.json": "8fb9ecdcba751fa7302efb1f1e2f40ee93828df0df244711667edf535ebc3cd3",
+    "after/stock-changed-before-place.png": "c0d6d4e247cca2e5d9435719c681bb4d0a6d941819735ef6ac63cd8a96913d0f",
+    "after/valid-checkout.png": "9360aa1dbf3c3f319e54c99d0dc63c73014e7e2a44906027d02ee882d717695e",
+    "before/increment-past-stock.png": "d6c82c6f48dc942909e81cf031c93f2b6576c6a04799c897f463222df75f7f53",
+    "before/overstock-cart.png": "d6c82c6f48dc942909e81cf031c93f2b6576c6a04799c897f463222df75f7f53",
+    "before/overstock-checkout.png": "e93fcfdda4447f55fec68dae0a8292699fffba3a5ba147ddb4e5b48694398e68",
+    "before/result.json": "b7964320e97b37e88a9e703a5b123de55692d0f65b3f9c77ffdfe93694e48c2d",
+    "buyer52-orders.json": "51f0da225fd72637ad50bf29cc8b105d297eade8eaebba6fa8d6bfe7e6b2072c",
+    "cleanup/buyer-cancelled.png": "55a1c66e8e21cb6b231133fa516f870e6ab78d4f65e11b8121a5c03a7d3c1279",
+    "cleanup/result.json": "131471d4c8c8d58101cab1b8f7fa26f79b648a175a208bdefac2cffe277b72ac",
+    "cleanup/seller-cancel-confirm.png": "6ce35a955db9cab789180f91940dd070cc78a25b6984f462e808fa6e0837029d",
+    "cleanup/seller-cancelled.png": "4b81925b0ef0fd022e65ef5ddaa79cfe05edaed6df5ee3cd4cb4e0733a0a6352",
+    "sdk-readback.json": "acec58ebb662667fc79c172c44b02b34ff7ec0f60734e53afe0593b1d2e5e350",
+    "variant/cleanup.json": "51b667a6c9ae4d37ec95095131857061240ba0a9a880400e8996678414ff6a67",
+    "variant/creation-form.png": "a5c5447eaba525630e1b455121fad6c8ec1aa0824abbe6c118047b30f7bf59db",
+    "variant/creation.json": "e7fc8c3c42ceb8a06e2a59b2c44ee01d34ddd2782562d9b597528f98683b08ca",
+    "variant/result.json": "4b11025bafd22811c42fa7db6cb1f1211f0d0a4005ef1ad23e60d7e19acaaf49",
+    "variant/variant-cart.png": "b776ef09e1dcf04bcaa9f2fdeacabb27758ce28ef6d44f458077a956a63562e1"
+  }
+}

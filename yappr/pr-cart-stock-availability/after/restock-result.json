@@ -1,0 +1,15 @@
+{
+  "at": "2026-09-16T00:36:36.008Z",
+  "revision": "844359dfbc4de41976bfa606b3c06b457750acf9",
+  "steps": [
+    "Seller actual inventory edit sets Simple52 stock to 3",
+    "Same buyer page refresh sees restock immediately; quantity 3 reaches normal review",
+    "Seller actual inventory edit sets Simple52 stock to 2",
+    "Seller lowers stock during review; Place Order rechecks and blocks before creation"
+  ],
+  "submittedOrder": false,
+  "cartPreserved": true,
+  "cartCleaned": true,
+  "passed": true,
+  "finalStock": 2
+}

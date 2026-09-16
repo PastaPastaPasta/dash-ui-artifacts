@@ -1,0 +1,13 @@
+{
+  "at": "2026-09-16T00:33:30.108Z",
+  "orderId": "6qzTuH66vEUW2FaREypaBEZdUAtyPKiJaELqUKnqqfE8",
+  "sellerId": "5Qazb9Ncc7LgLSSWkPj36Qpp5ZpEoQEcHNR2Ync7cJcK",
+  "buyerIdentityId": "5rxCEiuGfwPkYFQ94mvxDaDG7W7dEdpU2zhq7aTLJ1cM",
+  "storageFixture": true,
+  "sellerCancelled": true,
+  "freshBuyerStatusPassed": true,
+  "freshBuyerDecryptionPassed": true,
+  "passed": true,
+  "harnessCorrection": "Seller and buyer item display includes quantity suffix; corrected locator after cancellation without resubmitting status.",
+  "verifiedAt": "2026-09-16T00:35:00.038Z"
+}

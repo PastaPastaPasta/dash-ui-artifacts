@@ -1,0 +1,13 @@
+{
+  "at": "2026-09-16T00:37:29.616Z",
+  "revision": "844359dfbc4de41976bfa606b3c06b457750acf9",
+  "itemId": "3YJDfHhn7k3B6gfWx5EoNcWZnu3DQfGzPx1Pzgz7kD9a",
+  "submittedOrder": false,
+  "steps": [
+    "Limited variant stock 1 caps product quantity and repeated additions",
+    "Cart maintains independent variant quantities; limited plus disabled, untracked plus advances to 4 and checkout stays available",
+    "Fresh cart reload retains both variant quantities and their independent stock controls"
+  ],
+  "cartCleaned": true,
+  "passed": true
+}
