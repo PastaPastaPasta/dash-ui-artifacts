@@ -1,0 +1,51 @@
+{
+  "mode": "after",
+  "revision": "1941770bd5e371bda760db3ca4b26c712489d1e2",
+  "base": "http://127.0.0.1:4292/devnet",
+  "storeId": "CP3dEXrdMEbbiFNHakoRkC86DonfVftuzUyaY4ngrnQb",
+  "checks": [
+    {
+      "name": "Store Name *",
+      "row": 0,
+      "focused": true
+    },
+    {
+      "name": "Description",
+      "row": 0,
+      "focused": true
+    },
+    {
+      "name": "Location",
+      "row": 0,
+      "focused": true
+    },
+    {
+      "name": "Default Currency",
+      "row": 0,
+      "focused": true
+    },
+    {
+      "name": "Policy Name",
+      "row": 0,
+      "focused": true
+    },
+    {
+      "name": "Policy Content",
+      "row": 0,
+      "focused": true
+    },
+    {
+      "name": "Policy Name",
+      "row": 1,
+      "focused": true
+    },
+    {
+      "name": "Policy Content",
+      "row": 1,
+      "focused": true
+    }
+  ],
+  "addRemoveIdsUnique": true,
+  "rowPairingsAfterRemove": true,
+  "passed": true
+}

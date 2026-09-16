@@ -1,0 +1,49 @@
+{
+  "mode": "before",
+  "revision": "cf0efbc10b8757137063113ebbd2061e8b87d8f7",
+  "base": "http://127.0.0.1:3288/devnet",
+  "storeId": "CP3dEXrdMEbbiFNHakoRkC86DonfVftuzUyaY4ngrnQb",
+  "checks": [
+    {
+      "name": "Store Name *",
+      "row": 0,
+      "focused": false
+    },
+    {
+      "name": "Description",
+      "row": 0,
+      "focused": false
+    },
+    {
+      "name": "Location",
+      "row": 0,
+      "focused": false
+    },
+    {
+      "name": "Default Currency",
+      "row": 0,
+      "focused": false
+    },
+    {
+      "name": "Policy Name",
+      "row": 0,
+      "focused": false
+    },
+    {
+      "name": "Policy Content",
+      "row": 0,
+      "focused": false
+    },
+    {
+      "name": "Policy Name",
+      "row": 1,
+      "focused": false
+    },
+    {
+      "name": "Policy Content",
+      "row": 1,
+      "focused": false
+    }
+  ],
+  "passed": true
+}
