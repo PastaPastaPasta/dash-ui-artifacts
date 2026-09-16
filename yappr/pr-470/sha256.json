@@ -1,0 +1,42 @@
+{
+  "README.md": {
+    "bytes": 3057,
+    "sha256": "885fc78b92cd461b2afcb4399f96ccce2f7171caf3bdd883fa988c20d669632c"
+  },
+  "comparison/after/github-focus.png": {
+    "bytes": 14826,
+    "sha256": "801a35a28ada952fc295a33379a42a151132d7ad12125be95b75177a2550b06c"
+  },
+  "comparison/after/github.png": {
+    "bytes": 260584,
+    "sha256": "7ed4e440d832afc4ff89267ed70b99b4dad744f756ea39320197187ee7f697ab"
+  },
+  "comparison/after/instagram-focus.png": {
+    "bytes": 15565,
+    "sha256": "950861b4fbd7bbd23df2cdaea1675b1e642408945956a2c7dfdcfbefa9374e8d"
+  },
+  "comparison/after/instagram.png": {
+    "bytes": 261335,
+    "sha256": "4ff950ec213557e7476e4c2667536986da8f6a2e7c3d6ca08c64ea1ce54dd10a"
+  },
+  "comparison/before/github-focus.png": {
+    "bytes": 16068,
+    "sha256": "3442171c784cb7b7facaf99a1ada690cd040732f3a9cf68d6a810a54d6b91086"
+  },
+  "comparison/before/github.png": {
+    "bytes": 246658,
+    "sha256": "517c81504d6af4500d3dc41e423868c5b28ccbc5e9e7dad81a2bac68a2e63abf"
+  },
+  "comparison/before/instagram-focus.png": {
+    "bytes": 16311,
+    "sha256": "ffcca6c9c81eaab467cff94078b9f4f2849453239b987d53bcca7359a1d505d0"
+  },
+  "comparison/before/instagram.png": {
+    "bytes": 246826,
+    "sha256": "45d70cbcac3be711d0d8a478ef02e01b29e5a61c5a1bfa354fbe4460c3bceea6"
+  },
+  "roundtrip.json": {
+    "bytes": 583,
+    "sha256": "fb22f5d349a46fe8d61b4ce405e9dfd088687507331a5d7158b9808cab2902ea"
+  }
+}
