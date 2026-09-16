@@ -1,0 +1,15 @@
+{
+  "label": "before",
+  "base": "http://127.0.0.1:3260/devnet",
+  "closedMenuAccessible": 1,
+  "closedInert": null,
+  "firstTab": {
+    "tag": "BUTTON",
+    "label": "Close menu",
+    "text": "",
+    "inSheet": true
+  },
+  "openCloseFocused": false,
+  "escapeClosed": false,
+  "menuFocus": true
+}

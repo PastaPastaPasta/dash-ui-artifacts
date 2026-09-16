@@ -1,0 +1,15 @@
+{
+  "label": "after",
+  "base": "http://127.0.0.1:3262/devnet",
+  "closedMenuAccessible": 0,
+  "closedInert": "",
+  "firstTab": {
+    "tag": "A",
+    "label": "Home",
+    "text": "",
+    "inSheet": false
+  },
+  "openCloseFocused": true,
+  "escapeClosed": true,
+  "menuFocus": true
+}
