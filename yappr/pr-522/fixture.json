@@ -1,0 +1,549 @@
+{
+  "sourceSnapshotAt": "2026-09-16T04:08:28.821Z",
+  "storeId": "CP3dEXrdMEbbiFNHakoRkC86DonfVftuzUyaY4ngrnQb",
+  "ownerId": "pE4KifoG3Jrvwkse3kng9vJ8wK1M2kBDC9FEeQgfRLC",
+  "dataContractId": "EZ4wbjXKrmTEmX6Hb8UW1TWYm2RSagK8o25KnvfsZ3z5",
+  "total": 104,
+  "items": [
+    {
+      "id": "GWgJbLzxK5XfyNnVNdy7k8fyiBmUziSTSRQ5XtkExCWK",
+      "title": "QA62 Amber Single",
+      "createdAt": 1789528602553
+    },
+    {
+      "id": "DLZ575aDqnjkq99FFvxk3mTiSnZoZP8Av4LbmdQKokVB",
+      "title": "QA62 Bronze Unlimited",
+      "createdAt": 1789528605776
+    },
+    {
+      "id": "6D8xaKcFCkhaNdVELKvyWHCNrfMBSmoSmzjEMZu5sqFF",
+      "title": "QA62 Cobalt Matrix",
+      "createdAt": 1789528609386
+    },
+    {
+      "id": "BJ9445Ku8y3Ckyy4FhkmnaqRxFcFQpfXJq4ePMm4ZHkR",
+      "title": "QA62 Batch 001",
+      "createdAt": 1789529690979
+    },
+    {
+      "id": "63Kn2m4Ta4qBM865n5STJymNsX23QunekGheYm8uxT9b",
+      "title": "QA62 Batch 002",
+      "createdAt": 1789529692494
+    },
+    {
+      "id": "Cv9g3t72j8hjRHJGgHK64jFai6f7kv3LQLj9YCfK5Y3R",
+      "title": "QA62 Batch 003",
+      "createdAt": 1789529693845
+    },
+    {
+      "id": "8wZFjG8g92oWCo6szUJmWjLeTkB4bpVkcpxVtccCXYh5",
+      "title": "QA62 Batch 004",
+      "createdAt": 1789529695206
+    },
+    {
+      "id": "53GZFmXzvGRkBegEtqfBTy5mso6bBSubXZu3R6i9EemD",
+      "title": "QA62 Batch 005",
+      "createdAt": 1789529696702
+    },
+    {
+      "id": "AEDZQr2G4XxgwWxERDeFSFwyHzgYiPimhu8WYbqsLjp2",
+      "title": "QA62 Batch 006",
+      "createdAt": 1789529697847
+    },
+    {
+      "id": "5kL3h7RpstXToHcvzJq5iBa8JqqHkXUc7VGWHKTWExMJ",
+      "title": "QA62 Batch 007",
+      "createdAt": 1789529699205
+    },
+    {
+      "id": "AXWB75LScboLLVN1hob2qsN5XYYYHxqSdZnfkVzAKvTN",
+      "title": "QA62 Batch 008",
+      "createdAt": 1789529701317
+    },
+    {
+      "id": "7jL4RMDZPJfd99PgQRTf8Gm6675tj5iTjyStgShdLJSj",
+      "title": "QA62 Batch 009",
+      "createdAt": 1789529702638
+    },
+    {
+      "id": "5oZgEtDbvtbxjoRkaovMTCtz7w6jue3aC3YcfCNSkrjU",
+      "title": "QA62 Batch 010",
+      "createdAt": 1789529703975
+    },
+    {
+      "id": "5nKh8MVKYn1wERd8dTB7JEq2JRuG74VCJndWuYc9ibYJ",
+      "title": "QA62 Batch 011",
+      "createdAt": 1789529706195
+    },
+    {
+      "id": "9SsnnJWZcfB7Dpbk2xMw2Zmiyprszx6fLbobE4F2oYWJ",
+      "title": "QA62 Batch 012",
+      "createdAt": 1789529707648
+    },
+    {
+      "id": "5LUTWSnbiczJRWBNDpsf1APprbGwJvKqeEdkKx1mFM4g",
+      "title": "QA62 Batch 013",
+      "createdAt": 1789529708960
+    },
+    {
+      "id": "GTDist4X549H6rVTW7BwxGvq7z3JFNWANBJ7V9gyMKiE",
+      "title": "QA62 Batch 014",
+      "createdAt": 1789529710307
+    },
+    {
+      "id": "Bn9bk2YFSeGQN2YDznnits8eUN3CRPoV2TuGMFtKaDm4",
+      "title": "QA62 Batch 015",
+      "createdAt": 1789529711662
+    },
+    {
+      "id": "8rS6UDEpnG6fJ4e9nPuckR8AStTt7ctZDQwgqo4tgDgY",
+      "title": "QA62 Batch 016",
+      "createdAt": 1789529712916
+    },
+    {
+      "id": "5rUbEdivsseXBRKpKbrWJcoK7r8U3ByZs8nTqFrHeZkF",
+      "title": "QA62 Batch 017",
+      "createdAt": 1789529714148
+    },
+    {
+      "id": "9RqjsLqnQ9cgrB1AxgTCUoopJNh4YYh2synqBkskNM97",
+      "title": "QA62 Batch 018",
+      "createdAt": 1789529715516
+    },
+    {
+      "id": "9KmGapZbSjNfSyWb1dxSjo3XwJ8PnnrYrR6eVAjWnYiZ",
+      "title": "QA62 Batch 019",
+      "createdAt": 1789529716725
+    },
+    {
+      "id": "BYask2Dm6i4zJN9iXTsfAMKnYbGm49Jo8XZHFKLNEMEL",
+      "title": "QA62 Batch 020",
+      "createdAt": 1789529717959
+    },
+    {
+      "id": "7nD8M1VjTgHPLPcsaEgaACgSgfuLJ2JigvPi926abFwA",
+      "title": "QA62 Batch 021",
+      "createdAt": 1789529719307
+    },
+    {
+      "id": "79VFXR2szgtkLmqxJ1x9o1zrDzRtoLcTbCdQgCVwhTCZ",
+      "title": "QA62 Batch 022",
+      "createdAt": 1789529720809
+    },
+    {
+      "id": "Wr3VJrKsgkQD59UJgswfmTySwJamSosUTPjFfpy1rFa",
+      "title": "QA62 Batch 023",
+      "createdAt": 1789529722076
+    },
+    {
+      "id": "B9HCehcvJCp3dQDNeChnJU3XThdKujBXqrsxJi8p1pC",
+      "title": "QA62 Batch 024",
+      "createdAt": 1789529723446
+    },
+    {
+      "id": "9GnBHgnmNTNqDCwbDn7F1gQdh6ffZBRanRgzfaYmTGtq",
+      "title": "QA62 Batch 025",
+      "createdAt": 1789529724787
+    },
+    {
+      "id": "DPY4fhfPioo64StF1AtdVPTo87y9o5LbCQyLhDJe3jbJ",
+      "title": "QA62 Batch 026",
+      "createdAt": 1789529726139
+    },
+    {
+      "id": "FodYFC9T118JxCjTpP7Umd5htJg6fxhpywS59TttDX1W",
+      "title": "QA62 Batch 027",
+      "createdAt": 1789529727572
+    },
+    {
+      "id": "7BHgZhF5XUGZLpry9DVJnFGhhqkKz4AnJZVLRQSztJJv",
+      "title": "QA62 Batch 028",
+      "createdAt": 1789529728885
+    },
+    {
+      "id": "CWHWtWAp6f5AisqpgTY2fxpPfvuDB5LdPLaS7SLhoozy",
+      "title": "QA62 Batch 029",
+      "createdAt": 1789529730340
+    },
+    {
+      "id": "87acL9wdeNon2VmyGcJhUAzpwqgXGNi3yrNoZ6LjSRpK",
+      "title": "QA62 Batch 030",
+      "createdAt": 1789529731766
+    },
+    {
+      "id": "78nkc4GTwgAT2WFWj6i8p6TTUFo57jzAyG5f9Y1UKZSp",
+      "title": "QA62 Batch 031",
+      "createdAt": 1789529733159
+    },
+    {
+      "id": "5aEvfsqXHz84hkULZcanWiKD1CmPZB25A6PKoByJX1Mu",
+      "title": "QA62 Batch 032",
+      "createdAt": 1789529734518
+    },
+    {
+      "id": "81pguuUR7HrFMityWHvCuBok1x4XPr6N1WX2J7pzKm1x",
+      "title": "QA62 Batch 033",
+      "createdAt": 1789529735961
+    },
+    {
+      "id": "kW93YtqzRme7j3RXN7rAKbZKnQypvDUwggioFPZMqEm",
+      "title": "QA62 Batch 035",
+      "createdAt": 1789529737621
+    },
+    {
+      "id": "HTX1ihq1uffsnVNARmQHLqjwJgZindN1wDbDWESm8VKo",
+      "title": "QA62 Batch 036",
+      "createdAt": 1789529738935
+    },
+    {
+      "id": "4ZfxjVBK9UqWtVJbRbyMVWRGj3a1YfmK4uc7ohzbY9R8",
+      "title": "QA62 Batch 037",
+      "createdAt": 1789529740324
+    },
+    {
+      "id": "83K69V6Y55yy6aRQxJZbT836jb3wG7PnKiAgN3unGRaX",
+      "title": "QA62 Batch 038",
+      "createdAt": 1789529741729
+    },
+    {
+      "id": "8REucMuPp5oin1pSAGhZQuanVqcPkR4pcTpmTCLx9Vqy",
+      "title": "QA62 Batch 039",
+      "createdAt": 1789529743226
+    },
+    {
+      "id": "9YX31KxXBYahJJ4FQXa5orvdRWP2fRGn1zCnJe7yj5ao",
+      "title": "QA62 Batch 040",
+      "createdAt": 1789529744619
+    },
+    {
+      "id": "6YcnKNvsh845mX7E9oNykTpx9heJY2H8GukTWwDkxsMW",
+      "title": "QA62 Batch 042",
+      "createdAt": 1789529746382
+    },
+    {
+      "id": "EgjqEpkL44oa23eUuws9JDtGhoET59mnMz4LiMBZJCAy",
+      "title": "QA62 Batch 043",
+      "createdAt": 1789529747743
+    },
+    {
+      "id": "6znRkzWTiWDLsrQEseHGDKEkiZQSzuK7oXsfBQhgf4Tm",
+      "title": "QA62 Batch 044",
+      "createdAt": 1789529749129
+    },
+    {
+      "id": "9CBnbdmen7AbkChiRLJcu1mCW92b2S6SqvEb2q77Zyf4",
+      "title": "QA62 Batch 045",
+      "createdAt": 1789529750630
+    },
+    {
+      "id": "EKYjCMpYJMW3oJdkfvgXNruofzBLdgZyoySJddvNeBLf",
+      "title": "QA62 Batch 046",
+      "createdAt": 1789529751876
+    },
+    {
+      "id": "2VoZjQ3kw1DUSTR8gc6NP56GKfDxa7wqhWPqcfcXpPKr",
+      "title": "QA62 Batch 047",
+      "createdAt": 1789529753200
+    },
+    {
+      "id": "BA757v7boXrfunb99njjp4GHPnYf5JjrSJmHH9vrnLMr",
+      "title": "QA62 Batch 048",
+      "createdAt": 1789529754414
+    },
+    {
+      "id": "DGQVmeoxn9Tid4jLyMxNMabf1ruokG6eh7g1HDke5GSX",
+      "title": "QA62 Batch 049",
+      "createdAt": 1789529755701
+    },
+    {
+      "id": "841fFPaVerQcfAQhZ4Yfo3aazMAFefAzy6XN4hLPshrh",
+      "title": "QA62 Batch 050",
+      "createdAt": 1789529757059
+    },
+    {
+      "id": "4ZejbKAQkN4Ergh94tJcaxLr7txrHJZusJ7bHBbq1Eef",
+      "title": "QA62 Batch 051",
+      "createdAt": 1789529758249
+    },
+    {
+      "id": "4b4Ehz83GVyjbgbXDLgcjSoYp6Kag6pZTZ5gintRknYh",
+      "title": "QA62 Batch 052",
+      "createdAt": 1789529759614
+    },
+    {
+      "id": "nnPDpQjpd4gkH1xBX29pRJAGsdh7GibG4UUqzzGT94u",
+      "title": "QA62 Batch 053",
+      "createdAt": 1789529760922
+    },
+    {
+      "id": "E2TcheDFHKPiJKS5URAcZPEK9koBB3ibSZVzj67AxF39",
+      "title": "QA62 Batch 054",
+      "createdAt": 1789529762258
+    },
+    {
+      "id": "8pEbJGVnwsLo5EZt2VesNcsBsLis8KM8F8BBqhhHoL3",
+      "title": "QA62 Batch 055",
+      "createdAt": 1789529763543
+    },
+    {
+      "id": "FdjTSym9fX1yzqFto9zmiY7rbAU1YMio1zkF3xQdYyxu",
+      "title": "QA62 Batch 056",
+      "createdAt": 1789529764931
+    },
+    {
+      "id": "3arzAUAy5zxDJFVP1jtSBDoPeaqSc7j5xYdEmyUsVUsF",
+      "title": "QA62 Batch 057",
+      "createdAt": 1789529766301
+    },
+    {
+      "id": "BFcfwHH9r7sWvVmRorFBSV98XMHo9TSKiXBgNU98ZqwF",
+      "title": "QA62 Batch 058",
+      "createdAt": 1789529767677
+    },
+    {
+      "id": "EgG7hfktxxPaciPDefqxmLHEp7v8U94rusStEYM8C2gq",
+      "title": "QA62 Batch 059",
+      "createdAt": 1789529769690
+    },
+    {
+      "id": "58mou3Ng9FPbhDkySgTnztNZmbKLtBhjchy8pCGDTX4h",
+      "title": "QA62 Batch 060",
+      "createdAt": 1789529771023
+    },
+    {
+      "id": "4s8pLazQRNZbmGkdJPaSNZLA46g8fNiHSQMUgy8sbXWC",
+      "title": "QA62 Batch 061",
+      "createdAt": 1789529772352
+    },
+    {
+      "id": "D5RbPMHSLac1CzWJU7pCiDFkqtdXbuTyJnENgF5vpNmc",
+      "title": "QA62 Batch 062",
+      "createdAt": 1789529773702
+    },
+    {
+      "id": "9z4Fuvmw6jBPv6vuNxGxhB6QkbsMZah5DYrqqqEFrF3W",
+      "title": "QA62 Batch 063",
+      "createdAt": 1789529775022
+    },
+    {
+      "id": "3ETsEUAUeGmX6fj8CLDf7jCFGppQGSdi7mFMU43S8sBg",
+      "title": "QA62 Batch 064",
+      "createdAt": 1789529776393
+    },
+    {
+      "id": "5DBCt11LZtgyCSzEogHu1JZ2VVJNhm18GdUb6m3CAgjN",
+      "title": "QA62 Batch 065",
+      "createdAt": 1789529778423
+    },
+    {
+      "id": "HLfNuDrpDdbDaD9ekiP79s11DTJMqJWMVuMpnuLdcBnb",
+      "title": "QA62 Batch 066",
+      "createdAt": 1789529780016
+    },
+    {
+      "id": "5DhzepeYKJpzMm41C1VayjsAujqZCxnQdT8vgbQz92rX",
+      "title": "QA62 Batch 067",
+      "createdAt": 1789529781285
+    },
+    {
+      "id": "3EpLdFC3x8pmN8wZZbx5guRkYfeDULFXUdXfSyytdhvW",
+      "title": "QA62 Batch 068",
+      "createdAt": 1789529783159
+    },
+    {
+      "id": "CBSK93FG1tp64ZT53L2nUeq3SuyKSNT5yTFQd4UVAV6Y",
+      "title": "QA62 Batch 069",
+      "createdAt": 1789529784794
+    },
+    {
+      "id": "6tsdoqAJEWns4NTc3y6sMZKb8r86V3M5p9ofaf46f51v",
+      "title": "QA62 Batch 070",
+      "createdAt": 1789529786422
+    },
+    {
+      "id": "ou4eizajKJ1Yxy9NPABiojBMRXWgzVnhuqahbEPLtWh",
+      "title": "QA62 Batch 071",
+      "createdAt": 1789529787931
+    },
+    {
+      "id": "2JpaioZHFR3Hj6Dd7bEXch5ojW6CWgquLcMynGtD7622",
+      "title": "QA62 Batch 072",
+      "createdAt": 1789529789514
+    },
+    {
+      "id": "8p7BJ59H1WfuZdgGDY1qtNeyKTNhTwZfyk2XNDWh4G5d",
+      "title": "QA62 Batch 073",
+      "createdAt": 1789529791016
+    },
+    {
+      "id": "54cwLGC5seDytcU6mh1Li5MwoHqEtMVQxT6XLfez92DV",
+      "title": "QA62 Batch 074",
+      "createdAt": 1789529792408
+    },
+    {
+      "id": "4ahgTqGi46tdUVxUqAfeQmXs1D6JTcuw8Jn4VZQFJHYD",
+      "title": "QA62 Batch 075",
+      "createdAt": 1789529793882
+    },
+    {
+      "id": "BjHaGrBXD3brJpp6qX9q7m8pAk7rPpLRzqaMBE58MCET",
+      "title": "QA62 Batch 076",
+      "createdAt": 1789529795425
+    },
+    {
+      "id": "BRDuDHD8CgdwMj4ZyvqR6nVmHh6P24UPtSRGWuSmukAP",
+      "title": "QA62 Batch 077",
+      "createdAt": 1789529796906
+    },
+    {
+      "id": "3tsE8ZFS7hgtsUYp6bqodrp646YriHYmUYjkUtPMZSJN",
+      "title": "QA62 Batch 078",
+      "createdAt": 1789529798487
+    },
+    {
+      "id": "D7QpXxSPgoy3rsruAVPRKs6yFjVAbvDq7SmaymjwrqcH",
+      "title": "QA62 Batch 079",
+      "createdAt": 1789529799981
+    },
+    {
+      "id": "Az3e5yBWYmfX8m4o95zsGSEcBbh64WFZZRXndTvnAFzv",
+      "title": "QA62 Batch 080",
+      "createdAt": 1789529801623
+    },
+    {
+      "id": "E6Y7Um4rPDCHzTGcyH8v1q8oCEW1YQ6UtALAPACYrZ26",
+      "title": "QA62 Batch 081",
+      "createdAt": 1789529802875
+    },
+    {
+      "id": "8MuffqQzt3LfkwCbM1pGzDgkrhxRCBVet8gnP7LQ5SPg",
+      "title": "QA62 Batch 082",
+      "createdAt": 1789529804250
+    },
+    {
+      "id": "xFqUHxtVL21FFFAGEA8crnyHxD5EaULv7ap8W91rWxY",
+      "title": "QA62 Batch 083",
+      "createdAt": 1789529805438
+    },
+    {
+      "id": "AgJo4Atk1ovPQL57y2tox1sJXRcPcVrNcczZRrxfQft",
+      "title": "QA62 Batch 084",
+      "createdAt": 1789529806877
+    },
+    {
+      "id": "CiBJrwUz9FM5cAUCgM2VcnJRRTLAgMPKoZEEG67A6f9J",
+      "title": "QA62 Batch 085",
+      "createdAt": 1789529809000
+    },
+    {
+      "id": "41D3WM2CFCWduCKXxccHZFLCULVx34hvfnfsH1zr87st",
+      "title": "QA62 Batch 086",
+      "createdAt": 1789529810869
+    },
+    {
+      "id": "Br2XSi7AQ5DaM9y4aaSKFEz69SG2JuMig9R6GBmxngF7",
+      "title": "QA62 Batch 087",
+      "createdAt": 1789529812265
+    },
+    {
+      "id": "4VxP3jGCKaMYVCcY1b9dUsE1NDfdeyrpJ7mAyFKWjdAS",
+      "title": "QA62 Batch 088",
+      "createdAt": 1789529814305
+    },
+    {
+      "id": "Anqfm74WWs8iYYuDf7MWycBeN5PWusW8dhgS5KVBi5WK",
+      "title": "QA62 Batch 089",
+      "createdAt": 1789529816177
+    },
+    {
+      "id": "4jS85n2EaJ6mPDwkVBFnaF6U4MiAT3wpuYBEmusN8VPa",
+      "title": "QA62 Batch 090",
+      "createdAt": 1789529817476
+    },
+    {
+      "id": "AFsLv65M6CbvqJhXyShCFyxmBmsd4x6ekHVTwYBiUYEG",
+      "title": "QA62 Batch 091",
+      "createdAt": 1789529818788
+    },
+    {
+      "id": "EaEd3TME4vqnHeatddiCUBwzCGmy2ANJ8YN4Zd1jw8gv",
+      "title": "QA62 Batch 092",
+      "createdAt": 1789529820759
+    },
+    {
+      "id": "DroSuuhK3fDCkde8FCn4kznmZLPz1GAhHiRspW3kvPpo",
+      "title": "QA62 Batch 093",
+      "createdAt": 1789529822755
+    },
+    {
+      "id": "7vTRqsUAQsHv7hAt6BFvp5fYa42zcXZrC19GERmAiRFt",
+      "title": "QA62 Batch 094",
+      "createdAt": 1789529824165
+    },
+    {
+      "id": "7uqAUoaUioGshb3xQP7GSZUE3vMJyWtpeXWpi6DRQjFj",
+      "title": "QA62 Batch 095",
+      "createdAt": 1789529826076
+    },
+    {
+      "id": "2tNH7wEvTQqcawzAyrjyJfaXwGv6ha6xhforidkJvnZp",
+      "title": "QA62 Batch 096",
+      "createdAt": 1789529827984
+    },
+    {
+      "id": "HkFfXW4bX1xs1w2fxegLLvRqpP5BPA9DrN6SDccBmU3z",
+      "title": "QA62 Batch 097",
+      "createdAt": 1789529829952
+    },
+    {
+      "id": "4QGWU1UnqY1CTpPBZgNMn8Cj7HdyTHSz7e1JpqzKcGus",
+      "title": "QA62 Batch 098",
+      "createdAt": 1789529831309
+    },
+    {
+      "id": "3CEdyUvReXMngUbRGHMZbT5Jy6pA22Dv9NEZ7wjy32u2",
+      "title": "QA62 Batch 099",
+      "createdAt": 1789529832674
+    },
+    {
+      "id": "BjZVMrWEbVyXxk16v3vtpLN761JmzRybZubkEbKj2oa5",
+      "title": "QA62 Batch 100",
+      "createdAt": 1789529834072
+    },
+    {
+      "id": "GA7fPnGmF6fgQfeMLQ3uetFw96GrspYRPMaJaxXGxYXr",
+      "title": "QA62 Batch 101",
+      "createdAt": 1789529835396
+    },
+    {
+      "id": "2j26J7FfWDtFDntxs9rPLgQ6rx1QNEGwHL35rKdigNSL",
+      "title": "QA117 Successful inventory",
+      "createdAt": 1789531533936
+    },
+    {
+      "id": "AnUnxLK1UgWCarrxV9aabGdKG8UsFXwQBXaFDdqx7Qmp",
+      "title": "QA117 Successful manage",
+      "createdAt": 1789531542682
+    }
+  ],
+  "missingFromBaseline": [
+    {
+      "id": "BjZVMrWEbVyXxk16v3vtpLN761JmzRybZubkEbKj2oa5",
+      "title": "QA62 Batch 100"
+    },
+    {
+      "id": "GA7fPnGmF6fgQfeMLQ3uetFw96GrspYRPMaJaxXGxYXr",
+      "title": "QA62 Batch 101"
+    },
+    {
+      "id": "2j26J7FfWDtFDntxs9rPLgQ6rx1QNEGwHL35rKdigNSL",
+      "title": "QA117 Successful inventory"
+    },
+    {
+      "id": "AnUnxLK1UgWCarrxV9aabGdKG8UsFXwQBXaFDdqx7Qmp",
+      "title": "QA117 Successful manage"
+    }
+  ],
+  "readOnlyComparison": true,
+  "cleanupOwner": "commerce QA"
+}

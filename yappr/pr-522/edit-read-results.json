@@ -1,0 +1,11 @@
+{
+  "revision": "02e43a8a6ebd3c4cc376c506009fd510422fea4d",
+  "itemId": "AnUnxLK1UgWCarrxV9aabGdKG8UsFXwQBXaFDdqx7Qmp",
+  "title": "QA117 Successful manage",
+  "checks": [
+    "Newest formerly missing product opens correct edit route and saved title",
+    "Back navigation restores104products",
+    "No field edits or saves performed"
+  ],
+  "success": true
+}

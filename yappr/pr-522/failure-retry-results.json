@@ -1,0 +1,11 @@
+{
+  "revision": "02e43a8a6ebd3c4cc376c506009fd510422fea4d",
+  "storeId": "CP3dEXrdMEbbiFNHakoRkC86DonfVftuzUyaY4ngrnQb",
+  "blockedCursor": "3CEdyUvReXMngUbRGHMZbT5Jy6pA22Dv9NEZ7wjy32u2",
+  "abortedReads": 4,
+  "checks": [
+    "Only second-page product reads aborted; visible error and Retry replace false empty state",
+    "Restoring reads and clicking Retry returns all104 in order with no duplicates, and clears alert"
+  ],
+  "success": true
+}
