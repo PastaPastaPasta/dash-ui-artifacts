@@ -16,8 +16,8 @@
   "files": [
     {
       "path": "README.md",
-      "bytes": 4741,
-      "sha256": "42d97218c501ad11a2a7bf2ad8aa4dce1420ca4e8f462ed403620bb581b604be"
+      "bytes": 5610,
+      "sha256": "f1ee896c1980798dcf78d031e744220bdf21f6330ef86f7983c8d0b8a15a998e"
     },
     {
       "path": "after/compose-control.png",
@@ -58,6 +58,12 @@
       "path": "fixture-compatibility.json",
       "bytes": 214,
       "sha256": "013f42dafe88fb53f08e7755deb0102c10474073296dfbecc018cb82b6ae5055"
+    },
+    {
+      "path": "live-v6-results.json",
+      "bytes": 763,
+      "sha256": "8cfa359b567251d938b32d4012ea44f0e1fed9d316977589459c12b9eb0568b7"
     }
-  ]
+  ],
+  "remoteWritesScope": "Setup screenshot captures only; separate live-v6-results.json records actual write regression."
 }

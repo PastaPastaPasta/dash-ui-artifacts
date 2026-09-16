@@ -1,0 +1,23 @@
+{
+  "head": "7a50a04656d18a34c46da11bb85c76a46ce8c4a7",
+  "identityId": "EShbqnfLdmctGWaUCnU3FNKMenYmxiQEiawY3q2pLQm2",
+  "network": "devnet",
+  "exitCode": 0,
+  "completedAt": "2026-09-16T04:04:24.263Z",
+  "durationSeconds": 15.3,
+  "passed": 2,
+  "trace": "off",
+  "retries": 0,
+  "source": "standalone exact PR head; dedicated CI bot via runtime identity-pool override; no QA108 readiness changes",
+  "tests": [
+    {
+      "name": "v6 tag Top Today lists the liked post",
+      "durationSeconds": 1.7
+    },
+    {
+      "name": "v6 profile Top Today lists the liked post",
+      "durationSeconds": 2.4
+    }
+  ],
+  "scope": "Actual beforeAll authored and liked a real post; selected pinned tag/profile tests passed. This is not a full topology suite pass."
+}

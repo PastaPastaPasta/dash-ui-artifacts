@@ -36,6 +36,12 @@ The after run clicks the real compose trigger and opens the empty **Create a new
 
 ![After hook can open composer without submitting](after/composer-open.png)
 
+## Standalone live v6 regression
+
+After replenishing the dedicated CI identity's credits, the serialized run against **exact PR head `7a50a04656d18a34c46da11bb85c76a46ce8c4a7`** passes both selected v6 tests in **15.3 seconds**. The actual beforeAll created and liked a real post, then the tag **Top → Today** and profile **Top → Today** tests verified the persisted result. The run used the dedicated CI bot through a runtime identity-pool override, retries0 and trace off; no QA108 readiness change was included. Its successful exit was recorded at `2026-09-16T04:04:24.263Z`.
+
+This proves the fixed authenticated setup proceeds through its real writes and the two selected readbacks. It does not claim that all four v6 assertions or the entire topology suite passed. The three-fix integration run is separate. See [safe live-run summary](live-v6-results.json).
+
 ## Validation
 
 - Three real-browser checks pass: the base reproduces the guest/missing-control state; the fixed manual context authenticates, opens the composer and survives reload; the ordinary authenticated page fixture still restores the same bot before and after reload. The compatibility check imports the actual exported fixture and overrides only its bot provider with the dedicated private fixture.
