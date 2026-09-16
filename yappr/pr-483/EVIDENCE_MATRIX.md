@@ -1,9 +1,8 @@
-# QA83 evidence matrix
+# QA83 evidence matrix after R3 restack
 
-| Surface | Before | After | Shared fixture | Expected visible delta |
+|Surface/action|Before|After|Shared fixture|Expected visible delta|
 |---|---|---|---|---|
-| Enable private feed: click Encryption Private Key label | 733faf53cd893cba861476a4af75b442ed67ca72 | 34325b025251717c8b821559e83982b193cbc41d | Persona38 4epjp48EuEG7UetQ7uExDsYNsoWLeVWU9Ym26sXb64WM, normal key2 WIF login, feed disabled, empty key | After input has focus ring; before does not focus |
-| Reset private feed: click encryption-key label | 733faf53cd893cba861476a4af75b442ed67ca72 | 34325b025251717c8b821559e83982b193cbc41d | Persona39 9NFhqxW8upkFMVTE5h5VmYWLdSEJ26B2iMKdhCFgsWkd, normal key2 WIF login, enabled feed, empty key | After input has focus ring; before does not focus |
-| Reset private feed: click RESET confirmation label | 733faf53cd893cba861476a4af75b442ed67ca72 | 34325b025251717c8b821559e83982b193cbc41d | Same39, empty confirmation | After confirmation input has focus ring; before does not focus |
+|Click Enable Encryption Private Key label with empty field|14217bea918e4676cd8e4c0c13d059561295c4d2|e65d33681a6c289fa0255bde0d8dfd0366193664|Persona38, feed disabled|After purple field focus ring; accessible name follows label|
+|Open recovery route|14217bea918e4676cd8e4c0c13d059561295c4d2|e65d33681a6c289fa0255bde0d8dfd0366193664|Persona39, existing feed|No visual delta; original-key recovery information, no inputs/reset submit|
 
-Separate production devnet builds on localhost3278 and3291. Fresh Chromium contexts,1440×1200, device scale1, light theme, en-US, America/Chicago. No label/input DOM modifications or injected network state. Inputs remain empty, destructive Reset and Enable stay disabled, cancel each flow. Label association/accessibility and keyboard focus are asserted separately.
+Separate production devnet builds localhost3299/3297. Fresh normal UI key2 sign-ins, Chromium1440x1200, scale1, light, en-US, America/Chicago. Compiled About hash checked. No credentials captured, form values blank. Cancel/Close, no feed mutation. Reset-label portion superseded by #509.
