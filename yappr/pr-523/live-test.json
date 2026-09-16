@@ -1,0 +1,24 @@
+{
+  "base": "cf0efbc10b8757137063113ebbd2061e8b87d8f7",
+  "head": "66ebbcad32d95cbac8e763acd7c905e4912b2183",
+  "content": "QA127 receipt refresh 2026-09-16T04:23:40.733Z",
+  "sender": "1R7KNEEbzqg3574bybNCTJjvctH1jFg76vNc6PsWVet",
+  "recipient": "Da8ywZo3CcJadx7xJ3WK2kgzP8u4c1VrKN7DaBtdPXve",
+  "privacyOffControl": true,
+  "ordinaryUiLogin": true,
+  "viewport": {
+    "width": 1440,
+    "height": 1000
+  },
+  "elapsedAfterRecipientReadMs": 68624,
+  "baseLiveRead": 0,
+  "headLiveRead": 1,
+  "headReadWhilePrivacyOff": 0,
+  "baseReadWhilePrivacyOff": 0,
+  "sameMessageId": "6gKVSiGm1Apn5pmkFdmQgUBccizCo4q8EWe7wtQnX8DY",
+  "receiptId": "2hjvRC4HgxKgMRk1VNcj4nia4CaGdD8QxnhTfK4N2hGa",
+  "noSenderReloadBeforePair": true,
+  "noNewMessagesDuringObservation": true,
+  "baselineReadAfterReload": 1,
+  "recipientReadReceiptsRestored": true
+}

@@ -1,0 +1,18 @@
+{
+  "at": "2026-09-16T04:27:13.897Z",
+  "participants": [
+    "1R7KNEEbzqg3574bybNCTJjvctH1jFg76vNc6PsWVet",
+    "Da8ywZo3CcJadx7xJ3WK2kgzP8u4c1VrKN7DaBtdPXve"
+  ],
+  "conversationBase64": "cQ9tSFpscD/RFA==",
+  "contract": "ACggUAB9rYpZUTBggrgx54R43iSprQztyuwYx16Y25xC",
+  "directMessage": [
+    {
+      "id": "6gKVSiGm1Apn5pmkFdmQgUBccizCo4q8EWe7wtQnX8DY",
+      "owner": "1R7KNEEbzqg3574bybNCTJjvctH1jFg76vNc6PsWVet",
+      "createdAt": 1789532623342,
+      "updatedAt": null
+    }
+  ],
+  "readReceipt": []
+}
