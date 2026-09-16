@@ -1,0 +1,30 @@
+{
+  "revision": "733faf53cd893cba861476a4af75b442ed67ca72",
+  "id": "9gWVtfjkRp9dytJiKZ3FJENZnt3sqppe5V3bc1VkZavs",
+  "cases": [
+    {
+      "name": "desktop",
+      "width": 1280,
+      "height": 900,
+      "headerTabs": 15,
+      "headerName": "",
+      "overlayTabs": 14,
+      "overlayName": "",
+      "overlayOpacity": "0",
+      "enterOpens": true,
+      "escapeReturnsInvisibleFocus": true
+    },
+    {
+      "name": "mobile",
+      "width": 390,
+      "height": 844,
+      "headerTabs": 1,
+      "headerName": "",
+      "overlayTabs": 14,
+      "overlayName": "",
+      "overlayOpacity": "0",
+      "enterOpens": true,
+      "escapeReturnsInvisibleFocus": true
+    }
+  ]
+}
