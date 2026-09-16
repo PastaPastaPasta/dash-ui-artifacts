@@ -1,7 +1,7 @@
 {
-  "at": "2026-09-16T02:04:45.916Z",
-  "base": "http://127.0.0.1:3281/devnet",
-  "revision": "0b69d5eb80ba39f20d603910a881174311164add",
+  "at": "2026-09-16T04:38:11.469Z",
+  "base": "http://127.0.0.1:3306/devnet",
+  "revision": "0d0358fc531511ddcdec78331f1be741a245e303",
   "identityId": "57i6krpfkLARMr9SbXSGhxtCd4dk6BFkJUMpuom4EiiX",
   "actualKeyLogin": true,
   "storageInjection": false,

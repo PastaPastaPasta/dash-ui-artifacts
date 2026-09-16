@@ -1,31 +1,26 @@
-# Duplicate DPNS usernames
+# Duplicate DPNS usernames — PR459
 
-Entering the same name twice, or names that share a DPNS canonical label, offered both as available registrations. The fix marks every duplicate row, disables availability until resolved, and immediately clears the warning when a row is changed or removed.
+Entering identical names or DPNS-equivalent spellings offered two registrations. The fix marks every matching row and blocks availability until the duplicate is edited or removed.
 
-Captured from separate exact-revision local devnet builds using the repository's unchanged Node static adapter and live devnet reads. Baseline `eb895be71a7207c73fb9329ac9d9bb7b398f53da`. Chromium, 1280 × 1000, matching unnamed identity and actual private-key login; no storage injection. No username registration or vote was sent. Screenshots are unmodified browser captures, reviewed at original resolution. An unrelated footer-logo omission is an adapter artifact, not a claimed product issue.
+This comparison supersedes the previous staging comparison after stacking PR459 on PR497. **Before exact parent497: `bcd859dcac2e5d089d61857d8585548614b21cd5`. After full head: `0d0358fc531511ddcdec78331f1be741a245e303`.** Both images were freshly captured from independent exact-revision production devnet builds.
 
-Head `0b69d5eb80ba39f20d603910a881174311164add` (build ID `0b69d5eb`). Build, lint and independent source review passed. Browser checks covered uppercase normalization, identical duplicates, i/l/1 aliases, edit to distinct live-available names, removal, and empty/non-ASCII/invalid text without render errors.
+Same unnamed identity `57i6krpfkLARMr9SbXSGhxtCd4dk6BFkJUMpuom4EiiX`, actual key login, Chromium1280×1000, fresh contexts, matching Node static adapters and live reads. No storage injection or registration/vote submission. No traces retained. The adapter's unrelated footer-logo omission is not a product claim.
 
-Before: duplicate names offered as two registrations.
+| Before — exact parent497 | After — full head |
+| --- | --- |
+| ![Before duplicate names offered as available](before/duplicate-review.png) | ![After duplicate rows explained and blocked](after/duplicate-entry.png) |
+| ![Before equivalent spellings offered twice](before/alias-review.png) | ![After equivalent spellings marked](after/alias-entry.png) |
 
-![Before: duplicate available usernames](before/duplicate-review.png)
+Distinct names still pass the live availability check, and deleting the duplicate restores entry immediately.
 
-After: both duplicate rows explain the problem and Check Availability is disabled.
+![After distinct names available](after/distinct-review.png)
 
-![After: duplicate names blocked](after/duplicate-entry.png)
+![After removing duplicate](after/duplicate-removed.png)
 
-DPNS-equivalent spellings are also blocked.
+All seven final PNGs were inspected at original resolution. Safe run details are in `before/result.json` and `after/result.json`.
 
-![After: alias duplicates blocked](after/alias-entry.png)
+## Regression and restack validation
 
-Editing to distinct names restores the normal review.
+All four checked-in Playwright registration-entry cases pass on the rebuilt full head (5.8s): identical, case-equivalent, i/l/1 and o/0 groups, every matching row, edit/removal recovery, and empty input. Tests edit the real form with the dedicated CI fixture; they never check availability or register names. Capture separately verifies live availability recovery and invalid text without page errors. Full lint, E2E TypeScript and devnet build pass.
 
-![After: distinct names available](after/distinct-review.png)
-
-Structured run results are in `before/result.json` and `after/result.json`. Additional exact-state screenshots are retained alongside them.
-
-## Persistent regression coverage
-
-The final head adds four authenticated Playwright registration-entry tests and includes them in the devnet CI job. Tests use ordinary Settings → Register More Usernames UI and the real SDK normalizer, but never check availability or submit registration. Identical, case-equivalent, i/l/1-equivalent, and o/0-equivalent groups mark every matching row and block availability. Editing all conflicting rows or removing one duplicate clears the original row's error; empty rows are ignored, and an entirely empty form remains disabled.
-
-The identical-name test was run on exact pre-fix baseline eb895be7 and failed at the expected missing duplicate-error assertion. All four pass on the fixed application. The existing devnet CI job remains nonblocking and requires the dedicated E2E seed; this change does not alter those policy settings. These test-only/CI additions do not change application behavior. The after images have nevertheless been recaptured from the independently built full final head.
+Range-diff preserves three commits: first two identical; the CI commit changes only to retain parent497's `--trace=off`. The combined command runs `topology dpns-username-entry`; dedicated devnet secret mapping/public pool are preserved, testnet mapping unchanged. Topology results are owned by the central serialized CI monitor and are not claimed by this four-test run. The historical exact pre-fix baseline regression failed at the expected missing duplicate-warning assertion.
