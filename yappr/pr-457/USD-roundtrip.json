@@ -1,0 +1,18 @@
+{
+  "head": "92c1f40ef3ce96fe35b50403360f6adc3881abb6",
+  "currency": "USD",
+  "storeId": "CM5fhHWoXy9hk3UMtLQdiQphp2LyTpmBWsRanrakYLaD",
+  "steps": [
+    "Real CSV upload completed",
+    "Fresh edit UI shows original decimal amount; export retains8 crypto/2 fiat decimals",
+    "Actual exported file reimports to correct preview, cancelled before duplicate write"
+  ],
+  "itemIds": [
+    "CtPyBrfgEVGDQBz8uodjBiBHtRkiysCKpfhJtEYBoMLY"
+  ],
+  "inventory": "Inventory\n\nQA USD Inventory54\n\nExport CSV\nUpload CSV\nAll Status\nActive\nPaused\nSold Out\nDeleted\nAll Categories\nShowing 1 of 1 items\n\t\t\nItem\n\tSKU\t\nPrice\n\t\nStock\n\t\nStatus\n\t\n\t\t\nQA USD Currency54\n\tQA-USD54\t$1.25\t2\tactive\t",
+  "exportCSV": "Group,Section,Category,Subcategory,Item Name,Description,SKU,Tags,Variant,Sub Variant,Price,Quantity,Weight,Image1,Image2,Image3,Image4\n,,,,QA USD Currency54,,QA-USD54,,,,1.25,2,,,,,",
+  "savedPrice": "1.25",
+  "reimportPreview": "Upload Inventory\n\nUSD-export.csv\n\n1 item found\n\nChange File\nItems to Upload\nItem\tVariants\tPrice\tStock\n\nQA USD Currency54\n\t-\t$1.25\t2\nCancel\nUpload 1 Item",
+  "success": true
+}

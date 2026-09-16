@@ -1,0 +1,18 @@
+{
+  "head": "92c1f40ef3ce96fe35b50403360f6adc3881abb6",
+  "currency": "DASH",
+  "storeId": "98FYBhEF9Q8xNzbamzy66Dm5cMQ5gm9MoAZaiy518sNp",
+  "steps": [
+    "Real CSV upload completed",
+    "Fresh edit UI shows original decimal amount; export retains8 crypto/2 fiat decimals",
+    "Actual exported file reimports to correct preview, cancelled before duplicate write"
+  ],
+  "itemIds": [
+    "9Tshw8avzu4My9S86kDg9XTMjo4ukNrVTUFGbyKZJ9Qk"
+  ],
+  "inventory": "Inventory\n\nQA Commerce 40 20260915\n\nExport CSV\nUpload CSV\nAll Status\nActive\nPaused\nSold Out\nDeleted\nAll Categories\nQA\nQA Test\nShowing 5 of 5 items\n\t\t\nItem\n\tSKU\t\nPrice\n\t\nStock\n\t\nStatus\n\t\n\t\n\t\nQA CSV Sizes54\n2 variants\n\tQA-S54\t1.2500 DASH - 2.5000 DASH\t2\tactive\t\n\n\t\t\nQA CSV Currency54\n\tQA-CSV54\t1.2500 DASH\t2\tactive\t\n\n\t\t\nQA Inventory Zero52\nQA\n\tQA-ZERO52\t0.0000 DASH\tOut of stock\tactive\t\n\n\t\t\nQA Inventory Simple52\nQA\n\tQA-SIMPLE52\t0.0000 DASH\t2\tactive\t\n\n\t\t\nQA Parcel 40 20260915\nQA Test\n\t-\t0.0000 DASH\t7\tactive\t",
+  "exportCSV": "Group,Section,Category,Subcategory,Item Name,Description,SKU,Tags,Variant,Sub Variant,Price,Quantity,Weight,Image1,Image2,Image3,Image4\n,,QA Test,,QA Parcel 40 20260915,\"QA ONLY: temporary test item for devnet checkout, stock and shipping. No real shipment.\",,,,,0.00000100,7,,,,,\n,,QA,,QA Inventory Simple52,Synthetic QA inventory test,QA-SIMPLE52,,,,0.00000125,2,,,,,\n,,QA,,QA Inventory Zero52,Synthetic QA stock test,QA-ZERO52,,,,0.00000200,0,,,,,\n,,,,QA CSV Currency54,,QA-CSV54,,,,1.25000000,2,,,,,\n38M9XgzPqHBZu1ABvoiceRA31eAJ8NW3hhryTPt6MWM1,,,,QA CSV Sizes54,,QA-S54,,Small,,1.25000000,2,,,,,\n38M9XgzPqHBZu1ABvoiceRA31eAJ8NW3hhryTPt6MWM1,,,,QA CSV Sizes54,,QA-L54,,Large,,2.50000000,0,,,,,",
+  "savedPrice": "1.25000000",
+  "reimportPreview": "Upload Inventory\n\nDASH-export.csv\n\n5 items found\n\nChange File\nItems to Upload\nItem\tVariants\tPrice\tStock\n\nQA Parcel 40 20260915\nQA Test\n\t-\t0.0000 DASH\t7\n\nQA Inventory Simple52\nQA\n\t-\t0.0000 DASH\t2\n\nQA Inventory Zero52\nQA\n\t-\t0.0000 DASH\t0\n\nQA CSV Currency54\n\t-\t1.2500 DASH\t2\n\nQA CSV Sizes54\n\t2 variants\t1.2500 DASH - 2.5000 DASH\t2\nCancel\nUpload 5 Items",
+  "success": true
+}

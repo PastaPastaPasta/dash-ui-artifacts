@@ -1,0 +1,4 @@
+Group,Item Name,Variant,Price,Quantity,SKU
+,QA CSV Currency54,,1.25,2,QA-CSV54
+variant54,QA CSV Sizes54,Small,1.25,2,QA-S54
+variant54,QA CSV Sizes54,Large,2.5,0,QA-L54

@@ -1,0 +1,7 @@
+Group,Section,Category,Subcategory,Item Name,Description,SKU,Tags,Variant,Sub Variant,Price,Quantity,Weight,Image1,Image2,Image3,Image4
+,,QA Test,,QA Parcel 40 20260915,"QA ONLY: temporary test item for devnet checkout, stock and shipping. No real shipment.",,,,,0.00000100,7,,,,,
+,,QA,,QA Inventory Simple52,Synthetic QA inventory test,QA-SIMPLE52,,,,0.00000125,2,,,,,
+,,QA,,QA Inventory Zero52,Synthetic QA stock test,QA-ZERO52,,,,0.00000200,0,,,,,
+,,,,QA CSV Currency54,,QA-CSV54,,,,1.25000000,2,,,,,
+38M9XgzPqHBZu1ABvoiceRA31eAJ8NW3hhryTPt6MWM1,,,,QA CSV Sizes54,,QA-S54,,Small,,1.25000000,2,,,,,
+38M9XgzPqHBZu1ABvoiceRA31eAJ8NW3hhryTPt6MWM1,,,,QA CSV Sizes54,,QA-L54,,Large,,2.50000000,0,,,,,
