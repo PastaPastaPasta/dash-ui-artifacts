@@ -1,0 +1,22 @@
+{
+  "issue": "qa126",
+  "side": "before",
+  "revision": "cf0efbc10b8757137063113ebbd2061e8b87d8f7",
+  "base": "http://127.0.0.1:3288/devnet",
+  "fixture": 72,
+  "uri": "tdash:yWUs17ht6ZcAw2EgZkEetnaLW9uX3aWfsw",
+  "checks": [
+    {
+      "viewport": "desktop",
+      "accessibleName": null,
+      "tooltip": 0,
+      "draftCancelRestored": true
+    },
+    {
+      "viewport": "mobile",
+      "accessibleName": null,
+      "tooltip": 0,
+      "draftCancelRestored": true
+    }
+  ]
+}

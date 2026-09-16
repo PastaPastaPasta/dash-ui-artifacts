@@ -1,0 +1,26 @@
+{
+  "issue": "qa125",
+  "side": "after",
+  "revision": "5a91dcac2a69ee71d0e661fc7c6d264543c1bdf0",
+  "base": "http://127.0.0.1:3361/devnet",
+  "fixture": 72,
+  "uri": "tdash:yWUs17ht6ZcAw2EgZkEetnaLW9uX3aWfsw",
+  "checks": [
+    {
+      "viewport": "desktop",
+      "exactDuplicateRejected": true,
+      "trailingSpaceRows": 1,
+      "visibleError": 1,
+      "multirowDuplicatesRejected": true,
+      "draftCancelRestored": true
+    },
+    {
+      "viewport": "mobile",
+      "exactDuplicateRejected": true,
+      "trailingSpaceRows": 1,
+      "visibleError": 1,
+      "multirowDuplicatesRejected": true,
+      "draftCancelRestored": true
+    }
+  ]
+}

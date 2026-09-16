@@ -1,0 +1,24 @@
+{
+  "issue": "qa126",
+  "side": "after",
+  "revision": "87fd79b76a9e86c97707b6246323ff43338d35bb",
+  "base": "http://127.0.0.1:3362/devnet",
+  "fixture": 72,
+  "uri": "tdash:yWUs17ht6ZcAw2EgZkEetnaLW9uX3aWfsw",
+  "checks": [
+    {
+      "viewport": "desktop",
+      "accessibleName": "Remove tDash address yWUs17ht6ZcAw2EgZkEetnaLW9uX3aWfsw",
+      "tooltip": 1,
+      "keyboardTargetedRemovalPassed": true,
+      "draftCancelRestored": true
+    },
+    {
+      "viewport": "mobile",
+      "accessibleName": "Remove tDash address yWUs17ht6ZcAw2EgZkEetnaLW9uX3aWfsw",
+      "tooltip": 1,
+      "keyboardTargetedRemovalPassed": true,
+      "draftCancelRestored": true
+    }
+  ]
+}
