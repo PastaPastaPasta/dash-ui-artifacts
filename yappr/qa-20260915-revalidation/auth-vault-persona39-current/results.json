@@ -1,0 +1,38 @@
+{
+  "revision": "c98a6ecd7e26ae5bc9fc8e400e6011eb8465b3a0",
+  "origin": "http://localhost:3260",
+  "identityId": "9NFhqxW8upkFMVTE5h5VmYWLdSEJ26B2iMKdhCFgsWkd",
+  "handle": "hikes-omar8",
+  "checks": [
+    "One incorrect password rejected with visible feedback; no signed-in identity",
+    "Correct password restores same identity and unlocks existing vault",
+    "Password session and unlocked vault survive fresh reload",
+    "Normal account-menu logout removes signed-in navigation",
+    "Normal WIF sign-in restores same identity; vault status inspected independently",
+    "From key-login local vault state, normal logout/password sign-in recovers unlocked vault",
+    "Second QA passkey enrolled through normal Add Passkey ceremony with existing password-unlocked vault",
+    "Same live virtual authenticator restores exact identity and unlocked vault after normal logout",
+    "Passkey-restored identity and unlocked vault survive reload",
+    "Passkey session normal logout removes authenticated navigation"
+  ],
+  "wrongPasswordMessage": "Invalid password",
+  "keyLoginLocked": true,
+  "passkeyEquipmentLimitation": "Standard Chromium virtual CTAP2.1 resident PRF authenticator, same live authenticator and localhost RP. Not physical-device, exported credential PRF portability, or yap.pr RP proof.",
+  "oldExportComparison": [
+    {
+      "port": 3211,
+      "signedIn": false,
+      "errorText": [
+        "This passkey/provider did not return PRF output."
+      ]
+    },
+    {
+      "port": 3260,
+      "signedIn": false,
+      "errorText": [
+        "This passkey/provider did not return PRF output."
+      ]
+    }
+  ],
+  "newConfirmedProductIssues": []
+}
