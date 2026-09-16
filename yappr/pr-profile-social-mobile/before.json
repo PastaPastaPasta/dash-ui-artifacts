@@ -1,0 +1,72 @@
+{
+  "base": "http://127.0.0.1:3260/devnet",
+  "identity": "HVVUwJLhEngLH5LkZx8FgUkcso28xK7tn5gaaHke5WWu",
+  "label": "before",
+  "widths": [
+    {
+      "viewport": 390,
+      "page": 396,
+      "overflow": [
+        {
+          "tag": "BUTTON",
+          "text": "Add",
+          "cls": "px-3 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 disabled:opacity-50 disabled:cursor-not-allowed flex items-center gap-1",
+          "right": 396.03125
+        }
+      ],
+      "left": 323,
+      "right": 396.03125
+    },
+    {
+      "viewport": 320,
+      "page": 396,
+      "overflow": [
+        {
+          "tag": "DIV",
+          "text": "CancelSave",
+          "cls": "mt-20 flex items-center gap-2",
+          "right": 351.390625
+        },
+        {
+          "tag": "DIV",
+          "text": "CancelSave",
+          "cls": "flex gap-2",
+          "right": 351.390625
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Save",
+          "cls": "inline-flex items-center justify-center whitespace-nowrap rounded-full font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-yappr-500 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 interactive-scale bg-yappr-500 text-white hover:bg-yappr-600 shadow-yappr h-8 px-3 text-xs",
+          "right": 351.390625
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Add",
+          "cls": "px-3 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 disabled:opacity-50 disabled:cursor-not-allowed flex items-center gap-1",
+          "right": 396.03125
+        },
+        {
+          "tag": "svg",
+          "text": "",
+          "cls": {},
+          "right": 351
+        },
+        {
+          "tag": "path",
+          "text": "",
+          "cls": {},
+          "right": 348
+        }
+      ],
+      "left": 323,
+      "right": 396.03125
+    },
+    {
+      "viewport": 1280,
+      "page": 1280,
+      "overflow": [],
+      "left": 839.96875,
+      "right": 913
+    }
+  ]
+}
