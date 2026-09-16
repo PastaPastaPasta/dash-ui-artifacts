@@ -1,0 +1,13 @@
+{
+  "at": "2026-09-16T01:48:23.307Z",
+  "store": {
+    "id": "GJdJn1iWx9CdtqRXetwa39Kkr3ZG2fBajQbcE1u6aJKr",
+    "name": "QA Payment51 Devnet 20260915",
+    "status": "closed"
+  },
+  "order": {
+    "id": "2T8ThBeiKHy7ajPLe1bzjGgyN9RudXZXhaQ1byNZS7uZ",
+    "storeId": "GJdJn1iWx9CdtqRXetwa39Kkr3ZG2fBajQbcE1u6aJKr"
+  },
+  "passed": true
+}
