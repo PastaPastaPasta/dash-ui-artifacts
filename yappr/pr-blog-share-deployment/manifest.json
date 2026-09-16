@@ -1,0 +1,26 @@
+{
+  "before-destination.png": {
+    "bytes": 15254,
+    "sha256": "160f1a433fd673d44faf490371ccf4694f63a439ffca9149dfe5e3f25f028586"
+  },
+  "after-results.json": {
+    "bytes": 3019,
+    "sha256": "6ecd93b0991b8cb0da4448d420c04f7bb062d465f4838e7d7bf96c0d112895e3"
+  },
+  "before-results.json": {
+    "bytes": 2134,
+    "sha256": "212bfd3709e784304a6335c97b06bc9ce56ac008f1c34199d8feca735bc0ce3e"
+  },
+  "README.md": {
+    "bytes": 2150,
+    "sha256": "634efdaea891fa14852ab5139743a15064925585617a8b66e745109d1c4e10cf"
+  },
+  "PLAN.md": {
+    "bytes": 911,
+    "sha256": "7efd49227dc676ebacb698ad1e0abb054d7c25478b9cf733a7417f5e653c1d3c"
+  },
+  "after-destination.png": {
+    "bytes": 637262,
+    "sha256": "58f5d881553f8f8ff446e091d10b64106414f6554c7ddf37fda6ac888614b374"
+  }
+}

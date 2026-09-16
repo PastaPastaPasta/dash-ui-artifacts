@@ -1,0 +1,24 @@
+{
+  "variant": "before",
+  "localSource": "http://127.0.0.1:3288/devnet/blog/?blog=BdMQRKM6xT8jx4bKbkhP3wYo7V835pDjcEWTbN5PMNRU&post=qa-comprehensive-article-20260915-p64",
+  "copied": "https://yap.pr/blog?blog=BdMQRKM6xT8jx4bKbkhP3wYo7V835pDjcEWTbN5PMNRU&post=qa-comprehensive-article-20260915-p64",
+  "popups": [
+    {
+      "name": "Share on X",
+      "url": "https://x.com/intent/tweet?text=QA%20comprehensive%20article%2020260915%20p64%20by%20%40zoe-dubois5&url=https%3A%2F%2Fyap.pr%2Fblog%3Fblog%3DBdMQRKM6xT8jx4bKbkhP3wYo7V835pDjcEWTbN5PMNRU%26post%3Dqa-comprehensive-article-20260915-p64",
+      "finalUrl": "https://x.com/i/flow/login?redirect_after_login=%2Fintent%2Ftweet%3Ftext%3DQA%2520comprehensive%2520article%252020260915%2520p64%2520by%2520%2540zoe-dubois5%26url%3Dhttps%253A%252F%252Fyap.pr%252Fblog%253Fblog%253DBdMQRKM6xT8jx4bKbkhP3wYo7V835pDjcEWTbN5PMNRU%2526post%253Dqa-comprehensive-article-20260915-p64"
+    },
+    {
+      "name": "Share on Facebook",
+      "url": "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fyap.pr%2Fblog%3Fblog%3DBdMQRKM6xT8jx4bKbkhP3wYo7V835pDjcEWTbN5PMNRU%26post%3Dqa-comprehensive-article-20260915-p64",
+      "finalUrl": "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fyap.pr%2Fblog%3Fblog%3DBdMQRKM6xT8jx4bKbkhP3wYo7V835pDjcEWTbN5PMNRU%26post%3Dqa-comprehensive-article-20260915-p64"
+    },
+    {
+      "name": "Share on Reddit",
+      "url": "https://www.reddit.com/submit?url=https%3A%2F%2Fyap.pr%2Fblog%3Fblog%3DBdMQRKM6xT8jx4bKbkhP3wYo7V835pDjcEWTbN5PMNRU%26post%3Dqa-comprehensive-article-20260915-p64&title=QA%20comprehensive%20article%2020260915%20p64",
+      "finalUrl": "https://www.reddit.com/submit?url=https%3A%2F%2Fyap.pr%2Fblog%3Fblog%3DBdMQRKM6xT8jx4bKbkhP3wYo7V835pDjcEWTbN5PMNRU%26post%3Dqa-comprehensive-article-20260915-p64&title=QA%20comprehensive%20article%2020260915%20p64"
+    }
+  ],
+  "destination": "https://yap.pr/blog/?blog=BdMQRKM6xT8jx4bKbkhP3wYo7V835pDjcEWTbN5PMNRU&post=qa-comprehensive-article-20260915-p64",
+  "destinationBody": "TESTNET|Running on Dash Platform Testnet. Data may be reset.\nPosts\nYappr\n\nBlog not found"
+}

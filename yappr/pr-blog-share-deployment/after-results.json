@@ -1,0 +1,24 @@
+{
+  "variant": "after",
+  "localSource": "http://127.0.0.1:3342/devnet/blog/?blog=BdMQRKM6xT8jx4bKbkhP3wYo7V835pDjcEWTbN5PMNRU&post=qa-comprehensive-article-20260915-p64",
+  "copied": "https://yap.pr/devnet/blog?blog=BdMQRKM6xT8jx4bKbkhP3wYo7V835pDjcEWTbN5PMNRU&post=qa-comprehensive-article-20260915-p64",
+  "popups": [
+    {
+      "name": "Share on X",
+      "url": "https://x.com/intent/tweet?text=QA%20comprehensive%20article%2020260915%20p64%20by%20%40zoe-dubois5&url=https%3A%2F%2Fyap.pr%2Fdevnet%2Fblog%3Fblog%3DBdMQRKM6xT8jx4bKbkhP3wYo7V835pDjcEWTbN5PMNRU%26post%3Dqa-comprehensive-article-20260915-p64",
+      "finalUrl": "https://x.com/i/flow/login?redirect_after_login=%2Fintent%2Ftweet%3Ftext%3DQA%2520comprehensive%2520article%252020260915%2520p64%2520by%2520%2540zoe-dubois5%26url%3Dhttps%253A%252F%252Fyap.pr%252Fdevnet%252Fblog%253Fblog%253DBdMQRKM6xT8jx4bKbkhP3wYo7V835pDjcEWTbN5PMNRU%2526post%253Dqa-comprehensive-article-20260915-p64"
+    },
+    {
+      "name": "Share on Facebook",
+      "url": "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fyap.pr%2Fdevnet%2Fblog%3Fblog%3DBdMQRKM6xT8jx4bKbkhP3wYo7V835pDjcEWTbN5PMNRU%26post%3Dqa-comprehensive-article-20260915-p64",
+      "finalUrl": "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fyap.pr%2Fdevnet%2Fblog%3Fblog%3DBdMQRKM6xT8jx4bKbkhP3wYo7V835pDjcEWTbN5PMNRU%26post%3Dqa-comprehensive-article-20260915-p64"
+    },
+    {
+      "name": "Share on Reddit",
+      "url": "https://www.reddit.com/submit?url=https%3A%2F%2Fyap.pr%2Fdevnet%2Fblog%3Fblog%3DBdMQRKM6xT8jx4bKbkhP3wYo7V835pDjcEWTbN5PMNRU%26post%3Dqa-comprehensive-article-20260915-p64&title=QA%20comprehensive%20article%2020260915%20p64",
+      "finalUrl": "https://www.reddit.com/submit?url=https%3A%2F%2Fyap.pr%2Fdevnet%2Fblog%3Fblog%3DBdMQRKM6xT8jx4bKbkhP3wYo7V835pDjcEWTbN5PMNRU%26post%3Dqa-comprehensive-article-20260915-p64&title=QA%20comprehensive%20article%2020260915%20p64"
+    }
+  ],
+  "destination": "https://yap.pr/devnet/blog/?blog=BdMQRKM6xT8jx4bKbkhP3wYo7V835pDjcEWTbN5PMNRU&post=qa-comprehensive-article-20260915-p64",
+  "destinationBody": "DEVNET|Running on a Dash Platform devnet. Data may be reset.\nPosts\nYappr\nQA comprehensive article 20260915 p64\n\nQA summary visible in the index and article.\n\n0 comments\n\nQA exhaustive blog 20260915 p64\n\n@zoe-dubois5 · 48 minutes ago\n\nFollow\n1 min read\n·\nQA Alpha,QA New\nAa\n\nQA ordinary paragraph.\n\nQA section heading\n\nReader formatting bold words\n\nFirst bullet\n\nSecond bullet\n\n\n\n\n\n\n\nTABLE OF CONTENTS\n\n1. QA section heading\n\n\n\n\nconst qa = \"persisted\";\n\n\n\n\nQA table cell\n\t\n\t\n\n\n\t\n\t\n\n\n\t\n\t\nLast cell\n\n\n\n\nCOLUMNS\n2\n3\nColumn 1\nColumn 2\nColumn 3\nCOLUMNS\n2\n3\nColumn 1\nColumn 2\n[1]\n\n\nWrite highlighted content...\nINFO\n\n\nINFO\nWrite callout text...\n\n\n\n\n\n\n\nYouTube\n\n\n\n\n\n\n\nFOOTNOTES\nFootnote text\n\nFollow QA exhaustive blog 20260915 p64 to get notified of new posts\n\nFollow\nComments\n\nComments are disabled"
+}
