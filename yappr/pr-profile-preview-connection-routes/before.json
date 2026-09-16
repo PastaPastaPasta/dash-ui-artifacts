@@ -1,0 +1,46 @@
+[
+  {
+    "base": "http://127.0.0.1:3380/devnet",
+    "width": 1280,
+    "kind": "Following",
+    "href": "/devnet/user/?id=7q9PdfjVLCZbcLb8wDdExUCokYSdi9Gu251Fqne2jNv9&tab=following",
+    "id": "7q9PdfjVLCZbcLb8wDdExUCokYSdi9Gu251Fqne2jNv9",
+    "destination": "http://127.0.0.1:3380/devnet/user/?id=7q9PdfjVLCZbcLb8wDdExUCokYSdi9Gu251Fqne2jNv9&tab=following",
+    "heading": [
+      "Tess Jansen"
+    ]
+  },
+  {
+    "base": "http://127.0.0.1:3380/devnet",
+    "width": 1280,
+    "kind": "Followers",
+    "href": "/devnet/user/?id=7q9PdfjVLCZbcLb8wDdExUCokYSdi9Gu251Fqne2jNv9&tab=followers",
+    "id": "7q9PdfjVLCZbcLb8wDdExUCokYSdi9Gu251Fqne2jNv9",
+    "destination": "http://127.0.0.1:3380/devnet/user/?id=7q9PdfjVLCZbcLb8wDdExUCokYSdi9Gu251Fqne2jNv9&tab=followers",
+    "heading": [
+      "Tess Jansen"
+    ]
+  },
+  {
+    "base": "http://127.0.0.1:3380/devnet",
+    "width": 390,
+    "kind": "Following",
+    "href": "/devnet/user/?id=7q9PdfjVLCZbcLb8wDdExUCokYSdi9Gu251Fqne2jNv9&tab=following",
+    "id": "7q9PdfjVLCZbcLb8wDdExUCokYSdi9Gu251Fqne2jNv9",
+    "destination": "http://127.0.0.1:3380/devnet/user/?id=7q9PdfjVLCZbcLb8wDdExUCokYSdi9Gu251Fqne2jNv9&tab=following",
+    "heading": [
+      "Tess Jansen"
+    ]
+  },
+  {
+    "base": "http://127.0.0.1:3380/devnet",
+    "width": 390,
+    "kind": "Followers",
+    "href": "/devnet/user/?id=7q9PdfjVLCZbcLb8wDdExUCokYSdi9Gu251Fqne2jNv9&tab=followers",
+    "id": "7q9PdfjVLCZbcLb8wDdExUCokYSdi9Gu251Fqne2jNv9",
+    "destination": "http://127.0.0.1:3380/devnet/user/?id=7q9PdfjVLCZbcLb8wDdExUCokYSdi9Gu251Fqne2jNv9&tab=followers",
+    "heading": [
+      "Tess Jansen"
+    ]
+  }
+]

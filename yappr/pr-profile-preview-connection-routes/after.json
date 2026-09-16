@@ -1,0 +1,46 @@
+[
+  {
+    "base": "http://127.0.0.1:3381/devnet",
+    "width": 1280,
+    "kind": "Following",
+    "href": "/devnet/following/?id=7q9PdfjVLCZbcLb8wDdExUCokYSdi9Gu251Fqne2jNv9",
+    "id": "7q9PdfjVLCZbcLb8wDdExUCokYSdi9Gu251Fqne2jNv9",
+    "destination": "http://127.0.0.1:3381/devnet/following/?id=7q9PdfjVLCZbcLb8wDdExUCokYSdi9Gu251Fqne2jNv9",
+    "heading": [
+      "@films-tess4.dash's Following"
+    ]
+  },
+  {
+    "base": "http://127.0.0.1:3381/devnet",
+    "width": 1280,
+    "kind": "Followers",
+    "href": "/devnet/followers/?id=7q9PdfjVLCZbcLb8wDdExUCokYSdi9Gu251Fqne2jNv9",
+    "id": "7q9PdfjVLCZbcLb8wDdExUCokYSdi9Gu251Fqne2jNv9",
+    "destination": "http://127.0.0.1:3381/devnet/followers/?id=7q9PdfjVLCZbcLb8wDdExUCokYSdi9Gu251Fqne2jNv9",
+    "heading": [
+      "@films-tess4.dash's Followers"
+    ]
+  },
+  {
+    "base": "http://127.0.0.1:3381/devnet",
+    "width": 390,
+    "kind": "Following",
+    "href": "/devnet/following/?id=7q9PdfjVLCZbcLb8wDdExUCokYSdi9Gu251Fqne2jNv9",
+    "id": "7q9PdfjVLCZbcLb8wDdExUCokYSdi9Gu251Fqne2jNv9",
+    "destination": "http://127.0.0.1:3381/devnet/following/?id=7q9PdfjVLCZbcLb8wDdExUCokYSdi9Gu251Fqne2jNv9",
+    "heading": [
+      "@films-tess4.dash's Following"
+    ]
+  },
+  {
+    "base": "http://127.0.0.1:3381/devnet",
+    "width": 390,
+    "kind": "Followers",
+    "href": "/devnet/followers/?id=7q9PdfjVLCZbcLb8wDdExUCokYSdi9Gu251Fqne2jNv9",
+    "id": "7q9PdfjVLCZbcLb8wDdExUCokYSdi9Gu251Fqne2jNv9",
+    "destination": "http://127.0.0.1:3381/devnet/followers/?id=7q9PdfjVLCZbcLb8wDdExUCokYSdi9Gu251Fqne2jNv9",
+    "heading": [
+      "@films-tess4.dash's Followers"
+    ]
+  }
+]
