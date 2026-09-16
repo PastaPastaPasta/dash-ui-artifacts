@@ -1,0 +1,20 @@
+{
+  "phase": "after",
+  "revision": "f12264e96bfcc36da5e853632f15e9ba3951cea1",
+  "id": "9gWVtfjkRp9dytJiKZ3FJENZnt3sqppe5V3bc1VkZavs",
+  "cases": [
+    {
+      "name": "desktop",
+      "width": 1280,
+      "height": 900,
+      "label": "1 saved post"
+    },
+    {
+      "name": "mobile",
+      "width": 390,
+      "height": 844,
+      "label": "1 saved post"
+    }
+  ],
+  "identity": "HVVUwJLhEngLH5LkZx8FgUkcso28xK7tn5gaaHke5WWu"
+}

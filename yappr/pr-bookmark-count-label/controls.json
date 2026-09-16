@@ -1,0 +1,20 @@
+{
+  "steps": [
+    {
+      "base": "http://127.0.0.1:3288/devnet",
+      "label": "2 saved posts",
+      "confirmed": true
+    },
+    {
+      "base": "http://127.0.0.1:3396/devnet",
+      "label": "2 saved posts",
+      "confirmed": true
+    },
+    {
+      "base": "http://127.0.0.1:3396/devnet",
+      "label": "0 saved posts",
+      "freshCleanup": true
+    }
+  ],
+  "addedSecond": "AGRLKvfiUQWdhadft4GG3Z4V2v9zoxCuy8BQS9M5ZHTx"
+}
