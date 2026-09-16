@@ -7,15 +7,15 @@ The same real incoming message `QA93 read without receipts 1789529885432` and co
 | Surface | Before state | After state | Expected delta |
 | --- | --- | --- | --- |
 | Opened conversation | Receipts off, message opened | Same message and preference | Both clear the badge |
-| Inbox after full reload | Same browser rereads inbox | Same browser rereads inbox | Base restores unread1; head retains read state |
-| New incoming message | Compatibility check on head | New real message after local read | New message still increments unread1 |
+| Inbox after full reload | Same browser rereads inbox | Same browser rereads inbox | Base restores unread 1; head retains read state |
+| New incoming message | Compatibility check on head | New real message after local read | New message still increments unread 1 |
 | Sender receipt | Receipts off, then enabled for a new message | Actual public receipt readback | No write while disabled; normal update when enabled |
 
 ## After reading, then reloading
 
 | Before — exact base | After — full PR head |
 | --- | --- |
-| ![Base restores an unread badge of1](before/reloaded-focused.png) | ![Head keeps the read conversation clear](after/reloaded-focused.png) |
+| ![Base restores an unread badge of 1](before/reloaded-focused.png) | ![Head keeps the read conversation clear](after/reloaded-focused.png) |
 | [Full-resolution overview](before/reloaded.png) | [Full-resolution overview](after/reloaded.png) |
 
 Focused images are unannotated crops of `(x275,y40,width400,height235)` from the original overviews. Both reload states show the same participant ID fallback; name hydration after reload is a separate observed issue and is not changed by this PR.
@@ -30,7 +30,7 @@ Focused images are unannotated crops of `(x275,y40,width400,height235)` from the
 
 ![A later incoming message still becomes unread on head](after/new-incoming.png)
 
-The sender stayed on the base revision at1280×900 for both compatibility checks. With receipts disabled, the new message has no Read indicator; the older S05 message retains its earlier receipt:
+The sender stayed on the base revision at 1280×900 for both compatibility checks. With receipts disabled, the new message has no Read indicator; the older S05 message retains its earlier receipt:
 
 ![Sender with receipts disabled](sender-receipts-off.png)
 
@@ -42,6 +42,6 @@ Read-only SDK queries independently verified receipt `Gy21nqRZ66zuH6eA7UrWzbUQmA
 
 ## Validation and limits
 
-Two service regression cases failed against the unchanged base integration; all11 focused service/storage tests pass on head. Type checking, full lint, and production build pass. Independent source review approved. The local history is bounded to1,000 confirmed incoming message IDs per deployment, DM contract, viewer, and conversation; no cross-device persistence is claimed. Corrupt/unavailable storage, independent scopes, own/optimistic messages, and equal message timestamps are covered by unit tests rather than screenshots.
+Two service regression cases failed against the unchanged base integration; all 11 focused service/storage tests pass on head. Type checking, full lint, and production build pass. Independent source review approved. The local history is bounded to 1,000 confirmed incoming message IDs per deployment, DM contract, viewer, and conversation; no cross-device persistence is claimed. Corrupt/unavailable storage, independent scopes, own/optimistic messages, and equal message timestamps are covered by unit tests rather than screenshots.
 
 All nine final PNGs were opened and visually inspected at original resolution, including both crops. No keys, seed phrases, authentication state, or populated secret inputs are included. Disposable browser contexts were closed. Three dedicated QA93 messages remain because ordinary DM deletion is not available; preferences were restored in the head context before disposal. Two earlier S05 QA messages remain visible and unchanged.
