@@ -1,0 +1,10 @@
+{
+  "before-enabled.png": "3afbf66062a34994320fb11850c14b5f8514c62ff8ce39490a5979de59857993",
+  "before-disabled-reloaded.png": "fee08ce57aeb637d5d87375140b385b01dcd30c60666313af2a554cbe1a3ba8f",
+  "before-reenabled.png": "41b1f1981b4f9a16de17d43b8bbe1042b0e1db89f17160d9d50a7702d14238f3",
+  "after-enabled.png": "41b1f1981b4f9a16de17d43b8bbe1042b0e1db89f17160d9d50a7702d14238f3",
+  "after-disabled-reloaded.png": "8680633b11f532b32dd7b34436c2f61d482827bc4831cd0aa2319e003be43bb3",
+  "after-reenabled.png": "41b1f1981b4f9a16de17d43b8bbe1042b0e1db89f17160d9d50a7702d14238f3",
+  "before-results.json": "4a87009f058978bbc986b469e0af12ff63ffd74ffd225744f4c7421049432635",
+  "after-results.json": "c7c9372b3fab4790b3f9236d10bf662477e28d8b014d1489ae7cbffc2a67acad"
+}

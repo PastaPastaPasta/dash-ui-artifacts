@@ -1,0 +1,14 @@
+{
+  "variant": "after",
+  "checks": [
+    "Existing real article notification shown after ordinary follow; no extra article created",
+    "Off hides actual Blog row after independent full reload",
+    "On restores same unread real Blog row; event not consumed by hiding"
+  ],
+  "enabledBadge": "1\nNotifications",
+  "eventText": "Notifications\nMark all as read\nAll\nLikes\nReposts\nReplies\nFollows\nMentions\nBlog\nPrivate\n\nZoë Dubois published a new blog post35m\n\nQA offline publish recovery p64",
+  "disabledBadge": "Notifications",
+  "reenabledBadge": "1\nNotifications",
+  "success": true,
+  "cleanup": "Follow restored off and fresh reload confirmed. Local preference restored on; disposable context read-state discarded."
+}
