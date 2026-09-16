@@ -1,11 +1,11 @@
 {
   "base": "cf0efbc10b8757137063113ebbd2061e8b87d8f7",
-  "head": "546bd62d4e4ff2ddee414b6b1837b2ae94bff241",
-  "at": "2026-09-16T03:40:16.914Z",
+  "head": "204e337b3b6a9e12c696ab22b5d56f91f01c161f",
+  "at": "2026-09-16T05:02:32.173Z",
   "messages": [
-    "QA93 read without receipts 1789529885432",
-    "QA93 new incoming message 1789530041011",
-    "QA93 receipts enabled 1789530049455"
+    "QA93 review read without receipts 1789534961654",
+    "QA93 new incoming message 1789534983169",
+    "QA93 receipts enabled 1789534992193"
   ],
   "sides": [
     {
@@ -13,12 +13,12 @@
       "unreadAfterReload": [
         "1"
       ],
-      "row": "HMqf6LRJ...\n2 minutes ago\n\nHMqf6LRJ4uxw...\n\nQA93 read without receipts 1789529885432\n\n1"
+      "row": "Noor Brennan\nless than a minute ago\n\ncampingnoor9.dash\n\nQA93 review read without receipts 1789534961654\n\n1"
     },
     {
       "side": "after",
       "unreadAfterReload": [],
-      "row": "HMqf6LRJ...\n2 minutes ago\n\nHMqf6LRJ4uxw...\n\nQA93 read without receipts 1789529885432"
+      "row": "Noor Brennan\nless than a minute ago\n\ncampingnoor9.dash\n\nQA93 review read without receipts 1789534961654"
     }
   ],
   "receiptBefore": [
@@ -26,7 +26,7 @@
       "id": "Gy21nqRZ66zuH6eA7UrWzbUQmAYKzRhmrFZJJ8fpVHg",
       "conversationId": "02g0RJQGvE6tIA==",
       "createdAt": 1789528557942,
-      "updatedAt": 1789528557942
+      "updatedAt": 1789534954683
     }
   ],
   "receiptAfterDisabled": [
@@ -34,7 +34,7 @@
       "id": "Gy21nqRZ66zuH6eA7UrWzbUQmAYKzRhmrFZJJ8fpVHg",
       "conversationId": "02g0RJQGvE6tIA==",
       "createdAt": 1789528557942,
-      "updatedAt": 1789528557942
+      "updatedAt": 1789534954683
     }
   ],
   "disabledReceipt": "Fresh sender has no Read on the new message; actual public receipt document unchanged",
@@ -44,7 +44,7 @@
       "id": "Gy21nqRZ66zuH6eA7UrWzbUQmAYKzRhmrFZJJ8fpVHg",
       "conversationId": "02g0RJQGvE6tIA==",
       "createdAt": 1789528557942,
-      "updatedAt": 1789530053095
+      "updatedAt": 1789534995753
     }
   ],
   "enabledReceipt": "Fresh sender sees Read on newly opened message with receipts enabled; public receipt update timestamp increased",
