@@ -1,12 +1,12 @@
 {
   "beforeRevision": "eb895be71a7207c73fb9329ac9d9bb7b398f53da",
-  "afterRevision": "844359dfbc4de41976bfa606b3c06b457750acf9",
+  "afterRevision": "12fb4cce4cc0c1110a23492b33a3df3f36dc6fbe",
   "viewport": {
     "width": 1440,
     "height": 1100
   },
   "files": {
-    "README.md": "7281332eee54b8a9d674ba8f3568efce318a3d3758aefe669ee17a0bda48389a",
+    "README.md": "653f927768c9715ac21595edbb1b2bc31cf3218c64d4804bf1dc5a0c54a6b405",
     "after/offline-cart-preserved.png": "0abfc21d75e97ad8d0544f0b2b2ef81d0038df4ccb05ff68e0efc4d52f51d965",
     "after/offline-result.json": "6bc3041e7e23f6b5944ba32a43f66cc9a41d96745d02ac0b31465e1ea318772b",
     "after/overstock-cart.png": "7250b3ad9fe331afbca696e2faaf3103aead6e9873022578c7686ab2ac685124",
@@ -18,6 +18,12 @@
     "after/result.json": "8fb9ecdcba751fa7302efb1f1e2f40ee93828df0df244711667edf535ebc3cd3",
     "after/stock-changed-before-place.png": "c0d6d4e247cca2e5d9435719c681bb4d0a6d941819735ef6ac63cd8a96913d0f",
     "after/valid-checkout.png": "9360aa1dbf3c3f319e54c99d0dc63c73014e7e2a44906027d02ee882d717695e",
+    "after-12fb4cce/overstock-cart.png": "7250b3ad9fe331afbca696e2faaf3103aead6e9873022578c7686ab2ac685124",
+    "after-12fb4cce/overstock-checkout.png": "c0d6d4e247cca2e5d9435719c681bb4d0a6d941819735ef6ac63cd8a96913d0f",
+    "after-12fb4cce/quantity-recovered.png": "820d01948b506ea4c4a30989010d940271e0e25242b09832ae52d837cb3768d1",
+    "after-12fb4cce/repeated-add-blocked.png": "9660d6ce538aaf41b684d074a194f8a2e95408916307769dfdc43397bee4164a",
+    "after-12fb4cce/result.json": "fd8f5a4be14ea1538c4b9c1504a3ddce394568baee7a4c3ac4504ac1ef6a4b43",
+    "after-12fb4cce/valid-checkout.png": "5f0c96dd8dbfef59ae3e0b2faae64f3fb957c7551a107b2ea56a859b85d9e888",
     "before/increment-past-stock.png": "d6c82c6f48dc942909e81cf031c93f2b6576c6a04799c897f463222df75f7f53",
     "before/overstock-cart.png": "d6c82c6f48dc942909e81cf031c93f2b6576c6a04799c897f463222df75f7f53",
     "before/overstock-checkout.png": "e93fcfdda4447f55fec68dae0a8292699fffba3a5ba147ddb4e5b48694398e68",
@@ -33,5 +39,7 @@
     "variant/creation.json": "e7fc8c3c42ceb8a06e2a59b2c44ee01d34ddd2782562d9b597528f98683b08ca",
     "variant/result.json": "4b11025bafd22811c42fa7db6cb1f1211f0d0a4005ef1ad23e60d7e19acaaf49",
     "variant/variant-cart.png": "b776ef09e1dcf04bcaa9f2fdeacabb27758ce28ef6d44f458077a956a63562e1"
-  }
+  },
+  "primaryAfterDirectory": "after-12fb4cce",
+  "supportingAfterRevision": "844359dfbc4de41976bfa606b3c06b457750acf9"
 }
