@@ -1,0 +1,20 @@
+[
+  {
+    "name": "before",
+    "port": 3288,
+    "viewport": {
+      "width": 320,
+      "height": 568
+    },
+    "dividerY": 100.15625
+  },
+  {
+    "name": "after",
+    "port": 3357,
+    "viewport": {
+      "width": 320,
+      "height": 568
+    },
+    "dividerY": 99.9375
+  }
+]

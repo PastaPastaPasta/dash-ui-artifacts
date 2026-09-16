@@ -10,3 +10,5 @@ Same real UI-created blog article66syyLM2ZAakx2JNZuMJw4PY896cphx8Q2vc1kVCNTK, ow
 |320x900 top article | same code/table omissions | readable code and horizontally-contained table |
 
 Compatibility: reader unchanged; headings/bold/lists/image preserved; Dark palette; static-video link _top matches script iframe user-navigation capability; no playback claim. TOC and layout fidelity beyond retained text remain outside this issue. Background section contrast is separately tracked QA100 and is not claimed fixed.
+
+Publication refinement: capture an additional320x568 video pair with the same divider at y100 (subpixel rounding tolerance1px); prefer that pair inline to keep the Watch video text readable. Exact source/fixture unchanged.
