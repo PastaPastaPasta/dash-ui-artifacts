@@ -1,0 +1,38 @@
+{
+  "revision": "026c7d22b1a2d67cda229c252276cf63cd86e176",
+  "base": "http://127.0.0.1:4346/devnet",
+  "itemId": "2j26J7FfWDtFDntxs9rPLgQ6rx1QNEGwHL35rKdigNSL",
+  "checks": [
+    {
+      "name": "inline clear shows Unlimited after save",
+      "status": "pass"
+    },
+    {
+      "name": "fresh inventory stock after inline clear",
+      "detail": {
+        "expected": "Unlimited"
+      },
+      "status": "pass"
+    },
+    {
+      "name": "fresh editor agrees and other product fields preserved",
+      "status": "pass"
+    },
+    {
+      "name": "product editor blank stock Save fresh readback",
+      "detail": {
+        "expected": ""
+      },
+      "status": "pass"
+    },
+    {
+      "name": "explicit zero stays Out of stock on fresh inventory",
+      "status": "pass"
+    },
+    {
+      "name": "disposable fixture restored7 after both clear flows",
+      "status": "pass"
+    }
+  ],
+  "passed": true
+}

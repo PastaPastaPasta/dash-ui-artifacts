@@ -1,0 +1,30 @@
+{
+  "revision": "cf0efbc10b8757137063113ebbd2061e8b87d8f7",
+  "base": "http://127.0.0.1:3288/devnet",
+  "itemId": "2j26J7FfWDtFDntxs9rPLgQ6rx1QNEGwHL35rKdigNSL",
+  "checks": [
+    {
+      "name": "inline clear shows Unlimited after save",
+      "status": "pass"
+    },
+    {
+      "name": "fresh inventory stock after inline clear",
+      "detail": {
+        "expected": "7"
+      },
+      "status": "pass"
+    },
+    {
+      "name": "fresh editor agrees and other product fields preserved",
+      "status": "pass"
+    },
+    {
+      "name": "product editor blank stock Save fresh readback",
+      "detail": {
+        "expected": "7"
+      },
+      "status": "pass"
+    }
+  ],
+  "passed": true
+}
