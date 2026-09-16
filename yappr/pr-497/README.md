@@ -15,3 +15,7 @@ Successful post ID: `JAtagssAfxqfyyKCrobSoQTdTM2t9Ymr4MZdMAieQ2fZ`. It was tombs
 Both original PNGs were opened and inspected at original resolution. The before image visibly shows the actual no-matching-key error; the after image visibly shows the persisted post. Public URL byte/type checks are recorded separately in the PR.
 
 The committed devnet build and 265 unit tests pass. The original unmodified local topology run advances past all prior signing failures: 14 passed, 1 failed, 8 expected v4 skips, 5 not run. The failure is a separate pre-hydration Creators-tab test race tracked as QA108; this evidence does not claim a fully passing topology suite. CI's existing continue-on-error policy remains explicit in the documentation.
+
+## Completed combined validation
+
+The exact local integration `a6ced6ec7239de2e22de41d79daeb256b42b233d` combines the three separate PR heads listed in `combined-validation.json`. It passes all20 applicable topology tests (8 v4-only tests correctly skipped on v6), with retries and traces disabled, in1.7minutes. `topology-results.txt` lists each result. This covers real writes and proved readbacks; it does not claim all application user stories or standalone CI jobs pass. The temporary fixture credit shortfall was verified and replenished before this serial run. No signing credential changed.

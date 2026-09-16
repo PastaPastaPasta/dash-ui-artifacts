@@ -1,0 +1,43 @@
+{
+  "validatedAt": "2026-09-16T04:07:09.326Z",
+  "environment": "real moutai devnet; v6 social contract",
+  "integrationRevision": "a6ced6ec7239de2e22de41d79daeb256b42b233d",
+  "componentHeads": {
+    "QA98_PR497": "bcd859dcac2e5d089d61857d8585548614b21cd5",
+    "QA108_PR503": "a634847c16a7f664124ec2485eff0c912e8a3c77",
+    "QA112_PR511": "7a50a04656d18a34c46da11bb85c76a46ce8c4a7"
+  },
+  "identityId": "EShbqnfLdmctGWaUCnU3FNKMenYmxiQEiawY3q2pLQm2",
+  "identityAccount": "yappr-ci-devnet-260915.dash",
+  "passed": 20,
+  "skipped": 8,
+  "skipReason": "v4-only tests deliberately do not apply to v6",
+  "failed": 0,
+  "duration": "1.7m",
+  "retries": 0,
+  "traces": "off",
+  "fixtureAuth": "programmatic browser storage; normal actual app writes and proved readbacks; no DOM/API mocks",
+  "scope": "Full topology specification with three separate repairs combined locally; not an entire-app coverage claim or a standalone-PR CI pass",
+  "standaloneQA112": {
+    "revision": "7a50a04656d18a34c46da11bb85c76a46ce8c4a7",
+    "passed": 2,
+    "duration": "15.3s",
+    "scope": "v6 tag/profile Top Today tests, including authenticated write-and-like setup"
+  },
+  "historicalCi": {
+    "PR": 497,
+    "run": "35052516485",
+    "job": "104655768711",
+    "passed": 6,
+    "flaky": 1,
+    "failed": 1,
+    "skipped": 8,
+    "notRun": 12,
+    "qualification": "Signing repair worked; dedicated fixture exhausted Platform credits after successful root/reply/like/quote/tombstone tests. Existing nonblocking job conclusion was SUCCESS despite failed tests."
+  },
+  "creditBudgetCorrection": {
+    "verifiedError": "Insufficient identity balance241039333 required411635040",
+    "balanceAfterTopup": "50233100453",
+    "topupDuffs": 50000000
+  }
+}

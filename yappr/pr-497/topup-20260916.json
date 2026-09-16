@@ -1,0 +1,12 @@
+{
+  "at": "2026-09-16T04:03:25.472Z",
+  "identityId": "EShbqnfLdmctGWaUCnU3FNKMenYmxiQEiawY3q2pLQm2",
+  "amountDuffs": 50000000,
+  "splitTxid": "ae64e78b22aa0850d7324a178811a3f8451267098bcaf37d1dccdabe85b07c7d",
+  "lockTxid": "71c66b19d5d875b5567cd372dd184f355fb00ad792dfd2df1eeacce751ea7ab8",
+  "blockHeight": 71712,
+  "coreChainLockedHeight": 71713,
+  "balanceBefore": "241039333",
+  "balanceAfter": "50233100453",
+  "method": "Authorized retained devnet QA treasury; ordinary SDK identity top-up"
+}
