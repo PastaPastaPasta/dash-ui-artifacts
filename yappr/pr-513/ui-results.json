@@ -1,0 +1,18 @@
+{
+  "base": "cf0efbc10b8757137063113ebbd2061e8b87d8f7",
+  "head": "9dba5142b309bae0c35a4a1e10919a53c16fd4c7",
+  "identity": "GEriFkuaUndk4zoBwCJ36Qn9Jy7NgjKsZbJauNdywz4p",
+  "before": {
+    "masterLabelCount": 0,
+    "focusAfterLabelClick": false,
+    "unnamedCloseAndVisibilityButtons": 2
+  },
+  "after": {
+    "focusAfterLabelClick": true,
+    "showType": "text",
+    "hideType": "password",
+    "closeWorked": true
+  },
+  "sameDerivedBackup": true,
+  "noIdentityTransitionSubmitted": true
+}

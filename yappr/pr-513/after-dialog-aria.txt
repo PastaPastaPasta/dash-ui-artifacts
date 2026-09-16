@@ -1,0 +1,13 @@
+- dialog "Confirm with Master Key":
+  - button "Close encryption key setup"
+  - heading "Confirm with Master Key" [level=2]
+  - paragraph: Enter your Master key to confirm this change to your identity.
+  - paragraph: Your Master key is different from your login key. It was provided when you created your identity.
+  - text: Master Key
+  - button "Show master key"
+  - textbox "Master Key":
+    - /placeholder: Enter your Master key...
+  - paragraph: Starts with 'c' (testnet) or 'X' (mainnet), about 51-52 characters.
+  - paragraph: This will cost a small amount of credits from your identity balance.
+  - button "Add Encryption Key" [disabled]
+  - button "Back"
