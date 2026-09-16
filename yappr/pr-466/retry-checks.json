@@ -1,0 +1,18 @@
+{
+  "head": "638f8ba3c43a35c2885ab96737746ae672083231",
+  "store": "98FYBhEF9Q8xNzbamzy66Dm5cMQ5gm9MoAZaiy518sNp",
+  "fixtures": [
+    "QA UploadLock59",
+    "QA Inventory Zero52"
+  ],
+  "checks": [
+    "Partial bulk failure removes only confirmed first item, retains failed row/selection and retry dialog",
+    "Retry after request restoration succeeds; fresh inventory confirms both deleted and unrelated fixtures preserved",
+    "New synthetic single product: actual inventory deletion succeeds and stays absent after reload",
+    "Management actual confirmed deletion completed; fresh readback confirms product remains absent"
+  ],
+  "disclosure": "Real deletes limited to own synthetic products. Partial-failure test passes first real broadcast, aborts subsequent requests, then removes interruption and retries only remaining selected item.",
+  "partialBroadcasts": 5,
+  "automationCorrection": "Initial management assertion used accessibility heading count while active dialog hides background; corrected to await dialog completion and DOM card absence before reload. This is an automation timing correction, not a product failure.",
+  "success": true
+}

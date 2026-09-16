@@ -1,0 +1,15 @@
+{
+  "state": "after",
+  "revision": "638f8ba3c43a35c2885ab96737746ae672083231",
+  "store": "98FYBhEF9Q8xNzbamzy66Dm5cMQ5gm9MoAZaiy518sNp",
+  "fixtures": [
+    "QA CSV Currency54",
+    "QA CSV Sizes54"
+  ],
+  "checks": [
+    "Both bulk candidates still persisted on fresh online inventory",
+    "Management candidate still persisted on fresh online readback"
+  ],
+  "disclosure": "Browser offline after actual loaded product rows. No API success mock; no successful deletion.",
+  "success": true
+}

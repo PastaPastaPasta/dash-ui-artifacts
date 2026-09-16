@@ -1,0 +1,13 @@
+{
+  "state": "before",
+  "revision": "eb895be71a7207c73fb9329ac9d9bb7b398f53da",
+  "store": "98FYBhEF9Q8xNzbamzy66Dm5cMQ5gm9MoAZaiy518sNp",
+  "fixture": "QA CSV Currency54",
+  "item": "9Tshw8avzu4My9S86kDg9XTMjo4ukNrVTUFGbyKZJ9Qk",
+  "disclosure": "Browser offline only after actual inventory loaded; no successful deletion or fake response.",
+  "checks": [
+    "Fresh online reload confirms fixture was not actually deleted"
+  ],
+  "visibleResult": "DEVNET|Running on a Dash Platform devnet. Data may be reset.\nYappr\nHome\nFollowing\nFollowers\nExplore\nStore\nBlog\nNotifications\nMessages\nBookmarks\nProfile\nSettings\nPost\n\n@kalindam81.dash\n\n5Qazb9...cJcK\n\nInventory\n\nQA Commerce 40 20260915\n\nExport CSV\nUpload CSV\nAll Status\nActive\nPaused\nSold Out\nDeleted\nAll Categories\nQA\nQA Test\nShowing 0 of 3 items\n\t\t\nItem\n\tSKU\t\nPrice\n\t\nStock\n\t\nStatus\n\t\nTrending\n1\n\n#masternodes\n\n32 likes\n\n2\n\n#hiking\n\n13 likes\n\n3\n\n#dashplatform\n\n13 likes\n\n4\n\n#life\n\n12 likes\n\n5\n\n#weekend\n\n11 likes\n\n6\n\n#dash\n\n11 likes\n\n7\n\n#shoplocal\n\n6 likes\n\n8\n\n#memes\n\n6 likes\n\nShow more\nStats\nTotal Posts\n6.5K\nYour Posts\n91\nFollowers\n0\nFollowing\n0\nTermsPrivacyCookiesAbout\nItem deleted",
+  "success": true
+}
