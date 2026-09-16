@@ -1,0 +1,25 @@
+{
+  "state": "after",
+  "revision": "088a0cea8e062cffeba6d9623b90be34214c174f",
+  "store": "98FYBhEF9Q8xNzbamzy66Dm5cMQ5gm9MoAZaiy518sNp",
+  "item": "38M9XgzPqHBZu1ABvoiceRA31eAJ8NW3hhryTPt6MWM1",
+  "query": "QA-L54",
+  "checks": [
+    "Secondary SKU exact/lowercase/partial and original parent SKU/title all find product and expandable variants",
+    "Unknown query still returns zero",
+    "Plain product with missing SKU remains searchable by title",
+    "Clearing query restores full inventory",
+    "Category filter remains applied independently"
+  ],
+  "variantRows": [
+    "QA CSV Sizes542 variantsQA-S541.2500 DASH - 2.5000 DASH2active",
+    "SmallQA-S541.2500 DASH2",
+    "LargeQA-L542.5000 DASHOut of stock"
+  ],
+  "searchRows": [
+    "QA CSV Sizes542 variantsQA-S541.2500 DASH - 2.5000 DASH2active",
+    "SmallQA-S541.2500 DASH2",
+    "LargeQA-L542.5000 DASHOut of stock"
+  ],
+  "success": true
+}
