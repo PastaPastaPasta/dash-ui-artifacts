@@ -1,0 +1,770 @@
+{
+  "revision": "cf0efbc10b8757137063113ebbd2061e8b87d8f7",
+  "base": "http://127.0.0.1:3288/devnet",
+  "fixture": {
+    "blog": "BkqjYQ95Mm2vNGEaoKbE473jodp7ZPFQr1Mj3jmqw6wA",
+    "post": "5cY37VaxiKxBnprHfXG11Nx37eDv6Jb8RHYDMCmWWi8G",
+    "owner": "H4P7NB1JNJ3B9LRpPixi3sUs7qhN5w9xs9YbQSBFh8Z1",
+    "slug": "qa-embed-navigation-20260915"
+  },
+  "scope": "B04/B17/B23/B24, ordinary read-only guest and seeded persona65. No public mutations.",
+  "reader": {
+    "sizes": {
+      "small": {
+        "fontSize": "14px",
+        "color": "rgb(229, 231, 235)",
+        "pref": "{\"state\":{\"readingMode\":\"author\",\"fontSize\":\"small\"},\"version\":0}",
+        "theme": "dark"
+      },
+      "medium": {
+        "fontSize": "17px",
+        "color": "rgb(229, 231, 235)",
+        "pref": "{\"state\":{\"readingMode\":\"author\",\"fontSize\":\"medium\"},\"version\":0}",
+        "theme": "dark"
+      },
+      "large": {
+        "fontSize": "18px",
+        "color": "rgb(229, 231, 235)",
+        "pref": "{\"state\":{\"readingMode\":\"author\",\"fontSize\":\"large\"},\"version\":0}",
+        "theme": "dark"
+      },
+      "xlarge": {
+        "fontSize": "20px",
+        "color": "rgb(229, 231, 235)",
+        "pref": "{\"state\":{\"readingMode\":\"author\",\"fontSize\":\"xlarge\"},\"version\":0}",
+        "theme": "dark"
+      }
+    },
+    "reset": {
+      "fontSize": "17px",
+      "color": "rgb(229, 231, 235)",
+      "pref": "{\"state\":{\"readingMode\":\"author\",\"fontSize\":\"medium\"},\"version\":0}",
+      "theme": "dark"
+    },
+    "keyboard": [
+      {
+        "active": {
+          "tag": "BUTTON",
+          "title": "Reading preferences",
+          "label": "Reading preferences",
+          "text": "Aa"
+        },
+        "popover": true
+      },
+      {
+        "active": {
+          "tag": "BUTTON",
+          "title": "",
+          "label": "More actions",
+          "text": ""
+        },
+        "popover": true
+      },
+      {
+        "active": {
+          "tag": "DIV",
+          "title": "",
+          "label": null,
+          "text": "This is a QA test article for verifying that View on Yappr stays on the devnet d"
+        },
+        "popover": true
+      },
+      {
+        "active": {
+          "tag": "TEXTAREA",
+          "title": "",
+          "label": null,
+          "text": ""
+        },
+        "popover": true
+      },
+      {
+        "active": {
+          "tag": "BUTTON",
+          "title": "",
+          "label": "Like",
+          "text": ""
+        },
+        "popover": true
+      }
+    ]
+  },
+  "keyboardAndTheme": {
+    "keyboardBefore": {
+      "focus": {
+        "tag": "BUTTON",
+        "label": "Reading preferences",
+        "title": "Reading preferences"
+      },
+      "visiblePopover": true,
+      "theme": "dark"
+    },
+    "keyboardAfterOneTab": {
+      "focus": {
+        "tag": "BUTTON",
+        "label": "More actions",
+        "title": ""
+      },
+      "visiblePopover": false,
+      "theme": "dark"
+    },
+    "readerLight": {
+      "focus": {
+        "tag": "BUTTON",
+        "label": "Reading preferences",
+        "title": "Reading preferences"
+      },
+      "visiblePopover": false,
+      "theme": "light"
+    },
+    "afterLeavingReader": {
+      "focus": {
+        "tag": "BUTTON",
+        "label": null,
+        "title": ""
+      },
+      "visiblePopover": false,
+      "theme": "dark"
+    },
+    "reopened": {
+      "focus": {
+        "tag": "BUTTON",
+        "label": null,
+        "title": ""
+      },
+      "visiblePopover": false,
+      "theme": "light"
+    },
+    "reloaded": {
+      "focus": {
+        "tag": "BODY",
+        "label": null,
+        "title": ""
+      },
+      "visiblePopover": false,
+      "theme": "light"
+    },
+    "afterReloadAndLeaving": {
+      "focus": {
+        "tag": "BUTTON",
+        "label": null,
+        "title": ""
+      },
+      "visiblePopover": false,
+      "theme": "light"
+    }
+  },
+  "mobileEmbed": [
+    {
+      "viewport": {
+        "width": 320,
+        "height": 568
+      },
+      "before": {
+        "dialog": {
+          "x": 6.40625,
+          "y": -102,
+          "width": 307.1875,
+          "height": 772
+        },
+        "close": {
+          "x": 268.59375,
+          "y": -65,
+          "width": 28,
+          "height": 28
+        },
+        "copy": {
+          "x": 23.40625,
+          "y": 613,
+          "width": 153.796875,
+          "height": 40
+        }
+      },
+      "afterWheel": {
+        "dialog": {
+          "x": 6.40625,
+          "y": -102,
+          "width": 307.1875,
+          "height": 772
+        },
+        "close": {
+          "x": 268.59375,
+          "y": -65,
+          "width": 28,
+          "height": 28
+        },
+        "copy": {
+          "x": 23.40625,
+          "y": 613,
+          "width": 153.796875,
+          "height": 40
+        }
+      },
+      "focus": [
+        {
+          "tag": "BUTTON",
+          "text": "",
+          "label": "Close",
+          "insideDialog": true
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Light",
+          "label": null,
+          "insideDialog": true
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Dark",
+          "label": null,
+          "insideDialog": true
+        },
+        {
+          "tag": "IFRAME",
+          "text": "",
+          "label": null,
+          "insideDialog": true
+        },
+        {
+          "tag": "PRE",
+          "text": "<iframe src=\"https://yap.pr/devnet/",
+          "label": null,
+          "insideDialog": true
+        },
+        {
+          "tag": "PRE",
+          "text": "<div data-yappr-post=\"5cY37VaxiKxBn",
+          "label": null,
+          "insideDialog": true
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Copy embed code",
+          "label": null,
+          "insideDialog": true
+        },
+        {
+          "tag": "BUTTON",
+          "text": "",
+          "label": "Close",
+          "insideDialog": true
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Light",
+          "label": null,
+          "insideDialog": true
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Dark",
+          "label": null,
+          "insideDialog": true
+        }
+      ],
+      "afterEscape": {
+        "dialogs": 1,
+        "focus": null,
+        "text": "",
+        "menus": 1
+      }
+    },
+    {
+      "viewport": {
+        "width": 390,
+        "height": 667
+      },
+      "before": {
+        "dialog": {
+          "x": 7.8046875,
+          "y": -42.5,
+          "width": 374.390625,
+          "height": 752
+        },
+        "close": {
+          "x": 337.1953125,
+          "y": -15.5,
+          "width": 28,
+          "height": 28
+        },
+        "copy": {
+          "x": 24.8046875,
+          "y": 652.5,
+          "width": 153.796875,
+          "height": 40
+        }
+      },
+      "afterWheel": {
+        "dialog": {
+          "x": 7.8046875,
+          "y": -42.5,
+          "width": 374.390625,
+          "height": 752
+        },
+        "close": {
+          "x": 337.1953125,
+          "y": -15.5,
+          "width": 28,
+          "height": 28
+        },
+        "copy": {
+          "x": 24.8046875,
+          "y": 652.5,
+          "width": 153.796875,
+          "height": 40
+        }
+      },
+      "focus": [
+        {
+          "tag": "BUTTON",
+          "text": "",
+          "label": "Close",
+          "insideDialog": true
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Light",
+          "label": null,
+          "insideDialog": true
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Dark",
+          "label": null,
+          "insideDialog": true
+        },
+        {
+          "tag": "IFRAME",
+          "text": "",
+          "label": null,
+          "insideDialog": true
+        },
+        {
+          "tag": "PRE",
+          "text": "<iframe src=\"https://yap.pr/devnet/",
+          "label": null,
+          "insideDialog": true
+        },
+        {
+          "tag": "PRE",
+          "text": "<div data-yappr-post=\"5cY37VaxiKxBn",
+          "label": null,
+          "insideDialog": true
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Copy embed code",
+          "label": null,
+          "insideDialog": true
+        },
+        {
+          "tag": "BUTTON",
+          "text": "",
+          "label": "Close",
+          "insideDialog": true
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Light",
+          "label": null,
+          "insideDialog": true
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Dark",
+          "label": null,
+          "insideDialog": true
+        }
+      ],
+      "afterEscape": {
+        "dialogs": 1,
+        "focus": null,
+        "text": "",
+        "menus": 1
+      }
+    },
+    {
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "before": {
+        "dialog": {
+          "x": 192,
+          "y": 70,
+          "width": 896,
+          "height": 760
+        },
+        "close": {
+          "x": 1039,
+          "y": 101,
+          "width": 28,
+          "height": 28
+        },
+        "copy": {
+          "x": 213,
+          "y": 769,
+          "width": 153.796875,
+          "height": 40
+        }
+      },
+      "afterWheel": {
+        "dialog": {
+          "x": 192,
+          "y": 70,
+          "width": 896,
+          "height": 760
+        },
+        "close": {
+          "x": 1039,
+          "y": 101,
+          "width": 28,
+          "height": 28
+        },
+        "copy": {
+          "x": 213,
+          "y": 769,
+          "width": 153.796875,
+          "height": 40
+        }
+      },
+      "focus": [
+        {
+          "tag": "BUTTON",
+          "text": "",
+          "label": "Close",
+          "insideDialog": true
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Light",
+          "label": null,
+          "insideDialog": true
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Dark",
+          "label": null,
+          "insideDialog": true
+        },
+        {
+          "tag": "IFRAME",
+          "text": "",
+          "label": null,
+          "insideDialog": true
+        },
+        {
+          "tag": "PRE",
+          "text": "<iframe src=\"https://yap.pr/devnet/",
+          "label": null,
+          "insideDialog": true
+        },
+        {
+          "tag": "PRE",
+          "text": "<div data-yappr-post=\"5cY37VaxiKxBn",
+          "label": null,
+          "insideDialog": true
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Copy embed code",
+          "label": null,
+          "insideDialog": true
+        },
+        {
+          "tag": "BUTTON",
+          "text": "",
+          "label": "Close",
+          "insideDialog": true
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Light",
+          "label": null,
+          "insideDialog": true
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Dark",
+          "label": null,
+          "insideDialog": true
+        }
+      ],
+      "afterEscape": {
+        "dialogs": 1,
+        "focus": null,
+        "text": "",
+        "menus": 1
+      }
+    }
+  ],
+  "routes": [
+    {
+      "name": "B24 matching owner dark",
+      "status": "pass",
+      "url": "http://127.0.0.1:3288/devnet/embed/?post=5cY37VaxiKxBnprHfXG11Nx37eDv6Jb8RHYDMCmWWi8G&owner=H4P7NB1JNJ3B9LRpPixi3sUs7qhN5w9xs9YbQSBFh8Z1&theme=dark",
+      "theme": "dark",
+      "footer": {
+        "href": "http://127.0.0.1:3288/devnet/blog/?blog=BkqjYQ95Mm2vNGEaoKbE473jodp7ZPFQr1Mj3jmqw6wA&post=qa-embed-navigation-20260915",
+        "target": "_top",
+        "text": "View on Yappr"
+      },
+      "size": {
+        "width": 390,
+        "viewport": 390
+      }
+    },
+    {
+      "name": "B24 no owner light",
+      "status": "pass",
+      "url": "http://127.0.0.1:3288/devnet/embed/?post=5cY37VaxiKxBnprHfXG11Nx37eDv6Jb8RHYDMCmWWi8G",
+      "theme": "light",
+      "footer": {
+        "href": "http://127.0.0.1:3288/devnet/blog/?blog=BkqjYQ95Mm2vNGEaoKbE473jodp7ZPFQr1Mj3jmqw6wA&post=qa-embed-navigation-20260915",
+        "target": "_top",
+        "text": "View on Yappr"
+      },
+      "size": {
+        "width": 390,
+        "viewport": 390
+      }
+    },
+    {
+      "name": "B24 wrong owner",
+      "status": "pass",
+      "url": "http://127.0.0.1:3288/devnet/embed/?post=5cY37VaxiKxBnprHfXG11Nx37eDv6Jb8RHYDMCmWWi8G&owner=4WJqx5yBKTW3v6FbkvwNZpGvWyafDzTjMSZLZEYwtC8R",
+      "theme": "light",
+      "footer": {
+        "href": "http://127.0.0.1:3288/devnet/blog/",
+        "target": "_top",
+        "text": "Browse blogs on Yappr"
+      },
+      "size": {
+        "width": 390,
+        "viewport": 390
+      }
+    },
+    {
+      "name": "B24 unknown valid-shaped post",
+      "status": "pass",
+      "url": "http://127.0.0.1:3288/devnet/embed/?post=4WJqx5yBKTW3v6FbkvwNZpGvWyafDzTjMSZLZEYwtC8R",
+      "theme": "light",
+      "footer": {
+        "href": "http://127.0.0.1:3288/devnet/blog/",
+        "target": "_top",
+        "text": "Browse blogs on Yappr"
+      },
+      "size": {
+        "width": 390,
+        "viewport": 390
+      }
+    },
+    {
+      "name": "B24 unsupported theme defaults light",
+      "status": "pass",
+      "url": "http://127.0.0.1:3288/devnet/embed/?post=5cY37VaxiKxBnprHfXG11Nx37eDv6Jb8RHYDMCmWWi8G&theme=sepia",
+      "theme": "light",
+      "footer": {
+        "href": "http://127.0.0.1:3288/devnet/blog/?blog=BkqjYQ95Mm2vNGEaoKbE473jodp7ZPFQr1Mj3jmqw6wA&post=qa-embed-navigation-20260915",
+        "target": "_top",
+        "text": "View on Yappr"
+      },
+      "size": {
+        "width": 390,
+        "viewport": 390
+      }
+    },
+    {
+      "name": "B24 missing post",
+      "status": "pass",
+      "url": "http://127.0.0.1:3288/devnet/embed/",
+      "theme": "light",
+      "footer": {
+        "href": "http://127.0.0.1:3288/devnet/blog/",
+        "target": "_top",
+        "text": "Browse blogs on Yappr"
+      },
+      "size": {
+        "width": 390,
+        "viewport": 390
+      }
+    },
+    {
+      "name": "B24 missing-post recovery footer opens Blogs",
+      "status": "pass",
+      "url": "http://127.0.0.1:3288/devnet/blog/"
+    },
+    {
+      "name": "B04 missing slug",
+      "status": "pass",
+      "url": "http://127.0.0.1:3288/devnet/blog/?blog=BkqjYQ95Mm2vNGEaoKbE473jodp7ZPFQr1Mj3jmqw6wA&post=qa-does-not-exist-20260915",
+      "text": "Post not found",
+      "buttons": [
+        "Posts",
+        "",
+        ""
+      ],
+      "width": 390
+    },
+    {
+      "name": "B04 missing blog",
+      "status": "pass",
+      "url": "http://127.0.0.1:3288/devnet/blog/?blog=4WJqx5yBKTW3v6FbkvwNZpGvWyafDzTjMSZLZEYwtC8R",
+      "text": "Blog not found",
+      "buttons": [
+        "Blogs",
+        "",
+        ""
+      ],
+      "width": 390
+    },
+    {
+      "name": "B04 Posts blog home Blogs and browser Back restore article",
+      "status": "pass",
+      "url": "http://127.0.0.1:3288/devnet/blog/?blog=BkqjYQ95Mm2vNGEaoKbE473jodp7ZPFQr1Mj3jmqw6wA&post=qa-embed-navigation-20260915",
+      "heading": "QA embed navigation 20260915"
+    }
+  ],
+  "dismissalOfflineAuthenticated": {
+    "close": {
+      "focusTag": "BUTTON",
+      "focusText": "Embed",
+      "focusLabel": null,
+      "menuPresent": true
+    },
+    "escape": {
+      "focusTag": "BUTTON",
+      "focusText": "Embed",
+      "focusLabel": null,
+      "menuPresent": true
+    },
+    "backdrop": {
+      "focusTag": "BUTTON",
+      "focusText": "Embed",
+      "focusLabel": null,
+      "menuPresent": true
+    },
+    "offline": "Failed to load blog",
+    "offlineReloadRecovery": "QA embed navigation 20260915",
+    "persona65": {
+      "identity": "9cjhprZAFUDVG71Fo8b5eCzHpwjo9Aj9npcRRpmCJBbw",
+      "reader": {
+        "fontSize": "18px",
+        "color": "rgb(92, 64, 51)",
+        "pref": "{\"state\":{\"readingMode\":\"sepia\",\"fontSize\":\"large\"},\"version\":0}"
+      },
+      "embedClipboardMatches": true
+    }
+  },
+  "hostedScriptAndNavigation": {
+    "iframe": {
+      "src": "http://127.0.0.1:3288/devnet/embed/?post=5cY37VaxiKxBnprHfXG11Nx37eDv6Jb8RHYDMCmWWi8G&owner=H4P7NB1JNJ3B9LRpPixi3sUs7qhN5w9xs9YbQSBFh8Z1&theme=dark",
+      "sandbox": "allow-scripts allow-same-origin allow-top-navigation-by-user-activation"
+    },
+    "theme": "dark",
+    "topDestination": "http://127.0.0.1:3288/devnet/blog/?blog=BkqjYQ95Mm2vNGEaoKbE473jodp7ZPFQr1Mj3jmqw6wA&post=qa-embed-navigation-20260915",
+    "secondArticle": "QA article lifecycle 20260915 p44",
+    "backFirstArticle": "QA embed navigation 20260915"
+  },
+  "richEmbed": {
+    "url": "http://127.0.0.1:3288/devnet/blog/?blog=BdMQRKM6xT8jx4bKbkhP3wYo7V835pDjcEWTbN5PMNRU&post=qa-comprehensive-article-20260915-p64",
+    "reader": "QA comprehensive article 20260915 p64\n\nQA summary visible in the index and article.\n\n0 comments\n\nQA exhaustive blog 20260915 p64\n\n@zoe-dubois5 \u00b7 2 minutes ago\n\n1 min read\n\u00b7\nQA Alpha,QA New\nAa\n\nQA ordinary paragraph.\n\nQA section heading\n\nReader formatting bold words\n\nFirst bullet\n\nSecond bullet\n\n\n\n\n\n\n\nTABLE OF CONTENTS\n\n1. QA section heading\n\n\n\n\nconst qa = \"persisted\";\n\n\n\n\nQA table cell\n\t\n\t\n\n\n\t\n\t\n\n\n\t\n\t\nLast cell\n\n\n\n\nCOLUMNS\n2\n3\nColumn 1\nColumn 2\nColumn 3\nCOLUMNS\n2\n3\nColumn 1\nColumn 2\n[1]\n\n\nWrite highlighted content...\nINFO\n\n\nINFO\nWrite callout text...\n\n\n\n\n\n\n\nYouTube\n\n\n\n\n\n\n\nFOOTNOTES\nFootnote text\nComments\n\nComments are disabled",
+    "snippets": [
+      "<iframe src=\"https://yap.pr/devnet/embed/?post=66syyLM2ZAakx2JNZuMJw4PY896cphx8Q2vc1kVCNTK&owner=CNARhSLcQRfdxLZXTrvDVtVGKg1RHXjwJTpGSd2DXLGw&theme=light\" width=\"100%\" height=\"600\" style=\"border:none\"></iframe>",
+      "<div data-yappr-post=\"66syyLM2ZAakx2JNZuMJw4PY896cphx8Q2vc1kVCNTK\" data-yappr-owner=\"CNARhSLcQRfdxLZXTrvDVtVGKg1RHXjwJTpGSd2DXLGw\" data-yappr-theme=\"light\"></div>\n<script src=\"https://yap.pr/devnet/embed.js\"></script>"
+    ],
+    "local": "http://127.0.0.1:3288/devnet/embed/?post=66syyLM2ZAakx2JNZuMJw4PY896cphx8Q2vc1kVCNTK&owner=CNARhSLcQRfdxLZXTrvDVtVGKg1RHXjwJTpGSd2DXLGw&theme=light",
+    "embed": "QA comprehensive article 20260915 p64\n\nzoe-dubois5.dash \u2022 9/15/2026\n\nQA ordinary paragraph.\n\nQA section heading\n\nReader formatting bold words\n\nFirst bullet\nSecond bullet\n\n\u00a0\n\n\u00a0\n\n\u00a0\n\n\u00a0\n\n\u00a0\n\nColumn 1 | Column 2\n\nFootnote text\n\n\u00a0\nWrite highlighted content...\n\nINFO\n\n\u00a0\n\nINFO\n\nWrite callout text...\n\n\u00a0\n\n\u00a0\n\n\u00a0\n\n\u00a0\n\nView on Yappr",
+    "details": {
+      "text": "QA ordinary paragraph.\n\nQA section heading\n\nReader formatting bold words\n\nFirst bullet\nSecond bullet\n\n\u00a0\n\n\u00a0\n\n\u00a0\n\n\u00a0\n\n\u00a0\n\nColumn 1 | Column 2\n\nFootnote text\n\n\u00a0\nWrite highlighted content...\n\nINFO\n\n\u00a0\n\nINFO\n\nWrite callout text...\n\n\u00a0\n\n\u00a0\n\n\u00a0\n\n\u00a0",
+      "headings": 1,
+      "lists": 1,
+      "links": [],
+      "images": [
+        {
+          "src": "https://yap.pr/yappr.png",
+          "complete": true,
+          "naturalWidth": 1024
+        }
+      ],
+      "html": "<p>QA ordinary paragraph.</p><h1>QA section heading</h1><p>Reader formatting <strong>bold words</strong></p><ul><li>First bullet</li><li>Second bullet</li></ul><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><pre><code class=\"language-javascript\"></code></pre><p>&nbsp;</p><p>&nbsp;</p><p>Column 1 | Column 2</p><p>Footnote text</p><section class=\"yappr-embed-background-section\" style=\"padding:24px;background:linear-gradient(135deg, #0f172a, #1e293b)\">&nbsp;</section><section class=\"yappr-embed-background-section\" style=\"padding:24px;background:linear-gradient(135deg, #0f172a, #1e293b)\">Write highlighted content...</section><section class=\"yappr-embed-callout\" data-variant=\"info\"><p class=\"yappr-embed-callout-title\">info</p><div>&nbsp;</div></section><section class=\"yappr-embed-callout\" data-variant=\"info\"><p class=\"yappr-embed-callout-title\">info</p><div>Write callout text...</div></section><div class=\"yappr-embed-divider\" data-variant=\"solid\"><hr></div><p>&nbsp;</p><div aria-hidden=\"true\" style=\"height:36px\"></div><p>&nbsp;</p><p>&nbsp;</p><figure><img src=\"https://yap.pr/yappr.png\" alt=\"\" loading=\"lazy\"></figure><p>&nbsp;</p>"
+    },
+    "mobile": {
+      "viewport": 320,
+      "width": 320
+    }
+  },
+  "guestPalettesPersistence": {
+    "name": "B17 guest four reader palettes and persisted reload",
+    "status": "pass",
+    "styles": {
+      "Author": {
+        "fontSize": "16.9308px",
+        "color": "rgb(229, 231, 235)",
+        "background": "#0a0a0f",
+        "htmlTheme": "h-full dark",
+        "preference": "{\"state\":{\"readingMode\":\"author\",\"fontSize\":\"xlarge\"},\"version\":0}",
+        "appTheme": "dark"
+      },
+      "Light": {
+        "fontSize": "20px",
+        "color": "rgb(26, 26, 26)",
+        "background": "#ffffff",
+        "htmlTheme": "h-full light",
+        "preference": "{\"state\":{\"readingMode\":\"light\",\"fontSize\":\"xlarge\"},\"version\":0}",
+        "appTheme": "light"
+      },
+      "Dark": {
+        "fontSize": "20px",
+        "color": "rgb(212, 212, 212)",
+        "background": "#121212",
+        "htmlTheme": "h-full dark",
+        "preference": "{\"state\":{\"readingMode\":\"dark\",\"fontSize\":\"xlarge\"},\"version\":0}",
+        "appTheme": "dark"
+      },
+      "Sepia": {
+        "fontSize": "20px",
+        "color": "rgb(92, 64, 51)",
+        "background": "#faf4e8",
+        "htmlTheme": "h-full light",
+        "preference": "{\"state\":{\"readingMode\":\"sepia\",\"fontSize\":\"xlarge\"},\"version\":0}",
+        "appTheme": "light"
+      }
+    },
+    "reloaded": {
+      "fontSize": "20px",
+      "color": "rgb(92, 64, 51)",
+      "background": "#faf4e8",
+      "htmlTheme": "h-full light",
+      "preference": "{\"state\":{\"readingMode\":\"sepia\",\"fontSize\":\"xlarge\"},\"version\":0}",
+      "appTheme": "light"
+    }
+  },
+  "guestEmbedClipboard": {
+    "Light": {
+      "theme": "light",
+      "color": "rgb(255, 255, 255)",
+      "snippets": [
+        "<iframe src=\"https://yap.pr/devnet/embed/?post=5cY37VaxiKxBnprHfXG11Nx37eDv6Jb8RHYDMCmWWi8G&owner=H4P7NB1JNJ3B9LRpPixi3sUs7qhN5w9xs9YbQSBFh8Z1&theme=light\" width=\"100%\" height=\"600\" style=\"border:none\"></iframe>",
+        "<div data-yappr-post=\"5cY37VaxiKxBnprHfXG11Nx37eDv6Jb8RHYDMCmWWi8G\" data-yappr-owner=\"H4P7NB1JNJ3B9LRpPixi3sUs7qhN5w9xs9YbQSBFh8Z1\" data-yappr-theme=\"light\"></div>\n<script src=\"https://yap.pr/devnet/embed.js\"></script>"
+      ],
+      "clipboard": "<iframe src=\"https://yap.pr/devnet/embed/?post=5cY37VaxiKxBnprHfXG11Nx37eDv6Jb8RHYDMCmWWi8G&owner=H4P7NB1JNJ3B9LRpPixi3sUs7qhN5w9xs9YbQSBFh8Z1&theme=light\" width=\"100%\" height=\"600\" style=\"border:none\"></iframe>\n\n<div data-yappr-post=\"5cY37VaxiKxBnprHfXG11Nx37eDv6Jb8RHYDMCmWWi8G\" data-yappr-owner=\"H4P7NB1JNJ3B9LRpPixi3sUs7qhN5w9xs9YbQSBFh8Z1\" data-yappr-theme=\"light\"></div>\n<script src=\"https://yap.pr/devnet/embed.js\"></script>"
+    },
+    "Dark": {
+      "theme": "dark",
+      "color": "rgb(11, 18, 32)",
+      "snippets": [
+        "<iframe src=\"https://yap.pr/devnet/embed/?post=5cY37VaxiKxBnprHfXG11Nx37eDv6Jb8RHYDMCmWWi8G&owner=H4P7NB1JNJ3B9LRpPixi3sUs7qhN5w9xs9YbQSBFh8Z1&theme=dark\" width=\"100%\" height=\"600\" style=\"border:none\"></iframe>",
+        "<div data-yappr-post=\"5cY37VaxiKxBnprHfXG11Nx37eDv6Jb8RHYDMCmWWi8G\" data-yappr-owner=\"H4P7NB1JNJ3B9LRpPixi3sUs7qhN5w9xs9YbQSBFh8Z1\" data-yappr-theme=\"dark\"></div>\n<script src=\"https://yap.pr/devnet/embed.js\"></script>"
+      ],
+      "clipboard": "<iframe src=\"https://yap.pr/devnet/embed/?post=5cY37VaxiKxBnprHfXG11Nx37eDv6Jb8RHYDMCmWWi8G&owner=H4P7NB1JNJ3B9LRpPixi3sUs7qhN5w9xs9YbQSBFh8Z1&theme=dark\" width=\"100%\" height=\"600\" style=\"border:none\"></iframe>\n\n<div data-yappr-post=\"5cY37VaxiKxBnprHfXG11Nx37eDv6Jb8RHYDMCmWWi8G\" data-yappr-owner=\"H4P7NB1JNJ3B9LRpPixi3sUs7qhN5w9xs9YbQSBFh8Z1\" data-yappr-theme=\"dark\"></div>\n<script src=\"https://yap.pr/devnet/embed.js\"></script>"
+    }
+  },
+  "corrections": [
+    "Initial immediate font-size snapshots sampled an in-progress CSS transition; repeated after settling produced14/17/18/20px. Default author medium is17px, not assumed16px.",
+    "Initial keyboard pass only asserted Escape focus; refined first-Tab check establishes QA96 failure.",
+    "Escape tested while focus inside iframe does not represent parent-dialog Escape behavior; parent document close-button-focus Escape passes.",
+    "Closed dialog returns focus to Embed inside still-open More actions menu; dismiss that menu before locating More actions again.",
+    "Theme values immediately after palette click can race transition; selected preference plus settled reload independently verified."
+  ]
+}

@@ -1,0 +1,388 @@
+[
+  {
+    "rev": {
+      "name": "before",
+      "port": 3288,
+      "sha": "cf0efbc10b8757137063113ebbd2061e8b87d8f7"
+    },
+    "viewport": {
+      "width": 320,
+      "height": 568
+    },
+    "initial": {
+      "dialog": {
+        "x": 6.40625,
+        "y": -102,
+        "width": 307.1875,
+        "height": 772
+      },
+      "close": {
+        "x": 268.59375,
+        "y": -65,
+        "width": 28,
+        "height": 28
+      },
+      "copy": {
+        "x": 23.40625,
+        "y": 613,
+        "width": 153.796875,
+        "height": 40
+      },
+      "scroll": {
+        "top": 0,
+        "height": 770,
+        "client": 770
+      }
+    },
+    "afterWheel": {
+      "dialog": {
+        "x": 6.40625,
+        "y": -102,
+        "width": 307.1875,
+        "height": 772
+      },
+      "close": {
+        "x": 268.59375,
+        "y": -65,
+        "width": 28,
+        "height": 28
+      },
+      "copy": {
+        "x": 23.40625,
+        "y": 613,
+        "width": 153.796875,
+        "height": 40
+      },
+      "scroll": {
+        "top": 0,
+        "height": 770,
+        "client": 770
+      }
+    }
+  },
+  {
+    "rev": {
+      "name": "before",
+      "port": 3288,
+      "sha": "cf0efbc10b8757137063113ebbd2061e8b87d8f7"
+    },
+    "viewport": {
+      "width": 390,
+      "height": 667
+    },
+    "initial": {
+      "dialog": {
+        "x": 7.8046875,
+        "y": -42.5,
+        "width": 374.390625,
+        "height": 752
+      },
+      "close": {
+        "x": 337.1953125,
+        "y": -15.5,
+        "width": 28,
+        "height": 28
+      },
+      "copy": {
+        "x": 24.8046875,
+        "y": 652.5,
+        "width": 153.796875,
+        "height": 40
+      },
+      "scroll": {
+        "top": 0,
+        "height": 750,
+        "client": 750
+      }
+    },
+    "afterWheel": {
+      "dialog": {
+        "x": 7.8046875,
+        "y": -42.5,
+        "width": 374.390625,
+        "height": 752
+      },
+      "close": {
+        "x": 337.1953125,
+        "y": -15.5,
+        "width": 28,
+        "height": 28
+      },
+      "copy": {
+        "x": 24.8046875,
+        "y": 652.5,
+        "width": 153.796875,
+        "height": 40
+      },
+      "scroll": {
+        "top": 0,
+        "height": 750,
+        "client": 750
+      }
+    }
+  },
+  {
+    "rev": {
+      "name": "before",
+      "port": 3288,
+      "sha": "cf0efbc10b8757137063113ebbd2061e8b87d8f7"
+    },
+    "viewport": {
+      "width": 1280,
+      "height": 900
+    },
+    "initial": {
+      "dialog": {
+        "x": 192,
+        "y": 70,
+        "width": 896,
+        "height": 760
+      },
+      "close": {
+        "x": 1039,
+        "y": 101,
+        "width": 28,
+        "height": 28
+      },
+      "copy": {
+        "x": 213,
+        "y": 769,
+        "width": 153.796875,
+        "height": 40
+      },
+      "scroll": {
+        "top": 0,
+        "height": 758,
+        "client": 758
+      }
+    },
+    "afterWheel": {
+      "dialog": {
+        "x": 192,
+        "y": 70,
+        "width": 896,
+        "height": 760
+      },
+      "close": {
+        "x": 1039,
+        "y": 101,
+        "width": 28,
+        "height": 28
+      },
+      "copy": {
+        "x": 213,
+        "y": 769,
+        "width": 153.796875,
+        "height": 40
+      },
+      "scroll": {
+        "top": 0,
+        "height": 758,
+        "client": 758
+      }
+    },
+    "clipboardMatches": true,
+    "keyboard16TabNoEscapes": true,
+    "darkPreview": true,
+    "escapeRestoresEmbedFocus": true,
+    "menuEscapeRestoresMoreActions": true
+  },
+  {
+    "rev": {
+      "name": "after",
+      "port": 3355,
+      "sha": "b6fba4c2b0c4ce9444649993c1be90f64dd4070f"
+    },
+    "viewport": {
+      "width": 320,
+      "height": 568
+    },
+    "initial": {
+      "dialog": {
+        "x": 6.40625,
+        "y": 16,
+        "width": 307.1875,
+        "height": 536
+      },
+      "close": {
+        "x": 268.59375,
+        "y": 53,
+        "width": 28,
+        "height": 28
+      },
+      "copy": {
+        "x": 23.40625,
+        "y": 731,
+        "width": 153.796875,
+        "height": 40
+      },
+      "scroll": {
+        "top": 0,
+        "height": 770,
+        "client": 534
+      }
+    },
+    "afterWheel": {
+      "dialog": {
+        "x": 6.40625,
+        "y": 16,
+        "width": 307.1875,
+        "height": 536
+      },
+      "close": {
+        "x": 268.59375,
+        "y": -183,
+        "width": 28,
+        "height": 28
+      },
+      "copy": {
+        "x": 23.40625,
+        "y": 495,
+        "width": 153.796875,
+        "height": 40
+      },
+      "scroll": {
+        "top": 236,
+        "height": 770,
+        "client": 534
+      }
+    },
+    "clipboardMatches": true,
+    "keyboard16TabNoEscapes": true,
+    "darkPreview": true,
+    "escapeRestoresEmbedFocus": true,
+    "menuEscapeRestoresMoreActions": true
+  },
+  {
+    "rev": {
+      "name": "after",
+      "port": 3355,
+      "sha": "b6fba4c2b0c4ce9444649993c1be90f64dd4070f"
+    },
+    "viewport": {
+      "width": 390,
+      "height": 667
+    },
+    "initial": {
+      "dialog": {
+        "x": 7.8046875,
+        "y": 16,
+        "width": 374.390625,
+        "height": 635
+      },
+      "close": {
+        "x": 337.1953125,
+        "y": 43,
+        "width": 28,
+        "height": 28
+      },
+      "copy": {
+        "x": 24.8046875,
+        "y": 711,
+        "width": 153.796875,
+        "height": 40
+      },
+      "scroll": {
+        "top": 0,
+        "height": 750,
+        "client": 633
+      }
+    },
+    "afterWheel": {
+      "dialog": {
+        "x": 7.8046875,
+        "y": 16,
+        "width": 374.390625,
+        "height": 635
+      },
+      "close": {
+        "x": 337.1953125,
+        "y": -74,
+        "width": 28,
+        "height": 28
+      },
+      "copy": {
+        "x": 24.8046875,
+        "y": 594,
+        "width": 153.796875,
+        "height": 40
+      },
+      "scroll": {
+        "top": 117,
+        "height": 750,
+        "client": 633
+      }
+    },
+    "clipboardMatches": true,
+    "keyboard16TabNoEscapes": true,
+    "darkPreview": true,
+    "escapeRestoresEmbedFocus": true,
+    "menuEscapeRestoresMoreActions": true
+  },
+  {
+    "rev": {
+      "name": "after",
+      "port": 3355,
+      "sha": "b6fba4c2b0c4ce9444649993c1be90f64dd4070f"
+    },
+    "viewport": {
+      "width": 1280,
+      "height": 900
+    },
+    "initial": {
+      "dialog": {
+        "x": 192,
+        "y": 70,
+        "width": 896,
+        "height": 760
+      },
+      "close": {
+        "x": 1039,
+        "y": 101,
+        "width": 28,
+        "height": 28
+      },
+      "copy": {
+        "x": 213,
+        "y": 769,
+        "width": 153.796875,
+        "height": 40
+      },
+      "scroll": {
+        "top": 0,
+        "height": 758,
+        "client": 758
+      }
+    },
+    "afterWheel": {
+      "dialog": {
+        "x": 192,
+        "y": 70,
+        "width": 896,
+        "height": 760
+      },
+      "close": {
+        "x": 1039,
+        "y": 101,
+        "width": 28,
+        "height": 28
+      },
+      "copy": {
+        "x": 213,
+        "y": 769,
+        "width": 153.796875,
+        "height": 40
+      },
+      "scroll": {
+        "top": 0,
+        "height": 758,
+        "client": 758
+      }
+    },
+    "clipboardMatches": true,
+    "keyboard16TabNoEscapes": true,
+    "darkPreview": true,
+    "escapeRestoresEmbedFocus": true,
+    "menuEscapeRestoresMoreActions": true
+  }
+]
