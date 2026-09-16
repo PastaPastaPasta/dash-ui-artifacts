@@ -1,0 +1,16 @@
+{
+  "revision": "8c102ad4cebc951c7114d0730c050309c67e54aa",
+  "identityId": "GppCz2g6a6JYr7rGtwpEc4VgDX7b7wifz8uWXM1CTx1m",
+  "checks": [
+    "Fresh normal password login restores persona60 with unlocked password vault",
+    "Actual first Enable succeeds; accepted encryption key becomes available immediately without second key prompt",
+    "Enabled feed and stored encryption key persist across reload",
+    "Fresh browser and normal password login restore accepted encryption key from auth vault"
+  ],
+  "compiledRevisionVerified": true,
+  "hasStoredEncryptionKeyBefore": false,
+  "feedEnabled": true,
+  "hasStoredEncryptionKeyAfter": true,
+  "afterEnableText": "Private Feed\nPrivate Feed\n\nCreate encrypted posts visible only to approved followers\n\nPrivate feed is enabled\n\nYou can create encrypted posts that only approved followers can see.\nEnabled: 9/15/2026\n\n0\n\n/ 1024\n\nFollowers\n\n1\n\n/ 2000\n\nEpoch\n\n1024\n\nAvailable\n\nSlots\n\nEncryption Key\nKey stored for this session\n\nYou can create and view private posts\n\nCapacity:\n•\nUp to 1,024 private followers\n•\nUp to 1,999 revocations before migration needed\nDanger Zone\n\nReset Private Feed\n\nIf you have lost your encryption key or want to start fresh, you can reset your private feed. This will remove all current followers and make existing private posts unreadable.\n\nReset Private Feed\nPrivate Feed Requests\n\nManage requests to access your private feed\n\nEnable your private feed to receive access requests\n\nPrivate Followers\n\nManage who can access your private posts\n\nEnable your private feed to manage followers",
+  "success": true
+}
