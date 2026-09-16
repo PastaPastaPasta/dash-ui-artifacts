@@ -2,7 +2,7 @@
 
 With a product stock of 2, the product page stops at 2, but the old cart plus button permits 3 and checkout accepts all 3. The fix reads current stock, limits cart controls and repeated product additions, and validates the selected store's checkout snapshot before showing payment and again before order creation. Failed reads and invalid quantities preserve the cart for recovery.
 
-Exact before revision: `eb895be71a7207c73fb9329ac9d9bb7b398f53da`, build ID `eb895be7`. Exact after revision: `844359dfbc4de41976bfa606b3c06b457750acf9`, build ID `844359df`. Both use the unchanged repository Node static adapter, Chromium at 1440 × 1100, the same synthetic buyer52 and seller40 product, and live devnet reads. Authentication uses dedicated QA storage fixtures. The initial cart of 3 was obtained through actual baseline product/cart actions and copied between origins; no rendered UI, stock response or application result was mocked. All PNGs are unmodified browser captures inspected at original resolution.
+Exact before revision: `eb895be71a7207c73fb9329ac9d9bb7b398f53da`, build ID `eb895be7`. Exact current-head revision: `12fb4cce4cc0c1110a23492b33a3df3f36dc6fbe`, build ID `12fb4cce`. The five primary after screenshots and run result were recaptured on this head after adding required prices to test fixtures; application source is unchanged from `844359dfbc4de41976bfa606b3c06b457750acf9`. Supporting offline, variant, changing-stock, and cleanup captures retain that prior revision and their original metadata. Both use the unchanged repository Node static adapter, Chromium at 1440 × 1100, the same synthetic buyer52 and seller40 product, and live devnet reads. Authentication uses dedicated QA storage fixtures. The initial cart of 3 was obtained through actual baseline product/cart actions and copied between origins; no rendered UI, stock response or application result was mocked. All PNGs are unmodified browser captures inspected at original resolution.
 
 Before: quantity 3, no stock guidance, checkout enabled.
 
@@ -10,7 +10,7 @@ Before: quantity 3, no stock guidance, checkout enabled.
 
 After: the same retained cart explains that only 2 are available and disables increment/checkout.
 
-![After cart warns and blocks](after/overstock-cart.png)
+![After cart warns and blocks](after-12fb4cce/overstock-cart.png)
 
 Before: order review permits placing 3 units. No additional baseline order was sent for this capture.
 
@@ -18,11 +18,11 @@ Before: order review permits placing 3 units. No additional baseline order was s
 
 After: directly opening checkout blocks before payment.
 
-![After checkout blocks excess quantity](after/overstock-checkout.png)
+![After checkout blocks excess quantity](after-12fb4cce/overstock-checkout.png)
 
 Passed validation:
 
-- Exact-head devnet build, lint, 12 focused unit tests and independent source review. Review also added obsolete-request/store guards to the new asynchronous stock-error state.
+- Exact-head devnet build, full TypeScript check, lint, 12 focused unit tests and independent source review. Review also added obsolete-request/store guards to the new asynchronous stock-error state.
 - Baseline reproduction using product Add 2 → Cart plus → 3, retained on reload.
 - Decrease 3 → 2 restores checkout, keeps plus disabled at stock, and reaches valid order review. Returning to the product blocks adding any further units; remove 1 then add 1 returns to exactly 2.
 - A real offline browser read preserves the stored cart byte-for-byte, blocks checkout, and recovers after reconnect/retry. No product responses were mocked.
