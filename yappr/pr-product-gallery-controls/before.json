@@ -1,0 +1,7 @@
+{
+  "revision": "cf0efbc10b8757137063113ebbd2061e8b87d8f7",
+  "base": "http://127.0.0.1:3288/devnet",
+  "itemId": "GWgJbLzxK5XfyNnVNdy7k8fyiBmUziSTSRQ5XtkExCWK",
+  "aria": "- img \"QA62 Amber Single\"\n- button\n- button",
+  "passed": true
+}

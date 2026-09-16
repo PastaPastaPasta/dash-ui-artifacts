@@ -1,0 +1,11 @@
+{
+  "revision": "99a0ad96175804fb621afaa2a43b813cbb3fa1eb",
+  "base": "http://127.0.0.1:4313/devnet",
+  "focus": {
+    "tag": "DIV",
+    "text": "QA62 Amber Single0.02000000 DASH",
+    "role": "button"
+  },
+  "enterSpaceMouseAndBack": true,
+  "passed": true
+}

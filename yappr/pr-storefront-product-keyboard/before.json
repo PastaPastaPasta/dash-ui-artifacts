@@ -1,0 +1,10 @@
+{
+  "revision": "cf0efbc10b8757137063113ebbd2061e8b87d8f7",
+  "base": "http://127.0.0.1:3288/devnet",
+  "focus": {
+    "tag": "INPUT",
+    "text": "",
+    "role": null
+  },
+  "passed": true
+}

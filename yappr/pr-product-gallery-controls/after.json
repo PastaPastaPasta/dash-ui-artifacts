@@ -1,0 +1,12 @@
+{
+  "revision": "3e0df10afba08c081c39ea8eb9dfcbc8129bf1e0",
+  "base": "http://127.0.0.1:4314/devnet",
+  "itemId": "GWgJbLzxK5XfyNnVNdy7k8fyiBmUziSTSRQ5XtkExCWK",
+  "aria": "- img \"QA62 Amber Single\"\n- button \"Previous image\"\n- button \"Next image\"",
+  "keyboardWrapAndThumbnail": true,
+  "mobileBounds": {
+    "doc": 390,
+    "viewport": 390
+  },
+  "passed": true
+}
