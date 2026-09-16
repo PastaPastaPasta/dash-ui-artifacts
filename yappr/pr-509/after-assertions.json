@@ -1,0 +1,11 @@
+{
+  "revision": "14217bea918e4676cd8e4c0c13d059561295c4d2",
+  "owner": "8yBzzwur8s7BirZDX1yq3NCkv3HM3cgjsL3PZVjeVdSd",
+  "checks": [
+    "Settings and lost-key help explain unavailable reset; desktop/390/320 information has no secret inputs or reset submit",
+    "Direct reset query route opens safe information; Escape closes without a write",
+    "Normal manual entry of the original registered key still succeeds and survives reload; no private-post decryption claim for empty fixture"
+  ],
+  "preflight": "2026-09-16T03:52:17.649Z",
+  "success": true
+}

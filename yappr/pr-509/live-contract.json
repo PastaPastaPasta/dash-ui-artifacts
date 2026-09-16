@@ -1,0 +1,65 @@
+{
+  "at": "2026-09-16T03:42:39.130Z",
+  "contractId": "CdUkSHkQwGXXAkzKqrcrjUWLsj7qErK9XAZmLzJEhirU",
+  "version": 1,
+  "config": {
+    "$formatVersion": "1",
+    "canBeDeleted": false,
+    "readonly": false,
+    "keepsHistory": false,
+    "documentsKeepHistoryContractDefault": false,
+    "documentsMutableContractDefault": true,
+    "documentsCanBeDeletedContractDefault": true,
+    "requiresIdentityEncryptionBoundedKey": null,
+    "requiresIdentityDecryptionBoundedKey": null,
+    "sizedIntegerTypes": true
+  },
+  "privateFeedState": {
+    "type": "object",
+    "canBeDeleted": false,
+    "indices": [
+      {
+        "name": "owner",
+        "unique": true,
+        "properties": [
+          {
+            "$ownerId": "asc"
+          }
+        ]
+      }
+    ],
+    "documentsMutable": false,
+    "required": [
+      "$createdAt",
+      "treeCapacity",
+      "maxEpoch",
+      "encryptedSeed"
+    ],
+    "properties": {
+      "treeCapacity": {
+        "type": "integer",
+        "minimum": 1,
+        "maximum": 65535,
+        "position": 0,
+        "description": "Key tree capacity (typically 1024 for 1024 max private followers)"
+      },
+      "maxEpoch": {
+        "type": "integer",
+        "minimum": 1,
+        "maximum": 4294967295,
+        "position": 1,
+        "description": "Maximum pre-generated epoch chain length (typically 2000)"
+      },
+      "encryptedSeed": {
+        "type": "array",
+        "maxItems": 256,
+        "minItems": 1,
+        "position": 2,
+        "byteArray": true,
+        "description": "ECIES-encrypted feed seed (33 byte ephemeral pubkey + encrypted payload)"
+      }
+    },
+    "description": "Private feed state document created when enabling a private feed. IMMUTABLE - cannot be deleted.",
+    "additionalProperties": false
+  }
+}

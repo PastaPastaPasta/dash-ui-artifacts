@@ -1,0 +1,18 @@
+{
+  "files": [
+    "before-metadata",
+    "after-empty-retry",
+    "after-head"
+  ],
+  "samePersistedDocuments": true,
+  "privateFeedStateId": "CVcE2hV6s1XAZGRnPeaZKZrWjSCedmQ5XPCSEyco6wNu",
+  "privateFeedStateFingerprint": {
+    "id": "CVcE2hV6s1XAZGRnPeaZKZrWjSCedmQ5XPCSEyco6wNu",
+    "revision": 1,
+    "sha256": "802eec4f6002b8e1ab757c960dfa056a5e09af7eeac2dbe7ae191b88301f2681"
+  },
+  "grants": 0,
+  "rekeys": 0,
+  "publicPosts": 78,
+  "privatePosts": 0
+}

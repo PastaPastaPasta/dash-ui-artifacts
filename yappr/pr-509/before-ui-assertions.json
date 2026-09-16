@@ -1,0 +1,9 @@
+{
+  "revision": "cf0efbc10b8757137063113ebbd2061e8b87d8f7",
+  "owner": "8yBzzwur8s7BirZDX1yq3NCkv3HM3cgjsL3PZVjeVdSd",
+  "checks": [
+    "Read-only recapture of settled dialog animations and loaded stats; no reset submitted"
+  ],
+  "preflight": "2026-09-16T03:52:17.649Z",
+  "success": true
+}

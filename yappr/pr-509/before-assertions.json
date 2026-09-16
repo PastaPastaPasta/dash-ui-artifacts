@@ -1,0 +1,11 @@
+{
+  "revision": "cf0efbc10b8757137063113ebbd2061e8b87d8f7",
+  "owner": "8yBzzwur8s7BirZDX1yq3NCkv3HM3cgjsL3PZVjeVdSd",
+  "checks": [
+    "Exact cf0 normal Reset rejected by immutable-state contract; error-only capture does not intersect any populated secret input"
+  ],
+  "preflight": "2026-09-16T03:52:17.649Z",
+  "errorText": "Document transition action privateFeedState is not mutable and can not be replaced is not supported",
+  "dialogResultText": "Reset Private Feed\n\nThis action cannot be undone. Your private feed will be completely reset.\n\nThis will:\n\n•\nRemove all current private followers\n•\nMake all existing private posts unreadable\n•\nGenerate a new encryption key\n\nCurrent followers will need to request access again and you will need to re-approve them.\n\nEnter your encryption private key\nType RESET to confirm:\nDocument transition action privateFeedState is not mutable and can not be replaced is not supported\nCancel\nReset Private Feed",
+  "success": true
+}
