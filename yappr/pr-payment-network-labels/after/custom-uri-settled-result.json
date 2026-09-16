@@ -1,0 +1,15 @@
+{
+  "side": "after",
+  "revision": "fe9c159b2260bbc2f573261c8372f1d471ed01c7",
+  "base": "http://127.0.0.1:3282/devnet",
+  "sellerStoreId": "GJdJn1iWx9CdtqRXetwa39Kkr3ZG2fBajQbcE1u6aJKr",
+  "buyerStoreId": "98FYBhEF9Q8xNzbamzy66Dm5cMQ5gm9MoAZaiy518sNp",
+  "productId": "6mp5PmmL7vU792PGEHC84VNy632gcFDo47c9qMpErD3E",
+  "submittedPaymentMethod": false,
+  "submittedOrder": false,
+  "paymentSent": false,
+  "steps": [
+    "Unsubmitted payment setup, selected network, mainnet compatibility, and both local invalid-address paths verified. Closed store unchanged."
+  ],
+  "passed": true
+}

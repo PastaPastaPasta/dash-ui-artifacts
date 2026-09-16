@@ -32,3 +32,5 @@ Three automated deployment mapping tests cover devnet, testnet, and mainnet; mai
 The coin-value note also uses the shared network label. Its interpolation was verified in source and its label constant is covered by the deployment tests. **The coin-value note is not screenshot-covered:** clean staging's existing QA25 amount-calculation failure prevents that amount section from rendering for these DASH items. The earlier controlled USD fixture has no remaining products. The actual QR header comparison is still clean exact base/head; no PR432 integration is present. The unrelated Amount not calculated message remains visible and is not fixed by this PR.
 
 Local exact-head devnet build, lint, mapping/address tests, diff whitespace check, and independent review pass. These are label changes only; this evidence does not establish external wallet interoperability or a new payment settlement pass.
+
+The custom-URI comparison was recaptured after its mode-toggle color transition settled. These final files supersede the transient toggle-color captures from artifact6605106; no product state or code changed.

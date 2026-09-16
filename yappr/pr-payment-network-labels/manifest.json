@@ -1,14 +1,16 @@
 {
   "files": {
-    "README.md": "f7b96342f76a6b86295b7ef74a2e8c2285aeea39569dc9bf0676d4e65c0198a5",
+    "README.md": "6573370b37a3deedfaf506bda18c9bf086dc7c13b15ba835ff7e16e9e888a197",
     "after/address-error.png": "8d7abf899ffb09f844a0ff4658ca59877f736beb6e4364927aedfe41a5691463",
     "after/checkout-qr.png": "e370fecd2af9c8b7b59631c7c34ae91c9cd0ba702b26b7a90d9a9a702a8158da",
-    "after/custom-uri-error.png": "63c7a3358d74b28cda459a1c2ff796ac56d7a776c05926ce36a17f9ffafcf623",
+    "after/custom-uri-error.png": "24ffb9c929c1b98cc955fd0f2b4063cc0a5da819f0076f6d5071e4c71809c4e0",
+    "after/custom-uri-settled-result.json": "0af3e142e6cc709ce0c7128ca6d5c0c636af0d99779c84f10800952ba48dbef9",
     "after/payment-setup.png": "fc6039761d9a8403759a55c3adc7681c5517f40a0611786be74b758f7168e4ec",
     "after/result.json": "45e833f9ec38fe2a7b57d60696f6910f72efb70c756fb5f7a67f8f9b4be019da",
     "before/address-error.png": "8929d63fa91c6688fc5c648a1b5221537a541ff0ed0eb6343e557e7757d12659",
     "before/checkout-qr.png": "848093dcb765cd68b9da20bb2411ff7be3b585376526d23ce93547b41ab99207",
-    "before/custom-uri-error.png": "f54536e5ce769071273cf296413fc71f185f32fbe4b3a00ce6e7cb1116755ee7",
+    "before/custom-uri-error.png": "49a02701ea92e14b1784b96d6c81b12b0ab6984d4f82649a1d88513424506d1d",
+    "before/custom-uri-settled-result.json": "71f3413d1e9c858fd00c4edb27f3c18b714cbff078fc9a6e473ecfb3a5b2c336",
     "before/payment-setup.png": "107eea673c47f0bca97eedce1bd7018dedc9188d3783d03b39c798607274c010",
     "before/result.json": "e0e682efd1c360f148333ff7d2eab2cfe7a8aecb102fa5535f2d56fc9d78455f",
     "matrix.md": "2b345b86dc0e86050fbc25fc4de0216d6d8ec51b38026a8a3a15c91bd87c054c"
