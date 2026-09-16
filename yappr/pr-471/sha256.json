@@ -1,0 +1,26 @@
+{
+  "README.md": {
+    "bytes": 2752,
+    "sha256": "7d5791624d6ba77967bbeea43cc876cf0717513c91a97762d91e435a9a6cdbf9"
+  },
+  "comparison/after/reopen.png": {
+    "bytes": 215129,
+    "sha256": "7b3f571c194b9a682530c0e83817ada1aeee53a5ddf65137f3e0452d902bed11"
+  },
+  "comparison/after/seed-focus.png": {
+    "bytes": 11479,
+    "sha256": "0bcc6ee5218e689f931298b81cf082cf0b7bbd908d220d933285427b174d63b8"
+  },
+  "comparison/before/reopen.png": {
+    "bytes": 202583,
+    "sha256": "08ab84cad9bd733d8fce9015312f66c48af4f327d2cf95cd600073118fb7b991"
+  },
+  "comparison/before/seed-focus.png": {
+    "bytes": 13812,
+    "sha256": "9ff2a52d6749da7daa39be1dfc0406fe616aeac5c55bf1a6309c8722f8f5f733"
+  },
+  "verification.json": {
+    "bytes": 702,
+    "sha256": "323122dbcb814e99851a8a0a3e1ad699a14c2bc4db0911d151c3b2d4d83d9317"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "identity": "VQpFJTzQqdTzMQQcJmKhARpXBE5f9GjwRZ8UMCY2stW",
+  "base": "c98a6ecd7e26ae5bc9fc8e400e6011eb8465b3a0",
+  "head": "fbbfb208c24a8588341728d41365624da1e81e0f",
+  "fixture": {
+    "style": "bottts",
+    "seed": "QA persona53 media 20260916"
+  },
+  "before": {
+    "seed": "VQpFJTzQqdTzMQQcJmKhARpXBE5f9GjwRZ8UMCY2stW",
+    "style": [
+      "Thumbs"
+    ],
+    "publicImageMatches": true
+  },
+  "after": {
+    "seed": "QA persona53 media 20260916",
+    "style": [
+      "Bottts"
+    ],
+    "publicImageMatches": true
+  },
+  "resetPreservedRecipe": true,
+  "restoredRecipe": {
+    "seed": "hamzak78-lecture",
+    "style": [
+      "Pixel Art"
+    ]
+  },
+  "restoredImageMatchesOriginal": true
+}

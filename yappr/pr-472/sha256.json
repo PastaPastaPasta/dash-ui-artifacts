@@ -1,0 +1,30 @@
+{
+  "README.md": {
+    "bytes": 2623,
+    "sha256": "5081fcfb5ac5296e935574b5370bb5bdbe880f7b67e7d3dd0d40f8e875fec2ba"
+  },
+  "comparison/after/control-focus.png": {
+    "bytes": 51490,
+    "sha256": "a55dfa50539431a360ba61588236fe4e6ef4c4408ba5518fe095fbd3481ec520"
+  },
+  "comparison/after/control.png": {
+    "bytes": 480347,
+    "sha256": "bef6809268d4a1387f5141aec3ce45e228572ae61844e6893595d8cd1a39ec4e"
+  },
+  "comparison/after/remove.png": {
+    "bytes": 170224,
+    "sha256": "ca4a348b18e83d650e35135bad1bdbccfedda125fa9a72a4f3d42a1de503c794"
+  },
+  "comparison/before/control-focus.png": {
+    "bytes": 50628,
+    "sha256": "49056530cb09a2a760c09e92abc6f9bff17dd5bdeab7f8a3c9c2b6830b84e3aa"
+  },
+  "comparison/before/control.png": {
+    "bytes": 464969,
+    "sha256": "17c2984e77bc87b0a39ed0e934cefa67b474cac323d8e2975deb88829cc7c1e0"
+  },
+  "verification.json": {
+    "bytes": 767,
+    "sha256": "dbdeab597648be879d309196ea7dabbedb9cec8955220e530baab5abcf12747a"
+  }
+}

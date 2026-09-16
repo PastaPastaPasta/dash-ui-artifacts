@@ -1,0 +1,12 @@
+{
+  "baseline": "4105c5d1c914f5d0838619da93c3b8d28b4a780e",
+  "author53": "VQpFJTzQqdTzMQQcJmKhARpXBE5f9GjwRZ8UMCY2stW",
+  "recipient54": "DdnSLypHfhbYHJUgLrLWEK1Qv1e4SVaFCc8UDpeZmnRC",
+  "hyphenPost": "4faUhcYZGdYhYf1BLKwg7RPgGdDQjcBDdpLAtBs5nmtg",
+  "controlPost": "9gWVtfjkRp9dytJiKZ3FJENZnt3sqppe5V3bc1VkZavs",
+  "controlNotification": true,
+  "markAllRead": true,
+  "readStateReload": true,
+  "notificationPostLink": true,
+  "hyphenRecipientNotification": false
+}

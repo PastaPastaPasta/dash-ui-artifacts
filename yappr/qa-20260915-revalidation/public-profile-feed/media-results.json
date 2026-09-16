@@ -1,0 +1,322 @@
+{
+  "revision": "c98a6ecd7e26ae5bc9fc8e400e6011eb8465b3a0",
+  "identity": "VQpFJTzQqdTzMQQcJmKhARpXBE5f9GjwRZ8UMCY2stW",
+  "originalSeed": "hamzak78-lecture",
+  "styles": [
+    {
+      "title": "Adventurer",
+      "selected": false
+    },
+    {
+      "title": "Adventurer Neutral",
+      "selected": false
+    },
+    {
+      "title": "Avataaars",
+      "selected": false
+    },
+    {
+      "title": "Avataaars Neutral",
+      "selected": false
+    },
+    {
+      "title": "Big Ears",
+      "selected": false
+    },
+    {
+      "title": "Big Ears Neutral",
+      "selected": false
+    },
+    {
+      "title": "Big Smile",
+      "selected": false
+    },
+    {
+      "title": "Bottts",
+      "selected": false
+    },
+    {
+      "title": "Bottts Neutral",
+      "selected": false
+    },
+    {
+      "title": "Croodles",
+      "selected": false
+    },
+    {
+      "title": "Croodles Neutral",
+      "selected": false
+    },
+    {
+      "title": "Fun Emoji",
+      "selected": false
+    },
+    {
+      "title": "Icons",
+      "selected": false
+    },
+    {
+      "title": "Identicon",
+      "selected": false
+    },
+    {
+      "title": "Initials",
+      "selected": false
+    },
+    {
+      "title": "Lorelei",
+      "selected": false
+    },
+    {
+      "title": "Lorelei Neutral",
+      "selected": false
+    },
+    {
+      "title": "Micah",
+      "selected": false
+    },
+    {
+      "title": "Miniavs",
+      "selected": false
+    },
+    {
+      "title": "Notionists",
+      "selected": false
+    },
+    {
+      "title": "Notionists Neutral",
+      "selected": false
+    },
+    {
+      "title": "Open Peeps",
+      "selected": false
+    },
+    {
+      "title": "Personas",
+      "selected": false
+    },
+    {
+      "title": "Pixel Art",
+      "selected": false
+    },
+    {
+      "title": "Pixel Art Neutral",
+      "selected": false
+    },
+    {
+      "title": "Rings",
+      "selected": false
+    },
+    {
+      "title": "Shapes",
+      "selected": false
+    },
+    {
+      "title": "Thumbs",
+      "selected": true
+    }
+  ],
+  "previewChecks": [
+    {
+      "style": "Adventurer",
+      "loaded": true,
+      "selected": true
+    },
+    {
+      "style": "Adventurer Neutral",
+      "loaded": true,
+      "selected": true
+    },
+    {
+      "style": "Avataaars",
+      "loaded": true,
+      "selected": true
+    },
+    {
+      "style": "Avataaars Neutral",
+      "loaded": true,
+      "selected": true
+    },
+    {
+      "style": "Big Ears",
+      "loaded": true,
+      "selected": true
+    },
+    {
+      "style": "Big Ears Neutral",
+      "loaded": true,
+      "selected": true
+    },
+    {
+      "style": "Big Smile",
+      "loaded": true,
+      "selected": true
+    },
+    {
+      "style": "Bottts",
+      "loaded": true,
+      "selected": true
+    },
+    {
+      "style": "Bottts Neutral",
+      "loaded": true,
+      "selected": true
+    },
+    {
+      "style": "Croodles",
+      "loaded": true,
+      "selected": true
+    },
+    {
+      "style": "Croodles Neutral",
+      "loaded": true,
+      "selected": true
+    },
+    {
+      "style": "Fun Emoji",
+      "loaded": true,
+      "selected": true
+    },
+    {
+      "style": "Icons",
+      "loaded": true,
+      "selected": true
+    },
+    {
+      "style": "Identicon",
+      "loaded": true,
+      "selected": true
+    },
+    {
+      "style": "Initials",
+      "loaded": true,
+      "selected": true
+    },
+    {
+      "style": "Lorelei",
+      "loaded": true,
+      "selected": true
+    },
+    {
+      "style": "Lorelei Neutral",
+      "loaded": true,
+      "selected": true
+    },
+    {
+      "style": "Micah",
+      "loaded": true,
+      "selected": true
+    },
+    {
+      "style": "Miniavs",
+      "loaded": true,
+      "selected": true
+    },
+    {
+      "style": "Notionists",
+      "loaded": true,
+      "selected": true
+    },
+    {
+      "style": "Notionists Neutral",
+      "loaded": true,
+      "selected": true
+    },
+    {
+      "style": "Open Peeps",
+      "loaded": true,
+      "selected": true
+    },
+    {
+      "style": "Personas",
+      "loaded": true,
+      "selected": true
+    },
+    {
+      "style": "Pixel Art",
+      "loaded": true,
+      "selected": true
+    },
+    {
+      "style": "Pixel Art Neutral",
+      "loaded": true,
+      "selected": true
+    },
+    {
+      "style": "Rings",
+      "loaded": true,
+      "selected": true
+    },
+    {
+      "style": "Shapes",
+      "loaded": true,
+      "selected": true
+    },
+    {
+      "style": "Thumbs",
+      "loaded": true,
+      "selected": true
+    }
+  ],
+  "randomizeChanged": true,
+  "resetRestored": true,
+  "generatedOwnerImageMatches": true,
+  "generatedGuestImageMatches": true,
+  "generatedReload": {
+    "seed": "VQpFJTzQqdTzMQQcJmKhARpXBE5f9GjwRZ8UMCY2stW",
+    "styleSelected": false
+  },
+  "invalidUrlMessage": true,
+  "customUrl": "https://raw.githubusercontent.com/PastaPastaPasta/yappr/c98a6ecd7e26ae5bc9fc8e400e6011eb8465b3a0/public/yappr.png",
+  "customUrlOwner": true,
+  "customUrlGuest": true,
+  "customReopened": true,
+  "customRemoval": {
+    "pointerClickable": false,
+    "reason": "Remove image button clipped outside circular preview",
+    "screenshot": "/tmp/yappr-media-remove-observation.png"
+  },
+  "originalAvatarRestored": true,
+  "bannerRequiresProvider": true,
+  "bannerSettingsUrl": "http://127.0.0.1:3260/devnet/settings/",
+  "originalStyle": "pixel-art",
+  "finalProfileValues": {
+    "name": "Hamza Kaplan",
+    "bio": "Macro person in Minneapolis. Inflation is a tax; discuss.",
+    "location": "Minneapolis, MN",
+    "pronouns": "",
+    "website": "",
+    "nsfw": false
+  },
+  "generatorFix": {
+    "pr": 471,
+    "before": {
+      "seed": "VQpFJTzQqdTzMQQcJmKhARpXBE5f9GjwRZ8UMCY2stW",
+      "style": [
+        "Thumbs"
+      ],
+      "publicImageMatches": true
+    },
+    "after": {
+      "seed": "QA persona53 media 20260916",
+      "style": [
+        "Bottts"
+      ],
+      "publicImageMatches": true
+    },
+    "restoredRecipe": {
+      "seed": "hamzak78-lecture",
+      "style": [
+        "Pixel Art"
+      ]
+    }
+  },
+  "removeFix": {
+    "pr": 472,
+    "pointer": true,
+    "enter": true,
+    "space": true,
+    "mobile": true,
+    "reset": true
+  }
+}

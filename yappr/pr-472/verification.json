@@ -1,0 +1,21 @@
+{
+  "base": "c98a6ecd7e26ae5bc9fc8e400e6011eb8465b3a0",
+  "head": "1f3074b1ea3167f9ca55e57f47afd84205998756",
+  "identity": "VQpFJTzQqdTzMQQcJmKhARpXBE5f9GjwRZ8UMCY2stW",
+  "customUrl": "https://raw.githubusercontent.com/PastaPastaPasta/yappr/c98a6ecd7e26ae5bc9fc8e400e6011eb8465b3a0/public/yappr.png",
+  "before": {
+    "clipped": true,
+    "url": "http://127.0.0.1:3260/devnet/user/?id=VQpFJTzQqdTzMQQcJmKhARpXBE5f9GjwRZ8UMCY2stW"
+  },
+  "afterHit": true,
+  "pointerCleared": true,
+  "keyboardCleared": true,
+  "keyboardStayedOnProfile": true,
+  "resetRestored": true,
+  "spaceCleared": true,
+  "mobilePointerCleared": true,
+  "mobileHorizontalOverflow": true,
+  "originalImageRestored": true,
+  "restoredSeed": "hamzak78-lecture",
+  "restoredStyle": "pixel-art"
+}
