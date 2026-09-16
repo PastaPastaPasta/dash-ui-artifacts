@@ -2,8 +2,10 @@
 
 Source PR: https://github.com/PastaPastaPasta/yappr/pull/529
 
-Before: `cf0efbc10b8757137063113ebbd2061e8b87d8f7` (exact staging base).
-After: `adfbab3e15872772f271cbb02e734faa0916f90b` (full signed PR head).
+This refreshed R8 comparison supersedes the earlier staging-base evidence. PR529 is now stacked on PR475. Both sides retain PR475 currency-aware Price labels and flat price input padding.
+
+Before: `0fa8e37b33a2b4fd63cb2a5b75d5c86ae7884671` (exact PR475 parent).
+After: `751a93ea44418581229b2abd744b70f5d3872af3` (full signed PR head).
 
 Independent production devnet builds, each verified through About, matching static-export mappings. Fresh Chromium contexts restored the same existing merchant QA authentication snapshot privately at each local origin; the helper retained its DPNS skip flag. No product, DOM or network data was injected. Desktop 1440×1200, mobile 390×844, light theme, en-US, America/Chicago, device scale 1. Screenshots are unmodified full captures and matching x333/y40/700×360 form-header clips. No annotations or rescaling.
 

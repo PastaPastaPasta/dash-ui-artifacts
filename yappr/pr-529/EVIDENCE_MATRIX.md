@@ -2,7 +2,7 @@
 
 | Surface | Before | After | Shared fixture | Expected change |
 |---|---|---|---|---|
-| Blank Add Product, click Product Title | cf0efbc10b8757137063113ebbd2061e8b87d8f7 | adfbab3e15872772f271cbb02e734faa0916f90b | Same merchant 62 store, empty form | Label click leaves input unfocused before and gives native focus ring after. Six visible labels gain field associations. |
+| Blank Add Product, click Product Title | 0fa8e37b33a2b4fd63cb2a5b75d5c86ae7884671 | 751a93ea44418581229b2abd744b70f5d3872af3 | Same merchant 62 store, empty form | Label click leaves input unfocused before and gives native focus ring after. Six visible labels gain field associations. |
 | Existing simple product, click Product Title | Same exact base | Same full PR head | QA62 Amber Single, same saved values | Label click focuses the existing title after. |
 | Existing variant product | Same exact base | Same full PR head | QA62 Cobalt Matrix, same axes and saved prices/stocks | Variant controls gain accessible names; visual appearance remains unchanged. |
 

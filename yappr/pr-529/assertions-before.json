@@ -1,8 +1,9 @@
 {
   "state": "before",
-  "revision": "cf0efbc10b8757137063113ebbd2061e8b87d8f7",
+  "revision": "0fa8e37b33a2b4fd63cb2a5b75d5c86ae7884671",
   "storeId": "CP3dEXrdMEbbiFNHakoRkC86DonfVftuzUyaY4ngrnQb",
   "checks": [
+    "Parent475 currency-aware Price label and flat px4/no dollar prefix retained; associated price name follows currency after",
     "Blank form six label-click associations and imageURL/add/back accessible names checked; Create stays disabled",
     "Existing Amber title/price remain intact; titlelabelfocus and image-removal accessible name checked",
     "Variant names/price/stock checked; localaxisremove/readd+Back leaves savedproduct unchanged on fresh read"
@@ -27,7 +28,7 @@
       "id": ""
     },
     {
-      "name": "Price",
+      "name": "Price (DASH)",
       "focused": false,
       "labels": [],
       "id": ""
@@ -45,7 +46,8 @@
       "id": ""
     }
   ],
-  "compiledHash": "cf0efbc1",
+  "compiledHash": "0fa8e37b",
+  "initialCurrency": "DASH",
   "axisSnapshot": "- text: Color\n- button",
   "success": true
 }
