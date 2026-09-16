@@ -1,0 +1,11 @@
+{
+  "revision": "7a50a04656d18a34c46da11bb85c76a46ce8c4a7",
+  "identityId": "EShbqnfLdmctGWaUCnU3FNKMenYmxiQEiawY3q2pLQm2",
+  "url": "http://127.0.0.1:3306/devnet/feed/",
+  "authenticatedSidebar": true,
+  "composeVisible": true,
+  "composerOpened": true,
+  "authenticatedAfterReload": true,
+  "seedContextApplied": true,
+  "remoteWrites": 0
+}

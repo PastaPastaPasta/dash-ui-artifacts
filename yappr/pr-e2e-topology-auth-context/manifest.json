@@ -1,0 +1,63 @@
+{
+  "base": "cf0efbc10b8757137063113ebbd2061e8b87d8f7",
+  "head": "7a50a04656d18a34c46da11bb85c76a46ce8c4a7",
+  "identityId": "EShbqnfLdmctGWaUCnU3FNKMenYmxiQEiawY3q2pLQm2",
+  "viewport": {
+    "width": 1440,
+    "height": 1100
+  },
+  "focusedCrop": {
+    "left": 408,
+    "top": 214,
+    "right": 1025,
+    "bottom": 294
+  },
+  "remoteWrites": 0,
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 4741,
+      "sha256": "42d97218c501ad11a2a7bf2ad8aa4dce1420ca4e8f462ed403620bb581b604be"
+    },
+    {
+      "path": "after/compose-control.png",
+      "bytes": 3639,
+      "sha256": "b4e9cbc08b234514273a203b805160405fff2c1b974a4ef9ca9027cd4118ee62"
+    },
+    {
+      "path": "after/composer-open.png",
+      "bytes": 223655,
+      "sha256": "0d4e56103500947b5ff3061ca8f2a43ec25abc5c2c5c11fe1eca230e0c09efe6"
+    },
+    {
+      "path": "after/setup.png",
+      "bytes": 231288,
+      "sha256": "ea84d62630e8ffef4e30fcc96ee24922da07be20366c650274086edd7bdc4968"
+    },
+    {
+      "path": "after-setup.json",
+      "bytes": 343,
+      "sha256": "011269df03fad0fbb4e0c73e7c4417e0425f4c1c3e00ce6168f3d43423dfa551"
+    },
+    {
+      "path": "before/compose-control.png",
+      "bytes": 2927,
+      "sha256": "3a3e2cc67491d39be13aa4810c4f5c574ec914bab61ee6e3bca73b9d178479ed"
+    },
+    {
+      "path": "before/setup.png",
+      "bytes": 213452,
+      "sha256": "436337157dc2f1d5f299e127ff0ff563bc313ae938523697acd361699a1a3083"
+    },
+    {
+      "path": "before-setup.json",
+      "bytes": 221,
+      "sha256": "514036eb0c8ebf96b8d74226046975364b2daa8c833479e86421aaef910bb1fe"
+    },
+    {
+      "path": "fixture-compatibility.json",
+      "bytes": 214,
+      "sha256": "013f42dafe88fb53f08e7755deb0102c10474073296dfbecc018cb82b6ae5055"
+    }
+  ]
+}
