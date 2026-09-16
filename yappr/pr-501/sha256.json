@@ -1,0 +1,11 @@
+{
+  "README.md": "7fe7483c83d9f5ed3c735ef9b64caba22bb973934c12194ec2a4773410c2889d",
+  "after-delete-state.json": "94d1e79c589145f122100731f8fca55a6fab70d892adc344c8daf781f0abea37",
+  "after-delete-success.png": "8d6eefb0098ba040a4d14601be2608b21724d4e678bfc920775cdbb7088a0bc2",
+  "after-failed-delete.json": "e03b92ed7f6348a4238438f0460196fb5534ee73074aefda96f6d9be0894cd16",
+  "after-fresh-password-recovery.png": "c03fd7e5529ccc3567869ad5819a97cc41a70c7111eac87d35ed31c45fbc1c3c",
+  "after-merge-state.json": "d85d2c76e07893cead32140e7f76db29455e3ca18b0005dbaf0b8b6480d22c4a",
+  "before-delete-error.png": "d736c757a3e0a2a5ec38abe416cb46b28f9c962c1f346c1c604e228e013854fb",
+  "before-delete-state.json": "79f3abb6afd8cdfe9dd6470936163236f3a8aae5217b353c5fbb62d2b85458d7",
+  "before-merge-error.png": "ca7b66b5f60a43a7f7a7fa3bc10a373fe6a28a4cbf7fa19e0709f8b7e444721c"
+}

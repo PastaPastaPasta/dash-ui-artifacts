@@ -1,0 +1,90 @@
+{
+  "at": "2026-09-16T03:45:57.499Z",
+  "network": "devnet",
+  "contract": "aCqjwShJ7Gc218Eic5MSxpibfrNRXzCjFtZcjXSNjS4",
+  "identities": [
+    {
+      "persona": 68,
+      "identityId": "Ds2e2mw5AXAgPDipvHed4wsYWgQdBPhMThQEXdmkW4RN",
+      "publicKeys": [
+        {
+          "keyId": 0,
+          "purpose": "AUTHENTICATION",
+          "securityLevel": "MASTER"
+        },
+        {
+          "keyId": 1,
+          "purpose": "AUTHENTICATION",
+          "securityLevel": "CRITICAL"
+        },
+        {
+          "keyId": 2,
+          "purpose": "AUTHENTICATION",
+          "securityLevel": "HIGH"
+        },
+        {
+          "keyId": 3,
+          "purpose": "TRANSFER",
+          "securityLevel": "CRITICAL"
+        },
+        {
+          "keyId": 4,
+          "purpose": "ENCRYPTION",
+          "securityLevel": "MEDIUM"
+        }
+      ],
+      "documents": {
+        "authVault": [
+          {
+            "id": "3DzM5UGqMc88ZNcWN7GUrQpFud2Js3AkW8179H3bECq3",
+            "ownerId": "Ds2e2mw5AXAgPDipvHed4wsYWgQdBPhMThQEXdmkW4RN",
+            "active": true
+          }
+        ],
+        "authVaultAccess": [
+          {
+            "id": "5UZuQ8anrkgEZnijv7n8XW8bH6z8JVeEG8tAsZzA8WwB",
+            "ownerId": "Ds2e2mw5AXAgPDipvHed4wsYWgQdBPhMThQEXdmkW4RN",
+            "kind": "password",
+            "status": "active"
+          }
+        ]
+      }
+    },
+    {
+      "persona": 69,
+      "identityId": "FKyFyQM9kb5dkWw12Vcjf8GwFT21GAVDN5MkT4bPyvHx",
+      "publicKeys": [
+        {
+          "keyId": 0,
+          "purpose": "AUTHENTICATION",
+          "securityLevel": "MASTER"
+        },
+        {
+          "keyId": 1,
+          "purpose": "AUTHENTICATION",
+          "securityLevel": "CRITICAL"
+        },
+        {
+          "keyId": 2,
+          "purpose": "AUTHENTICATION",
+          "securityLevel": "HIGH"
+        },
+        {
+          "keyId": 3,
+          "purpose": "TRANSFER",
+          "securityLevel": "CRITICAL"
+        },
+        {
+          "keyId": 4,
+          "purpose": "ENCRYPTION",
+          "securityLevel": "MEDIUM"
+        }
+      ],
+      "documents": {
+        "authVault": [],
+        "authVaultAccess": []
+      }
+    }
+  ]
+}
