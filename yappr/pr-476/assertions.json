@@ -1,0 +1,18 @@
+[
+  {
+    "state": "before",
+    "revision": "c98a6ecd7e26ae5bc9fc8e400e6011eb8465b3a0",
+    "identityId": "9NFhqxW8upkFMVTE5h5VmYWLdSEJ26B2iMKdhCFgsWkd",
+    "aria": "- link:\n  - /url: /devnet/settings/?section=notifications",
+    "tooltip": false,
+    "keyboardNavigatesToNotificationSettings": true
+  },
+  {
+    "state": "after",
+    "revision": "8147051bbc55e63b4fbbb2f0c3725846a349858c",
+    "identityId": "9NFhqxW8upkFMVTE5h5VmYWLdSEJ26B2iMKdhCFgsWkd",
+    "aria": "- link \"Notification settings\":\n  - /url: /devnet/settings/?section=notifications",
+    "tooltip": true,
+    "keyboardNavigatesToNotificationSettings": true
+  }
+]
