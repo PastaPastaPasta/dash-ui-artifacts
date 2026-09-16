@@ -1,0 +1,12 @@
+{
+  "revision": "733faf53cd893cba861476a4af75b442ed67ca72",
+  "owner": "9NFhqxW8upkFMVTE5h5VmYWLdSEJ26B2iMKdhCFgsWkd",
+  "actor": "4epjp48EuEG7UetQ7uExDsYNsoWLeVWU9Ym26sXb64WM",
+  "checks": [
+    "Fresh38 login confirms ordinary follow absent",
+    "Fresh39 login confirms existing feed enabled,0privatefollowers,epoch2,38request still present"
+  ],
+  "requestPreserved": true,
+  "ownerMain": "Private Feed\nPrivate Feed\n\nCreate encrypted posts visible only to approved followers\n\nPrivate feed is enabled\n\nYou can create encrypted posts that only approved followers can see.\nEnabled: 9/15/2026\n\n0\n\n/ 1024\n\nFollowers\n\n2\n\n/ 2000\n\nEpoch\n\n1024\n\nAvailable\n\nSlots\n\nEncryption Key\nKey stored for this session\n\nYou can create and view private posts\n\nCapacity:\n•\nUp to 1,024 private followers\n•\nUp to 1,999 revocations before migration needed\nDanger Zone\n\nReset Private Feed\n\nIf you have lost your encryption key or want to start fresh, you can reset your private feed. This will remove all current followers and make existing private posts unreadable.\n\nReset Private Feed\nYour Private Feed\n\nOverview of your private feed activity and stats\n\n0\n\n/1024\n\nFollowers\n\n1\n\n \n\nPending\n\n0\n\n(recent)\n\nPrivate Posts\n\nEpoch Usage\n1/1999 revocations\nRecent Activity\nLeaf 0 revoked\n8 minutes ago\nPrivate Feed Requests\n1\n\nApprove or ignore requests to access your private feed\n\nNatalia Ibarra\n\n@nataliai93.dash\n\nRequested 8 minutes ago\n\nApprove\nIgnore\nPrivate Followers\n0/1024\n\nManage who can access your private posts\n\nNo private followers yet\n\nApprove follow requests to grant access to your private posts",
+  "success": true
+}

@@ -1,0 +1,13 @@
+{
+  "revision": "471094556c8d5d9457676f205dfe4df2a0742117",
+  "owner": "8yBzzwur8s7BirZDX1yq3NCkv3HM3cgjsL3PZVjeVdSd",
+  "preResetAt": "2026-09-16T03:31:03.122Z",
+  "checks": [
+    "Failed reset had already removed revocation history; actor normal Follow now shows Pending and allows Cancel. Temporary Follow removed again. Fresh owner confirms0requests/0followers, epoch1. Owner39 QA94 fixture untouched."
+  ],
+  "partialResetError": "Immutable privateFeedState cannot be replaced; earlier failed reset already deleted rekey",
+  "followCreated": false,
+  "requestRemoved": true,
+  "finalOwner": "Private Feed\nPrivate Feed\n\nCreate encrypted posts visible only to approved followers\n\nPrivate feed is enabled\n\nYou can create encrypted posts that only approved followers can see.\nEnabled: 9/15/2026\n\n0\n\n/ 1024\n\nFollowers\n\n1\n\n/ 2000\n\nEpoch\n\n1024\n\nAvailable\n\nSlots\n\nEncryption Key\nKey not entered for this session\n\nEnter your encryption key to manage your private feed\n\nEnter Encryption Key\nCapacity:\n•\nUp to 1,024 private followers\n•\nUp to 1,999 revocations before migration needed\nDanger Zone\n\nReset Private Feed\n\nIf you have lost your encryption key or want to start fresh, you can reset your private feed. This will remove all current followers and make existing private posts unreadable.\n\nReset Private Feed\nYour Private Feed\nPrivate Feed Requests\n\nApprove or ignore requests to access your private feed\n\nNo pending requests\n\nPrivate Followers\n0/1024\n\nManage who can access your private posts\n\nNo private followers yet\n\nApprove follow requests to grant access to your private posts",
+  "success": true
+}
