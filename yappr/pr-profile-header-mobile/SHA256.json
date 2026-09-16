@@ -1,0 +1,46 @@
+{
+  "PLAN.md": {
+    "bytes": 1245,
+    "sha256": "a69e8dc4267b01c32a4999a0ba7c2d7ba8a5a296bb022eca719d4555262e09ab"
+  },
+  "README.md": {
+    "bytes": 1711,
+    "sha256": "9354e4f28a77a31ba2785f9b2d0efb8b930166b57b448ea6db6e8b0b6ac19931"
+  },
+  "after-other-profile-320.png": {
+    "bytes": 69310,
+    "sha256": "77f49cfb14e9e321222b76cc00338eef4c23c5d76a82e7680842386b08534505"
+  },
+  "after-owner-edit-320.png": {
+    "bytes": 59231,
+    "sha256": "530d41017e7cc265c6144072f482d74c9d81e9e5b8425204d41d99797c15c982"
+  },
+  "after-owner-read-320.png": {
+    "bytes": 70355,
+    "sha256": "cbf1282e7b3e372b5c4ee59310d285768a374815156ca338bc549dcaa3d7f251"
+  },
+  "after.json": {
+    "bytes": 5813,
+    "sha256": "fb551eff7c92915e014b37b7bb3f9b07e885e632849b7bd42c1a63fa39add199"
+  },
+  "before-other-profile-320.png": {
+    "bytes": 69495,
+    "sha256": "b053da4fcbd7b275601c24b466b32c38228efb79affff9ccc8e208ee3b71b41c"
+  },
+  "before-owner-edit-320.png": {
+    "bytes": 57734,
+    "sha256": "cf93fab34b80f2d5908b95299b3e2bd98dfce91f225631ac09d7acab30696cd2"
+  },
+  "before-owner-read-320.png": {
+    "bytes": 72736,
+    "sha256": "8a5323350c10b88a8f4d74dcea75de3f14d98721f7fbcef29dce7002a72f6b76"
+  },
+  "before.json": {
+    "bytes": 5795,
+    "sha256": "f32467bb304e549eb2dfa8801417d42d1a0d6a3d6cf7ae27af25a4d93d2c23f1"
+  },
+  "capture.cjs": {
+    "bytes": 2516,
+    "sha256": "99334bd5dd6aaa62e41959a80b6c411ffc50030bb526184b9ab99a7f52cb4ec6"
+  }
+}

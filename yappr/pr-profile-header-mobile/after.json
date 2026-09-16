@@ -1,0 +1,292 @@
+{
+  "base": "http://127.0.0.1:3286/devnet",
+  "identity": "HVVUwJLhEngLH5LkZx8FgUkcso28xK7tn5gaaHke5WWu",
+  "label": "after",
+  "checks": [
+    {
+      "state": "owner-read",
+      "width": 320,
+      "geometry": [
+        {
+          "name": "Share profile",
+          "x": 228,
+          "y": 312,
+          "width": 34,
+          "height": 34
+        },
+        {
+          "name": "Settings",
+          "x": 270,
+          "y": 312,
+          "width": 34,
+          "height": 34
+        },
+        {
+          "name": "Edit profile",
+          "x": 194.640625,
+          "y": 354,
+          "width": 109.359375,
+          "height": 40
+        }
+      ]
+    },
+    {
+      "state": "owner-edit",
+      "width": 320,
+      "geometry": [
+        {
+          "name": "Share profile",
+          "x": 228,
+          "y": 312,
+          "width": 34,
+          "height": 34
+        },
+        {
+          "name": "Settings",
+          "x": 270,
+          "y": 312,
+          "width": 34,
+          "height": 34
+        },
+        {
+          "name": "Cancel",
+          "x": 180.609375,
+          "y": 354,
+          "width": 63.65625,
+          "height": 32
+        },
+        {
+          "name": "Save",
+          "x": 252.265625,
+          "y": 354,
+          "width": 51.734375,
+          "height": 32
+        }
+      ]
+    },
+    {
+      "state": "owner-read",
+      "width": 390,
+      "geometry": [
+        {
+          "name": "Share profile",
+          "x": 180.640625,
+          "y": 315,
+          "width": 34,
+          "height": 34
+        },
+        {
+          "name": "Settings",
+          "x": 222.640625,
+          "y": 315,
+          "width": 34,
+          "height": 34
+        },
+        {
+          "name": "Edit profile",
+          "x": 264.640625,
+          "y": 312,
+          "width": 109.359375,
+          "height": 40
+        }
+      ]
+    },
+    {
+      "state": "owner-edit",
+      "width": 390,
+      "geometry": [
+        {
+          "name": "Share profile",
+          "x": 166.609375,
+          "y": 312,
+          "width": 34,
+          "height": 34
+        },
+        {
+          "name": "Settings",
+          "x": 208.609375,
+          "y": 312,
+          "width": 34,
+          "height": 34
+        },
+        {
+          "name": "Cancel",
+          "x": 250.609375,
+          "y": 313,
+          "width": 63.65625,
+          "height": 32
+        },
+        {
+          "name": "Save",
+          "x": 322.265625,
+          "y": 313,
+          "width": 51.734375,
+          "height": 32
+        }
+      ]
+    },
+    {
+      "state": "owner-read",
+      "width": 1280,
+      "geometry": [
+        {
+          "name": "Share profile",
+          "x": 719.640625,
+          "y": 323,
+          "width": 34,
+          "height": 34
+        },
+        {
+          "name": "Settings",
+          "x": 761.640625,
+          "y": 323,
+          "width": 34,
+          "height": 34
+        },
+        {
+          "name": "Edit profile",
+          "x": 803.640625,
+          "y": 320,
+          "width": 109.359375,
+          "height": 40
+        }
+      ]
+    },
+    {
+      "state": "owner-edit",
+      "width": 1280,
+      "geometry": [
+        {
+          "name": "Share profile",
+          "x": 705.609375,
+          "y": 320,
+          "width": 34,
+          "height": 34
+        },
+        {
+          "name": "Settings",
+          "x": 747.609375,
+          "y": 320,
+          "width": 34,
+          "height": 34
+        },
+        {
+          "name": "Cancel",
+          "x": 789.609375,
+          "y": 321,
+          "width": 63.65625,
+          "height": 32
+        },
+        {
+          "name": "Save",
+          "x": 861.265625,
+          "y": 321,
+          "width": 51.734375,
+          "height": 32
+        }
+      ]
+    },
+    {
+      "state": "other-profile",
+      "width": 320,
+      "geometry": [
+        {
+          "name": "Share profile",
+          "x": 186,
+          "y": 312,
+          "width": 34,
+          "height": 34
+        },
+        {
+          "name": "Tip Bianca Laurent",
+          "x": 228,
+          "y": 312,
+          "width": 34,
+          "height": 34
+        },
+        {
+          "name": "Message Bianca Laurent",
+          "x": 270,
+          "y": 312,
+          "width": 34,
+          "height": 34
+        },
+        {
+          "name": "Follow",
+          "x": 219.375,
+          "y": 354,
+          "width": 84.625,
+          "height": 40
+        }
+      ]
+    },
+    {
+      "state": "other-profile",
+      "width": 390,
+      "geometry": [
+        {
+          "name": "Share profile",
+          "x": 163.375,
+          "y": 315,
+          "width": 34,
+          "height": 34
+        },
+        {
+          "name": "Tip Bianca Laurent",
+          "x": 205.375,
+          "y": 315,
+          "width": 34,
+          "height": 34
+        },
+        {
+          "name": "Message Bianca Laurent",
+          "x": 247.375,
+          "y": 315,
+          "width": 34,
+          "height": 34
+        },
+        {
+          "name": "Follow",
+          "x": 289.375,
+          "y": 312,
+          "width": 84.625,
+          "height": 40
+        }
+      ]
+    },
+    {
+      "state": "other-profile",
+      "width": 1280,
+      "geometry": [
+        {
+          "name": "Share profile",
+          "x": 702.375,
+          "y": 323,
+          "width": 34,
+          "height": 34
+        },
+        {
+          "name": "Tip Bianca Laurent",
+          "x": 744.375,
+          "y": 323,
+          "width": 34,
+          "height": 34
+        },
+        {
+          "name": "Message Bianca Laurent",
+          "x": 786.375,
+          "y": 323,
+          "width": 34,
+          "height": 34
+        },
+        {
+          "name": "Follow",
+          "x": 828.375,
+          "y": 320,
+          "width": 84.625,
+          "height": 40
+        }
+      ]
+    }
+  ]
+}
