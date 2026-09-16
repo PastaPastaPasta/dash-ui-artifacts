@@ -1,0 +1,310 @@
+{
+  "revision": "28bf071b3e777c94dfd49a3da55cd99ab22660be",
+  "base": "http://127.0.0.1:4297/devnet",
+  "storeId": "CP3dEXrdMEbbiFNHakoRkC86DonfVftuzUyaY4ngrnQb",
+  "checks": [
+    {
+      "role": "buyer",
+      "width": 390,
+      "bounds": {
+        "doc": 390,
+        "viewport": 390,
+        "controls": [
+          {
+            "text": "",
+            "rect": {
+              "left": 8,
+              "right": 44
+            }
+          },
+          {
+            "text": "Message",
+            "rect": {
+              "left": 132.234375,
+              "right": 231.828125
+            }
+          },
+          {
+            "text": "My Orders",
+            "rect": {
+              "left": 239.828125,
+              "right": 326
+            }
+          },
+          {
+            "text": "",
+            "rect": {
+              "left": 334,
+              "right": 374
+            }
+          }
+        ]
+      }
+    },
+    {
+      "role": "buyer",
+      "width": 320,
+      "bounds": {
+        "doc": 320,
+        "viewport": 320,
+        "controls": [
+          {
+            "text": "",
+            "rect": {
+              "left": 8,
+              "right": 44
+            }
+          },
+          {
+            "text": "Message",
+            "rect": {
+              "left": 62.234375,
+              "right": 161.828125
+            }
+          },
+          {
+            "text": "My Orders",
+            "rect": {
+              "left": 169.828125,
+              "right": 256
+            }
+          },
+          {
+            "text": "",
+            "rect": {
+              "left": 264,
+              "right": 304
+            }
+          }
+        ]
+      }
+    },
+    {
+      "role": "buyer",
+      "width": 1280,
+      "bounds": {
+        "doc": 1280,
+        "viewport": 1280,
+        "controls": [
+          {
+            "text": "",
+            "rect": {
+              "left": 284,
+              "right": 320
+            }
+          },
+          {
+            "text": "Message",
+            "rect": {
+              "left": 671.234375,
+              "right": 770.828125
+            }
+          },
+          {
+            "text": "My Orders",
+            "rect": {
+              "left": 778.828125,
+              "right": 865
+            }
+          },
+          {
+            "text": "",
+            "rect": {
+              "left": 873,
+              "right": 913
+            }
+          }
+        ]
+      }
+    },
+    {
+      "role": "owner",
+      "width": 320,
+      "bounds": {
+        "doc": 320,
+        "viewport": 320,
+        "controls": [
+          {
+            "text": "",
+            "rect": {
+              "left": 8,
+              "right": 44
+            }
+          },
+          {
+            "text": "Manage",
+            "rect": {
+              "left": 184.21875,
+              "right": 256
+            }
+          },
+          {
+            "text": "",
+            "rect": {
+              "left": 264,
+              "right": 304
+            }
+          }
+        ]
+      }
+    },
+    {
+      "role": "owner",
+      "width": 390,
+      "bounds": {
+        "doc": 390,
+        "viewport": 390,
+        "controls": [
+          {
+            "text": "",
+            "rect": {
+              "left": 8,
+              "right": 44
+            }
+          },
+          {
+            "text": "Manage",
+            "rect": {
+              "left": 254.21875,
+              "right": 326
+            }
+          },
+          {
+            "text": "",
+            "rect": {
+              "left": 334,
+              "right": 374
+            }
+          }
+        ]
+      }
+    },
+    {
+      "role": "owner",
+      "width": 1280,
+      "bounds": {
+        "doc": 1280,
+        "viewport": 1280,
+        "controls": [
+          {
+            "text": "",
+            "rect": {
+              "left": 284,
+              "right": 320
+            }
+          },
+          {
+            "text": "Manage",
+            "rect": {
+              "left": 793.21875,
+              "right": 865
+            }
+          },
+          {
+            "text": "",
+            "rect": {
+              "left": 873,
+              "right": 913
+            }
+          }
+        ]
+      }
+    },
+    {
+      "role": "guest",
+      "width": 320,
+      "bounds": {
+        "doc": 320,
+        "viewport": 320,
+        "controls": [
+          {
+            "text": "",
+            "rect": {
+              "left": 8,
+              "right": 44
+            }
+          },
+          {
+            "text": "Message",
+            "rect": {
+              "left": 156.40625,
+              "right": 256
+            }
+          },
+          {
+            "text": "",
+            "rect": {
+              "left": 264,
+              "right": 304
+            }
+          }
+        ]
+      }
+    },
+    {
+      "role": "guest",
+      "width": 390,
+      "bounds": {
+        "doc": 390,
+        "viewport": 390,
+        "controls": [
+          {
+            "text": "",
+            "rect": {
+              "left": 8,
+              "right": 44
+            }
+          },
+          {
+            "text": "Message",
+            "rect": {
+              "left": 226.40625,
+              "right": 326
+            }
+          },
+          {
+            "text": "",
+            "rect": {
+              "left": 334,
+              "right": 374
+            }
+          }
+        ]
+      }
+    },
+    {
+      "role": "guest",
+      "width": 1280,
+      "bounds": {
+        "doc": 1280,
+        "viewport": 1280,
+        "controls": [
+          {
+            "text": "",
+            "rect": {
+              "left": 284,
+              "right": 320
+            }
+          },
+          {
+            "text": "Message",
+            "rect": {
+              "left": 765.40625,
+              "right": 865
+            }
+          },
+          {
+            "text": "",
+            "rect": {
+              "left": 873,
+              "right": 913
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "buyerNavigation": true,
+  "ownerManage": true,
+  "passed": true
+}

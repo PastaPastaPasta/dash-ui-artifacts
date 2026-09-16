@@ -1,0 +1,122 @@
+{
+  "revision": "cf0efbc10b8757137063113ebbd2061e8b87d8f7",
+  "base": "http://127.0.0.1:3288/devnet",
+  "storeId": "CP3dEXrdMEbbiFNHakoRkC86DonfVftuzUyaY4ngrnQb",
+  "checks": [
+    {
+      "role": "buyer",
+      "width": 390,
+      "bounds": {
+        "doc": 601,
+        "viewport": 390,
+        "controls": [
+          {
+            "text": "",
+            "rect": {
+              "left": 8,
+              "right": 44
+            }
+          },
+          {
+            "text": "Message",
+            "rect": {
+              "left": 358.796875,
+              "right": 458.390625
+            }
+          },
+          {
+            "text": "My Orders",
+            "rect": {
+              "left": 466.390625,
+              "right": 552.5625
+            }
+          },
+          {
+            "text": "",
+            "rect": {
+              "left": 560.5625,
+              "right": 600.5625
+            }
+          }
+        ]
+      }
+    },
+    {
+      "role": "buyer",
+      "width": 320,
+      "bounds": {
+        "doc": 601,
+        "viewport": 320,
+        "controls": [
+          {
+            "text": "",
+            "rect": {
+              "left": 8,
+              "right": 44
+            }
+          },
+          {
+            "text": "Message",
+            "rect": {
+              "left": 358.796875,
+              "right": 458.390625
+            }
+          },
+          {
+            "text": "My Orders",
+            "rect": {
+              "left": 466.390625,
+              "right": 552.5625
+            }
+          },
+          {
+            "text": "",
+            "rect": {
+              "left": 560.5625,
+              "right": 600.5625
+            }
+          }
+        ]
+      }
+    },
+    {
+      "role": "buyer",
+      "width": 1280,
+      "bounds": {
+        "doc": 1280,
+        "viewport": 1280,
+        "controls": [
+          {
+            "text": "",
+            "rect": {
+              "left": 284,
+              "right": 320
+            }
+          },
+          {
+            "text": "Message",
+            "rect": {
+              "left": 671.234375,
+              "right": 770.828125
+            }
+          },
+          {
+            "text": "My Orders",
+            "rect": {
+              "left": 778.828125,
+              "right": 865
+            }
+          },
+          {
+            "text": "",
+            "rect": {
+              "left": 873,
+              "right": 913
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "passed": true
+}
