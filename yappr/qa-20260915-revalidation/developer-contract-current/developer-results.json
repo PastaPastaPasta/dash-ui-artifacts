@@ -1,0 +1,51 @@
+{
+  "revision": "c98a6ecd7e26ae5bc9fc8e400e6011eb8465b3a0",
+  "checks": [
+    "Developer inspector starts disabled with disabled Clear; toggle enables named inspector pill",
+    "Normal public feed requests captured; Pause changes to Resume; Copy all returns parseable query-record JSON",
+    "Copy proof matches displayed actual proof bytes; visualizer opens from normal UI",
+    "Selected actual record opens Query/Result/Metadata/Proof tabs",
+    "Contracts/documents filters and copied filtered exports agree",
+    "Paused inspector retains same count across real Explore navigation",
+    "Mobile panel fits; Clear empties records; close returns pill; Ctrl+Shift+Y disables inspector",
+    "Enabled preference survives reload while records/panel/pause reset; no pre-reload record retained",
+    "Contract definition and actual clipboard match checked-in deployed v6 schema; desktop/mobile rendered"
+  ],
+  "captured": {
+    "count": 78,
+    "methods": [
+      "documents.query",
+      "documents.count",
+      "documents.composite",
+      "documents.get",
+      "dpns.resolveName",
+      "contracts.getLatestVersions",
+      "documents.ranked",
+      "contracts.addKnown"
+    ],
+    "successes": 78
+  },
+  "rowCount": 55,
+  "querySummary": "{\n  \"dataContractId\": \"CdUkSHkQwGXXAkzKqrcrjUWLsj7qErK9XAZmLzJEhirU\",\n  \"documentTypeName\": \"block\",\n  \"where\": [\n    [\n      \"$ownerId\",\n      \"==\",\n      \"9NFhqxW8upkFMVTE5h5VmYWLdSEJ26B2iMKdhCFgsWkd\"\n    ],\n    [\n      \"blockedId\",\n      \"==\",\n   ",
+  "resultSummary": "0 entries\n\n{}",
+  "metadataSummary": "Platform height\n3296\n\nPlatform block height this response was proven at.\n\nEpoch\n1\n\nPlatform epoch — the fee and validator-set period.\n\nBlock time\n9/15/2026, 20:39:46 (1789522786984ms)\n\nTimestamp of the Platform block that anchors this response.\n\nProt",
+  "proofSummary": "Open in proof visualizer\nCopy proof hex\nGroveDB proof (1,005 bytes)\n01008d018d519ae05c65aef18e2499035e5c2c166859ecb75f4518c92a134cc87175daf204014000240201205c140e655c0265bbc2a808716de1847985135918ad51cdfd0b76664ba95ba37c0026873f28e1a5d5ca5d72bd7e73d7",
+  "proofCopiedBytes": 1005,
+  "visualizerOrigin": "https://dashpay.github.io",
+  "mobileBounds": {
+    "x": 0,
+    "y": 32,
+    "width": 390,
+    "height": 812
+  },
+  "contract": {
+    "version": 1,
+    "documentCount": 17,
+    "indices": 53
+  },
+  "contractMobileOverflow": {
+    "viewport": 390,
+    "document": 390
+  },
+  "success": true
+}
