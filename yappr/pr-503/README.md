@@ -11,3 +11,7 @@ Both use the same programmatically authenticated fixture `yappr-ci-devnet-260915
 | ![After the baseline test clicks Creators, Trending remains selected](before-creators-test.png) | ![The synchronized test selects Creators and displays the proved leaderboard](after-creators-test.png) |
 
 Both original PNGs were inspected at original resolution. The recorded results include exact revision, selected-tab class and leaderboard visibility. No new chain writes were needed for this comparison. Full-resolution files are available directly in this directory.
+
+## Completed combined validation
+
+The exact local integration `a6ced6ec7239de2e22de41d79daeb256b42b233d` combines the three separate PR heads listed in `combined-validation.json`. It passes all 20 applicable topology tests (8 v4-only tests correctly skipped on v6), with retries and traces disabled, in 1.7 minutes. `topology-results.txt` lists each result. This covers real writes and proved readbacks; it does not claim all application user stories or standalone CI jobs pass. The temporary fixture credit shortfall was verified and replenished before this serial run. No signing credential changed.

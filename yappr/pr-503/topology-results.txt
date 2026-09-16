@@ -1,0 +1,30 @@
+  ✓   1 [write] › e2e/write/topology.spec.ts:108:7 › v3+ interaction topology on the devnet contract › the build under test targets the expected devnet contract and topology (463ms)
+  ✓   2 [write] › e2e/write/topology.spec.ts:125:7 › v3+ interaction topology on the devnet contract › a root post and a reply to it are created (8.1s)
+  ✓   3 [write] › e2e/write/topology.spec.ts:160:7 › v3+ interaction topology on the devnet contract › a reply to that reply renders in the ROOT thread (5.2s)
+  ✓   4 [write] › e2e/write/topology.spec.ts:184:7 › v3+ interaction topology on the devnet contract › repost and bookmark controls are absent on a reply card (1.7s)
+  ✓   5 [write] › e2e/write/topology.spec.ts:212:7 › v3+ interaction topology on the devnet contract › liking a reply toggles and persists (6.7s)
+  ✓   6 [write] › e2e/write/topology.spec.ts:240:7 › v3+ interaction topology on the devnet contract › a quote of a reply renders the quoted reply (5.7s)
+  ✓   7 [write] › e2e/write/topology.spec.ts:269:7 › v3+ interaction topology on the devnet contract › deleting the nested reply leaves a tombstone card (5.1s)
+  -   8 [write] › e2e/write/topology.spec.ts:330:7 › v4 indexOnly like lifecycle on the devnet contract › a tagged post is created and listed on its tag page
+  -   9 [write] › e2e/write/topology.spec.ts:360:7 › v4 indexOnly like lifecycle on the devnet contract › liking the post persists and its count is served from the count tree
+  -  10 [write] › e2e/write/topology.spec.ts:381:7 › v4 indexOnly like lifecycle on the devnet contract › the liked state survives a feed listing (batched membership)
+  -  11 [write] › e2e/write/topology.spec.ts:391:7 › v4 indexOnly like lifecycle on the devnet contract › unliking deletes by values and re-liking works
+  -  12 [write] › e2e/write/topology.spec.ts:423:7 › v4 indexOnly like lifecycle on the devnet contract › the profile Top tab renders the ranked top post
+  -  13 [write] › e2e/write/topology.spec.ts:440:7 › v4 indexOnly like lifecycle on the devnet contract › the explore Top tab lists the liked post
+  -  14 [write] › e2e/write/topology.spec.ts:459:7 › v4 indexOnly like lifecycle on the devnet contract › the tag page Top toggle lists the liked post under its hashtag
+  -  15 [write] › e2e/write/topology.spec.ts:477:7 › v4 indexOnly like lifecycle on the devnet contract › the trending widget surfaces the tag from recent activity
+  ✓  16 [write] › e2e/write/topology.spec.ts:594:7 › v5 optional-hashtag topology and prefix rankings on the devnet contract › a tagged post is created and listed on its tag page (6.3s)
+  ✓  17 [write] › e2e/write/topology.spec.ts:609:7 › v5 optional-hashtag topology and prefix rankings on the devnet contract › an untagged post is created with the hashtag property absent (4.7s)
+  ✓  18 [write] › e2e/write/topology.spec.ts:618:7 › v5 optional-hashtag topology and prefix rankings on the devnet contract › liking and unliking the TAGGED post round-trips the agreement value (6.3s)
+  ✓  19 [write] › e2e/write/topology.spec.ts:624:7 › v5 optional-hashtag topology and prefix rankings on the devnet contract › liking the UNTAGGED post mirrors the absence and persists (4.9s)
+  ✓  20 [write] › e2e/write/topology.spec.ts:632:7 › v5 optional-hashtag topology and prefix rankings on the devnet contract › unliking the UNTAGGED post reproduces the absence in the delete tuple (10.3s)
+  ✓  21 [write] › e2e/write/topology.spec.ts:641:7 › v5 optional-hashtag topology and prefix rankings on the devnet contract › unliking the TAGGED post still round-trips with the value present (8.9s)
+  ✓  22 [write] › e2e/write/topology.spec.ts:647:7 › v5 optional-hashtag topology and prefix rankings on the devnet contract › trending is the PROVED ranking (like counts, no disclaimer) and the tag ranks on its pinned surface (2.5s)
+  ✓  23 [write] › e2e/write/topology.spec.ts:671:7 › v5 optional-hashtag topology and prefix rankings on the devnet contract › the Creators tab renders the proved leaderboard (2.3s)
+  ✓  24 [write] › e2e/write/topology.spec.ts:706:7 › v5 optional-hashtag topology and prefix rankings on the devnet contract › the profile Top tab still serves the terminal ranking of the same index (2.0s)
+  ✓  25 [write] › e2e/write/topology.spec.ts:777:7 › v6 daily-windowed rankings on the devnet contract › the tag page's Top → Today lists the liked post (beat.byDayHashtagPost, tag + bucket pinned) (1.7s)
+  ✓  26 [write] › e2e/write/topology.spec.ts:787:7 › v6 daily-windowed rankings on the devnet contract › the profile Top → Today lists the liked post (like.byDayAuthorPost, author + bucket pinned) (2.4s)
+  ✓  27 [write] › e2e/write/topology.spec.ts:801:7 › v6 daily-windowed rankings on the devnet contract › Explore's trending → Today ranks the run tag (beat.byDayHashtagPost at hashtag) (1.6s)
+  ✓  28 [write] › e2e/write/topology.spec.ts:813:7 › v6 daily-windowed rankings on the devnet contract › Explore's Top → Today renders today's ranking (like.byDayPost) (2.1s)
+  8 skipped
+  20 passed (1.7m)
