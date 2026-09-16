@@ -1,0 +1,18 @@
+{
+  "revision": "9b98d2096f10ea4ed074d0b121d753a0c666314a",
+  "base": "http://127.0.0.1:3261/devnet",
+  "storeId": "GJdJn1iWx9CdtqRXetwa39Kkr3ZG2fBajQbcE1u6aJKr",
+  "productId": "EXE3eDzteGQshhbMuyhBZWGcMaeM5Qersv1nNYtJG1YW",
+  "at": "2026-09-16T01:19:59.783Z",
+  "integrationOf": "c98a6ecd + PR432 exact patch79e2d96e",
+  "steps": [
+    "UI created a one-item checkout for 1000 duffs at controlled payee address; payment watcher active",
+    "Actual SDK-backed QA payer broadcast real Moutai transaction 4408369deb53d9888a3f269efb8294b56b0b989891485d05b0278f9e1a7c050a",
+    "Yappr detected actual new UTXO and auto-filled its transaction ID and 1000 duff amount",
+    "Place Order succeeded after actual detected payment"
+  ],
+  "paymentSent": true,
+  "orderSubmitted": true,
+  "txid": "4408369deb53d9888a3f269efb8294b56b0b989891485d05b0278f9e1a7c050a",
+  "passed": true
+}

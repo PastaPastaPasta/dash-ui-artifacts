@@ -1,0 +1,57 @@
+{
+  "at": "2026-09-16T01:12:35.948Z",
+  "stores": [
+    {
+      "$formatVersion": "0",
+      "$id": "GJdJn1iWx9CdtqRXetwa39Kkr3ZG2fBajQbcE1u6aJKr",
+      "$ownerId": "9enksyZPnWQUovGXXAQ879uJtBvbHTUY3ewJ5Tq5QNVe",
+      "defaultCurrency": "DASH",
+      "description": "Isolated synthetic QA payment fixture. Devnet funds only; no real goods or shipment.",
+      "name": "QA Payment51 Devnet 20260915",
+      "paymentUris": "[{\"scheme\":\"tdash:\",\"uri\":\"tdash:yVUvQLRm6SYfjT46KoozgAA5y3AaxHxSj8\",\"label\":\"QA Moutai payment fixture\"}]",
+      "status": "active",
+      "$revision": 2,
+      "$createdAt": 1789520929904,
+      "$updatedAt": null,
+      "$transferredAt": null,
+      "$createdAtBlockHeight": null,
+      "$updatedAtBlockHeight": null,
+      "$transferredAtBlockHeight": null,
+      "$createdAtCoreBlockHeight": null,
+      "$updatedAtCoreBlockHeight": null,
+      "$transferredAtCoreBlockHeight": null,
+      "$creatorId": null,
+      "$contractVersion": 1,
+      "$dataContractId": "EZ4wbjXKrmTEmX6Hb8UW1TWYm2RSagK8o25KnvfsZ3z5",
+      "$type": "store"
+    }
+  ],
+  "items": [
+    {
+      "$formatVersion": "0",
+      "$id": "EXE3eDzteGQshhbMuyhBZWGcMaeM5Qersv1nNYtJG1YW",
+      "$ownerId": "9enksyZPnWQUovGXXAQ879uJtBvbHTUY3ewJ5Tq5QNVe",
+      "basePrice": 1000,
+      "currency": "DASH",
+      "description": "Synthetic purchase for real devnet settlement detection. No real goods or shipping.",
+      "status": "active",
+      "stockQuantity": 1,
+      "storeId": "GJdJn1iWx9CdtqRXetwa39Kkr3ZG2fBajQbcE1u6aJKr",
+      "title": "QA Paid Devnet Receipt51",
+      "$revision": 1,
+      "$createdAt": 1789521120570,
+      "$updatedAt": null,
+      "$transferredAt": null,
+      "$createdAtBlockHeight": null,
+      "$updatedAtBlockHeight": null,
+      "$transferredAtBlockHeight": null,
+      "$createdAtCoreBlockHeight": null,
+      "$updatedAtCoreBlockHeight": null,
+      "$transferredAtCoreBlockHeight": null,
+      "$creatorId": null,
+      "$contractVersion": 1,
+      "$dataContractId": "EZ4wbjXKrmTEmX6Hb8UW1TWYm2RSagK8o25KnvfsZ3z5",
+      "$type": "storeItem"
+    }
+  ]
+}

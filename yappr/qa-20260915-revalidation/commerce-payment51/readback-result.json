@@ -1,0 +1,12 @@
+{
+  "revision": "c98a6ecd7e26ae5bc9fc8e400e6011eb8465b3a0",
+  "orderId": "2T8ThBeiKHy7ajPLe1bzjGgyN9RudXZXhaQ1byNZS7uZ",
+  "txid": "4408369deb53d9888a3f269efb8294b56b0b989891485d05b0278f9e1a7c050a",
+  "at": "2026-09-16T01:24:29.864Z",
+  "buyerReadbackPassed": true,
+  "sellerPaymentLink": "https://insight.testnet.networks.dash.org/insight/tx/4408369deb53d9888a3f269efb8294b56b0b989891485d05b0278f9e1a7c050a",
+  "verificationDestination": "https://insight.testnet.networks.dash.org/insight/tx/4408369deb53d9888a3f269efb8294b56b0b989891485d05b0278f9e1a7c050a",
+  "verificationBody": "Blocks\nStatus\n  · Conn 10 · Height 1554557\n Scan\nDASH \n[ Deutsch · English · French · Spanish · Portuguese · Japanese · Chinese ]   [ verify message · broadcast transaction ]\ninsight API v4.0.8",
+  "sellerReadbackPassed": true,
+  "passed": true
+}

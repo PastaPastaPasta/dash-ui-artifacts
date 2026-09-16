@@ -1,0 +1,26 @@
+{
+  "files": {
+    "README.md": "d25b7d6f717adb10af8273c0f2576b2ff564cd982a844c3958f462ebe0a6179d",
+    "baseline-amount-unavailable.png": "fbf395c967c710e0187393538668da76511d26417c25f681aec169394cccd74f",
+    "baseline-result.json": "ffd04bdedf99765df5e11eaa5b0dcaad0ba6009e98530c562e39455b4771d5b6",
+    "buyer-paid-order.png": "8a15557f718028c9916fcf7d838068dafe9a316d6bb55ae04571f257db2e5b0f",
+    "buyer-result.json": "7a2513e558f6a06ca2e8f904fbff38a67ed6204be1d49d3412d29ac33e785fe8",
+    "checkout-before-payment.png": "602b8ff3b57b018a4cd31230ab1832c806a8a252c267872fc7924402bea4bdb4",
+    "checkout-payment-detected.png": "c6eacebb77d9bc44dec7b957e3597192f9418b2ea825dd3bde87c9b7f6dee534",
+    "fixture.json": "27e80e7d71e866556f11fe3dfa0dfd03c7fb01bb862a2853fda09d57484b15e3",
+    "moutai-payment-explorer.png": "7251877e273342d02244f2bc42c7d6384c7979e61a197fdc40afd1e485d47ca1",
+    "order-placed.png": "0e1c0621b29f3856225c9aa8a95d3406b6a302b03ee56c391c2e3709e22c0a92",
+    "paid-order-sdk.json": "6efa31d814f4427f376c8c074cd52abe5ca163c01400f2959dc20abb0d809d08",
+    "payer-funding.json": "3544770f4a596ab68540e8548a1c1728fabd26ec2ad1b56918fb5ebba4248b2a",
+    "payment-method-reloaded.png": "decd778c1f8fbc34a0f386c992dcf18f722269f572bbd35270f87b063319ed22",
+    "product-created.png": "bc070552529cd3ead45ec8f75fea9ccc140ca151f6cf6ffc7111ab48c385f709",
+    "product-form.png": "4c449d008d2c0c528aee7d0346b6d115805cc68c0fa1daa3d6ecd5a55301406c",
+    "purchase-payment.json": "51dd4af5f1ed991159b584b9db6b323589d62892a4c4a56a5ad7d20e6578b6e7",
+    "readback-result.json": "e946662ecc5696a02edafe8fbfa849e6905706b65756c88d38a9aa6a9e16c64c",
+    "seller-paid-order.png": "5054a39301d241cf3702a89e4a9e6a28ecedb63aa3b35c78c4b06ae499e89841",
+    "store-created.png": "9c65e6a296f675a7a41b691b873ca8324c8288c0ba68ae16c20c7612979b3f32",
+    "store-sdk.json": "21dcf60e456fb1ac418e68cd97aa162780393fc6a9fcba2df62ef1bc8f1466ee",
+    "wallet-compatibility.md": "2154429789c5e2e4589118e078e24843cef2b7edbdeda87b319a6f9b11f60260",
+    "wrong-network-payment-link.png": "56330f605343d4cfdeddbd1e749a7ca4b911a6e3aedc2a98334b573ebf943b64"
+  }
+}

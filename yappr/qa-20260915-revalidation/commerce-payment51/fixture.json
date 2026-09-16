@@ -1,0 +1,11 @@
+{
+  "revision": "c98a6ecd7e26ae5bc9fc8e400e6011eb8465b3a0",
+  "base": "http://127.0.0.1:3260/devnet",
+  "storeId": "GJdJn1iWx9CdtqRXetwa39Kkr3ZG2fBajQbcE1u6aJKr",
+  "created": "2026-09-16T01:12:02.462Z",
+  "payee": "yVUvQLRm6SYfjT46KoozgAA5y3AaxHxSj8",
+  "productTitle": "QA Paid Devnet Receipt51",
+  "productPriceDuffs": 1000,
+  "authenticationFixture": true,
+  "harnessCorrection": "Store creation returns store listing, not manage route; SDK readback confirmed sole creation before continuation."
+}

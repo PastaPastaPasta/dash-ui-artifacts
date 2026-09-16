@@ -1,0 +1,18 @@
+{
+  "side": "after",
+  "revision": "79e44e6b626f7595d47fe6f42a78fa87c6817447",
+  "base": "http://127.0.0.1:3270/devnet",
+  "orderId": "2T8ThBeiKHy7ajPLe1bzjGgyN9RudXZXhaQ1byNZS7uZ",
+  "txid": "4408369deb53d9888a3f269efb8294b56b0b989891485d05b0278f9e1a7c050a",
+  "at": "2026-09-16T01:35:30.069Z",
+  "responses": [
+    {
+      "url": "http://insight.moutai.networks.dash.org/insight-api/tx/4408369deb53d9888a3f269efb8294b56b0b989891485d05b0278f9e1a7c050a",
+      "status": 200
+    }
+  ],
+  "href": "https://insight.moutai.networks.dash.org/#!/tx/4408369deb53d9888a3f269efb8294b56b0b989891485d05b0278f9e1a7c050a",
+  "popupUrl": "http://insight.moutai.networks.dash.org/insight/tx/4408369deb53d9888a3f269efb8294b56b0b989891485d05b0278f9e1a7c050a",
+  "body": "Blocks\nStatus\n  · Conn 9 · Height 71543\n Scan\nDASH \nTransaction\nTransaction 4408369deb53d9888a3f269efb8294b56b0b989891485d05b0278f9e1a7c050a \nSummary\nSize\t225 (bytes)\nFee Rate\t0.000044444444444444447 DASH per kB\nReceived Time\tSep 15, 2026 8:21:05 PM\nMined Time\tSep 15, 2026 8:21:05 PM\nIncluded in Block\t\n000001ef315e1588be114efb21b7a83f1252b136ced0fd8b9eb86703be3681ca\nDetails\n 4408369deb53d9888a3f269efb8294b56b0b989891485d05b0278f9e1a7c050a \nmined Sep 15, 2026 8:21:05 PM\n0.001 DASH\nyhi1DUYHkwEy1nVzYn8i5xspUz15fieo9L\n0.00001 DASH (U)\nUnparsed address [0]\n0.00098 DASH (U)\nUnparsed address [1]\nFEE: 0.00001 DASH\n13 CONFIRMATIONS 0.00099 DASH\n[ Deutsch · English · French · Spanish · Portuguese · Japanese · Chinese ]   [ verify message · broadcast transaction ]\ninsight API v4.0.6",
+  "passed": true
+}

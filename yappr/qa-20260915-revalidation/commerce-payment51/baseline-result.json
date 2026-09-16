@@ -1,0 +1,14 @@
+{
+  "revision": "c98a6ecd7e26ae5bc9fc8e400e6011eb8465b3a0",
+  "base": "http://127.0.0.1:3260/devnet",
+  "storeId": "GJdJn1iWx9CdtqRXetwa39Kkr3ZG2fBajQbcE1u6aJKr",
+  "productId": "EXE3eDzteGQshhbMuyhBZWGcMaeM5Qersv1nNYtJG1YW",
+  "at": "2026-09-16T01:16:19.416Z",
+  "steps": [
+    "Baseline c98a6ecd reproduces existing QA25: DASH to tdash amount unavailable. No payment or order sent."
+  ],
+  "paymentSent": false,
+  "orderSubmitted": false,
+  "knownBaselineIssue": "QA25 / PR432",
+  "passed": false
+}

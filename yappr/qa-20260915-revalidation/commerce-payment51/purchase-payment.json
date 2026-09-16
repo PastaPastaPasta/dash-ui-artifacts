@@ -1,0 +1,10 @@
+{
+  "network": "devnet-moutai",
+  "payer": "yhi1DUYHkwEy1nVzYn8i5xspUz15fieo9L",
+  "payee": "yVUvQLRm6SYfjT46KoozgAA5y3AaxHxSj8",
+  "duffs": 1000,
+  "txid": "4408369deb53d9888a3f269efb8294b56b0b989891485d05b0278f9e1a7c050a",
+  "fee": 1000,
+  "broadcast": "{\"txid\":\"4408369deb53d9888a3f269efb8294b56b0b989891485d05b0278f9e1a7c050a\"}",
+  "at": "2026-09-16T01:20:09.462Z"
+}
