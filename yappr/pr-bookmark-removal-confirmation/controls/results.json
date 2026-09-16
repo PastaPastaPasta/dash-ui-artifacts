@@ -1,0 +1,46 @@
+{
+  "revision": "94508becbb959097f53462e728a7f430acc60de8",
+  "fixture": [
+    "A97wUuDzx6uxJAKKxicTJZHrhL4huq8w58uiSXZM7tHa",
+    "AGRLKvfiUQWdhadft4GG3Z4V2v9zoxCuy8BQS9M5ZHTx",
+    "9gWVtfjkRp9dytJiKZ3FJENZnt3sqppe5V3bc1VkZavs"
+  ],
+  "steps": [
+    {
+      "step": "single pending blocks every action-row bookmark, overlay Remove and header Clear",
+      "passed": true
+    },
+    {
+      "step": "single interrupted broadcast retains all three and unlocks controls",
+      "requests": 4,
+      "ids": [
+        "9gWVtfjkRp9dytJiKZ3FJENZnt3sqppe5V3bc1VkZavs",
+        "AGRLKvfiUQWdhadft4GG3Z4V2v9zoxCuy8BQS9M5ZHTx",
+        "A97wUuDzx6uxJAKKxicTJZHrhL4huq8w58uiSXZM7tHa"
+      ]
+    },
+    {
+      "step": "partial bulk one actual deletion and two interrupted broadcasts",
+      "remainingIds": [
+        "9gWVtfjkRp9dytJiKZ3FJENZnt3sqppe5V3bc1VkZavs",
+        "AGRLKvfiUQWdhadft4GG3Z4V2v9zoxCuy8BQS9M5ZHTx"
+      ],
+      "withheld": 6,
+      "uiIds": [
+        "9gWVtfjkRp9dytJiKZ3FJENZnt3sqppe5V3bc1VkZavs",
+        "AGRLKvfiUQWdhadft4GG3Z4V2v9zoxCuy8BQS9M5ZHTx"
+      ]
+    },
+    {
+      "step": "fresh retry single action-row removal and independent readback",
+      "remainingIds": [
+        "AGRLKvfiUQWdhadft4GG3Z4V2v9zoxCuy8BQS9M5ZHTx"
+      ]
+    },
+    {
+      "step": "re-add succeeds, healthy clear retry and fresh final empty cleanup",
+      "remainingIds": []
+    }
+  ],
+  "transportFixture": "Pause/abort real broadcastStateTransition requests only; never alter request or response data."
+}

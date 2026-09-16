@@ -1,0 +1,22 @@
+{
+  "base": "733faf53cd893cba861476a4af75b442ed67ca72",
+  "head": "94508becbb959097f53462e728a7f430acc60de8",
+  "baselineRegression": {
+    "tests": 7,
+    "passed": 5,
+    "failed": 2,
+    "failures": [
+      "removal does not succeed after lookup error",
+      "creation does not run after lookup error"
+    ]
+  },
+  "headUnit": {
+    "files": 35,
+    "tests": 238,
+    "passed": 238
+  },
+  "lint": "passed",
+  "typescript": "passed",
+  "productionBuild": "passed",
+  "independentReview": "approved"
+}

@@ -1,0 +1,73 @@
+{
+  "phase": "after",
+  "revision": "94508becbb959097f53462e728a7f430acc60de8",
+  "identity": "HVVUwJLhEngLH5LkZx8FgUkcso28xK7tn5gaaHke5WWu",
+  "ids": [
+    "A97wUuDzx6uxJAKKxicTJZHrhL4huq8w58uiSXZM7tHa",
+    "AGRLKvfiUQWdhadft4GG3Z4V2v9zoxCuy8BQS9M5ZHTx",
+    "9gWVtfjkRp9dytJiKZ3FJENZnt3sqppe5V3bc1VkZavs"
+  ],
+  "cases": [
+    {
+      "mode": "bulk",
+      "name": "desktop",
+      "width": 1280,
+      "height": 900,
+      "base": "http://127.0.0.1:3293/devnet",
+      "toast": "Some bookmarks could not be removed",
+      "visibleIds": [
+        "9gWVtfjkRp9dytJiKZ3FJENZnt3sqppe5V3bc1VkZavs",
+        "AGRLKvfiUQWdhadft4GG3Z4V2v9zoxCuy8BQS9M5ZHTx",
+        "A97wUuDzx6uxJAKKxicTJZHrhL4huq8w58uiSXZM7tHa"
+      ],
+      "offline": true
+    },
+    {
+      "mode": "bulk",
+      "name": "mobile",
+      "width": 390,
+      "height": 844,
+      "base": "http://127.0.0.1:3293/devnet",
+      "toast": "Some bookmarks could not be removed",
+      "visibleIds": [
+        "9gWVtfjkRp9dytJiKZ3FJENZnt3sqppe5V3bc1VkZavs",
+        "AGRLKvfiUQWdhadft4GG3Z4V2v9zoxCuy8BQS9M5ZHTx",
+        "A97wUuDzx6uxJAKKxicTJZHrhL4huq8w58uiSXZM7tHa"
+      ],
+      "offline": true
+    },
+    {
+      "mode": "single",
+      "name": "desktop",
+      "width": 1280,
+      "height": 900,
+      "base": "http://127.0.0.1:3293/devnet",
+      "toast": "Failed to remove bookmark",
+      "visibleIds": [
+        "9gWVtfjkRp9dytJiKZ3FJENZnt3sqppe5V3bc1VkZavs",
+        "AGRLKvfiUQWdhadft4GG3Z4V2v9zoxCuy8BQS9M5ZHTx",
+        "A97wUuDzx6uxJAKKxicTJZHrhL4huq8w58uiSXZM7tHa"
+      ],
+      "offline": true
+    },
+    {
+      "mode": "single",
+      "name": "mobile",
+      "width": 390,
+      "height": 844,
+      "base": "http://127.0.0.1:3293/devnet",
+      "toast": "Failed to remove bookmark",
+      "visibleIds": [
+        "9gWVtfjkRp9dytJiKZ3FJENZnt3sqppe5V3bc1VkZavs",
+        "AGRLKvfiUQWdhadft4GG3Z4V2v9zoxCuy8BQS9M5ZHTx",
+        "A97wUuDzx6uxJAKKxicTJZHrhL4huq8w58uiSXZM7tHa"
+      ],
+      "offline": true
+    }
+  ],
+  "freshOnlineIds": [
+    "9gWVtfjkRp9dytJiKZ3FJENZnt3sqppe5V3bc1VkZavs",
+    "AGRLKvfiUQWdhadft4GG3Z4V2v9zoxCuy8BQS9M5ZHTx",
+    "A97wUuDzx6uxJAKKxicTJZHrhL4huq8w58uiSXZM7tHa"
+  ]
+}
