@@ -1,0 +1,82 @@
+{
+  "base": "cf0efbc10b8757137063113ebbd2061e8b87d8f7",
+  "head": "88a64b8c18a75907f15c0f054a5dde44ac410cb4",
+  "at": "2026-09-16T04:30:13.535Z",
+  "cases": [
+    {
+      "side": "before",
+      "mode": "devnet",
+      "input": "/login/",
+      "url": "http://127.0.0.1:3288/devnet/login/",
+      "dialogsAfterClose": 1,
+      "capturedWithoutRequestQr": true
+    },
+    {
+      "side": "before",
+      "mode": "devnet",
+      "input": "/login",
+      "url": "http://127.0.0.1:3288/devnet/login/",
+      "dialogsAfterClose": 1
+    },
+    {
+      "side": "after",
+      "mode": "devnet",
+      "input": "/login/",
+      "url": "http://127.0.0.1:3296/devnet/",
+      "dialogsAfterClose": 0,
+      "capturedWithoutRequestQr": true
+    },
+    {
+      "side": "after",
+      "mode": "devnet",
+      "input": "/login",
+      "url": "http://127.0.0.1:3296/devnet/",
+      "dialogsAfterClose": 0
+    },
+    {
+      "side": "before",
+      "mode": "root",
+      "input": "/login/",
+      "url": "http://127.0.0.1:3340/login/",
+      "dialogsAfterClose": 1,
+      "capturedWithoutRequestQr": true
+    },
+    {
+      "side": "before",
+      "mode": "root",
+      "input": "/login",
+      "url": "http://127.0.0.1:3340/",
+      "dialogsAfterClose": 1
+    },
+    {
+      "side": "after",
+      "mode": "root",
+      "input": "/login/",
+      "url": "http://127.0.0.1:3320/",
+      "dialogsAfterClose": 0,
+      "capturedWithoutRequestQr": true
+    },
+    {
+      "side": "after",
+      "mode": "root",
+      "input": "/login",
+      "url": "http://127.0.0.1:3320/",
+      "dialogsAfterClose": 0
+    },
+    {
+      "side": "after",
+      "mode": "devnet",
+      "input": "home modal",
+      "dialogsAfterClose": 0,
+      "url": "http://127.0.0.1:3296/devnet/"
+    },
+    {
+      "side": "after",
+      "mode": "root",
+      "input": "home modal",
+      "dialogsAfterClose": 0,
+      "url": "http://127.0.0.1:3320/"
+    }
+  ],
+  "cleanup": "All guest contexts closed; no credentials entered or wallet approval attempted. Screenshots were delayed until no-response state to avoid publishing ephemeral request QR codes."
+}
