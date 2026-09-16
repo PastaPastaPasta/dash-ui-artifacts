@@ -1,0 +1,45 @@
+1:  c6e59eaf = 1:  1d7112c2 fix: preserve reading position when expanding top feed
+2:  85b046a4 ! 2:  2acddf70 fix: preserve top feed on failed ranked expansions
+    @@ hooks/use-top-feed.ts: export function useTopFeed({ activeTab, window, enabled }
+              const visible = await filterBlockedAuthors(userId, ranked);
+              if (isCurrent()) {
+     
+    - ## lib/services/ranked-likes.test.ts (new) ##
+    + ## lib/services/ranked-likes-errors.test.ts (new) ##
+     @@
+     +import { beforeEach, describe, expect, it, vi } from 'vitest';
+     +
+    @@ lib/services/ranked-likes.ts: const hydratedCache = new TtlMap<string, Post[]>(6
+     + * `likesAreIndexOnly()`. Returns `[]` on failure unless `throwOnError` is requested.
+       */
+      export async function topLikedPostsHydrated(options: HydratedTopPostsOptions = {}): Promise<Post[]> {
+    --  const { hashtag, limit = 20, window = 'all', force = false } = options;
+    -+  const { hashtag, limit = 20, window = 'all', force = false, throwOnError = false } = options;
+    +-  const { hashtag, postAuthor, limit = 20, window = 'all', force = false } = options;
+    ++  const { hashtag, postAuthor, limit = 20, window = 'all', force = false, throwOnError = false } = options;
+        if (hashtag === '') {
+          // The '' group is the untagged bucket, not a tag — nothing should ask for it.
+          logger.warn('topLikedPostsHydrated: refusing the empty hashtag group');
+     @@ lib/services/ranked-likes.ts: export async function topLikedPostsHydrated(options: HydratedTopPostsOptions = {
+        }
+      
+    -   const cacheKey = `${window}:${limit}:${hashtag === undefined ? 'global' : `tag:${hashtag}`}`;
+    +   const cacheKey = `${window}:${limit}:${postAuthor ? `author:${postAuthor}` : hashtag === undefined ? 'global' : `tag:${hashtag}`}`;
+     -  return hydrateRankedCached(cacheKey, force, () =>
+    --    topLikedPosts(hashtag === undefined ? { limit, window } : { hashtag, limit, window })
+    +-    topLikedPosts({ ...(postAuthor ? { postAuthor } : hashtag === undefined ? {} : { hashtag }), limit, window })
+     +  return hydrateRankedCached(cacheKey, force, throwOnError, () =>
+    -+    topLikedPosts({ hashtag, limit, window, throwOnError: true })
+    ++    topLikedPosts({ ...(postAuthor ? { postAuthor } : hashtag === undefined ? {} : { hashtag }), limit, window, throwOnError: true })
+        );
+      }
+      
+    @@ lib/services/ranked-likes.ts: export async function topLikedPostsByAuthorsHydrat
+     +  throwOnError: boolean,
+        rank: () => Promise<RankedLikedPost[]>
+      ): Promise<Post[]> {
+    -   const cached = force ? undefined : hydratedCache.get(cacheKey);
+    +   const { getCurrentUserId } = await import('./sdk-helpers');
+     @@ lib/services/ranked-likes.ts: async function hydrateRankedCached(
+          return posts;
+        } catch (error) {

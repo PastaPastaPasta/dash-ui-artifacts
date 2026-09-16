@@ -1,0 +1,33 @@
+{
+  "base": "733faf53cd893cba861476a4af75b442ed67ca72",
+  "head": "2acddf709f1a5d1778b3855c2463aac26b840454",
+  "environment": {
+    "network": "moutai devnet",
+    "browser": "Chromium",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "locale": "en-US",
+    "timezone": "UTC",
+    "theme": "light",
+    "identity": "guest",
+    "separateContexts": true
+  },
+  "matrix": [
+    {
+      "behavior": "Load More succeeds",
+      "before": "first20cards removed, scroll jumps to0",
+      "after": "first20cards preserved while expanding to40, same scroll",
+      "fixture": "For You / Top / All time; identical initial20IDs checked"
+    },
+    {
+      "behavior": "Load More fails",
+      "before": "20cards removed and false empty feed shown; no retry button",
+      "after": "20cards, reading position and retry control retained after two failures",
+      "fixture": "fresh guest context; browser transport deliberately offline"
+    }
+  ],
+  "nonVisual": "Unit tests distinguish ranking, hydration, individual-author and cache error paths; they verify success after a transient service error.",
+  "limitations": "Offline reconnect address-pool recovery is a separate QA77 investigation; no reconnect-success claim. Following identity-list errors remain a separate fail-soft path."
+}
