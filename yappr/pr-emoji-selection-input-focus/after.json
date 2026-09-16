@@ -1,0 +1,58 @@
+{
+  "label": "after",
+  "base": "http://127.0.0.1:3312/devnet",
+  "revision": "8ff92b65f562135cea6712bd359ec83c1fc66780",
+  "persona55": "HVVUwJLhEngLH5LkZx8FgUkcso28xK7tn5gaaHke5WWu",
+  "recipient56": "6yDkcAPd29Y24aLt1Ec1ZaRfwd4BCMJB6Swg9tgeYFmx",
+  "messageOrPostSubmissions": 0,
+  "cases": [
+    {
+      "surface": "post",
+      "mobile": false,
+      "value": "emoji 😀next",
+      "focused": {
+        "tag": "TEXTAREA",
+        "ariaLabel": null,
+        "placeholder": "What's on your mind?"
+      },
+      "escapeReturnsTrigger": true,
+      "triggerToggleReturnsTrigger": true
+    },
+    {
+      "surface": "post",
+      "mobile": true,
+      "value": "emoji 😀next",
+      "focused": {
+        "tag": "TEXTAREA",
+        "ariaLabel": null,
+        "placeholder": "What's on your mind?"
+      },
+      "escapeReturnsTrigger": true,
+      "triggerToggleReturnsTrigger": true
+    },
+    {
+      "surface": "dm",
+      "mobile": false,
+      "value": "emoji 😀next",
+      "focused": {
+        "tag": "INPUT",
+        "ariaLabel": null,
+        "placeholder": "Type a message..."
+      },
+      "escapeReturnsTrigger": true,
+      "triggerToggleReturnsTrigger": true
+    },
+    {
+      "surface": "dm",
+      "mobile": true,
+      "value": "emoji 😀next",
+      "focused": {
+        "tag": "INPUT",
+        "ariaLabel": null,
+        "placeholder": "Type a message..."
+      },
+      "escapeReturnsTrigger": true,
+      "triggerToggleReturnsTrigger": true
+    }
+  ]
+}

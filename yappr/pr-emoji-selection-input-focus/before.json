@@ -1,0 +1,58 @@
+{
+  "label": "before",
+  "base": "http://127.0.0.1:3311/devnet",
+  "revision": "7f259cfef8df477a7763c9c9d4680defb55a76f1",
+  "persona55": "HVVUwJLhEngLH5LkZx8FgUkcso28xK7tn5gaaHke5WWu",
+  "recipient56": "6yDkcAPd29Y24aLt1Ec1ZaRfwd4BCMJB6Swg9tgeYFmx",
+  "messageOrPostSubmissions": 0,
+  "cases": [
+    {
+      "surface": "post",
+      "mobile": false,
+      "value": "emoji 😀",
+      "focused": {
+        "tag": "BUTTON",
+        "ariaLabel": "Add emoji",
+        "placeholder": null
+      },
+      "escapeReturnsTrigger": true,
+      "triggerToggleReturnsTrigger": true
+    },
+    {
+      "surface": "post",
+      "mobile": true,
+      "value": "emoji 😀",
+      "focused": {
+        "tag": "BUTTON",
+        "ariaLabel": "Add emoji",
+        "placeholder": null
+      },
+      "escapeReturnsTrigger": true,
+      "triggerToggleReturnsTrigger": true
+    },
+    {
+      "surface": "dm",
+      "mobile": false,
+      "value": "emoji 😀",
+      "focused": {
+        "tag": "BUTTON",
+        "ariaLabel": "Add emoji",
+        "placeholder": null
+      },
+      "escapeReturnsTrigger": true,
+      "triggerToggleReturnsTrigger": true
+    },
+    {
+      "surface": "dm",
+      "mobile": true,
+      "value": "emoji 😀",
+      "focused": {
+        "tag": "BUTTON",
+        "ariaLabel": "Add emoji",
+        "placeholder": null
+      },
+      "escapeReturnsTrigger": true,
+      "triggerToggleReturnsTrigger": true
+    }
+  ]
+}
