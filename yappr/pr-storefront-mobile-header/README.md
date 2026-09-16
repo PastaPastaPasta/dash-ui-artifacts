@@ -1,6 +1,6 @@
 # Storefront mobile header (QA97)
 
-A normal 31-character store title pushes Message, My Orders and cart beyond a mobile viewport. The document becomes 601 pixels wide at both 390 and 320 pixels. Give the title its own mobile row and allow it to shrink on desktop while retaining the action group.
+A normal 28-character store title pushes Message, My Orders and cart beyond a mobile viewport. The document becomes 601 pixels wide at both 390 and 320 pixels. Give the title its own mobile row and allow it to shrink on desktop while retaining the action group.
 
 Exact base `cf0efbc10b8757137063113ebbd2061e8b87d8f7`; full signed head `28bf071b3e777c94dfd49a3da55cd99ab22660be`. Independent committed production devnet builds use identical unchanged Python static adapter, Chromium, light theme, same actual store `CP3dEXrdMEbbiFNHakoRkC86DonfVftuzUyaY4ngrnQb`, title “QA Commerce62 Transition Lab,” and buyer63. No writes during comparison. Eight screenshots inspected at original resolution; auth uses scoped QA session fixtures, not login evidence.
 
