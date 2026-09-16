@@ -1,0 +1,10 @@
+{
+  "before": {
+    "source": "/Users/pasta/.t3/worktrees/yappr/qa-staging-cf0efbc1/lib/embed/embed-styles.ts",
+    "sha256": "feb5ae6bc92f650376d19dab113b7f96b4e2c93037482e6b409a02b5ff4a7868"
+  },
+  "after": {
+    "source": "/Users/pasta/.t3/worktrees/yappr/embed-background-contrast/lib/embed/embed-styles.ts",
+    "sha256": "7f86a947e22bca38a9c23abfd4f9042a91ef6213e6807953802b9c583d978166"
+  }
+}

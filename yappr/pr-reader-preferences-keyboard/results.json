@@ -1,0 +1,135 @@
+[
+  {
+    "rev": {
+      "name": "before",
+      "port": 3288,
+      "sha": "cf0efbc10b8757137063113ebbd2061e8b87d8f7"
+    },
+    "opened": {
+      "tag": "BUTTON",
+      "title": "Reading preferences",
+      "label": "Reading preferences",
+      "pref": null,
+      "popover": true
+    },
+    "afterTab": {
+      "tag": "BUTTON",
+      "title": "",
+      "label": "More actions",
+      "pref": null,
+      "popover": false
+    }
+  },
+  {
+    "rev": {
+      "name": "after",
+      "port": 3360,
+      "sha": "f4a2ac06c421327560f8d6a3ed685e8e1ba6f966"
+    },
+    "opened": {
+      "tag": "BUTTON",
+      "title": "small",
+      "label": null,
+      "pref": null,
+      "popover": true
+    },
+    "afterTab": {
+      "tag": "BUTTON",
+      "title": "medium",
+      "label": null,
+      "pref": null,
+      "popover": true
+    },
+    "reset": {
+      "readingMode": "author",
+      "fontSize": "medium"
+    },
+    "keyboardSelections": [
+      {
+        "tag": "BUTTON",
+        "title": "small",
+        "label": null,
+        "pref": "{\"state\":{\"readingMode\":\"author\",\"fontSize\":\"small\"},\"version\":0}",
+        "popover": true,
+        "fontSize": "14px"
+      },
+      {
+        "tag": "BUTTON",
+        "title": "medium",
+        "label": null,
+        "pref": "{\"state\":{\"readingMode\":\"author\",\"fontSize\":\"medium\"},\"version\":0}",
+        "popover": true,
+        "fontSize": "17px"
+      },
+      {
+        "tag": "BUTTON",
+        "title": "large",
+        "label": null,
+        "pref": "{\"state\":{\"readingMode\":\"author\",\"fontSize\":\"large\"},\"version\":0}",
+        "popover": true,
+        "fontSize": "18px"
+      },
+      {
+        "tag": "BUTTON",
+        "title": "xlarge",
+        "label": null,
+        "pref": "{\"state\":{\"readingMode\":\"author\",\"fontSize\":\"xlarge\"},\"version\":0}",
+        "popover": true,
+        "fontSize": "20px"
+      },
+      {
+        "tag": "BUTTON",
+        "title": "Author",
+        "label": null,
+        "pref": "{\"state\":{\"readingMode\":\"author\",\"fontSize\":\"xlarge\"},\"version\":0}",
+        "popover": true,
+        "fontSize": "20px"
+      },
+      {
+        "tag": "BUTTON",
+        "title": "Light",
+        "label": null,
+        "pref": "{\"state\":{\"readingMode\":\"light\",\"fontSize\":\"xlarge\"},\"version\":0}",
+        "popover": true,
+        "fontSize": "20px"
+      },
+      {
+        "tag": "BUTTON",
+        "title": "Dark",
+        "label": null,
+        "pref": "{\"state\":{\"readingMode\":\"dark\",\"fontSize\":\"xlarge\"},\"version\":0}",
+        "popover": true,
+        "fontSize": "20px"
+      },
+      {
+        "tag": "BUTTON",
+        "title": "Sepia",
+        "label": null,
+        "pref": "{\"state\":{\"readingMode\":\"sepia\",\"fontSize\":\"xlarge\"},\"version\":0}",
+        "popover": true,
+        "fontSize": "20px"
+      }
+    ],
+    "pointerOutsideDismisses": true,
+    "mobile": [
+      {
+        "width": 320,
+        "bounds": {
+          "x": 44,
+          "y": 462,
+          "width": 220,
+          "height": 193.5
+        }
+      },
+      {
+        "width": 390,
+        "bounds": {
+          "x": 114,
+          "y": 396,
+          "width": 220,
+          "height": 193.5
+        }
+      }
+    ]
+  }
+]

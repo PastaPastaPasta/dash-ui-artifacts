@@ -1,0 +1,122 @@
+[
+  {
+    "rev": {
+      "name": "before",
+      "port": 3288,
+      "sha": "cf0efbc10b8757137063113ebbd2061e8b87d8f7"
+    },
+    "actual": {
+      "light": {
+        "color": "rgb(15, 23, 42)",
+        "background": "linear-gradient(135deg, rgb(15, 23, 42), rgb(30, 41, 59))",
+        "text": "Write highlighted content...",
+        "contrastAtStops": [
+          1,
+          1.220375898021852
+        ]
+      },
+      "mobilePanelY": 200.21875,
+      "dark": {
+        "color": "rgb(229, 231, 235)",
+        "background": "linear-gradient(135deg, rgb(15, 23, 42), rgb(30, 41, 59))",
+        "text": "Write highlighted content...",
+        "contrastAtStops": [
+          14.41940744029663,
+          11.815545901610749
+        ]
+      }
+    },
+    "fixture": {
+      "panel": {
+        "color": "rgb(15, 23, 42)",
+        "background": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "linear-gradient(135deg, rgb(15, 23, 42), rgb(30, 41, 59))"
+      },
+      "link": {
+        "color": "rgb(15, 118, 110)",
+        "background": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none"
+      },
+      "code": {
+        "color": "rgb(30, 41, 59)",
+        "background": "rgb(226, 232, 240)",
+        "backgroundImage": "none"
+      },
+      "fallback": {
+        "color": "rgb(15, 23, 42)",
+        "background": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none"
+      },
+      "outside": {
+        "color": "rgb(15, 118, 110)",
+        "background": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none"
+      },
+      "linkContrastAtStops": [
+        3.2617795090857915,
+        2.6727662471644344
+      ],
+      "codeContrast": 11.866432560279284
+    }
+  },
+  {
+    "rev": {
+      "name": "after",
+      "port": 3361,
+      "sha": "70e8836a613132950e505525d38524aee383ee04"
+    },
+    "actual": {
+      "light": {
+        "color": "rgba(255, 255, 255, 0.9)",
+        "background": "linear-gradient(135deg, rgb(15, 23, 42), rgb(30, 41, 59))",
+        "text": "Write highlighted content...",
+        "contrastAtStops": [
+          14.539256960115233,
+          12.104085229703633
+        ]
+      },
+      "mobilePanelY": 200.21875,
+      "dark": {
+        "color": "rgba(255, 255, 255, 0.9)",
+        "background": "linear-gradient(135deg, rgb(15, 23, 42), rgb(30, 41, 59))",
+        "text": "Write highlighted content...",
+        "contrastAtStops": [
+          14.539256960115233,
+          12.104085229703633
+        ]
+      }
+    },
+    "fixture": {
+      "panel": {
+        "color": "rgba(255, 255, 255, 0.9)",
+        "background": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "linear-gradient(135deg, rgb(15, 23, 42), rgb(30, 41, 59))"
+      },
+      "link": {
+        "color": "rgb(45, 212, 191)",
+        "background": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none"
+      },
+      "code": {
+        "color": "rgb(30, 41, 59)",
+        "background": "rgb(226, 232, 240)",
+        "backgroundImage": "none"
+      },
+      "fallback": {
+        "color": "rgba(255, 255, 255, 0.9)",
+        "background": "rgb(15, 23, 42)",
+        "backgroundImage": "none"
+      },
+      "outside": {
+        "color": "rgb(15, 118, 110)",
+        "background": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none"
+      },
+      "linkContrastAtStops": [
+        9.59045716195864,
+        7.858609119947495
+      ],
+      "codeContrast": 11.866432560279284
+    }
+  }
+]

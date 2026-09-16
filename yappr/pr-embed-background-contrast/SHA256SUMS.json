@@ -1,0 +1,15 @@
+{
+  "PLAN.md": "da99af7350fb9d369ac20b74e882a3a63c15b2714def925beb17fc02a9e1cabf",
+  "README.md": "0e5a8bf280bccdc7524f5634dc6300913606a5a8ecbe9caa8793b0f285c7bac0",
+  "after/declared-style-fixture.png": "fb514dc2cfe3ffcc0805a1b9ec624796b741a75b9a7389fbfc22fc2c5ac520a8",
+  "after/light-desktop.png": "ea7f56456d4bfa5bfacb85f286ad3392cb62eeef1fd53eb484be5f22387a7b63",
+  "after/light-mobile.png": "44654e1311115fdf53887fb874b9ff8757404850330d6dca11ae4602ffc8e9dc",
+  "before/declared-style-fixture.png": "2277926b23843873341baf19c090a5d004b82b75483b47c56113bb31e3bca859",
+  "before/light-desktop.png": "b7f5bc7566e353f26e0814ecf52e00a260c5864708189355990c5933821f1a2f",
+  "before/light-mobile.png": "8491f07a619c3583c1f60339e637947204debbbd69bada3ac25913f1c3b1b55b",
+  "capture.cjs": "19768c8e380d999beb10a846b755d5f322d6448ec1e7bc82e3a941bebcb10698",
+  "fixture-source.json": "337b63d8a27877437a636f41912f69500992dcd80adae6aebf98b2f652a20f59",
+  "results.json": "c512d79e4108a3f0b65635f8347a0ec41e8646856c2cc4be158e5bc64e02c6cd",
+  "style-fixture-after.html": "5a5111b50e6446f2ef006950dfbb855bcde35412e03c47808e83851232ef93c5",
+  "style-fixture-before.html": "0d678681d18ad09871cb06f1412acf6c89c956923f3b59c504f08b9d35d2db48"
+}
