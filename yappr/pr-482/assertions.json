@@ -1,7 +1,7 @@
 {
   "fixture": {
     "identityId": "9NFhqxW8upkFMVTE5h5VmYWLdSEJ26B2iMKdhCFgsWkd",
-    "login": "Normal private-key login with registered authentication key2; locked vault, no encryption key entered"
+    "login": "Normal private-key login with registered authentication key 2; locked vault, no encryption key entered"
   },
   "variants": [
     {
@@ -14,7 +14,7 @@
       },
       "checks": [
         "Same enabled private feed; session encryption key absent",
-        "Broken navigation drops /devnet and displays404"
+        "Broken navigation drops /devnet and displays 404"
       ],
       "compiledRevisionVerified": true,
       "triggerUrl": "http://localhost:3278/devnet/settings/?section=privateFeed",
@@ -32,7 +32,7 @@
       },
       "checks": [
         "Same enabled private feed; session encryption key absent",
-        "Broken navigation drops /devnet and displays404"
+        "Broken navigation drops /devnet and displays 404"
       ],
       "compiledRevisionVerified": true,
       "triggerUrl": "http://localhost:3278/devnet/settings/?section=privateFeed",
