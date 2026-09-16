@@ -1,0 +1,51 @@
+{
+  "state": "before",
+  "revision": "cf0efbc10b8757137063113ebbd2061e8b87d8f7",
+  "storeId": "CP3dEXrdMEbbiFNHakoRkC86DonfVftuzUyaY4ngrnQb",
+  "checks": [
+    "Blank form six label-click associations and imageURL/add/back accessible names checked; Create stays disabled",
+    "Existing Amber title/price remain intact; titlelabelfocus and image-removal accessible name checked",
+    "Variant names/price/stock checked; localaxisremove/readd+Back leaves savedproduct unchanged on fresh read"
+  ],
+  "fields": [
+    {
+      "name": "Product Title *",
+      "focused": false,
+      "labels": [],
+      "id": ""
+    },
+    {
+      "name": "Description",
+      "focused": false,
+      "labels": [],
+      "id": ""
+    },
+    {
+      "name": "Category",
+      "focused": false,
+      "labels": [],
+      "id": ""
+    },
+    {
+      "name": "Price",
+      "focused": false,
+      "labels": [],
+      "id": ""
+    },
+    {
+      "name": "Currency",
+      "focused": false,
+      "labels": [],
+      "id": ""
+    },
+    {
+      "name": "Stock Quantity",
+      "focused": false,
+      "labels": [],
+      "id": ""
+    }
+  ],
+  "compiledHash": "cf0efbc1",
+  "axisSnapshot": "- text: Color\n- button",
+  "success": true
+}

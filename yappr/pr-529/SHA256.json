@@ -1,0 +1,58 @@
+{
+  "EVIDENCE_MATRIX.md": {
+    "size": 1629,
+    "sha256": "fc22ecd2147b6158abd655513e75f6810e52d03b7afc2f1a47e2fac7c45e2f2a"
+  },
+  "assertions-before.json": {
+    "size": 1210,
+    "sha256": "e5938edff64462fe68d4fb666d308a9956560d9da6836fea2b84790bea3f66f7"
+  },
+  "assertions-after.json": {
+    "size": 1761,
+    "sha256": "263a8802648369de71e00663eb7ff46e5b99e93ce5b01b47fabe8c63a4c5d616"
+  },
+  "after-edit-title-focus.png": {
+    "size": 17241,
+    "sha256": "ed05e109e3e7a91407309e688e9df7def1ab8e4e44daf070bf42965dc874ef58"
+  },
+  "after-title-desktop-overview.png": {
+    "size": 152843,
+    "sha256": "66906c5723a09f6089ba991607847f5830cbf55ee2ef2888543adb5ddc7644c4"
+  },
+  "after-title-focus.png": {
+    "size": 13003,
+    "sha256": "c1b8916b3d1d3fc0e0a78edc4655b2b24815112555f5a1bea76826361bdc1b2f"
+  },
+  "after-title-mobile.png": {
+    "size": 34050,
+    "sha256": "49f53cc4699ff948cbf8c29d9ef6ce5dc5cbed263a537e206656765fbca2873c"
+  },
+  "after-variant-context.png": {
+    "size": 168305,
+    "sha256": "07af5e7b006b0a54847f252c1b06d197637b7c478ad6e900474262534da6374a"
+  },
+  "before-edit-title-focus.png": {
+    "size": 16737,
+    "sha256": "7a6697459ddff82457de981e360550bf65e6510137db5f40ca90c7ea175672d1"
+  },
+  "before-title-desktop-overview.png": {
+    "size": 152390,
+    "sha256": "ae8d717637d6c12695de0ee092cdfeafe04c75d2d8f5860169a178c51649273a"
+  },
+  "before-title-focus.png": {
+    "size": 12554,
+    "sha256": "87d75c8f9d96aa546c13fb8366e51f88ef9d848a73aafa4ee0fa8d59daadeab8"
+  },
+  "before-title-mobile.png": {
+    "size": 33634,
+    "sha256": "278977b3827572267cdfdf7db53f88980e73f89ee7e554c74ed0814eef14b68a"
+  },
+  "before-variant-context.png": {
+    "size": 168305,
+    "sha256": "07af5e7b006b0a54847f252c1b06d197637b7c478ad6e900474262534da6374a"
+  },
+  "README.md": {
+    "size": 4547,
+    "sha256": "71c8ac757e442c79ce50aede8d848d824d274aae82373d4d806c3add013069da"
+  }
+}

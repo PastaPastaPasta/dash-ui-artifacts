@@ -1,0 +1,66 @@
+{
+  "state": "after",
+  "revision": "adfbab3e15872772f271cbb02e734faa0916f90b",
+  "storeId": "CP3dEXrdMEbbiFNHakoRkC86DonfVftuzUyaY4ngrnQb",
+  "checks": [
+    "Blank form six label-click associations and imageURL/add/back accessible names checked; Create stays disabled",
+    "Existing Amber title/price remain intact; titlelabelfocus and image-removal accessible name checked",
+    "Variant names/price/stock checked; localaxisremove/readd+Back leaves savedproduct unchanged on fresh read",
+    "Variant currencylabel isassociated and priceaccessible name follows draftcurrency; Back discards draft",
+    "Fresh final browser context verifies savedCobaltDASH/0.01000000/stock0 andAmbertitle/0.02000000 unchanged after all draftcancellations"
+  ],
+  "fields": [
+    {
+      "name": "Product Title *",
+      "focused": true,
+      "labels": [
+        "Product Title *"
+      ],
+      "id": ":r0:-title"
+    },
+    {
+      "name": "Description",
+      "focused": true,
+      "labels": [
+        "Description"
+      ],
+      "id": ":r0:-description"
+    },
+    {
+      "name": "Category",
+      "focused": true,
+      "labels": [
+        "Category"
+      ],
+      "id": ":r0:-category"
+    },
+    {
+      "name": "Price",
+      "focused": true,
+      "labels": [
+        "Price"
+      ],
+      "id": ":r0:-price"
+    },
+    {
+      "name": "Currency",
+      "focused": true,
+      "labels": [
+        "Currency"
+      ],
+      "id": ":r0:-currency"
+    },
+    {
+      "name": "Stock Quantity",
+      "focused": true,
+      "labels": [
+        "Stock Quantity"
+      ],
+      "id": ":r0:-stock"
+    }
+  ],
+  "compiledHash": "adfbab3e",
+  "axisSnapshot": "- text: Color\n- button \"Remove variant option Color\"",
+  "success": true,
+  "finalReadbackVerified": true
+}
