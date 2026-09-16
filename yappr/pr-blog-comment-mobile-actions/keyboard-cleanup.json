@@ -1,0 +1,21 @@
+{
+  "keyboardTabFromTextarea": true,
+  "keyboardEnterDeletedOwnComment": true,
+  "declaredNetworkLatencyMsDuringDelete": 250,
+  "busyBounds": {
+    "button": {
+      "x": 199.53125,
+      "y": 409.5,
+      "right": 274,
+      "bottom": 433.5
+    },
+    "name": {
+      "x": 90,
+      "y": 409.5,
+      "right": 190.859375,
+      "bottom": 425.5
+    },
+    "overlap": false
+  },
+  "freshReaderComments": 0
+}

@@ -1,0 +1,117 @@
+[
+  {
+    "path": "README.md",
+    "bytes": 3308,
+    "sha256": "788acbb82cf002fb2f751921355eae76dfae2bf7b99f59469686345973ed4c9b"
+  },
+  {
+    "path": "access-check.json",
+    "bytes": 404,
+    "sha256": "e8932debb30740519ab94f765ee785a8ff5a7e6edae948faa19afda1d37dc67e"
+  },
+  {
+    "path": "after/comment-1280.png",
+    "bytes": 108854,
+    "sha256": "719fcc0abb442dca7d1d8e89da98830becb8dd46ba36234f98d1f3732785677e"
+  },
+  {
+    "path": "after/comment-320.png",
+    "bytes": 67665,
+    "sha256": "a867e432dbc24b74a1aec0feac65740d41f7f437b3eb8c15840c4f928215a65a"
+  },
+  {
+    "path": "after/comment-390.png",
+    "bytes": 47012,
+    "sha256": "f10eefd2db8c2a5cc53e5f6d76422ab0157875b9cfef3dda6b7d7b94637c65cc"
+  },
+  {
+    "path": "after/results.json",
+    "bytes": 6858,
+    "sha256": "b59e2d9ad2f44bc4d88270327a3a3d565901cb3d90b668caa6a3cce182f64a7c"
+  },
+  {
+    "path": "before/comment-1280.png",
+    "bytes": 109097,
+    "sha256": "b825d1e6f3d3086c8b000f021b817fac8bb17556649bcbeb1f83c669a55f7903"
+  },
+  {
+    "path": "before/comment-320.png",
+    "bytes": 56292,
+    "sha256": "fc4755980e67004759eb9265b4c2a641bbeb71c7f315b9b2eb174082bd88c577"
+  },
+  {
+    "path": "before/comment-390.png",
+    "bytes": 75353,
+    "sha256": "3ac27afae608360188bfdb92b134769479362d5d769f40953d90900324b0b8ee"
+  },
+  {
+    "path": "before/results.json",
+    "bytes": 6907,
+    "sha256": "d1c21b20bd30d952fc2f9fce3f952a9889b4607bced5be3ef9a265fe78470395"
+  },
+  {
+    "path": "cleanup-metadata.json",
+    "bytes": 119,
+    "sha256": "bc72bc820bc27b5e61509a2d2211aa617eb159327356034c5756aa9d872ec0bc"
+  },
+  {
+    "path": "created-comment-metadata.json",
+    "bytes": 814,
+    "sha256": "d68bd0fc49cea285e72f9e32bd94ee0422aa84f5ca16ca77586c8e2f1975af4c"
+  },
+  {
+    "path": "evidence-plan.md",
+    "bytes": 1322,
+    "sha256": "0964b3c94ce70b115d19ffe5da958ad2618af915ceab9a9005a4ef52223e87e9"
+  },
+  {
+    "path": "fixture.json",
+    "bytes": 745,
+    "sha256": "d1a9a1e09a624178c03d871118c670ceeb4174e732462979f9d445735b94698a"
+  },
+  {
+    "path": "independent-review.md",
+    "bytes": 643,
+    "sha256": "c21ed380a7ae7c7478bb3739d1fdc0cbf879a89dfdec40353c20cbae30248a2b"
+  },
+  {
+    "path": "keyboard-cleanup.json",
+    "bytes": 406,
+    "sha256": "97dccc9d253d950abcefec34aaee64ed93333c20d0ff5bda0b362aa44a87122e"
+  },
+  {
+    "path": "other-cleanup.json",
+    "bytes": 58,
+    "sha256": "2425ae6b26e24046e55aaa5ccb0e1e1920fc1749b440d80536e0fe31bd915741"
+  },
+  {
+    "path": "probe.mjs",
+    "bytes": 920,
+    "sha256": "c72c985ac973013452390412ff8ee5c71945001e77946f54022a562ec2358338"
+  },
+  {
+    "path": "provenance.json",
+    "bytes": 390,
+    "sha256": "5faba77dccb707b3f5116eff7d0f35dd6a446e692b787924b06fdbbd78d47eed"
+  },
+  {
+    "path": "yappr-blog-comment-mobile-access.cjs",
+    "bytes": 1453,
+    "sha256": "38c663b0c39ba60431397eb42903919d6af6ff250a4fd36365b0090facada8df"
+  },
+  {
+    "path": "yappr-blog-comment-mobile-capture.cjs",
+    "bytes": 2433,
+    "sha256": "9e81b86ef50acd8c03431f94d311139bcaddccc53665d10f7fd5ed53135220b9"
+  },
+  {
+    "path": "yappr-blog-comment-mobile-cleanup.cjs",
+    "bytes": 2091,
+    "sha256": "6d9228837b2af804c78ea95b240f45bcd778171ac02c550bcd2349d030a574f5"
+  },
+  {
+    "path": "yappr-blog-comment-mobile-create.cjs",
+    "bytes": 1194,
+    "sha256": "c6f691ea3bd9ceb9823e871c97d9b40bc723c51fb2af400f34a434a15c913449"
+  }
+]

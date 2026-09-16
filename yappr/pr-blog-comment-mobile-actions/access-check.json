@@ -1,0 +1,22 @@
+[
+  {
+    "label": "Blog owner64 cannot delete reader65 comment",
+    "sizes": {
+      "rowWidth": 252,
+      "rowScroll": 252,
+      "documentWidth": 320,
+      "viewport": 320
+    },
+    "noDelete": true
+  },
+  {
+    "label": "Guest has no Delete control",
+    "sizes": {
+      "rowWidth": 252,
+      "rowScroll": 252,
+      "documentWidth": 320,
+      "viewport": 320
+    },
+    "noDelete": true
+  }
+]
