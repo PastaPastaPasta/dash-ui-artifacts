@@ -1,0 +1,501 @@
+{
+  "revision": "3acb20dca174435428472b7f43cf46e1f8c6b003",
+  "scope": "Isolated real ThreadPostEditor and CharacterCounter source rendered with extraCharacters props; unrelated markdown/autocomplete/emoji children stubbed; not an image-upload flow",
+  "cases": [
+    {
+      "viewportWidth": 320,
+      "extra": 100,
+      "width": 192,
+      "children": [
+        {
+          "text": "**bold**",
+          "tag": "CODE",
+          "x": 70,
+          "right": 135.796875,
+          "width": 65.796875,
+          "inside": true
+        },
+        {
+          "text": "*italic*",
+          "tag": "CODE",
+          "x": 143.796875,
+          "right": 209.59375,
+          "width": 65.796875,
+          "inside": true
+        },
+        {
+          "text": "`code`",
+          "tag": "CODE",
+          "x": 70,
+          "right": 121.359375,
+          "width": 51.359375,
+          "inside": true
+        },
+        {
+          "text": "Image URL +100 chars",
+          "tag": "SPAN",
+          "x": 71.359375,
+          "right": 200.828125,
+          "width": 129.46875,
+          "inside": true
+        },
+        {
+          "text": "",
+          "tag": "svg",
+          "x": 208.828125,
+          "right": 232.828125,
+          "width": 24,
+          "inside": true
+        },
+        {
+          "text": "-99",
+          "tag": "SPAN",
+          "x": 240.828125,
+          "right": 262,
+          "width": 21.171875,
+          "inside": true
+        }
+      ]
+    },
+    {
+      "viewportWidth": 320,
+      "extra": 2048,
+      "width": 192,
+      "children": [
+        {
+          "text": "**bold**",
+          "tag": "CODE",
+          "x": 70,
+          "right": 135.796875,
+          "width": 65.796875,
+          "inside": true
+        },
+        {
+          "text": "*italic*",
+          "tag": "CODE",
+          "x": 143.796875,
+          "right": 209.59375,
+          "width": 65.796875,
+          "inside": true
+        },
+        {
+          "text": "`code`",
+          "tag": "CODE",
+          "x": 70,
+          "right": 121.359375,
+          "width": 51.359375,
+          "inside": true
+        },
+        {
+          "text": "Image URL +2048 chars",
+          "tag": "SPAN",
+          "x": 70,
+          "right": 185.390625,
+          "width": 115.390625,
+          "inside": true
+        },
+        {
+          "text": "",
+          "tag": "svg",
+          "x": 193.390625,
+          "right": 217.390625,
+          "width": 24,
+          "inside": true
+        },
+        {
+          "text": "-2047",
+          "tag": "SPAN",
+          "x": 225.390625,
+          "right": 262,
+          "width": 36.609375,
+          "inside": true
+        }
+      ]
+    },
+    {
+      "viewportWidth": 320,
+      "extra": 1000000,
+      "width": 192,
+      "children": [
+        {
+          "text": "**bold**",
+          "tag": "CODE",
+          "x": 70,
+          "right": 135.796875,
+          "width": 65.796875,
+          "inside": true
+        },
+        {
+          "text": "*italic*",
+          "tag": "CODE",
+          "x": 143.796875,
+          "right": 209.59375,
+          "width": 65.796875,
+          "inside": true
+        },
+        {
+          "text": "`code`",
+          "tag": "CODE",
+          "x": 70,
+          "right": 121.359375,
+          "width": 51.359375,
+          "inside": true
+        },
+        {
+          "text": "Image URL +1000000 chars",
+          "tag": "SPAN",
+          "x": 70,
+          "right": 169.9375,
+          "width": 99.9375,
+          "inside": true
+        },
+        {
+          "text": "",
+          "tag": "svg",
+          "x": 177.9375,
+          "right": 201.9375,
+          "width": 24,
+          "inside": true
+        },
+        {
+          "text": "-999999",
+          "tag": "SPAN",
+          "x": 209.9375,
+          "right": 262,
+          "width": 52.0625,
+          "inside": true
+        }
+      ]
+    },
+    {
+      "viewportWidth": 390,
+      "extra": 100,
+      "width": 262,
+      "children": [
+        {
+          "text": "**bold**",
+          "tag": "CODE",
+          "x": 70,
+          "right": 135.796875,
+          "width": 65.796875,
+          "inside": true
+        },
+        {
+          "text": "*italic*",
+          "tag": "CODE",
+          "x": 143.796875,
+          "right": 209.59375,
+          "width": 65.796875,
+          "inside": true
+        },
+        {
+          "text": "`code`",
+          "tag": "CODE",
+          "x": 217.59375,
+          "right": 268.953125,
+          "width": 51.359375,
+          "inside": true
+        },
+        {
+          "text": "Image URL +100 chars",
+          "tag": "SPAN",
+          "x": 141.359375,
+          "right": 270.828125,
+          "width": 129.46875,
+          "inside": true
+        },
+        {
+          "text": "",
+          "tag": "svg",
+          "x": 278.828125,
+          "right": 302.828125,
+          "width": 24,
+          "inside": true
+        },
+        {
+          "text": "-99",
+          "tag": "SPAN",
+          "x": 310.828125,
+          "right": 332,
+          "width": 21.171875,
+          "inside": true
+        }
+      ]
+    },
+    {
+      "viewportWidth": 390,
+      "extra": 2048,
+      "width": 262,
+      "children": [
+        {
+          "text": "**bold**",
+          "tag": "CODE",
+          "x": 70,
+          "right": 135.796875,
+          "width": 65.796875,
+          "inside": true
+        },
+        {
+          "text": "*italic*",
+          "tag": "CODE",
+          "x": 143.796875,
+          "right": 209.59375,
+          "width": 65.796875,
+          "inside": true
+        },
+        {
+          "text": "`code`",
+          "tag": "CODE",
+          "x": 217.59375,
+          "right": 268.953125,
+          "width": 51.359375,
+          "inside": true
+        },
+        {
+          "text": "Image URL +2048 chars",
+          "tag": "SPAN",
+          "x": 118.375,
+          "right": 255.390625,
+          "width": 137.015625,
+          "inside": true
+        },
+        {
+          "text": "",
+          "tag": "svg",
+          "x": 263.390625,
+          "right": 287.390625,
+          "width": 24,
+          "inside": true
+        },
+        {
+          "text": "-2047",
+          "tag": "SPAN",
+          "x": 295.390625,
+          "right": 332,
+          "width": 36.609375,
+          "inside": true
+        }
+      ]
+    },
+    {
+      "viewportWidth": 390,
+      "extra": 1000000,
+      "width": 262,
+      "children": [
+        {
+          "text": "**bold**",
+          "tag": "CODE",
+          "x": 70,
+          "right": 135.796875,
+          "width": 65.796875,
+          "inside": true
+        },
+        {
+          "text": "*italic*",
+          "tag": "CODE",
+          "x": 143.796875,
+          "right": 209.59375,
+          "width": 65.796875,
+          "inside": true
+        },
+        {
+          "text": "`code`",
+          "tag": "CODE",
+          "x": 217.59375,
+          "right": 268.953125,
+          "width": 51.359375,
+          "inside": true
+        },
+        {
+          "text": "Image URL +1000000 chars",
+          "tag": "SPAN",
+          "x": 80.234375,
+          "right": 239.9375,
+          "width": 159.703125,
+          "inside": true
+        },
+        {
+          "text": "",
+          "tag": "svg",
+          "x": 247.9375,
+          "right": 271.9375,
+          "width": 24,
+          "inside": true
+        },
+        {
+          "text": "-999999",
+          "tag": "SPAN",
+          "x": 279.9375,
+          "right": 332,
+          "width": 52.0625,
+          "inside": true
+        }
+      ]
+    },
+    {
+      "viewportWidth": 1280,
+      "extra": 100,
+      "width": 576,
+      "children": [
+        {
+          "text": "**bold**",
+          "tag": "CODE",
+          "x": 358,
+          "right": 423.796875,
+          "width": 65.796875,
+          "inside": true
+        },
+        {
+          "text": "*italic*",
+          "tag": "CODE",
+          "x": 431.796875,
+          "right": 497.59375,
+          "width": 65.796875,
+          "inside": true
+        },
+        {
+          "text": "`code`",
+          "tag": "CODE",
+          "x": 505.59375,
+          "right": 556.953125,
+          "width": 51.359375,
+          "inside": true
+        },
+        {
+          "text": "Image URL +100 chars",
+          "tag": "SPAN",
+          "x": 743.359375,
+          "right": 872.828125,
+          "width": 129.46875,
+          "inside": true
+        },
+        {
+          "text": "",
+          "tag": "svg",
+          "x": 880.828125,
+          "right": 904.828125,
+          "width": 24,
+          "inside": true
+        },
+        {
+          "text": "-99",
+          "tag": "SPAN",
+          "x": 912.828125,
+          "right": 934,
+          "width": 21.171875,
+          "inside": true
+        }
+      ]
+    },
+    {
+      "viewportWidth": 1280,
+      "extra": 2048,
+      "width": 576,
+      "children": [
+        {
+          "text": "**bold**",
+          "tag": "CODE",
+          "x": 358,
+          "right": 423.796875,
+          "width": 65.796875,
+          "inside": true
+        },
+        {
+          "text": "*italic*",
+          "tag": "CODE",
+          "x": 431.796875,
+          "right": 497.59375,
+          "width": 65.796875,
+          "inside": true
+        },
+        {
+          "text": "`code`",
+          "tag": "CODE",
+          "x": 505.59375,
+          "right": 556.953125,
+          "width": 51.359375,
+          "inside": true
+        },
+        {
+          "text": "Image URL +2048 chars",
+          "tag": "SPAN",
+          "x": 720.375,
+          "right": 857.390625,
+          "width": 137.015625,
+          "inside": true
+        },
+        {
+          "text": "",
+          "tag": "svg",
+          "x": 865.390625,
+          "right": 889.390625,
+          "width": 24,
+          "inside": true
+        },
+        {
+          "text": "-2047",
+          "tag": "SPAN",
+          "x": 897.390625,
+          "right": 934,
+          "width": 36.609375,
+          "inside": true
+        }
+      ]
+    },
+    {
+      "viewportWidth": 1280,
+      "extra": 1000000,
+      "width": 576,
+      "children": [
+        {
+          "text": "**bold**",
+          "tag": "CODE",
+          "x": 358,
+          "right": 423.796875,
+          "width": 65.796875,
+          "inside": true
+        },
+        {
+          "text": "*italic*",
+          "tag": "CODE",
+          "x": 431.796875,
+          "right": 497.59375,
+          "width": 65.796875,
+          "inside": true
+        },
+        {
+          "text": "`code`",
+          "tag": "CODE",
+          "x": 505.59375,
+          "right": 556.953125,
+          "width": 51.359375,
+          "inside": true
+        },
+        {
+          "text": "Image URL +1000000 chars",
+          "tag": "SPAN",
+          "x": 682.234375,
+          "right": 841.9375,
+          "width": 159.703125,
+          "inside": true
+        },
+        {
+          "text": "",
+          "tag": "svg",
+          "x": 849.9375,
+          "right": 873.9375,
+          "width": 24,
+          "inside": true
+        },
+        {
+          "text": "-999999",
+          "tag": "SPAN",
+          "x": 881.9375,
+          "right": 934,
+          "width": 52.0625,
+          "inside": true
+        }
+      ]
+    }
+  ]
+}
