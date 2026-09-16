@@ -1,0 +1,582 @@
+{
+  "side": "after",
+  "base": "http://127.0.0.1:3397/devnet",
+  "revision": "a153c413815ea340b8ce40bbaf23bb9f9c499d12",
+  "fixture": {
+    "author": "9cjhprZAFUDVG71Fo8b5eCzHpwjo9Aj9npcRRpmCJBbw",
+    "fixture": 65,
+    "postId": "AhFkuPmp5TjxyiswZpWowAoA85ofrX8YDBcSmcBKWkPg",
+    "text": "QA temporary embedded article contrast check 20260916",
+    "article": "66syyLM2ZAakx2JNZuMJw4PY896cphx8Q2vc1kVCNTK",
+    "blog": "BdMQRKM6xT8jx4bKbkhP3wYo7V835pDjcEWTbN5PMNRU",
+    "slug": "qa-comprehensive-article-20260915-p64"
+  },
+  "states": [
+    {
+      "theme": "light",
+      "width": 1280,
+      "state": "normal",
+      "measurements": {
+        "title": {
+          "text": "QA comprehensive article 20260915 p64",
+          "color": "rgb(17, 24, 39)",
+          "background": [
+            249,
+            250,
+            251
+          ],
+          "ratio": 16.97538624440406,
+          "fontSize": "14px"
+        },
+        "source": {
+          "text": "QA exhaustive blog 20260915 p64·@zoe-dubois5.dash",
+          "color": "rgb(75, 85, 99)",
+          "background": [
+            249,
+            250,
+            251
+          ],
+          "ratio": 7.231762080351423,
+          "fontSize": "11px"
+        },
+        "excerpt": {
+          "text": "QA summary visible in the index and article.",
+          "color": "rgb(75, 85, 99)",
+          "background": [
+            249,
+            250,
+            251
+          ],
+          "ratio": 7.231762080351423,
+          "fontSize": "12px"
+        }
+      },
+      "box": {
+        "x": 352,
+        "y": 189,
+        "width": 561,
+        "height": 270.5
+      },
+      "viewportOverflow": false
+    },
+    {
+      "theme": "light",
+      "width": 1280,
+      "state": "hover",
+      "measurements": {
+        "title": {
+          "text": "QA comprehensive article 20260915 p64",
+          "color": "rgb(3, 105, 161)",
+          "background": [
+            243,
+            244,
+            246
+          ],
+          "ratio": 5.391692586430296,
+          "fontSize": "14px"
+        },
+        "source": {
+          "text": "QA exhaustive blog 20260915 p64·@zoe-dubois5.dash",
+          "color": "rgb(75, 85, 99)",
+          "background": [
+            243,
+            244,
+            246
+          ],
+          "ratio": 6.86712857158153,
+          "fontSize": "11px"
+        },
+        "excerpt": {
+          "text": "QA summary visible in the index and article.",
+          "color": "rgb(75, 85, 99)",
+          "background": [
+            243,
+            244,
+            246
+          ],
+          "ratio": 6.86712857158153,
+          "fontSize": "12px"
+        }
+      },
+      "box": {
+        "x": 352,
+        "y": 189,
+        "width": 561,
+        "height": 270.5
+      },
+      "viewportOverflow": false,
+      "clickthroughPassed": true
+    },
+    {
+      "theme": "light",
+      "width": 390,
+      "state": "normal",
+      "measurements": {
+        "title": {
+          "text": "QA comprehensive article 20260915 p64",
+          "color": "rgb(17, 24, 39)",
+          "background": [
+            249,
+            250,
+            251
+          ],
+          "ratio": 16.97538624440406,
+          "fontSize": "14px"
+        },
+        "source": {
+          "text": "QA exhaustive blog 20260915 p64·@zoe-dubois5.dash",
+          "color": "rgb(75, 85, 99)",
+          "background": [
+            249,
+            250,
+            251
+          ],
+          "ratio": 7.231762080351423,
+          "fontSize": "11px"
+        },
+        "excerpt": {
+          "text": "QA summary visible in the index and article.",
+          "color": "rgb(75, 85, 99)",
+          "background": [
+            249,
+            250,
+            251
+          ],
+          "ratio": 7.231762080351423,
+          "fontSize": "12px"
+        }
+      },
+      "box": {
+        "x": 76,
+        "y": 205,
+        "width": 298,
+        "height": 270.5
+      },
+      "viewportOverflow": false
+    },
+    {
+      "theme": "light",
+      "width": 390,
+      "state": "hover",
+      "measurements": {
+        "title": {
+          "text": "QA comprehensive article 20260915 p64",
+          "color": "rgb(3, 105, 161)",
+          "background": [
+            243,
+            244,
+            246
+          ],
+          "ratio": 5.391692586430296,
+          "fontSize": "14px"
+        },
+        "source": {
+          "text": "QA exhaustive blog 20260915 p64·@zoe-dubois5.dash",
+          "color": "rgb(75, 85, 99)",
+          "background": [
+            243,
+            244,
+            246
+          ],
+          "ratio": 6.86712857158153,
+          "fontSize": "11px"
+        },
+        "excerpt": {
+          "text": "QA summary visible in the index and article.",
+          "color": "rgb(75, 85, 99)",
+          "background": [
+            243,
+            244,
+            246
+          ],
+          "ratio": 6.86712857158153,
+          "fontSize": "12px"
+        }
+      },
+      "box": {
+        "x": 76,
+        "y": 205,
+        "width": 298,
+        "height": 270.5
+      },
+      "viewportOverflow": false
+    },
+    {
+      "theme": "light",
+      "width": 320,
+      "state": "normal",
+      "measurements": {
+        "title": {
+          "text": "QA comprehensive article 20260915 p64",
+          "color": "rgb(17, 24, 39)",
+          "background": [
+            249,
+            250,
+            251
+          ],
+          "ratio": 16.97538624440406,
+          "fontSize": "14px"
+        },
+        "source": {
+          "text": "QA exhaustive blog 20260915 p64·@zoe-dubois5.dash",
+          "color": "rgb(75, 85, 99)",
+          "background": [
+            249,
+            250,
+            251
+          ],
+          "ratio": 7.231762080351423,
+          "fontSize": "11px"
+        },
+        "excerpt": {
+          "text": "QA summary visible in the index and article.",
+          "color": "rgb(75, 85, 99)",
+          "background": [
+            249,
+            250,
+            251
+          ],
+          "ratio": 7.231762080351423,
+          "fontSize": "12px"
+        }
+      },
+      "box": {
+        "x": 76,
+        "y": 229,
+        "width": 228,
+        "height": 270.5
+      },
+      "viewportOverflow": false
+    },
+    {
+      "theme": "light",
+      "width": 320,
+      "state": "hover",
+      "measurements": {
+        "title": {
+          "text": "QA comprehensive article 20260915 p64",
+          "color": "rgb(3, 105, 161)",
+          "background": [
+            243,
+            244,
+            246
+          ],
+          "ratio": 5.391692586430296,
+          "fontSize": "14px"
+        },
+        "source": {
+          "text": "QA exhaustive blog 20260915 p64·@zoe-dubois5.dash",
+          "color": "rgb(75, 85, 99)",
+          "background": [
+            243,
+            244,
+            246
+          ],
+          "ratio": 6.86712857158153,
+          "fontSize": "11px"
+        },
+        "excerpt": {
+          "text": "QA summary visible in the index and article.",
+          "color": "rgb(75, 85, 99)",
+          "background": [
+            243,
+            244,
+            246
+          ],
+          "ratio": 6.86712857158153,
+          "fontSize": "12px"
+        }
+      },
+      "box": {
+        "x": 76,
+        "y": 229,
+        "width": 228,
+        "height": 270.5
+      },
+      "viewportOverflow": false
+    },
+    {
+      "theme": "dark",
+      "width": 1280,
+      "state": "normal",
+      "measurements": {
+        "title": {
+          "text": "QA comprehensive article 20260915 p64",
+          "color": "rgb(243, 244, 246)",
+          "background": [
+            20.6,
+            23.4,
+            29.4
+          ],
+          "ratio": 16.241093901041463,
+          "fontSize": "14px"
+        },
+        "source": {
+          "text": "QA exhaustive blog 20260915 p64·@zoe-dubois5.dash",
+          "color": "rgb(156, 163, 175)",
+          "background": [
+            20.6,
+            23.4,
+            29.4
+          ],
+          "ratio": 7.040049497732129,
+          "fontSize": "11px"
+        },
+        "excerpt": {
+          "text": "QA summary visible in the index and article.",
+          "color": "rgb(156, 163, 175)",
+          "background": [
+            20.6,
+            23.4,
+            29.4
+          ],
+          "ratio": 7.040049497732129,
+          "fontSize": "12px"
+        }
+      },
+      "box": {
+        "x": 352,
+        "y": 189,
+        "width": 561,
+        "height": 270.5
+      },
+      "viewportOverflow": false
+    },
+    {
+      "theme": "dark",
+      "width": 1280,
+      "state": "hover",
+      "measurements": {
+        "title": {
+          "text": "QA comprehensive article 20260915 p64",
+          "color": "rgb(125, 211, 252)",
+          "background": [
+            11.399999999999999,
+            17.2,
+            30.599999999999998
+          ],
+          "ratio": 11.290474808451943,
+          "fontSize": "14px"
+        },
+        "source": {
+          "text": "QA exhaustive blog 20260915 p64·@zoe-dubois5.dash",
+          "color": "rgb(156, 163, 175)",
+          "background": [
+            11.399999999999999,
+            17.2,
+            30.599999999999998
+          ],
+          "ratio": 7.414562227732898,
+          "fontSize": "11px"
+        },
+        "excerpt": {
+          "text": "QA summary visible in the index and article.",
+          "color": "rgb(156, 163, 175)",
+          "background": [
+            11.399999999999999,
+            17.2,
+            30.599999999999998
+          ],
+          "ratio": 7.414562227732898,
+          "fontSize": "12px"
+        }
+      },
+      "box": {
+        "x": 352,
+        "y": 189,
+        "width": 561,
+        "height": 270.5
+      },
+      "viewportOverflow": false,
+      "clickthroughPassed": true
+    },
+    {
+      "theme": "dark",
+      "width": 390,
+      "state": "normal",
+      "measurements": {
+        "title": {
+          "text": "QA comprehensive article 20260915 p64",
+          "color": "rgb(243, 244, 246)",
+          "background": [
+            20.6,
+            23.4,
+            29.4
+          ],
+          "ratio": 16.241093901041463,
+          "fontSize": "14px"
+        },
+        "source": {
+          "text": "QA exhaustive blog 20260915 p64·@zoe-dubois5.dash",
+          "color": "rgb(156, 163, 175)",
+          "background": [
+            20.6,
+            23.4,
+            29.4
+          ],
+          "ratio": 7.040049497732129,
+          "fontSize": "11px"
+        },
+        "excerpt": {
+          "text": "QA summary visible in the index and article.",
+          "color": "rgb(156, 163, 175)",
+          "background": [
+            20.6,
+            23.4,
+            29.4
+          ],
+          "ratio": 7.040049497732129,
+          "fontSize": "12px"
+        }
+      },
+      "box": {
+        "x": 76,
+        "y": 205,
+        "width": 298,
+        "height": 270.5
+      },
+      "viewportOverflow": false
+    },
+    {
+      "theme": "dark",
+      "width": 390,
+      "state": "hover",
+      "measurements": {
+        "title": {
+          "text": "QA comprehensive article 20260915 p64",
+          "color": "rgb(125, 211, 252)",
+          "background": [
+            11.399999999999999,
+            17.2,
+            30.599999999999998
+          ],
+          "ratio": 11.290474808451943,
+          "fontSize": "14px"
+        },
+        "source": {
+          "text": "QA exhaustive blog 20260915 p64·@zoe-dubois5.dash",
+          "color": "rgb(156, 163, 175)",
+          "background": [
+            11.399999999999999,
+            17.2,
+            30.599999999999998
+          ],
+          "ratio": 7.414562227732898,
+          "fontSize": "11px"
+        },
+        "excerpt": {
+          "text": "QA summary visible in the index and article.",
+          "color": "rgb(156, 163, 175)",
+          "background": [
+            11.399999999999999,
+            17.2,
+            30.599999999999998
+          ],
+          "ratio": 7.414562227732898,
+          "fontSize": "12px"
+        }
+      },
+      "box": {
+        "x": 76,
+        "y": 205,
+        "width": 298,
+        "height": 270.5
+      },
+      "viewportOverflow": false
+    },
+    {
+      "theme": "dark",
+      "width": 320,
+      "state": "normal",
+      "measurements": {
+        "title": {
+          "text": "QA comprehensive article 20260915 p64",
+          "color": "rgb(243, 244, 246)",
+          "background": [
+            20.6,
+            23.4,
+            29.4
+          ],
+          "ratio": 16.241093901041463,
+          "fontSize": "14px"
+        },
+        "source": {
+          "text": "QA exhaustive blog 20260915 p64·@zoe-dubois5.dash",
+          "color": "rgb(156, 163, 175)",
+          "background": [
+            20.6,
+            23.4,
+            29.4
+          ],
+          "ratio": 7.040049497732129,
+          "fontSize": "11px"
+        },
+        "excerpt": {
+          "text": "QA summary visible in the index and article.",
+          "color": "rgb(156, 163, 175)",
+          "background": [
+            20.6,
+            23.4,
+            29.4
+          ],
+          "ratio": 7.040049497732129,
+          "fontSize": "12px"
+        }
+      },
+      "box": {
+        "x": 76,
+        "y": 229,
+        "width": 228,
+        "height": 270.5
+      },
+      "viewportOverflow": false
+    },
+    {
+      "theme": "dark",
+      "width": 320,
+      "state": "hover",
+      "measurements": {
+        "title": {
+          "text": "QA comprehensive article 20260915 p64",
+          "color": "rgb(125, 211, 252)",
+          "background": [
+            11.399999999999999,
+            17.2,
+            30.599999999999998
+          ],
+          "ratio": 11.290474808451943,
+          "fontSize": "14px"
+        },
+        "source": {
+          "text": "QA exhaustive blog 20260915 p64·@zoe-dubois5.dash",
+          "color": "rgb(156, 163, 175)",
+          "background": [
+            11.399999999999999,
+            17.2,
+            30.599999999999998
+          ],
+          "ratio": 7.414562227732898,
+          "fontSize": "11px"
+        },
+        "excerpt": {
+          "text": "QA summary visible in the index and article.",
+          "color": "rgb(156, 163, 175)",
+          "background": [
+            11.399999999999999,
+            17.2,
+            30.599999999999998
+          ],
+          "ratio": 7.414562227732898,
+          "fontSize": "12px"
+        }
+      },
+      "box": {
+        "x": 76,
+        "y": 229,
+        "width": 228,
+        "height": 270.5
+      },
+      "viewportOverflow": false
+    }
+  ]
+}
