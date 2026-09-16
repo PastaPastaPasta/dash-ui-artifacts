@@ -1,0 +1,22 @@
+[
+  {
+    "label": "before",
+    "port": 3497,
+    "revision": "cf0efbc10b8757137063113ebbd2061e8b87d8f7",
+    "ready": false,
+    "identityId": "EShbqnfLdmctGWaUCnU3FNKMenYmxiQEiawY3q2pLQm2",
+    "tabClass": "flex-1 py-3 text-sm font-semibold text-center transition-colors relative text-gray-500 hover:text-gray-700 dark:hover:text-gray-300 hover:bg-gray-50 dark:hover:bg-gray-900/50",
+    "rankedListVisible": false,
+    "url": "http://localhost:3497/devnet/explore/"
+  },
+  {
+    "label": "after",
+    "port": 3499,
+    "revision": "a634847c16a7f664124ec2485eff0c912e8a3c77",
+    "ready": true,
+    "identityId": "EShbqnfLdmctGWaUCnU3FNKMenYmxiQEiawY3q2pLQm2",
+    "tabClass": "flex-1 py-3 text-sm font-semibold text-center transition-colors relative text-foreground",
+    "rankedListVisible": true,
+    "url": "http://localhost:3499/devnet/explore/"
+  }
+]
