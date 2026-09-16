@@ -1,0 +1,29 @@
+{
+  "phase": "before",
+  "revision": "733faf53cd893cba861476a4af75b442ed67ca72",
+  "id": "9gWVtfjkRp9dytJiKZ3FJENZnt3sqppe5V3bc1VkZavs",
+  "identity": "HVVUwJLhEngLH5LkZx8FgUkcso28xK7tn5gaaHke5WWu",
+  "session": "privately seeded existing QA identity; not fresh login evidence",
+  "cases": [
+    {
+      "name": "desktop",
+      "width": 1280,
+      "height": 900,
+      "base": "http://127.0.0.1:3278/devnet",
+      "copied": "http://127.0.0.1:3278/post?id=9gWVtfjkRp9dytJiKZ3FJENZnt3sqppe5V3bc1VkZavs",
+      "status": 404,
+      "samePostVisible": false,
+      "destinationText": "DEVNET|Running on a Dash Platform devnet. Data may be reset.\n404\nThis page could not be found."
+    },
+    {
+      "name": "mobile",
+      "width": 390,
+      "height": 844,
+      "base": "http://127.0.0.1:3278/devnet",
+      "copied": "http://127.0.0.1:3278/post?id=9gWVtfjkRp9dytJiKZ3FJENZnt3sqppe5V3bc1VkZavs",
+      "status": 404,
+      "samePostVisible": false,
+      "destinationText": "DEVNET|Data may be reset\n404\nThis page could not be found.\nMenu\nStore\nBlog\nProfile\nNotifications\nFollowing\nFollowers\nBookmarks\nSettings\nLog out"
+    }
+  ]
+}

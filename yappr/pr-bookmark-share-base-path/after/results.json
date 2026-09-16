@@ -1,0 +1,29 @@
+{
+  "phase": "after",
+  "revision": "a4b1ae0da3f6be39a91bdf90cf0c78e46060ebe0",
+  "id": "9gWVtfjkRp9dytJiKZ3FJENZnt3sqppe5V3bc1VkZavs",
+  "identity": "HVVUwJLhEngLH5LkZx8FgUkcso28xK7tn5gaaHke5WWu",
+  "session": "privately seeded existing QA identity; not fresh login evidence",
+  "cases": [
+    {
+      "name": "desktop",
+      "width": 1280,
+      "height": 900,
+      "base": "http://127.0.0.1:3292/devnet",
+      "copied": "http://127.0.0.1:3292/devnet/post/?id=9gWVtfjkRp9dytJiKZ3FJENZnt3sqppe5V3bc1VkZavs",
+      "status": 200,
+      "samePostVisible": true,
+      "destinationText": "Post\nIngrid Kovač\n@ingrid-vinyl9.dash\n·\n4h\nQA mention control 20260915 p54 to \n@hamzak78\n  QA only; safe to remove after verification.\nPost your reply\n\nNo replies yet. Be the first to reply!"
+    },
+    {
+      "name": "mobile",
+      "width": 390,
+      "height": 844,
+      "base": "http://127.0.0.1:3292/devnet",
+      "copied": "http://127.0.0.1:3292/devnet/post/?id=9gWVtfjkRp9dytJiKZ3FJENZnt3sqppe5V3bc1VkZavs",
+      "status": 200,
+      "samePostVisible": true,
+      "destinationText": "Post\nIngrid Kovač\n@ingrid-vinyl9.dash\n·\n4h\nQA mention control 20260915 p54 to \n@hamzak78\n  QA only; safe to remove after verification.\nPost your reply\n\nNo replies yet. Be the first to reply!"
+    }
+  ]
+}
