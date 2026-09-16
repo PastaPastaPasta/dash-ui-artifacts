@@ -1,0 +1,16 @@
+[
+  {
+    "state": "before",
+    "revision": "c98a6ecd7e26ae5bc9fc8e400e6011eb8465b3a0",
+    "reply": "Fm49xnhGoKheyBWKPn2KuzgeMwwuVDPgd61MRznovZg4",
+    "accessibleName": "",
+    "keyboardOpenEscapeFocusRestore": true
+  },
+  {
+    "state": "after",
+    "revision": "493604551a19d37eb6e7972239f699ff768a7158",
+    "reply": "Fm49xnhGoKheyBWKPn2KuzgeMwwuVDPgd61MRznovZg4",
+    "accessibleName": "Reply options",
+    "keyboardOpenEscapeFocusRestore": true
+  }
+]
