@@ -1,0 +1,185 @@
+{
+  "revision": "692eeed19f1989773d0634ae7dc520ae56fb8fa3",
+  "base": "http://127.0.0.1:3314/devnet",
+  "writes": 0,
+  "cases": [
+    {
+      "name": "poll",
+      "items": [
+        {
+          "text": "Post",
+          "box": {
+            "x": 188,
+            "y": 140,
+            "width": 100,
+            "height": 40
+          },
+          "hit": true
+        },
+        {
+          "text": "Preview",
+          "box": {
+            "x": 90.453125,
+            "y": 148,
+            "width": 85.546875,
+            "height": 24
+          },
+          "hit": true
+        }
+      ]
+    },
+    {
+      "name": "reply",
+      "items": [
+        {
+          "text": "Reply",
+          "box": {
+            "x": 188,
+            "y": 108,
+            "width": 100,
+            "height": 40
+          },
+          "hit": true
+        },
+        {
+          "text": "Preview",
+          "box": {
+            "x": 90.453125,
+            "y": 116,
+            "width": 85.546875,
+            "height": 24
+          },
+          "hit": true
+        },
+        {
+          "text": "Public",
+          "box": {
+            "x": 116,
+            "y": 62,
+            "width": 108.671875,
+            "height": 32
+          },
+          "hit": true
+        }
+      ]
+    },
+    {
+      "name": "quote",
+      "items": [
+        {
+          "text": "Post",
+          "box": {
+            "x": 188,
+            "y": 140,
+            "width": 100,
+            "height": 40
+          },
+          "hit": true
+        },
+        {
+          "text": "Preview",
+          "box": {
+            "x": 90.453125,
+            "y": 148,
+            "width": 85.546875,
+            "height": 24
+          },
+          "hit": true
+        },
+        {
+          "text": "Public",
+          "box": {
+            "x": 116,
+            "y": 62,
+            "width": 108.671875,
+            "height": 32
+          },
+          "hit": true
+        }
+      ]
+    },
+    {
+      "name": "landscape",
+      "items": [
+        {
+          "text": "Post",
+          "box": {
+            "x": 638,
+            "y": 92,
+            "width": 100,
+            "height": 40
+          },
+          "hit": true
+        },
+        {
+          "text": "Preview",
+          "box": {
+            "x": 540.453125,
+            "y": 100,
+            "width": 85.546875,
+            "height": 24
+          },
+          "hit": true
+        },
+        {
+          "text": "Public",
+          "box": {
+            "x": 198,
+            "y": 96,
+            "width": 108.671875,
+            "height": 32
+          },
+          "hit": true
+        }
+      ]
+    },
+    {
+      "name": "private-with-teaser320",
+      "items": [
+        {
+          "text": "Post",
+          "box": {
+            "x": 188,
+            "y": 180,
+            "width": 100,
+            "height": 40
+          },
+          "hit": true
+        },
+        {
+          "text": "Preview",
+          "box": {
+            "x": 90.453125,
+            "y": 188,
+            "width": 85.546875,
+            "height": 24
+          },
+          "hit": true
+        },
+        {
+          "text": "Private with Teaser",
+          "box": {
+            "x": 32,
+            "y": 104,
+            "width": 193.421875,
+            "height": 32
+          },
+          "hit": true
+        }
+      ]
+    }
+  ],
+  "visibilityMenu320": {
+    "box": {
+      "x": 32,
+      "y": 140,
+      "width": 256,
+      "height": 265
+    },
+    "viewport": {
+      "width": 320,
+      "height": 844
+    },
+    "fits": true
+  }
+}
