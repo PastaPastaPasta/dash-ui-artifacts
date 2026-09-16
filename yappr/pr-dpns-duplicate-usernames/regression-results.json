@@ -1,0 +1,24 @@
+{
+  "applicationHead": "0b69d5eb80ba39f20d603910a881174311164add",
+  "buildId": "0b69d5eb",
+  "baseline": "eb895be71a7207c73fb9329ac9d9bb7b398f53da",
+  "testCommand": "npx playwright test --project=write dpns-username-entry",
+  "cases": [
+    "identical names",
+    "case-equivalent names",
+    "i/l/1 equivalents",
+    "o/0 equivalents"
+  ],
+  "headResults": "4 passed (56.0s)",
+  "baselineIdenticalResult": "Expected duplicate warning count 2, received 0; failed as expected",
+  "registrationSubmitted": false,
+  "checkedInSpec": "e2e/write/dpns-username-entry.spec.ts",
+  "localValidation": [
+    "full devnet build",
+    "e2e TypeScript",
+    "app lint",
+    "diff whitespace check",
+    "independent review"
+  ],
+  "ciLimitation": "Existing devnet job requires E2E seed and remains nonblocking"
+}
