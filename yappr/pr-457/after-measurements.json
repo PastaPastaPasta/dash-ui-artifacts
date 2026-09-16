@@ -1,6 +1,6 @@
 {
   "state": "after",
-  "revision": "f31f6657e764f366113a879d47ae1d79ff7198a8",
+  "revision": "e02a2bfa4676b96e8fa72b26cfb68eec4bf362e1",
   "store": "98FYBhEF9Q8xNzbamzy66Dm5cMQ5gm9MoAZaiy518sNp",
   "currency": "DASH",
   "csv": "Group,Item Name,Variant,Price,Quantity,SKU\n,QA CSV Currency54,,1.25,2,QA-CSV54\nvariant54,QA CSV Sizes54,Small,1.25,2,QA-S54\nvariant54,QA CSV Sizes54,Large,2.5,0,QA-L54\n",
