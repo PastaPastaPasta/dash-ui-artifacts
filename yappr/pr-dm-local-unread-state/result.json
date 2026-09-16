@@ -1,0 +1,52 @@
+{
+  "base": "cf0efbc10b8757137063113ebbd2061e8b87d8f7",
+  "head": "546bd62d4e4ff2ddee414b6b1837b2ae94bff241",
+  "at": "2026-09-16T03:40:16.914Z",
+  "messages": [
+    "QA93 read without receipts 1789529885432",
+    "QA93 new incoming message 1789530041011",
+    "QA93 receipts enabled 1789530049455"
+  ],
+  "sides": [
+    {
+      "side": "before",
+      "unreadAfterReload": [
+        "1"
+      ],
+      "row": "HMqf6LRJ...\n2 minutes ago\n\nHMqf6LRJ4uxw...\n\nQA93 read without receipts 1789529885432\n\n1"
+    },
+    {
+      "side": "after",
+      "unreadAfterReload": [],
+      "row": "HMqf6LRJ...\n2 minutes ago\n\nHMqf6LRJ4uxw...\n\nQA93 read without receipts 1789529885432"
+    }
+  ],
+  "receiptBefore": [
+    {
+      "id": "Gy21nqRZ66zuH6eA7UrWzbUQmAYKzRhmrFZJJ8fpVHg",
+      "conversationId": "02g0RJQGvE6tIA==",
+      "createdAt": 1789528557942,
+      "updatedAt": 1789528557942
+    }
+  ],
+  "receiptAfterDisabled": [
+    {
+      "id": "Gy21nqRZ66zuH6eA7UrWzbUQmAYKzRhmrFZJJ8fpVHg",
+      "conversationId": "02g0RJQGvE6tIA==",
+      "createdAt": 1789528557942,
+      "updatedAt": 1789528557942
+    }
+  ],
+  "disabledReceipt": "Fresh sender has no Read on the new message; actual public receipt document unchanged",
+  "newIncoming": "New incoming message increments unread to1; old locally read message remains excluded",
+  "receiptAfterEnabled": [
+    {
+      "id": "Gy21nqRZ66zuH6eA7UrWzbUQmAYKzRhmrFZJJ8fpVHg",
+      "conversationId": "02g0RJQGvE6tIA==",
+      "createdAt": 1789528557942,
+      "updatedAt": 1789530053095
+    }
+  ],
+  "enabledReceipt": "Fresh sender sees Read on newly opened message with receipts enabled; public receipt update timestamp increased",
+  "cleanup": "Three dedicated QA messages remain; no ordinary DM delete control. After context Read Receipts restored true; before context disposed."
+}
