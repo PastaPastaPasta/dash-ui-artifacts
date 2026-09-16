@@ -1,0 +1,17 @@
+{
+  "state": "after",
+  "revision": "75863edf38d589f347b080f5496405c9d3133564",
+  "actorId": "4epjp48EuEG7UetQ7uExDsYNsoWLeVWU9Ym26sXb64WM",
+  "ownerId": "9NFhqxW8upkFMVTE5h5VmYWLdSEJ26B2iMKdhCFgsWkd",
+  "checks": [
+    "Pending opens enabled Cancel through keyboard Enter",
+    "Mobile pending and Cancel are reachable by horizontal scrolling; existing header overflow recorded separately",
+    "Status survives reload; no approved badge"
+  ],
+  "compiledHash": "75863edf",
+  "mobileDocumentWidth": 499,
+  "mobileOverflowPresent": true,
+  "mobileStatusScrollX": 109,
+  "mobileCancelDocumentWidth": 506,
+  "success": true
+}

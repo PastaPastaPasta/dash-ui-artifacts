@@ -1,0 +1,15 @@
+{
+  "state": "before",
+  "revision": "cf0efbc10b8757137063113ebbd2061e8b87d8f7",
+  "actorId": "4epjp48EuEG7UetQ7uExDsYNsoWLeVWU9Ym26sXb64WM",
+  "ownerId": "9NFhqxW8upkFMVTE5h5VmYWLdSEJ26B2iMKdhCFgsWkd",
+  "checks": [
+    "Revoked has no Cancel action",
+    "Status survives reload; no approved badge"
+  ],
+  "compiledHash": "cf0efbc1",
+  "mobileDocumentWidth": 488,
+  "mobileOverflowPresent": true,
+  "mobileStatusScrollX": 98,
+  "success": true
+}

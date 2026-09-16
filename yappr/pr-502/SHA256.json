@@ -1,0 +1,82 @@
+{
+  "EVIDENCE_MATRIX.md": {
+    "size": 1857,
+    "sha256": "df5618ae30f2a9d1de9a79d2a8e3d4809db65dee3d3aac1612356d68802cb641"
+  },
+  "assertions-before.json": {
+    "size": 447,
+    "sha256": "54645c3549e924f211a158c83c74deea7f1467240a1603e3aabec3a150323c4a"
+  },
+  "assertions-after.json": {
+    "size": 623,
+    "sha256": "157dde5cea245c9359012a31ae06ea1571db6483530b3a48767dafc32f3aff56"
+  },
+  "lifecycle-results.json": {
+    "size": 1534,
+    "sha256": "ebab501210601739d2b69c16ce90183e3bf9b514b338f6951e0aa840757d6225"
+  },
+  "fixture-ledger.json": {
+    "size": 779,
+    "sha256": "ca7a6a5e2fd34d8991148f4605cb94d6eae2f77ed4f98dad04de5fac8c9c8dc2"
+  },
+  "after-cancel-desktop-focus.png": {
+    "size": 80575,
+    "sha256": "3f8518acb3c7c84a0026c63ab226127fe8ac86c477e07e5bb988adb428e25c67"
+  },
+  "after-cancel-desktop-overview.png": {
+    "size": 300101,
+    "sha256": "48a21fa9b63e908341eb2778573f3758a1f5db4c0e9acb6ed1b373f2ab64efbf"
+  },
+  "after-cancel-mobile.png": {
+    "size": 65210,
+    "sha256": "ad49d6f1781dd8cf5186566ad3a5c28b2f1c34faceb6e35587cd56a4816e3fde"
+  },
+  "after-desktop-focus.png": {
+    "size": 80763,
+    "sha256": "02acb15d90774bdef6723afe236a980138b5e9c916a72a9e385f27d023649889"
+  },
+  "after-desktop-overview.png": {
+    "size": 300297,
+    "sha256": "79bce7018f704fc900a935d2a8a9c8c627e69f52cbd9b3519f7958a2dcbc1631"
+  },
+  "after-mobile-status.png": {
+    "size": 65314,
+    "sha256": "90c784a20ac7c5a792ecedfed7367a1bc1a99554ea48a8cfe4ab4f8d63666fd3"
+  },
+  "after-mobile.png": {
+    "size": 81399,
+    "sha256": "2eda402bca690f8cff4ca4a20484fbe7e1203e49116c44898fb36759ee2c599c"
+  },
+  "before-desktop-focus.png": {
+    "size": 80556,
+    "sha256": "90beb4360a8758779c47d529f403d767476d1f6633149cfb045ba30c6e1dd459"
+  },
+  "before-desktop-overview.png": {
+    "size": 300053,
+    "sha256": "b27f7793185073ea6591388d3bbc7b60422219d996b3462b8d2e47d7cdab6c2b"
+  },
+  "before-mobile-status.png": {
+    "size": 68586,
+    "sha256": "5fdaa0308820051538e93e6a635a437c37c7fd95361e399428aaddd18dbad95f"
+  },
+  "before-mobile.png": {
+    "size": 81392,
+    "sha256": "cfd33437aa4f7b7c3982f2b58176e916cea09919c2d39cc2c03547b519279e69"
+  },
+  "lifecycle-owner-after-cancel.png": {
+    "size": 12087,
+    "sha256": "bfa0ed4012a1ef63023ce02cb6a3de1b778081f01e0d3f71ca016d570cb98f9f"
+  },
+  "lifecycle-owner-before-cancel.png": {
+    "size": 24146,
+    "sha256": "754490c1f86e5a2bb973e645c5e52692a38613a1e95ce421043d39b852cfe52d"
+  },
+  "lifecycle-requester-after-cancel.png": {
+    "size": 81648,
+    "sha256": "a81082b588afd6c5a763738c6728b399979b2e334f4b440356c76cc0a334d763"
+  },
+  "README.md": {
+    "size": 5712,
+    "sha256": "89330026938ae56615f1d8a0eeec0f40beeb24fb39f9da506d702674c3b10b81"
+  }
+}

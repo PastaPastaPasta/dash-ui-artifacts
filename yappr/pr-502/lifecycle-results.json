@@ -1,0 +1,47 @@
+{
+  "revision": "75863edf38d589f347b080f5496405c9d3133564",
+  "actorId": "4epjp48EuEG7UetQ7uExDsYNsoWLeVWU9Ym26sXb64WM",
+  "ownerId": "9NFhqxW8upkFMVTE5h5VmYWLdSEJ26B2iMKdhCFgsWkd",
+  "checks": [
+    "Original request cancelled; fresh requester and owner reads show request absent, zero private followers and unchanged epoch2",
+    "Fresh request persists as pending and appears in owner approval queue; no grant or approved badge",
+    "Fresh request cancellation removes it from owner queue",
+    "Final reloads show ordinary follow absent, zero requests, zero private followers, epoch2; existing feed preserved"
+  ],
+  "ownerBeforeCancel": {
+    "followers": 0,
+    "pending": 1,
+    "epoch": 2,
+    "ownerId": "9NFhqxW8upkFMVTE5h5VmYWLdSEJ26B2iMKdhCFgsWkd",
+    "actorRequestPresent": true
+  },
+  "ownerAfterCancel": {
+    "followers": 0,
+    "pending": 0,
+    "epoch": 2,
+    "ownerId": "9NFhqxW8upkFMVTE5h5VmYWLdSEJ26B2iMKdhCFgsWkd",
+    "actorRequestPresent": false
+  },
+  "ownerFreshRequest": {
+    "followers": 0,
+    "pending": 1,
+    "epoch": 2,
+    "ownerId": "9NFhqxW8upkFMVTE5h5VmYWLdSEJ26B2iMKdhCFgsWkd",
+    "actorRequestPresent": true
+  },
+  "ownerAfterSecondCancel": {
+    "followers": 0,
+    "pending": 0,
+    "epoch": 2,
+    "ownerId": "9NFhqxW8upkFMVTE5h5VmYWLdSEJ26B2iMKdhCFgsWkd",
+    "actorRequestPresent": false
+  },
+  "finalOwner": {
+    "followers": 0,
+    "pending": 0,
+    "epoch": 2,
+    "ownerId": "9NFhqxW8upkFMVTE5h5VmYWLdSEJ26B2iMKdhCFgsWkd",
+    "actorRequestPresent": false
+  },
+  "success": true
+}

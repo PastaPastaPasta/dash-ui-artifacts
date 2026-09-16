@@ -1,0 +1,25 @@
+{
+  "revision": "cf0efbc10b8757137063113ebbd2061e8b87d8f7",
+  "actorId": "4epjp48EuEG7UetQ7uExDsYNsoWLeVWU9Ym26sXb64WM",
+  "ownerId": "9NFhqxW8upkFMVTE5h5VmYWLdSEJ26B2iMKdhCFgsWkd",
+  "startedAt": "2026-09-16T03:51:06.877Z",
+  "temporaryFollowCreated": false,
+  "originalRequestPreserved": false,
+  "sourceReviewApproved": true,
+  "initialOwner": {
+    "followers": 0,
+    "pending": 1,
+    "epoch": 2,
+    "ownerId": "9NFhqxW8upkFMVTE5h5VmYWLdSEJ26B2iMKdhCFgsWkd",
+    "actorRequestPresent": true
+  },
+  "baselineRevokedWithoutCancel": true,
+  "ready": true,
+  "capturesInspected": true,
+  "capturedComparisonFiles": 11,
+  "originalRequestCancelled": true,
+  "newRequestCreated": false,
+  "newRequestCancelled": true,
+  "ordinaryFollowRemoved": true,
+  "cleanupVerified": true
+}
