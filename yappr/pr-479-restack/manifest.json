@@ -1,0 +1,23 @@
+{
+  "base": "8147051bbc55e63b4fbbb2f0c3725846a349858c",
+  "head": "562e76009b448fd4c4ce85b7df5f1bf57c9a76c1",
+  "files": {
+    "EVIDENCE_MATRIX.md": "f560902c0e462b4b3cc3362e17ae9c025c5eadcaa47826f77c526734ce1e888b",
+    "README.md": "d63bf78c23a88d09bc050026856af8daac7329dedeee5bb02eb91ca8979c123d",
+    "assertions.json": "eabf245182038f46d5e13bafab4feb9b190b51e29d869c8daa6dfea9a43e60a4",
+    "comparison/after/320-read.png": "3d55781d29d7114309844fd984f84f9c66975f336ac4ee91ecc7f7bffb59ac46",
+    "comparison/after/320-settings-tooltip.png": "291f224980510293aa5bbeada6ec33177307469edcff233ac66bed41174ff260",
+    "comparison/after/320-unread.png": "8a515cdbd02b773feaa3ef35bc5ed9f9f23a3032da04796c7028c198c1d73f98",
+    "comparison/after/390-read.png": "bc225aac49d20c86a27d3cb8928c78365b348fabfe973a25b2fa0ed4bff2011a",
+    "comparison/after/390-settings-tooltip.png": "e99a3bbed7fa2daafc3067fb33b2e3a6a395f652b4724ce4fbbd1b1bfd5c27c2",
+    "comparison/after/390-unread.png": "1a2b2c2597105721be8f876afc42fa81b1e7828cdd97748c37352af9ea567e40",
+    "comparison/after/desktop-settings-tooltip.png": "197bbd09e58367ce33025b732c5becb78e94ede50f1f1e98b7027a849111c94b",
+    "comparison/after/desktop.png": "4b438c4b07f42a6200a1aadd2264dab6e20e324690e1b0cd2450841483652430",
+    "comparison/before/320-read.png": "d250f390487e050c95c6558520eb8caaf742ab7fbe0061b7a84f0a60273788d9",
+    "comparison/before/320-unread.png": "3788ca8f9256030686436f47b94fb0c8aa8eaccdc05f7ce262068492b7abd40a",
+    "comparison/before/390-read.png": "7c7913ee801ae8915a314e6373d6fbafe96fc94f99f7aea71dcf40e1ca5ff6fb",
+    "comparison/before/390-unread.png": "4dfe3aeab0548249a61dc8ed27492e7079a9b2071376df5d5511386e2e60e9ac",
+    "comparison/before/desktop-settings-tooltip.png": "b21685cde2170b8da5790e37d78d7a988b89eb977af61df747de5c89056d1b0c",
+    "comparison/before/desktop.png": "73de5d4cc637f9c400dd907182330a79be4f99ffeae6958c600f23661e0e85e7"
+  }
+}

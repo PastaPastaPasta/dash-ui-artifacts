@@ -1,0 +1,482 @@
+[
+  {
+    "state": "before",
+    "revision": "8147051bbc55e63b4fbbb2f0c3725846a349858c",
+    "identityId": "9NFhqxW8upkFMVTE5h5VmYWLdSEJ26B2iMKdhCFgsWkd",
+    "checks": [
+      "Single settings link retains accessible name and focus tooltip",
+      "390 keyboard filter open/Escape restores focus",
+      "320 keyboard filter open/Escape restores focus",
+      "Mark all as read survives full reload",
+      "Settings control opens notification settings"
+    ],
+    "geometry": [
+      {
+        "label": "desktop-unread",
+        "viewport": 1440,
+        "document": 1440,
+        "controls": [
+          {
+            "text": "Notifications",
+            "x": 349.5,
+            "y": 56,
+            "width": 120.578125,
+            "height": 28
+          },
+          {
+            "text": "Mark all as read",
+            "x": 843.65625,
+            "y": 54,
+            "width": 127.84375,
+            "height": 32
+          },
+          {
+            "text": "",
+            "x": 979.5,
+            "y": 52,
+            "width": 36,
+            "height": 36
+          }
+        ]
+      },
+      {
+        "label": "390-unread-all",
+        "viewport": 390,
+        "document": 421,
+        "controls": [
+          {
+            "text": "Notifications",
+            "x": 16,
+            "y": 48,
+            "width": 120.578125,
+            "height": 28
+          },
+          {
+            "text": "Mark all as read",
+            "x": 136.578125,
+            "y": 46,
+            "width": 127.84375,
+            "height": 32
+          },
+          {
+            "text": "All",
+            "x": 272.421875,
+            "y": 44,
+            "width": 104.734375,
+            "height": 36
+          },
+          {
+            "text": "",
+            "x": 385.15625,
+            "y": 44,
+            "width": 36,
+            "height": 36
+          }
+        ]
+      },
+      {
+        "label": "390-unread-mentions",
+        "viewport": 390,
+        "document": 449,
+        "controls": [
+          {
+            "text": "Notifications",
+            "x": 16,
+            "y": 48,
+            "width": 120.578125,
+            "height": 28
+          },
+          {
+            "text": "Mark all as read",
+            "x": 136.578125,
+            "y": 46,
+            "width": 127.84375,
+            "height": 32
+          },
+          {
+            "text": "Mentions",
+            "x": 272.421875,
+            "y": 44,
+            "width": 132.96875,
+            "height": 36
+          },
+          {
+            "text": "",
+            "x": 413.390625,
+            "y": 44,
+            "width": 36,
+            "height": 36
+          }
+        ]
+      },
+      {
+        "label": "320-unread-all",
+        "viewport": 320,
+        "document": 421,
+        "controls": [
+          {
+            "text": "Notifications",
+            "x": 16,
+            "y": 48,
+            "width": 120.578125,
+            "height": 28
+          },
+          {
+            "text": "Mark all as read",
+            "x": 136.578125,
+            "y": 46,
+            "width": 127.84375,
+            "height": 32
+          },
+          {
+            "text": "All",
+            "x": 272.421875,
+            "y": 44,
+            "width": 104.734375,
+            "height": 36
+          },
+          {
+            "text": "",
+            "x": 385.15625,
+            "y": 44,
+            "width": 36,
+            "height": 36
+          }
+        ]
+      },
+      {
+        "label": "320-unread-mentions",
+        "viewport": 320,
+        "document": 449,
+        "controls": [
+          {
+            "text": "Notifications",
+            "x": 16,
+            "y": 48,
+            "width": 120.578125,
+            "height": 28
+          },
+          {
+            "text": "Mark all as read",
+            "x": 136.578125,
+            "y": 46,
+            "width": 127.84375,
+            "height": 32
+          },
+          {
+            "text": "Mentions",
+            "x": 272.421875,
+            "y": 44,
+            "width": 132.96875,
+            "height": 36
+          },
+          {
+            "text": "",
+            "x": 413.390625,
+            "y": 44,
+            "width": 36,
+            "height": 36
+          }
+        ]
+      },
+      {
+        "label": "390-read-mentions",
+        "viewport": 390,
+        "document": 390,
+        "controls": [
+          {
+            "text": "Notifications",
+            "x": 16,
+            "y": 48,
+            "width": 120.578125,
+            "height": 28
+          },
+          {
+            "text": "Mentions",
+            "x": 197.03125,
+            "y": 44,
+            "width": 132.96875,
+            "height": 36
+          },
+          {
+            "text": "",
+            "x": 338,
+            "y": 44,
+            "width": 36,
+            "height": 36
+          }
+        ]
+      },
+      {
+        "label": "320-read-mentions",
+        "viewport": 320,
+        "document": 320,
+        "controls": [
+          {
+            "text": "Notifications",
+            "x": 16,
+            "y": 48,
+            "width": 120.578125,
+            "height": 28
+          },
+          {
+            "text": "Mentions",
+            "x": 136.578125,
+            "y": 44,
+            "width": 132.96875,
+            "height": 36
+          },
+          {
+            "text": "",
+            "x": 277.546875,
+            "y": 44,
+            "width": 36,
+            "height": 36
+          }
+        ]
+      }
+    ],
+    "compiledRevisionVerified": true
+  },
+  {
+    "state": "after",
+    "revision": "562e76009b448fd4c4ce85b7df5f1bf57c9a76c1",
+    "identityId": "9NFhqxW8upkFMVTE5h5VmYWLdSEJ26B2iMKdhCFgsWkd",
+    "checks": [
+      "Single settings link retains accessible name and focus tooltip",
+      "390 Tab order follows settings then read-all then filter",
+      "390 keyboard filter open/Escape restores focus",
+      "320 Tab order follows settings then read-all then filter",
+      "320 keyboard filter open/Escape restores focus",
+      "Mark all as read survives full reload",
+      "Settings control opens notification settings"
+    ],
+    "geometry": [
+      {
+        "label": "desktop-unread",
+        "viewport": 1440,
+        "document": 1440,
+        "controls": [
+          {
+            "text": "Notifications",
+            "x": 349.5,
+            "y": 56,
+            "width": 120.578125,
+            "height": 28
+          },
+          {
+            "text": "Mark all as read",
+            "x": 887.65625,
+            "y": 54,
+            "width": 127.84375,
+            "height": 32
+          },
+          {
+            "text": "",
+            "x": 843.65625,
+            "y": 52,
+            "width": 36,
+            "height": 36
+          }
+        ]
+      },
+      {
+        "label": "390-unread-all",
+        "viewport": 390,
+        "document": 390,
+        "controls": [
+          {
+            "text": "Notifications",
+            "x": 16,
+            "y": 48,
+            "width": 245.265625,
+            "height": 28
+          },
+          {
+            "text": "Mark all as read",
+            "x": 16,
+            "y": 90,
+            "width": 127.84375,
+            "height": 32
+          },
+          {
+            "text": "All",
+            "x": 269.265625,
+            "y": 88,
+            "width": 104.734375,
+            "height": 36
+          },
+          {
+            "text": "",
+            "x": 338,
+            "y": 44,
+            "width": 36,
+            "height": 36
+          }
+        ]
+      },
+      {
+        "label": "390-unread-mentions",
+        "viewport": 390,
+        "document": 390,
+        "controls": [
+          {
+            "text": "Notifications",
+            "x": 16,
+            "y": 48,
+            "width": 217.03125,
+            "height": 28
+          },
+          {
+            "text": "Mark all as read",
+            "x": 16,
+            "y": 90,
+            "width": 127.84375,
+            "height": 32
+          },
+          {
+            "text": "Mentions",
+            "x": 241.03125,
+            "y": 88,
+            "width": 132.96875,
+            "height": 36
+          },
+          {
+            "text": "",
+            "x": 338,
+            "y": 44,
+            "width": 36,
+            "height": 36
+          }
+        ]
+      },
+      {
+        "label": "320-unread-all",
+        "viewport": 320,
+        "document": 320,
+        "controls": [
+          {
+            "text": "Notifications",
+            "x": 16,
+            "y": 48,
+            "width": 175.265625,
+            "height": 28
+          },
+          {
+            "text": "Mark all as read",
+            "x": 16,
+            "y": 90,
+            "width": 127.84375,
+            "height": 32
+          },
+          {
+            "text": "All",
+            "x": 199.265625,
+            "y": 88,
+            "width": 104.734375,
+            "height": 36
+          },
+          {
+            "text": "",
+            "x": 268,
+            "y": 44,
+            "width": 36,
+            "height": 36
+          }
+        ]
+      },
+      {
+        "label": "320-unread-mentions",
+        "viewport": 320,
+        "document": 320,
+        "controls": [
+          {
+            "text": "Notifications",
+            "x": 16,
+            "y": 48,
+            "width": 147.03125,
+            "height": 28
+          },
+          {
+            "text": "Mark all as read",
+            "x": 16,
+            "y": 90,
+            "width": 127.84375,
+            "height": 32
+          },
+          {
+            "text": "Mentions",
+            "x": 171.03125,
+            "y": 88,
+            "width": 132.96875,
+            "height": 36
+          },
+          {
+            "text": "",
+            "x": 268,
+            "y": 44,
+            "width": 36,
+            "height": 36
+          }
+        ]
+      },
+      {
+        "label": "390-read-mentions",
+        "viewport": 390,
+        "document": 390,
+        "controls": [
+          {
+            "text": "Notifications",
+            "x": 16,
+            "y": 48,
+            "width": 217.03125,
+            "height": 28
+          },
+          {
+            "text": "Mentions",
+            "x": 241.03125,
+            "y": 88,
+            "width": 132.96875,
+            "height": 36
+          },
+          {
+            "text": "",
+            "x": 338,
+            "y": 44,
+            "width": 36,
+            "height": 36
+          }
+        ]
+      },
+      {
+        "label": "320-read-mentions",
+        "viewport": 320,
+        "document": 320,
+        "controls": [
+          {
+            "text": "Notifications",
+            "x": 16,
+            "y": 48,
+            "width": 147.03125,
+            "height": 28
+          },
+          {
+            "text": "Mentions",
+            "x": 171.03125,
+            "y": 88,
+            "width": 132.96875,
+            "height": 36
+          },
+          {
+            "text": "",
+            "x": 268,
+            "y": 44,
+            "width": 36,
+            "height": 36
+          }
+        ]
+      }
+    ],
+    "compiledRevisionVerified": true
+  }
+]
