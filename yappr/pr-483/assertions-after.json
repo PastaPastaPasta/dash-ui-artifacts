@@ -1,0 +1,73 @@
+[
+  {
+    "state": "after",
+    "revision": "34325b025251717c8b821559e83982b193cbc41d",
+    "persona": 38,
+    "identityId": "4epjp48EuEG7UetQ7uExDsYNsoWLeVWU9Ym26sXb64WM",
+    "checks": [
+      {
+        "name": "Encryption Private Key",
+        "focused": true,
+        "labelCount": 1,
+        "accessibleName": "Encryption Private Key",
+        "clip": {
+          "x": 374,
+          "y": 324,
+          "width": 616,
+          "height": 88
+        },
+        "id": ":r0:",
+        "associatedLabels": 1
+      }
+    ],
+    "compiledHash": "34325b02",
+    "cancelPreservesDisabledFeed": true,
+    "success": true
+  },
+  {
+    "state": "after",
+    "revision": "34325b025251717c8b821559e83982b193cbc41d",
+    "persona": 39,
+    "identityId": "9NFhqxW8upkFMVTE5h5VmYWLdSEJ26B2iMKdhCFgsWkd",
+    "checks": [
+      {
+        "name": "Enter your encryption private key",
+        "focused": true,
+        "labelCount": 1,
+        "accessibleName": "Enter your encryption private key",
+        "clip": {
+          "x": 486,
+          "y": 641,
+          "width": 468,
+          "height": 88
+        },
+        "id": ":r3:",
+        "associatedLabels": 1
+      },
+      {
+        "name": "Type RESET to confirm:",
+        "focused": true,
+        "labelCount": 1,
+        "accessibleName": "Type RESET to confirm:",
+        "clip": {
+          "x": 486,
+          "y": 729,
+          "width": 468,
+          "height": 88
+        },
+        "id": ":r4:",
+        "associatedLabels": 1
+      }
+    ],
+    "compiledHash": "34325b02",
+    "escapeReturnsTriggerFocus": false,
+    "focusAfterEscape": {
+      "tag": "BODY",
+      "id": "",
+      "role": null,
+      "text": "DEVNET|Running on a Dash Platform devnet. Data may be reset.\nYappr\nHome\nFollowing\nFollowers\nExplore\nStore\nBlog\nNotifications\nMessages\nBookmarks\nProfile\nSettings\nPost\n\n@hikes-omar8."
+    },
+    "cancelPreservesEnabledFeed": true,
+    "success": true
+  }
+]
