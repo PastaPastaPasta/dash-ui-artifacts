@@ -1,0 +1,132 @@
+{
+  "variant": "before",
+  "base": "http://127.0.0.1:3311/devnet",
+  "revision": "87bdb83bbb98497d0f9354e6841ca067a763a8ec",
+  "persona": 55,
+  "login": "Actual visible identity/key form; no injected session; credential entry not captured",
+  "parts": [
+    "QA132 retry linkage root",
+    "QA132 retry linkage second part"
+  ],
+  "transportRule": "First broadcast delivered, subsequent broadcasts aborted locally before delivery until one explicit retry; no payload inspection or mutation.",
+  "transport": [
+    {
+      "sequence": 1,
+      "method": "POST",
+      "url": "https://seed-2.moutai.networks.dash.org:1443//org.dash.platform.dapi.v0.Platform/broadcastStateTransition",
+      "blockedBeforeDelivery": false
+    },
+    {
+      "sequence": 2,
+      "method": "POST",
+      "url": "https://seed-5.moutai.networks.dash.org:1443//org.dash.platform.dapi.v0.Platform/broadcastStateTransition",
+      "blockedBeforeDelivery": true
+    },
+    {
+      "sequence": 3,
+      "method": "POST",
+      "url": "https://seed-1.moutai.networks.dash.org:1443//org.dash.platform.dapi.v0.Platform/broadcastStateTransition",
+      "blockedBeforeDelivery": true
+    },
+    {
+      "sequence": 4,
+      "method": "POST",
+      "url": "https://seed-2.moutai.networks.dash.org:1443//org.dash.platform.dapi.v0.Platform/broadcastStateTransition",
+      "blockedBeforeDelivery": true
+    },
+    {
+      "sequence": 5,
+      "method": "POST",
+      "url": "https://seed-4.moutai.networks.dash.org:1443//org.dash.platform.dapi.v0.Platform/broadcastStateTransition",
+      "blockedBeforeDelivery": true
+    },
+    {
+      "sequence": 6,
+      "method": "POST",
+      "url": "https://seed-3.moutai.networks.dash.org:1443//org.dash.platform.dapi.v0.Platform/broadcastStateTransition",
+      "blockedBeforeDelivery": true
+    },
+    {
+      "sequence": 7,
+      "method": "POST",
+      "url": "https://seed-2.moutai.networks.dash.org:1443//org.dash.platform.dapi.v0.Platform/broadcastStateTransition",
+      "blockedBeforeDelivery": true
+    },
+    {
+      "sequence": 8,
+      "method": "POST",
+      "url": "https://seed-5.moutai.networks.dash.org:1443//org.dash.platform.dapi.v0.Platform/broadcastStateTransition",
+      "blockedBeforeDelivery": true
+    },
+    {
+      "sequence": 9,
+      "method": "POST",
+      "url": "https://seed-3.moutai.networks.dash.org:1443//org.dash.platform.dapi.v0.Platform/broadcastStateTransition",
+      "blockedBeforeDelivery": true
+    },
+    {
+      "sequence": 10,
+      "method": "POST",
+      "url": "https://seed-1.moutai.networks.dash.org:1443//org.dash.platform.dapi.v0.Platform/broadcastStateTransition",
+      "blockedBeforeDelivery": true
+    },
+    {
+      "sequence": 11,
+      "method": "POST",
+      "url": "https://seed-4.moutai.networks.dash.org:1443//org.dash.platform.dapi.v0.Platform/broadcastStateTransition",
+      "blockedBeforeDelivery": false
+    },
+    {
+      "sequence": 12,
+      "method": "POST",
+      "url": "https://seed-1.moutai.networks.dash.org:1443//org.dash.platform.dapi.v0.Platform/broadcastStateTransition",
+      "blockedBeforeDelivery": false
+    },
+    {
+      "sequence": 13,
+      "method": "POST",
+      "url": "https://seed-1.moutai.networks.dash.org:1443//org.dash.platform.dapi.v0.Platform/broadcastStateTransition",
+      "blockedBeforeDelivery": false
+    }
+  ],
+  "events": [
+    {
+      "postId": "5K7i8AHUegz64DaS8HAxa4RCfEThiJXRgkcfQNgxNjdD",
+      "confirmed": true
+    },
+    {
+      "postId": "5P6sxjtKWzPsbX8evaj4SVuMLknNX2EFmPBVvdRg8tpa",
+      "confirmed": true
+    }
+  ],
+  "manualRetries": 1,
+  "cases": [
+    "visible identity/key login succeeds",
+    "first part confirmed; later broadcasts blocked; second part retained",
+    "fresh guest context sees root without blocked second part",
+    "one explicit retry completes second part without offline/online cycle",
+    "profile has exactly 2 matching top-level cards"
+  ],
+  "cleanup": [
+    {
+      "id": "5P6sxjtKWzPsbX8evaj4SVuMLknNX2EFmPBVvdRg8tpa",
+      "ownerUiDeleted": true,
+      "freshGuestTombstone": true
+    },
+    {
+      "id": "5K7i8AHUegz64DaS8HAxa4RCfEThiJXRgkcfQNgxNjdD",
+      "ownerUiDeleted": true,
+      "freshGuestTombstone": true
+    }
+  ],
+  "identity": "HVVUwJLhEngLH5LkZx8FgUkcso28xK7tn5gaaHke5WWu",
+  "rootId": "5K7i8AHUegz64DaS8HAxa4RCfEThiJXRgkcfQNgxNjdD",
+  "partialText": "Create a new post\n\nShare your thoughts with the community\n\nPublic\nNSFW\nPreview\nRetry (1)\nPosted\nQA132 retry linkage root\n2\nB\nI\n</>\n@\n#\n**bold**\n*italic*\n`code`\nAdd to thread",
+  "secondId": "5P6sxjtKWzPsbX8evaj4SVuMLknNX2EFmPBVvdRg8tpa",
+  "observed": "BUG: retried second part is a separate top-level post; root has no replies",
+  "profileCards": [
+    "post-card-5P6sxjtKWzPsbX8evaj4SVuMLknNX2EFmPBVvdRg8tpa",
+    "post-card-5K7i8AHUegz64DaS8HAxa4RCfEThiJXRgkcfQNgxNjdD"
+  ],
+  "completed": true
+}

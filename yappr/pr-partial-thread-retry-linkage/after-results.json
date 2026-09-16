@@ -1,0 +1,118 @@
+{
+  "variant": "after",
+  "base": "http://127.0.0.1:3325/devnet",
+  "revision": "c266ca13d163501ec4b7097b0489359f2f30c2a6",
+  "persona": 55,
+  "login": "Actual visible identity/key form; no injected session; credential entry not captured",
+  "parts": [
+    "QA132 retry linkage root",
+    "QA132 retry linkage second part"
+  ],
+  "transportRule": "First broadcast delivered, subsequent broadcasts aborted locally before delivery until one explicit retry; no payload inspection or mutation.",
+  "transport": [
+    {
+      "sequence": 1,
+      "method": "POST",
+      "url": "https://seed-5.moutai.networks.dash.org:1443//org.dash.platform.dapi.v0.Platform/broadcastStateTransition",
+      "blockedBeforeDelivery": false
+    },
+    {
+      "sequence": 2,
+      "method": "POST",
+      "url": "https://seed-5.moutai.networks.dash.org:1443//org.dash.platform.dapi.v0.Platform/broadcastStateTransition",
+      "blockedBeforeDelivery": true
+    },
+    {
+      "sequence": 3,
+      "method": "POST",
+      "url": "https://seed-1.moutai.networks.dash.org:1443//org.dash.platform.dapi.v0.Platform/broadcastStateTransition",
+      "blockedBeforeDelivery": true
+    },
+    {
+      "sequence": 4,
+      "method": "POST",
+      "url": "https://seed-2.moutai.networks.dash.org:1443//org.dash.platform.dapi.v0.Platform/broadcastStateTransition",
+      "blockedBeforeDelivery": true
+    },
+    {
+      "sequence": 5,
+      "method": "POST",
+      "url": "https://seed-4.moutai.networks.dash.org:1443//org.dash.platform.dapi.v0.Platform/broadcastStateTransition",
+      "blockedBeforeDelivery": true
+    },
+    {
+      "sequence": 6,
+      "method": "POST",
+      "url": "https://seed-3.moutai.networks.dash.org:1443//org.dash.platform.dapi.v0.Platform/broadcastStateTransition",
+      "blockedBeforeDelivery": true
+    },
+    {
+      "sequence": 7,
+      "method": "POST",
+      "url": "https://seed-2.moutai.networks.dash.org:1443//org.dash.platform.dapi.v0.Platform/broadcastStateTransition",
+      "blockedBeforeDelivery": true
+    },
+    {
+      "sequence": 8,
+      "method": "POST",
+      "url": "https://seed-5.moutai.networks.dash.org:1443//org.dash.platform.dapi.v0.Platform/broadcastStateTransition",
+      "blockedBeforeDelivery": true
+    },
+    {
+      "sequence": 9,
+      "method": "POST",
+      "url": "https://seed-3.moutai.networks.dash.org:1443//org.dash.platform.dapi.v0.Platform/broadcastStateTransition",
+      "blockedBeforeDelivery": true
+    },
+    {
+      "sequence": 10,
+      "method": "POST",
+      "url": "https://seed-1.moutai.networks.dash.org:1443//org.dash.platform.dapi.v0.Platform/broadcastStateTransition",
+      "blockedBeforeDelivery": true
+    },
+    {
+      "sequence": 11,
+      "method": "POST",
+      "url": "https://seed-4.moutai.networks.dash.org:1443//org.dash.platform.dapi.v0.Platform/broadcastStateTransition",
+      "blockedBeforeDelivery": false
+    }
+  ],
+  "events": [
+    {
+      "postId": "3d7gbAw9N9qyBczGrARRDsc9A32tqCZUzHhqmJPxqfxw",
+      "confirmed": true
+    }
+  ],
+  "manualRetries": 1,
+  "cases": [
+    "visible identity/key login succeeds",
+    "first part confirmed; later broadcasts blocked; second part retained",
+    "fresh guest context sees root without blocked second part",
+    "one explicit retry completed second part; independently read persisted reply",
+    "profile has exactly 1 matching top-level cards"
+  ],
+  "cleanup": [
+    {
+      "id": "2465i5YrCU4n5Hy3p3iLXHrbRqFvFQ33B5JeVATKGY1h",
+      "ownerUiDeleted": true,
+      "freshGuestTombstone": true
+    },
+    {
+      "id": "3d7gbAw9N9qyBczGrARRDsc9A32tqCZUzHhqmJPxqfxw",
+      "ownerUiDeleted": true,
+      "freshGuestTombstone": true
+    }
+  ],
+  "identity": "HVVUwJLhEngLH5LkZx8FgUkcso28xK7tn5gaaHke5WWu",
+  "rootId": "3d7gbAw9N9qyBczGrARRDsc9A32tqCZUzHhqmJPxqfxw",
+  "partialText": "Create a new post\n\nShare your thoughts with the community\n\nPublic\nNSFW\nPreview\nRetry (1)\nPosted\nQA132 retry linkage root\n2\nB\nI\n</>\n@\n#\n**bold**\n*italic*\n`code`\nAdd to thread",
+  "harnessCorrection": "The first harness observed only post-created, while a correctly linked retry emits reply-created. Resume reads the existing delivered reply; no additional publication or retry.",
+  "harnessEventWaitFailure": "expect(received).toBeTruthy()\n\nReceived: undefined\n\nCall Log:\n- Timeout 90000ms exceeded while waiting on the predicate",
+  "secondId": "2465i5YrCU4n5Hy3p3iLXHrbRqFvFQ33B5JeVATKGY1h",
+  "observed": "PASS: retried second part appears as the sole reply to the original root",
+  "profileCards": [
+    "post-card-3d7gbAw9N9qyBczGrARRDsc9A32tqCZUzHhqmJPxqfxw"
+  ],
+  "harnessCleanupCorrection": "Reply tombstone says This reply was deleted; first cleanup assertion expected post. Fresh guest now verifies correct reply tombstone before deleting root.",
+  "completed": true
+}
