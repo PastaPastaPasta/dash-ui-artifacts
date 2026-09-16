@@ -1,0 +1,140 @@
+{
+  "revision": "45829cea52d95b338f1bf6112b97b369648d0c4c",
+  "base": "http://127.0.0.1:3315/devnet",
+  "writes": 0,
+  "cases": [
+    {
+      "viewport": {
+        "width": 320,
+        "height": 844
+      },
+      "selected": "private",
+      "box": {
+        "x": 48,
+        "y": 100,
+        "width": 256,
+        "height": 216
+      },
+      "keyboardSelection": true
+    },
+    {
+      "viewport": {
+        "width": 320,
+        "height": 844
+      },
+      "selected": "private-with-teaser",
+      "box": {
+        "x": 48,
+        "y": 100,
+        "width": 256,
+        "height": 265
+      },
+      "keyboardSelection": true
+    },
+    {
+      "viewport": {
+        "width": 320,
+        "height": 844
+      },
+      "selected": "public",
+      "box": {
+        "x": 48,
+        "y": 136,
+        "width": 256,
+        "height": 265
+      },
+      "keyboardSelection": true
+    },
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "selected": "private",
+      "box": {
+        "x": 112,
+        "y": 100,
+        "width": 256,
+        "height": 216
+      },
+      "keyboardSelection": true
+    },
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "selected": "private-with-teaser",
+      "box": {
+        "x": 112,
+        "y": 100,
+        "width": 256,
+        "height": 265
+      },
+      "keyboardSelection": true
+    },
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "selected": "public",
+      "box": {
+        "x": 112,
+        "y": 136,
+        "width": 256,
+        "height": 265
+      },
+      "keyboardSelection": true
+    },
+    {
+      "viewport": {
+        "width": 844,
+        "height": 390
+      },
+      "selected": "private",
+      "box": {
+        "x": 198,
+        "y": 132,
+        "width": 256,
+        "height": 216
+      },
+      "keyboardSelection": true
+    },
+    {
+      "viewport": {
+        "width": 844,
+        "height": 390
+      },
+      "selected": "private-with-teaser",
+      "box": {
+        "x": 198,
+        "y": 132,
+        "width": 256,
+        "height": 242
+      },
+      "keyboardSelection": true
+    },
+    {
+      "viewport": {
+        "width": 844,
+        "height": 390
+      },
+      "selected": "public",
+      "box": {
+        "x": 198,
+        "y": 132,
+        "width": 256,
+        "height": 242
+      },
+      "keyboardSelection": true
+    },
+    {
+      "name": "unavailable private selection opens prerequisite prompt; dismissal preserves Public without any writes"
+    }
+  ],
+  "unavailableDialogNames": [
+    "radix-:RsplaH1:"
+  ],
+  "unavailablePromptText": "Enter Encryption Key\n\nEnter your encryption private key to manage your private feed.\n\nAuto-recovery not available. Please enter your key manually.\n\nYour encryption key is stored securely in this browser session. You'll need to enter it again after logging out or using a different device.\n\nEncryption Private Key\nSave Key\nSkip for now\n\nDon't have an encryption key? Add one to your identity\n\nLost your key? See recovery options"
+}

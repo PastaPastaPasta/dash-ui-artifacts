@@ -1,0 +1,104 @@
+{
+  "label": "before",
+  "base": "http://127.0.0.1:3288/devnet",
+  "revision": "cf0efbc10b8757137063113ebbd2061e8b87d8f7",
+  "writes": 0,
+  "cases": [
+    {
+      "width": 320,
+      "box": {
+        "x": 112,
+        "y": 100,
+        "width": 256,
+        "height": 256
+      },
+      "items": [
+        {
+          "text": "PublicVisible to everyone",
+          "x": 113,
+          "right": 367,
+          "width": 254,
+          "rightEdgeHit": false
+        },
+        {
+          "text": "PrivateOnly private followersClick to enable private feed",
+          "x": 113,
+          "right": 367,
+          "width": 254,
+          "rightEdgeHit": false
+        },
+        {
+          "text": "Private with TeaserTeaser public, full content privateClick to enable private feed",
+          "x": 113,
+          "right": 367,
+          "width": 254,
+          "rightEdgeHit": false
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "box": {
+        "x": 49,
+        "y": 100,
+        "width": 256,
+        "height": 256
+      },
+      "items": [
+        {
+          "text": "PublicVisible to everyone",
+          "x": 50,
+          "right": 304,
+          "width": 254,
+          "rightEdgeHit": true
+        },
+        {
+          "text": "PrivateOnly private followersClick to enable private feed",
+          "x": 50,
+          "right": 304,
+          "width": 254,
+          "rightEdgeHit": true
+        },
+        {
+          "text": "Private with TeaserTeaser public, full content privateClick to enable private feed",
+          "x": 50,
+          "right": 304,
+          "width": 254,
+          "rightEdgeHit": true
+        }
+      ]
+    },
+    {
+      "width": 1280,
+      "box": {
+        "x": 416,
+        "y": 132,
+        "width": 256,
+        "height": 256
+      },
+      "items": [
+        {
+          "text": "PublicVisible to everyone",
+          "x": 417,
+          "right": 671,
+          "width": 254,
+          "rightEdgeHit": true
+        },
+        {
+          "text": "PrivateOnly private followersClick to enable private feed",
+          "x": 417,
+          "right": 671,
+          "width": 254,
+          "rightEdgeHit": true
+        },
+        {
+          "text": "Private with TeaserTeaser public, full content privateClick to enable private feed",
+          "x": 417,
+          "right": 671,
+          "width": 254,
+          "rightEdgeHit": true
+        }
+      ]
+    }
+  ]
+}
