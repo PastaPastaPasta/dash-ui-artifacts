@@ -1,0 +1,131 @@
+[
+  {
+    "state": "before",
+    "revision": "c98a6ecd7e26ae5bc9fc8e400e6011eb8465b3a0",
+    "kind": "like",
+    "input": "mouse",
+    "identityId": "9NFhqxW8upkFMVTE5h5VmYWLdSEJ26B2iMKdhCFgsWkd",
+    "postId": "H6upQuVsZVXHYMsXqRyp87T3aEu1bNCSb67mKmpbyLHX",
+    "checks": [
+      "Preview opens exact post destination",
+      "Preview outcome persists after reload",
+      "Control: row click marks same notification read",
+      "Already-read preview remains read, with reload persistence"
+    ],
+    "compiledRevisionVerified": true,
+    "unreadBefore": 1,
+    "href": "/devnet/post/?id=H6upQuVsZVXHYMsXqRyp87T3aEu1bNCSb67mKmpbyLHX",
+    "unreadAfter": 1,
+    "persistedReadIds": [
+      "like-post-4epjp48EuEG7UetQ7uExDsYNsoWLeVWU9Ym26sXb64WM:H6upQuVsZVXHYMsXqRyp87T3aEu1bNCSb67mKmpbyLHX:1789524146425"
+    ],
+    "success": true
+  },
+  {
+    "state": "before",
+    "revision": "c98a6ecd7e26ae5bc9fc8e400e6011eb8465b3a0",
+    "kind": "repost",
+    "input": "keyboard",
+    "identityId": "9NFhqxW8upkFMVTE5h5VmYWLdSEJ26B2iMKdhCFgsWkd",
+    "postId": "H6upQuVsZVXHYMsXqRyp87T3aEu1bNCSb67mKmpbyLHX",
+    "checks": [
+      "Preview opens exact post destination",
+      "Preview outcome persists after reload",
+      "Control: row click marks same notification read",
+      "Already-read preview remains read, with reload persistence"
+    ],
+    "compiledRevisionVerified": true,
+    "unreadBefore": 1,
+    "href": "/devnet/post/?id=H6upQuVsZVXHYMsXqRyp87T3aEu1bNCSb67mKmpbyLHX",
+    "unreadAfter": 1,
+    "persistedReadIds": [
+      "repost-92Hm7FqZGBpUoeWKTf41uCCNpamEzXZSkKQHdz1tG2Bo"
+    ],
+    "success": true
+  },
+  {
+    "state": "before",
+    "revision": "c98a6ecd7e26ae5bc9fc8e400e6011eb8465b3a0",
+    "kind": "blogPost",
+    "input": "mouse",
+    "identityId": "9NFhqxW8upkFMVTE5h5VmYWLdSEJ26B2iMKdhCFgsWkd",
+    "postId": "Btrwo7erz9EZhhp14i6PJGmWc8ygsCqgXcZLeLGXJ8QD",
+    "checks": [
+      "Preview opens exact article destination",
+      "Preview outcome persists after reload",
+      "Control: row click marks same notification read",
+      "Already-read preview remains read, with reload persistence"
+    ],
+    "compiledRevisionVerified": true,
+    "unreadBefore": 1,
+    "href": "/devnet/blog/?blog=GZkg15HyWHb3L4QjcnE6xU2AqkPBtxSYhC76qVHSu1rz&post=qa-article-lifecycle-20260915-p44",
+    "unreadAfter": 1,
+    "persistedReadIds": [
+      "blogPost-Btrwo7erz9EZhhp14i6PJGmWc8ygsCqgXcZLeLGXJ8QD"
+    ],
+    "success": true
+  },
+  {
+    "state": "after",
+    "revision": "d64931848660871b7696cae2fa824c24bf45fdc1",
+    "kind": "like",
+    "input": "mouse",
+    "identityId": "9NFhqxW8upkFMVTE5h5VmYWLdSEJ26B2iMKdhCFgsWkd",
+    "postId": "H6upQuVsZVXHYMsXqRyp87T3aEu1bNCSb67mKmpbyLHX",
+    "checks": [
+      "Preview opens exact post destination",
+      "Preview outcome persists after reload",
+      "Already-read preview remains read, with reload persistence"
+    ],
+    "compiledRevisionVerified": true,
+    "unreadBefore": 1,
+    "href": "/devnet/post/?id=H6upQuVsZVXHYMsXqRyp87T3aEu1bNCSb67mKmpbyLHX",
+    "unreadAfter": 0,
+    "persistedReadIds": [
+      "like-post-4epjp48EuEG7UetQ7uExDsYNsoWLeVWU9Ym26sXb64WM:H6upQuVsZVXHYMsXqRyp87T3aEu1bNCSb67mKmpbyLHX:1789524146425"
+    ],
+    "success": true
+  },
+  {
+    "state": "after",
+    "revision": "d64931848660871b7696cae2fa824c24bf45fdc1",
+    "kind": "repost",
+    "input": "keyboard",
+    "identityId": "9NFhqxW8upkFMVTE5h5VmYWLdSEJ26B2iMKdhCFgsWkd",
+    "postId": "H6upQuVsZVXHYMsXqRyp87T3aEu1bNCSb67mKmpbyLHX",
+    "checks": [
+      "Preview opens exact post destination",
+      "Preview outcome persists after reload",
+      "Already-read preview remains read, with reload persistence"
+    ],
+    "compiledRevisionVerified": true,
+    "unreadBefore": 1,
+    "href": "/devnet/post/?id=H6upQuVsZVXHYMsXqRyp87T3aEu1bNCSb67mKmpbyLHX",
+    "unreadAfter": 0,
+    "persistedReadIds": [
+      "repost-92Hm7FqZGBpUoeWKTf41uCCNpamEzXZSkKQHdz1tG2Bo"
+    ],
+    "success": true
+  },
+  {
+    "state": "after",
+    "revision": "d64931848660871b7696cae2fa824c24bf45fdc1",
+    "kind": "blogPost",
+    "input": "mouse",
+    "identityId": "9NFhqxW8upkFMVTE5h5VmYWLdSEJ26B2iMKdhCFgsWkd",
+    "postId": "Btrwo7erz9EZhhp14i6PJGmWc8ygsCqgXcZLeLGXJ8QD",
+    "checks": [
+      "Preview opens exact article destination",
+      "Preview outcome persists after reload",
+      "Already-read preview remains read, with reload persistence"
+    ],
+    "compiledRevisionVerified": true,
+    "unreadBefore": 1,
+    "href": "/devnet/blog/?blog=GZkg15HyWHb3L4QjcnE6xU2AqkPBtxSYhC76qVHSu1rz&post=qa-article-lifecycle-20260915-p44",
+    "unreadAfter": 0,
+    "persistedReadIds": [
+      "blogPost-Btrwo7erz9EZhhp14i6PJGmWc8ygsCqgXcZLeLGXJ8QD"
+    ],
+    "success": true
+  }
+]
