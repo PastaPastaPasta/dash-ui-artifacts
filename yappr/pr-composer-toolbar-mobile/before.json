@@ -1,0 +1,525 @@
+{
+  "label": "before",
+  "base": "http://127.0.0.1:3288/devnet",
+  "revision": "cf0efbc10b8757137063113ebbd2061e8b87d8f7",
+  "postSubmissions": 0,
+  "cases": [
+    {
+      "width": 320,
+      "state": "single",
+      "buttons": [
+        {
+          "name": "Bold (Ctrl+B)",
+          "x": 58,
+          "y": 147,
+          "width": 21.5625,
+          "height": 36,
+          "insideToolbar": true,
+          "insideViewport": true,
+          "disabled": false
+        },
+        {
+          "name": "Italic (Ctrl+I)",
+          "x": 83.5625,
+          "y": 147,
+          "width": 15.609375,
+          "height": 36,
+          "insideToolbar": true,
+          "insideViewport": true,
+          "disabled": false
+        },
+        {
+          "name": "Code",
+          "x": 103.171875,
+          "y": 147,
+          "width": 33.6875,
+          "height": 36,
+          "insideToolbar": true,
+          "insideViewport": true,
+          "disabled": false
+        },
+        {
+          "name": "Mention someone",
+          "x": 152.859375,
+          "y": 147,
+          "width": 24.703125,
+          "height": 36,
+          "insideToolbar": true,
+          "insideViewport": true,
+          "disabled": false
+        },
+        {
+          "name": "Add hashtag",
+          "x": 181.5625,
+          "y": 147,
+          "width": 20.671875,
+          "height": 36,
+          "insideToolbar": true,
+          "insideViewport": true,
+          "disabled": false
+        },
+        {
+          "name": "Add emoji",
+          "x": 206.234375,
+          "y": 151,
+          "width": 28,
+          "height": 28,
+          "insideToolbar": true,
+          "insideViewport": true,
+          "disabled": false
+        },
+        {
+          "name": "Attach image",
+          "x": 250.234375,
+          "y": 151,
+          "width": 28,
+          "height": 28,
+          "insideToolbar": false,
+          "insideViewport": true,
+          "disabled": false
+        },
+        {
+          "name": "Add poll",
+          "x": 282.234375,
+          "y": 151,
+          "width": 28,
+          "height": 28,
+          "insideToolbar": false,
+          "insideViewport": true,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "width": 320,
+      "state": "thread",
+      "buttons": [
+        {
+          "name": "Bold (Ctrl+B)",
+          "x": 70,
+          "y": 251.4285888671875,
+          "width": 21.5625,
+          "height": 36,
+          "insideToolbar": true,
+          "insideViewport": true,
+          "disabled": false
+        },
+        {
+          "name": "Italic (Ctrl+I)",
+          "x": 95.5625,
+          "y": 251.4285888671875,
+          "width": 15.609375,
+          "height": 36,
+          "insideToolbar": true,
+          "insideViewport": true,
+          "disabled": false
+        },
+        {
+          "name": "Code",
+          "x": 115.171875,
+          "y": 251.4285888671875,
+          "width": 33.6875,
+          "height": 36,
+          "insideToolbar": true,
+          "insideViewport": true,
+          "disabled": false
+        },
+        {
+          "name": "Mention someone",
+          "x": 164.859375,
+          "y": 251.4285888671875,
+          "width": 24.703125,
+          "height": 36,
+          "insideToolbar": true,
+          "insideViewport": true,
+          "disabled": false
+        },
+        {
+          "name": "Add hashtag",
+          "x": 193.5625,
+          "y": 251.4285888671875,
+          "width": 20.671875,
+          "height": 36,
+          "insideToolbar": true,
+          "insideViewport": true,
+          "disabled": false
+        },
+        {
+          "name": "Add emoji",
+          "x": 218.234375,
+          "y": 255.4285888671875,
+          "width": 28,
+          "height": 28,
+          "insideToolbar": true,
+          "insideViewport": true,
+          "disabled": false
+        },
+        {
+          "name": "Attach image",
+          "x": 262.234375,
+          "y": 255.4285888671875,
+          "width": 28,
+          "height": 28,
+          "insideToolbar": false,
+          "insideViewport": true,
+          "disabled": false
+        },
+        {
+          "name": "Remove this post",
+          "x": 298.234375,
+          "y": 255.4285888671875,
+          "width": 28,
+          "height": 28,
+          "insideToolbar": false,
+          "insideViewport": false,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "state": "single",
+      "buttons": [
+        {
+          "name": "Bold (Ctrl+B)",
+          "x": 58,
+          "y": 147,
+          "width": 21.5625,
+          "height": 36,
+          "insideToolbar": true,
+          "insideViewport": true,
+          "disabled": false
+        },
+        {
+          "name": "Italic (Ctrl+I)",
+          "x": 83.5625,
+          "y": 147,
+          "width": 15.609375,
+          "height": 36,
+          "insideToolbar": true,
+          "insideViewport": true,
+          "disabled": false
+        },
+        {
+          "name": "Code",
+          "x": 103.171875,
+          "y": 147,
+          "width": 33.6875,
+          "height": 36,
+          "insideToolbar": true,
+          "insideViewport": true,
+          "disabled": false
+        },
+        {
+          "name": "Mention someone",
+          "x": 153.859375,
+          "y": 147,
+          "width": 24.703125,
+          "height": 36,
+          "insideToolbar": true,
+          "insideViewport": true,
+          "disabled": false
+        },
+        {
+          "name": "Add hashtag",
+          "x": 182.5625,
+          "y": 147,
+          "width": 20.671875,
+          "height": 36,
+          "insideToolbar": true,
+          "insideViewport": true,
+          "disabled": false
+        },
+        {
+          "name": "Add emoji",
+          "x": 207.234375,
+          "y": 151,
+          "width": 28,
+          "height": 28,
+          "insideToolbar": true,
+          "insideViewport": true,
+          "disabled": false
+        },
+        {
+          "name": "Attach image",
+          "x": 252.234375,
+          "y": 151,
+          "width": 28,
+          "height": 28,
+          "insideToolbar": true,
+          "insideViewport": true,
+          "disabled": false
+        },
+        {
+          "name": "Add poll",
+          "x": 284.234375,
+          "y": 151,
+          "width": 28,
+          "height": 28,
+          "insideToolbar": true,
+          "insideViewport": true,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "state": "thread",
+      "buttons": [
+        {
+          "name": "Bold (Ctrl+B)",
+          "x": 70,
+          "y": 252.05712890625,
+          "width": 21.5625,
+          "height": 36,
+          "insideToolbar": true,
+          "insideViewport": true,
+          "disabled": false
+        },
+        {
+          "name": "Italic (Ctrl+I)",
+          "x": 95.5625,
+          "y": 252.05712890625,
+          "width": 15.609375,
+          "height": 36,
+          "insideToolbar": true,
+          "insideViewport": true,
+          "disabled": false
+        },
+        {
+          "name": "Code",
+          "x": 115.171875,
+          "y": 252.05712890625,
+          "width": 33.6875,
+          "height": 36,
+          "insideToolbar": true,
+          "insideViewport": true,
+          "disabled": false
+        },
+        {
+          "name": "Mention someone",
+          "x": 165.859375,
+          "y": 252.05712890625,
+          "width": 24.703125,
+          "height": 36,
+          "insideToolbar": true,
+          "insideViewport": true,
+          "disabled": false
+        },
+        {
+          "name": "Add hashtag",
+          "x": 194.5625,
+          "y": 252.05712890625,
+          "width": 20.671875,
+          "height": 36,
+          "insideToolbar": true,
+          "insideViewport": true,
+          "disabled": false
+        },
+        {
+          "name": "Add emoji",
+          "x": 219.234375,
+          "y": 256.05712890625,
+          "width": 28,
+          "height": 28,
+          "insideToolbar": true,
+          "insideViewport": true,
+          "disabled": false
+        },
+        {
+          "name": "Attach image",
+          "x": 264.234375,
+          "y": 256.05712890625,
+          "width": 28,
+          "height": 28,
+          "insideToolbar": true,
+          "insideViewport": true,
+          "disabled": false
+        },
+        {
+          "name": "Remove this post",
+          "x": 304,
+          "y": 256.05712890625,
+          "width": 28,
+          "height": 28,
+          "insideToolbar": true,
+          "insideViewport": true,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "width": 1280,
+      "state": "single",
+      "buttons": [
+        {
+          "name": "Bold (Ctrl+B)",
+          "x": 346,
+          "y": 179,
+          "width": 21.5625,
+          "height": 36,
+          "insideToolbar": true,
+          "insideViewport": true,
+          "disabled": false
+        },
+        {
+          "name": "Italic (Ctrl+I)",
+          "x": 371.5625,
+          "y": 179,
+          "width": 15.609375,
+          "height": 36,
+          "insideToolbar": true,
+          "insideViewport": true,
+          "disabled": false
+        },
+        {
+          "name": "Code",
+          "x": 391.171875,
+          "y": 179,
+          "width": 33.6875,
+          "height": 36,
+          "insideToolbar": true,
+          "insideViewport": true,
+          "disabled": false
+        },
+        {
+          "name": "Mention someone",
+          "x": 441.859375,
+          "y": 179,
+          "width": 24.703125,
+          "height": 36,
+          "insideToolbar": true,
+          "insideViewport": true,
+          "disabled": false
+        },
+        {
+          "name": "Add hashtag",
+          "x": 470.5625,
+          "y": 179,
+          "width": 20.671875,
+          "height": 36,
+          "insideToolbar": true,
+          "insideViewport": true,
+          "disabled": false
+        },
+        {
+          "name": "Add emoji",
+          "x": 495.234375,
+          "y": 183,
+          "width": 28,
+          "height": 28,
+          "insideToolbar": true,
+          "insideViewport": true,
+          "disabled": false
+        },
+        {
+          "name": "Attach image",
+          "x": 540.234375,
+          "y": 183,
+          "width": 28,
+          "height": 28,
+          "insideToolbar": true,
+          "insideViewport": true,
+          "disabled": false
+        },
+        {
+          "name": "Add poll",
+          "x": 572.234375,
+          "y": 183,
+          "width": 28,
+          "height": 28,
+          "insideToolbar": true,
+          "insideViewport": true,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "width": 1280,
+      "state": "thread",
+      "buttons": [
+        {
+          "name": "Bold (Ctrl+B)",
+          "x": 358,
+          "y": 284.2773742675781,
+          "width": 21.5625,
+          "height": 36,
+          "insideToolbar": true,
+          "insideViewport": true,
+          "disabled": false
+        },
+        {
+          "name": "Italic (Ctrl+I)",
+          "x": 383.5625,
+          "y": 284.2773742675781,
+          "width": 15.609375,
+          "height": 36,
+          "insideToolbar": true,
+          "insideViewport": true,
+          "disabled": false
+        },
+        {
+          "name": "Code",
+          "x": 403.171875,
+          "y": 284.2773742675781,
+          "width": 33.6875,
+          "height": 36,
+          "insideToolbar": true,
+          "insideViewport": true,
+          "disabled": false
+        },
+        {
+          "name": "Mention someone",
+          "x": 453.859375,
+          "y": 284.2773742675781,
+          "width": 24.703125,
+          "height": 36,
+          "insideToolbar": true,
+          "insideViewport": true,
+          "disabled": false
+        },
+        {
+          "name": "Add hashtag",
+          "x": 482.5625,
+          "y": 284.2773742675781,
+          "width": 20.671875,
+          "height": 36,
+          "insideToolbar": true,
+          "insideViewport": true,
+          "disabled": false
+        },
+        {
+          "name": "Add emoji",
+          "x": 507.234375,
+          "y": 288.2773742675781,
+          "width": 28,
+          "height": 28,
+          "insideToolbar": true,
+          "insideViewport": true,
+          "disabled": false
+        },
+        {
+          "name": "Attach image",
+          "x": 552.234375,
+          "y": 288.2773742675781,
+          "width": 28,
+          "height": 28,
+          "insideToolbar": true,
+          "insideViewport": true,
+          "disabled": false
+        },
+        {
+          "name": "Remove this post",
+          "x": 906,
+          "y": 288.2773742675781,
+          "width": 28,
+          "height": 28,
+          "insideToolbar": true,
+          "insideViewport": true,
+          "disabled": false
+        }
+      ]
+    }
+  ],
+  "aboutRevisionObserved": true
+}

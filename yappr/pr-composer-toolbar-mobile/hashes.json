@@ -1,0 +1,47 @@
+[
+  {
+    "file": "README.md",
+    "bytes": 1943,
+    "sha256": "0f383c803d5e10eda828ae725f79ac102bebbe599c6bda59ef631fb1072479b8"
+  },
+  {
+    "file": "after-single.png",
+    "bytes": 61989,
+    "sha256": "216f445d658faf80b0d28024a280a0ebc1b2f198846deac164d2e183888f455f"
+  },
+  {
+    "file": "after-thread.png",
+    "bytes": 58864,
+    "sha256": "bdeb69941668f7a960cc5b70567f7ccc68893faf234c0ace63125aa3d038eeb0"
+  },
+  {
+    "file": "after.json",
+    "bytes": 13010,
+    "sha256": "cf0c263248c08a352ca626a4fccb930c35e146dfde7751ae1ae5a3041a9e904a"
+  },
+  {
+    "file": "before-single.png",
+    "bytes": 63573,
+    "sha256": "3125726c38a1772a130964b2854dda6d2ed4e57f1031e95a1b2afd7e3d6b5c7e"
+  },
+  {
+    "file": "before-thread.png",
+    "bytes": 60758,
+    "sha256": "3bcdc5e2469c85a6287bb203df518318954243d36b3d87e6516cd7469309deb3"
+  },
+  {
+    "file": "before.json",
+    "bytes": 12808,
+    "sha256": "895936e12cbd4f5cb4988f4524edde00209ae998127ffb5876a215611f0079c1"
+  },
+  {
+    "file": "capture.cjs",
+    "bytes": 3693,
+    "sha256": "2e9f3ecc4d5a0ef5ada2c0ce4e572bf99a20cc8a4376e4e4d319ebbf4dbe97f1"
+  },
+  {
+    "file": "matrix.md",
+    "bytes": 689,
+    "sha256": "49c8ddedb834ff7ecf963b408288d56ebbcb39365701b08d95414288c003d388"
+  }
+]
