@@ -1,0 +1,65 @@
+{
+  "base": "f5979f7c56da7bee6ce9bb0b7b21fd2c3d745b61",
+  "head": "ffb3242f64a115ba2c812f6a36a7652f321a2b41",
+  "fixture": {
+    "mocktime": 1417715164,
+    "height": 139,
+    "proposals": [
+      "a736f4313e57214ab0b1ac0f4aacd5a700b2d389699beba77122369d9bf57683",
+      "7be8876e525816977205bd2728777c4ac1c2830332d0e23b51bd04bae532fd1a",
+      "2f4a90ad8dbf1e637897eda79369541c597f40a0700f577f223779416ae5ba3f"
+    ],
+    "masternodes": [
+      {
+        "hash": "e2276f11246d28c83a93220ae5bc701c1bfc6fa5d2a6b489a476d80231fa9acb",
+        "evo": false
+      },
+      {
+        "hash": "4dda25cc1337f06d0093a860cb10cb114e9931c0c0dff57fbbec40c7d8239d33",
+        "evo": false
+      },
+      {
+        "hash": "533438809cc37f5b7f7e3e8f2d46d8be80b151ea29bc1cb8864e7956e48d94af",
+        "evo": false
+      },
+      {
+        "hash": "590ab9830b3180e82a2dd0de575f4c70dc3f9f265530206d30d028692cf4ffbc",
+        "evo": true
+      }
+    ],
+    "governance": {
+      "governanceminquorum": 1,
+      "proposalfee": "1.00000000",
+      "superblockcycle": 20,
+      "superblockmaturitywindow": 10,
+      "lastsuperblock": 120,
+      "nextsuperblock": 140,
+      "fundingthreshold": 0,
+      "governancebudget": "20.00000000"
+    }
+  },
+  "environment": "macOS 15.7.7, arm64, Qt 5.15.18, light theme, 1400x820 main window; synthetic regtest fixture with mock time in December 2014",
+  "capture_method": "OS window screenshots. An external Qt interaction driver was linked into separate QA executables to click actual widgets; no widget state, node result, rendered text or layout was mocked. Production app excludes the driver.",
+  "files": {
+    "before/overview.png": {
+      "sha256": "dbb1d607b1fa5b8b85d5fbf16176dafb3ab1e657313af1b1944e8dcfd4efa708",
+      "bytes": 190146
+    },
+    "after/deadline-countdown.png": {
+      "sha256": "22001d818843d6eacaf7f20053216645f846b675e9bfdb06764082021d3802d3",
+      "bytes": 195970
+    },
+    "after/overview.png": {
+      "sha256": "7c8f285cf9eea4d1c1cb371a7f27593398ee1079ff602520ba4eb92743f394f7",
+      "bytes": 195828
+    },
+    "after/masternode-selection.png": {
+      "sha256": "de3a437ffb2888610676e57db322878fd65e9bebdb45a769e2dac903b7dff01c",
+      "bytes": 157451
+    }
+  },
+  "driver_sha256": "2f1da57242122a185c1612625e52c3cc3c396c5820253453f836ca1716c1c15f",
+  "base_qa_binary_sha256": "d4b1fa0f86a641b7bb150997971028c32c754cead0020ef1dcf16ad92f05bc9d",
+  "head_qa_binary_sha256": "30e3cde3a596a27961090a09e69fd42cc0913766d5afc473ce69a8cd9390ad99",
+  "installed_candidate_sha256": "039b43b16c2c22d83104493030d8ef02969c15afa7dbd94b7b9b20d805eaa8b1"
+}
