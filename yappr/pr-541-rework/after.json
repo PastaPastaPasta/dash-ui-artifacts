@@ -1,0 +1,2107 @@
+{
+  "variant": "after",
+  "revision": "4e638ba4d2a181f2d6191ee787d5c679de4b19e8",
+  "fixture": "Seeded QA persona 55; unsaved local drafts; no submissions or uploads",
+  "cases": [
+    {
+      "width": 320,
+      "theme": "light",
+      "state": "single",
+      "length": 0,
+      "bounds": [
+        {
+          "name": "Close composer",
+          "inside": true
+        },
+        {
+          "name": "Public",
+          "inside": true
+        },
+        {
+          "name": "NSFW",
+          "inside": true
+        },
+        {
+          "name": "Preview",
+          "inside": true
+        },
+        {
+          "name": "Post",
+          "inside": true
+        },
+        {
+          "name": "Bold (Ctrl+B)",
+          "inside": true
+        },
+        {
+          "name": "Italic (Ctrl+I)",
+          "inside": true
+        },
+        {
+          "name": "Code",
+          "inside": true
+        },
+        {
+          "name": "Mention someone",
+          "inside": true
+        },
+        {
+          "name": "Add hashtag",
+          "inside": true
+        },
+        {
+          "name": "Add emoji",
+          "inside": true
+        },
+        {
+          "name": "Attach image",
+          "inside": true
+        },
+        {
+          "name": "Add poll",
+          "inside": true
+        },
+        {
+          "name": "",
+          "inside": true
+        },
+        {
+          "name": "Add to thread",
+          "inside": true
+        }
+      ]
+    },
+    {
+      "width": 320,
+      "theme": "light",
+      "state": "single",
+      "length": 450,
+      "bounds": [
+        {
+          "name": "Close composer",
+          "inside": true
+        },
+        {
+          "name": "Public",
+          "inside": true
+        },
+        {
+          "name": "NSFW",
+          "inside": true
+        },
+        {
+          "name": "Preview",
+          "inside": true
+        },
+        {
+          "name": "Post",
+          "inside": true
+        },
+        {
+          "name": "Bold (Ctrl+B)",
+          "inside": true
+        },
+        {
+          "name": "Italic (Ctrl+I)",
+          "inside": true
+        },
+        {
+          "name": "Code",
+          "inside": true
+        },
+        {
+          "name": "Mention someone",
+          "inside": true
+        },
+        {
+          "name": "Add hashtag",
+          "inside": true
+        },
+        {
+          "name": "Add emoji",
+          "inside": true
+        },
+        {
+          "name": "Attach image",
+          "inside": true
+        },
+        {
+          "name": "Add poll",
+          "inside": true
+        },
+        {
+          "name": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+          "inside": true
+        },
+        {
+          "name": "Add to thread",
+          "inside": true
+        }
+      ]
+    },
+    {
+      "width": 320,
+      "theme": "light",
+      "state": "single",
+      "length": 480,
+      "bounds": [
+        {
+          "name": "Close composer",
+          "inside": true
+        },
+        {
+          "name": "Public",
+          "inside": true
+        },
+        {
+          "name": "NSFW",
+          "inside": true
+        },
+        {
+          "name": "Preview",
+          "inside": true
+        },
+        {
+          "name": "Post",
+          "inside": true
+        },
+        {
+          "name": "Bold (Ctrl+B)",
+          "inside": true
+        },
+        {
+          "name": "Italic (Ctrl+I)",
+          "inside": true
+        },
+        {
+          "name": "Code",
+          "inside": true
+        },
+        {
+          "name": "Mention someone",
+          "inside": true
+        },
+        {
+          "name": "Add hashtag",
+          "inside": true
+        },
+        {
+          "name": "Add emoji",
+          "inside": true
+        },
+        {
+          "name": "Attach image",
+          "inside": true
+        },
+        {
+          "name": "Add poll",
+          "inside": true
+        },
+        {
+          "name": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+          "inside": true
+        },
+        {
+          "name": "Add to thread",
+          "inside": true
+        }
+      ]
+    },
+    {
+      "width": 320,
+      "theme": "light",
+      "state": "single",
+      "length": 500,
+      "bounds": [
+        {
+          "name": "Close composer",
+          "inside": true
+        },
+        {
+          "name": "Public",
+          "inside": true
+        },
+        {
+          "name": "NSFW",
+          "inside": true
+        },
+        {
+          "name": "Preview",
+          "inside": true
+        },
+        {
+          "name": "Post",
+          "inside": true
+        },
+        {
+          "name": "Bold (Ctrl+B)",
+          "inside": true
+        },
+        {
+          "name": "Italic (Ctrl+I)",
+          "inside": true
+        },
+        {
+          "name": "Code",
+          "inside": true
+        },
+        {
+          "name": "Mention someone",
+          "inside": true
+        },
+        {
+          "name": "Add hashtag",
+          "inside": true
+        },
+        {
+          "name": "Add emoji",
+          "inside": true
+        },
+        {
+          "name": "Attach image",
+          "inside": true
+        },
+        {
+          "name": "Add poll",
+          "inside": true
+        },
+        {
+          "name": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+          "inside": true
+        },
+        {
+          "name": "Add to thread",
+          "inside": true
+        }
+      ]
+    },
+    {
+      "width": 320,
+      "theme": "light",
+      "state": "single",
+      "length": 501,
+      "bounds": [
+        {
+          "name": "Close composer",
+          "inside": true
+        },
+        {
+          "name": "Public",
+          "inside": true
+        },
+        {
+          "name": "NSFW",
+          "inside": true
+        },
+        {
+          "name": "Preview",
+          "inside": true
+        },
+        {
+          "name": "Post",
+          "inside": true
+        },
+        {
+          "name": "Bold (Ctrl+B)",
+          "inside": true
+        },
+        {
+          "name": "Italic (Ctrl+I)",
+          "inside": true
+        },
+        {
+          "name": "Code",
+          "inside": true
+        },
+        {
+          "name": "Mention someone",
+          "inside": true
+        },
+        {
+          "name": "Add hashtag",
+          "inside": true
+        },
+        {
+          "name": "Add emoji",
+          "inside": true
+        },
+        {
+          "name": "Attach image",
+          "inside": true
+        },
+        {
+          "name": "Add poll",
+          "inside": true
+        },
+        {
+          "name": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+          "inside": true
+        },
+        {
+          "name": "Add to thread",
+          "inside": true
+        }
+      ]
+    },
+    {
+      "width": 320,
+      "theme": "light",
+      "state": "thread",
+      "length": 0,
+      "bounds": [
+        {
+          "name": "Close composer",
+          "inside": true
+        },
+        {
+          "name": "Public",
+          "inside": true
+        },
+        {
+          "name": "NSFW",
+          "inside": true
+        },
+        {
+          "name": "Preview",
+          "inside": true
+        },
+        {
+          "name": "Post all (2)",
+          "inside": true
+        },
+        {
+          "name": "A little less noise.\nA little more room for your thoughts.",
+          "inside": true
+        },
+        {
+          "name": "Bold (Ctrl+B)",
+          "inside": true
+        },
+        {
+          "name": "Italic (Ctrl+I)",
+          "inside": true
+        },
+        {
+          "name": "Code",
+          "inside": true
+        },
+        {
+          "name": "Mention someone",
+          "inside": true
+        },
+        {
+          "name": "Add hashtag",
+          "inside": true
+        },
+        {
+          "name": "Add emoji",
+          "inside": true
+        },
+        {
+          "name": "Attach image",
+          "inside": true
+        },
+        {
+          "name": "Remove this post",
+          "inside": true
+        },
+        {
+          "name": "",
+          "inside": true
+        },
+        {
+          "name": "Add to thread",
+          "inside": true
+        }
+      ]
+    },
+    {
+      "width": 320,
+      "theme": "light",
+      "state": "thread",
+      "length": 450,
+      "bounds": [
+        {
+          "name": "Close composer",
+          "inside": true
+        },
+        {
+          "name": "Public",
+          "inside": true
+        },
+        {
+          "name": "NSFW",
+          "inside": true
+        },
+        {
+          "name": "Preview",
+          "inside": true
+        },
+        {
+          "name": "Post all (2)",
+          "inside": true
+        },
+        {
+          "name": "A little less noise.\nA little more room for your thoughts.",
+          "inside": true
+        },
+        {
+          "name": "Bold (Ctrl+B)",
+          "inside": true
+        },
+        {
+          "name": "Italic (Ctrl+I)",
+          "inside": true
+        },
+        {
+          "name": "Code",
+          "inside": true
+        },
+        {
+          "name": "Mention someone",
+          "inside": true
+        },
+        {
+          "name": "Add hashtag",
+          "inside": true
+        },
+        {
+          "name": "Add emoji",
+          "inside": true
+        },
+        {
+          "name": "Attach image",
+          "inside": true
+        },
+        {
+          "name": "Remove this post",
+          "inside": true
+        },
+        {
+          "name": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+          "inside": true
+        },
+        {
+          "name": "Add to thread",
+          "inside": true
+        }
+      ]
+    },
+    {
+      "width": 320,
+      "theme": "light",
+      "state": "thread",
+      "length": 480,
+      "bounds": [
+        {
+          "name": "Close composer",
+          "inside": true
+        },
+        {
+          "name": "Public",
+          "inside": true
+        },
+        {
+          "name": "NSFW",
+          "inside": true
+        },
+        {
+          "name": "Preview",
+          "inside": true
+        },
+        {
+          "name": "Post all (2)",
+          "inside": true
+        },
+        {
+          "name": "A little less noise.\nA little more room for your thoughts.",
+          "inside": true
+        },
+        {
+          "name": "Bold (Ctrl+B)",
+          "inside": true
+        },
+        {
+          "name": "Italic (Ctrl+I)",
+          "inside": true
+        },
+        {
+          "name": "Code",
+          "inside": true
+        },
+        {
+          "name": "Mention someone",
+          "inside": true
+        },
+        {
+          "name": "Add hashtag",
+          "inside": true
+        },
+        {
+          "name": "Add emoji",
+          "inside": true
+        },
+        {
+          "name": "Attach image",
+          "inside": true
+        },
+        {
+          "name": "Remove this post",
+          "inside": true
+        },
+        {
+          "name": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+          "inside": true
+        },
+        {
+          "name": "Add to thread",
+          "inside": true
+        }
+      ]
+    },
+    {
+      "width": 320,
+      "theme": "light",
+      "state": "thread",
+      "length": 500,
+      "bounds": [
+        {
+          "name": "Close composer",
+          "inside": true
+        },
+        {
+          "name": "Public",
+          "inside": true
+        },
+        {
+          "name": "NSFW",
+          "inside": true
+        },
+        {
+          "name": "Preview",
+          "inside": true
+        },
+        {
+          "name": "Post all (2)",
+          "inside": true
+        },
+        {
+          "name": "A little less noise.\nA little more room for your thoughts.",
+          "inside": true
+        },
+        {
+          "name": "Bold (Ctrl+B)",
+          "inside": true
+        },
+        {
+          "name": "Italic (Ctrl+I)",
+          "inside": true
+        },
+        {
+          "name": "Code",
+          "inside": true
+        },
+        {
+          "name": "Mention someone",
+          "inside": true
+        },
+        {
+          "name": "Add hashtag",
+          "inside": true
+        },
+        {
+          "name": "Add emoji",
+          "inside": true
+        },
+        {
+          "name": "Attach image",
+          "inside": true
+        },
+        {
+          "name": "Remove this post",
+          "inside": true
+        },
+        {
+          "name": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+          "inside": true
+        },
+        {
+          "name": "Add to thread",
+          "inside": true
+        }
+      ]
+    },
+    {
+      "width": 320,
+      "theme": "light",
+      "state": "thread",
+      "length": 501,
+      "bounds": [
+        {
+          "name": "Close composer",
+          "inside": true
+        },
+        {
+          "name": "Public",
+          "inside": true
+        },
+        {
+          "name": "NSFW",
+          "inside": true
+        },
+        {
+          "name": "Preview",
+          "inside": true
+        },
+        {
+          "name": "Post all (2)",
+          "inside": true
+        },
+        {
+          "name": "A little less noise.\nA little more room for your thoughts.",
+          "inside": true
+        },
+        {
+          "name": "Bold (Ctrl+B)",
+          "inside": true
+        },
+        {
+          "name": "Italic (Ctrl+I)",
+          "inside": true
+        },
+        {
+          "name": "Code",
+          "inside": true
+        },
+        {
+          "name": "Mention someone",
+          "inside": true
+        },
+        {
+          "name": "Add hashtag",
+          "inside": true
+        },
+        {
+          "name": "Add emoji",
+          "inside": true
+        },
+        {
+          "name": "Attach image",
+          "inside": true
+        },
+        {
+          "name": "Remove this post",
+          "inside": true
+        },
+        {
+          "name": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+          "inside": true
+        },
+        {
+          "name": "Add to thread",
+          "inside": true
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "theme": "light",
+      "state": "single",
+      "length": 0,
+      "bounds": [
+        {
+          "name": "Close composer",
+          "inside": true
+        },
+        {
+          "name": "Public",
+          "inside": true
+        },
+        {
+          "name": "NSFW",
+          "inside": true
+        },
+        {
+          "name": "Preview",
+          "inside": true
+        },
+        {
+          "name": "Post",
+          "inside": true
+        },
+        {
+          "name": "Bold (Ctrl+B)",
+          "inside": true
+        },
+        {
+          "name": "Italic (Ctrl+I)",
+          "inside": true
+        },
+        {
+          "name": "Code",
+          "inside": true
+        },
+        {
+          "name": "Mention someone",
+          "inside": true
+        },
+        {
+          "name": "Add hashtag",
+          "inside": true
+        },
+        {
+          "name": "Add emoji",
+          "inside": true
+        },
+        {
+          "name": "Attach image",
+          "inside": true
+        },
+        {
+          "name": "Add poll",
+          "inside": true
+        },
+        {
+          "name": "",
+          "inside": true
+        },
+        {
+          "name": "Add to thread",
+          "inside": true
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "theme": "light",
+      "state": "single",
+      "length": 450,
+      "bounds": [
+        {
+          "name": "Close composer",
+          "inside": true
+        },
+        {
+          "name": "Public",
+          "inside": true
+        },
+        {
+          "name": "NSFW",
+          "inside": true
+        },
+        {
+          "name": "Preview",
+          "inside": true
+        },
+        {
+          "name": "Post",
+          "inside": true
+        },
+        {
+          "name": "Bold (Ctrl+B)",
+          "inside": true
+        },
+        {
+          "name": "Italic (Ctrl+I)",
+          "inside": true
+        },
+        {
+          "name": "Code",
+          "inside": true
+        },
+        {
+          "name": "Mention someone",
+          "inside": true
+        },
+        {
+          "name": "Add hashtag",
+          "inside": true
+        },
+        {
+          "name": "Add emoji",
+          "inside": true
+        },
+        {
+          "name": "Attach image",
+          "inside": true
+        },
+        {
+          "name": "Add poll",
+          "inside": true
+        },
+        {
+          "name": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+          "inside": true
+        },
+        {
+          "name": "Add to thread",
+          "inside": true
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "theme": "light",
+      "state": "single",
+      "length": 480,
+      "bounds": [
+        {
+          "name": "Close composer",
+          "inside": true
+        },
+        {
+          "name": "Public",
+          "inside": true
+        },
+        {
+          "name": "NSFW",
+          "inside": true
+        },
+        {
+          "name": "Preview",
+          "inside": true
+        },
+        {
+          "name": "Post",
+          "inside": true
+        },
+        {
+          "name": "Bold (Ctrl+B)",
+          "inside": true
+        },
+        {
+          "name": "Italic (Ctrl+I)",
+          "inside": true
+        },
+        {
+          "name": "Code",
+          "inside": true
+        },
+        {
+          "name": "Mention someone",
+          "inside": true
+        },
+        {
+          "name": "Add hashtag",
+          "inside": true
+        },
+        {
+          "name": "Add emoji",
+          "inside": true
+        },
+        {
+          "name": "Attach image",
+          "inside": true
+        },
+        {
+          "name": "Add poll",
+          "inside": true
+        },
+        {
+          "name": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+          "inside": true
+        },
+        {
+          "name": "Add to thread",
+          "inside": true
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "theme": "light",
+      "state": "single",
+      "length": 500,
+      "bounds": [
+        {
+          "name": "Close composer",
+          "inside": true
+        },
+        {
+          "name": "Public",
+          "inside": true
+        },
+        {
+          "name": "NSFW",
+          "inside": true
+        },
+        {
+          "name": "Preview",
+          "inside": true
+        },
+        {
+          "name": "Post",
+          "inside": true
+        },
+        {
+          "name": "Bold (Ctrl+B)",
+          "inside": true
+        },
+        {
+          "name": "Italic (Ctrl+I)",
+          "inside": true
+        },
+        {
+          "name": "Code",
+          "inside": true
+        },
+        {
+          "name": "Mention someone",
+          "inside": true
+        },
+        {
+          "name": "Add hashtag",
+          "inside": true
+        },
+        {
+          "name": "Add emoji",
+          "inside": true
+        },
+        {
+          "name": "Attach image",
+          "inside": true
+        },
+        {
+          "name": "Add poll",
+          "inside": true
+        },
+        {
+          "name": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+          "inside": true
+        },
+        {
+          "name": "Add to thread",
+          "inside": true
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "theme": "light",
+      "state": "single",
+      "length": 501,
+      "bounds": [
+        {
+          "name": "Close composer",
+          "inside": true
+        },
+        {
+          "name": "Public",
+          "inside": true
+        },
+        {
+          "name": "NSFW",
+          "inside": true
+        },
+        {
+          "name": "Preview",
+          "inside": true
+        },
+        {
+          "name": "Post",
+          "inside": true
+        },
+        {
+          "name": "Bold (Ctrl+B)",
+          "inside": true
+        },
+        {
+          "name": "Italic (Ctrl+I)",
+          "inside": true
+        },
+        {
+          "name": "Code",
+          "inside": true
+        },
+        {
+          "name": "Mention someone",
+          "inside": true
+        },
+        {
+          "name": "Add hashtag",
+          "inside": true
+        },
+        {
+          "name": "Add emoji",
+          "inside": true
+        },
+        {
+          "name": "Attach image",
+          "inside": true
+        },
+        {
+          "name": "Add poll",
+          "inside": true
+        },
+        {
+          "name": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+          "inside": true
+        },
+        {
+          "name": "Add to thread",
+          "inside": true
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "theme": "light",
+      "state": "thread",
+      "length": 0,
+      "bounds": [
+        {
+          "name": "Close composer",
+          "inside": true
+        },
+        {
+          "name": "Public",
+          "inside": true
+        },
+        {
+          "name": "NSFW",
+          "inside": true
+        },
+        {
+          "name": "Preview",
+          "inside": true
+        },
+        {
+          "name": "Post all (2)",
+          "inside": true
+        },
+        {
+          "name": "A little less noise.\nA little more room for your thoughts.",
+          "inside": true
+        },
+        {
+          "name": "Bold (Ctrl+B)",
+          "inside": true
+        },
+        {
+          "name": "Italic (Ctrl+I)",
+          "inside": true
+        },
+        {
+          "name": "Code",
+          "inside": true
+        },
+        {
+          "name": "Mention someone",
+          "inside": true
+        },
+        {
+          "name": "Add hashtag",
+          "inside": true
+        },
+        {
+          "name": "Add emoji",
+          "inside": true
+        },
+        {
+          "name": "Attach image",
+          "inside": true
+        },
+        {
+          "name": "Remove this post",
+          "inside": true
+        },
+        {
+          "name": "",
+          "inside": true
+        },
+        {
+          "name": "Add to thread",
+          "inside": true
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "theme": "light",
+      "state": "thread",
+      "length": 450,
+      "bounds": [
+        {
+          "name": "Close composer",
+          "inside": true
+        },
+        {
+          "name": "Public",
+          "inside": true
+        },
+        {
+          "name": "NSFW",
+          "inside": true
+        },
+        {
+          "name": "Preview",
+          "inside": true
+        },
+        {
+          "name": "Post all (2)",
+          "inside": true
+        },
+        {
+          "name": "A little less noise.\nA little more room for your thoughts.",
+          "inside": true
+        },
+        {
+          "name": "Bold (Ctrl+B)",
+          "inside": true
+        },
+        {
+          "name": "Italic (Ctrl+I)",
+          "inside": true
+        },
+        {
+          "name": "Code",
+          "inside": true
+        },
+        {
+          "name": "Mention someone",
+          "inside": true
+        },
+        {
+          "name": "Add hashtag",
+          "inside": true
+        },
+        {
+          "name": "Add emoji",
+          "inside": true
+        },
+        {
+          "name": "Attach image",
+          "inside": true
+        },
+        {
+          "name": "Remove this post",
+          "inside": true
+        },
+        {
+          "name": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+          "inside": true
+        },
+        {
+          "name": "Add to thread",
+          "inside": true
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "theme": "light",
+      "state": "thread",
+      "length": 480,
+      "bounds": [
+        {
+          "name": "Close composer",
+          "inside": true
+        },
+        {
+          "name": "Public",
+          "inside": true
+        },
+        {
+          "name": "NSFW",
+          "inside": true
+        },
+        {
+          "name": "Preview",
+          "inside": true
+        },
+        {
+          "name": "Post all (2)",
+          "inside": true
+        },
+        {
+          "name": "A little less noise.\nA little more room for your thoughts.",
+          "inside": true
+        },
+        {
+          "name": "Bold (Ctrl+B)",
+          "inside": true
+        },
+        {
+          "name": "Italic (Ctrl+I)",
+          "inside": true
+        },
+        {
+          "name": "Code",
+          "inside": true
+        },
+        {
+          "name": "Mention someone",
+          "inside": true
+        },
+        {
+          "name": "Add hashtag",
+          "inside": true
+        },
+        {
+          "name": "Add emoji",
+          "inside": true
+        },
+        {
+          "name": "Attach image",
+          "inside": true
+        },
+        {
+          "name": "Remove this post",
+          "inside": true
+        },
+        {
+          "name": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+          "inside": true
+        },
+        {
+          "name": "Add to thread",
+          "inside": true
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "theme": "light",
+      "state": "thread",
+      "length": 500,
+      "bounds": [
+        {
+          "name": "Close composer",
+          "inside": true
+        },
+        {
+          "name": "Public",
+          "inside": true
+        },
+        {
+          "name": "NSFW",
+          "inside": true
+        },
+        {
+          "name": "Preview",
+          "inside": true
+        },
+        {
+          "name": "Post all (2)",
+          "inside": true
+        },
+        {
+          "name": "A little less noise.\nA little more room for your thoughts.",
+          "inside": true
+        },
+        {
+          "name": "Bold (Ctrl+B)",
+          "inside": true
+        },
+        {
+          "name": "Italic (Ctrl+I)",
+          "inside": true
+        },
+        {
+          "name": "Code",
+          "inside": true
+        },
+        {
+          "name": "Mention someone",
+          "inside": true
+        },
+        {
+          "name": "Add hashtag",
+          "inside": true
+        },
+        {
+          "name": "Add emoji",
+          "inside": true
+        },
+        {
+          "name": "Attach image",
+          "inside": true
+        },
+        {
+          "name": "Remove this post",
+          "inside": true
+        },
+        {
+          "name": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+          "inside": true
+        },
+        {
+          "name": "Add to thread",
+          "inside": true
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "theme": "light",
+      "state": "thread",
+      "length": 501,
+      "bounds": [
+        {
+          "name": "Close composer",
+          "inside": true
+        },
+        {
+          "name": "Public",
+          "inside": true
+        },
+        {
+          "name": "NSFW",
+          "inside": true
+        },
+        {
+          "name": "Preview",
+          "inside": true
+        },
+        {
+          "name": "Post all (2)",
+          "inside": true
+        },
+        {
+          "name": "A little less noise.\nA little more room for your thoughts.",
+          "inside": true
+        },
+        {
+          "name": "Bold (Ctrl+B)",
+          "inside": true
+        },
+        {
+          "name": "Italic (Ctrl+I)",
+          "inside": true
+        },
+        {
+          "name": "Code",
+          "inside": true
+        },
+        {
+          "name": "Mention someone",
+          "inside": true
+        },
+        {
+          "name": "Add hashtag",
+          "inside": true
+        },
+        {
+          "name": "Add emoji",
+          "inside": true
+        },
+        {
+          "name": "Attach image",
+          "inside": true
+        },
+        {
+          "name": "Remove this post",
+          "inside": true
+        },
+        {
+          "name": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+          "inside": true
+        },
+        {
+          "name": "Add to thread",
+          "inside": true
+        }
+      ]
+    },
+    {
+      "width": 1280,
+      "theme": "dark",
+      "state": "single",
+      "length": 0,
+      "bounds": [
+        {
+          "name": "Close composer",
+          "inside": true
+        },
+        {
+          "name": "Public",
+          "inside": true
+        },
+        {
+          "name": "NSFW",
+          "inside": true
+        },
+        {
+          "name": "Preview",
+          "inside": true
+        },
+        {
+          "name": "Post",
+          "inside": true
+        },
+        {
+          "name": "Bold (Ctrl+B)",
+          "inside": true
+        },
+        {
+          "name": "Italic (Ctrl+I)",
+          "inside": true
+        },
+        {
+          "name": "Code",
+          "inside": true
+        },
+        {
+          "name": "Mention someone",
+          "inside": true
+        },
+        {
+          "name": "Add hashtag",
+          "inside": true
+        },
+        {
+          "name": "Add emoji",
+          "inside": true
+        },
+        {
+          "name": "Attach image",
+          "inside": true
+        },
+        {
+          "name": "Add poll",
+          "inside": true
+        },
+        {
+          "name": "",
+          "inside": true
+        },
+        {
+          "name": "Add to thread",
+          "inside": true
+        }
+      ]
+    },
+    {
+      "width": 1280,
+      "theme": "dark",
+      "state": "single",
+      "length": 450,
+      "bounds": [
+        {
+          "name": "Close composer",
+          "inside": true
+        },
+        {
+          "name": "Public",
+          "inside": true
+        },
+        {
+          "name": "NSFW",
+          "inside": true
+        },
+        {
+          "name": "Preview",
+          "inside": true
+        },
+        {
+          "name": "Post",
+          "inside": true
+        },
+        {
+          "name": "Bold (Ctrl+B)",
+          "inside": true
+        },
+        {
+          "name": "Italic (Ctrl+I)",
+          "inside": true
+        },
+        {
+          "name": "Code",
+          "inside": true
+        },
+        {
+          "name": "Mention someone",
+          "inside": true
+        },
+        {
+          "name": "Add hashtag",
+          "inside": true
+        },
+        {
+          "name": "Add emoji",
+          "inside": true
+        },
+        {
+          "name": "Attach image",
+          "inside": true
+        },
+        {
+          "name": "Add poll",
+          "inside": true
+        },
+        {
+          "name": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+          "inside": true
+        },
+        {
+          "name": "Add to thread",
+          "inside": true
+        }
+      ]
+    },
+    {
+      "width": 1280,
+      "theme": "dark",
+      "state": "single",
+      "length": 480,
+      "bounds": [
+        {
+          "name": "Close composer",
+          "inside": true
+        },
+        {
+          "name": "Public",
+          "inside": true
+        },
+        {
+          "name": "NSFW",
+          "inside": true
+        },
+        {
+          "name": "Preview",
+          "inside": true
+        },
+        {
+          "name": "Post",
+          "inside": true
+        },
+        {
+          "name": "Bold (Ctrl+B)",
+          "inside": true
+        },
+        {
+          "name": "Italic (Ctrl+I)",
+          "inside": true
+        },
+        {
+          "name": "Code",
+          "inside": true
+        },
+        {
+          "name": "Mention someone",
+          "inside": true
+        },
+        {
+          "name": "Add hashtag",
+          "inside": true
+        },
+        {
+          "name": "Add emoji",
+          "inside": true
+        },
+        {
+          "name": "Attach image",
+          "inside": true
+        },
+        {
+          "name": "Add poll",
+          "inside": true
+        },
+        {
+          "name": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+          "inside": true
+        },
+        {
+          "name": "Add to thread",
+          "inside": true
+        }
+      ]
+    },
+    {
+      "width": 1280,
+      "theme": "dark",
+      "state": "single",
+      "length": 500,
+      "bounds": [
+        {
+          "name": "Close composer",
+          "inside": true
+        },
+        {
+          "name": "Public",
+          "inside": true
+        },
+        {
+          "name": "NSFW",
+          "inside": true
+        },
+        {
+          "name": "Preview",
+          "inside": true
+        },
+        {
+          "name": "Post",
+          "inside": true
+        },
+        {
+          "name": "Bold (Ctrl+B)",
+          "inside": true
+        },
+        {
+          "name": "Italic (Ctrl+I)",
+          "inside": true
+        },
+        {
+          "name": "Code",
+          "inside": true
+        },
+        {
+          "name": "Mention someone",
+          "inside": true
+        },
+        {
+          "name": "Add hashtag",
+          "inside": true
+        },
+        {
+          "name": "Add emoji",
+          "inside": true
+        },
+        {
+          "name": "Attach image",
+          "inside": true
+        },
+        {
+          "name": "Add poll",
+          "inside": true
+        },
+        {
+          "name": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+          "inside": true
+        },
+        {
+          "name": "Add to thread",
+          "inside": true
+        }
+      ]
+    },
+    {
+      "width": 1280,
+      "theme": "dark",
+      "state": "single",
+      "length": 501,
+      "bounds": [
+        {
+          "name": "Close composer",
+          "inside": true
+        },
+        {
+          "name": "Public",
+          "inside": true
+        },
+        {
+          "name": "NSFW",
+          "inside": true
+        },
+        {
+          "name": "Preview",
+          "inside": true
+        },
+        {
+          "name": "Post",
+          "inside": true
+        },
+        {
+          "name": "Bold (Ctrl+B)",
+          "inside": true
+        },
+        {
+          "name": "Italic (Ctrl+I)",
+          "inside": true
+        },
+        {
+          "name": "Code",
+          "inside": true
+        },
+        {
+          "name": "Mention someone",
+          "inside": true
+        },
+        {
+          "name": "Add hashtag",
+          "inside": true
+        },
+        {
+          "name": "Add emoji",
+          "inside": true
+        },
+        {
+          "name": "Attach image",
+          "inside": true
+        },
+        {
+          "name": "Add poll",
+          "inside": true
+        },
+        {
+          "name": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+          "inside": true
+        },
+        {
+          "name": "Add to thread",
+          "inside": true
+        }
+      ]
+    },
+    {
+      "width": 1280,
+      "theme": "dark",
+      "state": "thread",
+      "length": 0,
+      "bounds": [
+        {
+          "name": "Close composer",
+          "inside": true
+        },
+        {
+          "name": "Public",
+          "inside": true
+        },
+        {
+          "name": "NSFW",
+          "inside": true
+        },
+        {
+          "name": "Preview",
+          "inside": true
+        },
+        {
+          "name": "Post all (2)",
+          "inside": true
+        },
+        {
+          "name": "A little less noise.\nA little more room for your thoughts.",
+          "inside": true
+        },
+        {
+          "name": "Bold (Ctrl+B)",
+          "inside": true
+        },
+        {
+          "name": "Italic (Ctrl+I)",
+          "inside": true
+        },
+        {
+          "name": "Code",
+          "inside": true
+        },
+        {
+          "name": "Mention someone",
+          "inside": true
+        },
+        {
+          "name": "Add hashtag",
+          "inside": true
+        },
+        {
+          "name": "Add emoji",
+          "inside": true
+        },
+        {
+          "name": "Attach image",
+          "inside": true
+        },
+        {
+          "name": "Remove this post",
+          "inside": true
+        },
+        {
+          "name": "",
+          "inside": true
+        },
+        {
+          "name": "Add to thread",
+          "inside": true
+        }
+      ]
+    },
+    {
+      "width": 1280,
+      "theme": "dark",
+      "state": "thread",
+      "length": 450,
+      "bounds": [
+        {
+          "name": "Close composer",
+          "inside": true
+        },
+        {
+          "name": "Public",
+          "inside": true
+        },
+        {
+          "name": "NSFW",
+          "inside": true
+        },
+        {
+          "name": "Preview",
+          "inside": true
+        },
+        {
+          "name": "Post all (2)",
+          "inside": true
+        },
+        {
+          "name": "A little less noise.\nA little more room for your thoughts.",
+          "inside": true
+        },
+        {
+          "name": "Bold (Ctrl+B)",
+          "inside": true
+        },
+        {
+          "name": "Italic (Ctrl+I)",
+          "inside": true
+        },
+        {
+          "name": "Code",
+          "inside": true
+        },
+        {
+          "name": "Mention someone",
+          "inside": true
+        },
+        {
+          "name": "Add hashtag",
+          "inside": true
+        },
+        {
+          "name": "Add emoji",
+          "inside": true
+        },
+        {
+          "name": "Attach image",
+          "inside": true
+        },
+        {
+          "name": "Remove this post",
+          "inside": true
+        },
+        {
+          "name": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+          "inside": true
+        },
+        {
+          "name": "Add to thread",
+          "inside": true
+        }
+      ]
+    },
+    {
+      "width": 1280,
+      "theme": "dark",
+      "state": "thread",
+      "length": 480,
+      "bounds": [
+        {
+          "name": "Close composer",
+          "inside": true
+        },
+        {
+          "name": "Public",
+          "inside": true
+        },
+        {
+          "name": "NSFW",
+          "inside": true
+        },
+        {
+          "name": "Preview",
+          "inside": true
+        },
+        {
+          "name": "Post all (2)",
+          "inside": true
+        },
+        {
+          "name": "A little less noise.\nA little more room for your thoughts.",
+          "inside": true
+        },
+        {
+          "name": "Bold (Ctrl+B)",
+          "inside": true
+        },
+        {
+          "name": "Italic (Ctrl+I)",
+          "inside": true
+        },
+        {
+          "name": "Code",
+          "inside": true
+        },
+        {
+          "name": "Mention someone",
+          "inside": true
+        },
+        {
+          "name": "Add hashtag",
+          "inside": true
+        },
+        {
+          "name": "Add emoji",
+          "inside": true
+        },
+        {
+          "name": "Attach image",
+          "inside": true
+        },
+        {
+          "name": "Remove this post",
+          "inside": true
+        },
+        {
+          "name": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+          "inside": true
+        },
+        {
+          "name": "Add to thread",
+          "inside": true
+        }
+      ]
+    },
+    {
+      "width": 1280,
+      "theme": "dark",
+      "state": "thread",
+      "length": 500,
+      "bounds": [
+        {
+          "name": "Close composer",
+          "inside": true
+        },
+        {
+          "name": "Public",
+          "inside": true
+        },
+        {
+          "name": "NSFW",
+          "inside": true
+        },
+        {
+          "name": "Preview",
+          "inside": true
+        },
+        {
+          "name": "Post all (2)",
+          "inside": true
+        },
+        {
+          "name": "A little less noise.\nA little more room for your thoughts.",
+          "inside": true
+        },
+        {
+          "name": "Bold (Ctrl+B)",
+          "inside": true
+        },
+        {
+          "name": "Italic (Ctrl+I)",
+          "inside": true
+        },
+        {
+          "name": "Code",
+          "inside": true
+        },
+        {
+          "name": "Mention someone",
+          "inside": true
+        },
+        {
+          "name": "Add hashtag",
+          "inside": true
+        },
+        {
+          "name": "Add emoji",
+          "inside": true
+        },
+        {
+          "name": "Attach image",
+          "inside": true
+        },
+        {
+          "name": "Remove this post",
+          "inside": true
+        },
+        {
+          "name": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+          "inside": true
+        },
+        {
+          "name": "Add to thread",
+          "inside": true
+        }
+      ]
+    },
+    {
+      "width": 1280,
+      "theme": "dark",
+      "state": "thread",
+      "length": 501,
+      "bounds": [
+        {
+          "name": "Close composer",
+          "inside": true
+        },
+        {
+          "name": "Public",
+          "inside": true
+        },
+        {
+          "name": "NSFW",
+          "inside": true
+        },
+        {
+          "name": "Preview",
+          "inside": true
+        },
+        {
+          "name": "Post all (2)",
+          "inside": true
+        },
+        {
+          "name": "A little less noise.\nA little more room for your thoughts.",
+          "inside": true
+        },
+        {
+          "name": "Bold (Ctrl+B)",
+          "inside": true
+        },
+        {
+          "name": "Italic (Ctrl+I)",
+          "inside": true
+        },
+        {
+          "name": "Code",
+          "inside": true
+        },
+        {
+          "name": "Mention someone",
+          "inside": true
+        },
+        {
+          "name": "Add hashtag",
+          "inside": true
+        },
+        {
+          "name": "Add emoji",
+          "inside": true
+        },
+        {
+          "name": "Attach image",
+          "inside": true
+        },
+        {
+          "name": "Remove this post",
+          "inside": true
+        },
+        {
+          "name": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+          "inside": true
+        },
+        {
+          "name": "Add to thread",
+          "inside": true
+        }
+      ]
+    }
+  ]
+}

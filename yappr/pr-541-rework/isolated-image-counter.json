@@ -1,0 +1,285 @@
+{
+  "revision": "4e638ba4d2a181f2d6191ee787d5c679de4b19e8",
+  "scope": "Isolated real ThreadPostEditor and CharacterCounter source rendered with extraCharacters props; unrelated markdown/autocomplete/emoji children stubbed; not an image-upload flow",
+  "cases": [
+    {
+      "viewportWidth": 320,
+      "extra": 100,
+      "width": 222,
+      "children": [
+        {
+          "text": "Image URL +100 chars",
+          "tag": "SPAN",
+          "x": 49,
+          "right": 176.46875,
+          "width": 127.46875,
+          "inside": true
+        },
+        {
+          "text": "599 / 500",
+          "tag": "OUTPUT",
+          "x": 215.21875,
+          "right": 271,
+          "width": 55.78125,
+          "inside": true
+        },
+        {
+          "text": "/",
+          "tag": "SPAN",
+          "x": 241.28125,
+          "right": 244.9375,
+          "width": 3.65625,
+          "inside": true
+        }
+      ]
+    },
+    {
+      "viewportWidth": 320,
+      "extra": 2048,
+      "width": 222,
+      "children": [
+        {
+          "text": "Image URL +2048 chars",
+          "tag": "SPAN",
+          "x": 49,
+          "right": 185.96875,
+          "width": 136.96875,
+          "inside": true
+        },
+        {
+          "text": "2547 / 500",
+          "tag": "OUTPUT",
+          "x": 207.671875,
+          "right": 271,
+          "width": 63.328125,
+          "inside": true
+        },
+        {
+          "text": "/",
+          "tag": "SPAN",
+          "x": 241.28125,
+          "right": 244.9375,
+          "width": 3.65625,
+          "inside": true
+        }
+      ]
+    },
+    {
+      "viewportWidth": 320,
+      "extra": 1000000,
+      "width": 222,
+      "children": [
+        {
+          "text": "Image URL +1000000 chars",
+          "tag": "SPAN",
+          "x": 49,
+          "right": 206.703125,
+          "width": 157.703125,
+          "inside": true
+        },
+        {
+          "text": "1000499 / 500",
+          "tag": "OUTPUT",
+          "x": 184.984375,
+          "right": 271,
+          "width": 86.015625,
+          "inside": true
+        },
+        {
+          "text": "/",
+          "tag": "SPAN",
+          "x": 241.28125,
+          "right": 244.9375,
+          "width": 3.65625,
+          "inside": true
+        }
+      ]
+    },
+    {
+      "viewportWidth": 390,
+      "extra": 100,
+      "width": 292,
+      "children": [
+        {
+          "text": "Image URL +100 chars",
+          "tag": "SPAN",
+          "x": 49,
+          "right": 176.46875,
+          "width": 127.46875,
+          "inside": true
+        },
+        {
+          "text": "599 / 500",
+          "tag": "OUTPUT",
+          "x": 285.21875,
+          "right": 341,
+          "width": 55.78125,
+          "inside": true
+        },
+        {
+          "text": "/",
+          "tag": "SPAN",
+          "x": 311.28125,
+          "right": 314.9375,
+          "width": 3.65625,
+          "inside": true
+        }
+      ]
+    },
+    {
+      "viewportWidth": 390,
+      "extra": 2048,
+      "width": 292,
+      "children": [
+        {
+          "text": "Image URL +2048 chars",
+          "tag": "SPAN",
+          "x": 49,
+          "right": 185.96875,
+          "width": 136.96875,
+          "inside": true
+        },
+        {
+          "text": "2547 / 500",
+          "tag": "OUTPUT",
+          "x": 277.671875,
+          "right": 341,
+          "width": 63.328125,
+          "inside": true
+        },
+        {
+          "text": "/",
+          "tag": "SPAN",
+          "x": 311.28125,
+          "right": 314.9375,
+          "width": 3.65625,
+          "inside": true
+        }
+      ]
+    },
+    {
+      "viewportWidth": 390,
+      "extra": 1000000,
+      "width": 292,
+      "children": [
+        {
+          "text": "Image URL +1000000 chars",
+          "tag": "SPAN",
+          "x": 49,
+          "right": 206.703125,
+          "width": 157.703125,
+          "inside": true
+        },
+        {
+          "text": "1000499 / 500",
+          "tag": "OUTPUT",
+          "x": 254.984375,
+          "right": 341,
+          "width": 86.015625,
+          "inside": true
+        },
+        {
+          "text": "/",
+          "tag": "SPAN",
+          "x": 311.28125,
+          "right": 314.9375,
+          "width": 3.65625,
+          "inside": true
+        }
+      ]
+    },
+    {
+      "viewportWidth": 1280,
+      "extra": 100,
+      "width": 598,
+      "children": [
+        {
+          "text": "Image URL +100 chars",
+          "tag": "SPAN",
+          "x": 341,
+          "right": 468.46875,
+          "width": 127.46875,
+          "inside": true
+        },
+        {
+          "text": "599 / 500",
+          "tag": "OUTPUT",
+          "x": 883.21875,
+          "right": 939,
+          "width": 55.78125,
+          "inside": true
+        },
+        {
+          "text": "/",
+          "tag": "SPAN",
+          "x": 909.28125,
+          "right": 912.9375,
+          "width": 3.65625,
+          "inside": true
+        }
+      ]
+    },
+    {
+      "viewportWidth": 1280,
+      "extra": 2048,
+      "width": 598,
+      "children": [
+        {
+          "text": "Image URL +2048 chars",
+          "tag": "SPAN",
+          "x": 341,
+          "right": 477.96875,
+          "width": 136.96875,
+          "inside": true
+        },
+        {
+          "text": "2547 / 500",
+          "tag": "OUTPUT",
+          "x": 875.671875,
+          "right": 939,
+          "width": 63.328125,
+          "inside": true
+        },
+        {
+          "text": "/",
+          "tag": "SPAN",
+          "x": 909.28125,
+          "right": 912.9375,
+          "width": 3.65625,
+          "inside": true
+        }
+      ]
+    },
+    {
+      "viewportWidth": 1280,
+      "extra": 1000000,
+      "width": 598,
+      "children": [
+        {
+          "text": "Image URL +1000000 chars",
+          "tag": "SPAN",
+          "x": 341,
+          "right": 498.703125,
+          "width": 157.703125,
+          "inside": true
+        },
+        {
+          "text": "1000499 / 500",
+          "tag": "OUTPUT",
+          "x": 852.984375,
+          "right": 939,
+          "width": 86.015625,
+          "inside": true
+        },
+        {
+          "text": "/",
+          "tag": "SPAN",
+          "x": 909.28125,
+          "right": 912.9375,
+          "width": 3.65625,
+          "inside": true
+        }
+      ]
+    }
+  ]
+}
