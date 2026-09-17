@@ -1,6 +1,6 @@
 {
   "base": "f5979f7c56da7bee6ce9bb0b7b21fd2c3d745b61",
-  "head": "ffb3242f64a115ba2c812f6a36a7652f321a2b41",
+  "head": "e5349ca62e5dcbd592870910cf2c73a83749ada8",
   "fixture": {
     "mocktime": 1417715164,
     "height": 139,
@@ -46,20 +46,21 @@
       "bytes": 190146
     },
     "after/deadline-countdown.png": {
-      "sha256": "22001d818843d6eacaf7f20053216645f846b675e9bfdb06764082021d3802d3",
-      "bytes": 195970
+      "sha256": "2fecb5de51b0528e6b94eeefdda029f6cdc979d184e1a0f6196f2e8794ea1661",
+      "bytes": 198731
     },
     "after/overview.png": {
-      "sha256": "7c8f285cf9eea4d1c1cb371a7f27593398ee1079ff602520ba4eb92743f394f7",
-      "bytes": 195828
+      "sha256": "9daaab4e74bbe06b7369b55d4ea79ba31d75ab4b7e771a9967a4d63185cd24cc",
+      "bytes": 198553
     },
     "after/masternode-selection.png": {
-      "sha256": "de3a437ffb2888610676e57db322878fd65e9bebdb45a769e2dac903b7dff01c",
-      "bytes": 157451
+      "sha256": "7d0228a715b818445673ae78de4db5a9ed5719b8dd3119f28e415caa8e26c2c5",
+      "bytes": 156343
     }
   },
-  "driver_sha256": "2f1da57242122a185c1612625e52c3cc3c396c5820253453f836ca1716c1c15f",
   "base_qa_binary_sha256": "d4b1fa0f86a641b7bb150997971028c32c754cead0020ef1dcf16ad92f05bc9d",
-  "head_qa_binary_sha256": "30e3cde3a596a27961090a09e69fd42cc0913766d5afc473ce69a8cd9390ad99",
-  "installed_candidate_sha256": "039b43b16c2c22d83104493030d8ef02969c15afa7dbd94b7b9b20d805eaa8b1"
+  "head_qa_binary_sha256": "dfcbb452ea003904f356f3fbcefdccf1ab0c78fca3d0134f3eb5edf737507097",
+  "installed_candidate_sha256": "3fa6ec3bb89ed169adfd2e4d6a71c2d2fbdc440ad78db212c89dcd69972abca2",
+  "base_driver_sha256": "2f1da57242122a185c1612625e52c3cc3c396c5820253453f836ca1716c1c15f",
+  "head_driver_sha256": "aa08dbd1aa858bf284a5a39993e9da8103c856782c43b1292cac2abac7e9d6bb"
 }
