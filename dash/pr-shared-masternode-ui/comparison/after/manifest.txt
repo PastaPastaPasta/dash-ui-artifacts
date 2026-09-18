@@ -1,0 +1,52 @@
+filename	description
+01-nowallet-landing.png	Landing page with no wallet loaded: the gate line and the disabled start button
+02-coord-01-landing.png	Coordinator landing page: start a session or paste one
+03-coord-01-landing-minimum.png	Landing page at the dialog's minimum size (700x560), to show what clips
+04-coord-02-participants-default.png	Participants page as the wizard starts it: two unnamed rows splitting the collateral
+05-coord-03-participants-invalid.png	Participants page refusing a duplicate name and a 50 DASH share (below the 100 DASH minimum)
+06-coord-04-participants.png	Participants page with a valid roster: 400 / 300 / 300 and the sum meter at 1000 of 1000
+07-coord-05-settings.png	Masternode settings: service address, generated operator key, node run by, voting address
+08-coord-06-exit-terms.png	Exit terms: a 30 block early period and a 5 DASH early-exit penalty, with the plain language preview
+09-coord-07-contribution.png	Your contribution: owner/refund/reward addresses and the coins that would be used
+10-coord-08-contribution-reserved.png	Your contribution after Reserve Coins: the coins are locked and the addresses are frozen
+11-coord-09-save-operator-key.png	Save operator key gate: the generated secret, the dash.conf line and the 4 character confirmation
+12-coord-10-invite.png	Invite participants: the status board with only the coordinator's row ticked
+13-coord-11-invite-copied.png	Invite participants after Copy Invitation: the confirmation line names session and code
+14-alice-12-alice-share-imported.png	Alice just pasted the invitation: the whole draft is read-only except their own row
+15-alice-13-alice-share-ready.png	Alice chose their row and is ready to press "Reserve Coins and Copy Details"
+16-alice-14-alice-waiting-for-terms.png	Alice waiting for the coordinator: what was sent and what comes next
+17-bob-12-bob-share-imported.png	Bob just pasted the invitation: the whole draft is read-only except their own row
+18-bob-13-bob-share-ready.png	Bob chose their row and is ready to press "Reserve Coins and Copy Details"
+19-bob-14-bob-waiting-for-terms.png	Bob waiting for the coordinator: what was sent and what comes next
+20-coord-16-invite-after-reply1.png	Coordinator board after reply 1 of 2 was pasted
+21-coord-16-invite-after-reply2.png	Coordinator board after reply 2 of 2 was pasted
+22-coord-17-lock-confirm.png	Lock confirmation: the full term sheet and the funding check, in place on the invite page
+23-coord-18-approvals.png	Approvals: the locked term sheet, the board with only the coordinator approved
+24-alice-19-alice-approve-terms.png	Alice reading the locked terms before approving them
+25-alice-20-alice-waiting-for-signing.png	Alice waiting for the signing request
+26-bob-19-bob-approve-terms.png	Bob reading the locked terms before approving them
+27-bob-20-bob-waiting-for-signing.png	Bob waiting for the signing request
+28-coord-21-approvals-partial.png	Coordinator with two of three approvals in: the board summary counts them
+29-coord-22-signatures.png	Signatures: the board's Signed column with only the coordinator's own inputs done
+30-alice-23-alice-sign-contribution.png	Alice about to sign the coins they reserved
+31-alice-24-alice-waiting-for-broadcast.png	Alice waiting for the coordinator to broadcast
+32-bob-23-bob-sign-contribution.png	Bob about to sign the coins they reserved
+33-bob-24-bob-waiting-for-broadcast.png	Bob waiting for the coordinator to broadcast
+34-coord-25-signatures-complete.png	Signatures complete: the primary button is now Broadcast Registration
+35-coord-26-broadcast-confirm.png	The send confirmation shown before the registration is broadcast
+36-coord-27-complete.png	Complete: the proTxHash, the "what to keep safe" checklist and the next steps
+37-alice-28-alice-complete.png	Alice's Complete page after pasting the coordinator's Final Record
+38-masternodes-29-tab-shared.png	Masternodes tab filtered to Shared, showing the masternode just registered
+39-masternodes-30-details-html.png	The Details view's HTML for the shared masternode, with the share table
+40-masternodes-31-context-menu.png	The masternode list context menu on the shared masternode
+41-maintenance-32-dissolve-too-early.png	Dissolve opened in the registration block: it asks for one confirmation first
+42-maintenance-33-update-share.png	Change Reward Address for one share of the registered masternode
+43-maintenance-34-update-share-filled.png	Change Reward Address with a fresh address filled in
+44-maintenance-35-dissolve-natural-size.png	Dissolve dialog at the size it opens itself at: everything down to the submit button is on screen
+45-maintenance-35-dissolve-now.png	Dissolve now: the unilateral payout preview with the early-exit penalty
+46-maintenance-36-dissolve-together.png	Dissolve together, before the request is prepared
+47-maintenance-37-dissolve-together-prepared.png	Dissolve together after Prepare Request: the envelope and the approval board
+48-maintenance-38-standby-empty.png	Standby dissolution tab before anything is generated
+49-maintenance-39-standby-created.png	Standby dissolution tab with both offline transactions generated and stored
+50-maintenance-40-rotate-keys.png	Rotate operator or voting key, before a request is prepared
+51-maintenance-41-rotate-keys-prepared.png	Rotate keys after Prepare Request: the approval board and the finish banner

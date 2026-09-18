@@ -1,0 +1,43 @@
+filename	description
+01-nowallet-landing.png	Landing page with no wallet loaded (nothing tells the user a wallet is needed)
+02-nowallet-participants.png	Participants page without a wallet: the three 'Use This Wallet' buttons are disabled
+03-coord-landing.png	Coordinator landing page: create a session or join one
+04-coord-participants-invalid.png	Participants page with a duplicate name and a 50 DASH share (below the 100 DASH minimum)
+05-coord-review-invalid.png	Readiness list for the invalid roster
+06-coord-participants.png	Participants page with the roster filled in and the coordinator's own addresses
+07-coord-settings.png	Masternode settings: service address, generated operator key, secret holder, voting address
+08-coord-settings-advanced.png	Settings page with 'Advanced reward and dissolution terms' expanded
+09-coord-funding-empty.png	Funding page before any contribution is prepared
+10-coord-funding-prompt.png	Prompt offering an extra self-send because no output of exactly 400 DASH exists
+11-coord-funding-ready.png	Funding page after the coordinator's contribution and fee input were recorded
+12-coord-review-draft.png	Review page with only the coordinator funded: the primary button passes the draft on
+13-coord-copy-draft-modal.png	Confirmation shown after the draft is copied for the next participant
+14-coord-landing-waiting.png	Coordinator is sent back to the landing page to wait for the draft to come back
+15-alice-participants-imported.png	Alice just pasted the coordinator update: everything but 'My share' is read-only
+16-alice-participants-filled.png	Alice filled in the three addresses of their share
+17-alice-settings-readonly.png	Alice sees the coordinator's settings read-only, including the agreed operator key
+18-alice-funding-prompt.png	Alice is offered a self-send to create the exact share output
+19-alice-funding-ready.png	Alice's contribution recorded in the session
+20-alice-review.png	Alice's review page before returning the draft to the coordinator
+21-alice-return-draft-modal.png	Alice returns the completed draft to the coordinator
+22-coord-merge-newer-modal.png	Coordinator merging Alice's reply: the imported copy is newer than the local one
+23-coord-review-after-alice.png	Coordinator review page after Alice's reply was merged (Bob still missing)
+24-coord-copy-draft-bob-modal.png	Coordinator copies the draft for Bob
+25-bob-participants-imported.png	Bob just pasted the coordinator update: everything but 'My share' is read-only
+26-bob-participants-filled.png	Bob filled in the three addresses of their share
+27-bob-settings-readonly.png	Bob sees the coordinator's settings read-only, including the agreed operator key
+28-bob-funding-prompt.png	Bob is offered a self-send to create the exact share output
+29-bob-funding-ready.png	Bob's contribution recorded in the session
+30-bob-review.png	Bob's review page before returning the draft to the coordinator
+31-bob-return-draft-modal.png	Bob returns the completed draft
+32-coord-merge-bob-modal.png	Coordinator merging Bob's reply
+33-coord-review-complete.png	Complete session: the term sheet summary and a green 'valid' readiness line
+34-coord-lock-terms-confirm.png	Confirmation before the terms are locked
+35-coord-lock-terms-result.png	Result of the prepare RPC (currently the method-not-found error box)
+36-coord-after-lock-attempt.png	Review page after the lock attempt
+37-maintenance-update-share.png	UpdateShareDialog: change one share's reward address
+38-maintenance-dissolve-tab1.png	DissolveDialog, 'Dissolve now' tab: unilateral dissolution with the penalty preview
+39-maintenance-dissolve-tab2.png	DissolveDialog, 'Unanimous' tab: penalty-free dissolution needing every owner's signature
+40-maintenance-dissolve-tab3.png	DissolveDialog, 'Standby' tab: pre-generated offline dissolutions to store with the refund key
+41-maintenance-rotate-keys.png	RotateSharedKeysDialog: operator/voting rotation with unanimous signing
+42-masternodes-tab-shared-empty.png	Masternodes tab filtered to Shared with no shared masternode on the chain
