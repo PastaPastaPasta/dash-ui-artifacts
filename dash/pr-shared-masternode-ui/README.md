@@ -8,10 +8,13 @@ masternode wizard and maintenance dialogs.
   `38122e62124fbe58ebc99fa0367c97c25a7073ef`). This is the starting point the
   PR replaces; `develop` itself has no shared masternode GUI, so there is no
   earlier "before".
-- **After:** PR head `62c39116c163e9c0fd42f5247690479ae18bd254`. The `after`
-  images were captured at `b622037b4fb4060a29f99b124fef053c4c1413fd`, whose
-  `src/` tree is byte-identical to the PR head (the only later change is
-  `doc/release-notes-7437.md`).
+- **After:** PR head `e46c7a214b` (rebased onto `develop` `f9f015bf43` on
+  2026-09-19). The `after` images were captured at
+  `b622037b4fb4060a29f99b124fef053c4c1413fd`. Since then the source changed
+  only in ways with no visible effect: the release note text, a struct
+  initializer fix for a CI warning, a byte cap on pasted maintenance requests,
+  a nested-event-loop guard in the masternode list, a removed unused member
+  and a header comment (CodeRabbit round 1).
 - **Fixture:** every image comes from `SharedMnWalkthroughTests`
   (`src/qt/test/sharedmnwalkthroughtests.cpp`), which drives the real dialog
   classes against an in-process regtest node with three descriptor wallets
