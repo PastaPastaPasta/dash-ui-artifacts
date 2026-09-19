@@ -8,13 +8,12 @@ masternode wizard and maintenance dialogs.
   `38122e62124fbe58ebc99fa0367c97c25a7073ef`). This is the starting point the
   PR replaces; `develop` itself has no shared masternode GUI, so there is no
   earlier "before".
-- **After:** PR head `e46c7a214b` (rebased onto `develop` `f9f015bf43` on
-  2026-09-19). The `after` images were captured at
-  `b622037b4fb4060a29f99b124fef053c4c1413fd`. Since then the source changed
-  only in ways with no visible effect: the release note text, a struct
-  initializer fix for a CI warning, a byte cap on pasted maintenance requests,
-  a nested-event-loop guard in the masternode list, a removed unused member
-  and a header comment (CodeRabbit round 1).
+- **After:** PR head `8579e19e76` (rebased onto `develop` `86771f6921` on
+  2026-09-19). The `after` images were captured from that exact tree, so
+  they include the second review round: the Dissolve Together tab now shows
+  what the request pays out next to the approve button, the wizard's Save
+  button stays disabled until the operator secret is confirmed, and a
+  standby dissolution is described before it is broadcast.
 - **Fixture:** every image comes from `SharedMnWalkthroughTests`
   (`src/qt/test/sharedmnwalkthroughtests.cpp`), which drives the real dialog
   classes against an in-process regtest node with three descriptor wallets
