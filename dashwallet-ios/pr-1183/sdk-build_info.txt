@@ -1,0 +1,4 @@
+platform-wallet-version: 5.0.0-beta.1
+git-commit: 4cf12f2c9df1ff289e007dcceb46580bd45b3278
+git-dirty: no
+# to reproduce: git checkout 4cf12f2c9df1ff289e007dcceb46580bd45b3278

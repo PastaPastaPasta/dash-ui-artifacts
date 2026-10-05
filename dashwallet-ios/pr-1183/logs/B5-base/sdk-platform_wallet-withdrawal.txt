@@ -1,0 +1,6 @@
+2026-10-05T03:46:17.689883Z  INFO platform_wallet::wallet::shielded::operations: Shielded withdrawal account=0 credits=1000000000 fee=275191200 inputs=1 total_input=59596941600
+2026-10-05T03:46:20.344508Z  INFO platform_wallet::wallet::shielded::operations: live activity entry recorded (pending) kind=Withdrawal cmxs=1
+2026-10-05T03:46:32.967229Z  INFO platform_wallet::wallet::shielded::operations: Shielded withdrawal broadcast succeeded account=0 credits=1000000000
+2026-10-05T03:46:55.314459Z  INFO platform_wallet::wallet::shielded::operations: Shielded withdrawal account=0 credits=1000000000 fee=275191200 inputs=1 total_input=58321750400
+2026-10-05T03:46:56.474911Z  INFO platform_wallet::wallet::shielded::operations: live activity entry recorded (pending) kind=Withdrawal cmxs=1
+2026-10-05T03:46:58.831550Z  INFO platform_wallet::wallet::shielded::operations: Shielded withdrawal broadcast succeeded account=0 credits=1000000000

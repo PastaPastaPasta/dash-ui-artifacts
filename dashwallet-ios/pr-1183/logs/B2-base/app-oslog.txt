@@ -1,0 +1,10 @@
+2026-10-04 23:25:57.890 I  dashpay[46732:dbc4e45] [org.dashfoundation.dash:swift-sdk-migration.shielded-tx-lookup] 🛡️ SHIELD-TX :: snapshot 1 funding tx(s) (shielded + platform)
+2026-10-04 23:25:59.659 I  dashpay[46732:dbc4e45] [org.dashfoundation.dash:swift-sdk-migration.shielded-tx-lookup] 🛡️ SHIELD-TX :: snapshot 1 funding tx(s) (shielded + platform)
+2026-10-04 23:26:29.778 I  dashpay[46732:dbc4e45] [org.dashfoundation.dash:swift-sdk-migration.shielded-transfer] 🛡️ SHIELD-TX :: withdraw route amount=1000000000 credits external=false
+2026-10-04 23:26:39.256 I  dashpay[46732:dbc4e45] [org.dashfoundation.dash:swift-sdk-migration.shielded-transfer] 🛡️ SHIELD-TX :: withdraw route completed
+2026-10-04 23:26:41.130 I  dashpay[46732:dbc4e45] [org.dashfoundation.dash:swift-sdk-migration.shielded-tx-lookup] 🛡️ SHIELD-TX :: snapshot 1 funding tx(s) (shielded + platform)
+2026-10-04 23:27:01.333 I  dashpay[46732:dbc4e45] [org.dashfoundation.dash:swift-sdk-migration.shielded-tx-lookup] 🛡️ SHIELD-TX :: snapshot 1 funding tx(s) (shielded + platform)
+2026-10-04 23:27:01.388 I  dashpay[46732:dbc4e45] [org.dashfoundation.dash:swift-sdk-migration.shielded-transfer] 🛡️ SHIELD-TX :: withdraw route amount=1000000000 credits external=false
+2026-10-04 23:27:04.972 I  dashpay[46732:dbc4e45] [org.dashfoundation.dash:swift-sdk-migration.shielded-transfer] 🛡️ SHIELD-TX :: withdraw route completed
+2026-10-04 23:27:06.752 I  dashpay[46732:dbc4e45] [org.dashfoundation.dash:swift-sdk-migration.shielded-tx-lookup] 🛡️ SHIELD-TX :: snapshot 1 funding tx(s) (shielded + platform)
+

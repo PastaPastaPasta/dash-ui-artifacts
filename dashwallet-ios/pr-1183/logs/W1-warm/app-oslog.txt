@@ -1,0 +1,9 @@
+2026-10-04 23:23:38.301 I  dashpay[38884:dbbc931] [org.dashfoundation.dash:swift-sdk-migration.shielded-tx-lookup] 🛡️ SHIELD-TX :: snapshot 1 funding tx(s) (shielded + platform)
+2026-10-04 23:23:39.455 I  dashpay[38884:dbbca01] (dashpay.debug.dylib) 03:23:39 SHIELDED-PROVER warm-up start trigger=shielded-balance
+2026-10-04 23:23:39.465 I  dashpay[38884:dbbc931] [org.dashfoundation.dash:swift-sdk-migration.shielded-tx-lookup] 🛡️ SHIELD-TX :: snapshot 1 funding tx(s) (shielded + platform)
+2026-10-04 23:23:42.161 I  dashpay[38884:dbbca08] (dashpay.debug.dylib) 03:23:42 SHIELDED-PROVER warm-up ready duration_ms=2706
+2026-10-04 23:24:10.999 I  dashpay[38884:dbbc931] [org.dashfoundation.dash:swift-sdk-migration.shielded-transfer] 🛡️ SHIELD-TX :: withdraw route amount=1000000000 credits external=false
+2026-10-04 23:24:14.621 I  dashpay[38884:dbbc931] [org.dashfoundation.dash:swift-sdk-migration.shielded-transfer] 🛡️ SHIELD-TX :: withdraw route completed
+2026-10-04 23:24:14.621 I  dashpay[38884:dbbd6d0] (dashpay.debug.dylib) 03:24:14 SHIELDED-PROVER op=shielded-to-core ready_at_confirm=true ready_at_call=true ready_after_call_ms=0 confirm_to_call_ms=1 call_ms=3621 succeeded=true
+2026-10-04 23:24:15.547 I  dashpay[38884:dbbc931] [org.dashfoundation.dash:swift-sdk-migration.shielded-tx-lookup] 🛡️ SHIELD-TX :: snapshot 1 funding tx(s) (shielded + platform)
+

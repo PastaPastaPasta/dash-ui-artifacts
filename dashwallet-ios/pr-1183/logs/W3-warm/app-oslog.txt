@@ -1,0 +1,14 @@
+2026-10-04 23:34:57.920 I  dashpay[80006:dbdcd43] (dashpay.debug.dylib) 03:34:57 SHIELDED-PROVER warm-up start trigger=shielded-balance
+2026-10-04 23:34:59.229 I  dashpay[80006:dbdcd51] (dashpay.debug.dylib) 03:34:59 SHIELDED-PROVER warm-up ready duration_ms=1310
+2026-10-04 23:34:59.754 I  dashpay[80006:dbdcc74] [org.dashfoundation.dash:swift-sdk-migration.shielded-tx-lookup] 🛡️ SHIELD-TX :: snapshot 1 funding tx(s) (shielded + platform)
+2026-10-04 23:35:00.871 I  dashpay[80006:dbdcc74] [org.dashfoundation.dash:swift-sdk-migration.shielded-tx-lookup] 🛡️ SHIELD-TX :: snapshot 1 funding tx(s) (shielded + platform)
+2026-10-04 23:35:36.575 I  dashpay[80006:dbdcc74] [org.dashfoundation.dash:swift-sdk-migration.shielded-transfer] 🛡️ SHIELD-TX :: withdraw route amount=1000000000 credits external=false
+2026-10-04 23:35:42.190 I  dashpay[80006:dbdcc74] [org.dashfoundation.dash:swift-sdk-migration.shielded-transfer] 🛡️ SHIELD-TX :: withdraw route completed
+2026-10-04 23:35:42.190 I  dashpay[80006:dbded6b] (dashpay.debug.dylib) 03:35:42 SHIELDED-PROVER op=shielded-to-core ready_at_confirm=true ready_at_call=true ready_after_call_ms=0 confirm_to_call_ms=1 call_ms=5613 succeeded=true
+2026-10-04 23:35:43.198 I  dashpay[80006:dbdcc74] [org.dashfoundation.dash:swift-sdk-migration.shielded-tx-lookup] 🛡️ SHIELD-TX :: snapshot 1 funding tx(s) (shielded + platform)
+2026-10-04 23:36:01.927 I  dashpay[80006:dbdcc74] [org.dashfoundation.dash:swift-sdk-migration.shielded-tx-lookup] 🛡️ SHIELD-TX :: snapshot 1 funding tx(s) (shielded + platform)
+2026-10-04 23:36:10.299 I  dashpay[80006:dbdcc74] [org.dashfoundation.dash:swift-sdk-migration.shielded-transfer] 🛡️ SHIELD-TX :: withdraw route amount=1000000000 credits external=false
+2026-10-04 23:36:16.574 I  dashpay[80006:dbdcc74] [org.dashfoundation.dash:swift-sdk-migration.shielded-transfer] 🛡️ SHIELD-TX :: withdraw route completed
+2026-10-04 23:36:16.574 I  dashpay[80006:dbe1e24] (dashpay.debug.dylib) 03:36:16 SHIELDED-PROVER op=shielded-to-core ready_at_confirm=true ready_at_call=true ready_after_call_ms=0 confirm_to_call_ms=2 call_ms=6273 succeeded=true
+2026-10-04 23:36:17.699 I  dashpay[80006:dbdcc74] [org.dashfoundation.dash:swift-sdk-migration.shielded-tx-lookup] 🛡️ SHIELD-TX :: snapshot 1 funding tx(s) (shielded + platform)
+

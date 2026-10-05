@@ -1,0 +1,47 @@
+{
+  "label": "W3-warm",
+  "build": "warm",
+  "app": "/Users/pasta/workspace/shielded-perf/apps-1183/warm-28a7bc614/dashpay.app",
+  "udid": "081CC9F7-0E89-4FC5-B2F9-237B82480619",
+  "sends": [
+    {
+      "index": 1,
+      "waited_for_spendable_s": 0.3,
+      "confirm_tap": 1791171332.312928,
+      "pin_screen_seen": 1791171332.57424,
+      "pin_done": 1791171336.1949718,
+      "result_seen": 1791171344.058321,
+      "result": "Transfer complete",
+      "confirm_to_result_s_poll": 11.75,
+      "pin_done_to_result_s_poll": 7.86
+    },
+    {
+      "index": 2,
+      "waited_for_spendable_s": 0.3,
+      "confirm_tap": 1791171365.453044,
+      "pin_screen_seen": 1791171365.799329,
+      "pin_done": 1791171369.9146318,
+      "result_seen": 1791171377.754805,
+      "result": "Transfer complete",
+      "confirm_to_result_s_poll": 12.3,
+      "pin_done_to_result_s_poll": 7.84
+    }
+  ],
+  "loadavg_before": [
+    131.2421875,
+    201.0654296875,
+    280.78955078125
+  ],
+  "host_cpu_before": "CPU usage: 31.34% user, 32.31% sys, 36.33% idle ",
+  "launch": 1791171295.4649038,
+  "launch_out": "org.dashfoundation.dash: 80006",
+  "home_seen": 1791171302.371715,
+  "record_spawned": 1791171317.381033,
+  "record_stopped": 1791171394.118043,
+  "loadavg_after": [
+    233.39501953125,
+    210.74658203125,
+    274.91455078125
+  ],
+  "host_cpu_after": "CPU usage: 75.20% user, 21.81% sys, 2.98% idle "
+}
