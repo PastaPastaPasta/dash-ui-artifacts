@@ -32,3 +32,19 @@ Scheme: `dashpay`, Debug, iPhone 16 Pro, iOS 26.5 simulator, PIN 1111.
 | `after-7-sender-contact-history.png` | The sender's activity with the contact lists both withdrawals as "Withdrawal submitted". |
 | `recipient-1-history.png` | The recipient shows both payments as "Received from Pasta-anybal-send-1006" (13:48 +0.02, 13:51 +0.05). Its balance went from 0.96999737 to 1.03999737. |
 | `recipient-2-platform-receipt.png` / `recipient-3-shielded-receipt.png` | Receipt details for each payment: received from the sender's username, fee paid by the sender. |
+
+## v2: contact payments read as "Sent" (head `d55954ab2`)
+
+After review, Platform- and Shielded-funded contact payments no longer say "Withdrawal submitted":
+- The success screen says **Sent**, plus when the contact receives it.
+- The contact's activity lists them like any other sent payment. A note appears only when the outcome is unknown.
+- The confirm sheet names the contact instead of describing a withdrawal.
+
+Captured from a new real payment of 0.01 DASH from Platform on build `d55954ab2`:
+
+| File | What it shows |
+|---|---|
+| `v2-1-confirm-platform.png` | The confirm sheet: "Pasta-anybal-recv-1006 receives it once the network processes the payment…" |
+| `v2-2-sent-platform.png` | The success screen: **Sent**, 0.01 DASH, "…will receive it in a few minutes…" |
+| `v2-3-sender-contact-history.png` | The sender's activity with the contact: −0.01, −0.05, −0.02, as plain sent rows. |
+| `v2-4-recipient-history.png` | The recipient: Received from Pasta-anybal-send-1006 at 15:27 (+0.01), 13:51 (+0.05), 13:48 (+0.02). Balance 1.04999737. |
