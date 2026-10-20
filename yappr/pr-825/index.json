@@ -1,0 +1,32 @@
+{
+  "repo": "PastaPastaPasta/yappr",
+  "pr": 825,
+  "before": "ac1975fcffda3df089d58fd28519b83fcbfb126c",
+  "after": {
+    "store-create-1440": "c1a65e50",
+    "default": "5e357bf4 (patch-identical to 5c911158)"
+  },
+  "fixture": "local build:staging served at /staging, testnet staging contracts, persona 33, Chromium light",
+  "files": {
+    "before/store-create-1440.png": "0f718df18a33dbc761d83e70e64d8763730475f2dc129895cea78aa7cc1cf05f",
+    "after/store-create-1440.png": "48b883ace4d12ad152eee3b686871cd3dd0fcec71f65aec868f40c4965633990",
+    "before/checkout-1440.png": "299022d807f28a5f40ab803eabdcd6e4340ccbbbdc97cbfbee1436aa7b687bf4",
+    "after/checkout-1440.png": "d98a9e24e2ef5fa3bc68018ba3d90644fff0d0144b5f075992a3e59a9175fddb",
+    "before/store-390.png": "c71ef9309e8f1b2fc9884407f6930a5c05091afd6f2209fe1bfd62bb9bb463fe",
+    "after/store-390.png": "0303a2a463586393f2e0ffbc42aacabe87dba11326261fa588bd95531b046c8f",
+    "before/store-view-390.png": "d5e2bd98bfcf1a04a1803d6391e6e6335c98ec48a95a0065684125156a86beb7",
+    "after/store-view-390.png": "a491f6ba5aade5ebc5921e7b3b36580afe65cefb1dc8306df8117eadbdb5e2dd",
+    "before/blog-1440.png": "660aea172b6f5fcfe373fd5a130fd19dd73c3b3626be012e1b4fd7263437efc9",
+    "after/blog-1440.png": "e49ce85f4eb395173a5a1c4a459cdc76d73221bead47c18aa0b54a24477cba42",
+    "before/settings-privacy-1440.png": "0bbc6f52bf2e48aee644d75a83fe876851a213812f8511dc65e5beb408c69d69",
+    "after/settings-privacy-1440.png": "f72828516c41aa627f86b0655c55673ae786db5981f3621bfa1280f202e2109d",
+    "before/settings-privateFeed-1440.png": "0957b5b976be7529edae80924bfb333e20af9400a9488c239d93ecf82451ffe7",
+    "after/settings-privateFeed-1440.png": "a7025a01d3cef3d354ab1252b9799bc5126617d18fc843d34fba50fae33fdb25",
+    "before/settings-account-1440.png": "6b0ddc35d62a52fe38720f1b34adf3bb8d28f23ca3e76a1809beec662dd2f295",
+    "after/settings-account-1440.png": "5f3e13a6dbb5aff16ecb3af8faca578193261f174bade83e94cb6f9d69e8bc35",
+    "before/settings-storage-1440.png": "f1b3fcc7a2c1bbc36c5821becfa0e24209d270bc957e263ac2c67aa15a3443ba",
+    "after/settings-storage-1440.png": "b11443817ca37b34e00b4a8db3bd0e1b74d4b87e245a3aa2fc61b7ac71cf00b5",
+    "before/item-1440.png": "763bfbc04c54c255dea7a7464e7d1efc11a54826d64dd2faae631e7be5071956",
+    "after/item-1440.png": "d4cb5d9bd71eb153fc6d7be841167c403d47e59ebaf59a1f5379e71badf7ca27"
+  }
+}
