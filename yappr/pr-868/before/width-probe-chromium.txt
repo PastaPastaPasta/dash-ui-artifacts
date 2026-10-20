@@ -1,0 +1,11 @@
+hard load              clientWidth 1280/1265  main.x*1e4+w 2750655/2750640  JIGGLE
+first Top              clientWidth 1265/1280  main.x*1e4+w 2750640/2750655  JIGGLE
+first Creators         clientWidth 1265/1280  main.x*1e4+w 2750640/2750655  JIGGLE
+first Blogs            clientWidth 1265/1280  main.x*1e4+w 2750640/2750655  JIGGLE
+first Trending         clientWidth 1265  main.x*1e4+w 2750640  stable
+revisit Top            clientWidth 1265  main.x*1e4+w 2750640  stable
+revisit Creators       clientWidth 1265/1280  main.x*1e4+w 2750640/2750655  JIGGLE
+revisit Blogs          clientWidth 1265  main.x*1e4+w 2750640  stable
+revisit Trending       clientWidth 1265  main.x*1e4+w 2750640  stable
+open sign-in modal     clientWidth 1280  main.x*1e4+w 2750640  stable
+close modal (Esc)      clientWidth 1280/1265  main.x*1e4+w 2750640  JIGGLE
