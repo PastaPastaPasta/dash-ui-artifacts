@@ -1,0 +1,24 @@
+{
+  "repo": "PastaPastaPasta/yappr",
+  "pr": 865,
+  "before": "https://yap.pr/devnet (live, staging 3222aaff)",
+  "after": "perf/blog-progressive-load 604c83d3 build:devnet served locally at /devnet",
+  "viewport": "1280x900 signed out",
+  "sheet": "frames at 0,0.5,1,1.5,2,2.5,3,4,5,6,8,12 s, left to right",
+  "files": {
+    "before/explore-sheet.png": "3032ac0f405993a2a3b420f0807172f0dabd68e5ee235e5f9042d4ef773d28de",
+    "before/store-sheet.png": "4f73e246593097c61c4a80d354bd57f21f10fda0812bee61c94d2f65622bce08",
+    "before/blog-sheet.png": "df8b532351ee6458dc52ef531b32cc19cadd4a399dbd76415c1179f4cbfb1d0c",
+    "before/blog-home-sheet.png": "643bc97cadbb08fde172f6e1dab43144c5bad32b1cd8503c2b8e3e79b1241039",
+    "before/blog-post-sheet.png": "2528c5be38a5173d4367c4e31076669675ba466b4f47d22c2b54ac0461ae7512",
+    "before/blog-home.webm": "ba5852cce3d1aacdabaa5fb9d981c13acb857008ba944d67c257790d70e1445f",
+    "before/blog-post.webm": "a369ed198ba2e461d831b5371c2c5a5b2fcd7e65f19fe847181b063df24c33f7",
+    "after/explore-sheet.png": "947e5f2d174c4fea2a11f4e78a8ed092fd078285b9e2454e313c4447aec9b50e",
+    "after/store-sheet.png": "a6999fab7a2323f845509381c6de97cfb650380630d6e87e4aac330cedd258d1",
+    "after/blog-sheet.png": "fe204837fe8422292ddd72c94cf4ca2db68e0aaefc35b2235b99793bfaa490cd",
+    "after/blog-home-sheet.png": "ff46e7d4dcd092f37c6bd35f9a200c89d281235788f494e43ffc5c406a638d45",
+    "after/blog-post-sheet.png": "2cf2b6f161226d57b0b9a4ec5e6e2081cbe144009f24284a0c432a3ac815f63f",
+    "after/blog-home.webm": "48dd380ca5eedd17ac9e5f7dfcc90b1d330ae2d2268a76929688c431f6054f8f",
+    "after/blog-post.webm": "dd3808302cd2d120a839f009a8b2e2b0c9d23f608d669d8292627708ae2de27d"
+  }
+}
