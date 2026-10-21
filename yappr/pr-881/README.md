@@ -23,7 +23,7 @@ PR: https://github.com/PastaPastaPasta/yappr/pull/881
 
 In the "after" traces each run has exactly 6 dark episodes, one per open, so every open and close happened.
 
-The live staging run (`traces/before-live-staging-*`, https://yap.pr/staging/, before) had 7 screencast spikes and 10 spikes in a 120 fps display capture.
+The live staging run (`traces/before-live-staging-*`, https://yap.pr/staging/, before) had 7 screencast spikes and 10 spikes in a display-region capture (avfoundation, about 90 fps effective).
 
 ## Files
 
