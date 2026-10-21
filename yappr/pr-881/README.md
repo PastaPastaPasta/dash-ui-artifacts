@@ -31,3 +31,15 @@ The live staging run (`traces/before-live-staging-*`, https://yap.pr/staging/, b
 - `comparison/before/*-open.png`, `*-close.png`: three consecutive frames at the end of the open and close fades. The middle frame is the flash.
 - `comparison/after/*`: the same moment on the PR head.
 - `traces/*.txt`: raw per-frame luma (`seconds luma frame-file`), with the spikes listed at the end.
+
+## Live check after merge
+
+Live https://yap.pr/staging/ was serving build id `6e77fcb`, the merge commit. The same headed Brave procedure, 6 opens per overlay, gave these results:
+
+| Overlay | Live before (`traces/before-live-staging-*`) | Live after (`traces/live-after-*`) |
+|---|---|---|
+| Sign-in dialog (desktop) | 7 screencast spikes | 0 |
+| Sign-in dialog (mobile) | not captured | 0 |
+| Mobile menu sheet | not captured | 0 |
+
+In every live run, each open produced exactly one dark episode. `live/*.png` shows three consecutive frames at the end of the open and close fades. Live staging showed "0 posts" at that time because its data was empty. That is unrelated to this PR.
