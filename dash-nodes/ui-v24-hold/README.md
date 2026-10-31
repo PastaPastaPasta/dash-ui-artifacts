@@ -10,3 +10,4 @@ masternode's result or the overall verdict, `rules.protocol_check` false), since
 - `*-mn-dkg-upgrade-only.png`: a masternode whose only failure was the protocol: Not ready before, Ready after.
 - `*-mn-dkg-relay-off.png`: a masternode with relay off: still Not ready, now 1 of 3 checks.
 - `brand-before-1440.png`, `brand-after-1440.png`, `brand-after-1440-testnet.png`: the header brand without the hostname (this branch still has the old icon; the new one is a separate PR).
+- `isl-before-desktop.png`, `isl-after-desktop.png`: the home map without Hawaii and the Fiji sliver at the left edge.
