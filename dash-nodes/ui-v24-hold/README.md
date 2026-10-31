@@ -12,3 +12,4 @@ masternode's result or the overall verdict, `rules.protocol_check` false), since
 - `brand-before-1440.png`, `brand-after-1440.png`, `brand-after-1440-testnet.png`: the header brand without the hostname (this branch still has the old icon; the new one is a separate PR).
 - `isl-before-desktop.png`, `isl-after-desktop.png`: the home map without Hawaii and the Fiji sliver at the left edge.
 - `blk-*-banned-tiles.png`, `blk-*-banned-reg.png`, `lst-*.png`, `blk-*-card.png`: block counts and heights with human time (masternode tiles, registration card, list, phone card).
+- `earn-before-paid.png`, `earn-after-paid.png`: the Earned tile on one 90-day window.
