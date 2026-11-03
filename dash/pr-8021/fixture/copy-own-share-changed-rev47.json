@@ -1,0 +1,100 @@
+{
+  "type": "dash-shared-mn-session",
+  "version": 1,
+  "network": "regtest",
+  "sessionId": "5f887ee71df71c8b852769d853521e4ce72bf74298848c013468ce2a5bf1b669",
+  "revision": 47,
+  "stage": "signing",
+  "fundingTx": "02000000039c393dd860199597b43a66d020ff9a388c8bb9162418d7b8c29f920eda43ee7f0000000000ffffffffa62176c4433a75c0245e31e88e0d6b55eb45517a4c9f69035e5304bdb316d21c0000000000ffffffff9c393dd860199597b43a66d020ff9a388c8bb9162418d7b8c29f920eda43ee7f0200000000ffffffff03c02e504c100000001976a914f676f6596171900c87578c889ad02dee6333cf4088ac284947f80d0000001976a91498f1aebb7cb6e6240f64ab25713691e70e17e94388ac005847f80d0000001976a9148b68514d9e83cf51f8fb58b72009fedb688e92fd88ac00000000",
+  "shares": [
+    {
+      "label": "alice",
+      "amount": 40000000000,
+      "ownerAddress": "yLmzTQBsZSniJiEhnYb6hyD8Y19szHUWoz",
+      "refundAddress": "yhE11S6ik5ThukBQRScsErFtgvfc24rdfZ",
+      "rewardAddress": ""
+    },
+    {
+      "label": "bob",
+      "amount": 35000000000,
+      "ownerAddress": "yW9ys6T1NkWpFFQ96VkUnykThNd5y5JEf5",
+      "refundAddress": "yc9xcdsqjZ1Wwv6s5GQKwN7F3vgfH6XTWt",
+      "rewardAddress": ""
+    },
+    {
+      "label": "carol",
+      "amount": 25000000000,
+      "ownerAddress": "yjAxE7cq1wx7dFrPBu7ifeP5v14SS8C651",
+      "refundAddress": "yU4RwEHdgP3sx9u3v5Fw6DvNxWncZpERNj",
+      "rewardAddress": ""
+    }
+  ],
+  "terms": {
+    "coreP2PAddrs": "",
+    "operatorPubKey": "90215a51442bbeab6ad89e33497b9440d565fce312d1ce99cda768ac0ee473dbb39c47f4c2727deb5d47b7f3115abc4f",
+    "votingAddress": "ygUFLJALGQ2t6zEwPotu6t48tE23KPJAGt",
+    "operatorReward": 0,
+    "earlyPeriodBlocks": 0,
+    "earlyPenalty": 0
+  },
+  "contributions": [
+    {
+      "label": "alice",
+      "inputs": [
+        {
+          "txid": "7fee43da0e929fc2b8d7182416b98b8c389aff20d0663ab497951960d83d399c",
+          "vout": 0,
+          "sequence": 4294967295
+        }
+      ],
+      "change": {
+        "address": "yindb3DFxXmrMBKHNsaRkxkhMCMG6ssCQr",
+        "amount": 69999800000
+      },
+      "changeIndex": 0
+    },
+    {
+      "label": "bob",
+      "inputs": [
+        {
+          "txid": "1cd216b3bd04535e03699f4c7a5145eb556b0d8ee8315e24c0753a43c47621a6",
+          "vout": 0,
+          "sequence": 4294967295
+        }
+      ],
+      "change": {
+        "address": "yaG95kyxjXQJdPovGoVetXuACj2dfWExEH",
+        "amount": 59999996200
+      },
+      "changeIndex": 1
+    },
+    {
+      "label": "carol",
+      "inputs": [
+        {
+          "txid": "7fee43da0e929fc2b8d7182416b98b8c389aff20d0663ab497951960d83d399c",
+          "vout": 2,
+          "sequence": 4294967295
+        }
+      ],
+      "change": {
+        "address": "yZ2ZjyqVd1YnQ7HExffXebjiQt39AhGqhw",
+        "amount": 60000000000
+      },
+      "changeIndex": 2
+    }
+  ],
+  "protx": "03000100039c393dd860199597b43a66d020ff9a388c8bb9162418d7b8c29f920eda43ee7f0000000000ffffffffa62176c4433a75c0245e31e88e0d6b55eb45517a4c9f69035e5304bdb316d21c0000000000ffffffff9c393dd860199597b43a66d020ff9a388c8bb9162418d7b8c29f920eda43ee7f0200000000ffffffff04c02e504c100000001976a914f676f6596171900c87578c889ad02dee6333cf4088ac284947f80d0000001976a91498f1aebb7cb6e6240f64ab25713691e70e17e94388ac005847f80d0000001976a9148b68514d9e83cf51f8fb58b72009fedb688e92fd88ac00e8764817000000070444534843755100000000fd1d020300000000000000000000000000000000000000000000000000000000000000000000000000030000000100000000000000000000000000000000000000000090215a51442bbeab6ad89e33497b9440d565fce312d1ce99cda768ac0ee473dbb39c47f4c2727deb5d47b7f3115abc4fdd0ca585a3090776c7e8802629b59e5a7e1c229d0000000300902f50090000001976a914e552fda48dfa643950c3f9647dd28bd08ab4c3a288ac00050532f6e3694f25a9c0ef4f98567146e86b9561009e2926080000001976a914adb6b34df217bf85f405057451b8e6d796d530a788ac006be6fd11a2dc805f3546b60d06f30cd065d804f500ba1dd2050000001976a91454ea01229020dc2444f45a32fa6f5e3d3045172f88ac00faafac37145bbf7bb53e9d749dfa3b9531fc0b95000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000d67844add83cd28dc0d3691a655183cee2d76b4efdf6596a82fac422e61125dd00",
+  "consentHash": "d51fdaa9bd97d18d5fb9b9fc7249fb3c525ba0f468ae43fe645a61880b53407c",
+  "collateralIndex": 3,
+  "sigs": [
+    {
+      "shareIndex": 0,
+      "signature": "ILEe70+EXLkWMqWYoBxXjOIHEhGlFRlAmaTMCXYMKlWXCC/E4DC8hVpkby0VY/X8FPLFJcwlMrMV45fFAxtKxWI="
+    }
+  ],
+  "prepareWallet": "alice",
+  "operatorSecretHolder": "",
+  "coordinatorLabel": "alice",
+  "fingerprint": "B5AB-5915"
+}
