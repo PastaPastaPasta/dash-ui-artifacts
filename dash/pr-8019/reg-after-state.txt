@@ -1,0 +1,5 @@
+== reg-after after Send (2026-11-03T00:14:07Z)
+locks=1
+alice mempool=[]
+miner mempool=[]
+registered MNs=1

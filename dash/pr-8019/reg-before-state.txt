@@ -1,0 +1,6 @@
+== reg-before after Send (2026-11-03T00:09:31Z)
+locks=0
+alice mempool=[]
+miner mempool=[]
+registered MNs=1
+getrawtransaction ce9e94...: No such mempool or blockchain transaction. Use gettransaction for wallet transactions.
