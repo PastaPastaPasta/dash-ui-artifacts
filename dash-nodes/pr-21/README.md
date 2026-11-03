@@ -30,3 +30,16 @@ PR: https://github.com/PastaPastaPasta/dash-nodes/pull/21
 - See the PR description for these.
 
 `SHA256SUMS` lists the hash of every image.
+
+## Production, after merge and deploy
+
+#21 merged as `59f2077d1aa4ea3f4bab3e0bc61294fa35672be6` on 2026-11-03 at 17:08Z, and was live by 17:20Z. These were captured on https://radar.dashhq.org/?scope=mn&days=7&versions=now itself, with live data, so the shares differ slightly from the comparison above:
+
+- `production/desktop-pie-1440-light.png`: 1440 px, light.
+- `production/mobile-pie-390-dark.png`: 390 px, dark.
+
+Checked on production:
+- Pasta's link and the bare `/` both open on the pie, with Now pressed.
+- The legend has 10 rows with 3 group rules, and "<0.1%" shows for the 1-node builds.
+- Picking "Over time" writes `versions=time`, which survives a reload.
+- No overflow and no page errors.
