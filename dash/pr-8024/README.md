@@ -1,5 +1,7 @@
 # dashpay/dash#8024 — shared masternode Dissolve dialog: before/after
 
+> **Superseded (B3 rows):** the two B3 "after" images below show an earlier version of the PR (head `ce13eda1bfa`), which added "This message was ignored…". The maintainers rejected that behaviour, and the PR now blocks approval instead. Current B3 evidence: [rework-refused-blocks-approve/](rework-refused-blocks-approve/README.md). The B2 pair still applies; that commit is unchanged.
+
 PR: https://github.com/dashpay/dash/pull/8024
 
 ## Provenance
