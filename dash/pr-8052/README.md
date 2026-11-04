@@ -8,11 +8,13 @@ PR: https://github.com/dashpay/dash/pull/8052
 |---|---|---|---|
 | Before, exact PR base (develop) | `9e5e3d59a1e3e0fbbba7d8038ffd07e796322a6a` | `04168e9f89e48656639d44ea6384a73a09e09e2bc0e0d1b96528d8a10fab92c5` | `e7df19d43914e24bd64a05f677ae35b0815ea44ecab23bd33863572da7a08bbf` |
 | Before, `v24.0.0-rc.7` tag, where QA found it | `111a2c533e1998028fce341995c297d1fcbc16bd` | `62c94be03a20e1e6a2e4a1b79884e21b5a3be6ad0a8c7771a6d5042fecde70a8` | `635e0e8e42bba13f4bc7b0c5a28b6890ea064229b8fa4e579f093397c4a6d409` |
-| After, full PR head | `eb4929384856ece6e17391d290ca326639926dad` | `f90e2c6cc5c43c3889558cc8ec5dcea825bea0a3e263847bd0cf2889230652ae` | `75095d20831954823e198743e0756a20e39c82f9b06bb1bd0b427870d76c51a1` |
+| **After, current PR head** (`after-496130ce/`) | `496130ce0637dad1367de129d3a7fd59e1a98973` | `de3f0785022f6f605b21ca099f756d087776035f8e92cc5c14dc956b3023179d` | `06246efbc2141330c3d1f8b51da8745f9a52126140c9dececc0cc2cea7627ae4` |
+| After, earlier PR head (`after/`) | `eb4929384856ece6e17391d290ca326639926dad` | `f90e2c6cc5c43c3889558cc8ec5dcea825bea0a3e263847bd0cf2889230652ae` | `75095d20831954823e198743e0756a20e39c82f9b06bb1bd0b427870d76c51a1` |
 
 - **Builds:** Linux x86_64 `--enable-debug --enable-werror` from depends, each built from the exact tree of its commit.
 - **rc.7 tag:** the tag is signed. In `sharedmncreatedialog.{cpp,h}` and `mnsharesession.{cpp,h}`, rc.7 and the PR base are byte-identical. The rest of the Qt tree differs between them.
-- **Reproducibility:** rebuilding the PR head from a clean tree reproduced the same `dash-qt` byte for byte.
+- **Reproducibility:** rebuilding `eb4929384856` from a clean tree reproduced the same `dash-qt` byte for byte.
+- **Head moved:** after review, the PR head moved from `eb4929384856` to `496130ce0637`. That change only counts a repeated input once and accepts a dust remainder on a contribution without change; neither applies to this flow. The flow was rerun on the current head, in `after-496130ce/`. The `after/` images are kept, labelled as the earlier head.
 
 ## Fixture and steps
 
@@ -35,17 +37,18 @@ These are extracted from the saved message files; see [`change-addresses.txt`](c
 |---|---|---|---|---|
 | Before, PR base | `5B9BAC` | `2af1acaeab40…:1` | `ySqLCRPRkLYSB8eRw5DkgkTM6n2dwsbWsu` | **`yfQXtRxJDkiRj3gTVNikrjgXmT7Aia6sJi`** (new) |
 | Before, rc.7 | `7CA8F9` | `559ba1f31933…:1` | `yXjituUXX4Fmjc5N6avdaKutDobJku1oXW` | **`yMzFpiALC7EQFwqx3iNpgC2ryf7K6UGiST`** (new) |
-| After, PR head | `7B5A0D` | `5014c08cdec5…:1` | `yUmNLxUbmYxpwitYsEmac8Y58BjctHmDbP` | `yUmNLxUbmYxpwitYsEmac8Y58BjctHmDbP` (same) |
+| **After, current head `496130ce`** | `BADE7B` | `3956e6e857cb…:1` | `yLq2EbAc86fgRPp1mGDPRupet9Xa8JQfFe` | `yLq2EbAc86fgRPp1mGDPRupet9Xa8JQfFe` (same) |
+| After, earlier head `eb492938` | `7B5A0D` | `5014c08cdec5…:1` | `yUmNLxUbmYxpwitYsEmac8Y58BjctHmDbP` | `yUmNLxUbmYxpwitYsEmac8Y58BjctHmDbP` (same) |
 
 The change amount is 999.999 tDASH in every file.
 
 ## Pairs
 
-| Step | Before: exact PR base | Before: rc.7 | After: full PR head |
-|---|---|---|---|
-| 1. alice's board after the re-reserve | [before-base/1-board-after-rereserve.png](before-base/1-board-after-rereserve.png) | [before-rc7/1-board-after-rereserve.png](before-rc7/1-board-after-rereserve.png) | [after/1-board-after-rereserve.png](after/1-board-after-rereserve.png) |
-| 2. bob opens the locked terms | [before-base/2-bob-opens-locked-terms-refused.png](before-base/2-bob-opens-locked-terms-refused.png) | [before-rc7/2-bob-opens-locked-terms-refused.png](before-rc7/2-bob-opens-locked-terms-refused.png) | [after/2-bob-opens-locked-terms-approve.png](after/2-bob-opens-locked-terms-approve.png) |
-| 3. registration | not run: the before runs stop at step 2 | not run | [after/3-alice-registered.png](after/3-alice-registered.png) |
+| Step | Before: exact PR base | Before: rc.7 | **After: current PR head `496130ce`** | After: earlier head `eb492938` |
+|---|---|---|---|---|
+| 1. alice's board after the re-reserve | [before-base/1-board-after-rereserve.png](before-base/1-board-after-rereserve.png) | [before-rc7/1-board-after-rereserve.png](before-rc7/1-board-after-rereserve.png) | [after-496130ce/1-board-after-rereserve.png](after-496130ce/1-board-after-rereserve.png) | [after/1-board-after-rereserve.png](after/1-board-after-rereserve.png) |
+| 2. bob opens the locked terms | [before-base/2-bob-opens-locked-terms-refused.png](before-base/2-bob-opens-locked-terms-refused.png) | [before-rc7/2-bob-opens-locked-terms-refused.png](before-rc7/2-bob-opens-locked-terms-refused.png) | [after-496130ce/2-bob-opens-locked-terms-approve.png](after-496130ce/2-bob-opens-locked-terms-approve.png) | [after/2-bob-opens-locked-terms-approve.png](after/2-bob-opens-locked-terms-approve.png) |
+| 3. registration | not run: the before runs stop at step 2 | not run | [after-496130ce/3-alice-registered.png](after-496130ce/3-alice-registered.png) | [after/3-alice-registered.png](after/3-alice-registered.png) |
 
 **Step 1** looks the same on all three: "2 of 2 replied", "Received bob's Details", with no warning to ask anyone to reply again. That is the problem before the fix. The board gives the coordinator no sign that the re-reserve made bob's reply out of date.
 
@@ -53,7 +56,7 @@ The change amount is 999.999 tDASH in every file.
 - **Before** (both runs), bob gets the red "The locked terms do not contain the details you sent." and stays on "Waiting for alice".
 - **After**, bob gets **Approve terms**, with "Received alice's Locked Terms · Code B0E9-DE2E" and Approve and Copy Reply enabled.
 
-**Step 3, after only:** the ProRegTx `9199914641e3d87fc29d76aee2b897f65d7486d6d911930876db66b8ec99adf5` confirmed. Its change output pays 999.999 tDASH to `yUmNLxUbmYxpwitYsEmac8Y58BjctHmDbP`, the change address bob's Details listed. Afterwards neither wallet held a lock. See [`after/registration-confirmed.txt`](after/registration-confirmed.txt).
+**Step 3, after only:** on the current head, the ProRegTx `2db9621d4dad65759b3b4e351dbd77dbbc00c8b35dc1e3eddba12376b97f7834` confirmed. Its change output pays 999.999 tDASH to `yLq2EbAc86fgRPp1mGDPRupet9Xa8JQfFe`, the change address in bob's Details. Neither wallet held a lock afterwards; see [`after-496130ce/registration-confirmed.txt`](after-496130ce/registration-confirmed.txt). On the earlier head, the ProRegTx `9199914641e3d87fc29d76aee2b897f65d7486d6d911930876db66b8ec99adf5` confirmed. Its change output pays 999.999 tDASH to `yUmNLxUbmYxpwitYsEmac8Y58BjctHmDbP`, the change address bob's Details listed. Afterwards neither wallet held a lock. See [`after/registration-confirmed.txt`](after/registration-confirmed.txt).
 
 ## Not shown
 
