@@ -1,0 +1,9 @@
+base-invitation.json       5b9bac draft    2af1acaeab40:1 ySqLCRPRkLYSB8eRw5DkgkTM6n2dwsbWsu 99999900000
+base-bob-details.json      5b9bac draft    2af1acaeab40:1 ySqLCRPRkLYSB8eRw5DkgkTM6n2dwsbWsu 99999900000
+base-locked-terms.json     5b9bac signing  2af1acaeab40:1 yfQXtRxJDkiRj3gTVNikrjgXmT7Aia6sJi 99999900000
+rc7-invitation.json        7ca8f9 draft    559ba1f31933:1 yXjituUXX4Fmjc5N6avdaKutDobJku1oXW 99999900000
+rc7-bob-details.json       7ca8f9 draft    559ba1f31933:1 yXjituUXX4Fmjc5N6avdaKutDobJku1oXW 99999900000
+rc7-locked-terms.json      7ca8f9 signing  559ba1f31933:1 yMzFpiALC7EQFwqx3iNpgC2ryf7K6UGiST 99999900000
+fxf-invitation.json        7b5a0d draft    5014c08cdec5:1 yUmNLxUbmYxpwitYsEmac8Y58BjctHmDbP 99999900000
+fxf-bob-details.json       7b5a0d draft    5014c08cdec5:1 yUmNLxUbmYxpwitYsEmac8Y58BjctHmDbP 99999900000
+fxf-locked-terms.json      7b5a0d signing  5014c08cdec5:1 yUmNLxUbmYxpwitYsEmac8Y58BjctHmDbP 99999900000

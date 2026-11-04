@@ -1,0 +1,8 @@
+txid=9199914641e3d87fc29d76aee2b897f65d7486d6d911930876db66b8ec99adf5
+confirmations 1 type 1 block 2c32d53e14bb1e549a766af17cdaf9f875cf2c2f259792859fd92a794c3633c9
+vin [('3bf5102b3194550b7a2a859ded952373afef62fec68fe238c4d44620712ba121', 1), ('5014c08cdec5768ec3a4e35e90e3d2e23e08a2d3e321b76d24d70fd48126f3be', 1)]
+vout [(700.0, 'yLKzG7tB6EMW6AcB2swgwngaexFgCKJg9o'), (999.999, 'yUmNLxUbmYxpwitYsEmac8Y58BjctHmDbP'), (1000.0, None)]
+protx info: collateralHash 9199914641e3d87f idx 2
+in protx list registered: 1
+alice locks after confirm: []
+bob locks after confirm: []
