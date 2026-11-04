@@ -1,0 +1,15 @@
+txid 59ba8be9af03925a1cf1dcf03e54218b878402773d36f6d759ec6a3048fd5c95
+confirmations 1 blockhash 4f41d56fbb75d43c88f293c6e6198584bf44ecaa3e292217f774abc6e8dd0c14
+in protx list registered: 1
+type 1
+vin 8a4bf28591dd264eef635c3fb5f9abe625627ad69332e0ef1b26c997e9b6f00a 1
+vin af751e84b326473e3fa301878188579f2b4ed0640939e8ed61182fa5119d1d27 1
+vout 0 700.0 yNdYUX3ccyqvF8fe9gjpGn8APQwTCtVQhS
+vout 1 999.999 yZgBTrZreacVjojTzxQ8dn4Gaowr49sHS4
+vout 2 1000.0 None
+alice locks: []
+bob locks: []
+carol locks: []
+alice locks: []
+bob locks: []
+carol locks: []
