@@ -13,3 +13,6 @@ after-496130ce:locked-terms.json    bade7b signing  3956e6e857cb:1 yLq2EbAc86fgR
 after-55672100:bob-details.json         203cd6 draft    af751e84b326:1 yZgBTrZreacVjojTzxQ8dn4Gaowr49sHS4 99999900000
 after-55672100:invitation.json          203cd6 draft    af751e84b326:1 yZgBTrZreacVjojTzxQ8dn4Gaowr49sHS4 99999900000
 after-55672100:locked-terms.json        203cd6 signing  af751e84b326:1 yZgBTrZreacVjojTzxQ8dn4Gaowr49sHS4 99999900000
+after-01cda37a:bob-details.json         2b5941 draft    26fc12e2b4b1:1 yje7Cz4simNygLgHp79wKaHPQjVH43UtjM 99999900000
+after-01cda37a:invitation.json          2b5941 draft    26fc12e2b4b1:1 yje7Cz4simNygLgHp79wKaHPQjVH43UtjM 99999900000
+after-01cda37a:locked-terms.json        2b5941 signing  26fc12e2b4b1:1 yje7Cz4simNygLgHp79wKaHPQjVH43UtjM 99999900000

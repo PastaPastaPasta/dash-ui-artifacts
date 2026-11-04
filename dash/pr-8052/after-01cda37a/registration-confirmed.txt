@@ -1,0 +1,26 @@
+txid dcea870f2c13fb4bf90cb6043a081d23c42e3d857cc76b5cd7501f89fc98105d
+height 622
+confirmations 1 blockhash 2d8b06bade49a2cba477179cc19961c842d6a97e3658014b93b83f90c8812160
+--- decoded vouts
+type 1
+vin f9229289ca638dcf2dc17b17a67b1ce4aa00273eb9af75a2462839b006124fe7 1
+vin 26fc12e2b4b17f195a74ed05bafec7131a2e174add47bf373a267c0792b8a49d 1
+vout 0 700.0 yNB1qcW84whcgPD1AFu6RRsioVfcqkYTcM
+vout 1 999.999 yje7Cz4simNygLgHp79wKaHPQjVH43UtjM
+vout 2 1000.0 None
+--- protx list registered
+[
+  "dcea870f2c13fb4bf90cb6043a081d23c42e3d857cc76b5cd7501f89fc98105d"
+]
+--- protx info (selected)
+{'proTxHash': 'dcea870f2c13fb4bf90cb6043a081d23c42e3d857cc76b5cd7501f89fc98105d', 'collateralHash': 'dcea870f2c13fb4bf90cb6043a081d23c42e3d857cc76b5cd7501f89fc98105d', 'collateralIndex': 2, 'type': 'Regular'}
+622
+--- alice listlockunspent
+[
+]
+--- bob listlockunspent
+[
+]
+--- carol listlockunspent
+[
+]
