@@ -1,0 +1,78 @@
+$ dg --network testnet auth login --wallet --insecure-plaintext   (dg 0.2.0 aef5c6bf, master)
+Sign in to Dash Forge (testnet) with your DashPay wallet:
+open DashPay → More → Tools → Connections → Scan QR, or open the link on the phone.
+Or copy this link to the phone:
+  dash-key:<request link, 231 chars>
+Scan only a code dg printed on this computer: anyone who answers it signs in this terminal as their identity.
+(on testnet, use DashPay's testnet build: the `-testnet.apk` on https://github.com/dashpay/dash-wallet/releases/latest (installs beside the store app))
+The code expires in 10:00. Waiting for your wallet… (Ctrl-C to stop)
+your wallet answered; checking that nobody else did…your wallet answered; checking that nobody else did…
+Your wallet signed in as G1SAVd3dfdjNHJo2YmaNmhKThEa9kPVcwefCpeinC8ce
+  key #11 limited to Dash Forge, 0.25 DASH budget (0.25 left), expires in 180 days
+Is this the identity your wallet showed? [y/N] y
+y
+✓ signed in as G1SAVd3dfdjNHJo2YmaNmhKThEa9kPVcwefCpeinC8ce on testnet
+  key #11 limited to Dash Forge, 0.25 DASH budget (0.25 left), expires in 180 days, from your wallet (App Connect)
+  signing key only: private repositories need DASH_FORGE_KEY=<identity file>
+  stored in /work/scratch/wp-e2e/xdg/dash-forge/identities/testnet-G1SAVd3dfdjNHJo2YmaNmhKThEa9kPVcwefCpeinC8ce.key (UNENCRYPTED)
+  balance 0.19886931 DASH
+  renew: dg auth login --wallet; disconnect Dash Forge in your wallet to disable the key
+
+[exit 0]
+
+$ dg auth status
+Network:  testnet
+Identity: G1SAVd3dfdjNHJo2YmaNmhKThEa9kPVcwefCpeinC8ce
+Key:      #11 limited — 0.25 (≈ $8.75 on mainnet) of 0.25 DASH (≈ $8.75 on mainnet) left, expires in 180 days
+          from your wallet (App Connect); renew: dg auth login --wallet
+Private:  no encryption key stored; `dg auth login <identity file> --replace 11` stores it beside a new limited key
+Balance:  0.19886931 DASH
+Stored:   /work/scratch/wp-e2e/xdg/dash-forge/identities/testnet-G1SAVd3dfdjNHJo2YmaNmhKThEa9kPVcwefCpeinC8ce.key (UNENCRYPTED)
+
+$ dg repo create wp663-e2e-11230250 --storage platform ...
+Creating G1SAVd3dfdjNHJo2YmaNmhKThEa9kPVcwefCpeinC8ce/wp663-e2e-11230250 on testnet
+  repo + maintainer + config     ~0.002 DASH (≈ $0.07 on mainnet)
+  members-only content stays off: `dg repo members enable G1SAVd3dfdjNHJo2YmaNmhKThEa9kPVcwefCpeinC8ce/wp663-e2e-11230250` turns it on later
+  leaves main and tags unprotected: every writer can move them
+  packs → platform (1 of 1 must confirm); Platform stores the packs at ~0.39 DASH/MiB (≈ $13.78 on mainnet)
+✓ created  https://forge.dashhq.org/G1SAVd3dfdjNHJo2YmaNmhKThEa9kPVcwefCpeinC8ce/wp663-e2e-11230250
+  repo id:  FwP71eBiRni8pkCH6sX1Q7uZhTjz8HnUkTYgceRbkGnM
+  remote:   dash://G1SAVd3dfdjNHJo2YmaNmhKThEa9kPVcwefCpeinC8ce/wp663-e2e-11230250
+  cost:     ~0.00104 DASH (≈ $0.04 on mainnet)
+  next:     dg init --name wp663-e2e-11230250 --storage platform   (adds the remote, sets dash.storage, pushes)
+
+$ git push -u origin main
+dash: G1SAVd3dfdjNHJo2YmaNmhKThEa9kPVcwefCpeinC8ce/wp663-e2e-11230250 ← main (c7c1681, 3 objects, 498 B)
+dash: storage      → Platform chunks · Platform stores pack + manifest + refs, est 0.0136 DASH (≈ $0.48 on mainnet)
+dash: platform     ████████████████ 498 B  verified   1.9 s
+dash: platform     chunk 1 · manifest 4 · refUpdate 1 est 0.0136 DASH (≈ $0.48 on mainnet)
+dash: stored pack f0b75a22ca6c (498 B, 3 objects)
+dash: pack f0b75a22ca6c (498 B) stored on platform (1 verified)
+dash: updated main → c7c1681
+dash: history index published (full, 1 paths, 1 commits)
+dash: done · Platform charged ≈0.0080 DASH (≈ $0.28 on mainnet) · remaining 0.1895 DASH · https://forge.dashhq.org/G1SAVd3dfdjNHJo2YmaNmhKThEa9kPVcwefCpeinC8ce/wp663-e2e-11230250
+To dash://G1SAVd3dfdjNHJo2YmaNmhKThEa9kPVcwefCpeinC8ce/wp663-e2e-11230250
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+$ dg issue create / dg issue comment
+✓ opened issue #1 in G1SAVd3dfdjNHJo2YmaNmhKThEa9kPVcwefCpeinC8ce/wp663-e2e-11230250 · ~0.00102 DASH (≈ $0.04 on mainnet)
+✓ commented on issue #1 · ~0.000631 DASH (≈ $0.02 on mainnet)
+
+$ dg issue view ... 1
+#1 [open] e2e: issue signed by a wallet-granted key
+author: G1SAVd3dfdjNHJo2YmaNmhKThEa9kPVcwefCpeinC8ce
+
+Throwaway: dash-forge #663 e2e, signed with key #11 from DashPay App Connect.
+
+— G1SAVd3dfdjNHJo2YmaNmhKThEa9kPVcwefCpeinC8ce (46DmqCJr9wHAMVndGSqR7h96G1aHtL43kQkGMPMeMFaj):
+Comment signed by the same wallet key.
+
+$ dg auth status   (after the writes)
+Network:  testnet
+Identity: G1SAVd3dfdjNHJo2YmaNmhKThEa9kPVcwefCpeinC8ce
+Key:      #11 limited — 0.23892789 (≈ $8.36 on mainnet) of 0.25 DASH (≈ $8.75 on mainnet) left, expires in 180 days
+          from your wallet (App Connect); renew: dg auth login --wallet
+Private:  no encryption key stored; `dg auth login <identity file> --replace 11` stores it beside a new limited key
+Balance:  0.1877972 DASH
+Stored:   /work/scratch/wp-e2e/xdg/dash-forge/identities/testnet-G1SAVd3dfdjNHJo2YmaNmhKThEa9kPVcwefCpeinC8ce.key (UNENCRYPTED)
