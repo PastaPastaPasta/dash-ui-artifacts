@@ -1,0 +1,13 @@
+1.3s -> https://quorums.testnet.networks.dash.org/quorums
+1.3s -> https://quorums.testnet.networks.dash.org/previous
+BANNER at 21.4s: Can't reach the quorum key service right now |  | This app checks every Platform answer against quorum keys from quorums.testnet.networks.dash.org, and that service isn't answering in time. Dash Platform itself may be up, but without the keys nothing it returns can be checked. Nothing can be read or checked until the connection comes back. |  | Trying again in 5 s. |  | Details | Try again
+26.3s -> https://quorums.testnet.networks.dash.org/quorums
+26.3s -> https://quorums.testnet.networks.dash.org/previous
+61.3s -> https://quorums.testnet.networks.dash.org/quorums
+61.3s -> https://quorums.testnet.networks.dash.org/previous
+111.3s -> https://quorums.testnet.networks.dash.org/quorums
+111.3s -> https://quorums.testnet.networks.dash.org/previous
+191.3s -> https://quorums.testnet.networks.dash.org/quorums
+191.3s -> https://quorums.testnet.networks.dash.org/previous
+STOPPED at 211.5s: Can't reach the quorum key service right now |  | This app checks every Platform answer against quorum keys from quorums.testnet.networks.dash.org, and that service isn't answering in time. Dash Platform itself may be up, but without the keys nothing it returns can be checked. Nothing can be read or checked until the connection comes back. |  | It stopped retrying on its own. Check your connection, then choose Try again, or pick another quorum service in Settings. |  | Details | Try again
+final at 211.6s: ready=null firstBanner=21.4 stopped=211.5

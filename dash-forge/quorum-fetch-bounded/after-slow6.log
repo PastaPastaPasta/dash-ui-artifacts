@@ -1,0 +1,19 @@
+1.3s -> https://quorums.testnet.networks.dash.org/quorums
+1.3s -> https://quorums.testnet.networks.dash.org/previous
+7.5s -> https://68.67.122.10:1443//org.dash.platform.dapi.v0.Platform/getDataContractsLatestVersions
+12.5s -> https://quorums.testnet.networks.dash.org/quorums
+12.5s -> https://68.67.122.26:1443//org.dash.platform.dapi.v0.Platform/getDataContractsLatestVersions
+12.5s -> https://68.67.122.2:1443//org.dash.platform.dapi.v0.Platform/getDocuments
+12.5s -> https://68.67.122.5:1443//org.dash.platform.dapi.v0.Platform/getDocuments
+12.5s -> https://68.67.122.7:1443//org.dash.platform.dapi.v0.Platform/getDocuments
+READY at 13.3s
+14.5s -> https://68.67.122.5:1443//org.dash.platform.dapi.v0.Platform/getDocuments
+14.5s -> https://68.67.122.3:1443//org.dash.platform.dapi.v0.Platform/getDocuments
+18.6s -> https://68.67.122.3:1443/org.dash.platform.dapi.v0.Platform/getCurrentQuorumsInfo
+19.1s -> https://68.67.122.10:1443//org.dash.platform.dapi.v0.Platform/getDocuments
+19.7s -> https://68.67.122.26:1443//org.dash.platform.dapi.v0.Platform/getDocuments
+19.7s -> https://68.67.122.2:1443//org.dash.platform.dapi.v0.Platform/getDocuments
+19.7s -> https://68.67.122.5:1443//org.dash.platform.dapi.v0.Platform/getDocuments
+19.7s -> https://68.67.122.7:1443//org.dash.platform.dapi.v0.Platform/getDocuments
+21.1s -> https://68.67.122.8:1443//org.dash.platform.dapi.v0.Platform/getDocuments
+final at 21.4s: ready=13.3 firstBanner=null stopped=null

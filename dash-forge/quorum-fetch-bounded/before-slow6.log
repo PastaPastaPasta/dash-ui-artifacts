@@ -1,0 +1,14 @@
+1.7s -> https://quorums.testnet.networks.dash.org/quorums
+1.7s -> https://quorums.testnet.networks.dash.org/previous
+BANNER at 7.5s: Can't reach the quorum key service right now |  | This app checks every Platform answer against quorum keys from quorums.testnet.networks.dash.org, and that service isn't answering. Dash Platform itself may be up, but without the keys nothing it returns can be checked. Nothing can be read or checked until the connection comes back. |  | Trying again in 5 s. |  | Details | Try again
+11.7s -> https://quorums.testnet.networks.dash.org/quorums
+11.7s -> https://quorums.testnet.networks.dash.org/previous
+31.7s -> https://quorums.testnet.networks.dash.org/quorums
+31.7s -> https://quorums.testnet.networks.dash.org/previous
+66.7s -> https://quorums.testnet.networks.dash.org/quorums
+66.7s -> https://quorums.testnet.networks.dash.org/previous
+131.7s -> https://quorums.testnet.networks.dash.org/quorums
+131.7s -> https://quorums.testnet.networks.dash.org/previous
+256.7s -> https://quorums.testnet.networks.dash.org/quorums
+256.7s -> https://quorums.testnet.networks.dash.org/previous
+final at 300.8s: ready=null firstBanner=7.5 stopped=null

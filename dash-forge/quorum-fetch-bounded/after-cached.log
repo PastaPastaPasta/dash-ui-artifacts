@@ -1,0 +1,27 @@
+1.3s -> https://quorums.testnet.networks.dash.org/quorums
+1.3s -> https://quorums.testnet.networks.dash.org/previous
+1.5s -> https://68.67.122.5:1443//org.dash.platform.dapi.v0.Platform/getDataContractsLatestVersions
+2.1s -> https://quorums.testnet.networks.dash.org/quorums
+2.1s -> https://68.67.122.16:1443//org.dash.platform.dapi.v0.Platform/getDocuments
+2.1s -> https://68.67.122.22:1443//org.dash.platform.dapi.v0.Platform/getDocuments
+2.1s -> https://68.67.122.29:1443//org.dash.platform.dapi.v0.Platform/getDocuments
+2.1s -> https://68.67.122.27:1443//org.dash.platform.dapi.v0.Platform/getDocuments
+2.1s -> https://68.67.122.23:1443/org.dash.platform.dapi.v0.Platform/getCurrentQuorumsInfo
+2.7s -> https://68.67.122.5:1443//org.dash.platform.dapi.v0.Platform/getDocuments
+primed: ["forge.quorumKeys.https://quorums.testnet.networks.dash.org/previous","forge.quorumKeys.https://quorums.testnet.networks.dash.org/quorums"]
+0.9s -> https://quorums.testnet.networks.dash.org/quorums
+0.9s -> https://quorums.testnet.networks.dash.org/previous
+20.9s -> https://quorums.testnet.networks.dash.org/quorums
+20.9s -> https://68.67.122.28:1443//org.dash.platform.dapi.v0.Platform/getDocuments
+21.0s -> https://68.67.122.2:1443//org.dash.platform.dapi.v0.Platform/getDocuments
+21.0s -> https://68.67.122.29:1443//org.dash.platform.dapi.v0.Platform/getDocuments
+21.0s -> https://68.67.122.25:1443//org.dash.platform.dapi.v0.Platform/getDocuments
+21.2s -> https://68.67.122.14:1443//org.dash.platform.dapi.v0.Platform/getDocuments
+READY at 21.2s
+22.4s -> https://68.67.122.28:1443//org.dash.platform.dapi.v0.Platform/getDocuments
+22.4s -> https://68.67.122.2:1443//org.dash.platform.dapi.v0.Platform/getDocuments
+22.4s -> https://68.67.122.29:1443//org.dash.platform.dapi.v0.Platform/getDocuments
+22.4s -> https://68.67.122.25:1443//org.dash.platform.dapi.v0.Platform/getDocuments
+22.6s -> https://68.67.122.14:1443//org.dash.platform.dapi.v0.Platform/getDocuments
+22.7s -> https://68.67.122.28:1443//org.dash.platform.dapi.v0.Platform/getDocuments
+final at 29.3s: ready=21.2 firstBanner=null stopped=null
