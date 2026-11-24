@@ -1,0 +1,11 @@
+{
+  "DashWallet/Sources/Infrastructure/SwiftDashSDK/Contacts/DashPayWithdrawalStore.swift": "9e0be105a69486fb4f14c1e07338a8a941dbf8f691239226c445104253d89f3f",
+  "DashWallet/Sources/UI/DashPay/Contacts/SwiftUI/ContactsScreen.swift": "aa4f0b71ec9f1ae0b5b31fe2fd8ee75a03886bb2d0a921a61ff58615142eddb0",
+  "DashWallet/Sources/UI/Payments/InternalTransfer/Shielded/ShieldedTransferCoordinator.swift": "d46728bd405987bdc9af6acaa0188f3ab4ef9cbca0306cf524c485aec19598b3",
+  "DashWallet/Sources/UI/Payments/Pay/SendScreen.swift": "7b42a7ad181ec198f6113f9e00716ac267ae3bc78569841a087d5b3f93b4d8d6",
+  "DashWallet/Sources/UI/Payments/Pay/SendViewModel.swift": "a79fcb23aacf79d995ad4dc1b3cc49ca509e1c63eb70801673e63f5142c813a6",
+  "DashWallet/en.lproj/Localizable.strings": "7ea4a8716247d5280d44991e01a328759dde735c17512fb87b710e2bdb54826d",
+  "DashWalletTests/DashPayWithdrawalStoreTests.swift": "89a3e1b47c1991ab4c8590c3248a21a5b78b008711941f236f0a5caa2be35f16",
+  "docs/adr/README.md": "e08d879caa9935739e59c09c6b77ee1fa2c3a1f71b157ea73d33c7c7d0df1c83",
+  "docs/adr/0066-journal-platform-contact-payments-and-defer-shielded-funding.md": "61c9fe8fdedf2d30e0ee8b174e017d4d19e437834bd1987acffc1d09537015dc"
+}
