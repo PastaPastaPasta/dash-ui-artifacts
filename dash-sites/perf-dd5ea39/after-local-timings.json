@@ -1,0 +1,626 @@
+[
+  {
+    "tag": "cold0",
+    "ready": 4931,
+    "title": "d4shhq.dash",
+    "fcp": 820,
+    "nav": {
+      "responseEnd": 756.6000000014901,
+      "domContentLoaded": 793.3999999985099,
+      "load": 794.8999999985099
+    },
+    "net": [
+      {
+        "start": 169,
+        "end": 293,
+        "ms": 124,
+        "sw": false,
+        "url": "/",
+        "method": "GET",
+        "network": "conn"
+      },
+      {
+        "start": 274,
+        "end": 357,
+        "ms": 83,
+        "sw": true,
+        "url": "/sw.js",
+        "method": "GET",
+        "network": "net"
+      },
+      {
+        "start": 372,
+        "end": 1629,
+        "ms": 1257,
+        "sw": true,
+        "url": "https://dash.site/dash-sites-verifier-c7d53a0908cfe876.js",
+        "method": "GET",
+        "network": "conn"
+      },
+      {
+        "start": 1778,
+        "end": 3886,
+        "ms": 2108,
+        "sw": false,
+        "url": "/.well-known/dash/site.json",
+        "method": "GET",
+        "network": "net"
+      },
+      {
+        "start": 2909,
+        "end": 2972,
+        "ms": 63,
+        "sw": true,
+        "url": "https://quorums.mainnet.networks.dash.org/quorums",
+        "method": "GET",
+        "network": "net"
+      },
+      {
+        "start": 2909,
+        "end": 2971,
+        "ms": 62,
+        "sw": true,
+        "url": "https://quorums.mainnet.networks.dash.org/previous",
+        "method": "GET",
+        "network": "conn"
+      },
+      {
+        "start": 2909,
+        "end": 2985,
+        "ms": 76,
+        "sw": true,
+        "url": "https://quorums.mainnet.networks.dash.org/masternodes",
+        "method": "GET",
+        "network": "net"
+      },
+      {
+        "start": 3183,
+        "end": 3333,
+        "ms": 150,
+        "sw": true,
+        "url": "https://104.156.154.179/org.dash.platform.dapi.v0.Platform/getEpochsInfo",
+        "method": "OPTIONS",
+        "network": "conn"
+      },
+      {
+        "start": 3212,
+        "end": 3490,
+        "ms": 278,
+        "sw": true,
+        "url": "https://104.156.154.179/org.dash.platform.dapi.v0.Platform/getEpochsInfo",
+        "method": "POST",
+        "network": "net"
+      },
+      {
+        "start": 3215,
+        "end": 3708,
+        "ms": 493,
+        "sw": true,
+        "url": "https://80.240.19.200/org.dash.platform.dapi.v0.Platform/getDocuments",
+        "method": "POST",
+        "network": "net"
+      },
+      {
+        "start": 3215,
+        "end": 3524,
+        "ms": 309,
+        "sw": true,
+        "url": "https://80.240.19.200/org.dash.platform.dapi.v0.Platform/getDocuments",
+        "method": "OPTIONS",
+        "network": "conn"
+      },
+      {
+        "start": 3490,
+        "end": 3882,
+        "ms": 392,
+        "sw": true,
+        "url": "https://77.105.61.45/org.dash.platform.dapi.v0.Platform/getDataContractsLatestVersions",
+        "method": "OPTIONS",
+        "network": "conn"
+      },
+      {
+        "start": 3490,
+        "end": 4041,
+        "ms": 551,
+        "sw": true,
+        "url": "https://77.105.61.45/org.dash.platform.dapi.v0.Platform/getDataContractsLatestVersions",
+        "method": "POST",
+        "network": "net"
+      },
+      {
+        "start": 3708,
+        "end": 3792,
+        "ms": 84,
+        "sw": true,
+        "url": "https://15.235.102.215/org.dash.platform.dapi.v0.Platform/getDocuments",
+        "method": "OPTIONS",
+        "network": "conn"
+      },
+      {
+        "start": 3708,
+        "end": 3849,
+        "ms": 141,
+        "sw": true,
+        "url": "https://15.235.102.215/org.dash.platform.dapi.v0.Platform/getDocuments",
+        "method": "POST",
+        "network": "net"
+      },
+      {
+        "start": 3951,
+        "end": 3982,
+        "ms": 31,
+        "sw": false,
+        "url": "/",
+        "method": "GET",
+        "network": "net"
+      },
+      {
+        "start": 3982,
+        "end": 3985,
+        "ms": 3,
+        "sw": false,
+        "url": "/.well-known/dash/reset",
+        "method": "GET",
+        "network": "net"
+      },
+      {
+        "start": 3985,
+        "end": 3989,
+        "ms": 4,
+        "sw": false,
+        "url": "/.well-known/dash/reset",
+        "method": "GET",
+        "network": "net"
+      },
+      {
+        "start": 3986,
+        "end": 4770,
+        "ms": 784,
+        "sw": false,
+        "url": "/",
+        "method": "GET",
+        "network": "net"
+      },
+      {
+        "start": 4003,
+        "end": 4573,
+        "ms": 570,
+        "sw": true,
+        "url": "https://37.60.234.168/org.dash.platform.dapi.v0.Platform/getDocuments",
+        "method": "POST",
+        "network": "net"
+      },
+      {
+        "start": 4040,
+        "end": 4379,
+        "ms": 339,
+        "sw": true,
+        "url": "https://37.60.234.168/org.dash.platform.dapi.v0.Platform/getDocuments",
+        "method": "OPTIONS",
+        "network": "conn"
+      },
+      {
+        "start": 4582,
+        "end": 4769,
+        "ms": 187,
+        "sw": true,
+        "url": "https://104.156.154.179/org.dash.platform.dapi.v0.Platform/getDocuments",
+        "method": "POST",
+        "network": "net"
+      },
+      {
+        "start": 4583,
+        "end": 4627,
+        "ms": 44,
+        "sw": true,
+        "url": "https://104.156.154.179/org.dash.platform.dapi.v0.Platform/getDocuments",
+        "method": "OPTIONS",
+        "network": "net"
+      }
+    ],
+    "compile": {
+      "wasm.ValidateFunctionsTask": 903,
+      "wasm.ExecuteCompilationUnits": 492,
+      "wasm.TopTierCompilation": 491,
+      "wasm.CompileLazy": 284,
+      "wasm.CompileBaseline": 194,
+      "EvaluateScript": 88,
+      "wasm.DecodeModule": 70,
+      "wasm.DecodeWasmModule": 69,
+      "wasm.ValidateFunctions": 53,
+      "v8.run": 32,
+      "wasm.AddCompiledCode": 32,
+      "wasm.AsyncInstantiate": 28,
+      "wasm.SyncInstantiate": 28,
+      "wasm.InstanceBuilder.Build": 28,
+      "v8.compile": 13,
+      "wasm.PublishCode": 12,
+      "wasm.NewNativeModule": 11,
+      "wasm.FinishAsyncCompile": 5
+    }
+  },
+  {
+    "tag": "warm0",
+    "ready": 160,
+    "title": "d4shhq.dash",
+    "fcp": 76,
+    "nav": {
+      "responseEnd": 21.399999998509884,
+      "domContentLoaded": 49.599999994039536,
+      "load": 50.29999999701977
+    },
+    "net": [
+      {
+        "start": 52,
+        "end": 111,
+        "ms": 59,
+        "sw": false,
+        "url": "/",
+        "method": "GET",
+        "network": "net"
+      }
+    ],
+    "compile": {
+      "EvaluateScript": 13
+    }
+  },
+  {
+    "tag": "stopped0",
+    "ready": 137261,
+    "title": "d4shhq.dash",
+    "fcp": 128,
+    "nav": {
+      "responseEnd": 45.30000000447035,
+      "domContentLoaded": 75.5,
+      "load": 77.30000000447035
+    },
+    "net": [
+      {
+        "start": 171,
+        "end": 307,
+        "ms": 136,
+        "sw": false,
+        "url": "/",
+        "method": "GET",
+        "network": "net"
+      },
+      {
+        "start": 307,
+        "end": 137052,
+        "ms": 136745,
+        "sw": false,
+        "url": "/.well-known/dash/site.json",
+        "method": "GET",
+        "network": "net"
+      },
+      {
+        "start": 1225,
+        "end": 1396,
+        "ms": 171,
+        "sw": true,
+        "url": "https://quorums.mainnet.networks.dash.org/quorums",
+        "method": "GET",
+        "network": "net"
+      },
+      {
+        "start": 1225,
+        "end": 1396,
+        "ms": 171,
+        "sw": true,
+        "url": "https://quorums.mainnet.networks.dash.org/previous",
+        "method": "GET",
+        "network": "net"
+      },
+      {
+        "start": 1226,
+        "end": 1396,
+        "ms": 170,
+        "sw": true,
+        "url": "https://quorums.mainnet.networks.dash.org/masternodes",
+        "method": "GET",
+        "network": "net"
+      },
+      {
+        "start": 1555,
+        "end": 1830,
+        "ms": 275,
+        "sw": true,
+        "url": "https://193.104.58.62/org.dash.platform.dapi.v0.Platform/getEpochsInfo",
+        "method": "OPTIONS",
+        "network": "conn"
+      },
+      {
+        "start": 1555,
+        "end": 2001,
+        "ms": 446,
+        "sw": true,
+        "url": "https://193.104.58.62/org.dash.platform.dapi.v0.Platform/getEpochsInfo",
+        "method": "POST",
+        "network": "net"
+      },
+      {
+        "start": 1555,
+        "end": 1964,
+        "ms": 409,
+        "sw": true,
+        "url": "https://62.171.138.186/org.dash.platform.dapi.v0.Platform/getDocuments",
+        "method": "OPTIONS",
+        "network": "conn"
+      },
+      {
+        "start": 1555,
+        "end": 2225,
+        "ms": 670,
+        "sw": true,
+        "url": "https://62.171.138.186/org.dash.platform.dapi.v0.Platform/getDocuments",
+        "method": "POST",
+        "network": "net"
+      },
+      {
+        "start": 2001,
+        "end": 2690,
+        "ms": 689,
+        "sw": true,
+        "url": "https://72.60.38.160/org.dash.platform.dapi.v0.Platform/getDataContractsLatestVersions",
+        "method": "OPTIONS",
+        "network": "conn"
+      },
+      {
+        "start": 2001,
+        "end": 2861,
+        "ms": 860,
+        "sw": true,
+        "url": "https://72.60.38.160/org.dash.platform.dapi.v0.Platform/getDataContractsLatestVersions",
+        "method": "POST",
+        "network": "net"
+      },
+      {
+        "start": 2225,
+        "end": 136770,
+        "ms": 134545,
+        "sw": true,
+        "url": "https://103.214.68.30/org.dash.platform.dapi.v0.Platform/getDocuments",
+        "method": "OPTIONS",
+        "network": "-"
+      },
+      {
+        "start": 2225,
+        "end": 136773,
+        "ms": 134548,
+        "sw": true,
+        "url": "https://103.214.68.30/org.dash.platform.dapi.v0.Platform/getDocuments",
+        "method": "POST",
+        "network": "-"
+      },
+      {
+        "start": 136851,
+        "end": 137038,
+        "ms": 187,
+        "sw": true,
+        "url": "https://193.104.58.62/org.dash.platform.dapi.v0.Platform/getDocuments",
+        "method": "POST",
+        "network": "net"
+      },
+      {
+        "start": 136852,
+        "end": 136888,
+        "ms": 36,
+        "sw": true,
+        "url": "https://193.104.58.62/org.dash.platform.dapi.v0.Platform/getDocuments",
+        "method": "OPTIONS",
+        "network": "net"
+      },
+      {
+        "start": 137069,
+        "end": 137131,
+        "ms": 62,
+        "sw": false,
+        "url": "/",
+        "method": "GET",
+        "network": "net"
+      }
+    ],
+    "compile": {
+      "wasm.ValidateFunctionsTask": 727,
+      "wasm.ExecuteCompilationUnits": 570,
+      "wasm.TopTierCompilation": 569,
+      "wasm.CompileLazy": 310,
+      "wasm.CompileBaseline": 208,
+      "wasm.DecodeModule": 78,
+      "wasm.DecodeWasmModule": 78,
+      "EvaluateScript": 72,
+      "wasm.ValidateFunctions": 63,
+      "wasm.AddCompiledCode": 42,
+      "v8.run": 30,
+      "wasm.AsyncInstantiate": 19,
+      "wasm.SyncInstantiate": 19,
+      "wasm.InstanceBuilder.Build": 18,
+      "wasm.PublishCode": 13
+    }
+  },
+  {
+    "tag": "othername0",
+    "ready": 5962,
+    "title": "zq-no-such-name-7731.dash is not registered",
+    "fcp": 144,
+    "nav": {
+      "responseEnd": 56.399999998509884,
+      "domContentLoaded": 94.69999999552965,
+      "load": 96.79999999701977
+    },
+    "net": [
+      {
+        "start": 120,
+        "end": 496,
+        "ms": 376,
+        "sw": false,
+        "url": "/",
+        "method": "GET",
+        "network": "conn"
+      },
+      {
+        "start": 506,
+        "end": 582,
+        "ms": 76,
+        "sw": true,
+        "url": "/sw.js",
+        "method": "GET",
+        "network": "net"
+      },
+      {
+        "start": 593,
+        "end": 2885,
+        "ms": 2292,
+        "sw": true,
+        "url": "https://dash.site/dash-sites-verifier-c7d53a0908cfe876.js",
+        "method": "GET",
+        "network": "conn"
+      },
+      {
+        "start": 3035,
+        "end": 5386,
+        "ms": 2351,
+        "sw": false,
+        "url": "/.well-known/dash/site.json",
+        "method": "GET",
+        "network": "net"
+      },
+      {
+        "start": 4255,
+        "end": 4684,
+        "ms": 429,
+        "sw": true,
+        "url": "https://quorums.mainnet.networks.dash.org/quorums",
+        "method": "GET",
+        "network": "net"
+      },
+      {
+        "start": 4255,
+        "end": 4685,
+        "ms": 430,
+        "sw": true,
+        "url": "https://quorums.mainnet.networks.dash.org/previous",
+        "method": "GET",
+        "network": "net"
+      },
+      {
+        "start": 4255,
+        "end": 4685,
+        "ms": 430,
+        "sw": true,
+        "url": "https://quorums.mainnet.networks.dash.org/masternodes",
+        "method": "GET",
+        "network": "net"
+      },
+      {
+        "start": 4686,
+        "end": 5051,
+        "ms": 365,
+        "sw": true,
+        "url": "https://216.238.75.46/org.dash.platform.dapi.v0.Platform/getEpochsInfo",
+        "method": "OPTIONS",
+        "network": "conn"
+      },
+      {
+        "start": 4687,
+        "end": 5291,
+        "ms": 604,
+        "sw": true,
+        "url": "https://216.238.75.46/org.dash.platform.dapi.v0.Platform/getEpochsInfo",
+        "method": "POST",
+        "network": "net"
+      },
+      {
+        "start": 4687,
+        "end": 5362,
+        "ms": 675,
+        "sw": true,
+        "url": "https://72.60.38.160/org.dash.platform.dapi.v0.Platform/getDocuments",
+        "method": "POST",
+        "network": "net"
+      },
+      {
+        "start": 4687,
+        "end": 4992,
+        "ms": 305,
+        "sw": true,
+        "url": "https://72.60.38.160/org.dash.platform.dapi.v0.Platform/getDocuments",
+        "method": "OPTIONS",
+        "network": "net"
+      },
+      {
+        "start": 5291,
+        "end": 5954,
+        "ms": 663,
+        "sw": true,
+        "url": "https://161.97.70.66/org.dash.platform.dapi.v0.Platform/getDataContractsLatestVersions",
+        "method": "POST",
+        "network": "net"
+      },
+      {
+        "start": 5291,
+        "end": 5722,
+        "ms": 431,
+        "sw": true,
+        "url": "https://161.97.70.66/org.dash.platform.dapi.v0.Platform/getDataContractsLatestVersions",
+        "method": "OPTIONS",
+        "network": "conn"
+      },
+      {
+        "start": 5494,
+        "end": 5501,
+        "ms": 7,
+        "sw": false,
+        "url": "/",
+        "method": "GET",
+        "network": "net"
+      },
+      {
+        "start": 5501,
+        "end": 5590,
+        "ms": 89,
+        "sw": false,
+        "url": "/.well-known/dash/reset",
+        "method": "GET",
+        "network": "net"
+      },
+      {
+        "start": 5590,
+        "end": 5715,
+        "ms": 125,
+        "sw": false,
+        "url": "/.well-known/dash/reset",
+        "method": "GET",
+        "network": "net"
+      },
+      {
+        "start": 5595,
+        "end": 5722,
+        "ms": 127,
+        "sw": false,
+        "url": "/",
+        "method": "GET",
+        "network": "net"
+      }
+    ],
+    "compile": {
+      "wasm.ValidateFunctionsTask": 838,
+      "wasm.ExecuteCompilationUnits": 760,
+      "wasm.TopTierCompilation": 759,
+      "wasm.CompileLazy": 397,
+      "wasm.CompileBaseline": 285,
+      "EvaluateScript": 80,
+      "wasm.DecodeModule": 53,
+      "wasm.DecodeWasmModule": 52,
+      "wasm.ValidateFunctions": 43,
+      "wasm.AddCompiledCode": 38,
+      "v8.run": 28,
+      "wasm.AsyncInstantiate": 22,
+      "wasm.SyncInstantiate": 22,
+      "wasm.InstanceBuilder.Build": 22,
+      "wasm.PublishCode": 14,
+      "wasm.GrowMemory": 14,
+      "v8.compile": 8
+    }
+  }
+]

@@ -1,0 +1,405 @@
+[
+  {
+    "tag": "cold0",
+    "ready": 7191,
+    "title": "d4shhq.dash",
+    "fcp": 960,
+    "nav": {
+      "responseEnd": 872.1999999955297,
+      "domContentLoaded": 887,
+      "load": 887.5999999940395
+    },
+    "net": [
+      {
+        "start": 118,
+        "end": 784,
+        "ms": 666,
+        "sw": false,
+        "url": "/",
+        "method": "GET",
+        "size": null
+      },
+      {
+        "start": 788,
+        "end": 1382,
+        "ms": 594,
+        "sw": true,
+        "url": "/sw.js",
+        "method": "GET",
+        "size": null
+      },
+      {
+        "start": 1430,
+        "end": 2166,
+        "ms": 736,
+        "sw": true,
+        "url": "/dash-sites-verifier-3057d67062b28cb4.js",
+        "method": "GET",
+        "size": null
+      },
+      {
+        "start": 2166,
+        "end": 6042,
+        "ms": 3876,
+        "sw": false,
+        "url": "/.well-known/dash/site.json",
+        "method": "GET",
+        "size": null
+      },
+      {
+        "start": 3197,
+        "end": 3300,
+        "ms": 103,
+        "sw": true,
+        "url": "https://quorums.mainnet.networks.dash.org/quorums",
+        "method": "GET",
+        "size": null
+      },
+      {
+        "start": 3197,
+        "end": 3300,
+        "ms": 103,
+        "sw": true,
+        "url": "https://quorums.mainnet.networks.dash.org/previous",
+        "method": "GET",
+        "size": null
+      },
+      {
+        "start": 3197,
+        "end": 3317,
+        "ms": 120,
+        "sw": true,
+        "url": "https://quorums.mainnet.networks.dash.org/masternodes",
+        "method": "GET",
+        "size": null
+      },
+      {
+        "start": 3411,
+        "end": 4086,
+        "ms": 675,
+        "sw": true,
+        "url": "https://70.34.206.123/org.dash.platform.dapi.v0.Platform/getDataContract",
+        "method": "POST",
+        "size": null
+      },
+      {
+        "start": 3411,
+        "end": 3776,
+        "ms": 365,
+        "sw": true,
+        "url": "https://70.34.206.123/org.dash.platform.dapi.v0.Platform/getDataContract",
+        "method": "OPTIONS",
+        "size": null
+      },
+      {
+        "start": 4086,
+        "end": 4644,
+        "ms": 558,
+        "sw": true,
+        "url": "https://89.35.131.149/org.dash.platform.dapi.v0.Platform/getDocuments",
+        "method": "OPTIONS",
+        "size": null
+      },
+      {
+        "start": 4086,
+        "end": 4894,
+        "ms": 808,
+        "sw": true,
+        "url": "https://89.35.131.149/org.dash.platform.dapi.v0.Platform/getDocuments",
+        "method": "POST",
+        "size": null
+      },
+      {
+        "start": 4892,
+        "end": 5247,
+        "ms": 355,
+        "sw": true,
+        "url": "https://84.247.180.201/org.dash.platform.dapi.v0.Platform/getDataContract",
+        "method": "OPTIONS",
+        "size": null
+      },
+      {
+        "start": 4894,
+        "end": 5409,
+        "ms": 515,
+        "sw": true,
+        "url": "https://84.247.180.201/org.dash.platform.dapi.v0.Platform/getDataContract",
+        "method": "POST",
+        "size": null
+      },
+      {
+        "start": 5409,
+        "end": 5784,
+        "ms": 375,
+        "sw": true,
+        "url": "https://161.97.91.68/org.dash.platform.dapi.v0.Platform/getDocuments",
+        "method": "OPTIONS",
+        "size": null
+      },
+      {
+        "start": 5410,
+        "end": 6000,
+        "ms": 590,
+        "sw": true,
+        "url": "https://161.97.91.68/org.dash.platform.dapi.v0.Platform/getDocuments",
+        "method": "POST",
+        "size": null
+      },
+      {
+        "start": 6208,
+        "end": 6208,
+        "ms": 0,
+        "sw": false,
+        "url": "/",
+        "method": "GET",
+        "size": null
+      },
+      {
+        "start": 6208,
+        "end": 6209,
+        "ms": 1,
+        "sw": false,
+        "url": "/.well-known/dash/reset",
+        "method": "GET",
+        "size": null
+      },
+      {
+        "start": 6209,
+        "end": 6212,
+        "ms": 3,
+        "sw": false,
+        "url": "/.well-known/dash/reset",
+        "method": "GET",
+        "size": null
+      },
+      {
+        "start": 6212,
+        "end": 7051,
+        "ms": 839,
+        "sw": false,
+        "url": "/",
+        "method": "GET",
+        "size": null
+      },
+      {
+        "start": 6212,
+        "end": 6716,
+        "ms": 504,
+        "sw": true,
+        "url": "https://62.171.171.253/org.dash.platform.dapi.v0.Platform/getDocuments",
+        "method": "POST",
+        "size": null
+      },
+      {
+        "start": 6212,
+        "end": 6598,
+        "ms": 386,
+        "sw": true,
+        "url": "https://62.171.171.253/org.dash.platform.dapi.v0.Platform/getDocuments",
+        "method": "OPTIONS",
+        "size": null
+      },
+      {
+        "start": 6828,
+        "end": 6839,
+        "ms": 11,
+        "sw": true,
+        "url": "https://70.34.206.123/org.dash.platform.dapi.v0.Platform/getDocuments",
+        "method": "OPTIONS",
+        "size": null
+      },
+      {
+        "start": 6828,
+        "end": 7030,
+        "ms": 202,
+        "sw": true,
+        "url": "https://70.34.206.123/org.dash.platform.dapi.v0.Platform/getDocuments",
+        "method": "POST",
+        "size": null
+      }
+    ],
+    "compile": {
+      "wasm.ValidateFunctionsTask": 3703,
+      "wasm.ExecuteCompilationUnits": 623,
+      "wasm.TopTierCompilation": 621,
+      "wasm.CompileLazy": 292,
+      "wasm.CompileBaseline": 209,
+      "wasm.DecodeModule": 163,
+      "wasm.DecodeWasmModule": 163,
+      "wasm.ValidateFunctions": 149,
+      "EvaluateScript": 128,
+      "wasm.AddCompiledCode": 34,
+      "v8.run": 27,
+      "wasm.AsyncInstantiate": 24,
+      "wasm.SyncInstantiate": 24,
+      "wasm.InstanceBuilder.Build": 24,
+      "wasm.PublishCode": 8,
+      "v8.compile": 7,
+      "wasm.GrowMemory": 7
+    }
+  },
+  {
+    "tag": "warm0",
+    "ready": 570,
+    "title": "d4shhq.dash",
+    "fcp": 108,
+    "nav": {
+      "responseEnd": 30.799999997019768,
+      "domContentLoaded": 68.89999999850988,
+      "load": 73.29999999701977
+    },
+    "net": [
+      {
+        "start": 49,
+        "end": 154,
+        "ms": 105,
+        "sw": false,
+        "url": "/",
+        "method": "GET",
+        "size": null
+      }
+    ],
+    "compile": {
+      "EvaluateScript": 31
+    }
+  },
+  {
+    "tag": "stopped0",
+    "ready": 4144,
+    "title": "d4shhq.dash",
+    "fcp": 4052,
+    "nav": {
+      "responseEnd": 3976.60000000149,
+      "domContentLoaded": 4009.5,
+      "load": 4011.89999999851
+    },
+    "net": [
+      {
+        "start": 31,
+        "end": 4056,
+        "ms": 4025,
+        "sw": false,
+        "url": "/",
+        "method": "GET",
+        "size": null
+      },
+      {
+        "start": 1207,
+        "end": 1939,
+        "ms": 732,
+        "sw": true,
+        "url": "https://quorums.mainnet.networks.dash.org/quorums",
+        "method": "GET",
+        "size": null
+      },
+      {
+        "start": 1207,
+        "end": 1387,
+        "ms": 180,
+        "sw": true,
+        "url": "https://quorums.mainnet.networks.dash.org/previous",
+        "method": "GET",
+        "size": null
+      },
+      {
+        "start": 1207,
+        "end": 1387,
+        "ms": 180,
+        "sw": true,
+        "url": "https://quorums.mainnet.networks.dash.org/masternodes",
+        "method": "GET",
+        "size": null
+      },
+      {
+        "start": 1939,
+        "end": 2073,
+        "ms": 134,
+        "sw": true,
+        "url": "https://89.125.209.156/org.dash.platform.dapi.v0.Platform/getDataContract",
+        "method": "POST",
+        "size": null
+      },
+      {
+        "start": 1939,
+        "end": 1951,
+        "ms": 12,
+        "sw": true,
+        "url": "https://89.125.209.156/org.dash.platform.dapi.v0.Platform/getDataContract",
+        "method": "OPTIONS",
+        "size": null
+      },
+      {
+        "start": 2073,
+        "end": 2696,
+        "ms": 623,
+        "sw": true,
+        "url": "https://49.13.193.251/org.dash.platform.dapi.v0.Platform/getDocuments",
+        "method": "POST",
+        "size": null
+      },
+      {
+        "start": 2073,
+        "end": 2433,
+        "ms": 360,
+        "sw": true,
+        "url": "https://49.13.193.251/org.dash.platform.dapi.v0.Platform/getDocuments",
+        "method": "OPTIONS",
+        "size": null
+      },
+      {
+        "start": 2696,
+        "end": 3640,
+        "ms": 944,
+        "sw": true,
+        "url": "https://45.135.180.114/org.dash.platform.dapi.v0.Platform/getDataContract",
+        "method": "POST",
+        "size": null
+      },
+      {
+        "start": 2696,
+        "end": 3406,
+        "ms": 710,
+        "sw": true,
+        "url": "https://45.135.180.114/org.dash.platform.dapi.v0.Platform/getDataContract",
+        "method": "OPTIONS",
+        "size": null
+      },
+      {
+        "start": 3640,
+        "end": 3762,
+        "ms": 122,
+        "sw": true,
+        "url": "https://2.31.109.195/org.dash.platform.dapi.v0.Platform/getDocuments",
+        "method": "OPTIONS",
+        "size": null
+      },
+      {
+        "start": 3640,
+        "end": 3926,
+        "ms": 286,
+        "sw": true,
+        "url": "https://2.31.109.195/org.dash.platform.dapi.v0.Platform/getDocuments",
+        "method": "POST",
+        "size": null
+      }
+    ],
+    "compile": {
+      "wasm.ValidateFunctionsTask": 740,
+      "wasm.ExecuteCompilationUnits": 380,
+      "wasm.TopTierCompilation": 378,
+      "wasm.CompileLazy": 228,
+      "wasm.CompileBaseline": 144,
+      "wasm.DecodeModule": 70,
+      "wasm.DecodeWasmModule": 67,
+      "wasm.ValidateFunctions": 47,
+      "EvaluateScript": 34,
+      "wasm.AddCompiledCode": 27,
+      "wasm.AsyncInstantiate": 15,
+      "wasm.SyncInstantiate": 15,
+      "wasm.InstanceBuilder.Build": 15,
+      "v8.run": 14,
+      "wasm.PublishCode": 9,
+      "wasm.NewNativeModule": 6
+    }
+  }
+]
