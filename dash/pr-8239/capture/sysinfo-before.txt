@@ -1,0 +1,6 @@
+ProductName:		macOS
+ProductVersion:		15.8.2
+BuildVersion:		24H232
+arm64
+qt@5 5.15.19
+83dc5ea9b27beb014c97d584181bc31faba32e97

@@ -1,0 +1,46 @@
+name: dash-8239-macos-capture
+on:
+  push:
+    branches: [ci/dash-8239-macos-capture]
+jobs:
+  capture:
+    strategy:
+      fail-fast: false
+      matrix:
+        rev:
+          - { name: before, sha: 83dc5ea9b27beb014c97d584181bc31faba32e97 }
+          - { name: after, sha: 9c6a676977cc869b0445a5bd06b95d7d340fe3ae }
+    runs-on: macos-15
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+        with: { path: ci }
+      - run: brew install cmake boost pkg-config libevent qt@5 cliclick || true
+      - id: cache
+        uses: actions/cache@v4
+        with:
+          path: bin
+          key: dashqt-${{ matrix.rev.sha }}-v1
+      - name: build
+        if: steps.cache.outputs.cache-hit != 'true'
+        run: |
+          git init -q dash && cd dash
+          git fetch -q --depth 1 https://github.com/dashpay/dash ${{ matrix.rev.sha }}
+          git checkout -q FETCH_HEAD
+          git rev-parse HEAD
+          cmake -B build -DBUILD_GUI=ON -DWITH_BDB=OFF -DBUILD_TESTS=OFF -DBUILD_GUI_TESTS=OFF -DBUILD_BENCH=OFF -DWITH_ZMQ=OFF -DWITH_QRENCODE=OFF -DENABLE_EXTERNAL_SIGNER=OFF -DENABLE_STACKTRACES=OFF -DCMAKE_BUILD_TYPE=Release -DCMAKE_PREFIX_PATH="$(brew --prefix qt@5)"
+          cmake --build build -j4 --target bitcoin-qt bitcoin-cli
+          mkdir -p ../bin && cp $(find build -name dash-qt -type f -perm -u+x | head -1) $(find build -name dash-cli -type f -perm -u+x | head -1) ../bin/ && git rev-parse HEAD > ../bin/REV
+      - name: capture
+        env:
+          PUSH_TS: ${{ github.event.head_commit.timestamp }}
+        run: |
+          sw_vers > sysinfo.txt; uname -m >> sysinfo.txt; system_profiler SPDisplaysDataType >> sysinfo.txt 2>&1
+          brew list --versions qt@5 >> sysinfo.txt; cat bin/REV >> sysinfo.txt
+          bash ci/capture.sh "${{ matrix.rev.name }}" "$PWD/bin" "$PWD/out" || true
+          cp sysinfo.txt out/
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: shots-${{ matrix.rev.name }}
+          path: out
