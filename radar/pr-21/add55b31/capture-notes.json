@@ -1,0 +1,82 @@
+[
+  {
+    "which": "before",
+    "shape": "desktop",
+    "scheme": "light",
+    "url": "https://explorer.dashhq.org/blocks?from=2200000",
+    "rowsBefore": 20,
+    "rowsAfter": 20,
+    "build": null,
+    "at": "2026-11-24T21:59:30.379Z"
+  },
+  {
+    "which": "before",
+    "shape": "desktop",
+    "scheme": "dark",
+    "url": "https://explorer.dashhq.org/blocks?from=2200000",
+    "rowsBefore": 20,
+    "rowsAfter": 20,
+    "build": null,
+    "at": "2026-11-24T21:59:48.001Z"
+  },
+  {
+    "which": "before",
+    "shape": "phone",
+    "scheme": "light",
+    "url": "https://explorer.dashhq.org/blocks?from=2200000",
+    "rowsBefore": 20,
+    "rowsAfter": 20,
+    "build": null,
+    "at": "2026-11-24T21:59:56.548Z"
+  },
+  {
+    "which": "before",
+    "shape": "phone",
+    "scheme": "dark",
+    "url": "https://explorer.dashhq.org/blocks?from=2200000",
+    "rowsBefore": 20,
+    "rowsAfter": 20,
+    "build": null,
+    "at": "2026-11-24T22:00:05.172Z"
+  },
+  {
+    "which": "after",
+    "shape": "desktop",
+    "scheme": "light",
+    "url": "https://explorer-next.dashhq.org/blocks?from=2199992",
+    "rowsBefore": 20,
+    "rowsAfter": 40,
+    "build": null,
+    "at": "2026-11-24T22:00:22.879Z"
+  },
+  {
+    "which": "after",
+    "shape": "desktop",
+    "scheme": "dark",
+    "url": "https://explorer-next.dashhq.org/blocks?from=2199992",
+    "rowsBefore": 20,
+    "rowsAfter": 40,
+    "build": null,
+    "at": "2026-11-24T22:00:31.520Z"
+  },
+  {
+    "which": "after",
+    "shape": "phone",
+    "scheme": "light",
+    "url": "https://explorer-next.dashhq.org/blocks?from=2199986",
+    "rowsBefore": 20,
+    "rowsAfter": 40,
+    "build": null,
+    "at": "2026-11-24T22:00:40.151Z"
+  },
+  {
+    "which": "after",
+    "shape": "phone",
+    "scheme": "dark",
+    "url": "https://explorer-next.dashhq.org/blocks?from=2199986",
+    "rowsBefore": 20,
+    "rowsAfter": 40,
+    "build": null,
+    "at": "2026-11-24T22:00:49.281Z"
+  }
+]
