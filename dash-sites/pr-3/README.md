@@ -36,3 +36,19 @@ One uninterrupted run: headed Chrome on the PR head build, and DashPay for Andro
 | `wallet.mp4` | The wallet side of the run |
 
 On chain after the run: identity key 14 is `ECDSA_HASH160`, AUTHENTICATION, HIGH, bound to contract `3JRHRkyYZiwGS6xYQwNq2shemQ5mhGv36yK6VBweVtzx`, total budget 20,000,000,000 credits, expires 2027-02-22; the key the same browser was given by the previous sign-in (key 11) was disabled in the same identity update.
+
+## live/
+
+The same run repeated after the merge, against the deployed site: headed Chrome on https://dash-sites.thepasta.org/ as published by the Builder workflow for merge commit `8491cd6b5d082b9447f204cca8659cb5675f98fe`, and the same DashPay for Android 11.9.2 testnet wallet on the emulator. The file names match `real-wallet/`.
+
+| File | Shows |
+|---|---|
+| `1-builder-start.png` | The deployed builder, signed out |
+| `2-builder-code.png` | The sign-in code; the page names `dash-sites.thepasta.org` as the address to approve |
+| `3-wallet-approve.png` | DashPay: "Approve connection to "Dash Sites"?" for `p2p`, 0.2 DASH limit, expires Feb 22, 2027 |
+| `4-builder-confirm.png` | Builder: "A wallet answered as p2p.dash, builder2026.dash, demo2026.dash" |
+| `5-builder-signed-in.png` | Signed in, allowance 0.20000 DASH, names listed, no name registration |
+| `6-builder-published.png` | Published to `builder2026.dash` (cost 0.00131 DASH); https://builder2026.id.dashhq.org/ answered 200 afterwards |
+| `7-wallet-connected.png` | DashPay: Connections, Active, "Dash Sites" |
+| `browser.mp4` | The browser side of the run |
+| `wallet.mp4` | The wallet side of the run |
