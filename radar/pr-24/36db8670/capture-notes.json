@@ -1,0 +1,82 @@
+[
+  {
+    "which": "before",
+    "shape": "desktop",
+    "scheme": "light",
+    "url": "https://explorer-next.dashhq.org/platform/blocks",
+    "row25": "478849",
+    "rowsBefore": 25,
+    "rowsAfter": 25,
+    "at": "2026-11-24T23:12:52.972Z"
+  },
+  {
+    "which": "before",
+    "shape": "desktop",
+    "scheme": "dark",
+    "url": "https://explorer-next.dashhq.org/platform/blocks",
+    "row25": "478849",
+    "rowsBefore": 25,
+    "rowsAfter": 25,
+    "at": "2026-11-24T23:13:01.151Z"
+  },
+  {
+    "which": "before",
+    "shape": "phone",
+    "scheme": "light",
+    "url": "https://explorer-next.dashhq.org/platform/blocks",
+    "row25": "478849",
+    "rowsBefore": 25,
+    "rowsAfter": 25,
+    "at": "2026-11-24T23:13:09.336Z"
+  },
+  {
+    "which": "before",
+    "shape": "phone",
+    "scheme": "dark",
+    "url": "https://explorer-next.dashhq.org/platform/blocks",
+    "row25": "478849",
+    "rowsBefore": 25,
+    "rowsAfter": 25,
+    "at": "2026-11-24T23:13:17.512Z"
+  },
+  {
+    "which": "after",
+    "shape": "desktop",
+    "scheme": "light",
+    "url": "https://explorer-next.dashhq.org/platform/blocks",
+    "row25": "478849",
+    "rowsBefore": 25,
+    "rowsAfter": 49,
+    "at": "2026-11-24T23:14:00.200Z"
+  },
+  {
+    "which": "after",
+    "shape": "desktop",
+    "scheme": "dark",
+    "url": "https://explorer-next.dashhq.org/platform/blocks",
+    "row25": "478850",
+    "rowsBefore": 25,
+    "rowsAfter": 50,
+    "at": "2026-11-24T23:14:08.538Z"
+  },
+  {
+    "which": "after",
+    "shape": "phone",
+    "scheme": "light",
+    "url": "https://explorer-next.dashhq.org/platform/blocks",
+    "row25": "478850",
+    "rowsBefore": 25,
+    "rowsAfter": 50,
+    "at": "2026-11-24T23:14:16.812Z"
+  },
+  {
+    "which": "after",
+    "shape": "phone",
+    "scheme": "dark",
+    "url": "https://explorer-next.dashhq.org/platform/blocks",
+    "row25": "478850",
+    "rowsBefore": 25,
+    "rowsAfter": 50,
+    "at": "2026-11-24T23:14:25.172Z"
+  }
+]
