@@ -1,0 +1,42 @@
+[
+  {
+    "which": "live",
+    "shape": "desktop",
+    "scheme": "light",
+    "url": "https://explorer.dashhq.org/platform/blocks",
+    "row25": "478924",
+    "rowsBefore": 25,
+    "rowsAfter": 50,
+    "at": "2026-11-25T01:58:46.261Z"
+  },
+  {
+    "which": "live",
+    "shape": "desktop",
+    "scheme": "dark",
+    "url": "https://explorer.dashhq.org/platform/blocks",
+    "row25": "478924",
+    "rowsBefore": 25,
+    "rowsAfter": 50,
+    "at": "2026-11-25T01:58:54.914Z"
+  },
+  {
+    "which": "live",
+    "shape": "phone",
+    "scheme": "light",
+    "url": "https://explorer.dashhq.org/platform/blocks",
+    "row25": "478924",
+    "rowsBefore": 25,
+    "rowsAfter": 50,
+    "at": "2026-11-25T01:59:03.665Z"
+  },
+  {
+    "which": "live",
+    "shape": "phone",
+    "scheme": "dark",
+    "url": "https://explorer.dashhq.org/platform/blocks",
+    "row25": "478924",
+    "rowsBefore": 25,
+    "rowsAfter": 50,
+    "at": "2026-11-25T01:59:12.281Z"
+  }
+]

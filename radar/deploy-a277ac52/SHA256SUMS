@@ -1,0 +1,16 @@
+774d26662b30c4bb1a5fdcfa00a91b6877364b1f87c45c861a37fa2fdbf4a0f6  ./README.md
+f3f265ce3c0d70d050061a04e84e288f9e94048d63126e4f3396f8ae4918f593  ./blocks/capture-notes.json
+9a5d9569ca3626a300b61645a9aa5d4b620af2edf83c7aef00965ea58853cd6f  ./blocks/desktop-dark.png
+ea1f3fa6f31b960b1c5cba41c0d72e09da2388c249cc9b3be8840d87eef10359  ./blocks/desktop-light.png
+65f46947033581ff002d93f73bbb204dac4a4afc7bca83c6425c22a81b38fd3e  ./blocks/phone-dark.png
+0dcf2f35f2cade38dd9b26c87592ea93bebc9e2831188a71313b7421e79cb412  ./blocks/phone-light.png
+ad8e501ee43eaaf2221c21a14f6a0aa48e23f569cac19da8b161ed3866ccddba  ./masternodes/capture-notes.json
+97a6517969a1b614581548cceb6128b537b3e72a5f9d46bce0e313837f251cbb  ./masternodes/desktop-dark.png
+5f37c3eb1261096537f8d3ac92977e98c386f57bbc08023c7ab45c1f2357600a  ./masternodes/desktop-light.png
+b80e349d73bb3178c5c71c44d3bbf9e86e8a4555894cf60ca9401caed19efcea  ./masternodes/phone-dark.png
+e871efd515625d06048fd2b0c402044fe61403d7ba992f284575a9e4f15b2b22  ./masternodes/phone-light.png
+4855036e9cd71fd6bd07c28c073d7e1c697a522207d2630fe113b5b30badc115  ./platform-blocks/capture-notes.json
+253069ecbbab9fd425801ded891fa452c6e5e51d3cde6748242aa733e65397b6  ./platform-blocks/desktop-dark.png
+e3907524297f18604cd45d4da9b02678bbdbdb17ab2b69339baf94af8b3e9366  ./platform-blocks/desktop-light.png
+7809598337ebb976bc1c36e745a4dd29ab77858144eebce6b585dec82ba47bfa  ./platform-blocks/phone-dark.png
+727830fb713ab5ef50b0745e86741354b08070148527fe45cde7f791a43be56c  ./platform-blocks/phone-light.png

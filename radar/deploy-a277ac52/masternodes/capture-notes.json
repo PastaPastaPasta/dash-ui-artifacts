@@ -1,0 +1,34 @@
+[
+  {
+    "which": "live",
+    "shape": "desktop",
+    "scheme": "light",
+    "url": "https://explorer.dashhq.org/masternodes",
+    "highestDrawnIndex": 121,
+    "at": "2026-11-25T01:59:23.883Z"
+  },
+  {
+    "which": "live",
+    "shape": "desktop",
+    "scheme": "dark",
+    "url": "https://explorer.dashhq.org/masternodes",
+    "highestDrawnIndex": 121,
+    "at": "2026-11-25T01:59:34.337Z"
+  },
+  {
+    "which": "live",
+    "shape": "phone",
+    "scheme": "light",
+    "url": "https://explorer.dashhq.org/masternodes",
+    "highestDrawnIndex": 113,
+    "at": "2026-11-25T01:59:43.868Z"
+  },
+  {
+    "which": "live",
+    "shape": "phone",
+    "scheme": "dark",
+    "url": "https://explorer.dashhq.org/masternodes",
+    "highestDrawnIndex": 113,
+    "at": "2026-11-25T01:59:54.487Z"
+  }
+]
