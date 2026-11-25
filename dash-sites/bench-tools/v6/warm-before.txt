@@ -1,0 +1,65 @@
+creating a default sandbox...
+bx_bk2xyve6 ready in 1.5s
+== https://dash.site/new unthrottled
+{"label":"cold","ms":4041,"dashSiteRequests":11,"kb":9072
+{"label":"warm1","ms":99,"dashSiteRequests":4,"kb":3
+{"label":"warm2","ms":125,"dashSiteRequests":4,"kb":3
+{"label":"cold","ms":2367,"dashSiteRequests":11,"kb":9074
+{"label":"warm1","ms":99,"dashSiteRequests":4,"kb":3
+{"label":"warm2","ms":161,"dashSiteRequests":4,"kb":3
+{"label":"cold","ms":5716,"dashSiteRequests":11,"kb":9072
+{"label":"warm1","ms":155,"dashSiteRequests":4,"kb":3
+{"label":"warm2","ms":169,"dashSiteRequests":4,"kb":3
+== https://dash.site/new 50mbit
+{"label":"cold","ms":2642,"dashSiteRequests":10,"kb":107
+{"label":"warm1","ms":275,"dashSiteRequests":4,"kb":2
+{"label":"warm2","ms":270,"dashSiteRequests":4,"kb":1
+{"label":"cold","ms":2281,"dashSiteRequests":10,"kb":107
+{"label":"warm1","ms":266,"dashSiteRequests":4,"kb":2
+{"label":"warm2","ms":256,"dashSiteRequests":4,"kb":1
+{"label":"cold","ms":2214,"dashSiteRequests":10,"kb":107
+{"label":"warm1","ms":263,"dashSiteRequests":4,"kb":2
+{"label":"warm2","ms":242,"dashSiteRequests":4,"kb":1
+== https://dash.site/ unthrottled
+{"label":"cold","ms":1842,"dashSiteRequests":1,"kb":9
+{"label":"warm1","ms":56,"dashSiteRequests":1,"kb":1
+{"label":"warm2","ms":55,"dashSiteRequests":1,"kb":1
+{"label":"cold","ms":1765,"dashSiteRequests":1,"kb":9
+{"label":"warm1","ms":68,"dashSiteRequests":1,"kb":1
+{"label":"warm2","ms":38,"dashSiteRequests":1,"kb":1
+{"label":"cold","ms":2478,"dashSiteRequests":1,"kb":9
+{"label":"warm1","ms":52,"dashSiteRequests":1,"kb":1
+{"label":"warm2","ms":44,"dashSiteRequests":1,"kb":1
+== https://dash.site/ 50mbit
+{"label":"cold","ms":1919,"dashSiteRequests":1,"kb":9
+{"label":"warm1","ms":83,"dashSiteRequests":1,"kb":0
+{"label":"warm2","ms":96,"dashSiteRequests":1,"kb":0
+{"label":"cold","ms":1526,"dashSiteRequests":1,"kb":9
+{"label":"warm1","ms":104,"dashSiteRequests":1,"kb":0
+{"label":"warm2","ms":85,"dashSiteRequests":1,"kb":0
+{"label":"cold","ms":1666,"dashSiteRequests":1,"kb":9
+{"label":"warm1","ms":83,"dashSiteRequests":1,"kb":0
+{"label":"warm2","ms":82,"dashSiteRequests":1,"kb":0
+== https://d4shhq.dash.site/ unthrottled
+{"label":"cold","ms":3791,"dashSiteRequests":1,"kb":9
+{"label":"warm1","ms":32,"dashSiteRequests":0,"kb":0
+{"label":"warm2","ms":30,"dashSiteRequests":0,"kb":0
+{"label":"cold","ms":3826,"dashSiteRequests":1,"kb":9
+{"label":"warm1","ms":27,"dashSiteRequests":0,"kb":0
+{"label":"warm2","ms":28,"dashSiteRequests":0,"kb":0
+{"label":"cold","ms":3599,"dashSiteRequests":1,"kb":9
+{"label":"warm1","ms":24,"dashSiteRequests":0,"kb":0
+{"label":"warm2","ms":23,"dashSiteRequests":0,"kb":0
+== https://d4shhq.dash.site/ 50mbit
+{"label":"cold","ms":6465,"dashSiteRequests":1,"kb":9
+{"label":"warm1","ms":27,"dashSiteRequests":0,"kb":0
+{"label":"warm2","ms":23,"dashSiteRequests":0,"kb":0
+{"label":"cold","ms":6128,"dashSiteRequests":1,"kb":9
+{"label":"warm1","ms":33,"dashSiteRequests":0,"kb":0
+{"label":"warm2","ms":47,"dashSiteRequests":0,"kb":0
+{"label":"cold","ms":6441,"dashSiteRequests":1,"kb":9
+{"label":"warm1","ms":33,"dashSiteRequests":0,"kb":0
+{"label":"warm2","ms":24,"dashSiteRequests":0,"kb":0
+== /new warm list
+"list":["200 /new","200 /new/styles.css","200 /new/assets/app.js","200 /new/assets/bricolage.woff2"]}
+exit 0 · 3m 15s · default · $0.0019 · bx_bk2xyve6 deleted

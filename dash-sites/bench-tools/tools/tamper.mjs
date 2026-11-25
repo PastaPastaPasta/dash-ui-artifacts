@@ -1,0 +1,10 @@
+import { chromium } from '/work/scratch/dash-site/dash-sites/node_modules/playwright/index.mjs';
+const b = await chromium.launch({ channel: 'chromium', args: ['--host-resolver-rules=MAP dash.site 127.0.0.1:18944, MAP *.dash.site 127.0.0.1:18944', '--ignore-certificate-errors'] });
+const p = await b.newPage();
+const fetched = [];
+p.context().on('request', (r) => { if (/verifier/.test(r.url())) fetched.push(r.url().split('/').pop()); });
+await p.goto('https://d4shhq.dash.site/');
+await p.waitForFunction(() => document.body.classList.contains('failed') || !document.getElementById('step'), null, { timeout: 120000 });
+await p.waitForTimeout(1500); console.log(await p.evaluate(() => [document.title, document.body.className, document.getElementById('step')?.textContent]));
+console.log('fetched', fetched);
+await b.close();

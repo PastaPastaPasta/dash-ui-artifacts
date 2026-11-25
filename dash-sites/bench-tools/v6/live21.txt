@@ -1,0 +1,33 @@
+creating a default sandbox...
+bx_8m3xtgp2 ready in 1.4s
+dash.site AAAA: 2a06:98c1:3121::2 2a06:98c1:3120::2 
+d4shhq.dash.site AAAA: 2a06:98c1:3121::2 2a06:98c1:3120::2 
+SAME https://dash.site/
+SAME https://d4shhq.dash.site/
+SAME https://dash.site/new
+SAME https://dash.site/sw.js
+SAME https://d4shhq.dash.site/sw.js
+SAME https://dash.site/dash-sites-verifier-4a9718030ef333ac.wasm.br
+SAME https://dash.site/dash-sites-verifier-d16e6af4926f02ae.js
+RESULT fail=0
+== browser via [2a06:98c1:3120::2]
+first visit true d4shhq.dash
+hard reload 1 true "d4shhq.dash" 
+hard reload 2 true "d4shhq.dash" 
+hard reload 3 true "d4shhq.dash" 
+hard reload 4 true "d4shhq.dash" 
+hard reload 5 true "d4shhq.dash" 
+hard reload 6 true "d4shhq.dash" 
+hard reload 7 true "d4shhq.dash" 
+hard reload 8 true "d4shhq.dash" 
+== browser via 188.114.96.2
+first visit true d4shhq.dash
+hard reload 1 true "d4shhq.dash" 
+hard reload 2 true "d4shhq.dash" 
+hard reload 3 true "d4shhq.dash" 
+hard reload 4 true "d4shhq.dash" 
+hard reload 5 true "d4shhq.dash" 
+hard reload 6 true "d4shhq.dash" 
+hard reload 7 true "d4shhq.dash" 
+hard reload 8 true "d4shhq.dash" 
+exit 0 · 22s · default · $0.0002 · bx_8m3xtgp2 deleted

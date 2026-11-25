@@ -1,0 +1,24 @@
+import { readFileSync } from 'node:fs';
+import { createHash } from 'node:crypto';
+const R = '/work/scratch/dash-site/dash-sites/packages/core/dist';
+const { EvoReader, registerContract } = await import(`${R}/evo.js`);
+const { formatDash } = await import(`${R}/index.js`);
+const { base58 } = await import('/work/scratch/dash-site/dash-sites/node_modules/@scure/base/lib/esm/index.js');
+const id = JSON.parse(readFileSync(process.argv[2], 'utf8'));
+const schema = JSON.parse(readFileSync('/work/scratch/dash-site/dash-sites/contract/dash-sites.v1.json', 'utf8'));
+const sha = (b) => createHash('sha256').update(b).digest();
+const key = id.identityKeys.find((k) => k.purpose === 'AUTHENTICATION' && k.securityLevel === 'CRITICAL');
+const payload = Buffer.concat([Buffer.from([0xef]), Buffer.from(key.privateKeyHex, 'hex'), Buffer.from([1])]);
+const wif = base58.encode(new Uint8Array(Buffer.concat([payload, sha(sha(payload)).subarray(0, 4)])));
+const reader = await EvoReader.connect({ network: 'testnet', contractId: '' });
+const bal = () => reader.identityBalance(id.identityId);
+const before = await bal();
+console.log('balance before', before.toString(), formatDash(before));
+const t0 = Date.now();
+const contractId = await registerContract('testnet', { identityId: id.identityId, privateKeyWif: wif }, schema);
+console.log('registered', contractId, 'in', Date.now() - t0, 'ms');
+let after = await bal();
+for (let i = 0; i < 10 && after === before; i++) { await new Promise((r) => setTimeout(r, 3000)); after = await bal(); }
+console.log('balance after', after.toString(), formatDash(after));
+console.log('charged credits', (before - after).toString(), 'DASH', formatDash(before - after));
+process.exit(0);

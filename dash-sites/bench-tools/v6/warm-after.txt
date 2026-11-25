@@ -1,0 +1,65 @@
+creating a default sandbox...
+bx_bcwd4xkg ready in 1.0s
+== https://dash.site/new unthrottled
+{"label":"cold","ms":451,"dashSiteRequests":9,"kb":110
+{"label":"warm1","ms":132,"dashSiteRequests":2,"kb":8962
+{"label":"warm2","ms":100,"dashSiteRequests":1,"kb":1
+{"label":"cold","ms":346,"dashSiteRequests":10,"kb":9072
+{"label":"warm1","ms":126,"dashSiteRequests":1,"kb":1
+{"label":"warm2","ms":122,"dashSiteRequests":1,"kb":1
+{"label":"cold","ms":423,"dashSiteRequests":10,"kb":9072
+{"label":"warm1","ms":118,"dashSiteRequests":1,"kb":1
+{"label":"warm2","ms":98,"dashSiteRequests":1,"kb":1
+== https://dash.site/new 50mbit
+{"label":"cold","ms":479,"dashSiteRequests":9,"kb":107
+{"label":"warm1","ms":292,"dashSiteRequests":1,"kb":0
+{"label":"warm2","ms":146,"dashSiteRequests":1,"kb":0
+{"label":"cold","ms":436,"dashSiteRequests":9,"kb":106
+{"label":"warm1","ms":183,"dashSiteRequests":1,"kb":0
+{"label":"warm2","ms":189,"dashSiteRequests":1,"kb":0
+{"label":"cold","ms":437,"dashSiteRequests":9,"kb":107
+{"label":"warm1","ms":200,"dashSiteRequests":1,"kb":0
+{"label":"warm2","ms":157,"dashSiteRequests":1,"kb":0
+== https://dash.site/ unthrottled
+{"label":"cold","ms":92,"dashSiteRequests":1,"kb":9
+{"label":"warm1","ms":68,"dashSiteRequests":1,"kb":1
+{"label":"warm2","ms":68,"dashSiteRequests":1,"kb":1
+{"label":"cold","ms":90,"dashSiteRequests":1,"kb":9
+{"label":"warm1","ms":80,"dashSiteRequests":1,"kb":1
+{"label":"warm2","ms":70,"dashSiteRequests":1,"kb":1
+{"label":"cold","ms":69,"dashSiteRequests":1,"kb":9
+{"label":"warm1","ms":59,"dashSiteRequests":1,"kb":1
+{"label":"warm2","ms":53,"dashSiteRequests":1,"kb":1
+== https://dash.site/ 50mbit
+{"label":"cold","ms":189,"dashSiteRequests":1,"kb":9
+{"label":"warm1","ms":103,"dashSiteRequests":1,"kb":0
+{"label":"warm2","ms":96,"dashSiteRequests":1,"kb":0
+{"label":"cold","ms":188,"dashSiteRequests":1,"kb":9
+{"label":"warm1","ms":98,"dashSiteRequests":1,"kb":0
+{"label":"warm2","ms":97,"dashSiteRequests":1,"kb":0
+{"label":"cold","ms":161,"dashSiteRequests":1,"kb":9
+{"label":"warm1","ms":91,"dashSiteRequests":1,"kb":0
+{"label":"warm2","ms":84,"dashSiteRequests":1,"kb":0
+== https://d4shhq.dash.site/ unthrottled
+{"label":"cold","ms":1144,"dashSiteRequests":1,"kb":9
+{"label":"warm1","ms":42,"dashSiteRequests":0,"kb":0
+{"label":"warm2","ms":43,"dashSiteRequests":0,"kb":0
+{"label":"cold","ms":1157,"dashSiteRequests":1,"kb":9
+{"label":"warm1","ms":38,"dashSiteRequests":0,"kb":0
+{"label":"warm2","ms":33,"dashSiteRequests":0,"kb":0
+{"label":"cold","ms":914,"dashSiteRequests":1,"kb":9
+{"label":"warm1","ms":37,"dashSiteRequests":0,"kb":0
+{"label":"warm2","ms":32,"dashSiteRequests":0,"kb":0
+== https://d4shhq.dash.site/ 50mbit
+{"label":"cold","ms":2357,"dashSiteRequests":1,"kb":9
+{"label":"warm1","ms":34,"dashSiteRequests":0,"kb":0
+{"label":"warm2","ms":34,"dashSiteRequests":0,"kb":0
+{"label":"cold","ms":2208,"dashSiteRequests":1,"kb":9
+{"label":"warm1","ms":39,"dashSiteRequests":0,"kb":0
+{"label":"warm2","ms":46,"dashSiteRequests":0,"kb":0
+{"label":"cold","ms":2401,"dashSiteRequests":1,"kb":9
+{"label":"warm1","ms":33,"dashSiteRequests":0,"kb":0
+{"label":"warm2","ms":40,"dashSiteRequests":0,"kb":0
+== /new warm list
+"list":["200 /new"]}
+exit 0 · 1m 57s · default · $0.0012 · bx_bcwd4xkg deleted

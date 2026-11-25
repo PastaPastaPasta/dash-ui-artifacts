@@ -1,0 +1,60 @@
+creating a default sandbox...
+bx_dctg5f8f ready in 1.0s
+== DNS
+dash.site A:    188.114.96.0 188.114.97.0 
+dash.site AAAA: 2a06:98c1:3121::2 2a06:98c1:3120::2 
+d4shhq.dash.site A:    188.114.96.2 188.114.97.2 
+d4shhq.dash.site AAAA: 2a06:98c1:3121::2 2a06:98c1:3120::2 
+== sandbox v6 route: 2606:4700:4700::1111 from :: via 2001:41d0:1008:970:100::1 dev ens3 proto static src 2001:41d0:1008:970:100::2d metric 1024 pref medium
+SAME https://dash.site/
+   v4: 200 188.114.96.0 7182 body 6e4d6024f3875abb
+   v6: 200 2a06:98c1:3120::2 7182 body 6e4d6024f3875abb
+SAME https://d4shhq.dash.site/
+   v4: 200 188.114.96.2 7182 body 6e4d6024f3875abb
+   v6: 200 2a06:98c1:3120::2 7182 body 6e4d6024f3875abb
+SAME https://dash.site/new
+   v4: 200 188.114.96.0 3602 body d8b1d6729a19da2e
+   v6: 200 2a06:98c1:3121::2 3602 body d8b1d6729a19da2e
+SAME https://dash.site/sw.js
+   v4: 200 188.114.97.0 43097 body 4df814ce07d231e9
+   v6: 200 2a06:98c1:3121::2 43097 body 4df814ce07d231e9
+SAME https://d4shhq.dash.site/sw.js
+   v4: 200 188.114.96.2 43097 body 4df814ce07d231e9
+   v6: 200 2a06:98c1:3120::2 43097 body 4df814ce07d231e9
+SAME https://dash.site/dash-sites-verifier-4a9718030ef333ac.wasm.br
+   v4: 200 188.114.97.0 5721668 body eacbd75905815c9e
+   v6: 200 2a06:98c1:3121::2 5721668 body eacbd75905815c9e
+SAME https://dash.site/dash-sites-verifier-d16e6af4926f02ae.js
+   v4: 200 188.114.97.0 199652 body d82789fea87694cb
+   v6: 200 2a06:98c1:3120::2 199652 body d82789fea87694cb
+== v6 headers for https://d4shhq.dash.site/
+HTTP/2 200 
+date: Wed, 25 Nov 2026 01:51:51 GMT
+content-type: text/html
+content-length: 7182
+cf-cache-status: HIT
+cache-control: no-cache, no-transform
+etag: "8653256db954e30f04ec5476fd0a924d"
+strict-transport-security: max-age=31536000; includeSubDomains
+referrer-policy: strict-origin-when-cross-origin
+x-content-type-options: nosniff
+server: cloudflare
+alt-svc: h3=":443"; ma=86400
+
+== v6 headers for verifier
+HTTP/2 200 
+date: Wed, 25 Nov 2026 01:51:51 GMT
+content-length: 5721668
+cf-cache-status: HIT
+access-control-allow-origin: *
+cache-control: public, max-age=31536000, immutable
+etag: "c2f0d01cf7cf90e2803bab140a61cf53"
+strict-transport-security: max-age=31536000; includeSubDomains
+referrer-policy: strict-origin-when-cross-origin
+x-content-type-options: nosniff
+server: cloudflare
+alt-svc: h3=":443"; ma=86400
+
+== build in sw.js (v6): dash-sites-verifier-4a9718030ef333ac.wasm.br dash-sites-verifier-d16e6af4926f02ae.js 
+RESULT fail=0
+exit 0 · 4s · default · $0.0000 · bx_dctg5f8f deleted

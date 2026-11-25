@@ -1,0 +1,37 @@
+creating a default sandbox...
+bx_j8smuym4 ready in 1.1s
+direct verifier fetch 9155569 B in 0.430084s
+== unthrottled
+┌─────────┬───────┬──────┬────────┬───────────┬──────────┬─────────┬─────────┬──────────┬───────────┬────────┬──────────┬───────────┐
+│ (index) │ ready │ html │ vstart │ swjs      │ download │ startup │ quorums │ proofs   │ proofEach │ reload │ chunks   │ chunkEach │
+├─────────┼───────┼──────┼────────┼───────────┼──────────┼─────────┼─────────┼──────────┼───────────┼────────┼──────────┼───────────┤
+│ 0       │ 2510  │ 119  │ 207    │ '137-202' │ 331      │ 596     │ 130     │ '2q 731' │ '104/618' │ 9      │ '2q 444' │ '209/62'  │
+│ 1       │ 2169  │ 101  │ 171    │ '104-163' │ 336      │ 561     │ 38      │ '2q 521' │ '302/211' │ 11     │ '2q 492' │ '118/213' │
+│ 2       │ 1813  │ 76   │ 151    │ '82-147'  │ 424      │ 477     │ 33      │ '2q 172' │ '62/97'   │ 10     │ '2q 485' │ '114/208' │
+│ 3       │ 2089  │ 91   │ 181    │ '103-171' │ 269      │ 517     │ 24      │ '2q 532' │ '453/72'  │ 4      │ '2q 519' │ '217/155' │
+│ 4       │ 2479  │ 90   │ 164    │ '101-162' │ 454      │ 525     │ 112     │ '2q 619' │ '395/210' │ 19     │ '2q 555' │ '150/218' │
+└─────────┴───────┴──────┴────────┴───────────┴──────────┴─────────┴─────────┴──────────┴───────────┴────────┴──────────┴───────────┘
+== 50mbit 30ms
+== 20mbit 30ms
+node:internal/modules/run_main:107
+    triggerUncaughtException(
+    ^
+
+page.waitForFunction: Timeout 120000ms exceeded.
+    at /home/user/p/c.mjs:14:14 {
+  name: 'TimeoutError'
+}
+
+Node.js v24.22.1
+node:internal/modules/run_main:107
+    triggerUncaughtException(
+    ^
+
+page.waitForFunction: Timeout 120000ms exceeded.
+    at /home/user/p/c.mjs:14:14 {
+  name: 'TimeoutError'
+}
+
+Node.js v24.22.1
+Google Chrome 151.0.7922.108 stable
+exit 0 · 4m 32s · default · $0.0027 · bx_j8smuym4 deleted

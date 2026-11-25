@@ -1,0 +1,91 @@
+creating a default sandbox...
+bx_j4g7s584 ready in 1.4s
+== 50mbit
+--- run 0 ready 5205 ms
+   10  1310  1300 pg  GET  d4shhq.dash.site/                                                                          conn 838 tls 794 ttfb 94 
+ 1301  1387    86 SW  GET  d4shhq.dash.site/sw.js                                                                     reused ttfb 87 
+ 1394  2657  1263 SW  GET  dash.site/dash-sites-verifier-4a9718030ef333ac.wasm.br                                     conn 100 tls 42 ttfb 195 
+ 1395  1650   255 SW  GET  dash.site/dash-sites-verifier-6e755af3f55385a6.js                                          reused ttfb 118 
+ 2754  4647  1893 pg  GET  d4shhq.dash.site/.well-known/dash/site.json                                                reused ttfb 1892 
+ 2766  3006   240 SW  GET  quorums.mainnet.networks.dash.org/quorums                                                  conn 113 tls 43 ttfb 125 
+ 2767  3009   242 SW  GET  quorums.mainnet.networks.dash.org/previous                                                 reused ttfb 130 
+ 2767  3022   255 SW  GET  quorums.mainnet.networks.dash.org/masternodes                                              reused ttfb 140 
+ 3056  3273   217 SW  OPTIONS 158.220.101.28/org.dash.platform.dapi.v0.Platform/getEpochsInfo                            conn 102 tls 53 ttfb 114 
+ 3060  3440   380 SW  POST 158.220.101.28/org.dash.platform.dapi.v0.Platform/getEpochsInfo                            reused ttfb 144 
+ 3060  3967   907 SW  POST 172.236.244.81/org.dash.platform.dapi.v0.Platform/getDocuments                             reused ttfb 178 
+ 3060  3770   710 SW  OPTIONS 172.236.244.81/org.dash.platform.dapi.v0.Platform/getDocuments                             conn 351 tls 177 ttfb 358 
+ 3440  5074  1634 SW  POST 43.167.244.109/org.dash.platform.dapi.v0.Platform/getDataContractsLatestVersions           reused ttfb 530 
+ 3440  4533  1093 SW  OPTIONS 43.167.244.109/org.dash.platform.dapi.v0.Platform/getDataContractsLatestVersions           conn 564 tls 285 ttfb 528 
+ 3968  4642   674 SW  POST 37.60.244.253/org.dash.platform.dapi.v0.Platform/getDocuments                              reused ttfb 250 
+ 3968  4380   412 SW  OPTIONS 37.60.244.253/org.dash.platform.dapi.v0.Platform/getDocuments                              conn 357 tls 175 ttfb 56 
+ 4650  4653     3 pg  GET  d4shhq.dash.site/                                                                          reused ttfb 1 
+ 4653  4669    16 pg  GET  d4shhq.dash.site/.well-known/dash/reset                                                    reused ttfb 1 
+ 4672  4678     6 pg  GET  d4shhq.dash.site/.well-known/dash/reset                                                    reused ttfb 5 net::ERR_ABORTED
+ 4677  5098   421 pg  GET  d4shhq.dash.site/                                                                          reused ttfb 411 
+ 4681  4948   267 SW  POST 192.248.175.198/org.dash.platform.dapi.v0.Platform/getDocuments                            reused ttfb 89 
+ 4681  4850   169 SW  OPTIONS 192.248.175.198/org.dash.platform.dapi.v0.Platform/getDocuments                            conn 80 tls 40 ttfb 87 
+ 4951  5092   141 SW  POST 158.220.101.28/org.dash.platform.dapi.v0.Platform/getDocuments                             reused ttfb 77 
+ 4951  5003    52 SW  OPTIONS 158.220.101.28/org.dash.platform.dapi.v0.Platform/getDocuments                             reused ttfb 49 
+--- run 1 ready 3385 ms
+    6   199   193 pg  GET  d4shhq.dash.site/                                                                          conn 94 tls 48 ttfb 79 
+  208   298    90 SW  GET  d4shhq.dash.site/sw.js                                                                     reused ttfb 89 
+  302  1473  1171 SW  GET  dash.site/dash-sites-verifier-4a9718030ef333ac.wasm.br                                     conn 81 tls 42 ttfb 108 
+  302   497   195 SW  GET  dash.site/dash-sites-verifier-6e755af3f55385a6.js                                          reused ttfb 77 
+ 1565  2781  1216 pg  GET  d4shhq.dash.site/.well-known/dash/site.json                                                reused ttfb 1215 
+ 1578  1709   131 SW  GET  quorums.mainnet.networks.dash.org/quorums                                                  conn 81 tls 42 ttfb 46 
+ 1578  1707   129 SW  GET  quorums.mainnet.networks.dash.org/previous                                                 reused ttfb 46 
+ 1578  1722   144 SW  GET  quorums.mainnet.networks.dash.org/masternodes                                              reused ttfb 56 
+ 1750  1942   192 SW  OPTIONS 62.171.136.93/org.dash.platform.dapi.v0.Platform/getEpochsInfo                             conn 91 tls 48 ttfb 101 
+ 1755  2102   347 SW  POST 62.171.136.93/org.dash.platform.dapi.v0.Platform/getEpochsInfo                             reused ttfb 140 
+ 1755  2065   310 SW  POST 161.97.91.68/org.dash.platform.dapi.v0.Platform/getDocuments                               reused ttfb 100 
+ 1755  1939   184 SW  OPTIONS 161.97.91.68/org.dash.platform.dapi.v0.Platform/getDocuments                               conn 88 tls 44 ttfb 97 
+ 2066  2776   710 SW  POST 15.235.102.215/org.dash.platform.dapi.v0.Platform/getDocuments                             reused ttfb 238 
+ 2066  2527   461 SW  OPTIONS 15.235.102.215/org.dash.platform.dapi.v0.Platform/getDocuments                             conn 227 tls 116 ttfb 233 
+ 2102  3233  1131 SW  OPTIONS 43.167.244.109/org.dash.platform.dapi.v0.Platform/getDataContractsLatestVersions           conn 582 tls 292 ttfb 548 
+ 2103           0 SW  POST 43.167.244.109/org.dash.platform.dapi.v0.Platform/getDataContractsLatestVersions           reused ttfb - 
+ 2783  2786     3 pg  GET  d4shhq.dash.site/                                                                          reused ttfb 2 
+ 2786  2797    11 pg  GET  d4shhq.dash.site/.well-known/dash/reset                                                    reused ttfb 1 
+ 2800  2805     5 pg  GET  d4shhq.dash.site/.well-known/dash/reset                                                    reused ttfb 2 net::ERR_ABORTED
+ 2805  3283   478 pg  GET  d4shhq.dash.site/                                                                          reused ttfb 469 
+ 2807  3085   278 SW  POST 80.240.19.200/org.dash.platform.dapi.v0.Platform/getDocuments                              reused ttfb 91 
+ 2807  2978   171 SW  OPTIONS 80.240.19.200/org.dash.platform.dapi.v0.Platform/getDocuments                              conn 81 tls 42 ttfb 88 
+ 3089  3276   187 SW  POST 62.171.136.93/org.dash.platform.dapi.v0.Platform/getDocuments                              reused ttfb 130 
+ 3089  3133    44 SW  OPTIONS 62.171.136.93/org.dash.platform.dapi.v0.Platform/getDocuments                              reused ttfb 44 
+== unthrottled
+--- run 0 ready 1788 ms
+   12   470   458 pg  GET  d4shhq.dash.site/                                                                          conn 380 tls 380 ttfb 55 
+  474   534    60 SW  GET  d4shhq.dash.site/sw.js                                                                     reused ttfb 59 
+  538   881   343 SW  GET  dash.site/dash-sites-verifier-4a9718030ef333ac.wasm.br                                     conn 16 tls 11 ttfb 63 
+  538   629    91 SW  GET  dash.site/dash-sites-verifier-6e755af3f55385a6.js                                          reused ttfb 43 
+  983  1330   347 pg  GET  d4shhq.dash.site/.well-known/dash/site.json                                                reused ttfb 348 
+ 1000  1035    35 SW  GET  quorums.mainnet.networks.dash.org/quorums                                                  reused ttfb 9 
+ 1000  1032    32 SW  GET  quorums.mainnet.networks.dash.org/previous                                                 conn 16 tls 10 ttfb 8 
+ 1000  1037    37 SW  GET  quorums.mainnet.networks.dash.org/masternodes                                              reused ttfb 11 
+ 1077  1213   136 SW  OPTIONS 185.166.217.154/org.dash.platform.dapi.v0.Platform/getEpochsInfo                           conn 90 tls 48 ttfb 42 
+ 1082  1275   193 SW  POST 185.166.217.154/org.dash.platform.dapi.v0.Platform/getEpochsInfo                           reused ttfb 46 net::ERR_ABORTED
+ 1082  1226   144 SW  POST 2.59.156.192/org.dash.platform.dapi.v0.Platform/getDocuments                               reused ttfb 52 net::ERR_ABORTED
+ 1082  1139    57 SW  OPTIONS 2.59.156.192/org.dash.platform.dapi.v0.Platform/getDocuments                               conn 37 tls 21 ttfb 18 
+ 1225  1324    99 SW  POST 109.199.124.30/org.dash.platform.dapi.v0.Platform/getDocuments                             reused ttfb 31 
+ 1225  1281    56 SW  OPTIONS 109.199.124.30/org.dash.platform.dapi.v0.Platform/getDocuments                             conn 38 tls 21 ttfb 18 
+ 1275  1475   200 SW  POST 65.109.114.215/org.dash.platform.dapi.v0.Platform/getDataContractsLatestVersions           reused ttfb 51 
+ 1276  1411   135 SW  OPTIONS 65.109.114.215/org.dash.platform.dapi.v0.Platform/getDataContractsLatestVersions           conn 92 tls 47 ttfb 45 
+ 1333  1335     2 pg  GET  d4shhq.dash.site/                                                                          reused ttfb 0 
+ 1335  1347    12 pg  GET  d4shhq.dash.site/.well-known/dash/reset                                                    reused ttfb 2 
+ 1348  1358    10 pg  GET  d4shhq.dash.site/.well-known/dash/reset                                                    reused ttfb 3 net::ERR_ABORTED
+ 1357  1687   330 pg  GET  d4shhq.dash.site/                                                                          reused ttfb 319 
+ 1360  1566   206 SW  POST 65.108.246.145/org.dash.platform.dapi.v0.Platform/getDocuments                             reused ttfb 51 
+ 1360  1502   142 SW  OPTIONS 65.108.246.145/org.dash.platform.dapi.v0.Platform/getDocuments                             conn 95 tls 48 ttfb 46 
+ 1568  1679   111 SW  POST 185.166.217.154/org.dash.platform.dapi.v0.Platform/getDocuments                            reused ttfb 49 
+ 1568  1616    48 SW  OPTIONS 185.166.217.154/org.dash.platform.dapi.v0.Platform/getDocuments                            reused ttfb 47 
+HTTP/2 404 
+date: Wed, 25 Nov 2026 01:15:54 GMT
+access-control-allow-origin: *
+access-control-expose-headers: *
+vary: origin, access-control-request-method, access-control-request-headers
+x-cache: Error from cloudfront
+via: 1.1 1ebee81f497eb06c92039c3b1faacc38.cloudfront.net (CloudFront)
+x-amz-cf-pop: LHR50-P5
+alt-svc: h3=":443"; ma=86400
+x-amz-cf-id: JcJxrDZ6RsliJH3MQO3qYcKKbC0zSORf6xyjcisoCgqOpEJsEl5kGQ==
+
+exit 0 · 17s · default · $0.0002 · bx_j4g7s584 deleted

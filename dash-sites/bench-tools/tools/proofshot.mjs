@@ -1,0 +1,11 @@
+import { chromium } from '/work/scratch/dash-site/dash-sites/node_modules/playwright/index.mjs';
+const browser = await chromium.launch();
+const ctx = await browser.newContext({ viewport: { width: 1280, height: 800 } });
+const page = await ctx.newPage();
+await page.goto('https://d4shhq.dash.site/', { waitUntil: 'load' });
+await page.waitForFunction(() => document.title === 'd4shhq.dash', null, { timeout: 90000 });
+const rec = await page.evaluate(async () => (await fetch('/.well-known/dash/site.json')).json());
+console.log(JSON.stringify({ status: rec.status, servedBy: rec.servedBy, name: rec.name, owner: rec.ownerId, content: rec.site?.content, proof: rec.proof }));
+await page.setContent(`<pre style="font:14px monospace;white-space:pre-wrap;padding:24px">GET https://d4shhq.dash.site/.well-known/dash/site.json (answered by the in-browser verifier)\n\n${JSON.stringify(rec, null, 2).replace(/</g, '&lt;')}</pre>`);
+await page.screenshot({ path: 'proofs-mainnet/proof-record-desktop.png', fullPage: true });
+await browser.close();

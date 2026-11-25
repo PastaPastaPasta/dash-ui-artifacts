@@ -1,0 +1,31 @@
+import { chromium } from '/work/scratch/dash-site/dash-sites/node_modules/playwright/index.mjs';
+import { mkdirSync } from 'node:fs';
+const [, , map, out] = process.argv;
+mkdirSync(out, { recursive: true });
+const shapes = { desktop: { viewport: { width: 1280, height: 800 } }, phone: { viewport: { width: 390, height: 844 }, deviceScaleFactor: 3, isMobile: true, hasTouch: true } };
+const browser = await chromium.launch({ channel: 'chromium', headless: true, args: [`--host-resolver-rules=MAP dash.site ${map}, MAP *.dash.site ${map}`, '--ignore-certificate-errors'] });
+const loaded = (page) => page.waitForFunction(() => document.title !== 'Loading from Dash Platform' && document.readyState === 'complete', null, { timeout: 180000 });
+for (const color of ['light', 'dark']) for (const [shape, opts] of Object.entries(shapes)) {
+  const ctx = await browser.newContext({ ...opts, colorScheme: color });
+  let page = await ctx.newPage();
+  await page.goto('https://d4shhq.dash.site/', { waitUntil: 'domcontentloaded' });
+  await page.waitForFunction(() => /: ([3-9]\d)%/.test(document.getElementById('step')?.textContent ?? ''), null, { timeout: 120000, polling: 50 });
+  await page.screenshot({ path: `${out}/download-${color}-${shape}.png` });
+  console.log('download', color, shape, await page.textContent('#step'));
+  await loaded(page);
+  await page.waitForTimeout(1000);
+  await page.screenshot({ path: `${out}/site-${color}-${shape}.png` });
+  const cdp = await ctx.newCDPSession(page);
+  await cdp.send('ServiceWorker.enable');
+  await cdp.send('ServiceWorker.stopAllWorkers');
+  await cdp.detach();
+  await page.close();
+  page = await ctx.newPage();
+  await page.goto('https://d4shhq.dash.site/', { waitUntil: 'domcontentloaded' });
+  await page.waitForFunction(() => /Asking Dash Platform/.test(document.getElementById('step')?.textContent ?? ''), null, { timeout: 30000, polling: 20 });
+  await page.screenshot({ path: `${out}/proving-${color}-${shape}.png` });
+  console.log('proving', color, shape, await page.textContent('#step'));
+  await loaded(page);
+  await ctx.close();
+}
+await browser.close();
