@@ -1,0 +1,66 @@
+[
+  {
+    "which": "before",
+    "shape": "desktop",
+    "scheme": "light",
+    "url": "https://explorer-next.dashhq.org/masternodes",
+    "highestDrawnIndex": 99,
+    "at": "2026-11-25T00:30:58.078Z"
+  },
+  {
+    "which": "before",
+    "shape": "desktop",
+    "scheme": "dark",
+    "url": "https://explorer-next.dashhq.org/masternodes",
+    "highestDrawnIndex": 99,
+    "at": "2026-11-25T00:31:09.350Z"
+  },
+  {
+    "which": "before",
+    "shape": "phone",
+    "scheme": "light",
+    "url": "https://explorer-next.dashhq.org/masternodes",
+    "highestDrawnIndex": 99,
+    "at": "2026-11-25T00:31:21.642Z"
+  },
+  {
+    "which": "before",
+    "shape": "phone",
+    "scheme": "dark",
+    "url": "https://explorer-next.dashhq.org/masternodes",
+    "highestDrawnIndex": 99,
+    "at": "2026-11-25T00:31:35.361Z"
+  },
+  {
+    "which": "after",
+    "shape": "desktop",
+    "scheme": "light",
+    "url": "https://explorer-next.dashhq.org/masternodes",
+    "highestDrawnIndex": 121,
+    "at": "2026-11-25T00:34:02.800Z"
+  },
+  {
+    "which": "after",
+    "shape": "desktop",
+    "scheme": "dark",
+    "url": "https://explorer-next.dashhq.org/masternodes",
+    "highestDrawnIndex": 121,
+    "at": "2026-11-25T00:34:15.642Z"
+  },
+  {
+    "which": "after",
+    "shape": "phone",
+    "scheme": "light",
+    "url": "https://explorer-next.dashhq.org/masternodes",
+    "highestDrawnIndex": 113,
+    "at": "2026-11-25T00:34:27.051Z"
+  },
+  {
+    "which": "after",
+    "shape": "phone",
+    "scheme": "dark",
+    "url": "https://explorer-next.dashhq.org/masternodes",
+    "highestDrawnIndex": 113,
+    "at": "2026-11-25T00:34:40.270Z"
+  }
+]
