@@ -1,0 +1,13 @@
+withCheck sample {"pageDocuments":[{"$formatVersion":"0","$id":"FJcn7ZfRsPZVf6Nmewwhgc8LHkahVZUgv5YLXY4o5tuJ","$ownerId":"AkhihKhRLGjKB1WTdUG7BWrGnTaTTHcMzdSBsKSJ5GNm","label":"
+withoutCheck sample {"pageDocuments":[{"$formatVersion":"0","$id":"AER5Fm8Tr7st8dFjEpUPQfXrBy1fdzon4BUY9vWnL9U3","$ownerId":"AkhihKhRLGjKB1WTdUG7BWrGnTaTTHcMzdSBsKSJ5GNm","content"
+warm median ms withCheck 188.3 withoutCheck 184.8 n 200
+warmCpu median ms withCheck 43.7 withoutCheck 42.0 n 200
+file:///work/scratch/dash-site/v2/packages/cli/bench/owner-check.mjs:32
+for (const k of ['warm', 'warmCpu', 'cold']) console.log(k, 'median ms', 'withCheck', med(out[k].withCheck).toFixed(1), 'withoutCheck', med(out[k].withoutCheck).toFixed(1), 'n', out[k].withCheck.length);
+                                                                                                           ^
+
+TypeError: Cannot read properties of undefined (reading 'toFixed')
+    at file:///work/scratch/dash-site/v2/packages/cli/bench/owner-check.mjs:32:108
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+
+Node.js v24.21.0
