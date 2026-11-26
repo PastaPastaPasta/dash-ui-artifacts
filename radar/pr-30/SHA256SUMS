@@ -1,7 +1,7 @@
-3c75738f08aa0c53f7c0de5bb37260351e86932c537be58c3bcd25419a881b27  radar/pr-30/after/after-desktop-dark.png
-0e5a5a798efe9b8802ae7f0fbfd436bc2b9f7790599fd26994161095f58168d7  radar/pr-30/after/after-desktop-light.png
-e62b36abf826979a9879acf32ad29bfafafb26773540ca82abbd414dc5d1f948  radar/pr-30/after/after-phone-dark.png
-0bfb4acd0861589288c9beb6da072592ed1c0f96548c8e40388a37e34a1b2557  radar/pr-30/after/after-phone-light.png
+01e2749e174a0ff8ce3e0dd6a659a3db001e9e8fd4ba27d0f3409523eb0ad032  radar/pr-30/after/after-desktop-dark.png
+c71957b5fb725d20709590acf4cbea4c8498cd83fb223d1f7e1bee3fa7ae1de6  radar/pr-30/after/after-desktop-light.png
+cbf48fd734daf12872f74422d979ab000789c8b3b819ba8ea377411dc2ad1caf  radar/pr-30/after/after-phone-dark.png
+375456c635de4eea00b079bb817895ba47a28e2c3d7403da59c5777be459a398  radar/pr-30/after/after-phone-light.png
 e29e7e8736b4e4d6da07842bc409a838f67eac252b084cd59e707015909ad433  radar/pr-30/before/before-desktop-dark.png
 d93ce1ac39ace052d5f97dd6e64c9a231ef578a252b65e74b57572b0c75db48a  radar/pr-30/before/before-desktop-light.png
 9025b0d4e82dec7d629052483192d5457f751c10c749b054a9a7bcbd26fe6f7e  radar/pr-30/before/before-phone-dark.png
@@ -10,7 +10,7 @@ c1462ebcef977445e7e41809c1f851379a5c5770e53e861235b8a3e90b9d277d  radar/pr-30/sy
 19b28bd375a794fda27046b15bdd43833cc37e8ec20158bec3ab431f2f8e70dd  radar/pr-30/synthetic-edge/synthetic-edge-desktop-light.png
 780be5da251ddc22e8c16bfb4097ce000e01afc41cb12ab526862d1cea858c53  radar/pr-30/synthetic-edge/synthetic-edge-phone-dark.png
 6f3e658ac2a33e9d3a401443d81f4e4a15725e835d476db14f371348690170bc  radar/pr-30/synthetic-edge/synthetic-edge-phone-light.png
-c84bcf62793539310f05103ff7aeec4d2e10b3026e8886173c7eca85be89a279  radar/pr-30/synthetic-stopped/synthetic-stopped-desktop-dark.png
-81d1cabcfd81349c959e06004d3f54665367c9b2d3e8cb2373576b8a06e44d1a  radar/pr-30/synthetic-stopped/synthetic-stopped-desktop-light.png
-3badb35682eee0eaf6425d6a58ce02ea47d82e2a2425c68d1ea3162df742a100  radar/pr-30/synthetic-stopped/synthetic-stopped-phone-dark.png
-ac3fcbc02dfb2373d2230c965275bf9bace7241411aefec07bcc0db78c18249c  radar/pr-30/synthetic-stopped/synthetic-stopped-phone-light.png
+c73d43360836089f4ad4bc532d214adba9765dc82bd5d91efab6d476c9e551fe  radar/pr-30/synthetic-stopped/synthetic-stopped-desktop-dark.png
+631c12b71af483fdbaa1a9b66c6ba0cd360427ca90f6c23f790e905fe051b6b8  radar/pr-30/synthetic-stopped/synthetic-stopped-desktop-light.png
+cfe2c0f103f1421cf99f4f9e725ffbcdc875d2ed24b8a08ede194a91ad80c5c1  radar/pr-30/synthetic-stopped/synthetic-stopped-phone-dark.png
+fb2788b1dfbe5cf22ea2775197802a61bf040a4aa19b399652ddcb7955b37aa7  radar/pr-30/synthetic-stopped/synthetic-stopped-phone-light.png
