@@ -6,6 +6,10 @@ e29e7e8736b4e4d6da07842bc409a838f67eac252b084cd59e707015909ad433  radar/pr-30/be
 d93ce1ac39ace052d5f97dd6e64c9a231ef578a252b65e74b57572b0c75db48a  radar/pr-30/before/before-desktop-light.png
 9025b0d4e82dec7d629052483192d5457f751c10c749b054a9a7bcbd26fe6f7e  radar/pr-30/before/before-phone-dark.png
 61decbae6c8a8aadb968cfcd19172bad807152fa07382c42efeefdb185a63c6f  radar/pr-30/before/before-phone-light.png
+dcd741b50405e12d27e5538782bd23367585c9ca5033bd6fcf9289c5c4bab20b  radar/pr-30/prod/prod-desktop-dark.png
+9885428ab69aed2066ac47103c1ffe08997093deaa9798d3039cf925672df789  radar/pr-30/prod/prod-desktop-light.png
+69b2c25a38223ec63cfa57a728957b16c94ff00471dcb624ca93ba62a0c2d61a  radar/pr-30/prod/prod-phone-dark.png
+54ce09a5273986ad31355d772d8da67079ae6ff490052a8899f61ec2892cf7b8  radar/pr-30/prod/prod-phone-light.png
 c1462ebcef977445e7e41809c1f851379a5c5770e53e861235b8a3e90b9d277d  radar/pr-30/synthetic-edge/synthetic-edge-desktop-dark.png
 19b28bd375a794fda27046b15bdd43833cc37e8ec20158bec3ab431f2f8e70dd  radar/pr-30/synthetic-edge/synthetic-edge-desktop-light.png
 780be5da251ddc22e8c16bfb4097ce000e01afc41cb12ab526862d1cea858c53  radar/pr-30/synthetic-edge/synthetic-edge-phone-dark.png
