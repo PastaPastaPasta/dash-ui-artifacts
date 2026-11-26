@@ -1,0 +1,12 @@
+import { chromium } from 'playwright'
+const [url, sel, btn, out, mode='desktop'] = process.argv.slice(2)
+const browser = await chromium.launch()
+const ctx = await browser.newContext(mode === 'phone' ? { viewport: { width: 390, height: 844 }, deviceScaleFactor: 2, isMobile: true, hasTouch: true } : { viewport: { width: 1440, height: 900 } })
+const page = await ctx.newPage()
+await page.goto(url); await page.waitForTimeout(12000)
+const sec = page.locator(sel)
+await sec.scrollIntoViewIfNeeded()
+await sec.getByRole('button', { name: btn }).click()
+await page.waitForTimeout(600)
+await page.screenshot({ path: out })
+await browser.close()
