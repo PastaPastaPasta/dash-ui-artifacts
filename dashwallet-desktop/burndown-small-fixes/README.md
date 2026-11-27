@@ -1,6 +1,6 @@
 # Dash Wallet Desktop restore evidence
 
-Base build `a518432bd0121817ecd16b8c22264034f5a818ae`. Candidate build `e2f1de4648216e3dd914d5b76474164b0ab5401d`.
+Base build `a518432bd0121817ecd16b8c22264034f5a818ae`. Candidate build `5266897367be365810511a898371bed62b92df4e`.
 
 Both builds used the funded testnet fixture in Chromium at 1280 × 820. The wallet reopen capture starts with a cached empty restore status, then loads the wallet with a Platform restore hold and no intervening sync event. The recovery capture models the engine's response to a failed final directory sync. The base returns success and opens onboarding. The candidate returns the retryable I/O error and leaves the confirmation available for another attempt. The Rust regression injects the underlying sync failure.
 
