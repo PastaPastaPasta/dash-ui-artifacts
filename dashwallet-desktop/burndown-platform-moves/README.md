@@ -6,3 +6,4 @@ Headless Chromium 1.64.0 Playwright image, 1280 × 820, en-US, using the `platfo
 - After is `c91e95a98c47664f39c2a5bf0ce65ba621ed4f66`. All 52 Chromium and WebKit tests in the held-exit spec passed.
 - `exit-confirm-checking-{light,dark}.png` shows a quote whose held payment is missing from Activity. The checking message replaces the generic full-balance copy.
 - `exit-result-checking-{light,dark}.png` shows a failed call result before Activity confirms that it cannot land. The result waits for that evidence before naming the paid recipient.
+- `exit-result-unattributed-{light,dark}.png` uses the same fixture with both attempts marked unable to land and no confirmed winner. The result names no paid recipient.
