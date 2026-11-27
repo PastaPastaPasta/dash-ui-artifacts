@@ -7,3 +7,10 @@
   - After this PR, the document is published every 2 minutes, so a page sees a sample a few minutes old. The pinned clock shows that case.
   - The live crawler predates the PR, so the "as of" age falls back to `now.updated`.
 - Headless Chrome via Playwright. Desktop 1280x900, phone 390x844 (isMobile), at 2x, in light and dark. Clipped from the Protocol upgrade section through the lookup. The lookup holds `89.125.209.234`, submitted.
+
+## Live after deploy
+
+`live/`: https://radar.dashhq.org/platform after the squash merge `ffb6d58e983b074d900b3679d1f417ab84bda6b8` deployed, captured 27 Nov 2026 at 01:51 UTC.
+- Real clock, no pinning; the same viewports and the same `89.125.209.234` lookup as above.
+- The vote shows "as of 3 min ago".
+- Two consecutive vote reads came 123 s apart: `upgrade.updated` 1795744102, then 1795744225.
