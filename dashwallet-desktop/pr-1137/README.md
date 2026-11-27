@@ -31,4 +31,4 @@ Chromium 1.64 Playwright fixture on Linux at 1280 × 820 and 1× scale, in Engli
 | Returning PiggyCards account | [Light](after/light-returning-account.png) | [Dark](after/dark-returning-account.png) |
 | Mainnet-only notice on testnet | [Light](after/light-testnet.png) | [Dark](after/dark-testnet.png) |
 
-[Fixture walkthrough, light theme](after/checkout.webm)
+[Fixture walkthrough, light theme](after/checkout.mp4)
