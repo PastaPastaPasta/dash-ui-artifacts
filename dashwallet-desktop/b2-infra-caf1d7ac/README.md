@@ -4,3 +4,5 @@ Light and dark offscreen macOS WebKit captures use the same deterministic paymen
 
 - Before runs from `a518432bd0121817ecd16b8c22264034f5a818ae`.
 - After runs from `caf1d7acbb83887825a169143fb22fb0e5d14353`.
+
+The native About captures use the offscreen SwiftUI test helper, a disposable Regtest wallet directory, and the same missing recovered-folder mapping. The before capture lists the original fixture folder as a fallback. The after capture leaves the unavailable directory blank and shows the storage error.
