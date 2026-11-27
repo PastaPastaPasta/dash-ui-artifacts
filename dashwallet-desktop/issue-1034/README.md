@@ -1,8 +1,8 @@
-# Restore refusal after removing and re-importing a wallet
+# Restore refusal after an interrupted wallet removal
 
-The Dash Wallet fixture renderer was built independently from both revisions. Each run uses Chromium at 1280 × 820 with English copy and a synthetic regtest folder. The fixture supplies the startup response for an upgraded store whose schema history no longer matches. Rust integration tests use the committed v0.1.0 wallet stores to verify that the engine refuses to restore a retired snapshot and permits recovery into a fresh folder.
+The Dash Wallet fixture renderer was built independently from both revisions. Each run uses Chromium at 1280 × 820 with English copy and a synthetic regtest folder. The fixture supplies the startup response for an upgraded store whose schema history no longer matches, after wallet removal stopped at the retirement step. Rust integration tests use the committed v0.1.0 wallet stores to verify that the engine refuses to restore a retired snapshot and permits recovery into a fresh folder.
 
-| State | Before · eebb848bd12b8a7e6fb56aef3b281a852fb880fc | After · 76556d2101d99db58512f7d0b8d44a328071fc9c |
+| State | Before · eebb848bd12b8a7e6fb56aef3b281a852fb880fc | After · cb8b465811aa23d6432a4300d3cb632f106d3a85 |
 | --- | --- | --- |
 | Startup refusal, light | [Restore earlier data](before-light-refusal.png) | [Set up from recovery phrase](after-light-refusal.png) |
 | Startup refusal, dark | [Restore earlier data](before-dark-refusal.png) | [Set up from recovery phrase](after-dark-refusal.png) |
