@@ -14,3 +14,14 @@
 | `comparison/before/governance-tab.png` | Governance tab on develop: no remaining-payments information |
 | `comparison/after/governance-tab.png` | New "Payments Left" column: 1 / 3 / 12 / 6 |
 | `comparison/after/proposal-details.png` | "Payments Left: 3" line in the proposal details. "Payments Requested: 4" there is pre-existing and regtest-only (regtest's 150 s target spacing vs the 157.2 s estimator); mainnet/testnet use 157.5 s and give 3. |
+
+## Update: PR head `ba61edc144`
+
+`ba61edc144` changes "Payments Requested" to count the window in the estimator's cycles, and computes "Payments Left" each time it is read. Recaptured on a freshly built fixture with the same four proposal parameters (object hashes differ from the comparison above):
+
+| File | Shows |
+| --- | --- |
+| `head-ba61edc144/governance-tab.png` | Payments Left 1 / 3 / 12 / 6 |
+| `head-ba61edc144/proposal-details.png` | Payments Requested 3, Payments Left 3 for the 3-payment proposal |
+
+The earlier note that "Payments Requested: 4" is regtest-only was wrong: mainnet's target spacing is also 150 s, so develop over-counted there too. `comparison/after/proposal-details.png` is superseded by `head-ba61edc144/proposal-details.png`.
