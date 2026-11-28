@@ -1,7 +1,9 @@
 # Stable feedback and copy controls
 
-Before revision `fca6fa6b12f5e38b7c84b8d9e422972a213467cd`. After revision
-`a4bf51b411c2f739409b3499def04db777caf2c5`.
+Before uses merge base `44fdc355190322f53a9825f756df2d01987afd63` (Add Contact fix from #1143).
+After uses the application built at `b733b070a3e9fda9dc5660942b3eab1de3f9e48e`. The final PR head
+`30cb5678f0307617f9bd510ac9df544077132bfb` has the identical Git tree
+`66488aa1dd7630ed45415cf0df031a511a7f9a79`.
 
 Each paired PNG places the exact-base capture on the left and the PR-head capture on
 the right. Captures use Chromium 1.64.0 at 1280 × 820 and fixture-only data. The
