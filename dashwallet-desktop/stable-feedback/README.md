@@ -1,7 +1,7 @@
 # Stable feedback and copy controls
 
 Before revision `fca6fa6b12f5e38b7c84b8d9e422972a213467cd`. After revision
-`b733b070a3e9fda9dc5660942b3eab1de3f9e48e`.
+`a4bf51b411c2f739409b3499def04db777caf2c5`.
 
 Each paired PNG places the exact-base capture on the left and the PR-head capture on
 the right. Captures use Chromium 1.64.0 at 1280 × 820 and fixture-only data. The
