@@ -3,7 +3,7 @@
 | Comparison | Commit |
 | --- | --- |
 | Before, exact `main` revision merged into the branch | `2f230f1abd9736ca0c19a5844b9e098b2de65c16` |
-| After, PR head | `9eef9ddcbd0e5e90dc54b4f8c8b82386d22e1d9e` |
+| After, PR head | `5fd407435ad2646f9d2da8b45b229128c2df0dcc` |
 
 Each PNG shows Before on the left and After on the right. Both builds use the same
 fixture scenarios in Chromium 1.64.0 at 1280 × 820, except My QR at 920 × 620.
