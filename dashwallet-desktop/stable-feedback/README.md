@@ -1,21 +1,28 @@
 # Stable feedback and copy controls
 
-Before uses merge base `44fdc355190322f53a9825f756df2d01987afd63` (Add Contact fix from #1143).
-After uses the application built at `b733b070a3e9fda9dc5660942b3eab1de3f9e48e`. The final PR head
-`30cb5678f0307617f9bd510ac9df544077132bfb` has the identical Git tree
-`66488aa1dd7630ed45415cf0df031a511a7f9a79`.
+| Comparison | Commit |
+| --- | --- |
+| Before, exact `main` revision merged into the branch | `2f230f1abd9736ca0c19a5844b9e098b2de65c16` |
+| After, PR head | `9eef9ddcbd0e5e90dc54b4f8c8b82386d22e1d9e` |
 
-Each paired PNG places the exact-base capture on the left and the PR-head capture on
-the right. Captures use Chromium 1.64.0 at 1280 × 820 and fixture-only data. The
-copy icon states show the transaction detail To row in light and dark themes.
+Each PNG shows Before on the left and After on the right. Both builds use the same
+fixture scenarios in Chromium 1.64.0 at 1280 × 820, except My QR at 920 × 620.
+The transaction detail samples use fixture transaction
+`6813bb0604077876c8c7a76b7f7b44d1a6bb41bd702b5c3bb95be65eee60942d`.
+The forced-color captures use Chromium's light system palette and the indicated
+wallet theme.
 
-The Add Contact card now sits below the tabs and search controls. Its address row,
-verification row and action use the existing spacing tokens. The action slot keeps
-its size when Send changes to Show Request. Outcomes use the shared toast.
+| Flow | Evidence |
+| --- | --- |
+| Add Contact | Search results, selected and sent states, and the refined search before, during and after a held query |
+| Contact and notification requests | Request and accepted states in the contact pane, bell popover and full Notifications page |
+| Enable DashPay | Before and after the fixture authorization |
+| My QR and share username | Loading and available QR, the full Copy Link button at 920 px, and the shared profile sheet |
+| Copy icon | Transaction details at rest, hover and keyboard focus, plus the light system contrast palette |
+| Activity | Invalid filter feedback and CSV export outcome |
+| Address Book | CSV export outcome and the QR in loading, ready and injected failure states |
 
-The shared copy glyph uses the secondary foreground token, with hover and focus
-states. The visual guard calculates masked-glyph contrast and requires at least 3:1
-in both themes.
-
-The follow-up also reserves stable regions for QR loading, activity export and
-filter feedback, contact-pane and notification outcomes, and Address Book export.
+The Playwright guards compare the selected action's bounding box while search is
+refined, check that My QR's copy action fits at minimum width, and assert at least
+3:1 contrast for the copy glyph. Address Book's error capture injects a fixture
+encoder failure and retains the payment link below the reserved QR area.
